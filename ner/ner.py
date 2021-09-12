@@ -1,7 +1,6 @@
 import os
 from pathlib import Path
 import pickle
-import sys
 
 from argparse import ArgumentParser
 import numpy as np
@@ -321,7 +320,7 @@ for lr in [2e-5, 3e-5, 5e-5]:
         best_test_oth_list = test_oth
 
 
-print(model_name, dataset_name, args.architecture)
+print(args.model_name, dataset_name, args.architecture)
 print(f'best_lr: {best_lr}')
 print(f'best_val: {best_val}')
 print(f'best_val {metric_for_best_model}: {best_val_acc_list}')
