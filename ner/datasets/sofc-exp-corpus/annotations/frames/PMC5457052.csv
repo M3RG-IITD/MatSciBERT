@@ -1,0 +1,171 @@
+SPAN	1	EXPERIMENT:current_exp	1	1092	1098
+SPAN	2	MATERIAL	1	1144	1159
+SPAN	3	DEVICE	1	1160	1181
+SPAN	4	EXPERIMENT:current_exp	2	32	41
+SPAN	5	EXPERIMENT:current_exp	2	80	86
+SPAN	6	VALUE	2	106	113
+SPAN	7	VALUE	2	117	123
+SPAN	8	MATERIAL	26	165	190
+SPAN	9	MATERIAL	26	192	196
+SPAN	10	MATERIAL	27	88	92
+SPAN	11	EXPERIMENT:current_exp	27	122	130
+SPAN	12	DEVICE	27	136	147
+SPAN	13	EXPERIMENT:current_exp	27	188	190
+SPAN	14	DEVICE	27	218	223
+SPAN	15	VALUE	27	225	234
+SPAN	16	VALUE	27	238	243
+SPAN	17	VALUE	27	248	254
+SPAN	18	MATERIAL	28	87	93
+SPAN	19	MATERIAL	28	94	100
+SPAN	20	MATERIAL	28	111	118
+SPAN	21	VALUE	28	141	147
+SPAN	22	VALUE	28	182	199
+SPAN	23	VALUE	28	203	208
+SPAN	24	EXPERIMENT:previous_work	28	214	222
+SPAN	25	EXPERIMENT:current_exp	31	22	25
+SPAN	26	MATERIAL	31	40	48
+SPAN	27	VALUE	31	97	103
+SPAN	28	VALUE	31	105	114
+SPAN	29	EXPERIMENT:current_exp	33	23	27
+SPAN	30	VALUE	33	76	86
+SPAN	31	VALUE	33	90	95
+SPAN	32	VALUE	33	100	106
+SPAN	33	DEVICE	40	27	33
+SPAN	34	EXPERIMENT:current_exp	40	34	43
+SPAN	35	VALUE	40	59	64
+SPAN	36	DEVICE	40	167	173
+SPAN	37	EXPERIMENT:current_exp	40	174	179
+SPAN	38	VALUE	40	209	217
+SPAN	39	VALUE	40	221	225
+SPAN	40	VALUE	40	231	236
+SPAN	41	EXPERIMENT:current_exp	40	244	251
+SPAN	42	VALUE	40	255	260
+SPAN	43	VALUE	40	266	272
+SPAN	44	DEVICE	41	97	102
+SPAN	45	EXPERIMENT:current_exp	41	103	107
+SPAN	46	VALUE	41	119	126
+SPAN	47	VALUE	41	140	147
+SPAN	48	VALUE	41	160	166
+SPAN	49	VALUE	49	65	74
+SPAN	50	EXPERIMENT:current_exp	49	79	87
+SPAN	51	VALUE	57	44	48
+SPAN	52	DEVICE	57	51	57
+SPAN	53	EXPERIMENT:current_exp	57	58	62
+SPAN	54	VALUE	57	63	68
+SPAN	55	VALUE	57	72	77
+SPAN	56	DEVICE	57	106	112
+SPAN	57	EXPERIMENT:current_exp	57	113	121
+SPAN	58	VALUE	57	125	130
+SPAN	59	VALUE	57	132	137
+SPAN	60	MATERIAL	119	14	29
+SPAN	61	DEVICE	119	30	34
+SPAN	62	MATERIAL	119	53	58
+SPAN	63	MATERIAL	119	91	98
+SPAN	64	MATERIAL	119	122	126
+SPAN	65	EXPERIMENT:current_exp	119	140	148
+SPAN	66	DEVICE	121	40	45
+SPAN	67	MATERIAL	121	54	58
+SPAN	68	EXPERIMENT:current_exp	121	85	93
+SPAN	69	VALUE	121	119	126
+SPAN	70	VALUE	121	130	136
+SPAN	71	VALUE	121	141	150
+SPAN	72	MATERIAL	122	24	27
+SPAN	73	DEVICE	122	56	60
+SPAN	74	EXPERIMENT:current_exp	122	70	78
+SPAN	75	VALUE	122	82	91
+SPAN	76	VALUE	122	106	111
+SPAN	77	VALUE	122	115	121
+SPAN	78	MATERIAL	124	20	23
+SPAN	79	EXPERIMENT:current_exp	124	68	76
+SPAN	80	VALUE	124	80	89
+SPAN	81	VALUE	124	94	98
+EXPERIMENT	1	1
+	support_material	2
+	device	3
+EXPERIMENT	2	5
+	power_density	6
+	working_temperature	7
+EXPERIMENT	3	11
+	cathode_material	10
+	device	12
+EXPERIMENT	4	13
+	device	14
+	current_density	15
+	voltage	16
+	working_temperature	17
+EXPERIMENT	5	24
+	fuel_used	18
+	fuel_used	19
+	fuel_used	20
+	working_temperature	21
+	power_density	22
+	voltage	23
+EXPERIMENT	6	25
+	fuel_used	26
+	working_temperature	27
+	current_density	28
+EXPERIMENT	7	29
+	current_density	30
+	voltage	31
+	working_temperature	32
+EXPERIMENT	8	34
+	device	33
+	time_of_operation	35
+EXPERIMENT	9	37
+	device	36
+	degradation_rate	38
+	degradation_rate	39
+	time_of_operation	40
+EXPERIMENT	10	41
+	degradation_rate	42
+	time_of_operation	43
+EXPERIMENT	11	45
+	device	44
+	open_circuit_voltage	46
+	open_circuit_voltage	47
+	working_temperature	48
+EXPERIMENT	12	50
+	current_density	49
+EXPERIMENT	13	53
+	device	52
+	degradation_rate	54
+	degradation_rate	55
+EXPERIMENT	14	57
+	device	56
+	degradation_rate	58
+	degradation_rate	59
+EXPERIMENT	15	65
+	support_material	60
+	device	61
+	support_material	62
+	anode_material	63
+	electrolyte_material	64
+EXPERIMENT	16	68
+	device	66
+	cathode_material	67
+	power_density	69
+	working_temperature	70
+	current_density	71
+EXPERIMENT	17	74
+	support_material	72
+	device	73
+	current_density	75
+	time_of_operation	76
+	working_temperature	77
+EXPERIMENT	18	79
+	support_material	78
+	current_density	80
+	time_of_operation	81
+LINK	same_experiment	1	4
+LINK	same_experiment	4	5
+LINK	same_experiment	11	13
+LINK	same_experiment	25	29
+LINK	experiment_variation	37	34
+LINK	same_experiment	37	41
+LINK	thickness	53	51
+LINK	experiment_variation	57	53
+LINK	same_experiment	65	68
+LINK	same_experiment	65	68
+LINK	experiment_variation	79	74
+LINK	same_experiment	68	74
+LINK	coreference	8	9

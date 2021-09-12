@@ -1,0 +1,270 @@
+Ambient Pressure XPS Study of Mixed Conducting Perovskite-Type
+SOFC Cathode and Anode Materials under Well-Defined Electrochemical
+Polarization Ambient Pressure XPS Study of Mixed Conducting Perovskite-Type SOFC Cathode and Anode Materials under Well-Defined Electrochemical Polarization NenningAndreas†OpitzAlexander K.
+*†RameshanChristoph†RameshanRaffael‡§BlumeRaoul‡HäveckerMichael‡Knop-GerickeAxel‡RupprechterGünther†KlötzerBernhard§FleigJürgen† †Department of Chemistry, TU Vienna, Getreidemarkt 9, 1060 Vienna, Austria ‡Department of Inorganic Chemistry, Fritz-Haber Institut der MPG, Faradayweg 4, 14195 Berlin, Germany §Department of Physical Chemistry, University of Innsbruck, Innrain 80-82, 6020 Innsbruck, Austria *(A.K.O.)
+E-mail: alexander.opitz@tuwien.ac.at.
+Telephone: 0043 1 58801−158 60.
+The oxygen exchange activity of mixed conducting oxide surfaces has been widely investigated, but a detailed understanding of the corresponding reaction mechanisms and the rate-limiting steps is largely still missing.
+Combined in situ investigation of electrochemically polarized model electrode surfaces under realistic temperature and pressure conditions by near-ambient pressure (NAP) XPS and impedance spectroscopy enables very surface-sensitive chemical analysis and may detect species that are involved in the rate-limiting step.
+In the present study, acceptor-doped perovskite-type La0.6Sr0.4CoO3-δ (LSC), La0.6Sr0.4FeO3-δ (LSF), and SrTi0.7Fe0.3O3-δ (STF) thin film model electrodes were investigated under well-defined electrochemical polarization as cathodes in oxidizing (O2) and as anodes in reducing (H2/H2O) atmospheres.
+In oxidizing atmosphere all materials exhibit additional surface species of strontium and oxygen.
+The polaron-type electronic conduction mechanism of LSF and STF and the metal-like mechanism of LSC are reflected by distinct differences in the valence band spectra.
+Switching between oxidizing and reducing atmosphere as well as electrochemical polarization cause reversible shifts in the measured binding energy.
+This can be correlated to a Fermi level shift due to variations in the chemical potential of oxygen.
+Changes of oxidation states were detected on Fe, which appears as FeIII in oxidizing atmosphere and as mixed FeII/III in H2/H2O.
+Cathodic polarization in reducing atmosphere leads to the reversible formation of a catalytically active Fe0 phase. document-id-old-9 jp5b08596 document-id-new-14 jp-2015-08596r ccc-price Introduction While the bulk defect chemistry of many mixed conducting oxides is quite well understood, little is known about the actual surface chemistry and reaction mechanisms of oxygen exchange on polarized mixed conducting electrodes.
+Particularly for mixed conducting electrodes employed in solid oxide fuel/electrolysis cells (SOFC/SOEC), a more detailed knowledge on the surface thermodynamics and kinetics is essential.
+This may help to develop more effective strategies for electrode optimization and to establish a firm model basis for an important type of electrode reactions in solid state electrochemistry.
+In-situ techniques are of high relevance in addressing these topics, since measurements of many crucial surface properties such as transition metal oxidation states, adsorbate coverage and surface potentials are only meaningful under (or at least near to) working conditions.
+In this respect near-ambient pressure X-ray photoelectron spectroscopy (NAP-XPS) has become an increasingly popular technique to observe the chemical changes of catalytically active oxide surfaces under realistic operating conditions.1−6 However, the interpretation of such measurements is often highly complex owing to several reasons.
+The chemical environment of surface ions is different from the bulk and therefore ions of an oxide may exhibit modified chemical surface states (e.g., different oxidation number or neighboring atoms).
+Still those do not necessarily contribute to the electrochemical surface reaction and have to be distinguished from reacting or catalyzing species.
+For a mechanistic interpretation of oxygen exchange kinetics also the effect of electrochemical polarization and atmosphere on the binding energy and concentration of surface species needs to be investigated.
+Such extensive studies were already performed on ceria-based mixed conducting anodes and La0.6Sr0.4CoO3-δ (LSC) cathodes.5,7−10 Much less is known about the surface chemistry of perovskite-type anodes and cathodes other than LSC and in situ XPS studies are largely missing for this class of materials.
+Also the direct comparison of the surface chemistry of mixed conducting oxides in oxidizing and reducing atmospheres, relevant, e.g., for symmetric SOFCs, has not been accomplished so far.
+In a previous publication11 on LSF in reducing atmosphere, the in situ formation of a catalytically active Fe0 phase was highlighted.
+In the present study, the surface chemistry of the three different mixed conducting perovskite-type electrode materials La0.6Sr0.4CoO3-δ (LSC), La0.6Sr0.4FeO3-δ (LSF), and SrTi0.7Fe0.3O3-δ (STF) is compared with and without well-defined electrochemical polarization.
+LSF and STF were studied in oxidizing and reducing conditions, LSC was only investigated in an oxidizing atmosphere, due to its decomposition in H2/H2O.
+Given the significant differences between the materials and oxygen partial pressures, the focus of this study is to find surface species that are common for mixed conducting perovskites under in situ conditions.
+However, it is not straightforward to interpret the origin and/or the nature of a detected surface species and its role in the oxygen exchange reaction.
+Therefore, also the response of surface species to electrochemical polarization was investigated and correlated to the electrochemical properties of the electrodes, as measured by simultaneous electrochemical impedance spectroscopy (EIS) during the XPS scans.
+Distinct surface states of strontium and oxygen were found on all three materials in oxidizing atmosphere.
+Moreover the different electronic conduction mechanisms (band-like in LSC and small polaron hopping in LSF and STF) were investigated and related to the differences in the valence band structure.
+Switching between oxidizing and reducing atmospheres as well as electrochemical polarization lead to a shift of the apparent binding energy, which can be explained by the correlation of Fermi level and the chemical potential of oxygen.
+Experimental Section Sample Design and Preparation The samples with La0.6Sr0.4FeO3-δ (LSF) and SrTi0.7Fe0.3O3-δ (STF) thin film working electrodes and porous, kinetically fast counter electrodes were prepared as follows: In the first step, metallic, thin film current collectors were prepared on yttria-stabilized zirconia (single crystals 5 × 5 × 0.5 mm, (100)-oriented, 9.5 mol % Y2O3; supplier: CrysTec, Germany).
+For this means, 5 nm Ti (BAL-TEC, Germany) and 100 nm Pt (99.95% pure, OEGUSSA, Austria) were sputter deposited and microstructured by subsequent photolithography and argon ion-beam etching.
+In the second step, dense but polycrystalline films of LSF or STF were applied on top of the current collectors by pulsed laser deposition.
+PLD parameters and target preparation are given in the Supporting Information.
+Porous, highly active counter electrodes were applied to the substrate prior to the working electrode by application of LSF paste (La0.6Sr0.4FeO3-δ powder, ethyl cellulose, and α-Terpineol; all Sigma-Aldrich) and Pt paste (Gwent Electronics, UK), followed by drying and 5 h annealing at 850 °C in air.
+A sketch and a micrograph of such a sample with an oxide thin film electrode, containing finger-type current collectors, and a porous LSF-Pt counter electrode is depicted in Figure 1a,b.
+These samples were mounted between two platinum contacts in the chamber for near-ambient XPS measurements in the ISISS beamline at the BESSY II synchrotron in Berlin (Figure 1c).
+The sample with La0.6Sr0.4CoO3-δ (LSC) working electrode was prepared in a slightly different manner: Current collecting metal fingers were not required, due to the very high electronic conductivity of ∼1000 S/cm (see section 3.2).
+Instead, a Ti–Pt layer (5–100 nm) with a 3 mm circular hole was sputter deposited on top of the working electrode.
+The 3 mm hole was sufficiently small for homogeneous polarization.
+Moreover, the very high electrode activity of the LSC film required a different type of counter electrode: porous LSC thin films with a polarization resistance of 0.1–0.2 Ω cm2 at 600 °C in air (at least 1 order of magnitude below the working electrode ASR)12 were fabricated via PLD by decreasing the deposition temperature and increasing the chamber pressure to 450 °C and 0.4 mbar, respectively.
+Figure 1 Sketch of the entire working electrode surface (a) and photograph of a part of it (b).
+The Pt current collectors (5 μm width, 25 μm distance) were placed beneath the LSF and STF layer to provide good electric contact.
+(c) Sketched cross section of the sample and mount in the ambient XPS chamber.
+Near-Ambient Pressure XPS and Impedance Measurements The experiments were performed at the ISISS beamline of the HZB/BESSY II synchrotron in Berlin with the near-ambient pressure high energy XPS setup (NAP-HE-XPS).
+In this setup XPS and XAS measurements can be performed at elevated pressures (up to 7 mbar) and X-ray energies from 80 to 2000 eV.
+The setup consists of a high pressure cell with an attached differentially pumped hemispherical analyzer (modified SPECS Phoibos 150) including a 2D delay line detector.
+For a detailed description of the setup see ref.13 A sketch of the sample holder, which was used for in situ XPS experiments under electrochemical polarization and simultaneous impedance measurements, is shown in Figure 1c.
+The thin film working electrode was connected to the positive pin of the impedance analyzer/potentiostat and the resulting energy shift of the XPS spectra due to the applied dc-voltage (Uset) was subtracted.
+The porous counter electrode was connected to the grounded contact, which senses the current.
+This way, the photoemission current does not influence the electrochemical current measurement.
+Samples were heated via irradiation of the platinum back sheet by an infrared laser.
+The temperature was controlled by means of a pyrometer measuring the MIEC surface temperature, as well as by the conductivity of the YSZ electrolyte obtained from electrochemical impedance measurements.2,3 Both methods consistently yielded temperatures of 615 ± 15 °C.
+Measurements in oxidizing atmosphere were carried out in 0.5 mbar of O2, the reducing atmosphere consisted of 0.25 mbar of H2 and 0.25 mbar of H2O, leading to constant total pressure of 0.5 mbar.
+Electrochemical impedance measurements with and without dc bias were carried out by an Alpha-A high performance frequency analyzer equipped with a POTGAL 30 V 2A interface (both: Novocontrol, Germany).
+Impedance spectroscopy was typically performed in a frequency range between 10 mHz and 1 MHz and the AC root-mean-square voltage was limited to 5 mV to avoid XPS peak broadening.
+The electrochemically active areas of the electrodes depend on the material and atmospheres and two different situations can be distinguished: (i) In reducing atmosphere, the electronic conductivity of LSF and STF is low (around 0.01 S cm–1 at 600 °C14,15).
+STF (as a thin film) is also a weak electron conductor in oxidizing atmosphere (around 0.1 S cm–1).
+Therefore, only the area on top of and between the current collecting fingers is electrochemically active (11 mm2); cf.
+Figure 1a.
+(ii) The electronic conductivity of LSF and LSC in oxidizing atmosphere is significantly higher (>20 S cm–1, see section 3.2), which is sufficient for homogeneous polarization of the entire free surface area, i.e., 5 × 5 mm for LSF and a 3 mm diameter circle for LSC.
+The measured current and impedance values given in this paper are normalized to these respective areas.
+Examples of impedance spectra for all three working electrode materials are shown in Figure 2.
+The main arc represents the electrochemical polarization resistance of the oxide electrode with LSC being most active.
+The high frequency intercept is caused by the electrolyte resistance.
+Here, differences are caused by the normalization to the different electrochemically active surface areas.
+For electrochemical polarization, set voltages (Uset) between +700 and −700 mV were applied to the working electrode.
+The individual cathodic and anodic set voltages were not applied in a linear sequence but rather alternatingly and partly repeatedly to check for the reversibility and reproducibility of the current–voltage characteristics and XPS features, i.e. to differentiate between reversible bias-induced changes and effects of beam damage or annealing time.
+At each set voltage the collection of XPS and impedance data was started after a steady state dc current (Idc) was reached (typically after 2–5 min).
+The electrical measurements were carried out in 2-wire mode, due to the difficulties of the reference electrode placement on a solid electrolyte.16 The area-specific resistance (ASR) of the porous LSF counter electrode was measured on symmetric samples within the in situ chamber and found to be ∼1.5 Ω cm2 in 0.5 mbar of O2 and ∼5–7 Ω cm2 in 0.25 mbar of H2 + 0.25 mbar of H2O at 615 °C.
+This resistance can therefore safely be neglected compared to the working electrode resistance (50–1000 Ω cm2 on LSF and STF depending on material, polarization and atmosphere).
+This is also the case for the samples with LSC working electrode.
+The overpotential (η) of the working electrode was therefore calculated according to 1 The electrolyte resistance (RYSZ) could be easily determined by the high-frequency offset in the impedance spectra.
+Its value is slightly smaller than the fitting parameter Rhf, which is indicated in Figure 2.
+The appropriateness of the overpotential determination method was also confirmed by the XPS peak shift of nonredox active species under polarization (see section 3.4).
+Surface sensitive photoelectron spectra were recorded with different photon energies, (252 eV for Sr 3d, 470 eV for Ti 2p, 650 eV for O 1s, 845 eV for Fe 2p, and 975 eV for La 3d).
+These correspond to kinetic photoelectron energies between 110 and 130 eV, which lead to equal information depth (IMFP) of 0.5–0.57 nm, according to NIST Standard Reference Database 71.
+For depth profiling, the photon energies were increased in 4 steps, resulting in to photoelectron energies up to 730 eV, and an information depth (IMFP) up to 1.5 nm.
+Because of the absence of a Fermi edge on the LSF and STF samples, binding energies were calculated using the nominal photon energy, which yields an uncertainty of ±0.1 eV due to the monochromator mechanics.
+This uncertainty was confirmed by measurement on samples containing a Fermi edge feature.
+The spectra were fitted with CasaXPS, using a Shirley background and mixed Gaussian–Lorenzian (GL30) peak shapes for the Sr and O components.
+The Sr 3d region was fitted using two doublets.
+The components of each doublet were restricted by equal fwhm, fixed doublet separation of 1.7 eV (spin orbit splitting)17 and area ratio of 2:3.
+The O 1s region was fitted with 2 independent peaks on STF and 3 independent peaks on LSF and LSC.
+Figure 2 Impedance spectra of LSF (red squares), STF (blue circles), and LSC (black triangles) in 0.5 mbar of O2 at 615 ± 15 °C.
+Fitting with a simplified impedance model (green line) enables a reasonable estimation of electrolyte losses and electrode polarization resistance.
+The apparent electrolyte resistances differ due to different electrochemically active areas of the three samples.
+Results and Discussion Bulk and Surface States Figure 3 (a) O 1s and (b) Sr 3d spectra of STF, LSC, and LSF in 0.5 mbar of O2, 615 °C, Uset = 0 V.
+In addition to the fixed doublet separation of Sr 3d3/2 and Sr 3d5/2 states, two chemically different components (green and brown) can be fitted to the spectra of Sr and O.
+(c) Plot of the area ratio of the high and low binding energy components as a function of the analysis depth (IMFP) by photon energy variation shows strong surface enrichment of the high binding energy components.
+Both low binding energy O 1s components were summarized as “bulk” oxygen.
+XPS spectra of strontium and oxygen obtained on unpolarized STF, LSC and LSF thin films in oxidizing atmosphere are shown in Figure 3a,b.
+In addition to the doublet splitting, two chemically different Sr species could be identified on all three materials with an energy separation of 0.8 eV on LSF, 1.1 eV on STF, and 1.25 eV on LSC (see Figure 3b).
+In all materials, the area ratio of the high and low energy components strongly depends on the photoelectron inelastic mean free path (IMFP), see Figure 3c.
+The high binding energy component content is 2.5–4 times larger when comparing the smallest and largest IMFP.
+Hence, the high energy component can be attributed to a Sr surface species.
+In line with literature, this suggests a Sr rich surface termination.9,17 The O 1s region was fitted with three components on LSC and LSF, consisting of two weakly separated low-binding energy components and one high binding energy component (see Figure 3a).
+On STF, two well separated components were sufficient for a good fit.
+Again the IMFP dependence of the component area ratios (Figure 3c) indicates that the high binding energy component is a surface species both on LSF and LSC.
+Thus, both low binding energy components were summarized as bulk-related oxygen species.
+The low binding energy of the latter (peak maximum at 528.6–529.2 eV) is typical for perovskite-type oxides.9 The surface component has a binding energy of 531.5–532 eV.
+Although small amounts of Si and P were detected, they cannot explain the high amount of surface oxygen.
+Additionally, impurities accumulated with time, while the surface component intensity decreased.
+On ceria surfaces in reducing conditions, the surface O 1s component in this energy range was discussed to be associated with surface hydroxyls.7,8 However, on perovskites surfaces in oxidizing conditions, adsorbed oxygen species9 may as well play a role.
+On the LSF surface, the surface oxygen component irreversibly disappeared during the first cathodic polarization of the thin film (see Supporting Information, Figure S2).
+Simultaneously, the electrode resistance calculated from the impedance spectra decreased by a factor of 2.5.
+The observed O 1s and Sr 3d peak shapes are in line with other ex situ and also in situ XPS studies on perovskite-type electrode materials.9,18,19 The results can thus be explained by an enrichment of SrO or Sr(OH)2 on the sample surface.
+However, no correlation is found between the amount of surface oxygen and surface strontium when comparing the intensities of the three investigated materials.
+Also, beam damage (on LSC and STF) or cathodic polarization (on LSF) mostly influences the O 1s surface intensity, while the Sr 3d surface intensity remains almost constant.
+Possibly the Sr rich surface termination only causes a strongly separated O surface species in conjunction with hydroxylation, or originates from an entirely different surface species.
+Core level spectra of La 3d (in LSF and LSC) and Ti 2p (in STF) do not reveal any evidence for the existence of surface species, redox activity or other features typical for the perovskite-type environment.
+They are therefore depicted in the Supporting Information, Figure S1.
+Electronic Conduction Mechanism and Valence Band Structure The electronic conductivity of the materials was measured on thin films deposited on MgO [100] substrates by the van der Pauw method.20 PLD parameters were equal to the samples investigated by XPS.
+The temperature dependence of the electronic conductivity and the valence band structure of LSC, LSF and STF are fundamentally different.
+In the case of LSC, the electronic conductivity is nearly independent of temperature and thermal activation is absent also at low temperature (Figure 4a).
+The absolute conductivity is only slightly lower when compared to bulk measurements (∼2000 S cm–1 for bulk LSC at 450 °C21).
+Also the valence band is only partly filled and the photoelectron spectra are cut off with a metal-like Fermi edge at 0 eV binding energy (Figure 4b).
+This is very different for LSF and STF, where the electronic conductivity is much lower and Arrhenius-type thermally activated, at least at lower temperatures, see Figure 4a.
+Also the valence band edge is clearly below the Fermi level.
+The temperature dependence of the conductivity of LSF and STF films are in qualitative agreement with literature bulk data.
+However, absolute values are 10 times lower and the thermal activation is more pronounced on the thin films.22,23 This may be due to different grain boundaries or strain effects in the PLD films.
+The conductivity together with the XPS results suggest that in LSF and STF, the electronic defects are localized, which leads to a semiconductor-like behavior.
+A metallic electronic model appears more applicable for LSC, which is supported by thermogravimetric analysis of La0.6Sr0.4(Co1–xFex)O3-δ compounds.24 There, thermogravimetric data is best fitted using a metallic electronic model for LSC and a semiconductor-like model with localized electronic defects fits the data for LSF and STF.25 Figure 4 (a) Arrhenius plot of the electronic conductivity of LSC (black squares), LSF (red circles) and STF (blue triangles) thin films in air.
+(b) Valence band spectra at 615 °C in 0.5 mbar of O2.
+The conductivity of LSC is virtually temperature independent and a metal-like Fermi edge structure is visible in the valence band spectra.
+The conductivities of STF and LSF are thermally activated and their valence band structures are semiconductor-like.
+Differences between Oxidizing and Reducing Atmospheres Binding Energy and Fermi Level Figure 5 Fe 2p, O 1s, and Sr 3d XPS spectra of STF (blue) and LSF (red) in O2 (thick lines) and H2–H2O (thin lines + symbols) atmospheres: the binding energy of O and Sr increases by roughly 0.9 eV in reducing atmosphere, due to a Fermi level shift.
+The oxidation states of O and Sr remain unaffected.
+The well-separated oxygen component of STF at 532 eV disappears in reducing atmosphere.
+Satellite features in the Fe 2p spectra appear at 718 eV (indicating Fe3+) in oxidizing and 715 + 718 eV (indicating mixed Fe2+/3+) in reducing conditions.
+Intensities of the spectra were rescaled to compensate different gas-phase absorption and cation composition.
+Figure 6 Changes of the defect chemistry under varying pO2 cause a shift of the Fermi level within the band gap.
+Accordingly the measured binding energy shifts—also for elements that do not undergo chemical changes.
+XPS and impedance measurements were also performed in H2/H2O atmosphere and the effect of the different atmospheres is discussed in the following.
+Figure 5 shows peaks of Sr, O, and Fe on LSF and STF in oxidizing and reducing atmospheres at 615 °C in the unpolarized state.
+Most obviously, the binding energy of all nontransition metal peaks in LSF and STF increases by about 0.8–1 eV in H2–H2O atmosphere.
+La 3d and Ti 2p peaks are shown in Supporting Information, Figure S1.
+In order to understand the results, one has to keep in mind that the measured binding energy in XPS is always the energy difference between an occupied electronic level and the Fermi level of the sample.
+When the Fermi level of a material lies within the band gap (which is the case for LSF and STF at low pO2), small changes of the oxygen nonstoichiometry can cause a significant shift of the Fermi level, which influences the binding energy as sketched in Figure 6.
+Hence, any measured dependence of the binding energy on an experimental parameter may originate from a change of chemical bonding (e.g., oxidation state), or a change of the Fermi level.
+The relation of binding energies and atmosphere was already attributed to a Fermi level shift on doped ceria.5 This interpretation is also valid on LSF and STF, which will be shown on a defect chemical basis.
+The observed binding energy shift is—within experimental error—equal to the theoretical open circuit voltage of a hydrogen fuel cell operating with 0.5 mbar of O2 at the cathode and a 1:1 mixture of H2 and H2O at the anode (0.89 V at 615 °C26).
+This voltage is related to the different chemical potentials of oxygen in the two atmospheres (ΔμO2) by 2 When oxygen is exchanged between atmosphere and oxide, the concentrations of oxygen vacancies and electrons change according to the oxygen exchange reaction 3 This reaction correlates the respective chemical potentials. 4 Also the electron–hole generation 5with its respective mass-action constant 6affects defect concentrations.
+The defect thermodynamics of STF and LSF (gained from electronic conductivity isotherms and thermogravimetric measurements24,25,27) can be described via diluted point defects with normalized concentrations.
+The chemical potential of each species (x) is then simply given by 7 Therefore, the chemical potential of ionic defects changes by variation of the oxide ion content cO according to 8 For electrons, the situation is slightly more complicated since two types of defects are present.
+The charge neutrality couples the changes of ionic and electronic defects, e.g. d(ce′ – ch•) = −2dcO.
+Also the electron–hole equilibrium eq 6 has to be considered.
+Then we can write 9 Using this relation, the change of the chemical potential of electrons reads 10 For large parts of the oxygen partial pressure range between the used oxidizing and reducing conditions the concentration of oxygen vacancies is much larger than of electronic defects (ce′ + ch• ≪ cVO••).
+Only above 0.1 mbar, oxygen vacancies may become the minority charge carriers in LSF bulk.
+Consequently, we see from comparing eq 8 and 10 that the change of the chemical potential of ionic defects is much smaller than for electronic ones 11 Therefore, (see eq 4) we find 12 Since the electrochemical potential of electrons is proportional to the Fermi level, its change can be written as 13 In combination with eq 2, the Fermi level shift can now be calculated as 14 Therefore, a binding energy shift of ∼0.9 eV can be explained by a shift of the Fermi level within the band gap.
+It does not indicate any chemical changes and the energy distance to the vacuum level remains constant—cf.
+Figure 6.
+Please note that such a change would not occur if oxygen vacancies were minority charge carriers also near the sample surface.
+Chemical State Effects In addition to the Fermi level shift, also the surface oxygen species (presumably OH) on STF vanishes in reducing atmosphere (on LSF this species already vanishes after an initial cathodic polarization) and the energy separation between surface and bulk Sr components becomes slightly smaller in reducing atmosphere, which explains the subtle change in the Sr peak shape in Figure 5.
+For LSF an unambiguous deconvolution of bulk and surface Sr is no longer possible in reducing atmosphere.
+The peak shift of Fe (Figure 5) between the two atmospheres is much smaller than ΔEf (∼0.4 vs 0.9 eV).
+Also the satellite features at 715 and 718 eV differ in oxidizing and reducing conditions.
+Comparison of this observation with literature data28 on FeO, Fe3O4, and Fe2O3 samples indicates that Fe3+ is dominant in oxidizing atmosphere and mixed Fe2+/3+ states with similar amounts are formed under reducing conditions.
+Defect chemical bulk data for LSF in ref (29) predict a Fe2+ fraction around 1.7%.
+Very similar values (1.5% for LSF and 2.5% for STF) were found when the Fe2+ fraction is estimated from the chemical capacitance of the electrode semicircle, which is described in ref (15) and in the Supporting Information.
+This is much less than estimated from the XPS results, which show comparable amounts of Fe2+ and Fe3+ on the sample surface.
+This indicates higher reducibility of surface cations, similar to ceria-based materials.5 However, precise quantification of the relative amounts of Fe2+ and Fe3+ in reducing atmosphere is not straightforward, because the sample surface is possibly not entirely perovskite-terminated.
+A high temperature XRD study15 of LSF powder of the same composition revealed the evolution of secondary phases near the surface in reducing conditions.
+XPS under Electrochemical Polarization In addition to atmosphere variations also the effect of electrochemical polarization on the electrode surface chemistry was studied; cf. section 2.2.
+The overpotential of the working electrode (η) was calculated according to eq 1.
+Depending on the exact electrochemical properties of the electrode, the surface reaction as well as electronic or ionic charge transport may be rate-limiting.
+In oxidizing atmosphere several recent studies and own experiments showed that thin film electrode kinetics of LSC,12 LSF,15 and STF30 are limited by the electrochemical surface reaction when long distances from the current collectors are avoided.
+Previous electrochemical investigations in H2/H2O atmosphere14,15 revealed that a current collector with small structures, allowing for short-range charge transport through the electrode layer, is important to achieve homogeneous electrode polarization and surface limited electrode kinetics.
+According to these findings, the used current collectors beneath the electrode (5 μm width, 25 μm distance) are sufficiently fine for our LSF and STF films.
+In the case of surface reaction limited electrode kinetics, application of an overpotential (η) changes the chemical potential of oxygen (ΔμO) within the working electrode bulk homogeneously according to14 15 When oxygen vacancies are the majority charge carriers, the change in the chemical potential of oxygen changes the chemical potential of electrons eq 12) and therefore the Fermi level (eq 13, which can be combined with eq 15 to 16 In analogy to the observed binding energy shift between oxidizing and reducing atmospheres we therefore expect slopes of −1 eV/V when plotting the binding energy of nonredox-active elements as a function of the overpotential.
+This linear correlation was found in reducing atmosphere on ceria7 and in oxidizing conditions on acceptor doped lanthanum ferrite based perovskites.31 Polarization in Oxidizing Atmosphere Figure 7 O 1s, Fe 2p, Co 2p, and Sr 3d core level XPS spectra of LSC (black), STF (blue), and LSF (red) thin films under polarization (indicated voltage).
+No significant changes in surface and bulk states or transition metal satellite features are observed upon bias.
+Spectra were measured at photoelectron energies of 120–140 eV and scaled to compensate for different Sr and Fe contents.
+Figure 8 Peak positions as a function of overpotential in 0.5 mbar of O2.
+On LSF and STF, all peaks shift with slopes of −0.7 to −1.0 eV/V, which is largely caused by a Fermi level shift.
+On LSC, the slopes are significantly smaller (−0.5 to −0.7 eV/V), and the Co 2p peak does not shift at all.
+Most likely, the metallic electronic structure of LSC and the higher reducibility of Co ions cause the differences.
+Examples of XPS spectra measured on LSC, STF, and LSF during polarization in 0.5 mbar of O2 are shown in Figure 7.
+Except for the Co 2p peak, all signals show significant energy shifts.
+The shifts were quantified and summarized in Figure 8.
+The valence band edge position is the zero crossing of a line fit at the turning point.
+All peak positions of LSF and STF shift with slopes close to the theoretical value of −1 eV/V expected from the Fermi level shift eq 16.
+Slight deviations may have different reasons: data scattering and partly insufficient number of data points, a slight underestimation of the dc-case electrolyte resistance or resistance of the porous counter electrode.
+Changes in the surface potential step (χ) by surface dipoles may play a small role as well, see also below.
+Please note that the shift is due to the overpotential η, and the electrostatic effect of the working electrode potential (Uset) is already subtracted.
+These results can also be seen as a validation of the method overpotential calculation.7,31 Moreover it supports our initial assumption of homogeneous electrode polarization and rate limiting surface kinetics.
+Also the effect of bias and atmosphere on the chemical capacitance of LSF fits well to literature data on bulk defect chemistry—for details see Supporting Information, Figure S3.
+The very weak effect of polarization on the chemical states of iron is particularly interesting.
+The defect chemical models of LSF and STF24,27 bulk in oxidizing atmosphere predict mixed Fe3+/Fe4+ at anodic polarization (higher μO) and mostly Fe3+ at cathodic polarization (lower μO).
+However, neither the binding energy nor the satellite structure of the Fe 2p peaks (Figure 7) indicate any chemical changes and only satellite features indicating Fe3+ can be assigned at all bias values.
+The lack of spectroscopic evidence for Fe4+ may have two reasons.
+First, XPS is very surface sensitive with an information depth of ∼1.5 nm at the highest used photon energy.
+Given the trend that oxide surfaces are often easier reducible than the bulk, absence of Fe4+ on the surface is not surprising.
+Additionally, recent studies highlight the degree of hybridization of the transition metal 3d and oxygen 2p orbitals in perovskites.32 An X-ray absorption study on various acceptor doped lanthanum ferrite-based perovskites31 also revealed changes in the occupancy of O 2p-like orbitals as a function of overpotential.
+This study states that the electron hole is mainly located at O– anions instead of the Fe atom.
+Therefore, an electron hole (i.e., a formal Fe4+ ion) may only weakly differ from a Fe3+ ion in the XPS spectra.
+When anodic bias is applied to the LSF electrode, bulk defect chemistry predicts that oxygen vacancies become minority charge carriers (eq 11 is not valid in this regime).
+The Fermi level should then be only weakly influenced by bias (ΔEf ≪ η).
+According to the defect chemistry of idealized LSF bulk the peak shift is expected to vanish for η > 0, which was not observed, see Figure 8; a possible surface space charge layer may play a role here.
+The response of LSC to bias is somewhat different.
+The peaks shift significantly less with overpotential–slopes are between −0.3 and −0.7 eV/V for nontransition metals.
+The Co 2p peaks do not shift at all and the applied bias causees a very subtle change in the Co 2p satellite features between 785 and 790 eV, which can be used as an indication for the oxidation state.
+This is an indication for the redox activity of cobalt, but the effect is too weak for a quantitative analysis of oxidation states.
+The different response of LSC compared to STF and LSF is most probably related to its metal-like electronic structure and the resulting fundamentally different relation between oxygen nonstoichiometry, Fermi level and oxygen partial pressure.24 However, a thorough discussion of the electronic defect structure of LSC is beyond the scope of this contribution.
+In a theoretical model of electrochemically driven oxygen exchange at solid–gas interfaces a potential step (χ) between the electrode bulk and an oxygen adsorbate was considered.33 According to this model, adsorbate concentration and the potential step should drastically change when the electrode is polarized and for a rate limiting charge transfer this would strongly affect the current-overpotential characteristics.
+A substantial change of adsorbate coverage and χ with η should lead to significant deviations in the energy separation and amount of surface and bulk states with η.
+However, in our study neither the intensities nor the energy separation of surface and bulk components change substantially upon polarization, as visible in Figure 7 and 8.
+Small differences in the slopes in Figure 8 are still within statistical errors.
+Only the LSF surface oxygen component, irreversibly vanishes after an initial cathodic polarization.
+This suggests that the observed oxygen and strontium surface species are not directly involved in the surface reaction and that the reaction intermediates have a rather low surface coverage.
+Polarization in Reducing Atmosphere–Redox Activity of Iron Figure 9 Valence band and Fe 2p XPS spectra of STF (a, c) and LSF (b, d) polarized by different overpotentials in H2/H2O atmosphere.
+Each spectrum is plotted with the same scale.
+Near-surface Fe gets gradually reduced from Fe3+ to Fe2+ with decreasing anodic bias.
+Upon cathodic polarization, an additional Fe0 species evolves, visible by the evolution of a Fermi edge feature in the valence band (×) and an additional Fe 2p3/2 peak at 706.5 eV (×).
+Simultaneously, a strong decrease in the total Fe signal is observed.
+The applied overpotentials are indicated for each spectrum.
+(e) Dc-characteristics of LSF (red squares) and STF (blue circles).
+When Fe0 is present during cathodic polarization (filled symbols), the current increases strongly nonlinear already for very small bias (inset).
+Also in reducing atmosphere, the relation of overpotential and binding energies gives slopes between −0.8 and −1 eV/V for all elements but iron (not shown).
+This suggests that these elements do not undergo valence changes upon polarization and that merely the Fermi level shift influences their binding energies.
+Iron, however, shows significant chemical changes: at open-circuit voltage, the satellite structure indicates mixed Fe2+/Fe3+ valence near the surface.
+Anodic bias increases the amount of Fe3+ and for both LSF and STF no for Fe2+ satellite features are present when η ≥ + 280 mV (see Figure 9a,b).
+The gradual change in the surface iron oxidation state is also confirmed by the much smaller shift of the iron peak positions relative to nonredox active elements upon polarization.
+Cathodic bias increases the amount of Fe2+ and even leads to the formation of Fe0.
+The amounts of oxidic and metallic Fe were quantified with a simplified peak model of the Fe 2p3/2 peak consisting of one oxidic (Fe2+/3+) and one metallic (Fe0) Fe component.11 This model is a simplification, but robust in the quantification of the relative amounts of both components.
+The formation of metallic iron is accompanied by a strong decrease of the total iron signal intensity (Figures 9a,b and 10b), the formation of a Fermi-edge feature in the valence band spectra (Figure 9c,d) and a distinct increase of the water splitting activity, as seen by the strongly asymmetric current–voltage characteristics (Figure 9e) and the decrease of the electrode polarization resistance (Figure 10a).
+On LSF, these effects were more pronounced, which is discussed in detail in ref (11).
+There the formation and reoxidation of metallic iron is highly reversible.
+It occurs already at an overpotential of −20 mV and the Fe0 peak vanishes at open circuit potential.
+Also lowering the chemical potential of oxygen in the atmosphere by increasing the hydrogen content leads to formation of Fe0 (lowest spectra in Figure 9, parts b and d).
+On STF, some hysteresis in the evolution and reoxidation of Fe0 is observed.
+Also polarization resistance changes by Fe0 are less pronounced on STF (Figure 10a).
+An overpotential of −150 mV is required for the formation of Fe0, while full reoxidation of Fe occurs close to 0 V (Figure 10b).
+This hysteresis is also reflected in the electrochemical characteristics: Without the presence of metallic Fe (open circles in Figure 9e, inset) the electrode current is smaller, despite equal polarization.
+This can be interpreted as additional evidence that the strong nonlinearity of the current–voltage characteristics is indeed related to the presence of Fe0 on the surface.
+The almost step-like change of metallic Fe content with overpotential (which is proportional to the chemical potential of oxygen) is characteristic for a phase change.
+A very recently conducted surface XRD study on similar LSF thin films, however, showed that the evolution of a second metallic Fe phase does not lead to a decomposition of the perovskite.
+Instead, only a small fraction of the total Fe content is exsolved—and the perovskite lattice stays intact.
+The total decomposition of the perovskite is most likely hindered kinetically in thin films, because coulometric titration29 and XRD measurements15 on LSF powder revealed total decomposition at oxygen partial pressures <10–27 bar, corresponding to η < −0.13 V in 1:1 H2+H2O atmosphere, which was fulfilled in this study.
+Exsolution of highly dispersed transition metal nanoparticles from a perovskite-type host material has already been observed on copper, nickel or palladium-doped perovskites and vanadates by SEM and XRD studies34−36 and could be correlated to enhanced hydrogen electrode kinetics.
+Also in our study, Fe0 is most likely present in nanosize form with a diameter larger than the photoelectron mean free path.
+Hence, most of the Fe0 is not detected by XPS and the total Fe intensity decreases (Figure 10c).
+Also depth-profiling (not shown) shows no significant surface enrichment or depletion of Fe0, which rules out a metallic surface or subsurface layer.
+Figure 10 (a) Impedance spectra measured on LSF and STF electrodes in H2/H2O with (solid symbols, η ≈ −50 mV) and without (open symbols, η = 0 mV) the presence of Fe0.
+A strong decrease of the electrode resistance is observed already at very low η, especially for LSF.
+(b) Total Fe 2p3/2 signal intensity (normalized to the initial area) showing a drastic decrease when Fe0 is formed.
+(c) Ratio of metallic to total Fe signal intensity.
+The reduction and oxidation of Fe is reversible on LSF and shows a slight hysteresis on STF.
+Conclusions Near-ambient XPS studies revealed numerous details of the surface chemistry of SrTi0.7Fe0.3O3-δ (STF), La0.6Sr0.4FeO3-δ (LSF), and La0.6Sr0.4CoO3-δ (LSC) thin films in different atmospheres and upon electrochemical polarization.
+Simultaneous electrochemical impedance spectroscopy measurements allowed determination of the actual working electrode overpotential and oxygen exchange activity.
+In oxidizing atmosphere, the valence band edges of LSF and STF are slightly below the Fermi level, which indicates localized electronic defects, while the valence band edge spectra of LSC reveal a metal-like electronic structure.
+The temperature dependence of the electronic conductivity supports this interpretation: The electronic conductivity is thermally activated for LSF and STF but almost temperature independent in LSC.
+Binding energies of nonredox active elements (Sr, La, O, Ti) in LSF and STF showed a pronounced dependence on the atmosphere and the electrochemical polarization.
+The binding energy shift corresponds to the Fermi level shift expected from defect chemical models for changing the chemical potential of oxygen.
+This accordance is a strong indication of well-defined and homogeneous electrode polarization and rate-limiting surface kinetics.
+High binding energy components located at the surface were found for strontium and oxygen on all three samples in oxidizing atmosphere.
+In good agreement with other studies, the surface is presumably enriched in SrO and/or Sr(OH)2.
+A separate surface oxygen component could not be identified in reducing atmosphere.
+The energy separation and relative amount of these surface components did not change significantly during electrochemical polarization.
+Only the transition metals iron and cobalt appear to undergo valence changes.
+In oxidizing atmosphere near-surface iron is present as Fe3+, irrespective of the polarization.
+In reducing atmosphere, iron is present in the oxidation states as Fe3+, Fe2+ and Fe0.
+The relative amounts of these oxidation states strongly depend on the polarization.
+The evolution of a Fe0 phase under cathodic polarization can drastically increase the water splitting activity, particularly on LSF.
+Supporting Information Available The Supporting Information is available free of charge on the ACS Publications website at DOI: 10.1021/acs.jpcc.5b08596.
+Details on target synthesis and PLD parameters for thin film preparation, XPS spectra, effects of beam damage and polarization, and interpretation of the chemical capacitance and current–volatage curves (PDF) Supplementary Material jp5b08596_si_001.pdf The authors declare no competing financial interest.
+Acknowledgments The authors thank the Helmholtz-Zentrum Berlin for the allocation of synchrotron radiation beamtime (Project 2013_2_130382 at ISISS beamline). This study was financially supported by the Austrian Science Fund (FWF); Projects F4509/03/02-N16 (SFB FOXSI) and W1243. References StarrD.; LiuZ.; HäveckerM.; Knop-GerickeA.; BluhmH. Investigation of Solid/Vapor Interfaces Using Ambient Pressure X-ray Photoelectron Spectroscopy. Chem. Soc. Rev. 2013, 42, 5833–5857. Knop-GerickeA.; KleimenovE.; HäveckerM.; BlumeR.; TeschnerD.; ZafeiratosS.; SchlöglR.; BukhtiyarovV. I.; KaichevV. V.; ProsvirinI. P. X-Ray Photoelectron Spectroscopy for Investigation of Heterogeneous Catalytic Processes. Adv. Catal. 2009, 52, 213–272. LiuX.; YangW.; LiuZ. Recent Progress on Synchrotron-Based In-Situ Soft X-ray Spectroscopy for Energy Materials. Adv. Mater. 2014, 26, 7710–7729. McDanielA. H.; ChuehW. C.; ShavorskiyA.; TyliszczakT.; BluhmH.; McCartyK. F.; El GabalyF. (Invited) Probing Surface and Bulk States of Cathode Materials with Synchrotron-Based Soft X-Rays in a Functioning Solid Oxide Fuel Cell. ECS Trans. 2013, 58, 47–53. ChuehW. C.; McDanielA. H.; GrassM. E.; HaoY.; JabeenN.; LiuZ.; HaileS. M.; McCartyK. F.; BluhmH.; El GabalyF. Highly Enhanced Concentration and Stability of Reactive Ce3+ on Doped CeO2 Surface Revealed In Operando. Chem. Mater. 2012, 24, 1876–1882. CrumlinE. J.; BluhmH.; LiuZ. In Situ Investigation of Electrochemical Devices Using Ambient Pressure Photoelectron Spectroscopy. J. Electron Spectrosc. Relat. Phenom. 2013, 190, 84–92. FengZ. A.; El GabalyF.; YeX.; ShenZ.-X.; ChuehW. C. Fast Vacancy-Mediated Oxygen Ion Incorporation across the Ceria–Gas Electrochemical Interface. Nat. Commun. 2014, 5, 4374. ZhangC.; YuY.; GrassM. E.; DejoieC.; DingW.; GaskellK.; JabeenN.; HongY. P.; ShavorskiyA.; BluhmH. Mechanistic Studies of Water Electrolysis and Hydrogen Electro-Oxidation on High Temperature Ceria-Based Solid Oxide Electrochemical Cells. J. Am. Chem. Soc. 2013, 135, 11572–11579. CrumlinE. J.; MutoroE.; HongW. T.; BiegalskiM. D.; ChristenH. M.; LiuZ.; BluhmH.; Shao-HornY. In Situ Ambient Pressure X-ray Photoelectron Spectroscopy of Cobalt Perovskite Surfaces under Cathodic Polarization at High Temperatures. J. Phys. Chem. C 2013, 117, 16087–16094. ZhangC.; GrassM. E.; YuY.; GaskellK. J.; DeCaluweS. C.; ChangR.; JacksonG. S.; HussainZ.; BluhmH.; EichhornB. W. Multielement Activity Mapping and Potential Mapping in Solid Oxide Electrochemical Cells through the use of Operando XPS. ACS Catal. 2012, 2, 2297–2304. OpitzA. K.; NenningA.; RameshanC.; RameshanR.; BlumeR.; HäveckerM.; Knop-GerickeA.; RupprechterG.; FleigJ.; KlötzerB. Enhancing Electrochemical Water-Splitting Kinetics by Polarization-Driven Formation of Near-Surface Iron (0): An In Situ XPS Study on Perovskite-Type Electrodes. Angew. Chem., Int. Ed. 2015, 54, 2628–2632. RuppG.; LimbeckA.; KubicekM.; PennA.; Stöger-PollachM.; FriedbacherG.; FleigJ. Correlating Surface Cation Composition and Thin Film Microstructure with the Electrochemical Performance of Lanthanum Strontium Cobaltite (LSC) Electrodes. J. Mater. Chem. A 2014, 2, 7099–7108. HäveckerM.Innovative Station for In Situ Spectroscopy. Retrieved 02/27/2015 https://www.helmholtz-berlin.de/pubbin/igama_output?modus=einzel&sprache=en&gid=1671. NenningA.; OpitzA. K.; HuberT. M.; FleigJ. A Novel Approach for Analyzing Electrochemical Properties of Mixed Conducting Solid Oxide Fuel Cell Anode Materials by Impedance Spectroscopy. Phys. Chem. Chem. Phys. 2014, 16, 22321–22336. KoglerS.; NenningA.; RuppG. M.; OpitzA. K.; FleigJ. Comparison of Electrochemical Properties of La0.6Sr0.4FeO3-δ Thin Film Electrodes: Oxidizing vs. Reducing Conditions. J. Electrochem. Soc. 2015, 162, F317–F326. AdlerS. Reference Electrode Placement in Thin Solid Electrolytes. J. Electrochem. Soc. 2002, 149, E166–E172. CaiZ.; KubicekM.; FleigJ. r.; YildizB. Chemical Heterogeneities on La0.6Sr0.4CoO3−δ Thin Films - Correlations to Cathode Surface Activity and Stability. Chem. Mater. 2012, 24, 1116–1127. JungW.; TullerH. L. Investigation of Surface Sr Segregation in Model Thin Film Solid Oxide Fuel Cell Perovskite Electrodes. Energy Environ. Sci. 2012, 5, 5370–5378. KubicekM.; LimbeckA.; FrömlingT.; HutterH.; FleigJ. Relationship Between Cation Segregation and the Electrochemical Oxygen Reduction Kinetics of La0.6Sr0.4CoO3−δ Thin Film Electrodes. J. Electrochem. Soc. 2011, 158, B727–B734. Van der PauwL. A Method of Measuring the Resistivity and Hall Coefficient on Lamellae of Arbitrary Shape. Philips Technol. Rev. 1958, 20, 220–224. PetrovA.; KononchukO.; AndreevA.; CherepanovV.; KofstadP. Crystal Structure, Electrical and Magnetic Properties of La1–xSrxCoO3–y. Solid State Ionics 1995, 80, 189–199. BucherE.; SitteW. Defect Chemical Analysis of the Electronic Conductivity of Strontium-Substituted Lanthanum Ferrite. Solid State Ionics 2004, 173, 23–28. RothschildA.; LitzelmanS. J.; TullerH. L.; MenesklouW.; SchneiderT.; Ivers-TifféeE. Temperature-Independent Resistive Oxygen Sensors Based on SrTi1–xFexO3−δ Solid Solutions. Sens. Actuators, B 2005, 108, 223–230. KuhnM.; FukudaY.; HashimotoS.; SatoK.; YashiroK.; MizusakiJ. Oxygen Nonstoichiometry and Thermo-Chemical Stability of Perovskite-Type La0.6Sr0.4Co1-yFeyO3-δ (y= 0, 0.2, 0.4, 0.5, 0.6, 0.8, 1) Materials. J. Electrochem. Soc. 2013, 160, F34–F42. KuhnM.; KimJ. J.; BishopS. R.; TullerH. L. Oxygen Nonstoichiometry and Defect Chemistry of Perovskite-Structured BaxSr1–xTi1–yFeyO3–y/2+δ Solid Solutions. Chem. Mater. 2013, 25, 2970–2975. YaoY.; XieT.; GaoY.Handbook of Physical Chemistry. Science and Technology Press: Shanghai, China, 1985, 677. SteinsvikS.; BuggeR.; GjønnesJ.; TaftøJ.; NorbyT. The Defect Structure of SrTi1-xFexO3-y. J. Phys. Chem. Solids 1997, 58, 969–976. DescostesM.; MercierF.; ThromatN.; BeaucaireC.; Gautier-SoyerM. Use of XPS in the Determination of Chemical Environment and Oxidation State of Iron and Sulfur Samples: Constitution of a Data Basis in Binding Energies for Fe and S Reference Compounds and Applications to the Evidence of Surface Species of an Oxidized Pyrite in a Carbonate medium. Appl. Surf. Sci. 2000, 165, 288–302. KuhnM.; HashimotoS.; SatoK.; YashiroK.; MizusakiJ. Oxygen Nonstoichiometry, Thermo-Chemical Stability and Lattice Expansion of La0.6Sr0.4FeO3−δ. Solid State Ionics 2011, 195, 7–15. JungW. C.; TullerH. L. A New Model Describing Solid Oxide Fuel Cell Cathode Kinetics: Model Thin Film SrTi1-xFexO3-δ Mixed Conducting Oxides–a Case Study. Adv. Energy Mater. 2011, 1, 1184–1191. MuellerD. N.; MachalaM. L.; BluhmH.; ChuehW. C. Redox activity of surface oxygen anions in oxygen-deficient perovskite oxides during electrochemical reactions. Nat. Commun. 2015, 6, 6097. SuntivichJ.; HongW. T.; LeeY.-L.; RondinelliJ. M.; YangW.; GoodenoughJ. B.; DabrowskiB.; FreelandJ. W.; Shao-HornY. Estimating Hybridization of Transition Metal and Oxygen States in Perovskites from OK-edge X-ray Absorption Spectroscopy. J. Phys. Chem. C 2014, 118, 1856–1863. FleigJ. On the Current–Voltage Characteristics of Charge Transfer Reactions at Mixed Conducting Electrodes on Solid Electrolytes. Phys. Chem. Chem. Phys. 2005, 7, 2027–2037. NeaguD.; TsekourasG.; MillerD. N.; MénardH.; IrvineJ. T. S. In Situ Growth of Nanoparticles through Control of Non-Stoichiometry. Nat. Chem. 2013, 5, 916–923. KatzM. B.; GrahamG. W.; DuanY.; LiuH.; AdamoC.; SchlomD. G.; PanX. Self-Regeneration of Pd–LaFeO3 Catalysts: New Insight from Atomic-Resolution Electron Microscopy. J. Am. Chem. Soc. 2011, 133, 18090–18093. AdijantoL.; PadmanabhanV. B.; GorteR. J.; VohsJ. M. Polarization-Induced Hysteresis in CuCo-Doped Rare Earth Vanadates SOFC Anodes. J. Electrochem. Soc. 2012, 159, F751–F756.

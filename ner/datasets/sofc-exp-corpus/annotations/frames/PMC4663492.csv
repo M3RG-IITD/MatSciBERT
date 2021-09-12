@@ -1,0 +1,117 @@
+SPAN	1	EXPERIMENT:current_exp	4	50	53
+SPAN	2	VALUE	4	54	64
+SPAN	3	EXPERIMENT:current_exp	4	72	74
+SPAN	4	MATERIAL	4	110	117
+SPAN	5	VALUE	4	158	168
+SPAN	6	VALUE	4	173	179
+SPAN	7	MATERIAL	7	27	56
+SPAN	8	MATERIAL	7	58	64
+SPAN	9	EXPERIMENT:general_info	7	80	89
+SPAN	10	DEVICE	7	156	178
+SPAN	11	DEVICE	7	180	185
+SPAN	12	EXPERIMENT:general_info	7	225	227
+SPAN	13	MATERIAL	7	261	296
+SPAN	14	MATERIAL	7	298	304
+SPAN	15	VALUE	7	346	358
+SPAN	16	MATERIAL	8	33	36
+SPAN	17	MATERIAL	8	38	53
+SPAN	18	EXPERIMENT:previous_work	8	64	72
+SPAN	19	VALUE	8	93	97
+SPAN	20	VALUE	8	99	104
+SPAN	21	VALUE	8	110	122
+SPAN	22	VALUE	8	126	129
+SPAN	23	VALUE	8	131	134
+SPAN	24	VALUE	8	140	146
+SPAN	25	EXPERIMENT:current_exp	21	19	22
+SPAN	26	VALUE	21	65	75
+SPAN	27	MATERIAL	21	86	94
+SPAN	28	VALUE	21	118	123
+SPAN	29	MATERIAL	21	124	127
+SPAN	30	MATERIAL	41	29	44
+SPAN	31	DEVICE	41	73	102
+SPAN	32	EXPERIMENT:current_exp	41	117	125
+SPAN	33	VALUE	41	189	211
+SPAN	34	EXPERIMENT:current_exp	43	21	29
+SPAN	35	VALUE	43	38	44
+SPAN	36	EXPERIMENT:current_exp	45	28	32
+SPAN	37	VALUE	45	33	35
+SPAN	38	VALUE	45	37	39
+SPAN	39	VALUE	45	41	43
+SPAN	40	VALUE	45	45	48
+SPAN	41	VALUE	45	54	65
+SPAN	42	VALUE	45	69	72
+SPAN	43	VALUE	45	74	77
+SPAN	44	VALUE	45	79	82
+SPAN	45	VALUE	45	84	87
+SPAN	46	VALUE	45	93	99
+SPAN	47	VALUE	46	38	44
+SPAN	48	EXPERIMENT:current_exp	46	49	57
+SPAN	49	MATERIAL	46	73	80
+SPAN	50	MATERIAL	47	17	32
+SPAN	51	EXPERIMENT:current_exp	47	46	49
+SPAN	52	EXPERIMENT:current_exp	47	77	80
+SPAN	53	MATERIAL	47	105	121
+SPAN	54	MATERIAL	85	21	36
+SPAN	55	EXPERIMENT:current_exp	85	50	52
+SPAN	56	DEVICE	85	115	120
+EXPERIMENT	1	1
+	power_density	2
+EXPERIMENT	2	3
+	anode_material	4
+	power_density	5
+	working_temperature	6
+EXPERIMENT	3	9
+	anode_material	7
+	device	10
+EXPERIMENT	4	12
+	anode_material	13
+	working_temperature	15
+EXPERIMENT	5	18
+	electrolyte_material	17
+	conductivity	19
+	conductivity	20
+	conductivity	21
+	working_temperature	22
+	working_temperature	23
+	working_temperature	24
+EXPERIMENT	6	25
+	anode_material	27
+	anode_material	29
+EXPERIMENT	7	32
+	anode_material	30
+	device	31
+	working_temperature	33
+EXPERIMENT	8	34
+	working_temperature	35
+EXPERIMENT	9	36
+	power_density	37
+	power_density	38
+	power_density	39
+	power_density	40
+	power_density	41
+	working_temperature	42
+	working_temperature	43
+	working_temperature	44
+	working_temperature	45
+	working_temperature	46
+EXPERIMENT	10	48
+	working_temperature	47
+	anode_material	49
+EXPERIMENT	11	51
+	anode_material	50
+EXPERIMENT	12	52
+	anode_material	53
+EXPERIMENT	13	55
+	anode_material	54
+	device	56
+LINK	experiment_variation	3	1
+LINK	experiment_variation	12	9
+LINK	same_experiment	32	34
+LINK	experiment_variation	48	36
+LINK	same_experiment	34	36
+LINK	experiment_variation	51	48
+LINK	experiment_variation	52	51
+LINK	coreference	7	8
+LINK	coreference	10	11
+LINK	coreference	13	14
+LINK	coreference	17	16

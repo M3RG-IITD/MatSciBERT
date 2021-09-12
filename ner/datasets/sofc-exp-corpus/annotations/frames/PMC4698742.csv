@@ -1,0 +1,52 @@
+SPAN	1	DEVICE	1	487	491
+SPAN	2	MATERIAL	1	497	501
+SPAN	3	EXPERIMENT:current_exp	1	547	557
+SPAN	4	EXPERIMENT:current_exp	4	39	49
+SPAN	5	EXPERIMENT:current_exp	4	90	96
+SPAN	6	VALUE	4	111	121
+SPAN	7	VALUE	4	125	131
+SPAN	8	VALUE	4	137	142
+SPAN	9	MATERIAL	4	149	153
+SPAN	10	EXPERIMENT:current_exp	16	55	61
+SPAN	11	DEVICE	16	91	95
+SPAN	12	EXPERIMENT:current_exp	16	108	116
+SPAN	13	VALUE	55	3	9
+SPAN	14	VALUE	55	15	20
+SPAN	15	MATERIAL	55	27	30
+SPAN	16	EXPERIMENT:current_exp	55	70	73
+SPAN	17	VALUE	55	81	91
+SPAN	18	DEVICE	57	27	31
+SPAN	19	VALUE	57	37	42
+SPAN	20	MATERIAL	57	43	47
+SPAN	21	EXPERIMENT:future_work	57	54	61
+SPAN	22	VALUE	57	91	101
+SPAN	23	VALUE	57	105	111
+SPAN	24	EXPERIMENT:current_exp	60	39	49
+SPAN	25	VALUE	60	100	110
+SPAN	26	VALUE	60	114	120
+EXPERIMENT	1	3
+	device	1
+	electrolyte_material	2
+EXPERIMENT	2	5
+	power_density	6
+	working_temperature	7
+	electrolyte_material	9
+EXPERIMENT	3	10
+	device	11
+EXPERIMENT	4	16
+	working_temperature	13
+	electrolyte_material	15
+	power_density	17
+EXPERIMENT	5	21
+	device	18
+	electrolyte_material	20
+	power_density	22
+	working_temperature	23
+EXPERIMENT	6	24
+	power_density	25
+	working_temperature	26
+LINK	same_experiment	4	5
+LINK	thickness	9	8
+LINK	same_experiment	10	12
+LINK	thickness	15	14
+LINK	thickness	20	19

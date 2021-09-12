@@ -1,0 +1,161 @@
+SPAN	1	MATERIAL	4	32	58
+SPAN	2	MATERIAL	4	60	65
+SPAN	3	EXPERIMENT:current_exp	4	71	75
+SPAN	4	DEVICE	4	112	116
+SPAN	5	DEVICE	5	41	45
+SPAN	6	EXPERIMENT:current_exp	5	46	51
+SPAN	7	VALUE	5	93	104
+SPAN	8	VALUE	5	108	114
+SPAN	9	VALUE	5	138	143
+SPAN	10	VALUE	6	56	68
+SPAN	11	VALUE	6	89	101
+SPAN	12	EXPERIMENT:current_exp	6	139	147
+SPAN	13	VALUE	6	169	174
+SPAN	14	VALUE	6	178	184
+SPAN	15	DEVICE	35	69	73
+SPAN	16	EXPERIMENT:current_exp	35	79	89
+SPAN	17	MATERIAL	35	142	150
+SPAN	18	MATERIAL	35	173	199
+SPAN	19	MATERIAL	35	201	206
+SPAN	20	MATERIAL	35	208	212
+SPAN	21	DEVICE	71	22	26
+SPAN	22	EXPERIMENT:current_exp	71	31	39
+SPAN	23	VALUE	71	97	102
+SPAN	24	VALUE	71	104	109
+SPAN	25	VALUE	71	115	126
+SPAN	26	VALUE	71	130	133
+SPAN	27	VALUE	71	135	138
+SPAN	28	VALUE	71	140	146
+SPAN	29	EXPERIMENT:current_exp	72	63	73
+SPAN	30	VALUE	72	142	147
+SPAN	31	VALUE	72	149	154
+SPAN	32	VALUE	72	160	171
+SPAN	33	VALUE	72	175	178
+SPAN	34	VALUE	72	180	183
+SPAN	35	VALUE	72	185	191
+SPAN	36	MATERIAL	76	30	40
+SPAN	37	EXPERIMENT:current_exp	76	41	45
+SPAN	38	VALUE	76	46	51
+SPAN	39	VALUE	76	53	58
+SPAN	40	VALUE	76	64	75
+SPAN	41	VALUE	76	79	82
+SPAN	42	VALUE	76	84	87
+SPAN	43	VALUE	76	93	99
+SPAN	44	EXPERIMENT:current_exp	81	10	15
+SPAN	45	DEVICE	81	99	103
+SPAN	46	MATERIAL	81	120	122
+SPAN	47	MATERIAL	81	135	138
+SPAN	48	EXPERIMENT:current_exp	82	68	76
+SPAN	49	VALUE	82	118	129
+SPAN	50	VALUE	82	133	139
+SPAN	51	DEVICE	82	234	238
+SPAN	52	MATERIAL	83	61	66
+SPAN	53	DEVICE	87	59	63
+SPAN	54	EXPERIMENT:current_exp	87	64	69
+SPAN	55	VALUE	87	116	128
+SPAN	56	VALUE	87	149	161
+SPAN	57	VALUE	87	215	220
+SPAN	58	VALUE	87	224	230
+SPAN	59	EXPERIMENT:current_exp	91	66	74
+SPAN	60	DEVICE	91	81	85
+SPAN	61	VALUE	91	150	156
+SPAN	62	MATERIAL	96	168	194
+SPAN	63	MATERIAL	96	196	201
+SPAN	64	MATERIAL	97	4	9
+SPAN	65	MATERIAL	97	40	66
+SPAN	66	MATERIAL	97	68	75
+SPAN	67	EXPERIMENT:current_exp	98	26	34
+SPAN	68	DEVICE	98	42	46
+SPAN	69	DEVICE	98	51	55
+SPAN	70	DEVICE	99	3	7
+SPAN	71	DEVICE	99	32	36
+SPAN	72	EXPERIMENT:current_exp	99	37	42
+SPAN	73	VALUE	99	73	84
+SPAN	74	VALUE	99	88	94
+SPAN	75	VALUE	99	164	169
+SPAN	76	DEVICE	100	3	7
+SPAN	77	EXPERIMENT:current_exp	100	36	41
+SPAN	78	VALUE	100	84	96
+SPAN	79	VALUE	100	131	136
+SPAN	80	VALUE	100	140	146
+EXPERIMENT	1	3
+	cathode_material	1
+	device	4
+EXPERIMENT	2	6
+	device	5
+	power_density	7
+	working_temperature	8
+	time_of_operation	9
+EXPERIMENT	3	12
+	current_density	10
+	current_density	11
+	voltage	13
+	working_temperature	14
+EXPERIMENT	4	16
+	device	15
+	fuel_used	17
+	cathode_material	18
+	cathode_material	20
+EXPERIMENT	5	22
+	device	21
+	resistance	23
+	resistance	24
+	resistance	25
+	working_temperature	26
+	working_temperature	27
+	working_temperature	28
+EXPERIMENT	6	29
+	resistance	30
+	resistance	31
+	resistance	32
+	working_temperature	33
+	working_temperature	34
+	working_temperature	35
+EXPERIMENT	7	37
+	cathode_material	36
+	resistance	38
+	resistance	39
+	resistance	40
+	working_temperature	41
+	working_temperature	42
+	working_temperature	43
+EXPERIMENT	8	44
+	device	45
+	fuel_used	46
+	fuel_used	47
+EXPERIMENT	9	48
+	power_density	49
+	working_temperature	50
+	device	51
+EXPERIMENT	10	54
+	device	53
+	current_density	55
+	current_density	56
+	voltage	57
+	working_temperature	58
+EXPERIMENT	11	59
+	device	60
+	time_of_operation	61
+EXPERIMENT	12	67
+	device	68
+	device	69
+EXPERIMENT	13	72
+	device	70
+	device	71
+	power_density	73
+	working_temperature	74
+	time_of_operation	75
+EXPERIMENT	14	77
+	device	76
+	current_density	78
+	voltage	79
+	working_temperature	80
+LINK	experiment_variation	6	3
+LINK	experiment_variation	12	6
+LINK	same_experiment	44	48
+LINK	experiment_variation	72	67
+LINK	experiment_variation	77	72
+LINK	coreference	1	2
+LINK	coreference	18	19
+LINK	coreference	62	63
+LINK	coreference	65	66

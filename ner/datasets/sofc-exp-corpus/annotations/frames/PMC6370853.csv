@@ -1,0 +1,96 @@
+SPAN	1	MATERIAL	23	35	53
+SPAN	2	MATERIAL	23	55	60
+SPAN	3	DEVICE	104	145	155
+SPAN	4	MATERIAL	104	165	175
+SPAN	5	EXPERIMENT:current_exp	104	193	202
+SPAN	6	EXPERIMENT:current_exp	104	207	215
+SPAN	7	MATERIAL	104	231	234
+SPAN	8	DEVICE	105	4	14
+SPAN	9	MATERIAL	105	39	49
+SPAN	10	MATERIAL	105	52	55
+SPAN	11	MATERIAL	105	58	62
+SPAN	12	MATERIAL	105	65	74
+SPAN	13	EXPERIMENT:current_exp	105	80	86
+SPAN	14	MATERIAL	105	101	103
+SPAN	15	MATERIAL	105	142	145
+SPAN	16	EXPERIMENT:current_exp	106	28	32
+SPAN	17	VALUE	106	33	38
+SPAN	18	VALUE	106	40	45
+SPAN	19	VALUE	106	47	52
+SPAN	20	VALUE	106	58	70
+SPAN	21	MATERIAL	106	75	80
+SPAN	22	MATERIAL	106	82	92
+SPAN	23	MATERIAL	106	94	104
+SPAN	24	MATERIAL	106	110	121
+SPAN	25	VALUE	106	140	146
+SPAN	26	MATERIAL	106	161	163
+SPAN	27	MATERIAL	111	36	49
+SPAN	28	MATERIAL	111	54	67
+SPAN	29	EXPERIMENT:current_exp	111	73	83
+SPAN	30	VALUE	111	90	95
+SPAN	31	VALUE	111	100	112
+SPAN	32	MATERIAL	116	30	40
+SPAN	33	MATERIAL	116	42	52
+SPAN	34	MATERIAL	116	58	69
+SPAN	35	EXPERIMENT:current_exp	116	70	74
+SPAN	36	VALUE	116	75	80
+SPAN	37	VALUE	116	82	87
+SPAN	38	VALUE	116	93	104
+SPAN	39	VALUE	116	123	129
+SPAN	40	MATERIAL	116	133	135
+SPAN	41	MATERIAL	130	32	53
+SPAN	42	DEVICE	130	54	58
+SPAN	43	MATERIAL	130	66	77
+SPAN	44	EXPERIMENT:current_exp	130	84	91
+SPAN	45	VALUE	130	92	104
+SPAN	46	MATERIAL	130	119	121
+SPAN	47	VALUE	130	125	131
+EXPERIMENT	1	5
+	device	3
+	anode_material	4
+EXPERIMENT	2	6
+	anode_material	7
+EXPERIMENT	3	13
+	device	8
+	anode_material	9
+	interlayer_material	10
+	electrolyte_material	11
+	fuel_used	14
+	fuel_used	15
+EXPERIMENT	4	16
+	power_density	17
+	power_density	18
+	power_density	19
+	power_density	20
+	anode_material	21
+	anode_material	22
+	anode_material	23
+	anode_material	24
+	working_temperature	25
+	fuel_used	26
+EXPERIMENT	5	29
+	anode_material	27
+	anode_material	28
+	power_density	30
+	power_density	31
+EXPERIMENT	6	35
+	anode_material	32
+	anode_material	33
+	anode_material	34
+	resistance	36
+	resistance	37
+	resistance	38
+	working_temperature	39
+	fuel_used	40
+EXPERIMENT	7	44
+	support_material	41
+	device	42
+	anode_material	43
+	power_density	45
+	fuel_used	46
+	working_temperature	47
+LINK	experiment_variation	6	5
+LINK	same_experiment	5	13
+LINK	same_experiment	13	16
+LINK	coreference	1	2
+LINK	coreference	13	12

@@ -1,0 +1,153 @@
+SPAN	1	MATERIAL	2	65	90
+SPAN	2	DEVICE	3	44	53
+SPAN	3	EXPERIMENT:current_exp	3	95	107
+SPAN	4	MATERIAL	5	46	71
+SPAN	5	EXPERIMENT:current_exp	5	72	75
+SPAN	6	VALUE	5	76	87
+SPAN	7	VALUE	5	92	109
+SPAN	8	VALUE	5	113	119
+SPAN	9	EXPERIMENT:previous_work	19	12	20
+SPAN	10	MATERIAL	19	58	90
+SPAN	11	MATERIAL	19	134	151
+SPAN	12	VALUE	19	152	164
+SPAN	13	EXPERIMENT:previous_work	20	13	18
+SPAN	14	MATERIAL	20	41	75
+SPAN	15	VALUE	20	98	109
+SPAN	16	VALUE	20	113	119
+SPAN	17	MATERIAL	46	9	11
+SPAN	18	MATERIAL	46	12	14
+SPAN	19	DEVICE	46	15	25
+SPAN	20	EXPERIMENT:current_exp	46	46	52
+SPAN	21	MATERIAL	67	22	47
+SPAN	22	EXPERIMENT:current_exp	67	48	52
+SPAN	23	VALUE	67	53	96
+SPAN	24	VALUE	67	113	123
+SPAN	25	EXPERIMENT:current_exp	67	130	132
+SPAN	26	MATERIAL	67	147	177
+SPAN	27	MATERIAL	67	185	188
+SPAN	28	VALUE	67	192	198
+SPAN	29	EXPERIMENT:current_exp	75	9	17
+SPAN	30	MATERIAL	75	70	86
+SPAN	31	MATERIAL	75	101	126
+SPAN	32	VALUE	75	160	166
+SPAN	33	MATERIAL	79	50	66
+SPAN	34	MATERIAL	79	81	106
+SPAN	35	EXPERIMENT:current_exp	79	107	110
+SPAN	36	VALUE	79	111	121
+SPAN	37	VALUE	79	126	136
+SPAN	38	MATERIAL	82	175	177
+SPAN	39	MATERIAL	82	178	180
+SPAN	40	DEVICE	82	181	190
+SPAN	41	EXPERIMENT:current_exp	82	191	196
+SPAN	42	MATERIAL	82	197	222
+SPAN	43	VALUE	82	236	242
+SPAN	44	EXPERIMENT:current_exp	82	259	267
+SPAN	45	VALUE	82	302	313
+SPAN	46	EXPERIMENT:current_exp	82	331	333
+SPAN	47	VALUE	82	334	340
+SPAN	48	VALUE	82	344	350
+SPAN	49	MATERIAL	83	4	25
+SPAN	50	EXPERIMENT:current_exp	83	31	34
+SPAN	51	VALUE	83	35	47
+SPAN	52	EXPERIMENT:current_exp	84	27	29
+SPAN	53	DEVICE	84	46	55
+SPAN	54	MATERIAL	84	78	92
+SPAN	55	MATERIAL	84	101	111
+SPAN	56	VALUE	84	113	119
+SPAN	57	MATERIAL	84	125	152
+SPAN	58	VALUE	84	166	171
+SPAN	59	VALUE	84	173	179
+SPAN	60	MATERIAL	84	209	229
+SPAN	61	MATERIAL	84	237	248
+SPAN	62	VALUE	84	262	268
+SPAN	63	VALUE	84	270	276
+SPAN	64	MATERIAL	89	38	54
+SPAN	65	MATERIAL	89	69	94
+SPAN	66	EXPERIMENT:current_exp	89	95	99
+SPAN	67	VALUE	89	100	110
+SPAN	68	VALUE	89	115	125
+SPAN	69	VALUE	89	159	165
+SPAN	70	MATERIAL	90	46	71
+SPAN	71	EXPERIMENT:current_exp	90	72	76
+SPAN	72	VALUE	90	77	88
+SPAN	73	VALUE	90	93	110
+SPAN	74	VALUE	90	114	120
+EXPERIMENT	1	3
+	electrolyte_material	1
+	device	2
+EXPERIMENT	2	5
+	electrolyte_material	4
+	power_density	6
+	conductivity	7
+	working_temperature	8
+EXPERIMENT	3	9
+	electrolyte_material	10
+	electrolyte_material	11
+	working_temperature	12
+EXPERIMENT	4	13
+	electrolyte_material	14
+	conductivity	15
+	working_temperature	16
+EXPERIMENT	5	20
+	fuel_used	17
+	fuel_used	18
+	device	19
+EXPERIMENT	6	22
+	electrolyte_material	21
+	conductivity	23
+	working_temperature	24
+EXPERIMENT	7	25
+	electrolyte_material	26
+	fuel_used	27
+	working_temperature	28
+EXPERIMENT	8	29
+	electrolyte_material	30
+	electrolyte_material	31
+	working_temperature	32
+EXPERIMENT	9	35
+	electrolyte_material	33
+	electrolyte_material	34
+	resistance	36
+	resistance	37
+EXPERIMENT	10	41
+	fuel_used	38
+	fuel_used	39
+	device	40
+	electrolyte_material	42
+EXPERIMENT	11	44
+	power_density	45
+EXPERIMENT	12	46
+	voltage	47
+	working_temperature	48
+EXPERIMENT	13	50
+	electrolyte_material	49
+	power_density	51
+EXPERIMENT	14	52
+	device	53
+	electrolyte_material	54
+	electrolyte_material	55
+	working_temperature	56
+	electrolyte_material	57
+	working_temperature	59
+	electrolyte_material	60
+	working_temperature	63
+EXPERIMENT	15	66
+	electrolyte_material	64
+	electrolyte_material	65
+	resistance	67
+	resistance	68
+	working_temperature	69
+EXPERIMENT	16	71
+	electrolyte_material	70
+	power_density	72
+	conductivity	73
+	working_temperature	74
+LINK	experiment_variation	25	22
+LINK	thickness	42	43
+LINK	same_experiment	41	44
+LINK	experiment_variation	50	46
+LINK	same_experiment	44	46
+LINK	experiment_variation	52	50
+LINK	thickness	57	58
+LINK	thickness	61	62
+LINK	same_experiment	66	71
