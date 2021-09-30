@@ -38,6 +38,7 @@ def ensure_dir(dir_path):
 
 
 parser = ArgumentParser()
+parser.add_argument('--root_dir', required=True, type=str)
 parser.add_argument('--model_name', choices=['scibert', 'matscibert'], required=True, type=str)
 parser.add_argument('--architecture', choices=['bert', 'bert-crf', 'bert-bilstm-crf'], required=True, type=str)
 parser.add_argument('--dataset_name', choices=['sofc', 'sofc_slot', 'matscholar'], required=True, type=str)
@@ -46,7 +47,7 @@ parser.add_argument('--output_dir', required=True, type=str)
 parser.add_argument('--hidden_dim', default=300, type=int)
 args = parser.parse_args()
 
-root_dir = ensure_dir('/home/maths/dual/mt6170499/scratch')
+root_dir = ensure_dir(args.root_dir)
 
 if args.model_name == 'scibert':
     model_name = 'allenai/scibert_scivocab_uncased'

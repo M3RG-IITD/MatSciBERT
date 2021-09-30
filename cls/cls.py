@@ -36,11 +36,12 @@ def ensure_dir(dir_path):
 
 
 parser = ArgumentParser()
+parser.add_argument('--root_dir', required=True, type=str)
 parser.add_argument('--model_name', choices=['scibert', 'matscibert'], required=True, type=str)
 parser.add_argument('--output_dir', required=True, type=str)
 args = parser.parse_args()
 
-root_dir = ensure_dir('/home/maths/dual/mt6170499/scratch')
+root_dir = ensure_dir(args.root_dir)
 
 if args.model_name == 'scibert':
     model_name = 'allenai/scibert_scivocab_uncased'
