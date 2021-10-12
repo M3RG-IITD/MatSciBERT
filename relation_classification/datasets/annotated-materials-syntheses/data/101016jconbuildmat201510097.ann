@@ -1,0 +1,157 @@
+T1	Material 66 76	geopolymer
+T2	Property-Misc 34 65	Aluminium hydroxide waste based
+T3	Property-Misc 89 96	fly ash
+T4	Operation 130 147	Geopolymerization
+E1	Operation:T4 Recipe_Precursor:T18 Recipe_Precursor:T19
+T5	Operation 152 161	conducted
+E2	Operation:T5 
+T6	Operation 204 209	mixed
+E3	Operation:T6 Participant_Material:T20 Solvent_Material:T21
+T7	Operation 356 360	used
+E4	Operation:T7 Recipe_Precursor:T28
+T8	Operation 470 475	fixed
+E5	Operation:T8 Participant_Material:T41 Participant_Material:T42 Recipe_Target:T46
+T9	Operation 549 555	heated
+E6	Operation:T9 Recipe_Precursor:T48
+T10	Operation 586 592	sieved
+E7	Operation:T10 
+T11	Operation 719 723	used
+E8	Operation:T11 Recipe_Precursor:T56 Recipe_Precursor:T55 Recipe_Precursor:T64
+T12	Operation 866 874	premixed
+E9	Operation:T12 Recipe_Precursor:T66 Solvent_Material:T68
+T13	Operation 915 919	left
+E10	Operation:T13 
+T14	Operation 940 947	reached
+E11	Operation:T14 Participant_Material:T72
+T15	Operation 978 983	mixed
+E12	Operation:T15 Recipe_Precursor:T74
+T16	Operation 1029 1046	geopolymerization
+E13	Operation:T16 
+T17	Operation 1051 1060	conducted
+E14	Operation:T17 Solvent_Material:T79
+T18	Material 166 174	Al-waste
+T19	Material 179 181	FA
+T20	Material 192 198	wastes
+T21	Material 223 227	NaOH
+T22	Material-Descriptor 215 222	aqueous
+T23	Material-Descriptor 228 237	solutions
+T24	Number 241 242	5
+T25	Number 244 246	10
+T26	Number 252 254	15
+T27	Amount-Unit 255 256	M
+T28	Material 273 288	Sodium silicate
+T29	Material-Descriptor 289 298	solutions
+T30	Number 310 315	10.15
+T31	Amount-Unit 315 316	%
+T32	Nonrecipe-Material 317 321	Na2O
+T33	Number 323 328	31.38
+T34	Amount-Unit 328 329	%
+T35	Nonrecipe-Material 330 334	SiO2
+T36	Number 340 345	58.47
+T37	Amount-Unit 345 346	%
+T38	Nonrecipe-Material 347 350	H2O
+T39	Material-Descriptor 364 383	alkaline activators
+T40	Material 393 401	mixtures
+T41	Nonrecipe-Material 421 436	sodium silicate
+T42	Nonrecipe-Material 440 456	sodium hydroxide
+T43	Material-Descriptor 457 465	solution
+T44	Number 479 482	2.5
+T45	Reference 512 516	[11]
+T46	Material 501 511	geopolymer
+T47	Property-Misc 487 500	fly ash based
+T48	Material 536 544	Al-waste
+T49	Number 559 562	110
+T50	Condition-Unit 563 567	degC
+T51	Number 572 574	24
+T52	Condition-Unit 575 576	h
+T53	Number 603 606	100
+T54	Synthesis-Apparatus 607 618	mesh screen
+T55	Material 705 713	Al-waste
+T56	Material 694 696	FA
+T57	Material-Descriptor 682 690	mixtures
+T58	Number 728 729	0
+T59	Number 731 733	10
+T60	Number 735 737	20
+T61	Number 739 741	40
+T62	Number 747 749	60
+T63	Amount-Unit 750 753	wt%
+T64	Material 762 770	Al-waste
+T65	Material 784 788	NaOH
+T66	Material 816 831	sodium silicate
+T67	Material 833 840	Na2SiO3
+T68	Material 846 850	NaOH
+T69	Material-Descriptor 851 860	solutions
+T70	Synthesis-Apparatus 891 900	container
+T71	Apparatus-Descriptor 883 890	plastic
+T72	Material 930 939	solutions
+T73	Condition-Misc 948 964	room temperature
+T74	Material 1003 1011	Al-waste
+T75	Number 1067 1068	5
+T76	Number 1070 1072	10
+T77	Number 1076 1078	15
+T78	Amount-Unit 1079 1080	M
+T79	Material 1081 1085	NaOH
+T80	Material-Descriptor 1086 1095	solutions
+T81	Property-Misc 101 119	sustainable cement
+R1	Property_Of Arg1:T2 Arg2:T1	
+R2	Property_Of Arg1:T3 Arg2:T1	
+R3	Property_Of Arg1:T81 Arg2:T1	
+A1	Start_Recipe E1
+R4	Next_Operation Arg1:E1 Arg2:E2	
+R5	Next_Operation Arg1:E2 Arg2:E3	
+R6	Next_Operation Arg1:E3 Arg2:E4	
+R7	Next_Operation Arg1:E4 Arg2:E5	
+R8	Next_Operation Arg1:E5 Arg2:E6	
+R9	Next_Operation Arg1:E6 Arg2:E7	
+R10	Next_Operation Arg1:E7 Arg2:E8	
+R11	Next_Operation Arg1:E8 Arg2:E9	
+R12	Next_Operation Arg1:E9 Arg2:E10	
+R13	Next_Operation Arg1:E10 Arg2:E11	
+R14	Next_Operation Arg1:E11 Arg2:E12	
+R15	Next_Operation Arg1:E12 Arg2:E13	
+R16	Next_Operation Arg1:E13 Arg2:E14	
+A2	End_Recipe E14
+R17	Descriptor_Of Arg1:T22 Arg2:T21	
+R18	Descriptor_Of Arg1:T23 Arg2:T21	
+R19	Number_Of Arg1:T24 Arg2:T27	
+R20	Number_Of Arg1:T25 Arg2:T27	
+R21	Number_Of Arg1:T26 Arg2:T27	
+R22	Amount_Of Arg1:T27 Arg2:T21	
+R23	Descriptor_Of Arg1:T29 Arg2:T28	
+R24	Number_Of Arg1:T30 Arg2:T31	
+R25	Amount_Of Arg1:T31 Arg2:T32	
+R26	Number_Of Arg1:T33 Arg2:T34	
+R27	Amount_Of Arg1:T34 Arg2:T35	
+R28	Number_Of Arg1:T36 Arg2:T37	
+R29	Amount_Of Arg1:T37 Arg2:T38	
+R30	Descriptor_Of Arg1:T39 Arg2:T28	
+R31	Descriptor_Of Arg1:T43 Arg2:T41	
+R32	Descriptor_Of Arg1:T43 Arg2:T42	
+T82	Amount-Unit 407 413	weight
+R33	Number_Of Arg1:T44 Arg2:T82	
+R34	Amount_Of Arg1:T82 Arg2:T41	
+R35	Amount_Of Arg1:T82 Arg2:T42	
+R36	Property_Of Arg1:T47 Arg2:T46	
+R37	Number_Of Arg1:T49 Arg2:T50	
+R38	Condition_Of Arg1:T50 Arg2:E6	
+R39	Number_Of Arg1:T51 Arg2:T52	
+R40	Condition_Of Arg1:T52 Arg2:E6	
+R41	Apparatus_Of Arg1:T54 Arg2:E7	
+T83	Number 653 654	2
+R42	Descriptor_Of Arg1:T57 Arg2:T56	
+R43	Number_Of Arg1:T58 Arg2:T63	
+R44	Number_Of Arg1:T59 Arg2:T63	
+R45	Number_Of Arg1:T60 Arg2:T63	
+R46	Number_Of Arg1:T61 Arg2:T63	
+R47	Number_Of Arg1:T62 Arg2:T63	
+R48	Amount_Of Arg1:T63 Arg2:T64	
+R49	Coref_Of Arg1:T67 Arg2:T66	
+R50	Descriptor_Of Arg1:T69 Arg2:T68	
+R51	Descriptor_Of Arg1:T71 Arg2:T70	
+R52	Apparatus_Of Arg1:T70 Arg2:E9	
+R53	Condition_Of Arg1:T73 Arg2:E11	
+R54	Number_Of Arg1:T75 Arg2:T78	
+R55	Number_Of Arg1:T76 Arg2:T78	
+R56	Descriptor_Of Arg1:T80 Arg2:T79	
+R57	Number_Of Arg1:T77 Arg2:T78	
+R58	Amount_Of Arg1:T78 Arg2:T79	

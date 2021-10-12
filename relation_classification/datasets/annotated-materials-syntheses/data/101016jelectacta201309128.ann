@@ -1,0 +1,165 @@
+T1	Operation 328 339	synthesized
+E1	Operation:T1 Recipe_Target:T23 Recipe_Precursor:T24 Recipe_Precursor:T25 Solvent_Material:T26
+T3	Operation 460 465	added
+E3	Operation:T3 Solvent_Material:T27 Recipe_Precursor:T28
+T4	Operation 491 497	heated
+E4	Operation:T4 
+T5	Operation 518 526	stirring
+E5	Operation:T5 
+T6	Operation 551 561	hydrolyzed
+E6	Operation:T6 Participant_Material:T29 Solvent_Material:T30
+T7	Operation 610 616	heated
+E7	Operation:T7 
+T8	Operation 634 644	completion
+E8	Operation:T8 
+T9	Operation 697 702	added
+E9	Operation:T9 Recipe_Precursor:T31 Participant_Material:T32
+T10	Operation 733 744	transferred
+E10	Operation:T10 
+T11	Operation 804 811	carried
+E11	Operation:T11 
+T12	Operation 876 886	completion
+E12	Operation:T12 
+T13	Operation 937 945	filtered
+E13	Operation:T13 Participant_Material:T33
+T14	Operation 950 956	washed
+E14	Operation:T14 Solvent_Material:T34
+T15	Operation 1067 1073	washed
+E15	Operation:T15 Recipe_Target:T37 Recipe_Target:T38 Solvent_Material:T39 Solvent_Material:T40
+T16	Operation 1159 1164	dried
+E16	Operation:T16 
+T17	Operation 1218 1226	calcined
+E17	Operation:T17 Participant_Material:T41
+T18	Operation 1189 1194	dried
+E18	Operation:T18 
+T19	Material 40 55	sodium titanate
+T20	Material 156 160	NaOH
+T21	Material 185 212	titanium tetra isopropoxide
+T22	Material 249 257	methanol
+T23	Material 287 302	Sodium titanate
+T24	Material 374 378	NaOH
+T25	Material 396 400	TTIP
+T26	Material 405 413	methanol
+T27	Material 439 447	methanol
+T28	Material 469 473	TTIP
+T29	Material 538 546	solution
+T30	Material 578 583	water
+T31	Material 664 668	NaOH
+T32	Material 710 717	mixture
+T33	Material 921 932	precipitate
+T34	Material 972 977	water
+T35	Nonrecipe-Material 1011 1013	Na
+T36	Material 1019 1023	TiO2
+T37	Material 1029 1036	STNF80C
+T38	Material 1045 1053	STNF120C
+T39	Material 1085 1088	HCl
+T40	Material 1111 1116	water
+T41	Material 1202 1208	powder
+T42	Number 449 451	50
+T43	Number 475 478	3.0
+T44	Number 505 507	67
+T45	Number 585 589	0.72
+T46	Number 621 623	30
+T47	Number 670 672	20
+T48	Number 677 678	5
+T49	Number 819 821	80
+T50	Number 841 844	120
+T51	Number 865 867	24
+T52	Number 988 992	9-10
+T53	Number 1079 1082	0.1
+T54	Number 1127 1128	4
+T55	Number 1168 1170	70
+T56	Number 1180 1181	1
+T57	Number 1230 1233	500
+T58	Number 1243 1244	3
+T59	Amount-Unit 452 454	ml
+T60	Amount-Unit 479 480	g
+T61	Condition-Unit 508 512	degC
+T62	Amount-Unit 590 591	g
+T63	Condition-Unit 624 627	min
+T64	Amount-Unit 673 675	ml
+T65	Amount-Unit 679 682	wt%
+T66	Condition-Unit 822 826	degC
+T67	Condition-Unit 845 849	degC
+T68	Condition-Unit 868 869	h
+T69	Material 828 835	STNF80C
+T70	Material 851 859	STNF120C
+T71	Amount-Unit 1083 1084	M
+T72	Condition-Unit 1171 1175	degC
+T73	Condition-Unit 1182 1183	h
+T74	Condition-Unit 1234 1238	degC
+T75	Condition-Unit 1245 1246	h
+T76	Amount-Unit 984 986	pH
+T77	Amount-Unit 1123 1125	pH
+T78	Property-Misc 32 39	Layered
+T79	Property-Misc 56 70	nanostructures
+T80	Material-Descriptor 131 155	Analytical reagent grade
+T81	Brand 162 175	R&M Chemicals
+T82	Material 214 218	TTIP
+T83	Brand 221 234	Acros Organic
+T84	Property-Misc 303 314	nanoflowers
+T85	Material 316 321	STNFs
+T86	Material-Descriptor 385 392	mixture
+T87	Material-Descriptor 568 577	distilled
+T88	Material-Descriptor 684 692	solution
+T89	Synthesis-Apparatus 763 772	autoclave
+T90	Apparatus-Descriptor 750 762	Teflon-lined
+T2	Meta 344 365	hydrothermal reaction
+T91	Meta 778 799	hydrothermal reaction
+T92	Meta 894 915	hydrothermal reaction
+T93	Material-Descriptor 1101 1110	distilled
+R1	Next_Operation Arg1:E3 Arg2:E4	
+R2	Next_Operation Arg1:E4 Arg2:E5	
+R3	Next_Operation Arg1:E5 Arg2:E6	
+R4	Next_Operation Arg1:E6 Arg2:E7	
+R5	Next_Operation Arg1:E7 Arg2:E8	
+R6	Next_Operation Arg1:E8 Arg2:E9	
+R7	Next_Operation Arg1:E9 Arg2:E10	
+R8	Next_Operation Arg1:E10 Arg2:E11	
+R9	Next_Operation Arg1:E11 Arg2:E12	
+R10	Next_Operation Arg1:E12 Arg2:E13	
+R11	Next_Operation Arg1:E13 Arg2:E14	
+R12	Next_Operation Arg1:E14 Arg2:E15	
+R13	Next_Operation Arg1:E15 Arg2:E16	
+R14	Next_Operation Arg1:E16 Arg2:E18	
+R15	Next_Operation Arg1:E18 Arg2:E17	
+R16	Coref_Of Arg1:T85 Arg2:T23	
+R17	Condition_Of Arg1:T61 Arg2:E4	
+R18	Condition_Of Arg1:T63 Arg2:E7	
+R19	Condition_Of Arg1:T66 Arg2:E11	
+R20	Condition_Of Arg1:T67 Arg2:E11	
+R21	Condition_Of Arg1:T68 Arg2:E11	
+R22	Condition_Of Arg1:T72 Arg2:E16	
+R23	Condition_Of Arg1:T73 Arg2:E16	
+R24	Condition_Of Arg1:T74 Arg2:E17	
+R25	Condition_Of Arg1:T75 Arg2:E17	
+R26	Property_Of Arg1:T78 Arg2:T19	
+R27	Property_Of Arg1:T79 Arg2:T19	
+R28	Property_Of Arg1:T84 Arg2:T23	
+R29	Amount_Of Arg1:T59 Arg2:T27	
+R30	Amount_Of Arg1:T60 Arg2:T28	
+R31	Amount_Of Arg1:T62 Arg2:T30	
+R32	Amount_Of Arg1:T64 Arg2:T31	
+R33	Amount_Of Arg1:T65 Arg2:T31	
+R34	Amount_Of Arg1:T76 Arg2:T34	
+R35	Amount_Of Arg1:T71 Arg2:T39	
+R36	Amount_Of Arg1:T77 Arg2:T40	
+R37	Number_Of Arg1:T42 Arg2:T59	
+R38	Number_Of Arg1:T43 Arg2:T60	
+R39	Number_Of Arg1:T44 Arg2:T61	
+R40	Number_Of Arg1:T45 Arg2:T62	
+R41	Number_Of Arg1:T46 Arg2:T63	
+R42	Number_Of Arg1:T47 Arg2:T64	
+R43	Number_Of Arg1:T48 Arg2:T65	
+R44	Number_Of Arg1:T49 Arg2:T66	
+R45	Number_Of Arg1:T50 Arg2:T67	
+R46	Number_Of Arg1:T51 Arg2:T68	
+R47	Number_Of Arg1:T52 Arg2:T76	
+R48	Number_Of Arg1:T53 Arg2:T71	
+R49	Number_Of Arg1:T54 Arg2:T77	
+R50	Number_Of Arg1:T55 Arg2:T72	
+R51	Number_Of Arg1:T56 Arg2:T73	
+R52	Number_Of Arg1:T57 Arg2:T74	
+R53	Number_Of Arg1:T58 Arg2:T75	
+R54	Brand_Of Arg1:T83 Arg2:T21	
+R55	Brand_Of Arg1:T81 Arg2:T20	

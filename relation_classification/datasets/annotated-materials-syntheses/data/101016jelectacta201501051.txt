@@ -1,0 +1,3 @@
+10.1016/j.electacta.2015.01.051
+A Peanut Shell Inspired Scalable Synthesis of Three-Dimensional Carbon Coated Porous Silicon Particles as an Anode for Lithium-Ion Batteries
+The porous silicon film was treated with a liquid PAN solution (10 wt% dissolved in DMF) and ball milled for 1 h at 200 r min-1. The recipe contained 40 mg porous silicon film and 600 mg of the above liquid PAN solution. Following this, the mixed slurry was spread onto copper foil with a diameter of 14 mm for a current collector and dried for 3 h in a vacuum drying oven at 80 degC. The as-obtained PAN coated PSP electrodes were then heated in an Ar atmosphere at a rate of 5 degC min-1 to 700 degC and held for 1 h. The carbon-coated PSP loaded on per electrode is ~ 0.85 mg.

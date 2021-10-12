@@ -1,0 +1,124 @@
+T1	Operation 233 244	implemented
+E1	Operation:T1 Recipe_Target:T14
+T2	Operation 502 508	heated
+E2	Operation:T2 Participant_Material:T16 Participant_Material:T18
+T3	Operation 546 554	stirring
+E3	Operation:T3 
+T4	Operation 674 679	added
+E4	Operation:T4 Recipe_Precursor:T15 Participant_Material:T20
+T5	Operation 738 744	raised
+E5	Operation:T5 
+T6	Operation 808 815	allowed
+E6	Operation:T6 Participant_Material:T22
+T7	Operation 819 827	continue
+E7	Operation:T7 
+T8	Operation 874 880	cooled
+E8	Operation:T8 Participant_Material:T23
+T9	Operation 911 919	stirring
+E9	Operation:T9 
+T10	Operation 938 947	collected
+E10	Operation:T10 Participant_Material:T25
+T11	Operation 951 965	centrifugation
+E11	Operation:T11 
+T12	Operation 982 993	redispersed
+E12	Operation:T12 Solvent_Material:T26
+T13	Operation 1009 1019	sonicating
+E13	Operation:T13 
+T14	Material 167 173	silver
+T15	Material 644 649	AgNO3
+T16	Material 382 400	sodium borohydride
+T17	Material 402 407	NaBH4
+T18	Material 413 431	tri-sodium citrate
+T19	Material 433 436	TSC
+T20	Material 697 704	mixture
+T21	Material 768 776	solution
+T22	Material 795 803	reaction
+T23	Material 861 869	solution
+T24	Condition-Misc 889 905	room temperature
+T25	Material 929 932	NPs
+T26	Material 997 1004	ethanol
+T27	Number 342 344	90
+T28	Amount-Unit 345 347	mL
+T29	Number 454 457	2:7
+T30	Amount-Unit 445 450	ratio
+T31	Number 459 467	1 x 10-3
+T32	Amount-Unit 468 476	mol dm-3
+T33	Number 477 487	3.5 x 10-3
+T34	Amount-Unit 488 496	mol dm-3
+T35	Number 512 514	60
+T36	Condition-Unit 515 519	degC
+T37	Number 524 526	30
+T38	Condition-Unit 527 530	min
+T39	Number 558 561	300
+T40	Condition-Unit 562 565	rpm
+T41	Number 605 607	30
+T42	Condition-Unit 608 611	min
+T43	Number 613 614	4
+T44	Amount-Unit 615 617	ml
+T45	Number 651 659	4 x 10-3
+T46	Amount-Unit 660 668	mol dm-3
+T47	Number 748 750	95
+T48	Condition-Unit 751 755	degC
+T49	Number 840 842	30
+T50	Condition-Unit 843 846	min
+T51	Number 969 973	5000
+T52	Condition-Unit 974 977	rpm
+T53	Number 1024 1026	15
+T54	Condition-Unit 1027 1030	min
+T55	Property-Misc 174 177	NPs
+T56	Meta 190 228	two-step reduction synthesis procedure
+T57	Material-Descriptor 354 370	aqueous solution
+T58	Material 589 597	solution
+T59	Material-Descriptor 578 588	homogenous
+T60	Material-Descriptor 624 640	aqueous solution
+T61	Condition-Misc 680 689	drop-wise
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Next_Operation Arg1:E8 Arg2:E9	
+R8	Next_Operation Arg1:E9 Arg2:E10	
+R9	Next_Operation Arg1:E10 Arg2:E11	
+R10	Next_Operation Arg1:E11 Arg2:E12	
+R11	Next_Operation Arg1:E12 Arg2:E13	
+R12	Coref_Of Arg1:T17 Arg2:T16	
+R13	Coref_Of Arg1:T19 Arg2:T18	
+R14	Condition_Of Arg1:T36 Arg2:E2	
+R15	Condition_Of Arg1:T38 Arg2:E2	
+R16	Condition_Of Arg1:T40 Arg2:E3	
+R17	Condition_Of Arg1:T42 Arg2:E3	
+R18	Condition_Of Arg1:T61 Arg2:E4	
+R19	Condition_Of Arg1:T48 Arg2:E5	
+R20	Condition_Of Arg1:T50 Arg2:E7	
+R21	Condition_Of Arg1:T24 Arg2:E8	
+R22	Condition_Of Arg1:T52 Arg2:E11	
+R23	Condition_Of Arg1:T54 Arg2:E13	
+R24	Property_Of Arg1:T55 Arg2:T14	
+R25	Amount_Of Arg1:T28 Arg2:T16	
+R26	Amount_Of Arg1:T28 Arg2:T18	
+R27	Amount_Of Arg1:T30 Arg2:T18	
+R28	Amount_Of Arg1:T30 Arg2:T16	
+R29	Amount_Of Arg1:T32 Arg2:T16	
+R30	Amount_Of Arg1:T34 Arg2:T18	
+R31	Amount_Of Arg1:T44 Arg2:T15	
+R32	Amount_Of Arg1:T46 Arg2:T15	
+R33	Descriptor_Of Arg1:T57 Arg2:T16	
+R34	Descriptor_Of Arg1:T57 Arg2:T18	
+R35	Descriptor_Of Arg1:T59 Arg2:T58	
+R36	Descriptor_Of Arg1:T60 Arg2:T15	
+R37	Number_Of Arg1:T27 Arg2:T28	
+R38	Number_Of Arg1:T29 Arg2:T30	
+R39	Number_Of Arg1:T31 Arg2:T32	
+R40	Number_Of Arg1:T33 Arg2:T34	
+R41	Number_Of Arg1:T35 Arg2:T36	
+R42	Number_Of Arg1:T37 Arg2:T38	
+R43	Number_Of Arg1:T39 Arg2:T40	
+R44	Number_Of Arg1:T41 Arg2:T42	
+R45	Number_Of Arg1:T43 Arg2:T44	
+R46	Number_Of Arg1:T45 Arg2:T46	
+R47	Number_Of Arg1:T47 Arg2:T48	
+R48	Number_Of Arg1:T49 Arg2:T50	
+R49	Number_Of Arg1:T51 Arg2:T52	
+R50	Number_Of Arg1:T53 Arg2:T54	

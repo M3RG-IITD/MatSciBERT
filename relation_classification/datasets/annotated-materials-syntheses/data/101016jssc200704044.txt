@@ -1,0 +1,4 @@
+10.1016/j.ssc.2007.04.044
+Influence of Ni doping on the properties of perovskite molybdates SrMo1-xNixO3 (0.02<=x<=0.08)
+
+A series of polycrystalline samples of SrMo1-xNixO4(0.02<=x<=0.08) were prepared through the conventional solid-state reaction method in air. Appropriate proportions of high-purity SrCO3, MoO3, and Ni powders were thoroughly mixed according to the desired stoichiometry, and then prefired at 900 [?]C for 24 h. The obtained powders were ground, pelletized, and calcined at 1000, 1100 and 1200 [?]C for 24 h with intermediate grinding twice. White compounds, SrMo1-xNixO4, were obtained. The compounds were ground and pressed into small pellets about 10 mm diameter and 2 mm thickness. These pellets were reduced in a H2/Ar (5%: 95%) flow at 920 [?]C for 12 h, and then the deep red colored products of SrMo1-xNixO3 were obtained.

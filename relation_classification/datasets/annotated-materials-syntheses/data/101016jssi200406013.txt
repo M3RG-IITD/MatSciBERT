@@ -1,0 +1,5 @@
+10.1016/j.ssi.2004.06.013
+Synthesis and lithium ion conductivity of cubic deficient perovskites SrLi?TiTaO and the La-doped compounds
+
+Samples were prepared by a conventional solid-state reaction. Starting materials were SrCO3 (3 N), Li2CO3 (3 N), La2O3 (4 N), TiO2 (3 N), and Ta2O5 (3 N). The metal content in the La2O3 reagent was determined by quantitative chelatometry analysis using EDTA (etylenediaminetetraacetic acid). For Li2CO3, a 5-30% stoichiometric excess amount was used due to the problem of vaporization. Starting materials were mixed in an agate mortar with ethanol. The mixed powder was calcined at 1373 K for 12 h in air with intermediate grindings. The calcined powder was pressed into pellets 7 mm in diameter and 2 mm in thickness under a uniaxial pressure of 130 MPa, then fired at 1523-1623 K for 10 h in air. The identification of phases and the determination of lattice constants were carried out by a powder X-ray diffraction method with CuKa radiation using a Rigaku X-ray diffractometer (RINT 2100) equipped with a graphite monochrometer. In the determination of the lattice parameters, Si powder (5 N) was used as an internal standard.
+

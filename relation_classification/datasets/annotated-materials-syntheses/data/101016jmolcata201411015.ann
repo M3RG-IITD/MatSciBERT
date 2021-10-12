@@ -1,0 +1,169 @@
+T1	Property-Misc 30 41	Keggin type
+T2	Material 75 98	metal-organic framework
+T3	Material 42 57	heteropoly acid
+T4	Material 241 255	PMo@HKUST-1(I)
+T5	Material 257 271	PW@HKUST-1(II)
+T6	Material 276 292	SiW@HKUST-1(III)
+T7	Property-Misc 293 302	catalysts
+T8	Operation 391 399	prepared
+E1	Operation:T8 Solvent_Material:T20 Participant_Material:T19 Participant_Material:T18
+T9	Operation 543 552	dissolved
+E2	Operation:T9 Recipe_Precursor:T24 Participant_Material:T23 Participant_Material:T22 Participant_Material:T21 Solvent_Material:T26
+T10	Operation 601 609	combined
+E3	Operation:T10 Participant_Material:T67
+T11	Operation 614 619	mixed
+E4	Operation:T11 
+T13	Operation 678 682	aged
+E6	Operation:T13 
+T12	Operation 855 864	collected
+E5	Operation:T12 Participant_Material:T55
+T14	Operation 866 872	washed
+E7	Operation:T14 Solvent_Material:T56
+T15	Operation 910 915	dried
+E8	Operation:T15 
+T16	Operation 946 953	removed
+E9	Operation:T16 Participant_Material:T63 Solvent_Material:T70
+T17	Operation 1062 1067	dried
+E10	Operation:T17 Participant_Material:T75 Atmospheric_Material:T76
+T18	Material 319 322	BTC
+T19	Material 354 358	CTAB
+T20	Material 371 378	ethanol
+T21	Material 419 422	PMo
+T22	Material 441 443	PW
+T23	Material 463 466	SiW
+T24	Material 492 521	copper(II) nitrate trihydrate
+T25	Material 523 536	Cu(NO3)2*3H2O
+T26	Material 566 571	water
+T27	Number 324 328	0.21
+T28	Number 344 348	0.10
+T29	Number 332 333	1
+T30	Number 380 382	14
+T31	Number 409 413	0.06
+T32	Number 432 435	0.1
+T33	Number 454 457	0.1
+T34	Number 482 486	1.45
+T35	Number 573 575	10
+T36	Number 662 664	30
+T37	Number 714 715	2
+T38	Number 744 745	4
+T39	Amount-Unit 329 330	g
+T40	Amount-Unit 334 338	mmol
+T41	Amount-Unit 349 350	g
+T42	Amount-Unit 383 385	mL
+T43	Amount-Unit 414 415	g
+T44	Amount-Unit 436 437	g
+T45	Amount-Unit 458 459	g
+T46	Amount-Unit 487 488	g
+T47	Amount-Unit 576 578	mL
+T48	Condition-Unit 665 668	min
+T49	Condition-Unit 716 720	days
+T50	Condition-Unit 746 750	days
+T51	Condition-Misc 771 787	room temperature
+T52	Material-Descriptor 791 800	green (I)
+T53	Material-Descriptor 802 811	blue (II)
+T54	Material-Descriptor 816 832	light blue (III)
+T55	Material 833 844	precipitate
+T56	Material 888 893	water
+T57	Material-Descriptor 878 887	distilled
+T58	Number 919 921	60
+T59	Number 931 933	24
+T60	Condition-Unit 922 926	degC
+T61	Condition-Unit 934 935	h
+T62	Condition-Misc 894 905	three times
+T63	Material 937 941	CTAB
+T64	Meta 957 975	Soxhlet extraction
+T65	Nonrecipe-Material 171 179	sulfides
+T66	Material-Descriptor 362 370	absolute
+T67	Material 586 595	solutions
+T68	Condition-Misc 626 643	vigorous stirring
+T69	Condition-Misc 683 699	without stirring
+T70	Material 981 988	ethanol
+T71	Brand 990 1014	laboratory use, Chem-Lab
+T72	Number 1040 1042	24
+T73	Condition-Unit 1043 1044	h
+T74	Operation 1026 1035	performed
+E11	Operation:T74 
+T75	Material 1050 1057	product
+T76	Material 1071 1074	air
+T77	Number 1078 1080	60
+T78	Condition-Unit 1081 1085	degC
+T79	Property-Type 1091 1097	yields
+T80	Number 1103 1105	95
+T81	Property-Unit 1105 1106	%
+T82	Property-Unit 1112 1113	%
+T83	Property-Unit 1122 1123	%
+T84	Number 1108 1112	92.6
+T85	Number 1118 1122	86.4
+T86	Material 1128 1131	(I)
+T87	Material 1133 1137	(II)
+T88	Material 1142 1147	(III)
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E5	
+R6	Next_Operation Arg1:E5 Arg2:E7	
+R7	Next_Operation Arg1:E7 Arg2:E8	
+R8	Next_Operation Arg1:E8 Arg2:E9	
+R9	Next_Operation Arg1:E9 Arg2:E11	
+R10	Next_Operation Arg1:E11 Arg2:E10	
+R11	Property_Of Arg1:T1 Arg2:T3	
+R12	Property_Of Arg1:T7 Arg2:T6	
+R13	Property_Of Arg1:T7 Arg2:T5	
+R14	Property_Of Arg1:T7 Arg2:T4	
+R15	Number_Of Arg1:T27 Arg2:T39	
+R16	Amount_Of Arg1:T39 Arg2:T18	
+T89	Operation 228 237	synthesis
+E12	Operation:T89 Recipe_Target:T4 Recipe_Target:T5 Recipe_Target:T6
+R17	Number_Of Arg1:T29 Arg2:T40	
+R18	Amount_Of Arg1:T40 Arg2:T18	
+R19	Number_Of Arg1:T28 Arg2:T41	
+R20	Descriptor_Of Arg1:T66 Arg2:T20	
+R21	Amount_Of Arg1:T41 Arg2:T19	
+R22	Number_Of Arg1:T30 Arg2:T42	
+R23	Amount_Of Arg1:T42 Arg2:T20	
+R24	Number_Of Arg1:T31 Arg2:T43	
+R25	Amount_Of Arg1:T43 Arg2:T21	
+R26	Number_Of Arg1:T32 Arg2:T44	
+R27	Amount_Of Arg1:T44 Arg2:T22	
+R28	Number_Of Arg1:T33 Arg2:T45	
+R29	Amount_Of Arg1:T45 Arg2:T23	
+R30	Number_Of Arg1:T34 Arg2:T46	
+R31	Amount_Of Arg1:T46 Arg2:T24	
+R32	Coref_Of Arg1:T25 Arg2:T24	
+T90	Material-Descriptor 556 565	distilled
+R33	Descriptor_Of Arg1:T90 Arg2:T26	
+R34	Number_Of Arg1:T35 Arg2:T47	
+R35	Amount_Of Arg1:T47 Arg2:T26	
+R36	Condition_Of Arg1:T68 Arg2:E4	
+R37	Number_Of Arg1:T36 Arg2:T48	
+R38	Condition_Of Arg1:T48 Arg2:E4	
+R39	Condition_Of Arg1:T69 Arg2:E6	
+R40	Number_Of Arg1:T37 Arg2:T49	
+R41	Condition_Of Arg1:T49 Arg2:E6	
+R42	Number_Of Arg1:T38 Arg2:T50	
+R43	Condition_Of Arg1:T50 Arg2:E6	
+R44	Condition_Of Arg1:T51 Arg2:E6	
+R45	Descriptor_Of Arg1:T52 Arg2:T55	
+R46	Descriptor_Of Arg1:T53 Arg2:T55	
+R47	Descriptor_Of Arg1:T54 Arg2:T55	
+R48	Descriptor_Of Arg1:T57 Arg2:T56	
+R49	Condition_Of Arg1:T62 Arg2:E7	
+R50	Number_Of Arg1:T58 Arg2:T60	
+R51	Number_Of Arg1:T59 Arg2:T61	
+R52	Condition_Of Arg1:T60 Arg2:E8	
+R53	Condition_Of Arg1:T61 Arg2:E8	
+R54	Brand_Of Arg1:T71 Arg2:T70	
+R55	Number_Of Arg1:T72 Arg2:T73	
+R56	Condition_Of Arg1:T73 Arg2:E11	
+R57	Number_Of Arg1:T77 Arg2:T78	
+R58	Condition_Of Arg1:T78 Arg2:E10	
+R59	Number_Of Arg1:T80 Arg2:T81	
+R60	Number_Of Arg1:T84 Arg2:T82	
+R61	Number_Of Arg1:T85 Arg2:T83	
+R62	Type_Of Arg1:T79 Arg2:T81	
+R63	Type_Of Arg1:T79 Arg2:T82	
+R64	Type_Of Arg1:T79 Arg2:T83	
+R65	Property_Of Arg1:T81 Arg2:T86	
+R66	Property_Of Arg1:T82 Arg2:T87	
+R67	Property_Of Arg1:T83 Arg2:T88	

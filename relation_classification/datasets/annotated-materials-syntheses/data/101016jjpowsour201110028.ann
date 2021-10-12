@@ -1,0 +1,46 @@
+T1	Operation 177 185	prepared
+E1	Operation:T1 Recipe_Target:T7 Recipe_Precursor:T9 Recipe_Precursor:T10 Recipe_Precursor:T11
+T2	Operation 264 270	ground
+E2	Operation:T2 Participant_Material:T12
+T3	Operation 275 283	sintered
+E3	Operation:T3 
+T4	Operation 306 314	followed
+E4	Operation:T4 
+T5	Operation 318 329	re-grinding
+E5	Operation:T5 
+T6	Operation 342 348	firing
+E6	Operation:T6 Atmospheric_Material:T23
+T7	Material 149 165	Sr0.7Ho0.3CoO3-δ
+T8	Material 167 171	SHCO
+T9	Material 219 224	SrCO3
+T10	Material 226 231	Co3O4
+T11	Material 236 241	Ho2O3
+T12	Material 250 258	mixtures
+T13	Property-Misc 133 148	Polycrystalline
+T14	Amount-Misc 193 215	stoichiometric mixture
+T15	Number 287 291	1100
+T16	Condition-Unit 292 296	degC
+T17	Number 301 303	12
+T18	Condition-Unit 304 305	h
+T19	Number 352 356	1100
+T20	Condition-Unit 357 361	degC
+T21	Number 366 368	48
+T22	Condition-Unit 369 370	h
+T23	Material 374 377	air
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Coref_Of Arg1:T8 Arg2:T7	
+R6	Condition_Of Arg1:T16 Arg2:E3	
+R7	Condition_Of Arg1:T18 Arg2:E3	
+R8	Condition_Of Arg1:T20 Arg2:E6	
+R9	Condition_Of Arg1:T22 Arg2:E6	
+R10	Property_Of Arg1:T13 Arg2:T7	
+R11	Amount_Of Arg1:T14 Arg2:T9	
+R12	Amount_Of Arg1:T14 Arg2:T10	
+R13	Amount_Of Arg1:T14 Arg2:T11	
+R14	Number_Of Arg1:T15 Arg2:T16	
+R15	Number_Of Arg1:T17 Arg2:T18	
+R16	Number_Of Arg1:T19 Arg2:T20	
+R17	Number_Of Arg1:T21 Arg2:T22	

@@ -1,0 +1,502 @@
+T1	Material 60 80	rubber/silica hybrid
+T2	Property-Misc 52 59	acrylic
+T3	Property-Misc 81 91	composites
+T4	Meta 104 111	sol-gel
+T5	Material 130 136	rubber
+T6	Material-Descriptor 122 129	Acrylic
+T7	Brand 143 153	Nipol AR51
+T8	Material 138 141	ACM
+T9	Property-Type 155 162	density
+T10	Property-Type 188 204	Mooney viscosity
+T11	Property-Unit 180 186	kg/cm3
+T12	Number 175 179	1100
+T13	Property-Type 166 172	25degC
+T14	Property-Unit 206 211	ML1+4
+T15	Property-Type 215 222	100degC
+T16	Number 225 227	51
+T17	Operation 233 241	obtained
+E1	Operation:T17 Recipe_Precursor:T5
+T18	Brand 247 266	Nippon Zeon Co. Ltd
+T19	Material 366 383	Tetraethoxysilane
+T20	Operation 416 424	procured
+E2	Operation:T20 Recipe_Precursor:T19
+T21	Operation 488 497	purchased
+E3	Operation:T21 Solvent_Material:T107
+T22	Operation 629 637	supplied
+E4	Operation:T22 Recipe_Precursor:T111
+T23	Operation 700 709	purchased
+E5	Operation:T23 Recipe_Precursor:T119
+T24	Operation 790 798	supplied
+E6	Operation:T24 Recipe_Precursor:T123
+T25	Operation 857 865	prepared
+E7	Operation:T25 Participant_Material:T126
+T26	Operation 887 895	reacting
+E8	Operation:T26 Recipe_Precursor:T128 Recipe_Precursor:T129 Solvent_Material:T131
+T27	Operation 1019 1028	confirmed
+E9	Operation:T27 
+T28	Operation 1187 1195	obtained
+E10	Operation:T28 Solvent_Material:T138
+T29	Operation 1251 1260	dissolved
+E11	Operation:T29 Recipe_Precursor:T144 Solvent_Material:T145
+T30	Operation 1319 1329	maintained
+E12	Operation:T30 Participant_Material:T148 Participant_Material:T147
+T31	Operation 1379 1385	retain
+E13	Operation:T31 
+T32	Operation 1542 1547	mixed
+E14	Operation:T32 Solvent_Material:T153 Solvent_Material:T151 Recipe_Precursor:T150
+T33	Operation 1560 1568	stirring
+E15	Operation:T33 
+T34	Operation 1605 1610	added
+E16	Operation:T34 Participant_Material:T160 Participant_Material:T161
+T35	Operation 1640 1648	stirring
+E17	Operation:T35 
+T36	Operation 1784 1792	occurred
+E18	Operation:T36 
+T37	Operation 1811 1815	used
+E19	Operation:T37 
+T38	Operation 1879 1888	preparing
+E20	Operation:T38 Participant_Material:T171
+T39	Operation 1908 1915	stirred
+E21	Operation:T39 Participant_Material:T172
+T40	Operation 1936 1942	poured
+E22	Operation:T40 
+T41	Operation 1973 1980	cleaned
+E23	Operation:T41 
+T42	Operation 2037 2044	carried
+E24	Operation:T42 Participant_Material:T179
+T43	Operation 2124 2135	evaporation
+E25	Operation:T43 
+T44	Operation 2162 2168	remove
+E26	Operation:T44 Participant_Material:T182 Participant_Material:T183
+T45	Operation 2255 2260	taken
+E27	Operation:T45 Participant_Material:T188
+T46	Operation 2327 2334	noticed
+E28	Operation:T46 
+T47	Operation 2151 2158	allowed
+E29	Operation:T47 
+T48	Operation 2419 2427	prepared
+E30	Operation:T48 Participant_Material:T190 Recipe_Precursor:T191
+T49	Operation 2474 2481	loading
+E31	Operation:T49 
+T50	Operation 2576 2581	dried
+E32	Operation:T50 Recipe_Precursor:T194
+T51	Operation 2611 2620	dispersed
+E33	Operation:T51 Participant_Material:T198
+T52	Operation 2780 2785	added
+E34	Operation:T52 Participant_Material:T207 Participant_Material:T208
+T53	Operation 2846 2850	used
+E35	Operation:T53 Recipe_Precursor:T212
+T54	Operation 2880 2885	mixed
+E36	Operation:T54 
+T55	Operation 2905 2915	comprising
+E37	Operation:T55 Recipe_Precursor:T213 Recipe_Precursor:T214 Participant_Material:T215
+T56	Operation 2996 3008	Optimization
+E38	Operation:T56 
+T57	Operation 3059 3066	carried
+E39	Operation:T57 
+T58	Operation 3074 3082	studying
+E40	Operation:T58 Solvent_Material:T211
+T59	Operation 3166 3172	mixing
+E41	Operation:T59 Recipe_Precursor:T220 Solvent_Material:T221 Solvent_Material:T222 Recipe_Precursor:T223
+T60	Operation 3249 3258	dispersed
+E42	Operation:T60 Participant_Material:T226
+T61	Operation 3293 3300	stirred
+E43	Operation:T61 
+T62	Operation 3335 3341	mixing
+E44	Operation:T62 
+T63	Operation 3358 3362	cast
+E45	Operation:T63 Participant_Material:T230
+T64	Operation 3402 3406	kept
+E46	Operation:T64 
+T65	Operation 3430 3441	evaporation
+E47	Operation:T65 Participant_Material:T234
+T66	Operation 3512 3516	kept
+E48	Operation:T66 Participant_Material:T236
+T67	Operation 3551 3557	curing
+E49	Operation:T67 
+T68	Operation 3586 3591	mixed
+E50	Operation:T68 Participant_Material:T242
+T69	Operation 3616 3621	cured
+E51	Operation:T69 
+T70	Operation 3671 3680	optimized
+E52	Operation:T70 
+T71	Number 401 404	930
+T72	Number 474 476	99
+T73	Brand 430 444	Acros Organics
+T74	Brand 503 508	Merck
+T75	Number 579 585	40-100
+T76	Number 607 610	2.4
+T77	Number 622 623	6
+T78	Brand 641 649	Bayer AG
+T79	Number 684 686	97
+T80	Brand 715 732	Aldrich Chemicals
+T81	Brand 802 812	Nicco Corp
+T82	Number 935 938	1:1
+T83	Number 977 979	60
+T84	Number 988 990	30
+T85	Number 1339 1345	1 : 10
+T86	Number 1511 1523	1 : 2 : 0.06
+T87	Reference 1524 1526	15
+T88	Number 1573 1575	15
+T89	Number 1716 1723	0 to 50
+T90	Number 1748 1750	50
+T91	Number 1920 1922	30
+T92	Number 2081 2083	24
+T93	Number 2140 2141	4
+T94	Number 2459 2461	30
+T95	Number 2585 2588	120
+T96	Number 2597 2599	24
+T97	Number 3219 3221	30
+T98	Number 3313 3315	30
+T99	Number 3446 3448	24
+T100	Number 3532 3534	70
+T101	Number 3543 3544	2
+T102	Number 3625 3628	170
+T103	Number 3637 3639	30
+T104	Material 385 389	TEOS
+T105	Property-Unit 405 410	kg/m3
+T106	Property-Type 391 398	density
+T107	Material 452 467	Tetrahydrofuran
+T108	Material 469 472	THF
+T109	Amount-Unit 476 477	%
+T110	Amount-Misc 478 482	pure
+T111	Material 535 541	silica
+T112	Material-Descriptor 522 534	precipitated
+T113	Material 543 555	Ultrasil VN3
+T114	Property-Type 557 576	particle size range
+T115	Property-Unit 586 588	nm
+T116	Property-Type 590 604	oil absorption
+T117	Property-Unit 611 615	g/kg
+T118	Condition-Unit 617 619	pH
+T119	Material 661 677	Benzoyl peroxide
+T120	Material 679 682	BPO
+T121	Amount-Unit 686 687	%
+T122	Amount-Misc 688 694	purity
+T123	Material 740 770	Hexamethylenediamine carbamate
+T124	Material 772 776	HMDC
+T125	Brand 778 784	DIAK#1
+T126	Material 828 845	Ammonium benzoate
+T127	Material 847 851	AmBz
+T128	Material 896 914	ammonium hydroxide
+T129	Material 919 931	benzoic acid
+T130	Amount-Unit 939 950	molar ratio
+T131	Material 956 961	water
+T132	Synthesis-Apparatus 962 966	bath
+T133	Condition-Unit 979 983	degC
+T134	Condition-Unit 991 994	min
+T135	Operation 1005 1014	formation
+E53	Operation:T135 Participant_Material:T136
+T136	Material 1000 1004	salt
+T137	Characterization-Apparatus 1032 1071	Fourier transform infrared spectroscopy
+T138	Material 1121 1126	water
+T139	Material-Descriptor 1111 1120	Deionized
+T140	Material 1144 1161	hydrochloric acid
+T141	Material-Descriptor 1131 1143	concentrated
+T142	Amount-Misc 1165 1181	laboratory grade
+T143	Amount-Misc 1225 1239	desired amount
+T144	Material 1243 1246	ACM
+T145	Material 1264 1267	THF
+T146	Material-Descriptor 1268 1275	solvent
+T147	Nonrecipe-Material 1297 1303	rubber
+T148	Nonrecipe-Material 1307 1314	solvent
+T149	Property-Type 1398 1407	viscosity
+T150	Material 1432 1436	TEOS
+T151	Material 1448 1453	water
+T152	Material-Descriptor 1438 1447	deionized
+T153	Material 1472 1475	HCl
+T154	Material-Descriptor 1459 1471	concentrated
+T155	Material-Descriptor 1479 1487	catalyst
+T156	Amount-Unit 1496 1507	molar ratio
+T157	Condition-Misc 1532 1541	throughly
+T158	Condition-Misc 1551 1559	vigorous
+T159	Condition-Unit 1576 1579	min
+T160	Material 1593 1600	mixture
+T161	Material 1618 1624	rubber
+T162	Material-Descriptor 1625 1633	solution
+T163	Condition-Misc 1663 1682	ambient temperature
+T164	Material 1702 1706	TEOS
+T165	Amount-Unit 1724 1728	wt %
+T166	Material 1736 1739	ACM
+T167	Amount-Unit 1751 1755	wt %
+T168	Material 1756 1760	TEOS
+T169	Operation 1773 1783	separation
+E54	Operation:T169 Recipe_Precursor:T168
+T170	Condition-Misc 1762 1772	macrophase
+T171	Material 1856 1874	precursor solution
+T172	Material 1893 1903	composites
+T173	Condition-Unit 1923 1926	min
+T174	Condition-Misc 1950 1957	uniform
+T175	Condition-Misc 1962 1972	thoroughly
+T176	Synthesis-Apparatus 1987 1992	plate
+T177	Apparatus-Descriptor 1981 1986	glass
+T178	Operation 2006 2017	evaporation
+E55	Operation:T178 
+T179	Material 2025 2032	solvent
+T180	Condition-Unit 2084 2085	h
+T181	Condition-Unit 2142 2146	days
+T182	Material 2182 2189	solvent
+T183	Material 2194 2204	byproducts
+T184	Material 2206 2211	water
+T185	Material 2216 2223	ethanol
+T186	Material-Descriptor 2173 2181	residual
+T187	Operation 2238 2245	gelling
+E56	Operation:T187 
+T188	Material 2312 2322	composites
+T189	Material-Descriptor 2305 2311	hybrid
+T190	Material 2398 2408	composites
+T191	Material 2446 2452	silica
+T192	Material-Descriptor 2433 2445	precipitated
+T193	Amount-Unit 2462 2466	wt %
+T194	Material 2555 2561	silica
+T195	Material-Descriptor 2542 2554	precipitated
+T196	Condition-Unit 2588 2592	degC
+T197	Condition-Unit 2600 2601	h
+T198	Material 2628 2631	ACM
+T199	Material-Descriptor 2632 2640	solution
+T200	Material 2650 2659	composite
+T201	Material-Descriptor 2660 2665	films
+T202	Material 2684 2690	silica
+T203	Material-Descriptor 2671 2683	precipitated
+T204	Material-Descriptor 2696 2702	opaque
+T205	Material-Descriptor 2718 2723	white
+T206	Property-Type 2727 2732	color
+T207	Material 2765 2774	curatives
+T208	Material 2802 2808	rubber
+T209	Material-Descriptor 2793 2801	solvated
+T210	Reference 2993 2995	16
+T211	Material 3110 3113	THF
+T212	Material 2870 2873	BPO
+T213	Material 2916 2920	AmBz
+T214	Material 2925 2929	HMDC
+T215	Material 2968 2974	rubber
+T216	Material-Descriptor 2960 2967	acrylic
+T217	Operation 3115 3123	Addition
+E57	Operation:T217 Participant_Material:T218
+T218	Material 3127 3136	curatives
+T219	Condition-Misc 3157 3165	complete
+T220	Material 3176 3180	TEOS
+T221	Material 3182 3187	water
+T222	Material 3193 3196	HCl
+T223	Material 3211 3214	ACM
+T224	Material-Descriptor 3202 3210	solvated
+T225	Condition-Unit 3222 3225	min
+T226	Material 3231 3243	crosslinkers
+T227	Condition-Misc 3265 3272	ambient
+T228	Condition-Unit 3316 3319	min
+T229	Condition-Misc 3324 3334	homogenous
+T230	Material 3347 3352	films
+T231	Synthesis-Apparatus 3382 3387	plate
+T232	Apparatus-Descriptor 3370 3381	plain glass
+T233	Condition-Misc 3411 3421	controlled
+T234	Material 3422 3429	solvent
+T235	Condition-Unit 3449 3450	h
+T236	Material 3491 3500	composite
+T237	Material-Descriptor 3501 3506	films
+T238	Material-Descriptor 3471 3490	peroxide-containing
+T239	Synthesis-Apparatus 3524 3528	oven
+T240	Condition-Unit 3534 3538	degC
+T241	Condition-Unit 3545 3546	h
+T242	Material 3571 3578	samples
+T243	Condition-Unit 3628 3632	degC
+T244	Condition-Unit 3640 3643	min
+R1	Property_Of Arg1:T2 Arg2:T1	
+R2	Property_Of Arg1:T3 Arg2:T1	
+R3	Descriptor_Of Arg1:T6 Arg2:T5	
+R4	Coref_Of Arg1:T8 Arg2:T5	
+R5	Brand_Of Arg1:T7 Arg2:T5	
+A1	Start_Recipe E1
+T245	Nonrecipe-Material 308 318	epoxy cure
+T246	Nonrecipe-Material 342 356	ethyl acrylate
+T247	Material-Descriptor 357 364	monomer
+R6	Next_Operation Arg1:E1 Arg2:E2	
+R7	Next_Operation Arg1:E2 Arg2:E3	
+R8	Next_Operation Arg1:E3 Arg2:E4	
+R9	Next_Operation Arg1:E4 Arg2:E5	
+R10	Next_Operation Arg1:E5 Arg2:E6	
+R11	Next_Operation Arg1:E6 Arg2:E7	
+R12	Next_Operation Arg1:E7 Arg2:E8	
+R13	Next_Operation Arg1:E8 Arg2:E53	
+R14	Next_Operation Arg1:E53 Arg2:E9	
+R15	Next_Operation Arg1:E9 Arg2:E10	
+R16	Next_Operation Arg1:E10 Arg2:E11	
+R17	Next_Operation Arg1:E11 Arg2:E12	
+R18	Next_Operation Arg1:E12 Arg2:E13	
+R19	Next_Operation Arg1:E13 Arg2:E14	
+R20	Next_Operation Arg1:E14 Arg2:E15	
+R21	Next_Operation Arg1:E15 Arg2:E16	
+R22	Next_Operation Arg1:E16 Arg2:E17	
+R23	Next_Operation Arg1:E17 Arg2:E54	
+R24	Next_Operation Arg1:E54 Arg2:E18	
+R25	Next_Operation Arg1:E18 Arg2:E19	
+R26	Next_Operation Arg1:E19 Arg2:E20	
+R27	Next_Operation Arg1:E20 Arg2:E21	
+R28	Next_Operation Arg1:E21 Arg2:E22	
+R29	Next_Operation Arg1:E22 Arg2:E23	
+R30	Next_Operation Arg1:E23 Arg2:E55	
+R31	Next_Operation Arg1:E55 Arg2:E24	
+R32	Next_Operation Arg1:E24 Arg2:E25	
+R33	Next_Operation Arg1:E25 Arg2:E29	
+R34	Next_Operation Arg1:E29 Arg2:E26	
+R35	Next_Operation Arg1:E26 Arg2:E56	
+R36	Next_Operation Arg1:E56 Arg2:E27	
+R37	Next_Operation Arg1:E27 Arg2:E28	
+R38	Next_Operation Arg1:E28 Arg2:E30	
+R39	Next_Operation Arg1:E30 Arg2:E31	
+R40	Next_Operation Arg1:E31 Arg2:E32	
+R41	Next_Operation Arg1:E32 Arg2:E33	
+R42	Next_Operation Arg1:E33 Arg2:E34	
+R43	Next_Operation Arg1:E34 Arg2:E35	
+R44	Next_Operation Arg1:E35 Arg2:E36	
+R45	Next_Operation Arg1:E36 Arg2:E37	
+R46	Next_Operation Arg1:E37 Arg2:E38	
+R47	Next_Operation Arg1:E38 Arg2:E39	
+R48	Next_Operation Arg1:E39 Arg2:E40	
+R49	Next_Operation Arg1:E40 Arg2:E57	
+R50	Next_Operation Arg1:E57 Arg2:E41	
+R51	Next_Operation Arg1:E41 Arg2:E42	
+R52	Next_Operation Arg1:E42 Arg2:E43	
+R53	Next_Operation Arg1:E43 Arg2:E44	
+R54	Next_Operation Arg1:E44 Arg2:E45	
+R55	Next_Operation Arg1:E45 Arg2:E46	
+R56	Next_Operation Arg1:E46 Arg2:E47	
+R57	Next_Operation Arg1:E47 Arg2:E48	
+R58	Next_Operation Arg1:E48 Arg2:E49	
+R59	Next_Operation Arg1:E49 Arg2:E50	
+R60	Next_Operation Arg1:E50 Arg2:E52	
+A2	End_Recipe E52
+T248	Condition-Type 3655 3665	cure times
+R61	Number_Of Arg1:T12 Arg2:T11	
+R62	Type_Of Arg1:T13 Arg2:T11	
+R63	Type_Of Arg1:T9 Arg2:T11	
+R64	Property_Of Arg1:T11 Arg2:T5	
+R65	Number_Of Arg1:T16 Arg2:T14	
+R66	Type_Of Arg1:T15 Arg2:T14	
+R67	Type_Of Arg1:T10 Arg2:T14	
+R68	Property_Of Arg1:T14 Arg2:T5	
+R69	Brand_Of Arg1:T18 Arg2:T5	
+R70	Descriptor_Of Arg1:T247 Arg2:T246	
+R71	Coref_Of Arg1:T104 Arg2:T19	
+R72	Type_Of Arg1:T106 Arg2:T105	
+R73	Number_Of Arg1:T71 Arg2:T105	
+R74	Property_Of Arg1:T105 Arg2:T19	
+R75	Brand_Of Arg1:T73 Arg2:T19	
+R76	Coref_Of Arg1:T108 Arg2:T107	
+R77	Number_Of Arg1:T72 Arg2:T109	
+R78	Amount_Of Arg1:T110 Arg2:T107	
+R79	Amount_Of Arg1:T109 Arg2:T107	
+R80	Brand_Of Arg1:T74 Arg2:T107	
+R81	Descriptor_Of Arg1:T112 Arg2:T111	
+R82	Coref_Of Arg1:T113 Arg2:T111	
+R83	Number_Of Arg1:T75 Arg2:T115	
+R84	Type_Of Arg1:T114 Arg2:T115	
+R85	Property_Of Arg1:T115 Arg2:T111	
+R86	Number_Of Arg1:T76 Arg2:T117	
+R87	Type_Of Arg1:T116 Arg2:T117	
+R88	Number_Of Arg1:T77 Arg2:T118	
+R89	Condition_Of Arg1:T118 Arg2:E4	
+R90	Property_Of Arg1:T117 Arg2:T111	
+R91	Brand_Of Arg1:T78 Arg2:T111	
+R92	Number_Of Arg1:T79 Arg2:T121	
+R93	Coref_Of Arg1:T120 Arg2:T119	
+R94	Amount_Of Arg1:T121 Arg2:T119	
+R95	Amount_Of Arg1:T122 Arg2:T119	
+R96	Brand_Of Arg1:T80 Arg2:T119	
+R97	Coref_Of Arg1:T124 Arg2:T123	
+R98	Brand_Of Arg1:T125 Arg2:T123	
+R99	Brand_Of Arg1:T81 Arg2:T123	
+R100	Coref_Of Arg1:T127 Arg2:T126	
+R101	Number_Of Arg1:T82 Arg2:T130	
+R102	Amount_Of Arg1:T130 Arg2:T128	
+R103	Amount_Of Arg1:T130 Arg2:T129	
+R104	Apparatus_Of Arg1:T132 Arg2:E8	
+R105	Number_Of Arg1:T83 Arg2:T133	
+R106	Condition_Of Arg1:T133 Arg2:E8	
+R107	Number_Of Arg1:T84 Arg2:T134	
+R108	Condition_Of Arg1:T134 Arg2:E8	
+R109	Apparatus_Of Arg1:T137 Arg2:E9	
+R110	Descriptor_Of Arg1:T139 Arg2:T138	
+R111	Descriptor_Of Arg1:T141 Arg2:T140	
+T249	Property-Type 1099 1109	solubility
+R112	Amount_Of Arg1:T142 Arg2:T140	
+R113	Amount_Of Arg1:T142 Arg2:T138	
+R114	Amount_Of Arg1:T143 Arg2:T144	
+R115	Descriptor_Of Arg1:T146 Arg2:T145	
+R116	Descriptor_Of Arg1:T152 Arg2:T151	
+R117	Descriptor_Of Arg1:T154 Arg2:T153	
+R118	Descriptor_Of Arg1:T155 Arg2:T153	
+R119	Number_Of Arg1:T86 Arg2:T156	
+R120	Condition_Of Arg1:T157 Arg2:E14	
+R121	Amount_Of Arg1:T156 Arg2:T153	
+R122	Amount_Of Arg1:T156 Arg2:T151	
+R123	Amount_Of Arg1:T156 Arg2:T150	
+R124	Condition_Of Arg1:T158 Arg2:E15	
+R125	Number_Of Arg1:T88 Arg2:T159	
+R126	Condition_Of Arg1:T159 Arg2:E15	
+R127	Descriptor_Of Arg1:T162 Arg2:T161	
+R128	Condition_Of Arg1:T163 Arg2:E17	
+R129	Number_Of Arg1:T89 Arg2:T165	
+R130	Amount_Of Arg1:T165 Arg2:T166	
+R131	Number_Of Arg1:T90 Arg2:T167	
+R132	Amount_Of Arg1:T167 Arg2:T168	
+R133	Condition_Of Arg1:T170 Arg2:E54	
+R134	Number_Of Arg1:T91 Arg2:T173	
+R135	Condition_Of Arg1:T173 Arg2:E21	
+R136	Condition_Of Arg1:T174 Arg2:E22	
+R137	Condition_Of Arg1:T175 Arg2:E23	
+R138	Descriptor_Of Arg1:T177 Arg2:T176	
+R139	Apparatus_Of Arg1:T176 Arg2:E22	
+R140	Number_Of Arg1:T92 Arg2:T180	
+R141	Condition_Of Arg1:T180 Arg2:E55	
+R142	Number_Of Arg1:T93 Arg2:T181	
+R143	Condition_Of Arg1:T181 Arg2:E25	
+R144	Descriptor_Of Arg1:T186 Arg2:T182	
+R145	Coref_Of Arg1:T184 Arg2:T183	
+R146	Coref_Of Arg1:T185 Arg2:T183	
+T250	Condition-Type 2246 2250	time
+R147	Descriptor_Of Arg1:T189 Arg2:T188	
+T251	Material 2344 2349	films
+T252	Property-Misc 2355 2366	transparent
+T253	Property-Type 2370 2380	appearance
+R148	Property_Of Arg1:T252 Arg2:T251	
+R149	Descriptor_Of Arg1:T192 Arg2:T191	
+R150	Number_Of Arg1:T94 Arg2:T193	
+R151	Amount_Of Arg1:T193 Arg2:T191	
+T254	Material 2510 2514	film
+T255	Material-Descriptor 2524 2535	homogeneity
+R152	Descriptor_Of Arg1:T255 Arg2:T254	
+R153	Descriptor_Of Arg1:T195 Arg2:T194	
+R154	Number_Of Arg1:T95 Arg2:T196	
+R155	Condition_Of Arg1:T196 Arg2:E32	
+R156	Number_Of Arg1:T96 Arg2:T197	
+R157	Condition_Of Arg1:T197 Arg2:E32	
+R158	Descriptor_Of Arg1:T199 Arg2:T198	
+R159	Descriptor_Of Arg1:T201 Arg2:T200	
+R160	Descriptor_Of Arg1:T203 Arg2:T202	
+R161	Descriptor_Of Arg1:T204 Arg2:T202	
+R162	Descriptor_Of Arg1:T205 Arg2:T202	
+R163	Descriptor_Of Arg1:T209 Arg2:T208	
+R164	Descriptor_Of Arg1:T216 Arg2:T215	
+R165	Condition_Of Arg1:T219 Arg2:E41	
+R166	Descriptor_Of Arg1:T224 Arg2:T223	
+R167	Number_Of Arg1:T97 Arg2:T225	
+R168	Condition_Of Arg1:T225 Arg2:E41	
+R169	Condition_Of Arg1:T227 Arg2:E42	
+R170	Number_Of Arg1:T98 Arg2:T228	
+R171	Condition_Of Arg1:T228 Arg2:E43	
+R172	Condition_Of Arg1:T229 Arg2:E44	
+R173	Descriptor_Of Arg1:T232 Arg2:T231	
+R174	Apparatus_Of Arg1:T231 Arg2:E45	
+R175	Condition_Of Arg1:T233 Arg2:E46	
+R176	Number_Of Arg1:T99 Arg2:T235	
+R177	Condition_Of Arg1:T235 Arg2:E47	
+R178	Descriptor_Of Arg1:T238 Arg2:T236	
+R179	Descriptor_Of Arg1:T237 Arg2:T236	
+R180	Apparatus_Of Arg1:T239 Arg2:E48	
+R181	Number_Of Arg1:T100 Arg2:T240	
+R182	Condition_Of Arg1:T240 Arg2:E48	
+R183	Number_Of Arg1:T101 Arg2:T241	
+R184	Condition_Of Arg1:T241 Arg2:E48	
+R185	Number_Of Arg1:T102 Arg2:T243	
+R186	Condition_Of Arg1:T243 Arg2:E51	
+R187	Number_Of Arg1:T103 Arg2:T244	
+R188	Condition_Of Arg1:T244 Arg2:E51	

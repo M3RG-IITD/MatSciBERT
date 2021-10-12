@@ -1,0 +1,454 @@
+T1	Material 117 127	geopolymer
+T2	Property-Misc 99 116	palm oil fuel ash
+T3	Property-Misc 128 140	cement paste
+T4	Property-Type 69 84	microstructural
+T5	Property-Type 54 64	mechanical
+T6	Material 145 162	palm oil fuel ash
+T7	Material 164 168	POFA
+T8	Operation 171 179	obtained
+E1	Operation:T8 Recipe_Precursor:T6
+T9	Operation 185 192	burning
+E2	Operation:T9 Participant_Material:T230 Participant_Material:T231
+T10	Operation 234 243	collected
+E3	Operation:T10 
+T11	Operation 326 331	dried
+E4	Operation:T11 Recipe_Precursor:T107
+T12	Operation 360 366	sieved
+E5	Operation:T12 
+T13	Operation 390 396	remove
+E6	Operation:T13 Participant_Material:T114
+T14	Operation 490 496	ground
+E7	Operation:T14 
+T15	Operation 569 577	grinding
+E8	Operation:T15 
+T16	Operation 1056 1062	chosen
+E9	Operation:T16 Solvent_Material:T139 Solvent_Material:T138
+T17	Operation 1229 1235	chosen
+E10	Operation:T17 Recipe_Precursor:T147 Participant_Material:T151 Participant_Material:T153 Participant_Material:T155
+T18	Operation 1343 1348	based
+E11	Operation:T18 Participant_Material:T234
+T19	Operation 1437 1445	prepared
+E12	Operation:T19 Participant_Material:T166
+T20	Operation 1449 1455	mixing
+E13	Operation:T20 Recipe_Precursor:T168 Solvent_Material:T169
+T21	Operation 1488 1494	ranged
+E14	Operation:T21 
+T22	Operation 1550 1559	conducted
+E15	Operation:T22 Recipe_Precursor:T156
+T23	Operation 1608 1616	revealed
+E16	Operation:T23 Recipe_Precursor:T157
+T24	Operation 1654 1661	sieving
+E17	Operation:T24 
+T25	Operation 1666 1674	grinding
+E18	Operation:T25 
+T26	Operation 1834 1842	designed
+E19	Operation:T26 
+T27	Operation 1855 1866	investigate
+E20	Operation:T27 Recipe_Precursor:T160
+T28	Operation 1950 1955	mixed
+E21	Operation:T28 Solvent_Material:T161 Recipe_Precursor:T163
+T29	Operation 1972 1979	produce
+E22	Operation:T29 
+T30	Operation 2027 2034	prepare
+E23	Operation:T30 Participant_Material:T165
+T31	Operation 2077 2080	use
+E24	Operation:T31 
+T32	Operation 2131 2136	mixed
+E25	Operation:T32 Recipe_Precursor:T174 Participant_Material:T176
+T33	Operation 2246 2254	prepared
+E26	Operation:T33 Participant_Material:T179
+T34	Operation 2311 2314	Mix
+E27	Operation:T34 Recipe_Precursor:T181 Solvent_Material:T182
+T35	Operation 2389 2393	used
+E28	Operation:T35 
+T36	Operation 2459 2463	cast
+E29	Operation:T36 Participant_Material:T184
+T37	Operation 2500 2505	mixed
+E30	Operation:T37 Recipe_Precursor:T187 Participant_Material:T188
+T38	Operation 2562 2572	discharged
+E31	Operation:T38 Participant_Material:T189
+T39	Operation 2617 2622	added
+E32	Operation:T39 Participant_Material:T191
+T40	Operation 2627 2632	mixed
+E33	Operation:T40 
+T41	Operation 2696 2703	stopped
+E34	Operation:T41 
+T42	Operation 2800 2806	mixing
+E35	Operation:T42 
+T43	Operation 2811 2820	continued
+E36	Operation:T43 
+T44	Operation 2941 2948	blended
+E37	Operation:T44 Participant_Material:T204
+T45	Operation 2953 2961	produced
+E38	Operation:T45 
+T46	Operation 3035 3039	cast
+E39	Operation:T46 Participant_Material:T209
+T47	Operation 3104 3110	mixing
+E40	Operation:T47 
+T48	Operation 3152 3160	vibrated
+E41	Operation:T48 
+T49	Operation 3222 3228	remove
+E42	Operation:T49 Participant_Material:T235 Participant_Material:T220
+T50	Operation 3263 3270	casting
+E43	Operation:T50 
+T51	Operation 3275 3284	vibrating
+E44	Operation:T51 
+T52	Operation 3302 3309	applied
+E45	Operation:T52 
+T53	Operation 3359 3363	kept
+E46	Operation:T53 
+T54	Operation 3431 3435	kept
+E47	Operation:T54 Participant_Material:T228
+T55	Operation 3460 3470	de-molding
+E48	Operation:T55 
+T56	Operation 3474 3481	prevent
+E49	Operation:T56 
+T57	Operation 3509 3515	stored
+E50	Operation:T57 
+T58	Number 335 343	110 +- 5
+T59	Number 353 355	24
+T60	Number 374 377	300
+T61	Reference 459 463	[49]
+T62	Reference 468 472	[50]
+T63	Reference 531 535	[42]
+T64	Number 582 587	0.915
+T65	Number 661 662	1
+T66	Number 737 742	47.37
+T67	Number 748 753	11.83
+T68	Number 797 801	3.53
+T69	Reference 901 905	[41]
+T70	Reference 1008 1012	[51]
+T71	Number 1165 1167	99
+T72	Number 1267 1272	15.33
+T73	Number 1280 1285	31.28
+T74	Number 1297 1299	53
+T75	Reference 1375 1379	[34]
+T76	Reference 1381 1385	[53]
+T77	Reference 1387 1391	[54]
+T78	Reference 1396 1400	[55]
+T79	Number 1503 1506	0.5
+T80	Number 1511 1514	3.0
+T81	Reference 1515 1519	[34]
+T82	Reference 1599 1603	[56]
+T83	Number 1992 1995	0.5
+T84	Number 1997 2000	1.0
+T85	Number 2002 2005	1.5
+T86	Number 2007 2010	2.0
+T87	Number 2012 2015	2.5
+T88	Number 2021 2022	3
+T89	Number 2063 2065	24
+T90	Number 2170 2173	1.0
+T91	Number 2175 2179	1.32
+T92	Reference 2187 2191	[34]
+T93	Reference 2193 2197	[53]
+T94	Reference 2199 2203	[57]
+T95	Reference 2208 2212	[58]
+T96	Number 2308 2309	2
+T97	Number 2367 2370	0.5
+T98	Number 2637 2640	1.0
+T99	Number 2708 2713	10-20
+T100	Number 2864 2867	1.0
+T101	Reference 2899 2903	[59]
+T102	Number 3045 3057	50 x 50 x 50
+T103	Number 3186 3191	25-30
+T104	Number 3322 3324	60
+T105	Number 3334 3335	2
+T106	Reference 3539 3543	[55]
+T107	Material 299 316	palm oil fuel ash
+T108	Material-Descriptor 295 298	raw
+T109	Synthesis-Apparatus 321 325	oven
+T110	Condition-Unit 344 348	degC
+T111	Condition-Unit 356 357	h
+T112	Apparatus-Unit 378 380	μm
+T113	Synthesis-Apparatus 381 386	sieve
+T114	Material 412 421	particles
+T115	Material-Descriptor 397 402	large
+T116	Material 449 458	materials
+T117	Material-Descriptor 426 448	incompletely combusted
+T118	Synthesis-Apparatus 511 530	Los Angeles machine
+T119	Property-Type 541 562	specific surface area
+T120	Property-Unit 588 592	m2/g
+T121	Material 626 630	POFA
+T122	Characterization-Apparatus 634 637	XRF
+T123	Property-Type 598 618	chemical composition
+T124	Nonrecipe-Material 701 705	SiO2
+T125	Nonrecipe-Material 710 713	CaO
+T126	Amount-Misc 719 733	concentrations
+T127	Amount-Unit 742 743	%
+T128	Amount-Unit 753 754	%
+T129	Amount-Misc 776 786	low amount
+T130	Nonrecipe-Material 790 795	Al2O3
+T131	Amount-Unit 801 802	%
+T132	Nonrecipe-Material 835 838	CaO
+T133	Material 856 860	POFA
+T134	Nonrecipe-Material 881 885	lime
+T135	Nonrecipe-Material 890 900	fertilizer
+T136	Amount-Misc 820 831	high amount
+T137	Material 935 939	POFA
+T138	Material 1014 1030	Sodium hydroxide
+T139	Material 1035 1050	sodium silicate
+T140	Material-Descriptor 1066 1083	alkali activators
+T141	Material 1111 1127	sodium hydroxide
+T142	Amount-Misc 1135 1151	industrial-grade
+T143	Amount-Unit 1167 1168	%
+T144	Amount-Misc 1169 1175	purity
+T145	Material 1194 1205	water glass
+T146	Amount-Misc 1177 1193	Industrial grade
+T147	Material 1207 1214	Na2SiO3
+T148	Material-Descriptor 1216 1224	solution
+T149	Property-Type 1243 1263	chemical composition
+T150	Amount-Unit 1272 1273	%
+T151	Nonrecipe-Material 1274 1278	Na2O
+T152	Amount-Unit 1285 1286	%
+T153	Nonrecipe-Material 1287 1291	SiO2
+T154	Amount-Unit 1299 1300	%
+T155	Nonrecipe-Material 1301 1304	H2O
+T156	Material 1594 1598	POFA
+T157	Material 1626 1630	POFA
+T158	Property-Type 1694 1714	compressive strength
+T159	Property-Type 1747 1763	porous structure
+T160	Material 1882 1886	POFA
+T161	Material 1932 1936	NaOH
+T162	Material-Descriptor 1937 1945	solution
+T163	Material 1961 1968	Na2SiO3
+T164	Amount-Unit 1984 1990	ratios
+T165	Material 2035 2053	alkaline activator
+T166	Material 1406 1423	alkali activation
+T167	Material-Descriptor 1424 1432	solution
+T168	Material 1456 1463	Na2SiO3
+T169	Material 1469 1473	NaOH
+T170	Amount-Unit 1481 1487	ratios
+T171	Material 1789 1807	alkaline activator
+T172	Nonrecipe-Material 1909 1919	geopolymer
+T173	Condition-Unit 2066 2067	h
+T174	Material 2089 2093	POFA
+T175	Material-Descriptor 2082 2088	Ground
+T176	Material 2102 2120	alkaline activator
+T177	Number 2142 2145	two
+T178	Amount-Unit 2146 2168	solid-to-liquid ratios
+T179	Material 2235 2240	mixes
+T180	Amount-Unit 2268 2289	solid to liquid ratio
+T181	Material 2324 2339	sodium silicate
+T182	Material 2343 2359	sodium hydroxide
+T183	Amount-Unit 2360 2365	ratio
+T184	Material 2399 2409	geopolymer
+T185	Material-Descriptor 2410 2415	paste
+T186	Property-Type 2429 2440	workability
+T187	Material 2478 2495	palm oil fuel ash
+T188	Material 2524 2542	alkaline activator
+T189	Material 2554 2557	ash
+T190	Synthesis-Apparatus 2580 2589	mixer pan
+T191	Material 2604 2612	alkaline
+T192	Condition-Unit 2641 2644	min
+T193	Condition-Type 2657 2667	speed rate
+T194	Synthesis-Apparatus 2690 2695	mixer
+T195	Condition-Unit 2714 2715	s
+T196	Material 2747 2750	ash
+T197	Material-Descriptor 2738 2746	un-mixed
+T198	Operation 2728 2733	scrap
+E51	Operation:T198 Participant_Material:T196
+T199	Synthesis-Apparatus 2771 2777	paddle
+T200	Synthesis-Apparatus 2786 2789	pan
+T201	Condition-Type 2835 2840	speed
+T202	Condition-Misc 2828 2834	medium
+T203	Condition-Unit 2868 2871	min
+T204	Material 2913 2923	geopolymer
+T205	Material-Descriptor 2924 2935	paste mixes
+T206	Synthesis-Apparatus 2975 2982	blender
+T207	Apparatus-Descriptor 2969 2974	small
+T208	Brand 2984 2996	HOBART Mixer
+T209	Material 3009 3019	geopolymer
+T210	Material-Descriptor 3003 3008	fresh
+T211	Material-Descriptor 3020 3025	paste
+T212	Apparatus-Unit 3058 3060	mm
+T213	Synthesis-Apparatus 3061 3071	iron molds
+T214	Material 3127 3135	specimen
+T215	Operation 3115 3122	compact
+E52	Operation:T215 Participant_Material:T214
+T216	Synthesis-Apparatus 3176 3181	table
+T217	Apparatus-Descriptor 3166 3175	vibrating
+T218	Condition-Unit 3192 3193	s
+T219	Operation 3214 3218	used
+E53	Operation:T219 
+T220	Material 3250 3255	paste
+T221	Operation 3291 3297	curing
+E54	Operation:T221 
+T222	Synthesis-Apparatus 3286 3290	oven
+T223	Condition-Unit 3325 3329	degC
+T224	Condition-Unit 3336 3337	h
+T225	Synthesis-Apparatus 3343 3348	molds
+T226	Condition-Misc 3391 3410	ambient temperature
+T227	Operation 3385 3390	reach
+E55	Operation:T227 
+T228	Material 3416 3425	specimens
+T229	Synthesis-Apparatus 3441 3453	plastic bags
+R1	Property_Of Arg1:T2 Arg2:T1	
+R2	Property_Of Arg1:T3 Arg2:T1	
+R3	Coref_Of Arg1:T7 Arg2:T6	
+R4	Next_Operation Arg1:E1 Arg2:E2	
+A1	Start_Recipe E1
+R5	Next_Operation Arg1:E2 Arg2:E3	
+T230	Material 196 211	palm oil shells
+T231	Material 213 228	husk and fibers
+T232	Synthesis-Apparatus 251 255	mill
+T233	Brand 259 270	Johor State
+R6	Next_Operation Arg1:E3 Arg2:E4	
+R7	Next_Operation Arg1:E4 Arg2:E5	
+R8	Next_Operation Arg1:E5 Arg2:E7	
+R9	Next_Operation Arg1:E7 Arg2:E8	
+R10	Next_Operation Arg1:E8 Arg2:E9	
+R11	Next_Operation Arg1:E9 Arg2:E10	
+R12	Next_Operation Arg1:E10 Arg2:E11	
+T234	Material 1310 1328	alkaline activator
+R13	Next_Operation Arg1:E11 Arg2:E12	
+R14	Next_Operation Arg1:E12 Arg2:E13	
+R15	Next_Operation Arg1:E13 Arg2:E14	
+R16	Next_Operation Arg1:E14 Arg2:E15	
+R17	Next_Operation Arg1:E15 Arg2:E16	
+R18	Next_Operation Arg1:E16 Arg2:E17	
+R19	Next_Operation Arg1:E17 Arg2:E18	
+R20	Next_Operation Arg1:E18 Arg2:E19	
+R21	Next_Operation Arg1:E19 Arg2:E20	
+R22	Next_Operation Arg1:E20 Arg2:E21	
+R23	Next_Operation Arg1:E21 Arg2:E22	
+R24	Next_Operation Arg1:E22 Arg2:E24	
+R25	Next_Operation Arg1:E24 Arg2:E25	
+R26	Next_Operation Arg1:E25 Arg2:E26	
+R27	Next_Operation Arg1:E26 Arg2:E27	
+R28	Next_Operation Arg1:E27 Arg2:E29	
+R29	Next_Operation Arg1:E29 Arg2:E30	
+R30	Next_Operation Arg1:E30 Arg2:E31	
+R31	Next_Operation Arg1:E31 Arg2:E32	
+R32	Next_Operation Arg1:E32 Arg2:E33	
+R33	Next_Operation Arg1:E33 Arg2:E34	
+R34	Next_Operation Arg1:E34 Arg2:E51	
+R35	Next_Operation Arg1:E51 Arg2:E35	
+R36	Next_Operation Arg1:E35 Arg2:E36	
+R37	Next_Operation Arg1:E36 Arg2:E37	
+R38	Next_Operation Arg1:E37 Arg2:E38	
+R39	Next_Operation Arg1:E38 Arg2:E39	
+R40	Next_Operation Arg1:E39 Arg2:E40	
+R41	Next_Operation Arg1:E40 Arg2:E52	
+R42	Next_Operation Arg1:E52 Arg2:E41	
+R43	Next_Operation Arg1:E41 Arg2:E53	
+R44	Next_Operation Arg1:E53 Arg2:E42	
+T235	Material 3233 3240	bubbles
+R45	Next_Operation Arg1:E42 Arg2:E43	
+R46	Next_Operation Arg1:E43 Arg2:E44	
+R47	Next_Operation Arg1:E44 Arg2:E54	
+R48	Next_Operation Arg1:E54 Arg2:E45	
+R49	Next_Operation Arg1:E45 Arg2:E46	
+R50	Next_Operation Arg1:E46 Arg2:E55	
+R51	Next_Operation Arg1:E55 Arg2:E47	
+R52	Next_Operation Arg1:E47 Arg2:E48	
+R53	Next_Operation Arg1:E48 Arg2:E49	
+R54	Next_Operation Arg1:E49 Arg2:E50	
+A2	End_Recipe E50
+R55	Apparatus_Of Arg1:T232 Arg2:E3	
+R56	Brand_Of Arg1:T233 Arg2:T232	
+R57	Descriptor_Of Arg1:T108 Arg2:T107	
+R58	Apparatus_Of Arg1:T109 Arg2:E4	
+R59	Number_Of Arg1:T58 Arg2:T110	
+R60	Condition_Of Arg1:T110 Arg2:E4	
+R61	Number_Of Arg1:T59 Arg2:T111	
+R62	Condition_Of Arg1:T111 Arg2:E4	
+R63	Number_Of Arg1:T60 Arg2:T112	
+R64	Apparatus_Attr_Of Arg1:T112 Arg2:T113	
+R65	Apparatus_Of Arg1:T113 Arg2:E5	
+R66	Descriptor_Of Arg1:T115 Arg2:T114	
+R67	Descriptor_Of Arg1:T117 Arg2:T116	
+R68	Apparatus_Of Arg1:T118 Arg2:E7	
+R69	Number_Of Arg1:T64 Arg2:T120	
+R70	Type_Of Arg1:T119 Arg2:T120	
+R71	Amount_Of Arg1:T126 Arg2:T125	
+R72	Amount_Of Arg1:T126 Arg2:T124	
+R73	Number_Of Arg1:T66 Arg2:T127	
+R74	Number_Of Arg1:T67 Arg2:T128	
+R75	Amount_Of Arg1:T127 Arg2:T124	
+R76	Amount_Of Arg1:T127 Arg2:T125	
+R77	Amount_Of Arg1:T128 Arg2:T124	
+R78	Amount_Of Arg1:T128 Arg2:T125	
+R79	Amount_Of Arg1:T129 Arg2:T130	
+R80	Number_Of Arg1:T68 Arg2:T131	
+R81	Amount_Of Arg1:T131 Arg2:T130	
+R82	Amount_Of Arg1:T136 Arg2:T132	
+R83	Descriptor_Of Arg1:T140 Arg2:T139	
+R84	Descriptor_Of Arg1:T140 Arg2:T138	
+R85	Number_Of Arg1:T71 Arg2:T143	
+R86	Amount_Of Arg1:T142 Arg2:T141	
+R87	Amount_Of Arg1:T144 Arg2:T141	
+R88	Amount_Of Arg1:T143 Arg2:T141	
+R89	Amount_Of Arg1:T146 Arg2:T145	
+R90	Coref_Of Arg1:T145 Arg2:T147	
+R91	Descriptor_Of Arg1:T148 Arg2:T145	
+R92	Number_Of Arg1:T72 Arg2:T150	
+R93	Amount_Of Arg1:T150 Arg2:T151	
+R94	Number_Of Arg1:T73 Arg2:T152	
+R95	Amount_Of Arg1:T152 Arg2:T153	
+R96	Number_Of Arg1:T74 Arg2:T154	
+R97	Amount_Of Arg1:T154 Arg2:T155	
+R98	Descriptor_Of Arg1:T167 Arg2:T166	
+R99	Amount_Of Arg1:T170 Arg2:T169	
+R100	Amount_Of Arg1:T170 Arg2:T168	
+R101	Number_Of Arg1:T79 Arg2:T170	
+R102	Number_Of Arg1:T80 Arg2:T170	
+T236	Condition-Misc 1646 1653	without
+R103	Condition_Of Arg1:T236 Arg2:E17	
+R104	Descriptor_Of Arg1:T162 Arg2:T161	
+R105	Number_Of Arg1:T83 Arg2:T164	
+R106	Number_Of Arg1:T84 Arg2:T164	
+R107	Number_Of Arg1:T85 Arg2:T164	
+R108	Number_Of Arg1:T86 Arg2:T164	
+R109	Number_Of Arg1:T87 Arg2:T164	
+R110	Number_Of Arg1:T88 Arg2:T164	
+R111	Amount_Of Arg1:T164 Arg2:T163	
+R112	Number_Of Arg1:T89 Arg2:T173	
+R113	Condition_Of Arg1:T173 Arg2:E23	
+R114	Descriptor_Of Arg1:T175 Arg2:T174	
+R115	Number_Of Arg1:T177 Arg2:T178	
+R116	Number_Of Arg1:T90 Arg2:T178	
+R117	Number_Of Arg1:T91 Arg2:T178	
+R118	Amount_Of Arg1:T178 Arg2:T176	
+R119	Amount_Of Arg1:T178 Arg2:T174	
+R120	Amount_Of Arg1:T180 Arg2:T179	
+R121	Number_Of Arg1:T97 Arg2:T183	
+R122	Amount_Of Arg1:T183 Arg2:T182	
+R123	Amount_Of Arg1:T183 Arg2:T181	
+R124	Descriptor_Of Arg1:T185 Arg2:T184	
+T237	Synthesis-Apparatus 2467 2472	molds
+R125	Apparatus_Of Arg1:T237 Arg2:E29	
+T238	Condition-Misc 2452 2455	not
+R126	Condition_Of Arg1:T238 Arg2:E29	
+R127	Apparatus_Of Arg1:T190 Arg2:E31	
+R128	Number_Of Arg1:T98 Arg2:T192	
+R129	Condition_Of Arg1:T192 Arg2:E33	
+R130	Number_Of Arg1:T99 Arg2:T195	
+R131	Apparatus_Of Arg1:T194 Arg2:E34	
+R132	Condition_Of Arg1:T195 Arg2:E34	
+R133	Descriptor_Of Arg1:T197 Arg2:T196	
+R134	Apparatus_Of Arg1:T199 Arg2:E51	
+R135	Apparatus_Of Arg1:T200 Arg2:E51	
+R136	Condition_Of Arg1:T202 Arg2:E36	
+R137	Number_Of Arg1:T100 Arg2:T203	
+R138	Condition_Of Arg1:T203 Arg2:E36	
+R139	Descriptor_Of Arg1:T205 Arg2:T204	
+R140	Descriptor_Of Arg1:T207 Arg2:T206	
+R141	Apparatus_Of Arg1:T206 Arg2:E38	
+R142	Brand_Of Arg1:T208 Arg2:T206	
+R143	Descriptor_Of Arg1:T210 Arg2:T209	
+R144	Descriptor_Of Arg1:T211 Arg2:T209	
+R145	Number_Of Arg1:T102 Arg2:T212	
+R146	Apparatus_Attr_Of Arg1:T212 Arg2:T213	
+R147	Apparatus_Of Arg1:T213 Arg2:E39	
+R148	Descriptor_Of Arg1:T217 Arg2:T216	
+R149	Apparatus_Of Arg1:T216 Arg2:E41	
+R150	Number_Of Arg1:T103 Arg2:T218	
+R151	Condition_Of Arg1:T218 Arg2:E41	
+R152	Apparatus_Of Arg1:T222 Arg2:E54	
+R153	Number_Of Arg1:T104 Arg2:T223	
+R154	Condition_Of Arg1:T223 Arg2:E45	
+R155	Number_Of Arg1:T105 Arg2:T224	
+R156	Condition_Of Arg1:T224 Arg2:E45	
+R157	Apparatus_Of Arg1:T225 Arg2:E46	
+R158	Condition_Of Arg1:T226 Arg2:E55	
+R159	Apparatus_Of Arg1:T229 Arg2:E47	

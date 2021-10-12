@@ -1,0 +1,90 @@
+T1	Property-Misc 31 48	Three-dimensional
+T2	Material 49 78	aluminum foam/carbon nanotube
+T3	Nonrecipe-Material 146 152	sulfur
+T4	Nonrecipe-Material 185 199	lithium-sulfur
+T5	Material 214 218	CNTs
+T6	Nonrecipe-Material 241 243	Fe
+T7	Material-Descriptor 250 259	catalysts
+T8	Reference 287 291	[33]
+T9	Synthesis-Apparatus 265 286	fluidized bed reactor
+T10	Operation 224 237	mass-produced
+E1	Operation:T10 Recipe_Target:T5 Participant_Material:T6
+T11	Operation 327 335	purified
+E2	Operation:T11 Participant_Material:T17 Solvent_Material:T20
+T12	Operation 548 557	filtering
+E3	Operation:T12 Recipe_Target:T37
+T13	Operation 559 566	washing
+E4	Operation:T13 
+T14	Operation 572 585	freeze-drying
+E5	Operation:T14 
+T15	Operation 606 611	mixed
+E6	Operation:T15 Recipe_Target:T40 Participant_Material:T41
+T16	Operation 672 683	ball-milled
+E7	Operation:T16 
+T17	Material 306 312	carbon
+T18	Material-Descriptor 297 305	as-grown
+T19	Material-Descriptor 313 321	products
+T20	Material 339 355	sodium hydroxide
+T21	Number 357 361	12.0
+T22	Amount-Unit 362 369	mol L-1
+T23	Material-Descriptor 371 387	aqueous solution
+T24	Number 391 394	160
+T25	Number 404 407	4.0
+T26	Condition-Unit 395 399	degC
+T27	Condition-Unit 408 409	h
+T28	Material 414 431	hydrochloric acid
+T29	Number 433 436	5.0
+T30	Amount-Unit 437 444	mol L-1
+T32	Material-Descriptor 446 462	aqueous solution
+T33	Number 466 468	70
+T34	Condition-Unit 469 473	degC
+T35	Number 478 481	4.0
+T36	Condition-Unit 482 483	h
+T37	Material 515 518	CNT
+T38	Property-Misc 503 514	high purity
+T39	Property-Misc 519 526	bundles
+T40	Material 596 600	CNTs
+T41	Material 617 623	sulfur
+T42	Material-Descriptor 624 630	powder
+T43	Amount-Unit 638 660	anticipated mass ratio
+T44	Number 664 667	1:1
+T45	Number 688 691	3.0
+T46	Condition-Unit 692 693	h
+T47	Material 702 712	CNT/sulfur
+T48	Property-Misc 713 723	composites
+R1	Property_Of Arg1:T1 Arg2:T2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E7	
+R7	Descriptor_Of Arg1:T7 Arg2:T6	
+R8	Apparatus_Of Arg1:T9 Arg2:E1	
+R9	Descriptor_Of Arg1:T18 Arg2:T17	
+R10	Descriptor_Of Arg1:T19 Arg2:T17	
+R11	Number_Of Arg1:T21 Arg2:T22	
+R12	Amount_Of Arg1:T22 Arg2:T20	
+R13	Descriptor_Of Arg1:T23 Arg2:T20	
+R14	Number_Of Arg1:T24 Arg2:T26	
+R15	Number_Of Arg1:T25 Arg2:T27	
+R16	Condition_Of Arg1:T26 Arg2:E2	
+R17	Condition_Of Arg1:T27 Arg2:E2	
+R18	Number_Of Arg1:T29 Arg2:T30	
+R19	Amount_Of Arg1:T30 Arg2:T28	
+R20	Descriptor_Of Arg1:T32 Arg2:T28	
+R21	Number_Of Arg1:T33 Arg2:T34	
+R22	Number_Of Arg1:T35 Arg2:T36	
+R23	Condition_Of Arg1:T34 Arg2:E2	
+R24	Condition_Of Arg1:T36 Arg2:E2	
+R25	Property_Of Arg1:T38 Arg2:T37	
+R26	Property_Of Arg1:T39 Arg2:T37	
+R27	Descriptor_Of Arg1:T42 Arg2:T41	
+R28	Number_Of Arg1:T44 Arg2:T43	
+R29	Amount_Of Arg1:T43 Arg2:T41	
+R30	Amount_Of Arg1:T43 Arg2:T40	
+R31	Number_Of Arg1:T45 Arg2:T46	
+R32	Condition_Of Arg1:T46 Arg2:E7	
+T31	Operation 697 701	form
+E8	Operation:T31 Recipe_Target:T47
+R33	Next_Operation Arg1:E7 Arg2:E8	
+R34	Property_Of Arg1:T48 Arg2:T47	

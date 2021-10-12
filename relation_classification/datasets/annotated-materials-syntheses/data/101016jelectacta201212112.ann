@@ -1,0 +1,97 @@
+T1	Material 169 205	Tetrabutylammonium tetrafluoroborate
+T2	Material 207 213	TBABF4
+T3	Material 216 244	4-azidoaniline hydrochloride
+T4	Material 246 269	iron(II) phthalocyanine
+T5	Material 271 275	FePc
+T6	Material 278 294	sodium ascorbate
+T7	Material 296 314	hydrazine sulphate
+T8	Material 319 350	4-ethynylpyridine hydrochloride
+T9	Operation 356 364	obtained
+E1	Operation:T9 Recipe_Precursor:T1 Recipe_Precursor:T3 Recipe_Precursor:T4 Recipe_Precursor:T6 Recipe_Precursor:T7 Recipe_Precursor:T8
+T10	Brand 370 377	Aldrich
+T11	Material 379 396	Dimethylformamide
+T12	Material 398 401	DMF
+T13	Material 404 416	acetonitrile
+T14	Material 418 421	ACN
+T15	Material 428 435	acetone
+T16	Operation 441 450	purchased
+E2	Operation:T16 Solvent_Material:T15 Solvent_Material:T13 Recipe_Precursor:T11
+T17	Brand 456 461	Merck
+T18	Material 463 478	Copper sulphate
+T19	Material 483 501	potassium chloride
+T20	Operation 507 516	purchased
+E3	Operation:T20 Recipe_Precursor:T18 Solvent_Material:T19
+T21	Brand 522 530	Saarchem
+T22	Material 546 552	carbon
+T23	Material-Descriptor 532 545	Single-walled
+T24	Material-Descriptor 553 562	nanotubes
+T25	Material 583 605	carboxylic acid groups
+T26	Material 607 617	SWCNT-COOH
+T27	Number 620 623	1.5
+T28	Property-Unit 624 626	nm
+T29	Property-Type 630 638	diameter
+T30	Number 643 646	1-5
+T31	Property-Unit 647 649	mm
+T32	Property-Type 653 659	length
+T33	Number 662 664	95
+T34	Amount-Unit 664 665	%
+T35	Amount-Misc 666 672	purity
+T36	Characterization-Apparatus 676 704	thermal gravimetric analysis
+T37	Operation 711 719	obtained
+E4	Operation:T37 Participant_Material:T25
+T38	Brand 725 732	NanoLab
+T39	Material 740 763	4-Azidobenzenediazonium
+T40	Material-Descriptor 764 768	salt
+T41	Operation 773 784	synthesised
+E5	Operation:T41 Participant_Material:T39
+T42	Reference 811 815	[52]
+T43	Material 827 836	chemicals
+T44	Material 841 849	reagents
+T45	Amount-Misc 858 874	analytical grade
+T46	Operation 884 888	used
+E6	Operation:T46 Participant_Material:T44 Participant_Material:T43
+R1	Coref_Of Arg1:T2 Arg2:T1	
+R2	Coref_Of Arg1:T5 Arg2:T4	
+A1	Start_Recipe E1
+R3	Next_Operation Arg1:E1 Arg2:E2	
+R4	Next_Operation Arg1:E2 Arg2:E3	
+T47	Operation 563 577	functionalised
+E7	Operation:T47 Recipe_Precursor:T22 Participant_Material:T25
+R5	Next_Operation Arg1:E3 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E4	
+R7	Next_Operation Arg1:E4 Arg2:E5	
+R8	Next_Operation Arg1:E5 Arg2:E6	
+A2	End_Recipe E6
+R9	Brand_Of Arg1:T10 Arg2:T8	
+R10	Brand_Of Arg1:T10 Arg2:T7	
+R11	Brand_Of Arg1:T10 Arg2:T6	
+R12	Brand_Of Arg1:T10 Arg2:T4	
+R13	Brand_Of Arg1:T10 Arg2:T3	
+R14	Brand_Of Arg1:T10 Arg2:T1	
+R15	Coref_Of Arg1:T12 Arg2:T11	
+R16	Coref_Of Arg1:T14 Arg2:T13	
+R17	Brand_Of Arg1:T17 Arg2:T15	
+R18	Brand_Of Arg1:T17 Arg2:T13	
+R19	Brand_Of Arg1:T17 Arg2:T11	
+R20	Brand_Of Arg1:T21 Arg2:T19	
+R21	Brand_Of Arg1:T21 Arg2:T18	
+R22	Descriptor_Of Arg1:T23 Arg2:T22	
+R23	Descriptor_Of Arg1:T24 Arg2:T22	
+R25	Number_Of Arg1:T27 Arg2:T28	
+R26	Type_Of Arg1:T29 Arg2:T28	
+R27	Number_Of Arg1:T30 Arg2:T31	
+R28	Type_Of Arg1:T32 Arg2:T31	
+R29	Number_Of Arg1:T33 Arg2:T34	
+R34	Apparatus_Of Arg1:T36 Arg2:E7	
+R24	Property_Of Arg1:T28 Arg2:T26	
+R30	Property_Of Arg1:T31 Arg2:T26	
+R31	Amount_Of Arg1:T34 Arg2:T26	
+R32	Amount_Of Arg1:T35 Arg2:T26	
+R33	Brand_Of Arg1:T38 Arg2:T25	
+R35	Descriptor_Of Arg1:T40 Arg2:T39	
+R36	Amount_Of Arg1:T45 Arg2:T44	
+R37	Amount_Of Arg1:T45 Arg2:T43	
+T48	Material 112 131	iron phthalocyanine
+T49	Material 91 97	carbon
+T50	Property-Misc 98 107	nanotubes
+R38	Property_Of Arg1:T50 Arg2:T49	

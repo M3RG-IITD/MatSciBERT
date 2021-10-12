@@ -1,0 +1,183 @@
+T1	Material 27 34	Sb2MoO6
+T2	Material 36 43	Bi2MoO6
+T3	Material 45 51	Sb2WO6
+T4	Material 57 63	Bi2WO6
+T5	Property-Misc 64 83	flake-like crystals
+T6	Meta 97 119	hydrothermal synthesis
+T7	Material 144 150	Bi2WO6
+T8	Material 155 162	Bi2MoO6
+T9	Nonrecipe-Material 191 195	Eu3+
+T10	Operation 243 247	used
+E1	Operation:T10 
+T11	Operation 409 416	carried
+E2	Operation:T11 
+T12	Operation 750 755	added
+E3	Operation:T12 Participant_Material:T57 Participant_Material:T54 Solvent_Material:T62
+T13	Operation 806 815	resulting
+E4	Operation:T13 Participant_Material:T65
+T14	Operation 796 804	stirring
+E5	Operation:T14 
+T15	Operation 856 863	stirred
+E6	Operation:T15 Participant_Material:T69
+T16	Operation 938 944	poured
+E7	Operation:T16 Solvent_Material:T74 Participant_Material:T75
+T17	Operation 1003 1014	transferred
+E8	Operation:T17 Participant_Material:T76
+T18	Operation 1083 1089	sealed
+E9	Operation:T18 
+T19	Operation 1094 1098	kept
+E10	Operation:T19 
+T20	Operation 1183 1191	filtered
+E11	Operation:T20 Participant_Material:T86
+T21	Operation 1197 1203	washed
+E12	Operation:T21 Solvent_Material:T89 Solvent_Material:T91
+T22	Operation 1274 1279	dried
+E13	Operation:T22 
+T23	Material 205 214	chemicals
+T24	Material-Descriptor 222 238	analytical grade
+T25	Material 342 349	Sb2MoO6
+T26	Material 351 358	Bi2MoO6
+T27	Material 360 366	Sb2WO6
+T28	Material 372 378	Bi2WO6
+T29	Operation 320 329	obtaining
+E14	Operation:T29 Recipe_Target:T25 Recipe_Target:T26 Recipe_Target:T27 Recipe_Target:T28
+T30	Number 426 428	50
+T31	Apparatus-Unit 429 431	mL
+T32	Apparatus-Descriptor 432 460	Teflon-lined stainless steel
+T33	Synthesis-Apparatus 461 470	autoclave
+T34	Number 474 477	180
+T35	Condition-Unit 478 482	degC
+T36	Number 487 489	12
+T37	Condition-Unit 490 491	h
+T38	Operation 502 511	adjusting
+E15	Operation:T38 
+T39	Amount-Unit 516 536	initial molar ratios
+T40	Material 540 545	SbCl3
+T41	Material 549 553	NaOH
+T42	Material 558 563	BiCl3
+T43	Material 567 571	NaOH
+T44	Amount-Unit 591 610	initial molar ratio
+T45	Material 614 619	SbCl3
+T46	Material 623 630	Na2MoO4
+T47	Material 632 637	BiCl3
+T48	Material 641 648	Na2MoO4
+T49	Material 650 655	SbCl3
+T50	Material 659 665	Na2WO4
+T51	Material 670 675	BiCl3
+T52	Material 679 685	Na2WO4
+T53	Number 690 693	2:1
+T54	Material 696 701	SbCl3
+T55	Number 703 704	2
+T56	Amount-Unit 705 709	mmol
+T57	Material 715 727	Na2MoO4*2H2O
+T58	Number 729 730	1
+T59	Amount-Unit 731 735	mmol
+T60	Number 761 763	20
+T61	Amount-Unit 764 766	mL
+T62	Material 777 780	H2O
+T63	Material-Descriptor 767 776	distilled
+T64	Condition-Misc 787 795	magnetic
+T65	Material 830 842	precipitates
+T66	Material-Descriptor 819 829	dark green
+T67	Number 868 870	20
+T68	Condition-Unit 871 874	min
+T69	Material 876 892	aqueous solution
+T70	Number 894 896	20
+T71	Amount-Unit 897 899	mL
+T72	Number 912 913	4
+T73	Amount-Unit 914 918	mmol
+T74	Material 919 923	NaOH
+T75	Material 960 970	suspension
+T76	Material 988 998	suspension
+T77	Number 1022 1024	50
+T78	Apparatus-Unit 1025 1027	mL
+T79	Apparatus-Descriptor 1028 1056	Teflon-lined stainless steel
+T80	Synthesis-Apparatus 1057 1066	autoclave
+T81	Number 1102 1105	180
+T82	Condition-Unit 1106 1110	degC
+T83	Synthesis-Apparatus 1117 1132	electrical oven
+T84	Number 1140 1142	12
+T85	Condition-Unit 1143 1144	h
+T86	Material 1171 1178	product
+T87	Material-Descriptor 1160 1170	dark green
+T88	Material-Descriptor 1209 1218	distilled
+T89	Material 1219 1224	water
+T90	Material-Descriptor 1229 1237	absolute
+T91	Material 1238 1245	ethanol
+T92	Condition-Misc 1250 1263	several times
+T93	Condition-Misc 1286 1292	vacuum
+T94	Number 1296 1298	60
+T95	Number 1308 1309	6
+T96	Condition-Unit 1299 1303	degC
+T97	Condition-Unit 1310 1311	h
+R1	Property_Of Arg1:T5 Arg2:T4	
+R2	Property_Of Arg1:T5 Arg2:T3	
+R3	Property_Of Arg1:T5 Arg2:T2	
+R4	Property_Of Arg1:T5 Arg2:T1	
+R5	Next_Operation Arg1:E1 Arg2:E14	
+R6	Next_Operation Arg1:E2 Arg2:E15	
+R7	Next_Operation Arg1:E15 Arg2:E3	
+R8	Next_Operation Arg1:E3 Arg2:E5	
+R9	Next_Operation Arg1:E5 Arg2:E4	
+R10	Next_Operation Arg1:E4 Arg2:E6	
+R11	Next_Operation Arg1:E6 Arg2:E7	
+R12	Next_Operation Arg1:E7 Arg2:E8	
+R13	Next_Operation Arg1:E8 Arg2:E9	
+R14	Next_Operation Arg1:E9 Arg2:E10	
+R15	Next_Operation Arg1:E10 Arg2:E11	
+R16	Next_Operation Arg1:E11 Arg2:E12	
+R17	Next_Operation Arg1:E12 Arg2:E13	
+R18	Next_Operation Arg1:E14 Arg2:E2	
+R19	Number_Of Arg1:T30 Arg2:T31	
+R20	Apparatus_Attr_Of Arg1:T31 Arg2:T33	
+R21	Descriptor_Of Arg1:T32 Arg2:T33	
+R22	Number_Of Arg1:T34 Arg2:T35	
+R23	Number_Of Arg1:T36 Arg2:T37	
+R24	Apparatus_Of Arg1:T33 Arg2:E2	
+R25	Condition_Of Arg1:T35 Arg2:E2	
+R26	Condition_Of Arg1:T37 Arg2:E2	
+R27	Amount_Of Arg1:T39 Arg2:T40	
+R28	Amount_Of Arg1:T39 Arg2:T41	
+R29	Amount_Of Arg1:T39 Arg2:T42	
+R30	Amount_Of Arg1:T39 Arg2:T43	
+R31	Amount_Of Arg1:T44 Arg2:T45	
+R32	Amount_Of Arg1:T44 Arg2:T46	
+R33	Amount_Of Arg1:T44 Arg2:T47	
+R34	Amount_Of Arg1:T44 Arg2:T48	
+R35	Amount_Of Arg1:T44 Arg2:T49	
+R36	Amount_Of Arg1:T44 Arg2:T50	
+R37	Amount_Of Arg1:T44 Arg2:T51	
+R38	Amount_Of Arg1:T44 Arg2:T52	
+R39	Number_Of Arg1:T53 Arg2:T44	
+R40	Number_Of Arg1:T55 Arg2:T56	
+R41	Amount_Of Arg1:T56 Arg2:T54	
+R42	Number_Of Arg1:T58 Arg2:T59	
+R43	Amount_Of Arg1:T59 Arg2:T57	
+R44	Number_Of Arg1:T60 Arg2:T61	
+R45	Descriptor_Of Arg1:T63 Arg2:T62	
+R46	Amount_Of Arg1:T61 Arg2:T62	
+R47	Condition_Of Arg1:T64 Arg2:E5	
+R48	Descriptor_Of Arg1:T66 Arg2:T65	
+R49	Number_Of Arg1:T67 Arg2:T68	
+R50	Number_Of Arg1:T70 Arg2:T71	
+R51	Amount_Of Arg1:T71 Arg2:T69	
+R52	Number_Of Arg1:T72 Arg2:T73	
+R53	Amount_Of Arg1:T73 Arg2:T74	
+R54	Number_Of Arg1:T77 Arg2:T78	
+R55	Apparatus_Attr_Of Arg1:T78 Arg2:T80	
+R56	Descriptor_Of Arg1:T79 Arg2:T80	
+R57	Apparatus_Of Arg1:T80 Arg2:E8	
+R58	Number_Of Arg1:T81 Arg2:T82	
+R59	Condition_Of Arg1:T82 Arg2:E10	
+R60	Apparatus_Of Arg1:T83 Arg2:E10	
+R61	Number_Of Arg1:T84 Arg2:T85	
+R62	Descriptor_Of Arg1:T87 Arg2:T86	
+R63	Condition_Of Arg1:T85 Arg2:E11	
+R64	Descriptor_Of Arg1:T88 Arg2:T89	
+R65	Descriptor_Of Arg1:T90 Arg2:T91	
+R66	Condition_Of Arg1:T92 Arg2:E12	
+R67	Condition_Of Arg1:T93 Arg2:E13	
+R68	Number_Of Arg1:T94 Arg2:T96	
+R69	Condition_Of Arg1:T96 Arg2:E13	
+R70	Number_Of Arg1:T95 Arg2:T97	
+R71	Condition_Of Arg1:T97 Arg2:E13	

@@ -1,0 +1,6 @@
+10.1016/j.jpowsour.2015.07.066
+Silicon oxide-on-graphite planar composite synthesized using a microwave-assisted coating method for use as a fast-charging lithium-ion battery anode
+
+Si oxide-coated graphite flake (SGF) is synthesized by a microwave-heating method.
+
+To prepare the Si-containing liquid precursor, 19 g of polymethylhydrosiloxane (Aldrich) was mixed with 1 g of divinyl polydimethylsiloxane (Aldrich) and 0.25 g of a catalyst solution (1wt.% hydrogen hexachloroplatinate in isopropyl alcohol), and the resulting mixture was heated at 70 degC for 2 h. Graphitic flake (GF; KS6, Timcal) powder, which consisted of flakes having an average particle size of 3 μm (vender's value) and thicknesses ranging from 50 to 100 nm, was added into the liquid precursor and stirred for 1 h. The suspension was then filtered to collect solution-coated GFs. The wet GF powder was placed in an evacuated glass vessel and heated in a commercial microwave oven (Panasonic, NN-ST651; power setting: low-300 W) for 15 min. After the heating process, the powder was washed with hexane to remove residual precursors and then finally calcined at 1000 degC under vacuum for 1 h in a quartz tube furnace to obtain the SGFs.

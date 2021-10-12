@@ -1,0 +1,103 @@
+T1	Material 111 136	poly(vinylidene fluoride)
+T2	Material 150 170	poly(ethylene oxide)
+T3	Property-Misc 171 190	polymer electrolyte
+T4	Material 75 88	phenothiazine
+T5	Material 93 107	diphenyl amine
+T6	Operation 277 286	dissolved
+E1	Operation:T6 Participant_Material:T16 Solvent_Material:T25
+T7	Operation 341 349	stirring
+E2	Operation:T7 
+T8	Operation 499 504	added
+E3	Operation:T8 Participant_Material:T40 Participant_Material:T37 Participant_Material:T36
+T9	Operation 531 538	stirred
+E4	Operation:T9 Participant_Material:T43
+T10	Operation 606 612	formed
+E5	Operation:T10 Participant_Material:T47
+T11	Operation 652 656	cast
+E6	Operation:T11 Participant_Material:T49
+T12	Operation 679 691	vacuum dried
+E7	Operation:T12 
+T13	Operation 728 739	evaporation
+E8	Operation:T13 
+T14	Number 221 224	0.3
+T15	Amount-Unit 225 226	g
+T16	Material 230 243	polymer blend
+T17	Material 245 249	PVdF
+T18	Number 251 255	0.23
+T19	Amount-Unit 256 257	g
+T20	Material 259 262	PEO
+T21	Number 264 268	0.07
+T22	Amount-Unit 269 270	g
+T23	Number 290 292	25
+T24	Amount-Unit 293 295	ml
+T25	Material 299 317	dimethyl formamide
+T26	Material 319 322	DMF
+T27	Condition-Misc 330 340	continuous
+T28	Number 353 356	353
+T29	Condition-Unit 357 358	K
+T30	Number 372 373	2
+T31	Number 377 381	0.03
+T32	Number 391 396	0.007
+T33	Number 409 414	0.007
+T34	Condition-Unit 374 375	h
+T35	Amount-Unit 382 383	g
+T36	Material 387 389	KI
+T37	Material 402 404	I2
+T38	Amount-Unit 397 398	g
+T39	Amount-Unit 415 416	g
+T40	Material 417 446	organic nitrogenous compounds
+T41	Material 448 451	DPA
+T42	Material 471 473	PT
+T43	Material 510 526	polymer solution
+T44	Condition-Misc 539 551	continuously
+T45	Number 564 565	2
+T46	Condition-Unit 566 567	h
+T47	Material 595 601	liquid
+T48	Material-Descriptor 576 594	homogenous viscous
+T49	Material 618 641	polymer blend solutions
+T50	Synthesis-Apparatus 665 674	petridish
+T51	Number 695 698	333
+T52	Condition-Unit 699 700	K
+T53	Condition-Unit 708 709	h
+T54	Number 705 707	15
+R1	Property_Of Arg1:T3 Arg2:T2	
+R2	Next_Operation Arg1:E1 Arg2:E2	
+R3	Next_Operation Arg1:E2 Arg2:E3	
+R4	Next_Operation Arg1:E3 Arg2:E4	
+R5	Next_Operation Arg1:E4 Arg2:E5	
+R6	Next_Operation Arg1:E5 Arg2:E6	
+R7	Next_Operation Arg1:E6 Arg2:E7	
+R8	Next_Operation Arg1:E7 Arg2:E8	
+R9	Number_Of Arg1:T14 Arg2:T15	
+R10	Number_Of Arg1:T18 Arg2:T19	
+R13	Amount_Of Arg1:T19 Arg2:T17	
+R15	Number_Of Arg1:T21 Arg2:T22	
+R16	Amount_Of Arg1:T22 Arg2:T20	
+R11	Amount_Of Arg1:T15 Arg2:T16	
+R12	Coref_Of Arg1:T16 Arg2:T17	
+R14	Coref_Of Arg1:T16 Arg2:T20	
+R17	Number_Of Arg1:T23 Arg2:T24	
+R18	Amount_Of Arg1:T24 Arg2:T25	
+R19	Coref_Of Arg1:T26 Arg2:T25	
+R20	Condition_Of Arg1:T27 Arg2:E2	
+R21	Number_Of Arg1:T28 Arg2:T29	
+R22	Condition_Of Arg1:T29 Arg2:E2	
+R23	Number_Of Arg1:T30 Arg2:T34	
+R24	Condition_Of Arg1:T34 Arg2:E2	
+R25	Number_Of Arg1:T31 Arg2:T35	
+R26	Amount_Of Arg1:T35 Arg2:T36	
+R27	Number_Of Arg1:T32 Arg2:T38	
+R28	Amount_Of Arg1:T38 Arg2:T37	
+R29	Number_Of Arg1:T33 Arg2:T39	
+R30	Amount_Of Arg1:T39 Arg2:T40	
+R31	Coref_Of Arg1:T40 Arg2:T41	
+R32	Coref_Of Arg1:T40 Arg2:T42	
+R33	Condition_Of Arg1:T44 Arg2:E4	
+R34	Number_Of Arg1:T45 Arg2:T46	
+R35	Condition_Of Arg1:T46 Arg2:E4	
+R36	Descriptor_Of Arg1:T48 Arg2:T47	
+R37	Apparatus_Of Arg1:T50 Arg2:E6	
+R38	Number_Of Arg1:T51 Arg2:T52	
+R39	Condition_Of Arg1:T52 Arg2:E7	
+R40	Number_Of Arg1:T54 Arg2:T53	
+R41	Condition_Of Arg1:T53 Arg2:E7	

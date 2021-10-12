@@ -1,0 +1,4 @@
+10.1039/c3ee41655k
+A sulphide lithium super ion conductor is superior to liquid ion conductors for use in rechargeable batteries
+
+The 70P2S5-30Li2S glass was synthesized from reagent-grade chemicals, P2S5 (Aldrich, 99%) and Li2S (Idemitsu, 99%). A mixture of these chemicals was sealed in a carbon-coated quartz tube and heated at 700 degC for 2 h in an electric furnace. The molten sample was rapidly quenched in ice water. The glass-ceramic material for the cold-pressed sample was prepared by heat treatment of the obtained glass after grinding it into a powder. The densified glass-ceramic samples were obtained by compressing the glass powders at 94 MPa and then heating at 280 degC or 300 degC for 2 h.

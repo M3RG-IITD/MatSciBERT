@@ -1,0 +1,4 @@
+10.1039/c6ta09941f
+Defect chemistry and enhancement of thermoelectric performance in Ag-doped Sn1+δ-xAgxTe
+
+The crystalline ingots of Sn1-xAgxTe and Sn1+δ-xAgxTe (x = 0.01, 0.03, 0.05 and 0.07) were synthesized by a melting and slow cooling process. The high purity elements of Ag (99.999%), Sn (99.999%), and Te (99.999%) were placed in quartz tubes according to the stoichiometric molar ratios. The quartz tubes were evacuated, sealed, and melted at 1000 degC for 12 h. After cooling down to 150 degC with a cooling rate of 10 degC h-1, they were kept at 150 degC for 12 h followed by furnace cooling. The ingots were ground in an agate mortar and the powders were sintered by hot press sintering at 400 degC with a uniaxial pressure of 70 MPa for 1 hour.

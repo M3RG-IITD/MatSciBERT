@@ -1,0 +1,7 @@
+10.1016/j.electacta.2014.12.157
+Synthesis and electrochemical performance of ZnCo2O4 for lithium-ion battery application
+
+
+All of the chemicals in our synthesis were analytical grade and were used without further purification. In a typical procedure, zinc acetate dihydrate and cobalt (II) acetate tetrahydrate with a Zn/Co molar ratio of 1:2 were added to a ball mill. Citric acid with a 120% mole fraction relative to the Zn and Co was then added into the ball mill. After adding a suitable volume of water, the ball mill was run for 4 h at 500 rpm to obtain the precursor. Then, the resultant mixture was dried at 80 degC in air, and the wine red precursor powder was collected and heat-treated in a muffle furnace at 400 degC and 500 degC, with the products designated as 400-ZCO and 500-ZCO, respectively.
+
+

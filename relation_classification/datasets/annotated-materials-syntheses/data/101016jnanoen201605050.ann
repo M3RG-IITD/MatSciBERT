@@ -1,0 +1,98 @@
+T1	Material 122 134	NaV3(PO4)3/C
+T2	Operation 139 150	synthesized
+E1	Operation:T2 Recipe_Target:T1
+T3	Meta 156 171	sol-gel process
+T4	Operation 254 259	added
+E2	Operation:T4 Recipe_Precursor:T12 Solvent_Material:T13
+T5	Operation 285 296	maintaining
+E3	Operation:T5 
+T6	Operation 324 332	stirring
+E4	Operation:T6 
+T7	Operation 436 441	added
+E5	Operation:T7 Recipe_Precursor:T15 Recipe_Precursor:T16 Participant_Material:T17
+T8	Operation 604 609	dried
+E6	Operation:T8 Participant_Material:T18
+T9	Operation 646 658	heat-treated
+E7	Operation:T9 Atmospheric_Material:T20
+T10	Operation 760 768	grounded
+E8	Operation:T10 Participant_Material:T24
+T11	Operation 773 781	annealed
+E9	Operation:T11 Atmospheric_Material:T25
+T12	Material 242 248	NH4VO3
+T13	Material 279 284	water
+T14	Material 358 366	solution
+T15	Material 384 392	NH4H2PO4
+T16	Material 401 407	Na2CO3
+T17	Material 419 430	citric acid
+T18	Material 596 599	gel
+T19	Synthesis-Apparatus 616 620	oven
+T20	Material 685 693	nitrogen
+T21	Nonrecipe-Material 715 718	CO2
+T22	Nonrecipe-Material 720 723	H2O
+T23	Nonrecipe-Material 729 732	NH3
+T24	Material 749 755	powder
+T25	Material 800 805	H2/Ar
+T26	Material 850 858	compound
+T27	Number 235 236	6
+T28	Amount-Unit 237 241	mmol
+T29	Number 263 265	70
+T30	Amount-Unit 266 268	mL
+T31	Material-Descriptor 269 278	deionized
+T32	Number 300 302	80
+T33	Condition-Unit 303 307	degC
+T34	Number 377 378	6
+T35	Amount-Unit 379 383	mmol
+T36	Number 394 395	2
+T37	Amount-Unit 396 400	mmol
+T38	Number 412 413	4
+T39	Amount-Unit 414 418	mmol
+T40	Number 624 627	150
+T41	Condition-Unit 628 632	degC
+T42	Number 637 638	4
+T43	Condition-Unit 639 640	h
+T44	Number 662 665	400
+T45	Condition-Unit 666 670	degC
+T46	Number 675 676	5
+T47	Condition-Unit 677 678	h
+T48	Number 785 788	900
+T49	Condition-Unit 789 793	degC
+T50	Number 812 814	10
+T51	Amount-Unit 814 815	%
+T52	Material 816 818	H2
+T53	Number 824 826	12
+T54	Condition-Unit 827 828	h
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Next_Operation Arg1:E8 Arg2:E9	
+R8	Condition_Of Arg1:T33 Arg2:E3	
+R9	Apparatus_Of Arg1:T19 Arg2:E6	
+R10	Condition_Of Arg1:T41 Arg2:E6	
+R11	Condition_Of Arg1:T43 Arg2:E6	
+R12	Condition_Of Arg1:T45 Arg2:E7	
+R13	Condition_Of Arg1:T47 Arg2:E7	
+R14	Condition_Of Arg1:T49 Arg2:E9	
+R15	Condition_Of Arg1:T54 Arg2:E9	
+R16	Amount_Of Arg1:T28 Arg2:T12	
+R17	Amount_Of Arg1:T30 Arg2:T13	
+R18	Descriptor_Of Arg1:T31 Arg2:T13	
+R19	Amount_Of Arg1:T35 Arg2:T15	
+R20	Amount_Of Arg1:T37 Arg2:T16	
+R21	Amount_Of Arg1:T39 Arg2:T17	
+R22	Amount_Of Arg1:T51 Arg2:T52	
+R23	Number_Of Arg1:T27 Arg2:T28	
+R24	Number_Of Arg1:T29 Arg2:T30	
+R25	Number_Of Arg1:T32 Arg2:T33	
+R26	Number_Of Arg1:T34 Arg2:T35	
+R27	Number_Of Arg1:T36 Arg2:T37	
+R28	Number_Of Arg1:T38 Arg2:T39	
+R29	Number_Of Arg1:T40 Arg2:T41	
+R30	Number_Of Arg1:T42 Arg2:T43	
+R31	Number_Of Arg1:T44 Arg2:T45	
+R32	Number_Of Arg1:T46 Arg2:T47	
+R33	Number_Of Arg1:T48 Arg2:T49	
+R34	Number_Of Arg1:T50 Arg2:T51	
+R35	Number_Of Arg1:T53 Arg2:T54	

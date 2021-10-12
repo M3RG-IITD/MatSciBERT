@@ -1,0 +1,190 @@
+T1	Operation 225 234	performed
+E1	Operation:T1 Participant_Material:T94
+T2	Operation 422 426	used
+E2	Operation:T2 Recipe_Precursor:T31 Recipe_Precursor:T32 Recipe_Precursor:T33
+T3	Operation 488 497	performed
+E3	Operation:T3 Participant_Material:T34
+T4	Operation 526 534	prepared
+E4	Operation:T4 Participant_Material:T35
+T5	Operation 538 557	mechanical alloying
+E5	Operation:T5 
+T6	Operation 558 563	using
+E6	Operation:T6 Participant_Material:T36
+T7	Operation 613 619	loaded
+E7	Operation:T7 Participant_Material:T37
+T8	Operation 729 737	achieved
+E8	Operation:T8 
+T9	Operation 695 714	mechanical alloying
+E9	Operation:T9 
+T10	Operation 738 743	using
+E10	Operation:T10 
+T11	Operation 856 864	prepared
+E11	Operation:T11 Recipe_Target:T38 Participant_Material:T39 Recipe_Precursor:T40 Recipe_Precursor:T41
+T12	Operation 984 990	ground
+E12	Operation:T12 Participant_Material:T42
+T13	Operation 992 997	mixed
+E13	Operation:T13 
+T14	Operation 1002 1008	placed
+E14	Operation:T14 
+T15	Operation 1033 1039	sealed
+E15	Operation:T15 
+T16	Operation 1057 1063	heated
+E16	Operation:T16 
+T17	Operation 1165 1171	cooled
+E17	Operation:T17 Participant_Material:T43
+T18	Operation 1272 1281	compacted
+E18	Operation:T18 Participant_Material:T45
+T19	Operation 1282 1287	using
+E19	Operation:T19 
+T20	Operation 1288 1310	spark plasma sintering
+E20	Operation:T20 
+T21	Operation 1339 1346	produce
+E21	Operation:T21 Participant_Material:T46
+T22	Operation 1426 1434	inserted
+E22	Operation:T22 Participant_Material:T47
+T23	Operation 1536 1542	raised
+E23	Operation:T23 
+T24	Operation 1630 1639	ramp down
+E24	Operation:T24 
+T25	Operation 1678 1684	raised
+E25	Operation:T25 
+T26	Operation 1732 1736	kept
+E26	Operation:T26 
+T27	Operation 1779 1787	released
+E27	Operation:T27 
+T28	Material 91 100	BaxCr5Se8
+T29	Material 171 180	reactants
+T30	Material 192 200	products
+T31	Material 329 331	Ba
+T34	Material 476 483	samples
+T35	Material 517 521	BaSe
+T36	Material 591 599	elements
+T37	Material 681 689	material
+T38	Material 837 846	BaxCr5Se8
+T39	Material 895 899	BaSe
+T40	Material 914 916	Cr
+T41	Material 921 923	Se
+T32	Material 345 347	Se
+T33	Material 369 371	Cr
+T42	Material 968 978	precursors
+T43	Material 1141 1148	mixture
+T44	Material 1236 1242	powder
+T45	Material 1261 1267	powder
+T46	Material 1353 1360	samples
+T47	Material 1414 1420	sample
+T48	Number 102 105	0.5
+T49	Number 112 116	0.55
+T50	Number 338 340	99
+T51	Number 356 362	99.999
+T53	Number 391 393	99
+T54	Number 601 603	10
+T55	Number 623 625	20
+T56	Number 661 662	7
+T57	Number 791 793	15
+T58	Number 804 805	2
+T59	Number 828 831	700
+T60	Number 944 945	5
+T61	Number 1067 1070	873
+T62	Number 1076 1078	10
+T63	Number 1199 1201	10
+T64	Number 1403 1404	5
+T65	Number 1509 1511	15
+T66	Number 1546 1548	45
+T67	Number 1560 1563	973
+T68	Number 1599 1601	40
+T69	Number 1619 1621	45
+T70	Number 1690 1692	28
+T71	Number 1700 1702	50
+T72	Amount-Unit 341 342	%
+T73	Amount-Unit 362 363	%
+T74	Amount-Unit 393 394	%
+T75	Reference 513 515	20
+T76	Amount-Unit 604 605	g
+T77	Apparatus-Unit 626 628	ml
+T78	Apparatus-Unit 663 668	balls
+T79	Condition-Unit 794 800	cycles
+T80	Condition-Unit 806 813	minutes
+T81	Condition-Unit 832 835	rpm
+T82	Amount-Unit 946 947	g
+T83	Condition-Unit 1071 1072	K
+T84	Condition-Unit 1079 1084	hours
+T85	Condition-Unit 1202 1207	hours
+T86	Amount-Unit 1405 1406	g
+T87	Apparatus-Unit 1512 1514	mm
+T88	Condition-Unit 1549 1556	minutes
+T89	Condition-Unit 1564 1565	K
+T90	Condition-Unit 1602 1609	minutes
+T91	Condition-Unit 1622 1629	minutes
+T92	Condition-Unit 1693 1696	MPa
+T93	Condition-Unit 1703 1706	MPa
+R1	Next_Operation Arg1:E4 Arg2:E5	
+R2	Next_Operation Arg1:E5 Arg2:E6	
+R3	Next_Operation Arg1:E6 Arg2:E7	
+R4	Next_Operation Arg1:E9 Arg2:E8	
+R5	Next_Operation Arg1:E8 Arg2:E10	
+R6	Next_Operation Arg1:E12 Arg2:E13	
+R7	Next_Operation Arg1:E13 Arg2:E14	
+R8	Next_Operation Arg1:E14 Arg2:E15	
+R9	Next_Operation Arg1:E15 Arg2:E16	
+R10	Next_Operation Arg1:E16 Arg2:E17	
+R11	Next_Operation Arg1:E17 Arg2:E18	
+R12	Next_Operation Arg1:E18 Arg2:E19	
+R13	Next_Operation Arg1:E19 Arg2:E20	
+R14	Next_Operation Arg1:E20 Arg2:E21	
+R15	Next_Operation Arg1:E23 Arg2:E24	
+R16	Next_Operation Arg1:E25 Arg2:E26	
+R17	Next_Operation Arg1:E26 Arg2:E27	
+T94	Material 244 253	inert gas
+T95	Condition-Misc 274 280	vacuum
+R18	Condition_Of Arg1:T95 Arg2:E1	
+R19	Condition_Of Arg1:T79 Arg2:E10	
+R20	Condition_Of Arg1:T80 Arg2:E10	
+R21	Condition_Of Arg1:T81 Arg2:E10	
+T96	Brand 746 753	Fritsch
+T97	Synthesis-Apparatus 754 771	Pulverisette 7 PL
+R22	Apparatus_Of Arg1:T97 Arg2:E10	
+R23	Brand_Of Arg1:T96 Arg2:T97	
+R24	Condition_Of Arg1:T83 Arg2:E16	
+R25	Condition_Of Arg1:T84 Arg2:E16	
+R26	Condition_Of Arg1:T85 Arg2:E17	
+R27	Condition_Of Arg1:T88 Arg2:E23	
+R28	Condition_Of Arg1:T89 Arg2:E23	
+R29	Condition_Of Arg1:T90 Arg2:E23	
+R30	Condition_Of Arg1:T91 Arg2:E24	
+R31	Condition_Of Arg1:T92 Arg2:E25	
+R32	Condition_Of Arg1:T93 Arg2:E25	
+R33	Amount_Of Arg1:T72 Arg2:T31	
+R34	Amount_Of Arg1:T73 Arg2:T32	
+R35	Amount_Of Arg1:T74 Arg2:T33	
+R36	Amount_Of Arg1:T76 Arg2:T36	
+T98	Material 961 966	phase
+R37	Amount_Of Arg1:T82 Arg2:T98	
+R38	Amount_Of Arg1:T86 Arg2:T47	
+R39	Number_Of Arg1:T50 Arg2:T72	
+R40	Number_Of Arg1:T51 Arg2:T73	
+R41	Number_Of Arg1:T53 Arg2:T74	
+T52	Number 381 384	325
+T99	Property-Unit 385 389	Mesh
+R42	Number_Of Arg1:T52 Arg2:T99	
+R43	Property_Of Arg1:T99 Arg2:T33	
+R44	Number_Of Arg1:T54 Arg2:T76	
+R45	Number_Of Arg1:T55 Arg2:T77	
+R46	Number_Of Arg1:T56 Arg2:T78	
+R47	Number_Of Arg1:T57 Arg2:T79	
+R48	Number_Of Arg1:T58 Arg2:T80	
+R49	Number_Of Arg1:T59 Arg2:T81	
+R50	Number_Of Arg1:T60 Arg2:T82	
+R51	Number_Of Arg1:T61 Arg2:T83	
+R52	Number_Of Arg1:T62 Arg2:T84	
+R53	Number_Of Arg1:T63 Arg2:T85	
+R54	Number_Of Arg1:T64 Arg2:T86	
+R55	Number_Of Arg1:T65 Arg2:T87	
+R56	Number_Of Arg1:T66 Arg2:T88	
+R57	Number_Of Arg1:T67 Arg2:T89	
+R58	Number_Of Arg1:T68 Arg2:T90	
+R59	Number_Of Arg1:T69 Arg2:T91	
+R60	Number_Of Arg1:T70 Arg2:T92	
+R61	Number_Of Arg1:T71 Arg2:T93	
+T100	Synthesis-Apparatus 646 650	jars
+T101	Apparatus-Descriptor 629 645	tungsten carbide
+R62	Apparatus_Attr_Of Arg1:T77 Arg2:T100	

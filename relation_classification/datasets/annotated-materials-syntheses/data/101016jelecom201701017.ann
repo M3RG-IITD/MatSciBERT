@@ -1,0 +1,77 @@
+T1	Operation 145 156	synthesized
+E1	Operation:T1 Recipe_Target:T10
+T2	Meta 165 185	solid-state reaction
+T3	Operation 232 241	preheated
+E2	Operation:T3 Recipe_Precursor:T12 Recipe_Precursor:T11
+T4	Operation 404 409	mixed
+E3	Operation:T4 Recipe_Precursor:T15 Recipe_Precursor:T14 Recipe_Precursor:T13
+T5	Operation 413 425	ball milling
+E4	Operation:T5 
+T6	Operation 439 446	pressed
+E5	Operation:T6 Participant_Material:T16
+T7	Operation 501 509	calcined
+E6	Operation:T7 Participant_Material:T17 Atmospheric_Material:T18
+T8	Operation 577 584	reduced
+E7	Operation:T8 Participant_Material:T20 Atmospheric_Material:T21
+T9	Operation 616 624	grounded
+E8	Operation:T9 Recipe_Target:T22
+T10	Material 125 130	SLFO4
+T11	Material 205 210	La2O3
+T12	Material 215 226	SrCO3/Fe2O3
+T13	Material 356 361	La2O3
+T14	Material 363 368	SrCO3
+T15	Material 374 379	Fe2O3
+T16	Material 452 459	pellets
+T17	Material 488 495	pellets
+T18	Material 513 516	air
+T19	Material 542 547	SLFO4
+T20	Material 563 572	precursor
+T21	Material 588 590	H2
+T22	Material 635 644	SLFO4 - δ
+T23	Property-Misc 131 140	precursor
+T24	Number 245 249	1000
+T25	Number 254 257	300
+T26	Condition-Unit 258 262	degC
+T27	Number 267 270	6-8
+T28	Condition-Unit 271 272	h
+T29	Amount-Misc 330 352	stoichiometric amounts
+T30	Material-Descriptor 380 387	powders
+T31	Number 430 432	24
+T32	Condition-Unit 433 434	h
+T33	Number 477 478	4
+T34	Condition-Unit 479 482	MPa
+T35	Number 520 524	1100
+T36	Condition-Unit 525 529	degC
+T37	Number 534 536	10
+T38	Condition-Unit 537 538	h
+T39	Material-Descriptor 548 557	precursor
+T40	Number 595 596	2
+T41	Condition-Unit 597 598	h
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Condition_Of Arg1:T26 Arg2:E2	
+R8	Condition_Of Arg1:T28 Arg2:E2	
+R9	Condition_Of Arg1:T34 Arg2:E5	
+R10	Condition_Of Arg1:T36 Arg2:E6	
+R11	Condition_Of Arg1:T38 Arg2:E6	
+R12	Condition_Of Arg1:T41 Arg2:E7	
+R13	Property_Of Arg1:T23 Arg2:T10	
+R14	Amount_Of Arg1:T29 Arg2:T13	
+R15	Amount_Of Arg1:T29 Arg2:T14	
+R16	Amount_Of Arg1:T29 Arg2:T15	
+R17	Descriptor_Of Arg1:T30 Arg2:T15	
+R18	Descriptor_Of Arg1:T30 Arg2:T14	
+R19	Descriptor_Of Arg1:T30 Arg2:T13	
+R20	Descriptor_Of Arg1:T39 Arg2:T19	
+R21	Number_Of Arg1:T24 Arg2:T26	
+R22	Number_Of Arg1:T25 Arg2:T26	
+R23	Number_Of Arg1:T27 Arg2:T28	
+R24	Number_Of Arg1:T31 Arg2:T32	
+R25	Number_Of Arg1:T33 Arg2:T34	
+R26	Number_Of Arg1:T35 Arg2:T36	
+R27	Number_Of Arg1:T37 Arg2:T38	
+R28	Number_Of Arg1:T40 Arg2:T41	

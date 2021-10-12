@@ -1,0 +1,98 @@
+T1	Operation 249 257	prepared
+E1	Operation:T1 Participant_Material:T9 Participant_Material:T10
+T2	Operation 399 404	added
+E2	Operation:T2 Participant_Material:T15 Recipe_Precursor:T16 Participant_Material:T17 Participant_Material:T18
+T3	Operation 431 441	evaporated
+E3	Operation:T3 
+T4	Operation 489 494	dried
+E4	Operation:T4 Participant_Material:T19
+T5	Operation 522 530	calcined
+E5	Operation:T5 
+T6	Operation 568 574	varied
+E6	Operation:T6 Participant_Material:T20
+T7	Operation 595 603	changing
+E7	Operation:T7 Participant_Material:T21
+T8	Operation 683 691	prepared
+E8	Operation:T8 Participant_Material:T24 Participant_Material:T23
+T11	Material 177 183	Mn/USY
+T12	Brand 186 193	Zeolyst
+T13	Nonrecipe-Material 203 207	SiO2
+T14	Nonrecipe-Material 208 213	Al2O3
+T15	Material 296 304	solution
+T16	Material 342 358	Mn(CH3COO)2*4H2O
+T17	Material 412 419	powders
+T9	Material 115 130	Manganese oxide
+T10	Material 166 175	zeolite Y
+T18	Material 423 426	USY
+T19	Material 476 483	samples
+T20	Nonrecipe-Material 553 555	Mn
+T21	Material 608 617	precursor
+T22	Material 669 676	Mn/SiO2
+T23	Material 642 657	manganese oxide
+T24	Material 627 631	SiO2
+T25	Number 216 219	180
+T26	Number 234 237	875
+T27	Property-Unit 238 242	m2/g
+T28	Property-Type 221 233	surface area
+T29	Number 388 392	99.9
+T30	Amount-Unit 392 393	%
+T31	Number 456 459	343
+T32	Condition-Unit 460 461	K
+T33	Number 498 501	383
+T34	Condition-Unit 502 503	K
+T35	Number 508 510	24
+T36	Condition-Unit 511 512	h
+T37	Number 534 537	773
+T38	Condition-Unit 538 539	K
+T39	Number 544 545	3
+T40	Condition-Unit 546 547	h
+T41	Number 580 581	5
+T42	Number 585 587	15
+T43	Amount-Unit 588 591	wt%
+T44	Material-Descriptor 131 140	catalysts
+T45	Material-Descriptor 154 165	ultrastable
+T46	Meta 264 283	impregnation method
+T47	Material-Descriptor 288 295	aqueous
+T48	Amount-Misc 320 338	appropriate amount
+T49	Brand 360 378	Wako Pure Chemical
+T50	Material-Descriptor 467 475	catalyst
+T51	Material-Descriptor 632 641	supported
+T52	Material-Descriptor 658 667	catalysts
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Coref_Of Arg1:T11 Arg2:T10	
+R8	Coref_Of Arg1:T11 Arg2:T9	
+R9	Coref_Of Arg1:T22 Arg2:T23	
+R10	Coref_Of Arg1:T22 Arg2:T24	
+R11	Condition_Of Arg1:T32 Arg2:E3	
+R12	Condition_Of Arg1:T34 Arg2:E4	
+R13	Condition_Of Arg1:T36 Arg2:E4	
+R14	Condition_Of Arg1:T38 Arg2:E5	
+R15	Condition_Of Arg1:T40 Arg2:E5	
+R16	Property_Of Arg1:T27 Arg2:T10	
+R17	Amount_Of Arg1:T48 Arg2:T16	
+R18	Amount_Of Arg1:T30 Arg2:T16	
+R19	Amount_Of Arg1:T43 Arg2:T20	
+R20	Descriptor_Of Arg1:T44 Arg2:T9	
+R21	Descriptor_Of Arg1:T45 Arg2:T10	
+R22	Descriptor_Of Arg1:T47 Arg2:T15	
+R23	Descriptor_Of Arg1:T50 Arg2:T19	
+R24	Descriptor_Of Arg1:T51 Arg2:T23	
+R25	Descriptor_Of Arg1:T52 Arg2:T23	
+R26	Descriptor_Of Arg1:T51 Arg2:T24	
+R27	Type_Of Arg1:T28 Arg2:T27	
+R28	Number_Of Arg1:T26 Arg2:T27	
+R29	Number_Of Arg1:T29 Arg2:T30	
+R30	Number_Of Arg1:T31 Arg2:T32	
+R31	Number_Of Arg1:T33 Arg2:T34	
+R32	Number_Of Arg1:T35 Arg2:T36	
+R33	Number_Of Arg1:T37 Arg2:T38	
+R34	Number_Of Arg1:T39 Arg2:T40	
+R35	Number_Of Arg1:T41 Arg2:T43	
+R36	Number_Of Arg1:T42 Arg2:T43	
+R37	Brand_Of Arg1:T12 Arg2:T10	
+R38	Brand_Of Arg1:T49 Arg2:T16	

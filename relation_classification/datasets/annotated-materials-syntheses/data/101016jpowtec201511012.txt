@@ -1,0 +1,3 @@
+10.1016/j.powtec.2015.11.012
+Addition of low reactive clay into metakaolin-based geopolymer formulation: Synthesis, existence domains and properties
+Geopolymer samples were prepared by dissolving potassium hydroxide pellets, supplied by VWR (Belgium) (85.2% pure), into a commercial potassium silicate solution (Si/K = 1.7) supplied by ChemLab (Belgium). Then, Me clay and/or MK were added. Samples were placed in a closed sealable polystyrene mold at room temperature (25 degC) according to the procedure previously established by Autef et al. [12].

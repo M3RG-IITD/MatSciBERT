@@ -1,0 +1,4 @@
+10.1016/j.elecom.2017.01.017
+Sulfur tolerant redox stable layered perovskite SrLaFeO4-δ as anode for solid oxide fuel cells
+
+SLFO4 precursor was synthesized using a solid-state reaction method. Initially, La2O3 and SrCO3/Fe2O3 were preheated at 1000 and 300 degC for 6-8 h, respectively, to remove the absorbed moisture, and then stoichiometric amounts of La2O3, SrCO3, and Fe2O3 powders were thoroughly mixed by ball milling for 24 h and pressed into pellets at a pressure of 4 MPa. The pellets were calcined in air at 1100 degC for 10 h as SLFO4 precursor. The precursor was reduced in H2 for 2 h and subsequently grounded to obtain SLFO4 - δ final powders.

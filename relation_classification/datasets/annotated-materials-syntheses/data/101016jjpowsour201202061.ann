@@ -1,0 +1,95 @@
+T1	Operation 215 226	synthesized
+E1	Operation:T1 Recipe_Target:T13
+T2	Meta 232 259	solid-state reaction method
+T3	Operation 416 421	mixed
+E2	Operation:T3 Recipe_Precursor:T15 Recipe_Precursor:T17 Recipe_Precursor:T19 Solvent_Material:T21
+T4	Operation 484 491	removed
+E3	Operation:T4 Solvent_Material:T23
+T5	Operation 495 502	heating
+E4	Operation:T5 Participant_Material:T24 Atmospheric_Material:T27
+T6	Operation 583 591	calcined
+E5	Operation:T6 Participant_Material:T30 Atmospheric_Material:T35
+T7	Operation 647 653	ground
+E6	Operation:T7 Participant_Material:T36
+T8	Operation 655 661	milled
+E7	Operation:T8 
+T9	Operation 674 680	sifted
+E8	Operation:T9 
+T10	Operation 728 733	mixed
+E9	Operation:T10 Participant_Material:T41 Participant_Material:T39
+T11	Operation 825 837	ball milling
+E10	Operation:T11 
+T12	Operation 883 891	obtained
+E11	Operation:T12 Participant_Material:T49
+T13	Material 194 210	La0.8Sr0.2MnO3-δ
+T14	Amount-Misc 274 292	appropriate ratios
+T15	Material 296 313	Lanthanum nitrate
+T16	Material 315 328	La(NO3)3*6H2O
+T17	Material 335 354	strontium carbonate
+T18	Material 356 361	SrCO3
+T19	Material 368 387	manganous carbonate
+T20	Material 389 394	MnCO3
+T21	Material 427 434	alcohol
+T22	Synthesis-Apparatus 443 452	ball mill
+T23	Material 472 479	alcohol
+T24	Material 507 513	slurry
+T25	Number 517 520	120
+T26	Condition-Unit 521 525	degC
+T27	Material 529 532	air
+T28	Number 537 539	12
+T29	Condition-Unit 540 541	h
+T30	Material 567 573	powder
+T31	Number 595 599	1000
+T32	Condition-Unit 600 604	degC
+T33	Number 609 610	6
+T34	Condition-Unit 611 612	h
+T35	Material 616 619	air
+T36	Material 634 641	powders
+T37	Synthesis-Apparatus 689 697	300 mesh
+T38	Material-Descriptor 715 722	powders
+T39	Material 743 746	YSZ
+T40	Brand 755 772	Tosoh Corporation
+T41	Material 711 714	LSM
+T42	Material-Descriptor 781 788	powders
+T43	Amount-Unit 794 804	mass ratio
+T44	Material 808 811	LSM
+T45	Material 812 815	YSZ
+T46	Number 818 821	1.0
+T47	Number 842 844	10
+T48	Condition-Unit 845 846	h
+T49	Material 870 877	powders
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Next_Operation Arg1:E8 Arg2:E9	
+R8	Next_Operation Arg1:E9 Arg2:E10	
+R9	Next_Operation Arg1:E10 Arg2:E11	
+R10	Coref_Of Arg1:T16 Arg2:T15	
+R11	Coref_Of Arg1:T18 Arg2:T17	
+R12	Coref_Of Arg1:T20 Arg2:T19	
+R13	Apparatus_Of Arg1:T22 Arg2:E2	
+R14	Condition_Of Arg1:T26 Arg2:E4	
+R15	Condition_Of Arg1:T29 Arg2:E4	
+R16	Condition_Of Arg1:T32 Arg2:E5	
+R17	Condition_Of Arg1:T34 Arg2:E5	
+R18	Apparatus_Of Arg1:T37 Arg2:E8	
+R19	Condition_Of Arg1:T48 Arg2:E10	
+R20	Amount_Of Arg1:T14 Arg2:T15	
+R21	Amount_Of Arg1:T14 Arg2:T17	
+R22	Amount_Of Arg1:T14 Arg2:T19	
+R23	Amount_Of Arg1:T43 Arg2:T44	
+R24	Amount_Of Arg1:T43 Arg2:T45	
+R25	Amount_Of Arg1:T43 Arg2:T41	
+R26	Amount_Of Arg1:T43 Arg2:T39	
+R27	Descriptor_Of Arg1:T42 Arg2:T39	
+R28	Descriptor_Of Arg1:T38 Arg2:T41	
+R29	Number_Of Arg1:T25 Arg2:T26	
+R30	Number_Of Arg1:T28 Arg2:T29	
+R31	Number_Of Arg1:T31 Arg2:T32	
+R32	Number_Of Arg1:T33 Arg2:T34	
+R33	Number_Of Arg1:T46 Arg2:T43	
+R34	Number_Of Arg1:T47 Arg2:T48	
+R35	Brand_Of Arg1:T40 Arg2:T39	

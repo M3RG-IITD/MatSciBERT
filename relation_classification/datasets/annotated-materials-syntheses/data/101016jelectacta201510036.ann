@@ -1,0 +1,233 @@
+T1	Material 32 52	Li3V2(PO4)3/graphene
+T2	Property-Misc 53 67	nanocomposites
+T3	Property-Misc 105 112	cathode
+T4	Operation 197 205	prepared
+E1	Operation:T4 Participant_Material:T55 Recipe_Precursor:T57
+T5	Reference 241 269	modified Hummers method [26]
+T6	Reference 274 278	[27]
+T7	Operation 293 304	synthesized
+E2	Operation:T7 Participant_Material:T58
+T8	Meta 316 323	sol-gel
+T9	Reference 362 366	[28]
+T10	Operation 445 454	dissolved
+E3	Operation:T10 Solvent_Material:T61 Recipe_Precursor:T60 Recipe_Precursor:T59
+T11	Operation 488 496	stirring
+E4	Operation:T11 
+T12	Operation 537 543	formed
+E5	Operation:T12 Participant_Material:T62
+T13	Operation 621 626	added
+E6	Operation:T13 Recipe_Precursor:T63 Recipe_Precursor:T64 Participant_Material:T65
+T14	Operation 650 658	stirring
+E7	Operation:T14 
+T15	Operation 683 689	formed
+E8	Operation:T15 Participant_Material:T66
+T16	Operation 730 740	decomposed
+E9	Operation:T16 Participant_Material:T67 Atmospheric_Material:T68
+T17	Operation 793 801	obtained
+E10	Operation:T17 Participant_Material:T69
+T18	Operation 814 820	ground
+E11	Operation:T18 Participant_Material:T69
+T19	Operation 822 829	pressed
+E12	Operation:T19 Participant_Material:T70
+T20	Operation 848 856	sintered
+E13	Operation:T20 Atmospheric_Material:T71
+T21	Operation 910 917	divided
+E14	Operation:T21 Participant_Material:T72
+T22	Operation 950 956	heated
+E15	Operation:T22 Atmospheric_Material:T73
+T23	Operation 1015 1019	used
+E16	Operation:T23 
+T24	Operation 1023 1030	prepare
+E17	Operation:T24 Recipe_Target:T74
+T25	Operation 1157 1168	transferred
+E18	Operation:T25 Recipe_Precursor:T75 Recipe_Precursor:T78
+T26	Operation 1209 1218	dissolved
+E19	Operation:T26 Recipe_Precursor:T78 Solvent_Material:T79
+T27	Operation 1262 1269	stirred
+E20	Operation:T27 Participant_Material:T76
+T28	Operation 1305 1325	ultrasonic treatment
+E21	Operation:T28 
+T29	Operation 1365 1370	dried
+E22	Operation:T29 Participant_Material:T77
+T30	Operation 1374 1387	freeze drying
+E23	Operation:T30 
+T31	Operation 1401 1406	dried
+E24	Operation:T31 Participant_Material:T80
+T32	Operation 1423 1431	sintered
+E25	Operation:T32 Participant_Material:T80 Atmospheric_Material:T81
+T33	Operation 1492 1501	formation
+E26	Operation:T33 Recipe_Target:T82
+T34	Number 1545 1546	1
+T35	Number 388 392	3.02
+T36	Number 406 410	1.46
+T37	Number 500 502	70
+T38	Number 583 587	1.84
+T39	Number 609 613	1.68
+T40	Number 663 664	4
+T41	Number 708 711	100
+T42	Number 744 747	350
+T43	Number 780 781	4
+T44	Number 860 863	750
+T45	Number 873 874	4
+T46	Number 960 963	750
+T47	Number 973 974	2
+T48	Number 1146 1149	1.0
+T49	Number 1188 1190	50
+T50	Number 1222 1225	500
+T51	Number 1274 1276	12
+T52	Number 1330 1331	2
+T53	Number 1435 1438	750
+T54	Number 1448 1449	2
+T55	Material 173 187	graphene oxide
+T56	Material 189 191	GO
+T57	Material 219 234	graphite powder
+T58	Material 285 288	LVP
+T59	Material 375 386	oxalic acid
+T60	Material 400 404	V2O5
+T61	Material 468 473	water
+T62	Material 528 536	solution
+T63	Material 573 581	NH4H2PO4
+T64	Material 595 607	CH3COOLi*H2O
+T65	Material 634 642	solution
+T66	Material 679 682	gel
+T67	Material 722 725	gel
+T68	Material 759 764	argon
+T69	Material 802 809	product
+T70	Material 835 842	pellets
+T71	Material 888 893	argon
+T72	Material 899 905	sample
+T73	Material 983 988	argon
+T74	Material 1031 1036	LVP/G
+T75	Material 1141 1144	LVP
+T76	Material 1250 1257	mixture
+T77	Material 1353 1360	mixture
+T78	Material 1194 1208	graphene oxide
+T79	Material 1239 1244	water
+T80	Material 1407 1413	sample
+T81	Material 1463 1468	argon
+T82	Material 1505 1510	LVP/G
+T83	Amount-Unit 393 394	g
+T84	Amount-Unit 411 412	g
+T85	Condition-Unit 503 507	degC
+T86	Amount-Unit 588 589	g
+T87	Amount-Unit 614 615	g
+T88	Condition-Unit 665 666	h
+T89	Condition-Unit 712 716	degC
+T90	Condition-Unit 748 752	degC
+T91	Condition-Unit 782 783	h
+T92	Condition-Unit 864 868	degC
+T93	Condition-Unit 875 876	h
+T94	Condition-Unit 964 968	degC
+T95	Condition-Unit 975 976	h
+T96	Amount-Unit 1150 1151	g
+T97	Amount-Unit 1191 1193	mg
+T98	Amount-Unit 1226 1228	mL
+T99	Condition-Unit 1277 1278	h
+T100	Condition-Unit 1332 1333	h
+T101	Condition-Unit 1439 1443	degC
+T102	Condition-Unit 1450 1451	h
+T103	Material-Descriptor 211 218	natural
+T104	Amount-Misc 419 439	stoichiometric ratio
+T105	Material-Descriptor 458 467	deionized
+T106	Condition-Misc 479 487	magnetic
+T107	Material-Descriptor 517 527	clear blue
+T108	Material-Descriptor 547 554	mixture
+T109	Amount-Misc 558 572	stoichiometric
+T110	Synthesis-Apparatus 700 704	oven
+T111	Apparatus-Descriptor 696 699	air
+T112	Condition-Type 765 775	atmosphere
+T113	Material-Descriptor 880 887	flowing
+T114	Condition-Type 989 999	atmosphere
+T115	Property-Misc 1037 1051	nanocomposites
+T116	Material-Descriptor 1174 1184	suspension
+T117	Material-Descriptor 1229 1238	deionized
+T118	Condition-Misc 1282 1298	room temperature
+T119	Material-Descriptor 1455 1462	flowing
+T120	Property-Misc 1511 1525	nanocomposites
+R1	Property_Of Arg1:T2 Arg2:T1	
+R2	Property_Of Arg1:T3 Arg2:T1	
+R3	Coref_Of Arg1:T56 Arg2:T55	
+A1	Start_Recipe E1
+R4	Next_Operation Arg1:E1 Arg2:E2	
+R5	Next_Operation Arg1:E2 Arg2:E3	
+R6	Next_Operation Arg1:E3 Arg2:E4	
+R7	Next_Operation Arg1:E4 Arg2:E5	
+R8	Next_Operation Arg1:E5 Arg2:E6	
+R9	Next_Operation Arg1:E6 Arg2:E7	
+R10	Next_Operation Arg1:E7 Arg2:E8	
+R11	Next_Operation Arg1:E8 Arg2:E9	
+R12	Next_Operation Arg1:E9 Arg2:E10	
+R13	Next_Operation Arg1:E10 Arg2:E11	
+R14	Next_Operation Arg1:E11 Arg2:E12	
+R15	Next_Operation Arg1:E12 Arg2:E13	
+R16	Next_Operation Arg1:E13 Arg2:E14	
+R17	Next_Operation Arg1:E14 Arg2:E15	
+R18	Next_Operation Arg1:E15 Arg2:E16	
+R19	Next_Operation Arg1:E16 Arg2:E17	
+R20	Next_Operation Arg1:E17 Arg2:E18	
+R21	Next_Operation Arg1:E18 Arg2:E19	
+R22	Next_Operation Arg1:E19 Arg2:E20	
+R23	Next_Operation Arg1:E20 Arg2:E21	
+R24	Next_Operation Arg1:E21 Arg2:E22	
+R25	Next_Operation Arg1:E22 Arg2:E23	
+R26	Next_Operation Arg1:E23 Arg2:E24	
+R27	Next_Operation Arg1:E24 Arg2:E25	
+R28	Next_Operation Arg1:E25 Arg2:E26	
+A2	End_Recipe E26
+R29	Descriptor_Of Arg1:T103 Arg2:T57	
+R30	Number_Of Arg1:T35 Arg2:T83	
+R31	Amount_Of Arg1:T83 Arg2:T59	
+R32	Number_Of Arg1:T36 Arg2:T84	
+R33	Amount_Of Arg1:T84 Arg2:T60	
+R34	Amount_Of Arg1:T104 Arg2:T59	
+R35	Amount_Of Arg1:T104 Arg2:T60	
+R36	Condition_Of Arg1:T85 Arg2:E4	
+R37	Number_Of Arg1:T37 Arg2:T85	
+R38	Condition_Of Arg1:T106 Arg2:E4	
+R39	Descriptor_Of Arg1:T105 Arg2:T61	
+R40	Descriptor_Of Arg1:T107 Arg2:T62	
+R41	Descriptor_Of Arg1:T108 Arg2:T63	
+R42	Amount_Of Arg1:T109 Arg2:T63	
+R43	Number_Of Arg1:T38 Arg2:T86	
+R44	Amount_Of Arg1:T86 Arg2:T63	
+R45	Number_Of Arg1:T39 Arg2:T87	
+R46	Amount_Of Arg1:T87 Arg2:T64	
+R47	Number_Of Arg1:T40 Arg2:T88	
+R48	Condition_Of Arg1:T88 Arg2:E7	
+R49	Descriptor_Of Arg1:T111 Arg2:T110	
+R50	Apparatus_Of Arg1:T110 Arg2:E8	
+R51	Number_Of Arg1:T41 Arg2:T89	
+R52	Condition_Of Arg1:T89 Arg2:E8	
+R53	Number_Of Arg1:T42 Arg2:T90	
+R54	Condition_Of Arg1:T90 Arg2:E9	
+R55	Number_Of Arg1:T43 Arg2:T91	
+R56	Condition_Of Arg1:T91 Arg2:E9	
+R57	Number_Of Arg1:T44 Arg2:T92	
+R58	Condition_Of Arg1:T92 Arg2:E13	
+R59	Number_Of Arg1:T45 Arg2:T93	
+R60	Condition_Of Arg1:T93 Arg2:E13	
+R61	Descriptor_Of Arg1:T113 Arg2:T71	
+R62	Number_Of Arg1:T46 Arg2:T94	
+R63	Condition_Of Arg1:T94 Arg2:E15	
+R64	Number_Of Arg1:T47 Arg2:T95	
+R65	Condition_Of Arg1:T95 Arg2:E15	
+R66	Property_Of Arg1:T115 Arg2:T74	
+R67	Number_Of Arg1:T48 Arg2:T96	
+R68	Amount_Of Arg1:T96 Arg2:T75	
+R69	Number_Of Arg1:T49 Arg2:T97	
+R70	Descriptor_Of Arg1:T116 Arg2:T78	
+R71	Amount_Of Arg1:T97 Arg2:T78	
+R72	Number_Of Arg1:T50 Arg2:T98	
+R73	Amount_Of Arg1:T98 Arg2:T79	
+R74	Descriptor_Of Arg1:T117 Arg2:T79	
+R75	Number_Of Arg1:T51 Arg2:T99	
+R76	Condition_Of Arg1:T99 Arg2:E20	
+R77	Condition_Of Arg1:T118 Arg2:E20	
+R78	Number_Of Arg1:T52 Arg2:T100	
+R79	Condition_Of Arg1:T100 Arg2:E21	
+R80	Number_Of Arg1:T53 Arg2:T101	
+R81	Condition_Of Arg1:T101 Arg2:E25	
+R82	Number_Of Arg1:T54 Arg2:T102	
+R83	Condition_Of Arg1:T102 Arg2:E25	
+R84	Descriptor_Of Arg1:T119 Arg2:T81	
+R85	Property_Of Arg1:T120 Arg2:T82	

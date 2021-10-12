@@ -1,0 +1,300 @@
+T1	Material 63 77	graphene oxide
+T2	Material 126 128	GO
+T3	Operation 133 144	synthesized
+E1	Operation:T3 Recipe_Target:T2 Recipe_Precursor:T59
+T4	Reference 174 197	modified Hummers method
+T5	Operation 203 212	dispersed
+E2	Operation:T5 Solvent_Material:T60
+T6	Reference 222 224	11
+T7	Operation 252 263	preparation
+E3	Operation:T7 Participant_Material:T61
+T8	Operation 340 347	diluted
+E4	Operation:T8 Recipe_Precursor:T62 Participant_Material:T64
+T9	Operation 407 416	sonicated
+E5	Operation:T9 Participant_Material:T65
+T10	Operation 450 459	exfoliate
+E6	Operation:T10 Participant_Material:T66
+T11	Operation 493 500	stacked
+E7	Operation:T11 
+T12	Operation 508 518	dispersion
+E8	Operation:T12 
+T14	Operation 580 585	added
+E10	Operation:T14 Recipe_Precursor:T67
+T15	Operation 599 604	mixed
+E11	Operation:T15 Participant_Material:T69
+T16	Operation 628 636	addition
+E12	Operation:T16 Recipe_Precursor:T70
+T17	Operation 668 681	stabilization
+E13	Operation:T17 Participant_Material:T71
+T18	Operation 774 779	added
+E14	Operation:T18 Recipe_Precursor:T72 Participant_Material:T74
+T13	Operation 813 821	addition
+E9	Operation:T13 Participant_Material:T75
+T19	Operation 862 868	formed
+E15	Operation:T19 Participant_Material:T76
+T20	Operation 891 898	shaking
+E16	Operation:T20 
+T21	Operation 931 940	sonicated
+E17	Operation:T21 Participant_Material:T77
+T22	Operation 991 1000	formation
+E18	Operation:T22 Participant_Material:T78
+T23	Operation 1114 1122	prepared
+E19	Operation:T23 Recipe_Target:T79 Participant_Material:T81
+T24	Operation 1239 1247	prepared
+E20	Operation:T24 Recipe_Target:T84
+T25	Operation 1251 1259	diluting
+E21	Operation:T25 Participant_Material:T85
+T26	Operation 1310 1316	obtain
+E22	Operation:T26 Participant_Material:T86
+T27	Operation 1349 1358	synthesis
+E23	Operation:T27 Recipe_Target:T87
+T28	Operation 1382 1391	performed
+E24	Operation:T28 
+T29	Reference 1423 1424	8
+T30	Operation 1454 1463	performed
+E25	Operation:T30 
+T31	Operation 1467 1473	mixing
+E26	Operation:T31 Recipe_Precursor:T90 Solvent_Material:T89 Recipe_Precursor:T88
+T32	Operation 1607 1615	degassed
+E27	Operation:T32 Participant_Material:T91
+T33	Operation 1741 1749	injected
+E28	Operation:T33 Participant_Material:T93
+T34	Operation 1762 1769	heating
+E29	Operation:T34 
+T35	Operation 1790 1794	kept
+E30	Operation:T35 
+T36	Operation 1836 1843	cooling
+E31	Operation:T36 
+T37	Operation 1884 1895	transferred
+E32	Operation:T37 Participant_Material:T98
+T38	Operation 1915 1921	washed
+E33	Operation:T38 Participant_Material:T96
+T39	Operation 1965 1976	redispersed
+E34	Operation:T39 Solvent_Material:T97
+T40	Operation 2011 2015	kept
+E35	Operation:T40 Participant_Material:T99
+T41	Operation 2058 2067	formation
+E36	Operation:T41 Recipe_Target:T100
+T42	Number 325 326	4
+T43	Number 353 356	150
+T44	Number 380 383	1:1
+T45	Number 427 429	20
+T46	Number 529 531	50
+T47	Number 570 571	1
+T48	Number 762 765	200
+T49	Number 1362 1363	5
+T50	Number 1474 1478	1.25
+T51	Number 1520 1522	10
+T52	Number 1547 1549	17
+T53	Number 1619 1622	120
+T54	Number 1632 1633	1
+T55	Number 1677 1678	1
+T56	Number 1718 1719	3
+T57	Number 1776 1779	180
+T58	Number 1819 1824	10-20
+T59	Material 150 158	graphite
+T60	Material 216 221	water
+T61	Material 238 251	macroemulsion
+T62	Material 279 281	GO
+T63	Material 294 299	water
+T64	Material 373 378	water
+T65	Material 394 402	solution
+T66	Material 464 466	GO
+T67	Material 546 563	hydrochloric acid
+T68	Material 565 568	HCl
+T69	Material 614 622	solution
+T70	Material 640 643	HCl
+T71	Material 689 702	macroemulsion
+T72	Material 718 725	toluene
+T73	Material 750 760	Cu2-xS NCs
+T74	Material 795 797	GO
+T75	Nonrecipe-Material 829 836	toluene
+T76	Material 849 857	emulsion
+T77	Material 918 926	emulsion
+T78	Material 1006 1019	macroemulsion
+T79	Material 1052 1062	toluene/GO
+T80	Nonrecipe-Material 1097 1107	Cu2-xS NCs
+T81	Material 1159 1166	toluene
+T82	Nonrecipe-Material 1178 1188	Cu2-xS NCs
+T83	Material 1192 1199	toluene
+T84	Material 1215 1225	Cu2-xS NCs
+T85	Material 1278 1286	solution
+T86	Material 1325 1329	NC's
+T87	Material 1367 1377	Cu2-xS NCs
+T88	Material 1487 1518	ammonium diethyldithiocarbamate
+T89	Material 1529 1542	dodecanethiol
+T90	Material 1556 1566	oleic acid
+T91	Material 1594 1602	solution
+T92	Material 1643 1651	nitrogen
+T93	Material 1654 1664	suspension
+T94	Material 1687 1713	copper(II) acetylacetonate
+T95	Material 1726 1736	oleic acid
+T96	Material 1943 1951	solvents
+T97	Material 1980 1987	toluene
+T98	Material 1868 1870	NC
+T99	Material 1993 1995	NC
+T100	Material 2078 2091	GO/Cu2-xS NCs
+T101	Number 265 268	150
+T102	Amount-Unit 269 271	μL
+T103	Amount-Unit 327 334	mg mL-1
+T104	Amount-Unit 357 359	μL
+T105	Amount-Unit 384 387	v/v
+T106	Condition-Unit 430 437	minutes
+T107	Amount-Unit 532 534	μL
+T108	Amount-Unit 572 573	M
+T109	Amount-Unit 766 768	μL
+T110	Number 1287 1290	two
+T111	Condition-Unit 1291 1296	times
+T112	Property-Unit 1364 1366	nm
+T113	Amount-Unit 1479 1483	mmol
+T114	Amount-Unit 1523 1525	mL
+T115	Amount-Unit 1550 1552	mL
+T116	Condition-Unit 1623 1627	degC
+T117	Condition-Unit 1634 1635	h
+T118	Amount-Unit 1679 1683	mmol
+T119	Amount-Unit 1720 1722	mL
+T120	Condition-Unit 1780 1784	degC
+T121	Condition-Unit 1825 1828	min
+T122	Material 104 112	Cu 2-x S
+T123	Property-Misc 113 125	nanocrystals
+T124	Material-Descriptor 159 165	powder
+T125	Material-Descriptor 282 290	solution
+T126	Material-Descriptor 363 372	deionized
+T127	Material-Descriptor 467 473	sheets
+T128	Material-Descriptor 538 545	diluted
+T129	Condition-Misc 586 594	dropwise
+T130	Material-Descriptor 726 734	solution
+T131	Material-Descriptor 787 794	diluted
+T132	Material-Descriptor 798 806	solution
+T133	Material-Descriptor 837 845	solution
+T134	Condition-Misc 884 890	manual
+T135	Operation 953 961	decrease
+E37	Operation:T135 
+T136	Property-Misc 1029 1034	milky
+T137	Property-Type 1035 1045	appearance
+T138	Property-Misc 1063 1077	macroemulsions
+T139	Property-Misc 1047 1051	Pure
+T140	Material-Descriptor 1154 1158	pure
+T141	Property-Misc 1226 1233	samples
+T142	Material-Descriptor 1273 1277	NC's
+T143	Synthesis-Apparatus 1583 1588	flask
+T144	Apparatus-Descriptor 1572 1582	three-neck
+T145	Condition-Type 1803 1814	temperature
+T146	Condition-Misc 1847 1863	room temperature
+T147	Material-Descriptor 1871 1879	solution
+T148	Synthesis-Apparatus 1901 1910	glove box
+T149	Material-Descriptor 1933 1942	anhydrous
+T150	Material-Descriptor 1996 2006	dispersion
+T151	Synthesis-Apparatus 2023 2031	glovebox
+T152	Property-Misc 2071 2077	hybrid
+T153	Property-Misc 2092 2102	structures
+R1	Property_Of Arg1:T123 Arg2:T122	
+A1	Start_Recipe E1
+R2	Next_Operation Arg1:E1 Arg2:E2	
+R3	Next_Operation Arg1:E2 Arg2:E3	
+R4	Next_Operation Arg1:E3 Arg2:E4	
+R5	Next_Operation Arg1:E4 Arg2:E5	
+R6	Next_Operation Arg1:E5 Arg2:E6	
+R7	Next_Operation Arg1:E6 Arg2:E7	
+R8	Next_Operation Arg1:E7 Arg2:E8	
+R9	Next_Operation Arg1:E8 Arg2:E10	
+R10	Next_Operation Arg1:E10 Arg2:E11	
+R11	Next_Operation Arg1:E11 Arg2:E12	
+R12	Next_Operation Arg1:E12 Arg2:E13	
+R13	Next_Operation Arg1:E13 Arg2:E14	
+R14	Next_Operation Arg1:E14 Arg2:E9	
+R15	Next_Operation Arg1:E9 Arg2:E15	
+R16	Next_Operation Arg1:E15 Arg2:E16	
+R17	Next_Operation Arg1:E16 Arg2:E17	
+R18	Next_Operation Arg1:E17 Arg2:E37	
+R19	Next_Operation Arg1:E37 Arg2:E18	
+A3	End_Recipe E18
+A2	Start_Recipe E19
+R20	Next_Operation Arg1:E19 Arg2:E20	
+R21	Next_Operation Arg1:E20 Arg2:E21	
+R22	Next_Operation Arg1:E21 Arg2:E22	
+R23	Next_Operation Arg1:E22 Arg2:E23	
+R24	Next_Operation Arg1:E23 Arg2:E24	
+R25	Next_Operation Arg1:E24 Arg2:E25	
+R26	Next_Operation Arg1:E25 Arg2:E26	
+R27	Next_Operation Arg1:E26 Arg2:E27	
+R28	Next_Operation Arg1:E27 Arg2:E28	
+R29	Next_Operation Arg1:E28 Arg2:E29	
+R30	Next_Operation Arg1:E29 Arg2:E30	
+R31	Next_Operation Arg1:E30 Arg2:E31	
+R32	Next_Operation Arg1:E31 Arg2:E32	
+R33	Next_Operation Arg1:E32 Arg2:E33	
+R34	Next_Operation Arg1:E33 Arg2:E34	
+R35	Next_Operation Arg1:E34 Arg2:E35	
+R36	Next_Operation Arg1:E35 Arg2:E36	
+A4	End_Recipe E36
+R37	Descriptor_Of Arg1:T124 Arg2:T59	
+R38	Number_Of Arg1:T101 Arg2:T102	
+R39	Amount_Of Arg1:T102 Arg2:T62	
+R40	Descriptor_Of Arg1:T125 Arg2:T62	
+R41	Number_Of Arg1:T42 Arg2:T103	
+R42	Amount_Of Arg1:T103 Arg2:T62	
+R43	Descriptor_Of Arg1:T125 Arg2:T63	
+R44	Number_Of Arg1:T43 Arg2:T104	
+R45	Descriptor_Of Arg1:T126 Arg2:T64	
+R46	Amount_Of Arg1:T105 Arg2:T64	
+R47	Number_Of Arg1:T44 Arg2:T105	
+R48	Amount_Of Arg1:T104 Arg2:T64	
+R49	Number_Of Arg1:T45 Arg2:T106	
+R50	Condition_Of Arg1:T106 Arg2:E5	
+R51	Descriptor_Of Arg1:T127 Arg2:T66	
+R52	Number_Of Arg1:T46 Arg2:T107	
+R53	Descriptor_Of Arg1:T128 Arg2:T67	
+R54	Coref_Of Arg1:T68 Arg2:T67	
+R55	Amount_Of Arg1:T107 Arg2:T67	
+R56	Number_Of Arg1:T47 Arg2:T108	
+R57	Amount_Of Arg1:T108 Arg2:T67	
+R58	Condition_Of Arg1:T129 Arg2:E10	
+R59	Descriptor_Of Arg1:T130 Arg2:T72	
+R60	Number_Of Arg1:T48 Arg2:T109	
+R61	Amount_Of Arg1:T109 Arg2:T73	
+R62	Descriptor_Of Arg1:T131 Arg2:T74	
+R63	Descriptor_Of Arg1:T132 Arg2:T74	
+R64	Descriptor_Of Arg1:T133 Arg2:T75	
+R65	Condition_Of Arg1:T134 Arg2:E16	
+R66	Property_Of Arg1:T136 Arg2:T78	
+R67	Property_Of Arg1:T139 Arg2:T79	
+R68	Property_Of Arg1:T138 Arg2:T79	
+T154	Amount-Misc 1086 1093	absence
+R69	Amount_Of Arg1:T154 Arg2:T80	
+R70	Descriptor_Of Arg1:T140 Arg2:T81	
+R71	Property_Of Arg1:T141 Arg2:T84	
+R72	Descriptor_Of Arg1:T142 Arg2:T85	
+R73	Number_Of Arg1:T110 Arg2:T111	
+R74	Condition_Of Arg1:T111 Arg2:E21	
+R75	Number_Of Arg1:T49 Arg2:T112	
+R76	Property_Of Arg1:T112 Arg2:T87	
+R77	Number_Of Arg1:T50 Arg2:T113	
+R78	Amount_Of Arg1:T113 Arg2:T88	
+R79	Number_Of Arg1:T51 Arg2:T114	
+R80	Amount_Of Arg1:T114 Arg2:T89	
+R81	Number_Of Arg1:T52 Arg2:T115	
+R82	Amount_Of Arg1:T115 Arg2:T90	
+R83	Descriptor_Of Arg1:T144 Arg2:T143	
+R84	Apparatus_Of Arg1:T143 Arg2:E26	
+R85	Number_Of Arg1:T53 Arg2:T116	
+R86	Number_Of Arg1:T54 Arg2:T117	
+R87	Condition_Of Arg1:T116 Arg2:E27	
+R88	Condition_Of Arg1:T117 Arg2:E27	
+R89	Number_Of Arg1:T55 Arg2:T118	
+R90	Amount_Of Arg1:T118 Arg2:T94	
+R91	Number_Of Arg1:T56 Arg2:T119	
+R92	Amount_Of Arg1:T119 Arg2:T95	
+R93	Condition_Of Arg1:T120 Arg2:E29	
+R94	Number_Of Arg1:T57 Arg2:T120	
+R95	Type_Of Arg1:T145 Arg2:T120	
+R96	Number_Of Arg1:T58 Arg2:T121	
+R97	Condition_Of Arg1:T121 Arg2:E30	
+R98	Condition_Of Arg1:T146 Arg2:E31	
+R99	Descriptor_Of Arg1:T147 Arg2:T98	
+R100	Apparatus_Of Arg1:T148 Arg2:E32	
+R101	Descriptor_Of Arg1:T149 Arg2:T96	
+R102	Descriptor_Of Arg1:T150 Arg2:T99	
+R103	Apparatus_Of Arg1:T151 Arg2:E35	
+R104	Property_Of Arg1:T152 Arg2:T100	
+R105	Property_Of Arg1:T153 Arg2:T100	

@@ -1,0 +1,5 @@
+10.1016/j.jssc.2009.11.025
+Crystal growth, structure and magnetic properties of the double perovskites Ln2MgIrO6 (Ln=Pr, Nd, Sm-Gd)
+
+For all compounds, the lanthanide sesquioxides, Ln2O3 (Nd, Sm, Eu, Gd), (Alfa Aesar, 99.99%) were fired at 1000 degC for 12 h prior to the reactions. Pr6O11 (Alfa Aesar, 99.9%) was converted to Pr2O3 by heating Pr6O11 at 1000 degC for 24 h under a reducing 5% H2 atmosphere. KOH (Fisher Scientific, A.C.S Reagent Grade, 99.9%), iridium powder (Engelhard, 99.99%) and MgO (Alfa Aesar, 99.998%) were used as received. Single crystals of Ln2MgIrO6 were grown from a high temperature melt of potassium hydroxide. Ln2O3 (Pr, Nd, Sm, Eu, Gd) (0.5 mmol), MgO (1 mmol), Ir (0.5 mmol), and KOH (4 g) were loaded into sealed silver tubes and heated in a box furnace to a temperature of 700 degC at 10 degC/min, held for 24 h at 700 degC, slow cooled to 600 degC at 0.2 degC/min and then allowed to cool to room temperature by turning off the furnace. The black crystals were removed from the flux matrix by dissolving the flux in water aided by sonication. The crystals were finally extracted by vacuum filtration.
+

@@ -1,0 +1,5 @@
+10.1016/j.matlet.2014.03.043
+Facile synthesis of mesoporous Ge/C nanocomposite as anode material for lithium-ion battery
+
+In a typical synthesis of Ge/OMC nanocomposite, 1.0 mL of TEOG was slowly dropped onto 1.00 g of the OMC matrix material in 5 min under stirring without adding any other solvent. Afterwards, the mixture was kept stirring for another 60 min at room temperature. The mixture was then kept in a crucible overnight for the conversion of TEOG to GeO2 and the evaporation of ethanol byproduct. The GeO2/C intermediate was heated up to 500 degC with a ramp of 2 degC/min under a H2 gas flow (100 mL/min) in a quartz tube furnace for reducing the GeO2 to Ge nanoparticles. The final product was collected after the furnace was cool down. In order to increase the loading amount of Ge, the adding amount of TEOG can be increased to 2.0, 3.0 and 4.0 mL.
+

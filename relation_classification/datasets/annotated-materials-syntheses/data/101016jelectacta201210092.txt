@@ -1,0 +1,5 @@
+10.1016/j.electacta.2012.10.092
+Temperature effect on spinel Li4Ti5O12 as anode materials for lithium ion batteries
+
+All chemicals were used as received. The stoichiometric amounts of lithium hydroxide monohydrate (LiOH*H2O) and tetrabutyl titanate (Ti(OC4H9)4) were used as starting materials. 20 mL of 2 mol/L LiOH aqueous solution was obtained at room temperature with stirring and marked solution A. 17 mL of tetrabutyl titanate was mixed in ethyl alcohol (1:1 in volume) with strong stirring and marked solution B. After that, the solution A was dropwise added into the solution B to form a white suspension with strong stirring for 1 h and then transferred to stainless-steel autoclave at 180 degC for 24 h. The obtained precursor was calcinated at different temperatures from 450 degC to 850 degC to get the products. The X-ray diffraction (XRD, Rigaku D/max-2000) and scanning electron microscopy (SEM, S-4800) were used to characterize the crystal structure and observe the morphology of the powders.
+

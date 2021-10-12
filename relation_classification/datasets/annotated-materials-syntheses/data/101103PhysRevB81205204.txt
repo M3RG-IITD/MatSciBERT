@@ -1,0 +1,7 @@
+10.1103/PhysRevB.81.205204
+Valence band study of thermoelectric Zintl-phaseSrZn2Sb2andYbZn2Sb2: X-ray photoelectron spectroscopy and density functional theory
+
+
+Stoichiometric amounts of high-purity Zn (99.99%), Sb (99.999%), Yb (99.9%), and Sr (99.9%) were combined in a pyrolitic BN crucible (within an argon dry box), which was sealed in a quartz tube evacuated to 1x10-5 torr. Note that the elemental purity implies the metal basis purity. Samples were held at 1223 K for 30 min after a slow heating process. Cooling to 825 K took place over 2.5 h, at which point a 2.5 h anneal was employed. The resulting ingot was ball milled for 15 min in the high-energy SPEX 8000 Series Mixer/Mill utilizing stainless steel vial and balls (all steps under argon). Samples were consolidated via hot pressing at 823 K for ~3 h. A high-density graphite die (POCO) was employed and a force of roughly 1.4 t that was placed on a 12 mm diameter. The consolidated pellets were sliced using nonaqueous lubricant and the resulting wafers were ~1-2 mm thick.
+
+

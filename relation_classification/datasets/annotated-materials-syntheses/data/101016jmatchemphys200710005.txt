@@ -1,0 +1,3 @@
+10.1016/j.matchemphys.2007.10.005
+Synthesis of CuO nanocrystalline and their application as electrode materials for capacitors
+0.03 mol Cu(NO3)2*3H2O was dissolved in 750 ml distilled water under stirring (solution A). The mixture of PEG (Mw = 6000) and 0.24 mol NH3*H2O was added dropwise into solution A at 30 degC, resulting in a blue solution. The final mixture was rapidly heated to 80 degC and stirred vigorously. After 10 h, the precipitate was filtered and washed for several times with deionized water and alcohol, and then dried at 60 degC in air overnight. Product was signed as sample A.

@@ -1,0 +1,162 @@
+T1	Material 41 47	HZSM-5
+T2	Operation 158 166	prepared
+E1	Operation:T2 
+T3	Meta 185 197	hydrothermal
+T4	Operation 264 269	added
+E2	Operation:T4 Recipe_Precursor:T37 Solvent_Material:T40 Recipe_Precursor:T41 Recipe_Precursor:T44
+T7	Operation 549 571	hydrothermal treatment
+E3	Operation:T7 
+T8	Operation 663 672	collected
+E4	Operation:T8 Participant_Material:T49
+T9	Operation 676 690	centrifugation
+E5	Operation:T9 
+T10	Operation 695 703	calcined
+E6	Operation:T10 
+T12	Operation 769 778	formation
+E7	Operation:T12 Recipe_Target:T51
+T13	Operation 842 850	obtained
+E8	Operation:T13 Recipe_Target:T53
+T14	Operation 932 943	calcination
+E9	Operation:T14 Atmospheric_Material:T56
+T15	Number 142 144	50
+T16	Number 252 256	15.6
+T17	Number 304 305	7
+T18	Number 350 355	0.123
+T19	Number 409 411	25
+T20	Number 426 431	12.18
+T21	Number 459 461	30
+T22	Number 471 472	5
+T23	Number 575 578	120
+T24	Number 588 589	2
+T25	Number 596 599	170
+T26	Number 609 611	24
+T27	Number 707 710	550
+T28	Number 720 721	8
+T30	Operation 872 885	ion exchanges
+E10	Operation:T30 Recipe_Precursor:T55
+T31	Number 889 890	1
+T32	Number 961 964	550
+T33	Number 974 975	8
+T34	Material 126 132	HZSM-5
+T35	Nonrecipe-Material 134 136	Si
+T36	Nonrecipe-Material 137 139	Al
+T37	Material 206 230	Tetraethyl orthosilicate
+T38	Material 232 236	TEOS
+T39	Brand 238 250	Sinopharm AR
+T40	Material 297 302	water
+T41	Material 310 326	sodium aluminate
+T42	Material 328 334	NaAlO2
+T43	Brand 336 348	Sinopharm AR
+T44	Material 363 392	tetrapropylammonium hydroxide
+T45	Material 394 399	TPAOH
+T46	Brand 401 408	Aladdin
+T47	Material 419 424	water
+T48	Material 490 497	mixture
+T49	Material 651 658	product
+T50	Material 738 742	TPA+
+T51	Material 782 795	Na-type ZSM-5
+T52	Material 797 804	NaZSM-5
+T53	Material 816 828	H-type ZSM-5
+T54	Material 830 836	HZSM-5
+T55	Material 893 899	NH4NO3
+T56	Material 954 957	air
+T57	Amount-Unit 257 258	g
+T58	Amount-Unit 306 307	g
+T59	Amount-Unit 356 357	g
+T60	Amount-Unit 412 415	wt%
+T61	Amount-Unit 432 433	g
+T62	Condition-Unit 462 466	degC
+T63	Condition-Unit 473 474	h
+T64	Condition-Unit 579 583	degC
+T65	Condition-Unit 590 591	h
+T66	Condition-Unit 600 604	degC
+T67	Condition-Unit 612 613	h
+T68	Condition-Unit 711 715	degC
+T69	Condition-Unit 722 723	h
+T70	Amount-Unit 891 892	M
+T71	Condition-Unit 965 969	degC
+T72	Condition-Unit 976 977	h
+T73	Property-Misc 146 153	zeolite
+T74	Material-Descriptor 277 285	solution
+T75	Synthesis-Apparatus 534 543	autoclave
+T76	Apparatus-Descriptor 521 533	Teflon-lined
+T77	Synthesis-Apparatus 629 633	oven
+T78	Apparatus-Descriptor 620 628	electric
+T79	Material-Descriptor 645 650	solid
+T80	Material-Descriptor 743 750	species
+T29	Condition-Misc 854 871	three consecutive
+T81	Material-Descriptor 900 916	aqueous solution
+T82	Material-Descriptor 947 953	static
+R1	Number_Of Arg1:T17 Arg2:T58	
+R2	Amount_Of Arg1:T58 Arg2:T40	
+A1	Start_Recipe E1
+R3	Next_Operation Arg1:E1 Arg2:E2	
+R4	Next_Operation Arg1:E2 Arg2:E11	
+R5	Next_Operation Arg1:E3 Arg2:E4	
+R6	Next_Operation Arg1:E4 Arg2:E5	
+R7	Next_Operation Arg1:E5 Arg2:E6	
+R8	Next_Operation Arg1:E6 Arg2:E13	
+R9	Next_Operation Arg1:E7 Arg2:E8	
+R10	Next_Operation Arg1:E8 Arg2:E10	
+R11	Next_Operation Arg1:E10 Arg2:E9	
+A2	End_Recipe E9
+R12	Property_Of Arg1:T73 Arg2:T34	
+R13	Coref_Of Arg1:T38 Arg2:T37	
+R14	Brand_Of Arg1:T39 Arg2:T37	
+R15	Number_Of Arg1:T16 Arg2:T57	
+R16	Amount_Of Arg1:T57 Arg2:T37	
+R17	Descriptor_Of Arg1:T74 Arg2:T40	
+R18	Descriptor_Of Arg1:T74 Arg2:T41	
+R19	Descriptor_Of Arg1:T74 Arg2:T44	
+R20	Coref_Of Arg1:T42 Arg2:T41	
+R21	Brand_Of Arg1:T43 Arg2:T41	
+R22	Number_Of Arg1:T18 Arg2:T59	
+R23	Amount_Of Arg1:T59 Arg2:T41	
+R24	Coref_Of Arg1:T45 Arg2:T44	
+R25	Brand_Of Arg1:T46 Arg2:T44	
+R26	Number_Of Arg1:T19 Arg2:T60	
+R27	Amount_Of Arg1:T60 Arg2:T44	
+R28	Number_Of Arg1:T20 Arg2:T61	
+R29	Amount_Of Arg1:T61 Arg2:T47	
+T5	Operation 448 455	stirred
+E11	Operation:T5 
+R30	Next_Operation Arg1:E11 Arg2:E12	
+R31	Number_Of Arg1:T21 Arg2:T62	
+R32	Condition_Of Arg1:T62 Arg2:E11	
+R33	Number_Of Arg1:T22 Arg2:T63	
+R34	Condition_Of Arg1:T63 Arg2:E11	
+T6	Operation 502 513	transferred
+E12	Operation:T6 Participant_Material:T48
+R35	Next_Operation Arg1:E12 Arg2:E3	
+R36	Descriptor_Of Arg1:T76 Arg2:T75	
+R37	Apparatus_Of Arg1:T75 Arg2:E12	
+R38	Number_Of Arg1:T23 Arg2:T64	
+R39	Condition_Of Arg1:T64 Arg2:E3	
+R40	Number_Of Arg1:T24 Arg2:T65	
+R41	Condition_Of Arg1:T65 Arg2:E3	
+R42	Number_Of Arg1:T25 Arg2:T66	
+R43	Condition_Of Arg1:T66 Arg2:E3	
+R44	Number_Of Arg1:T26 Arg2:T67	
+R45	Condition_Of Arg1:T67 Arg2:E3	
+R46	Apparatus_Of Arg1:T77 Arg2:E3	
+R47	Descriptor_Of Arg1:T78 Arg2:T77	
+R48	Descriptor_Of Arg1:T79 Arg2:T49	
+R49	Number_Of Arg1:T27 Arg2:T68	
+R50	Number_Of Arg1:T28 Arg2:T69	
+R51	Condition_Of Arg1:T68 Arg2:E6	
+R52	Condition_Of Arg1:T69 Arg2:E6	
+T11	Operation 727 733	remove
+E13	Operation:T11 Participant_Material:T50
+R53	Next_Operation Arg1:E13 Arg2:E7	
+R54	Descriptor_Of Arg1:T80 Arg2:T50	
+R55	Coref_Of Arg1:T52 Arg2:T51	
+R56	Coref_Of Arg1:T54 Arg2:T53	
+R57	Condition_Of Arg1:T29 Arg2:E10	
+R58	Number_Of Arg1:T31 Arg2:T70	
+R59	Amount_Of Arg1:T70 Arg2:T55	
+R60	Descriptor_Of Arg1:T81 Arg2:T55	
+R61	Descriptor_Of Arg1:T82 Arg2:T56	
+R62	Number_Of Arg1:T32 Arg2:T71	
+R63	Number_Of Arg1:T33 Arg2:T72	
+R64	Condition_Of Arg1:T72 Arg2:E9	
+R65	Condition_Of Arg1:T71 Arg2:E9	

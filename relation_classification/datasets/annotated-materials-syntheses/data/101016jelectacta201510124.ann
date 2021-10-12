@@ -1,0 +1,129 @@
+T1	Operation 125 136	synthesized
+E1	Operation:T1 Recipe_Target:T14
+T2	Operation 221 229	prepared
+E2	Operation:T2 Recipe_Precursor:T15 Recipe_Precursor:T16
+T3	Operation 309 316	diluted
+E3	Operation:T3 Recipe_Precursor:T17 Solvent_Material:T18
+T4	Operation 352 357	added
+E4	Operation:T4 Recipe_Precursor:T19 Participant_Material:T20
+T5	Operation 399 407	stirring
+E5	Operation:T5 
+T6	Operation 496 503	stirred
+E6	Operation:T6 Participant_Material:T21
+T7	Operation 523 533	evaporated
+E7	Operation:T7 Participant_Material:T22
+T8	Operation 603 613	calcinated
+E8	Operation:T8 Participant_Material:T26 Atmospheric_Material:T27
+T9	Operation 747 756	dissolved
+E9	Operation:T9 Participant_Material:T28 Participant_Material:T29
+T10	Operation 828 837	dispersed
+E10	Operation:T10 Recipe_Target:T31 Participant_Material:T32
+T11	Operation 868 876	stirring
+E11	Operation:T11 
+T12	Operation 902 907	dried
+E12	Operation:T12 Participant_Material:T33 Participant_Material:T34
+T13	Operation 967 977	calcinated
+E13	Operation:T13 Atmospheric_Material:T36
+T14	Material 112 120	LiTiOPO4
+T15	Material 195 201	Li2CO3
+T16	Material 206 216	(NH4)2HPO4
+T17	Material 299 304	TiCl4
+T18	Material 320 327	ethanol
+T19	Material 333 338	TiCl4
+T20	Material 386 393	mixture
+T21	Material 483 491	solution
+T22	Material 538 545	solvent
+T23	Number 549 551	80
+T24	Condition-Unit 552 556	degC
+T25	Condition-Misc 563 569	vacuum
+T26	Material 587 598	precipitate
+T27	Material 617 620	air
+T28	Material 738 742	PVDF
+T29	Material 771 790	N-methylpyrrolidone
+T30	Material 792 795	NMP
+T31	Material 815 823	LiTiOPO4
+T32	Material 854 862	solution
+T33	Material 890 897	mixture
+T34	Material 918 925	solvent
+T35	Condition-Misc 943 949	vacuum
+T36	Material 981 983	Ar
+T37	Amount-Misc 161 175	stoichiometric
+T38	Condition-Misc 237 253	room temperature
+T39	Amount-Misc 274 295	stoichiometric amount
+T40	Condition-Misc 358 368	dropwisely
+T41	Condition-Misc 411 427	room temperature
+T42	Condition-Misc 504 513	overnight
+T43	Number 624 627	400
+T44	Condition-Unit 628 632	degC
+T45	Number 637 638	5
+T46	Condition-Unit 639 640	h
+T47	Number 653 656	850
+T48	Condition-Unit 657 661	degC
+T49	Number 666 668	12
+T50	Condition-Unit 669 670	h
+T51	Number 694 695	1
+T52	Condition-Unit 696 706	degC min-1
+T53	Number 728 731	0.4
+T54	Amount-Unit 732 733	g
+T55	Number 762 764	10
+T56	Amount-Unit 765 767	mL
+T57	Number 806 809	2.0
+T58	Amount-Unit 810 811	g
+T59	Number 881 882	2
+T60	Condition-Unit 883 884	h
+T61	Number 929 931	80
+T62	Condition-Unit 932 936	degC
+T63	Number 998 1001	650
+T64	Condition-Unit 1002 1006	degC
+T65	Number 1011 1012	3
+T66	Condition-Unit 1013 1014	h
+T67	Number 1038 1039	1
+T68	Condition-Unit 1040 1050	degC min-1
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Next_Operation Arg1:E8 Arg2:E9	
+R8	Next_Operation Arg1:E9 Arg2:E10	
+R9	Next_Operation Arg1:E10 Arg2:E11	
+R10	Next_Operation Arg1:E11 Arg2:E12	
+R11	Next_Operation Arg1:E12 Arg2:E13	
+R12	Coref_Of Arg1:T30 Arg2:T29	
+R13	Condition_Of Arg1:T38 Arg2:E2	
+R14	Condition_Of Arg1:T40 Arg2:E4	
+R15	Condition_Of Arg1:T41 Arg2:E5	
+R16	Condition_Of Arg1:T42 Arg2:E6	
+R17	Condition_Of Arg1:T24 Arg2:E7	
+R18	Condition_Of Arg1:T25 Arg2:E7	
+R19	Condition_Of Arg1:T44 Arg2:E8	
+R20	Condition_Of Arg1:T46 Arg2:E8	
+R21	Condition_Of Arg1:T48 Arg2:E8	
+R22	Condition_Of Arg1:T50 Arg2:E8	
+R23	Condition_Of Arg1:T52 Arg2:E8	
+R24	Condition_Of Arg1:T60 Arg2:E11	
+R25	Condition_Of Arg1:T62 Arg2:E12	
+R26	Condition_Of Arg1:T35 Arg2:E12	
+R27	Condition_Of Arg1:T64 Arg2:E13	
+R28	Condition_Of Arg1:T66 Arg2:E13	
+R29	Condition_Of Arg1:T68 Arg2:E13	
+R30	Amount_Of Arg1:T37 Arg2:T15	
+R31	Amount_Of Arg1:T37 Arg2:T16	
+R32	Amount_Of Arg1:T39 Arg2:T17	
+R33	Amount_Of Arg1:T54 Arg2:T28	
+R34	Amount_Of Arg1:T56 Arg2:T29	
+R35	Amount_Of Arg1:T58 Arg2:T31	
+R36	Number_Of Arg1:T43 Arg2:T44	
+R37	Number_Of Arg1:T45 Arg2:T46	
+R38	Number_Of Arg1:T47 Arg2:T48	
+R39	Number_Of Arg1:T49 Arg2:T50	
+R40	Number_Of Arg1:T51 Arg2:T52	
+R41	Number_Of Arg1:T53 Arg2:T54	
+R42	Number_Of Arg1:T55 Arg2:T56	
+R43	Number_Of Arg1:T57 Arg2:T58	
+R44	Number_Of Arg1:T59 Arg2:T60	
+R45	Number_Of Arg1:T61 Arg2:T62	
+R46	Number_Of Arg1:T63 Arg2:T64	
+R47	Number_Of Arg1:T65 Arg2:T66	
+R48	Number_Of Arg1:T67 Arg2:T68	

@@ -1,0 +1,5 @@
+10.1016/j.electacta.2012.09.106
+Hydrothermal synthesis of well-dispersed LiMnPO4 plates for lithium ion batteries cathode
+
+All the reagents were commercially available and used as received unless otherwise stated. LiMnPO4 plates were synthesized by a hydrothermal method. Na2S*9H2O was employed as alkaline reagent, since an alkaline condition was necessary for precipitating LiMnPO4 samples in hydrothermal synthesis [41] and [42]. Undeserved phase and morphology were obtained in the absence of Na2S*9H2O (see Fig. S1 in supplementary materials for details). In a typical synthesis procedure, 14 mmol Na2S*9H2O, 40 mmol Li2SO4*H2O, 20 mmol MnSO4*H2O and 20 mmol NH4H2PO4 were added in sequence in a 40 mL Teflon liner with 30 mL distilled water under vigorous stirring for 30 min, and the Teflon liner was then placed in a stainless steel autoclave. The sealed tank was put into an oven and maintained at 200 degC for 10 h. After the hydrothermal reaction, the autoclave was cooled to room temperature and the resulted precipitate was filtered, washed and finally dried in air at 60 degC overnight.
+

@@ -1,0 +1,5 @@
+10.1016/j.jallcom.2016.05.264
+Multi-shelled NiO hollow spheres: Easy hydrothermal synthesis and lithium storage performances
+
+Synthesis of multi-shelled NiO hollow spheres: In a typical experiment, 0.01 mol d-glucose and 0.02 mol Ni(NO3)2*6H2O were dissolved in 50 ml utrapure water. Then, the solution was homogenized by vigorous stirring. After stirring for 30 min, the resultant mixture was transferred to a 100 ml Teflon-lined autoclave followed by hydrothermal treatment at 180 degC for 20 h. The obtained products were washed and filtered off several times using utrapure water and ethanol successively, and finally dried in a vacuum oven at 80 degC for 12 h. After synthesis, the products were subjected to annealing at 270, 350, 430 or 550 degC for 3 h in air with a heating rate of 2 degC min-1 from room temperature to obtain multi-shelled NiO hollow spheres with a controlled number of shells (solid NiO sphere, double-, triple- and quadruple/quintuple-shelled NiO hollow sphere, respectively).
+

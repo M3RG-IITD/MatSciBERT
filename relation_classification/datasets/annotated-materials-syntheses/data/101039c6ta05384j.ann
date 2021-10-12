@@ -1,0 +1,123 @@
+T1	Operation 300 309	dissolved
+E1	Operation:T1 Recipe_Precursor:T13 Recipe_Precursor:T14 Solvent_Material:T15
+T2	Operation 385 393	stirring
+E2	Operation:T2 
+T3	Operation 482 487	added
+E3	Operation:T3 Solvent_Material:T17 Recipe_Precursor:T18 Recipe_Precursor:T35
+T4	Operation 594 605	transferred
+E4	Operation:T4 Participant_Material:T19
+T5	Operation 671 681	maintained
+E5	Operation:T5 
+T6	Operation 724 730	cooled
+E6	Operation:T6 
+T7	Operation 777 783	washed
+E7	Operation:T7 Participant_Material:T20
+T8	Operation 788 802	centrifugation
+E8	Operation:T8 Solvent_Material:T21 Solvent_Material:T22
+T9	Operation 861 869	followed
+E9	Operation:T9 
+T10	Operation 873 889	solvent exchange
+E10	Operation:T10 Solvent_Material:T23
+T11	Operation 953 962	activated
+E11	Operation:T11 
+T12	Operation 966 974	removing
+E12	Operation:T12 Participant_Material:T24
+T13	Material 227 237	NiCl2*6H2O
+T14	Material 252 278	p-benzenedicarboxylic acid
+T15	Material 328 349	N,N-dimethylformamide
+T16	Material 351 354	DMF
+T17	Material 444 447	DMF
+T18	Material 460 470	NiCl2*6H2O
+T19	Material 582 589	mixture
+T20	Material 761 772	precipitate
+T21	Material 831 834	DMF
+T22	Material 839 846	alcohol
+T23	Material 895 903	methanol
+T24	Material 975 982	solvent
+T25	Number 239 244	0.173
+T26	Amount-Unit 245 246	g
+T27	Number 286 291	0.332
+T28	Amount-Unit 292 293	g
+T29	Number 313 315	10
+T30	Amount-Unit 316 318	mL
+T31	Number 323 324	5
+T32	Amount-Unit 325 327	mL
+T33	Number 398 400	20
+T34	Condition-Unit 401 404	min
+T35	Material 512 515	PTA
+T36	Number 685 688	120
+T37	Condition-Unit 689 693	degC
+T38	Number 698 700	16
+T39	Condition-Unit 701 702	h
+T40	Number 806 811	10000
+T41	Condition-Unit 812 815	rpm
+T42	Number 820 821	5
+T43	Condition-Unit 822 825	min
+T44	Condition-Misc 847 860	several times
+T45	Condition-Misc 904 914	four times
+T46	Condition-Misc 920 928	two days
+T47	Number 998 1001	100
+T48	Condition-Unit 1002 1006	degC
+T49	Number 1012 1014	12
+T50	Condition-Unit 1015 1016	h
+T51	Condition-Misc 988 994	vacuum
+T52	Material 280 283	PTA
+T53	Condition-Misc 408 424	room temperature
+T54	Material-Descriptor 448 456	solution
+T55	Material-Descriptor 495 510	ligand solution
+T56	Condition-Misc 517 529	drop by drop
+T57	Synthesis-Apparatus 642 651	autoclave
+T58	Apparatus-Descriptor 613 641	Teflon-lined stainless steel
+T59	Number 653 655	50
+T60	Apparatus-Unit 656 658	mL
+T61	Synthesis-Apparatus 714 723	autoclave
+T62	Condition-Misc 739 755	room temperature
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E7	
+R7	Next_Operation Arg1:E7 Arg2:E8	
+R8	Next_Operation Arg1:E8 Arg2:E9	
+R9	Next_Operation Arg1:E9 Arg2:E10	
+R10	Next_Operation Arg1:E10 Arg2:E11	
+R11	Next_Operation Arg1:E11 Arg2:E12	
+R12	Coref_Of Arg1:T52 Arg2:T14	
+R13	Coref_Of Arg1:T16 Arg2:T15	
+R14	Condition_Of Arg1:T34 Arg2:E2	
+R15	Condition_Of Arg1:T53 Arg2:E2	
+R16	Condition_Of Arg1:T56 Arg2:E3	
+R17	Apparatus_Of Arg1:T57 Arg2:E4	
+R18	Condition_Of Arg1:T37 Arg2:E5	
+R19	Condition_Of Arg1:T39 Arg2:E5	
+R20	Apparatus_Of Arg1:T61 Arg2:E6	
+R21	Condition_Of Arg1:T62 Arg2:E6	
+R22	Condition_Of Arg1:T41 Arg2:E8	
+R23	Condition_Of Arg1:T43 Arg2:E8	
+R24	Condition_Of Arg1:T44 Arg2:E8	
+R25	Condition_Of Arg1:T45 Arg2:E10	
+R26	Condition_Of Arg1:T46 Arg2:E10	
+R27	Condition_Of Arg1:T51 Arg2:E12	
+R28	Condition_Of Arg1:T48 Arg2:E12	
+R29	Condition_Of Arg1:T50 Arg2:E12	
+R30	Amount_Of Arg1:T26 Arg2:T13	
+R31	Amount_Of Arg1:T28 Arg2:T14	
+R32	Amount_Of Arg1:T30 Arg2:T15	
+R33	Amount_Of Arg1:T32 Arg2:T15	
+R34	Descriptor_Of Arg1:T54 Arg2:T17	
+R35	Descriptor_Of Arg1:T55 Arg2:T35	
+R36	Descriptor_Of Arg1:T58 Arg2:T57	
+R37	Number_Of Arg1:T25 Arg2:T26	
+R38	Number_Of Arg1:T27 Arg2:T28	
+R39	Number_Of Arg1:T29 Arg2:T30	
+R40	Number_Of Arg1:T31 Arg2:T32	
+R41	Number_Of Arg1:T33 Arg2:T34	
+R42	Number_Of Arg1:T59 Arg2:T60	
+R43	Number_Of Arg1:T36 Arg2:T37	
+R44	Number_Of Arg1:T38 Arg2:T39	
+R45	Number_Of Arg1:T40 Arg2:T41	
+R46	Number_Of Arg1:T42 Arg2:T43	
+R47	Number_Of Arg1:T47 Arg2:T48	
+R48	Number_Of Arg1:T49 Arg2:T50	
+R49	Apparatus_Attr_Of Arg1:T60 Arg2:T57	

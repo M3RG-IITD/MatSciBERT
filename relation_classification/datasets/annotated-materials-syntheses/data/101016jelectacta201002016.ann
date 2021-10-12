@@ -1,0 +1,313 @@
+T1	Meta 53 60	sol-gel
+T2	Material 61 67	silica
+T3	Property-Misc 68 78	thin films
+T4	Material 87 116	5-mercapto-1-methyl-tetrazole
+T5	Material 120 126	carbon
+T6	Nonrecipe-Material 141 147	Hg(II)
+T7	Operation 240 249	purchased
+E1	Operation:T7 Recipe_Precursor:T34 Recipe_Precursor:T30
+T8	Operation 347 358	synthesized
+E2	Operation:T8 Recipe_Target:T39
+T9	Operation 417 426	confirmed
+E3	Operation:T9 
+T10	Operation 498 502	used
+E4	Operation:T10 Solvent_Material:T47 Solvent_Material:T43
+T11	Operation 681 685	used
+E5	Operation:T11 Participant_Material:T57 Participant_Material:T55 Participant_Material:T53 Participant_Material:T60
+T12	Operation 867 871	used
+E6	Operation:T12 Participant_Material:T70
+T13	Operation 946 953	checked
+E7	Operation:T13 Participant_Material:T170
+T14	Operation 1057 1065	prepared
+E8	Operation:T14 Participant_Material:T80 Solvent_Material:T81
+T15	Operation 1185 1194	deposited
+E9	Operation:T15 Recipe_Target:T86 Participant_Material:T88
+T16	Operation 1405 1413	prepared
+E10	Operation:T16 Participant_Material:T93
+T17	Operation 1417 1424	heating
+E11	Operation:T17 Recipe_Precursor:T96 Solvent_Material:T104 Solvent_Material:T107 Solvent_Material:T112
+T18	Operation 1638 1647	dissolved
+E12	Operation:T18 Participant_Material:T120 Solvent_Material:T123
+T19	Operation 1673 1678	added
+E13	Operation:T19 Participant_Material:T124
+T20	Operation 1706 1713	stirred
+E14	Operation:T20 
+T21	Operation 1782 1790	polished
+E15	Operation:T21 Participant_Material:T128
+T22	Operation 1798 1808	deposition
+E16	Operation:T22 Participant_Material:T130 Participant_Material:T131 Participant_Material:T133
+T23	Operation 1946 1952	washed
+E17	Operation:T23 Solvent_Material:T141 Solvent_Material:T142
+T24	Operation 2028 2037	deposited
+E18	Operation:T24 Participant_Material:T144
+T25	Operation 2068 2072	left
+E19	Operation:T25 
+T26	Operation 2103 2110	rotated
+E20	Operation:T26 
+T27	Operation 2161 2170	performed
+E21	Operation:T27 
+T28	Operation 2281 2288	treated
+E22	Operation:T28 Participant_Material:T155
+T29	Operation 2349 2358	performed
+E23	Operation:T29 Participant_Material:T161 Solvent_Material:T162 Solvent_Material:T166
+T30	Material 158 175	Tetraethoxysilane
+T31	Material 177 181	TEOS
+T32	Number 183 185	98
+T33	Amount-Unit 185 186	%
+T34	Material 192 222	cetyltrimethylammonium bromide
+T35	Material 224 228	CTAB
+T36	Number 230 232	98
+T37	Amount-Unit 232 233	%
+T38	Brand 255 260	Fluka
+T39	Material 266 288	MTTZ-siloxy derivative
+T40	Material 290 341	triethoxysilyl-propyl-5-mercapto-1-methyl-tetrazole
+T41	Reference 383 387	[38]
+T42	Characterization-Apparatus 430 444	13C and 1H NMR
+T43	Material 446 453	Ethanol
+T44	Number 455 460	95-96
+T45	Amount-Unit 460 461	%
+T46	Brand 463 468	Merck
+T47	Material 474 477	HCl
+T49	Number 479 481	37
+T48	Amount-Unit 481 482	%
+T50	Brand 484 491	Aldrich
+T51	Meta 507 527	precursor hydrolysis
+T52	Meta 532 547	film deposition
+T53	Material 603 614	Ru(NH3)6Cl3
+T54	Brand 616 623	Aldrich
+T55	Material 626 635	K3Fe(CN)6
+T56	Brand 637 642	Fluka
+T57	Material 648 657	Fc(MeOH)2
+T58	Brand 659 669	Alfa Aesar
+T59	Synthesis-Apparatus 689 701	redox probes
+T60	Material 735 763	potassium hydrogen phthalate
+T61	Material 765 768	KHP
+T62	Brand 770 775	Merck
+T63	Material 821 829	Hg(NO3)2
+T64	Amount-Misc 804 820	Analytical grade
+T65	Brand 831 838	Prolabo
+T66	Material 844 848	HNO3
+T67	Number 850 852	65
+T68	Amount-Unit 852 853	%
+T69	Brand 855 860	Merck
+T70	Nonrecipe-Material 903 910	mercury
+T71	Material-Descriptor 911 920	solutions
+T72	Material-Descriptor 895 902	diluted
+T73	Nonrecipe-Material 991 995	Hg2+
+T74	Number 996 1010	1.001 +- 0.002
+T75	Amount-Unit 1011 1016	g L-1
+T76	Material 1020 1024	HNO3
+T77	Number 1025 1026	3
+T78	Amount-Unit 1027 1028	M
+T79	Brand 1030 1035	Merck
+T80	Material 1042 1051	solutions
+T81	Material 1083 1088	water
+T82	Material-Descriptor 1071 1082	high-purity
+T83	Number 1090 1092	18
+T84	Property-Unit 1093 1098	MΩ cm
+T85	Synthesis-Apparatus 1107 1150	millipore milli-Q water purification system
+T86	Material 1153 1179	MTTZ-modified silica films
+T87	Meta 1198 1210	spin-coating
+T88	Material 1243 1256	glassy carbon
+T89	Material-Descriptor 1257 1266	electrode
+T90	Material 1268 1271	GCE
+T91	Brand 1288 1320	EG&G, Princeton Applied Research
+T92	Reference 1361 1370	Ref. [43]
+T93	Material 1376 1389	sol solutions
+T94	Number 1438 1442	2.08
+T95	Amount-Unit 1443 1444	g
+T96	Material 1445 1449	TEOS
+T97	Material 1494 1498	MTTZ
+T98	Number 1516 1517	0
+T99	Number 1521 1523	20
+T100	Amount-Unit 1523 1524	%
+T101	Material 1537 1541	TEOS
+T102	Number 1544 1547	5.5
+T103	Amount-Unit 1548 1549	g
+T104	Material 1550 1554	EtOH
+T105	Number 1556 1559	0.5
+T106	Amount-Unit 1560 1561	g
+T107	Material 1562 1567	water
+T108	Number 1572 1575	0.4
+T109	Amount-Unit 1576 1577	g
+T110	Number 1583 1586	0.1
+T111	Amount-Unit 1587 1588	M
+T112	Material 1589 1592	HCl
+T113	Material-Descriptor 1593 1601	solution
+T114	Number 1606 1608	70
+T115	Condition-Unit 1609 1613	degC
+T116	Number 1618 1619	1
+T117	Condition-Unit 1620 1621	h
+T118	Number 1623 1627	0.78
+T119	Amount-Unit 1628 1629	g
+T120	Material 1633 1637	CTAB
+T121	Number 1651 1653	10
+T122	Amount-Unit 1654 1655	g
+T123	Material 1659 1663	EtOH
+T124	Material 1687 1694	mixture
+T125	Number 1724 1725	1
+T126	Condition-Unit 1726 1727	h
+T127	Condition-Misc 1731 1747	room temperature
+T128	Material 1749 1752	GCE
+T129	Material-Descriptor 1753 1761	surfaces
+T130	Material 1816 1820	film
+T131	Material 1841 1848	alumina
+T132	Material-Descriptor 1849 1860	suspensions
+T133	Material 1869 1874	Al2O3
+T134	Material-Descriptor 1875 1882	powders
+T135	Brand 1884 1891	Buehler
+T136	Number 1896 1897	1
+T137	Number 1899 1902	0.3
+T138	Number 1907 1911	0.05
+T139	Property-Unit 1912 1914	μm
+T140	Property-Type 1915 1929	particle sizes
+T141	Material 1958 1965	ethanol
+T142	Material 1970 1975	water
+T143	Amount-Misc 1977 1996	Hundred microliters
+T144	Material 2000 2003	sol
+T145	Synthesis-Apparatus 2045 2062	electrode surface
+T146	Number 2073 2075	30
+T147	Condition-Unit 2076 2077	s
+T148	Synthesis-Apparatus 2089 2098	electrode
+T149	Number 2114 2118	7000
+T150	Number 2127 2129	30
+T151	Condition-Unit 2119 2122	rpm
+T152	Condition-Unit 2130 2131	s
+T153	Synthesis-Apparatus 2179 2201	disk electrode rotator
+T154	Brand 2203 2246	model 636, EG&G, Princeton Applied Research
+T155	Material 2265 2270	films
+T156	Number 2293 2295	20
+T157	Number 2303 2305	60
+T158	Condition-Unit 2296 2299	min
+T159	Condition-Unit 2306 2310	degC
+T160	Material-Descriptor 2253 2264	spin-coated
+T161	Material 2334 2344	surfactant
+T162	Material 2365 2372	ethanol
+T163	Material-Descriptor 2373 2381	solution
+T164	Number 2393 2396	0.1
+T165	Amount-Unit 2397 2398	M
+T166	Material 2399 2402	HCl
+T167	Condition-Type 2409 2428	stirring conditions
+T168	Number 2433 2435	15
+T169	Condition-Unit 2436 2439	min
+R1	Property_Of Arg1:T3 Arg2:T2	
+R2	Next_Operation Arg1:E1 Arg2:E2	
+R3	Next_Operation Arg1:E2 Arg2:E3	
+R4	Next_Operation Arg1:E3 Arg2:E4	
+R5	Next_Operation Arg1:E4 Arg2:E5	
+R6	Next_Operation Arg1:E5 Arg2:E6	
+R7	Next_Operation Arg1:E6 Arg2:E7	
+R8	Next_Operation Arg1:E7 Arg2:E8	
+R9	Next_Operation Arg1:E10 Arg2:E11	
+R10	Next_Operation Arg1:E11 Arg2:E12	
+R11	Next_Operation Arg1:E12 Arg2:E13	
+R12	Next_Operation Arg1:E13 Arg2:E14	
+R13	Next_Operation Arg1:E14 Arg2:E15	
+R14	Next_Operation Arg1:E15 Arg2:E16	
+R15	Next_Operation Arg1:E16 Arg2:E17	
+R16	Next_Operation Arg1:E17 Arg2:E18	
+R17	Next_Operation Arg1:E18 Arg2:E19	
+R18	Next_Operation Arg1:E19 Arg2:E20	
+R19	Next_Operation Arg1:E20 Arg2:E21	
+R20	Next_Operation Arg1:E21 Arg2:E22	
+R21	Next_Operation Arg1:E22 Arg2:E23	
+R22	Number_Of Arg1:T32 Arg2:T33	
+R23	Amount_Of Arg1:T33 Arg2:T30	
+R24	Coref_Of Arg1:T31 Arg2:T30	
+R25	Number_Of Arg1:T36 Arg2:T37	
+R26	Amount_Of Arg1:T37 Arg2:T34	
+R27	Coref_Of Arg1:T35 Arg2:T34	
+R28	Brand_Of Arg1:T38 Arg2:T34	
+R29	Brand_Of Arg1:T38 Arg2:T30	
+R30	Coref_Of Arg1:T40 Arg2:T39	
+R31	Apparatus_Of Arg1:T42 Arg2:E3	
+R32	Number_Of Arg1:T44 Arg2:T45	
+R33	Amount_Of Arg1:T45 Arg2:T43	
+R34	Brand_Of Arg1:T46 Arg2:T43	
+R35	Number_Of Arg1:T49 Arg2:T48	
+R36	Amount_Of Arg1:T48 Arg2:T47	
+R37	Brand_Of Arg1:T50 Arg2:T47	
+R38	Brand_Of Arg1:T54 Arg2:T53	
+R39	Brand_Of Arg1:T56 Arg2:T55	
+R40	Brand_Of Arg1:T58 Arg2:T57	
+R41	Apparatus_Of Arg1:T59 Arg2:E5	
+R42	Coref_Of Arg1:T61 Arg2:T60	
+R43	Brand_Of Arg1:T62 Arg2:T60	
+R44	Amount_Of Arg1:T64 Arg2:T63	
+R46	Brand_Of Arg1:T65 Arg2:T63	
+R47	Brand_Of Arg1:T69 Arg2:T66	
+R48	Number_Of Arg1:T67 Arg2:T68	
+R49	Amount_Of Arg1:T68 Arg2:T66	
+R45	Descriptor_Of Arg1:T72 Arg2:T70	
+R50	Descriptor_Of Arg1:T71 Arg2:T70	
+R51	Number_Of Arg1:T74 Arg2:T75	
+R52	Number_Of Arg1:T77 Arg2:T78	
+R53	Amount_Of Arg1:T78 Arg2:T76	
+R54	Brand_Of Arg1:T79 Arg2:T76	
+R55	Amount_Of Arg1:T75 Arg2:T73	
+T170	Material 972 989	standard solution
+R56	Amount_Of Arg1:T75 Arg2:T170	
+R57	Next_Operation Arg1:E8 Arg2:E9	
+R58	Descriptor_Of Arg1:T82 Arg2:T81	
+R59	Number_Of Arg1:T83 Arg2:T84	
+R60	Property_Of Arg1:T84 Arg2:T81	
+R61	Apparatus_Of Arg1:T85 Arg2:E8	
+R62	Descriptor_Of Arg1:T89 Arg2:T88	
+R63	Coref_Of Arg1:T90 Arg2:T88	
+R64	Brand_Of Arg1:T91 Arg2:T88	
+R65	Number_Of Arg1:T94 Arg2:T95	
+R66	Amount_Of Arg1:T95 Arg2:T96	
+R67	Number_Of Arg1:T98 Arg2:T100	
+R68	Number_Of Arg1:T99 Arg2:T100	
+R69	Amount_Of Arg1:T100 Arg2:T97	
+R70	Number_Of Arg1:T102 Arg2:T103	
+R71	Amount_Of Arg1:T103 Arg2:T104	
+R72	Number_Of Arg1:T105 Arg2:T106	
+R73	Amount_Of Arg1:T106 Arg2:T107	
+R74	Number_Of Arg1:T108 Arg2:T109	
+R75	Amount_Of Arg1:T109 Arg2:T112	
+R76	Number_Of Arg1:T110 Arg2:T111	
+R77	Amount_Of Arg1:T111 Arg2:T112	
+R78	Descriptor_Of Arg1:T113 Arg2:T112	
+R79	Number_Of Arg1:T114 Arg2:T115	
+R80	Number_Of Arg1:T116 Arg2:T117	
+R81	Condition_Of Arg1:T115 Arg2:E11	
+R82	Condition_Of Arg1:T117 Arg2:E11	
+R83	Number_Of Arg1:T118 Arg2:T119	
+R84	Amount_Of Arg1:T119 Arg2:T120	
+R85	Number_Of Arg1:T121 Arg2:T122	
+R86	Amount_Of Arg1:T122 Arg2:T123	
+R87	Number_Of Arg1:T125 Arg2:T126	
+R88	Condition_Of Arg1:T126 Arg2:E14	
+R89	Condition_Of Arg1:T127 Arg2:E14	
+R90	Descriptor_Of Arg1:T129 Arg2:T128	
+R91	Descriptor_Of Arg1:T132 Arg2:T131	
+R92	Descriptor_Of Arg1:T134 Arg2:T133	
+R93	Brand_Of Arg1:T135 Arg2:T133	
+R94	Number_Of Arg1:T137 Arg2:T139	
+R95	Number_Of Arg1:T138 Arg2:T139	
+R96	Number_Of Arg1:T136 Arg2:T139	
+R97	Type_Of Arg1:T140 Arg2:T139	
+R98	Property_Of Arg1:T139 Arg2:T133	
+R99	Amount_Of Arg1:T143 Arg2:T144	
+R100	Apparatus_Of Arg1:T145 Arg2:E18	
+R101	Number_Of Arg1:T146 Arg2:T147	
+R102	Condition_Of Arg1:T147 Arg2:E19	
+R103	Apparatus_Of Arg1:T148 Arg2:E20	
+R104	Number_Of Arg1:T149 Arg2:T151	
+R105	Number_Of Arg1:T150 Arg2:T152	
+R106	Condition_Of Arg1:T151 Arg2:E20	
+R107	Condition_Of Arg1:T152 Arg2:E20	
+R108	Apparatus_Of Arg1:T153 Arg2:E21	
+R109	Brand_Of Arg1:T154 Arg2:T153	
+R110	Descriptor_Of Arg1:T160 Arg2:T155	
+R111	Number_Of Arg1:T156 Arg2:T158	
+R112	Number_Of Arg1:T157 Arg2:T159	
+R113	Condition_Of Arg1:T158 Arg2:E22	
+R114	Condition_Of Arg1:T159 Arg2:E22	
+R115	Descriptor_Of Arg1:T163 Arg2:T162	
+R116	Number_Of Arg1:T164 Arg2:T165	
+R117	Amount_Of Arg1:T165 Arg2:T166	
+R118	Number_Of Arg1:T168 Arg2:T169	
+R119	Condition_Of Arg1:T169 Arg2:E23	
+R120	Type_Of Arg1:T167 Arg2:T169	

@@ -1,0 +1,128 @@
+T1	Material 105 125	A2-xAx'Cu1-yCoyO4+-δ
+T2	Nonrecipe-Material 129 131	La
+T3	Nonrecipe-Material 140 142	Pr
+T4	Nonrecipe-Material 144 146	Sr
+T5	Property-Misc 148 154	oxides
+T6	Nonrecipe-Material 164 170	K2NiF4
+T7	Material 186 201	La2-xPrxCuO4+-δ
+T8	Number 207 220	0.1; 0.2; 0.4
+T9	Material 226 247	La2-xPrxCu1-yCoyO4+-δ
+T10	Number 249 258	0.1 x 0.5
+T11	Number 264 273	0.05; 0.1
+T12	Property-Misc 275 282	samples
+T13	Operation 288 296	prepared
+E1	Operation:T13 Recipe_Target:T9 Recipe_Target:T7 Atmospheric_Material:T19
+T14	Meta 300 330	conventional solid-state route
+T15	Number 334 338	1273
+T16	Number 342 344	90
+T17	Condition-Unit 339 340	K
+T18	Condition-Unit 345 346	h
+T19	Material 350 353	air
+T20	Operation 376 386	regrinding
+E2	Operation:T20 
+T21	Condition-Misc 363 375	intermediate
+T22	Material 388 393	La2O3
+T23	Material 395 401	Pr6O11
+T24	Material 403 406	CuO
+T25	Material 411 416	Co3O4
+T26	Operation 422 426	used
+E3	Operation:T26 Recipe_Precursor:T25 Recipe_Precursor:T24 Recipe_Precursor:T23 Recipe_Precursor:T22
+T27	Operation 480 491	preparation
+E4	Operation:T27 Recipe_Target:T37
+T31	Operation 820 829	dissolved
+E5	Operation:T31 Solvent_Material:T57
+T33	Operation 900 909	formation
+E6	Operation:T33 Participant_Material:T58
+T34	Operation 966 974	annealed
+E7	Operation:T34 Participant_Material:T62 Atmospheric_Material:T68
+T36	Meta 448 462	Sitrate method
+T37	Material 495 516	Pr2-xSrxCu1-xCoxO4+-δ
+T38	Number 522 537	0.25; 0.5; 0.75
+T39	Material 554 588	citric acid monohydrate C6H8O7*H2O
+T40	Synthesis-Apparatus 605 618	porcelain cup
+T41	Amount-Misc 629 650	stoichiometric amount
+T42	Material 654 659	SrCO3
+T43	Number 661 667	99.999
+T44	Amount-Unit 667 668	%
+T45	Material 708 711	CuO
+T46	Number 713 719	99.999
+T47	Amount-Unit 719 720	%
+T48	Nonrecipe-Material 726 743	Pr2(SO3)3*2.27N2O
+T49	Number 745 751	99.999
+T50	Amount-Unit 751 752	%
+T51	Material 779 790	nitric acid
+T52	Material-Descriptor 772 778	strong
+T53	Material 792 805	Co(NO3)2*6H2O
+T54	Number 807 813	99.999
+T55	Amount-Unit 813 814	%
+T56	Amount-Misc 835 849	minimal amount
+T57	Material 853 858	water
+T58	Material 918 923	solid
+T59	Material-Descriptor 913 917	dark
+T60	Material 886 889	air
+T61	Material 864 871	mixture
+T62	Material 938 948	precursors
+T63	Material-Descriptor 929 937	obtained
+T64	Number 978 981	773
+T65	Number 988 990	12
+T66	Condition-Unit 982 983	K
+T67	Condition-Unit 991 992	h
+T68	Material 996 999	air
+R1	Descriptor_Of Arg1:T63 Arg2:T62	
+T69	Material 1020 1027	samples
+T70	Material-Descriptor 1009 1019	pelletized
+T71	Number 1045 1049	1273
+T72	Number 1056 1058	48
+T73	Condition-Unit 1050 1051	K
+T74	Condition-Unit 1059 1060	h
+T75	Material 1064 1067	air
+R2	Next_Operation Arg1:E1 Arg2:E2	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+T28	Operation 593 599	melted
+E8	Operation:T28 Participant_Material:T39
+R4	Next_Operation Arg1:E4 Arg2:E8	
+R5	Next_Operation Arg1:E8 Arg2:E10	
+R6	Next_Operation Arg1:E5 Arg2:E12	
+R7	Next_Operation Arg1:E6 Arg2:E7	
+T35	Operation 1033 1041	annealed
+E9	Operation:T35 Participant_Material:T69 Atmospheric_Material:T75
+R8	Next_Operation Arg1:E7 Arg2:E9	
+R9	Property_Of Arg1:T5 Arg2:T1	
+R10	Property_Of Arg1:T12 Arg2:T9	
+R11	Property_Of Arg1:T12 Arg2:T7	
+R12	Number_Of Arg1:T15 Arg2:T17	
+R13	Number_Of Arg1:T16 Arg2:T18	
+R14	Condition_Of Arg1:T17 Arg2:E1	
+R15	Condition_Of Arg1:T18 Arg2:E1	
+R16	Condition_Of Arg1:T21 Arg2:E2	
+R17	Apparatus_Of Arg1:T40 Arg2:E8	
+R18	Amount_Of Arg1:T41 Arg2:T42	
+R19	Number_Of Arg1:T43 Arg2:T44	
+R20	Amount_Of Arg1:T44 Arg2:T42	
+T29	Operation 674 683	dissolved
+E10	Operation:T29 
+R21	Next_Operation Arg1:E10 Arg2:E11	
+R22	Number_Of Arg1:T46 Arg2:T47	
+R23	Amount_Of Arg1:T47 Arg2:T45	
+R24	Number_Of Arg1:T49 Arg2:T50	
+R25	Amount_Of Arg1:T50 Arg2:T48	
+T30	Operation 759 768	dissolved
+E11	Operation:T30 Participant_Material:T48 Participant_Material:T45 Solvent_Material:T51 Participant_Material:T53
+R26	Next_Operation Arg1:E11 Arg2:E5	
+R27	Descriptor_Of Arg1:T52 Arg2:T51	
+R28	Number_Of Arg1:T54 Arg2:T55	
+R29	Amount_Of Arg1:T55 Arg2:T53	
+R30	Amount_Of Arg1:T56 Arg2:T57	
+T32	Operation 876 882	heated
+E12	Operation:T32 Atmospheric_Material:T60 Participant_Material:T61
+R31	Next_Operation Arg1:E12 Arg2:E6	
+R32	Descriptor_Of Arg1:T59 Arg2:T58	
+R33	Number_Of Arg1:T64 Arg2:T66	
+R34	Number_Of Arg1:T65 Arg2:T67	
+R35	Condition_Of Arg1:T66 Arg2:E7	
+R36	Condition_Of Arg1:T67 Arg2:E7	
+R37	Descriptor_Of Arg1:T70 Arg2:T69	
+R38	Number_Of Arg1:T71 Arg2:T73	
+R39	Number_Of Arg1:T72 Arg2:T74	
+R40	Condition_Of Arg1:T73 Arg2:E9	
+R41	Condition_Of Arg1:T74 Arg2:E9	

@@ -1,0 +1,88 @@
+T1	Operation 254 262	prepared
+E1	Operation:T1 Recipe_Target:T10
+T2	Operation 396 401	added
+E2	Operation:T2 Recipe_Precursor:T13 Recipe_Precursor:T12 Solvent_Material:T14
+T3	Operation 501 510	dissolved
+E3	Operation:T3 Recipe_Precursor:T15 Solvent_Material:T16
+T4	Operation 581 588	dropped
+E4	Operation:T4 Participant_Material:T17 Participant_Material:T18
+T5	Operation 610 618	stirring
+E5	Operation:T5 
+T6	Operation 710 717	stirred
+E6	Operation:T6 Participant_Material:T19
+T7	Operation 727 732	dried
+E7	Operation:T7 
+T8	Operation 799 806	heating
+E8	Operation:T8 Atmospheric_Material:T21
+T9	Material 113 129	lithium-titanate
+T10	Material 213 235	Li4-x/2Ti5-x/2EuxO12@C
+T11	Meta 270 293	co-precipitation method
+T12	Material 328 347	tetrabutyl titanate
+T13	Material 377 390	Eu(NO3)3*6H2O
+T14	Material 415 422	ethanol
+T15	Material 487 495	LiOH*H2O
+T16	Material 524 529	water
+T17	Material 559 569	solution B
+T18	Material 594 604	solution A
+T19	Material 698 705	mixture
+T20	Material 774 781	solvent
+T21	Material 840 845	N2/H2
+T22	Number 319 321	12
+T23	Amount-Unit 322 324	mL
+T24	Amount-Misc 355 373	appropriate amount
+T25	Number 476 481	1.208
+T26	Amount-Unit 482 483	g
+T27	Number 722 723	4
+T28	Condition-Unit 724 725	h
+T29	Number 736 738	80
+T30	Condition-Unit 739 743	degC
+T31	Number 810 813	600
+T32	Condition-Unit 814 818	degC
+T33	Number 823 824	5
+T34	Condition-Unit 825 826	h
+T35	Number 833 834	5
+T36	Amount-Unit 835 839	vol%
+T37	Nonrecipe-Material 55 63	europium
+T38	Property-Misc 64 72	modified
+T39	Nonrecipe-Material 74 80	carbon
+T40	Property-Misc 81 87	coated
+T41	Property-Misc 89 112	hierarchical mesoporous
+T42	Nonrecipe-Material 173 181	Europium
+T43	Property-Misc 182 212	doping hierarchical mesoporous
+T44	Property-Misc 236 248	microspheres
+T45	Material-Descriptor 405 414	anhydrous
+T46	Material-Descriptor 514 523	deionized
+T47	Material 538 548	solution B
+T48	Material-Descriptor 846 856	atmosphere
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Condition_Of Arg1:T28 Arg2:E6	
+R8	Condition_Of Arg1:T30 Arg2:E7	
+R9	Condition_Of Arg1:T32 Arg2:E8	
+R10	Condition_Of Arg1:T34 Arg2:E8	
+R11	Property_Of Arg1:T38 Arg2:T37	
+R12	Property_Of Arg1:T38 Arg2:T9	
+R13	Property_Of Arg1:T40 Arg2:T39	
+R14	Property_Of Arg1:T40 Arg2:T9	
+R15	Property_Of Arg1:T41 Arg2:T9	
+R16	Property_Of Arg1:T43 Arg2:T10	
+R17	Property_Of Arg1:T43 Arg2:T42	
+R18	Property_Of Arg1:T44 Arg2:T10	
+R19	Amount_Of Arg1:T23 Arg2:T12	
+R20	Amount_Of Arg1:T24 Arg2:T13	
+R21	Amount_Of Arg1:T26 Arg2:T15	
+R22	Amount_Of Arg1:T36 Arg2:T21	
+R23	Descriptor_Of Arg1:T45 Arg2:T14	
+R24	Descriptor_Of Arg1:T46 Arg2:T16	
+R25	Descriptor_Of Arg1:T48 Arg2:T21	
+R26	Number_Of Arg1:T22 Arg2:T23	
+R27	Number_Of Arg1:T25 Arg2:T26	
+R28	Number_Of Arg1:T27 Arg2:T28	
+R29	Number_Of Arg1:T29 Arg2:T30	
+R30	Number_Of Arg1:T31 Arg2:T32	
+R31	Number_Of Arg1:T33 Arg2:T34	
+R32	Number_Of Arg1:T35 Arg2:T36	

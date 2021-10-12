@@ -1,0 +1,3 @@
+10.1016/j.nanoen.2016.03.001
+Ambient dissolution-recrystallization towards large-scale preparation of V2O5 nanobelts for high-energy battery applications
+In a typical synthesis, 100.0 g commercial V2O5 powder (Alfa Aesar) was mixed with a 1.5 L of NaCl (2.0 M) aqueous solution under vigorous stirring at room temperature (~25 degC). After 72 h, the solution changed to brownish suspension. The product was washed and separated by centrifugation-redispersion cycles with distilled water and ethanol, and then dried in an oven at 80 degC for 12 h. After that, the product was obtained in high yield (~99.2 g).

@@ -1,0 +1,5 @@
+10.1016/j.jpowsour.2011.10.028
+Sr0.7Ho0.3CoO3-δ as a potential cathode material for intermediate-temperature solid oxide fuel cells
+
+Polycrystalline Sr0.7Ho0.3CoO3-δ (SHCO) was prepared from a stoichiometric mixture of SrCO3, Co3O4 and Ho2O3[8]. The mixtures were ground and sintered at 1100 degC for 12 h followed by re-grinding and another firing at 1100 degC for 48 h in air. The obtained product was characterized by powder X-ray diffraction (XRD) for phase identification with a Philips X'pert diffractometer (Cu Kα radiation, λ = 1.5418 Å) in Bragg-Brentano reflection geometry. The XRD data were recorded in the 2θ range of 20-90deg with an increment of 0.02deg and a dwell time of 10 s.
+

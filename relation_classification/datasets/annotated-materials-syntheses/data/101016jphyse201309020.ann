@@ -1,0 +1,130 @@
+T1	Material 150 153	ZnO
+T2	Operation 163 171	prepared
+E1	Operation:T2 Participant_Material:T1
+T3	Meta 186 215	carbothermal reduction method
+T4	Operation 326 332	placed
+E2	Operation:T4 Recipe_Precursor:T19 Recipe_Precursor:T21
+T5	Operation 379 385	heated
+E3	Operation:T5 
+T6	Operation 403 409	purged
+E4	Operation:T6 Atmospheric_Material:T30 Atmospheric_Material:T31
+T7	Operation 544 555	carried out
+E5	Operation:T7 Participant_Material:T34 Participant_Material:T35
+T8	Operation 579 588	collected
+E6	Operation:T8 
+T9	Operation 650 658	prepared
+E7	Operation:T9 Participant_Material:T40
+T10	Operation 829 843	ultrasonicated
+E8	Operation:T10 Recipe_Precursor:T44 Solvent_Material:T45 Participant_Material:T49
+T11	Operation 923 928	added
+E9	Operation:T11 Participant_Material:T54 Participant_Material:T56
+T12	Operation 975 982	stirred
+E10	Operation:T12 Participant_Material:T58
+T13	Operation 1012 1020	followed
+E11	Operation:T13 
+T14	Operation 1024 1036	centrifuging
+E12	Operation:T14 
+T15	Operation 1041 1048	washing
+E13	Operation:T15 Solvent_Material:T62
+T16	Operation 1125 1135	desiccated
+E14	Operation:T16 Participant_Material:T64
+T17	Operation 1169 1186	thermally reduced
+E15	Operation:T17 
+T18	Material-Descriptor 154 157	NWs
+T19	Material 258 261	ZnO
+T20	Material-Descriptor 262 268	powder
+T21	Material 273 281	graphite
+T22	Number 283 286	500
+T23	Property-Unit 287 291	mesh
+T24	Number 316 321	1:0.8
+T25	Amount-Unit 300 312	weight ratio
+T26	Synthesis-Apparatus 354 361	furnace
+T27	Synthesis-Apparatus 367 374	furnace
+T28	Number 389 393	1150
+T29	Condition-Unit 394 398	degC
+T30	Material 428 431	air
+T31	Material 448 450	N2
+T32	Number 504 505	5
+T33	Condition-Unit 506 509	min
+T34	Material 532 539	product
+T35	Material 571 574	gas
+T36	Number 594 598	5000
+T37	Apparatus-Unit 599 601	mL
+T38	Synthesis-Apparatus 602 607	flask
+T39	Synthesis-Apparatus 633 640	furnace
+T40	Material 643 645	GO
+T41	Meta 673 688	Hummers' method
+T42	Number 804 807	0.5
+T43	Amount-Unit 808 809	g
+T44	Material 810 824	graphite oxide
+T45	Material 857 862	water
+T46	Material-Descriptor 847 856	deionized
+T47	Number 868 871	0.1
+T48	Amount-Unit 872 873	g
+T49	Material 874 877	PVP
+T50	Material 886 888	GO
+T51	Material-Descriptor 889 897	solution
+T52	Number 904 907	0.5
+T53	Amount-Unit 908 909	g
+T54	Material 910 913	ZnO
+T55	Material-Descriptor 914 917	NWs
+T56	Material 934 936	GO
+T57	Material-Descriptor 937 945	solution
+T58	Material 963 970	mixture
+T59	Condition-Misc 986 1002	room temperature
+T60	Number 1007 1008	2
+T61	Condition-Unit 1009 1010	h
+T62	Material 1064 1069	water
+T63	Material-Descriptor 1054 1063	deionized
+T64	Material 1105 1119	nanocomposites
+T65	Number 1139 1141	50
+T66	Condition-Unit 1142 1146	degC
+T67	Condition-Misc 1147 1156	overnight
+T68	Number 1190 1193	300
+T69	Condition-Unit 1194 1198	degC
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E8 Arg2:E9	
+R6	Next_Operation Arg1:E9 Arg2:E10	
+R7	Next_Operation Arg1:E10 Arg2:E11	
+R8	Next_Operation Arg1:E11 Arg2:E12	
+R9	Next_Operation Arg1:E12 Arg2:E13	
+R10	Next_Operation Arg1:E14 Arg2:E15	
+R11	Apparatus_Of Arg1:T26 Arg2:E2	
+R12	Apparatus_Of Arg1:T27 Arg2:E3	
+R13	Condition_Of Arg1:T29 Arg2:E3	
+R14	Condition_Of Arg1:T33 Arg2:E4	
+R15	Apparatus_Of Arg1:T38 Arg2:E6	
+R16	Apparatus_Of Arg1:T39 Arg2:E6	
+R17	Condition_Of Arg1:T59 Arg2:E10	
+R18	Condition_Of Arg1:T61 Arg2:E10	
+R19	Condition_Of Arg1:T66 Arg2:E14	
+R20	Condition_Of Arg1:T67 Arg2:E14	
+R21	Condition_Of Arg1:T69 Arg2:E15	
+R22	Property_Of Arg1:T23 Arg2:T21	
+R23	Amount_Of Arg1:T25 Arg2:T19	
+R24	Amount_Of Arg1:T25 Arg2:T21	
+R25	Amount_Of Arg1:T43 Arg2:T44	
+R26	Amount_Of Arg1:T48 Arg2:T49	
+R27	Amount_Of Arg1:T53 Arg2:T54	
+R28	Descriptor_Of Arg1:T18 Arg2:T1	
+R29	Descriptor_Of Arg1:T20 Arg2:T19	
+R30	Descriptor_Of Arg1:T46 Arg2:T45	
+R31	Descriptor_Of Arg1:T55 Arg2:T54	
+R32	Descriptor_Of Arg1:T57 Arg2:T56	
+R33	Descriptor_Of Arg1:T51 Arg2:T50	
+R34	Descriptor_Of Arg1:T63 Arg2:T62	
+R35	Number_Of Arg1:T22 Arg2:T23	
+R36	Number_Of Arg1:T24 Arg2:T25	
+R37	Number_Of Arg1:T28 Arg2:T29	
+R38	Number_Of Arg1:T32 Arg2:T33	
+R39	Number_Of Arg1:T36 Arg2:T37	
+R40	Apparatus_Attr_Of Arg1:T37 Arg2:T38	
+R41	Number_Of Arg1:T47 Arg2:T48	
+R42	Number_Of Arg1:T42 Arg2:T43	
+R43	Number_Of Arg1:T52 Arg2:T53	
+R44	Number_Of Arg1:T60 Arg2:T61	
+R45	Number_Of Arg1:T65 Arg2:T66	
+R46	Number_Of Arg1:T68 Arg2:T69	

@@ -1,0 +1,79 @@
+T1	Operation 136 141	began
+E1	Operation:T1 
+T2	Operation 223 232	dissolved
+E2	Operation:T2 Recipe_Precursor:T11 Recipe_Precursor:T12 Solvent_Material:T13
+T3	Operation 246 251	added
+E3	Operation:T3 
+T4	Operation 266 274	stirring
+E4	Operation:T4 Participant_Material:T14
+T5	Operation 431 439	filtered
+E5	Operation:T5 Participant_Material:T16
+T6	Operation 441 447	washed
+E6	Operation:T6 Solvent_Material:T17
+T7	Operation 475 480	dried
+E7	Operation:T7 
+T8	Operation 548 554	ground
+E8	Operation:T8 Participant_Material:T18 Recipe_Precursor:T19 Recipe_Precursor:T20
+T9	Operation 616 621	fired
+E9	Operation:T9 
+T10	Meta 155 178	co-precipitation method
+T11	Material 200 202	Mn
+T12	Material 207 217	Ni acetate
+T13	Material 236 241	water
+T14	Material 283 286	KOH
+T15	Material 354 362	solution
+T16	Material 416 425	particles
+T17	Material 464 469	water
+T18	Material 530 537	powders
+T19	Material 589 598	RuO2*xH2O
+T20	Material 603 611	LiOH*H2O
+T21	Material 773 795	Li1.2Mn0.6-xRuxNi0.2O2
+T22	Amount-Misc 180 196	Required amounts
+T23	Condition-Misc 252 260	dropwise
+T24	Material-Descriptor 275 282	aqueous
+T25	Material-Descriptor 287 295	solution
+T26	Condition-Misc 299 315	room temperature
+T27	Material-Descriptor 346 353	acetate
+T28	Material-Descriptor 394 415	mixed-metal hydroxide
+T29	Material-Descriptor 453 463	de-ionized
+T30	Condition-Misc 481 490	overnight
+T31	Number 494 497	100
+T32	Condition-Unit 498 502	degC
+T33	Material-Descriptor 508 529	mixed-metal hydroxide
+T34	Amount-Misc 569 585	required amounts
+T35	Number 625 628	900
+T36	Condition-Unit 629 633	degC
+T37	Number 638 640	15
+T38	Condition-Unit 641 642	h
+T39	Number 677 678	3
+T40	Condition-Unit 679 689	degC min-1
+T41	Number 694 695	5
+T42	Condition-Unit 696 706	degC min-1
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Next_Operation Arg1:E8 Arg2:E9	
+R8	Condition_Of Arg1:T23 Arg2:E3	
+R9	Condition_Of Arg1:T26 Arg2:E4	
+R10	Condition_Of Arg1:T30 Arg2:E7	
+R11	Condition_Of Arg1:T32 Arg2:E7	
+R12	Condition_Of Arg1:T36 Arg2:E9	
+R13	Condition_Of Arg1:T38 Arg2:E9	
+R14	Amount_Of Arg1:T22 Arg2:T11	
+R15	Amount_Of Arg1:T22 Arg2:T12	
+R16	Amount_Of Arg1:T34 Arg2:T19	
+R17	Amount_Of Arg1:T34 Arg2:T20	
+R18	Descriptor_Of Arg1:T28 Arg2:T16	
+R19	Descriptor_Of Arg1:T24 Arg2:T14	
+R20	Descriptor_Of Arg1:T25 Arg2:T14	
+R21	Descriptor_Of Arg1:T27 Arg2:T15	
+R22	Descriptor_Of Arg1:T29 Arg2:T17	
+R23	Descriptor_Of Arg1:T33 Arg2:T18	
+R24	Number_Of Arg1:T31 Arg2:T32	
+R25	Number_Of Arg1:T35 Arg2:T36	
+R26	Number_Of Arg1:T37 Arg2:T38	
+R27	Number_Of Arg1:T39 Arg2:T40	
+R28	Number_Of Arg1:T41 Arg2:T42	

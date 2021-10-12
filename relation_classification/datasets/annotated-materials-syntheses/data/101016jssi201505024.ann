@@ -1,0 +1,146 @@
+T1	Operation 149 157	prepared
+E1	Operation:T1 Recipe_Target:T10
+T2	Operation 196 202	mixing
+E2	Operation:T2 Recipe_Precursor:T11 Participant_Material:T13 Solvent_Material:T14
+T3	Operation 307 315	stirring
+E3	Operation:T3 
+T4	Operation 423 428	added
+E4	Operation:T4 Participant_Material:T15 Participant_Material:T16 Participant_Material:T21
+T5	Operation 585 592	stirred
+E5	Operation:T5 
+T6	Operation 605 611	heated
+E6	Operation:T6 
+T7	Operation 723 731	annealed
+E7	Operation:T7 Participant_Material:T25 Atmospheric_Material:T26
+T8	Operation 888 896	obtained
+E8	Operation:T8 Recipe_Target:T27
+T9	Operation 903 911	removing
+E9	Operation:T9 Participant_Material:T28 Participant_Material:T29
+T10	Material 138 144	carbon
+T11	Material 213 217	F127
+T12	Material 219 236	PEO106PPO70PEO106
+T13	Material 271 274	HCl
+T14	Material 295 302	ethanol
+T15	Material 405 413	solution
+T16	Material 442 466	tetraethyl orthosilicate
+T17	Material 468 472	TEOS
+T18	Material 545 551	phenol
+T19	Material 556 568	formaldehyde
+T20	Brand 570 577	Aldrich
+T21	Material 495 518	resol-ethanolic-20% mix
+T22	Material 637 644	ethanol
+T23	Operation 664 681	thermo-polymerize
+E10	Operation:T23 Participant_Material:T24
+T24	Material 686 691	resol
+T25	Material 701 711	components
+T26	Material 758 763	argon
+T27	Material 877 883	carbon
+T28	Nonrecipe-Material 912 916	SiO2
+T29	Material 933 935	HF
+T30	Property-Misc 127 137	mesoporous
+T31	Number 203 207	48.0
+T32	Amount-Unit 208 209	g
+T33	Number 241 246	12600
+T34	Amount-Unit 238 240	MW
+T35	Brand 248 255	Aldrich
+T36	Number 261 265	15.0
+T37	Amount-Unit 266 267	g
+T38	Number 276 279	0.2
+T39	Amount-Unit 280 281	M
+T40	Number 286 289	120
+T41	Amount-Unit 290 291	g
+T42	Number 320 321	1
+T43	Condition-Unit 322 323	h
+T44	Number 327 329	40
+T45	Condition-Unit 330 334	degC
+T46	Material 373 381	solution
+T47	Number 432 436	31.2
+T48	Amount-Unit 437 438	g
+T49	Brand 474 479	Acros
+T50	Number 485 489	77.3
+T51	Amount-Unit 490 491	g
+T52	Operation 520 528	prepared
+E11	Operation:T52 
+T53	Operation 532 544	polymerizing
+E12	Operation:T53 Participant_Material:T18 Participant_Material:T19
+T54	Number 597 598	5
+T55	Condition-Unit 599 600	h
+T56	Number 615 617	40
+T57	Condition-Unit 618 622	degC
+T58	Number 652 655	100
+T59	Condition-Unit 656 660	degC
+T60	Number 735 738	900
+T61	Condition-Unit 739 743	degC
+T62	Number 748 749	2
+T63	Condition-Unit 750 751	h
+T64	Number 794 795	1
+T65	Condition-Unit 796 807	degC min- 1
+T66	Number 814 817	600
+T67	Condition-Unit 818 822	degC
+T68	Number 827 828	5
+T69	Condition-Unit 829 840	degC min- 1
+T70	Number 847 850	900
+T71	Condition-Unit 851 855	degC
+T72	Property-Misc 866 876	mesoporous
+T73	Number 925 927	50
+T74	Amount-Unit 928 932	wt.%
+T75	Number 949 951	24
+T76	Condition-Unit 952 953	h
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E10	
+R6	Next_Operation Arg1:E10 Arg2:E7	
+R7	Next_Operation Arg1:E7 Arg2:E8	
+R8	Next_Operation Arg1:E8 Arg2:E9	
+R9	Next_Operation Arg1:E11 Arg2:E12	
+R10	Coref_Of Arg1:T12 Arg2:T11	
+R11	Coref_Of Arg1:T17 Arg2:T16	
+R13	Condition_Of Arg1:T43 Arg2:E3	
+R14	Condition_Of Arg1:T45 Arg2:E3	
+R15	Condition_Of Arg1:T55 Arg2:E5	
+R16	Condition_Of Arg1:T57 Arg2:E6	
+R17	Condition_Of Arg1:T59 Arg2:E6	
+R18	Condition_Of Arg1:T61 Arg2:E7	
+R19	Condition_Of Arg1:T63 Arg2:E7	
+R20	Condition_Of Arg1:T65 Arg2:E7	
+R21	Condition_Of Arg1:T67 Arg2:E7	
+R22	Condition_Of Arg1:T69 Arg2:E7	
+R23	Condition_Of Arg1:T71 Arg2:E7	
+R24	Condition_Of Arg1:T76 Arg2:E9	
+T77	Condition-Type 778 790	heating rate
+R25	Property_Of Arg1:T30 Arg2:T10	
+R26	Amount_Of Arg1:T32 Arg2:T11	
+R27	Amount_Of Arg1:T34 Arg2:T11	
+R28	Amount_Of Arg1:T37 Arg2:T13	
+R29	Amount_Of Arg1:T39 Arg2:T13	
+R30	Amount_Of Arg1:T41 Arg2:T14	
+R31	Amount_Of Arg1:T48 Arg2:T16	
+R32	Amount_Of Arg1:T51 Arg2:T21	
+R33	Property_Of Arg1:T72 Arg2:T27	
+R34	Amount_Of Arg1:T74 Arg2:T29	
+R35	Type_Of Arg1:T77 Arg2:T65	
+R36	Number_Of Arg1:T31 Arg2:T32	
+R37	Number_Of Arg1:T33 Arg2:T34	
+R38	Number_Of Arg1:T36 Arg2:T37	
+R39	Number_Of Arg1:T38 Arg2:T39	
+R40	Number_Of Arg1:T40 Arg2:T41	
+R41	Number_Of Arg1:T42 Arg2:T43	
+R42	Number_Of Arg1:T44 Arg2:T45	
+R43	Number_Of Arg1:T47 Arg2:T48	
+R44	Number_Of Arg1:T50 Arg2:T51	
+R45	Number_Of Arg1:T54 Arg2:T55	
+R46	Number_Of Arg1:T56 Arg2:T57	
+R47	Number_Of Arg1:T58 Arg2:T59	
+R48	Number_Of Arg1:T60 Arg2:T61	
+R49	Number_Of Arg1:T62 Arg2:T63	
+R50	Number_Of Arg1:T64 Arg2:T65	
+R51	Number_Of Arg1:T66 Arg2:T67	
+R52	Number_Of Arg1:T68 Arg2:T69	
+R53	Number_Of Arg1:T70 Arg2:T71	
+R54	Number_Of Arg1:T73 Arg2:T74	
+R55	Number_Of Arg1:T75 Arg2:T76	
+R56	Brand_Of Arg1:T35 Arg2:T11	
+R57	Brand_Of Arg1:T49 Arg2:T16	
+R12	Brand_Of Arg1:T20 Arg2:T21	

@@ -1,0 +1,80 @@
+T1	Material 194 198	V2O5
+T2	Operation 212 220	prepared
+E1	Operation:T2 Recipe_Target:T1
+T3	Operation 387 392	mixed
+E2	Operation:T3 Recipe_Precursor:T10 Participant_Material:T12 Participant_Material:T13 Solvent_Material:T15
+T4	Operation 451 459	adjusted
+E3	Operation:T4 Participant_Material:T17
+T5	Operation 547 558	transferred
+E4	Operation:T5 Participant_Material:T19
+T6	Operation 600 606	heated
+E5	Operation:T6 
+T7	Operation 657 664	cooling
+E6	Operation:T7 
+T8	Operation 723 729	washed
+E7	Operation:T8 Participant_Material:T20 Solvent_Material:T21 Solvent_Material:T22
+T9	Meta 250 269	hydrothermal method
+T10	Material 282 288	NH4VO3
+T11	Material 290 311	ammonium metavanadate
+T12	Material 323 326	HCl
+T13	Material 332 364	poly (sodium 4-styrenesulfonate)
+T14	Material 366 369	PSS
+T15	Material 411 416	water
+T16	Amount-Unit 422 424	pH
+T17	Material 438 446	solution
+T18	Material 510 514	V2O5
+T19	Material 534 542	solution
+T20	Material 705 717	precipitates
+T21	Material 738 743	water
+T22	Material 748 755	ethanol
+T23	Material 816 825	materials
+T24	Property-Misc 166 194	Hierarchical 3D micro-/nano-
+T25	Property-Misc 199 206	spheres
+T26	Material-Descriptor 313 321	solution
+T27	Number 371 372	2
+T28	Amount-Unit 373 375	mL
+T29	Material-Descriptor 396 398	DI
+T30	Material-Descriptor 400 409	deionized
+T31	Number 476 479	2.7
+T32	Number 566 569	100
+T33	Apparatus-Unit 570 572	mL
+T34	Synthesis-Apparatus 586 595	autoclave
+T35	Apparatus-Descriptor 573 585	Teflon-lined
+T36	Number 610 613	180
+T37	Condition-Unit 614 618	degC
+T38	Number 623 625	24
+T39	Condition-Unit 626 627	h
+T40	Synthesis-Apparatus 645 649	oven
+T41	Apparatus-Descriptor 634 644	electrical
+T42	Condition-Misc 683 699	room temperature
+T43	Material-Descriptor 735 737	DI
+T44	Condition-Misc 774 787	several times
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Apparatus_Of Arg1:T34 Arg2:E4	
+R7	Condition_Of Arg1:T37 Arg2:E5	
+R8	Condition_Of Arg1:T39 Arg2:E5	
+R9	Apparatus_Of Arg1:T40 Arg2:E5	
+R10	Condition_Of Arg1:T42 Arg2:E6	
+R11	Condition_Of Arg1:T44 Arg2:E7	
+R12	Property_Of Arg1:T24 Arg2:T1	
+R13	Property_Of Arg1:T25 Arg2:T1	
+R14	Amount_Of Arg1:T28 Arg2:T13	
+R15	Coref_Of Arg1:T14 Arg2:T13	
+R16	Amount_Of Arg1:T16 Arg2:T17	
+R17	Descriptor_Of Arg1:T26 Arg2:T10	
+R18	Coref_Of Arg1:T11 Arg2:T10	
+R19	Descriptor_Of Arg1:T29 Arg2:T15	
+R20	Descriptor_Of Arg1:T30 Arg2:T15	
+R21	Descriptor_Of Arg1:T35 Arg2:T34	
+R22	Descriptor_Of Arg1:T41 Arg2:T40	
+R23	Descriptor_Of Arg1:T43 Arg2:T21	
+R24	Number_Of Arg1:T27 Arg2:T28	
+R25	Number_Of Arg1:T31 Arg2:T16	
+R26	Number_Of Arg1:T32 Arg2:T33	
+R27	Number_Of Arg1:T36 Arg2:T37	
+R28	Number_Of Arg1:T38 Arg2:T39	
+R29	Apparatus_Attr_Of Arg1:T33 Arg2:T34	

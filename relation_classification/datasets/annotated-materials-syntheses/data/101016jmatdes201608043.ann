@@ -1,0 +1,223 @@
+T1	Meta 29 46	Thermally induced
+T2	Meta 151 172	carbonization process
+T3	Material 60 70	zinc oxide
+T4	Property-Misc 71 85	nanostructures
+T5	Material 144 149	MOF-5
+T6	Material 119 142	metal organic framework
+T7	Material 173 190	Hydrochloric acid
+T8	Number 192 194	36
+T9	Amount-Unit 194 195	%
+T10	Material 201 222	N,N-dimethylformamide
+T11	Operation 228 237	purchased
+E1	Operation:T11 Solvent_Material:T7 Solvent_Material:T10
+T12	Brand 243 250	Chempur
+T13	Material 261 285	Zinc nitrate hexahydrate
+T14	Material 287 300	Zn(NO3)2*6H2O
+T15	Material 303 320	terephthalic acid
+T16	Material 322 334	C6H4 (COOH)2
+T17	Material 340 353	triethylamine
+T18	Operation 359 365	bought
+E2	Operation:T18 Recipe_Precursor:T17 Solvent_Material:T15 Recipe_Precursor:T13
+T19	Brand 371 384	Sigma Aldrich
+T20	Operation 400 408	prepared
+E3	Operation:T20 Recipe_Target:T41
+T21	Operation 575 584	dissolved
+E4	Operation:T21 Recipe_Precursor:T59 Recipe_Precursor:T60 Recipe_Precursor:T61 Solvent_Material:T65
+T22	Operation 642 651	sonicated
+E5	Operation:T22 Participant_Material:T67
+T23	Operation 674 682	obtained
+E6	Operation:T23 Participant_Material:T69
+T24	Operation 687 698	transferred
+E7	Operation:T24 
+T25	Operation 721 728	stirred
+E8	Operation:T25 
+T26	Operation 797 804	removed
+E9	Operation:T26 
+T27	Operation 828 835	allowed
+E10	Operation:T27 
+T28	Operation 896 901	dried
+E11	Operation:T28 Participant_Material:T78
+T29	Operation 931 937	remove
+E12	Operation:T29 Participant_Material:T82
+T30	Operation 969 977	prepared
+E13	Operation:T30 Recipe_Target:T83
+T31	Operation 988 999	thermolysis
+E14	Operation:T31 
+T32	Operation 1018 1026	obtained
+E15	Operation:T32 Participant_Material:T85
+T33	Operation 1049 1059	containing
+E16	Operation:T33 Participant_Material:T88
+T34	Operation 1087 1095	inserted
+E17	Operation:T34 
+T35	Operation 1152 1158	heated
+E18	Operation:T35 
+T36	Operation 1297 1307	maintained
+E19	Operation:T36 Participant_Material:T99 Atmospheric_Material:T103
+T37	Operation 1367 1374	Cooling
+E20	Operation:T37 Participant_Material:T106
+T38	Operation 1419 1427	followed
+E21	Operation:T38 
+T39	Operation 1434 1447	investigation
+E22	Operation:T39 
+T41	Material 390 395	MOF-5
+T42	Reference 454 458	[26]
+T43	Number 469 473	1.65
+T44	Number 508 512	0.89
+T45	Number 540 544	3.25
+T46	Number 588 592	2.34
+T47	Number 656 657	1
+T48	Number 733 735	48
+T49	Number 758 761	150
+T50	Number 905 908	110
+T51	Number 924 925	2
+T52	Number 1217 1220	600
+T53	Number 1229 1233	1000
+T54	Number 1264 1265	8
+T55	Number 1332 1333	2
+T56	Number 1355 1358	100
+T57	Amount-Unit 474 478	mmol
+T58	Amount-Unit 513 517	mmol
+T59	Material 482 506	zinc nitrate hexahydrate
+T60	Material 518 535	terephthalic acid
+T61	Material 550 563	triethylamine
+T62	Amount-Unit 545 549	mmol
+T63	Material 565 568	TEA
+T64	Amount-Unit 593 596	mol
+T65	Material 597 618	N,N-dimethylformamide
+T66	Material 620 623	DMF
+T67	Material 630 637	mixture
+T68	Condition-Unit 658 659	h
+T69	Material 665 673	solution
+T70	Synthesis-Apparatus 707 716	autoclave
+T71	Condition-Unit 736 737	h
+T72	Condition-Type 743 754	temperature
+T73	Condition-Unit 762 766	degC
+T74	Synthesis-Apparatus 772 787	reaction vessel
+T75	Synthesis-Apparatus 814 823	autoclave
+T76	Operation 839 843	cool
+E24	Operation:T76 
+T77	Condition-Misc 847 863	room temperature
+T78	Material 878 884	sample
+T79	Condition-Misc 889 895	vacuum
+T80	Condition-Unit 909 913	degC
+T81	Condition-Unit 926 927	h
+T82	Material 942 949	solvent
+T83	Material 958 964	carbon
+T84	Property-Misc 951 957	Porous
+T85	Material 1027 1032	MOF-5
+T86	Synthesis-Apparatus 1044 1048	boat
+T87	Apparatus-Descriptor 1036 1043	ceramic
+T88	Material 1070 1075	MOF-5
+T89	Material-Descriptor 1064 1069	white
+T90	Material-Descriptor 1076 1082	powder
+T91	Synthesis-Apparatus 1117 1129	tube furnace
+T92	Synthesis-Apparatus 1135 1142	furnace
+T93	Condition-Misc 1164 1180	room temperature
+T94	Condition-Type 1196 1207	temperature
+T95	Condition-Unit 1221 1225	degC
+T96	Condition-Unit 1234 1238	degC
+T97	Condition-Type 1248 1260	heating rate
+T98	Condition-Unit 1266 1274	degC/min
+T99	Material 1280 1285	MOF-5
+T100	Material-Descriptor 1286 1292	powder
+T101	Condition-Type 1316 1327	temperature
+T102	Condition-Unit 1334 1335	h
+T103	Material 1344 1346	Ar
+T104	Condition-Type 1347 1351	flow
+T105	Condition-Unit 1359 1365	ml/min
+T106	Material 1379 1384	MOF-5
+T107	Condition-Misc 1398 1414	room temperature
+T108	Material 1473 1480	samples
+T109	Property-Type 1455 1465	morphology
+R1	Property_Of Arg1:T4 Arg2:T3	
+R2	Coref_Of Arg1:T6 Arg2:T5	
+T110	Property-Type 101 111	morphology
+R3	Number_Of Arg1:T8 Arg2:T9	
+R4	Amount_Of Arg1:T9 Arg2:T7	
+R5	Brand_Of Arg1:T12 Arg2:T10	
+R6	Brand_Of Arg1:T12 Arg2:T7	
+A1	Start_Recipe E1
+R7	Next_Operation Arg1:E1 Arg2:E2	
+R8	Next_Operation Arg1:E2 Arg2:E3	
+R9	Next_Operation Arg1:E3 Arg2:E4	
+R10	Next_Operation Arg1:E4 Arg2:E5	
+R11	Next_Operation Arg1:E5 Arg2:E6	
+R12	Next_Operation Arg1:E6 Arg2:E7	
+R13	Next_Operation Arg1:E7 Arg2:E8	
+R14	Next_Operation Arg1:E8 Arg2:E9	
+R15	Next_Operation Arg1:E9 Arg2:E10	
+R16	Next_Operation Arg1:E10 Arg2:E24	
+R17	Next_Operation Arg1:E24 Arg2:E11	
+R18	Next_Operation Arg1:E11 Arg2:E12	
+A2	End_Recipe E12
+A3	Start_Recipe E13
+R19	Next_Operation Arg1:E13 Arg2:E14	
+R20	Next_Operation Arg1:E14 Arg2:E15	
+R21	Next_Operation Arg1:E15 Arg2:E16	
+R22	Next_Operation Arg1:E16 Arg2:E17	
+R23	Next_Operation Arg1:E17 Arg2:E18	
+R24	Next_Operation Arg1:E18 Arg2:E19	
+R25	Next_Operation Arg1:E19 Arg2:E20	
+R26	Next_Operation Arg1:E20 Arg2:E21	
+R27	Next_Operation Arg1:E21 Arg2:E22	
+T111	Operation 1481 1489	obtained
+E25	Operation:T111 Participant_Material:T108
+R28	Next_Operation Arg1:E22 Arg2:E25	
+A5	End_Recipe E25
+R29	Coref_Of Arg1:T14 Arg2:T13	
+R30	Coref_Of Arg1:T16 Arg2:T15	
+R31	Brand_Of Arg1:T19 Arg2:T17	
+R32	Brand_Of Arg1:T19 Arg2:T15	
+R33	Brand_Of Arg1:T19 Arg2:T13	
+R34	Number_Of Arg1:T43 Arg2:T57	
+R35	Amount_Of Arg1:T57 Arg2:T59	
+R36	Number_Of Arg1:T44 Arg2:T58	
+R37	Amount_Of Arg1:T58 Arg2:T60	
+R38	Number_Of Arg1:T45 Arg2:T62	
+R39	Amount_Of Arg1:T62 Arg2:T61	
+R40	Coref_Of Arg1:T63 Arg2:T61	
+R41	Number_Of Arg1:T46 Arg2:T64	
+R42	Amount_Of Arg1:T64 Arg2:T65	
+R43	Coref_Of Arg1:T66 Arg2:T65	
+R44	Number_Of Arg1:T47 Arg2:T68	
+R45	Condition_Of Arg1:T68 Arg2:E5	
+R46	Apparatus_Of Arg1:T70 Arg2:E7	
+R47	Number_Of Arg1:T48 Arg2:T71	
+R48	Condition_Of Arg1:T71 Arg2:E8	
+R49	Number_Of Arg1:T49 Arg2:T73	
+R50	Type_Of Arg1:T72 Arg2:T73	
+R51	Condition_Of Arg1:T73 Arg2:E8	
+R52	Apparatus_Of Arg1:T74 Arg2:E9	
+R53	Apparatus_Of Arg1:T75 Arg2:E9	
+R54	Condition_Of Arg1:T77 Arg2:E24	
+R55	Condition_Of Arg1:T79 Arg2:E11	
+R56	Number_Of Arg1:T50 Arg2:T80	
+R57	Condition_Of Arg1:T80 Arg2:E11	
+R58	Number_Of Arg1:T51 Arg2:T81	
+R59	Condition_Of Arg1:T81 Arg2:E11	
+R60	Property_Of Arg1:T84 Arg2:T83	
+T40	Condition-Misc 981 987	direct
+R61	Condition_Of Arg1:T40 Arg2:E14	
+R62	Descriptor_Of Arg1:T87 Arg2:T86	
+R63	Apparatus_Of Arg1:T86 Arg2:E16	
+R64	Descriptor_Of Arg1:T89 Arg2:T88	
+R65	Descriptor_Of Arg1:T90 Arg2:T88	
+R66	Apparatus_Of Arg1:T91 Arg2:E17	
+R67	Apparatus_Of Arg1:T92 Arg2:E18	
+R68	Condition_Of Arg1:T93 Arg2:E18	
+R69	Number_Of Arg1:T52 Arg2:T95	
+R70	Number_Of Arg1:T53 Arg2:T96	
+R71	Type_Of Arg1:T94 Arg2:T95	
+R72	Type_Of Arg1:T94 Arg2:T96	
+R73	Condition_Of Arg1:T95 Arg2:E18	
+R74	Condition_Of Arg1:T96 Arg2:E18	
+R75	Number_Of Arg1:T54 Arg2:T98	
+R76	Type_Of Arg1:T97 Arg2:T98	
+R77	Condition_Of Arg1:T98 Arg2:E18	
+R78	Descriptor_Of Arg1:T100 Arg2:T99	
+R79	Number_Of Arg1:T55 Arg2:T102	
+R80	Condition_Of Arg1:T102 Arg2:E19	
+R81	Number_Of Arg1:T56 Arg2:T105	
+R82	Type_Of Arg1:T104 Arg2:T105	
+R83	Condition_Of Arg1:T105 Arg2:E19	
+R84	Condition_Of Arg1:T107 Arg2:E20	

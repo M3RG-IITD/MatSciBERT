@@ -1,0 +1,4 @@
+10.1016/j.cplett.2015.04.042
+Synthesis and characterization of silver nanoparticles doped reduced graphene oxide
+
+Graphite oxide was first synthesized from the precursor graphite (natural graphite, Sigma Aldrich) by the modified Brodie method as described elsewhere [17] and [18]. The graphite oxide powder of 1 g was mixed with deionized (DI) water of 1 ml and stirred for 12 h for the GO solution. Then, the colloidal silver powder (from Sigma-Aldrich, 75% Ag basis) of 0.002 g were added to the GO solution and sonicated for 1 h followed by dropping hydrazine hydrate of 0.2 μl and stirring for 3 h at 90 degC to reduce GO. The mixture was then filtered several times with DI water and kept in a vacuum oven for overnight. The obtained reduced GO with and without the Ag powder are named as RGO_Ag and RGO, respectively.

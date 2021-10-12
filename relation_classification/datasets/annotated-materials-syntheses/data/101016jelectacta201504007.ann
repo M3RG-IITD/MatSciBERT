@@ -1,0 +1,114 @@
+T1	Property-Type 43 61	alkyl chain length
+T3	Property-Type 92 110	electron transport
+T4	Property-Type 115 137	recombination kinetics
+T5	Meta 170 187	quasi-solid-state
+T7	Material 252 256	MPII
+T9	Material 295 299	BMII
+T6	Material 215 250	1-Methyl-3-propylimidazolium iodide
+T8	Material 259 293	1-Methyl-3-butylimidazolium iodide
+T10	Material 305 339	1-Methyl-3-hexylimidazolium iodide
+T11	Material 341 345	HMII
+T12	Operation 352 360	prepared
+E1	Operation:T12 Participant_Material:T10 Participant_Material:T8 Participant_Material:T6
+T13	Reference 384 388	[14]
+T14	Reference 393 397	[15]
+T15	Material 403 428	ionic liquid electrolytes
+T16	Material 430 434	ILEs
+T17	Operation 453 461	composed
+E2	Operation:T17 Recipe_Target:T15 Recipe_Precursor:T20 Recipe_Precursor:T27 Recipe_Precursor:T35 Participant_Material:T40 Participant_Material:T41 Participant_Material:T42
+T18	Number 465 469	0.35
+T19	Amount-Unit 470 477	mol L-1
+T20	Material 478 484	iodine
+T21	Material 486 488	I2
+T22	Number 490 492	99
+T23	Amount-Unit 492 493	%
+T24	Brand 495 502	Aldrich
+T25	Number 505 509	0.02
+T26	Amount-Unit 510 517	mol L-1
+T27	Material 528 542	lithium iodide
+T28	Material-Descriptor 518 527	anhydrous
+T29	Material 544 547	LiI
+T30	Number 549 551	99
+T31	Amount-Unit 551 552	%
+T32	Brand 554 561	Aldrich
+T33	Number 567 570	0.5
+T34	Amount-Unit 571 578	mol L-1
+T35	Material 579 600	N-methylbenzimidazole
+T36	Material 602 606	NMBI
+T37	Number 608 610	99
+T38	Amount-Unit 610 611	%
+T39	Brand 613 620	Aldrich
+T40	Material 625 629	MPII
+T41	Material 631 635	BMII
+T42	Material 640 644	HMII
+T43	Material 660 664	IGEs
+T44	Operation 670 678	prepared
+E3	Operation:T44 Recipe_Target:T43
+T45	Operation 682 688	adding
+E4	Operation:T45 Recipe_Precursor:T49 Recipe_Target:T53
+T46	Number 689 691	20
+T47	Amount-Unit 692 695	wt%
+T48	Material 701 704	ILE
+T49	Material 706 727	12-hydroxystearicacid
+T50	Number 729 731	99
+T51	Amount-Unit 731 732	%
+T52	Brand 734 741	Aldrich
+T53	Material 748 752	ILEs
+T54	Operation 757 763	heated
+E5	Operation:T54 
+T55	Operation 770 778	stirring
+E6	Operation:T55 Participant_Material:T56
+T56	Material 789 797	gelators
+T57	Operation 812 819	cooling
+E7	Operation:T57 
+T58	Condition-Misc 823 839	room temperature
+T59	Material 845 849	IGEs
+T60	Operation 855 861	formed
+E8	Operation:T60 Recipe_Target:T59
+T61	Material 867 871	IGEs
+T62	Material 881 885	MPII
+T63	Material 887 891	MBII
+T64	Material 896 900	HMII
+T65	Operation 901 911	correspond
+E9	Operation:T65 Recipe_Target:T61 Participant_Material:T62 Participant_Material:T63 Participant_Material:T64 Recipe_Target:T66 Recipe_Target:T67 Recipe_Target:T68
+T67	Material 922 927	IGE B
+T68	Material 932 937	IGE H
+T66	Material 915 920	IGE P
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E7	
+R7	Next_Operation Arg1:E7 Arg2:E8	
+A1	End_Recipe E8
+A2	Start_Recipe E1
+R8	Coref_Of Arg1:T7 Arg2:T6	
+R9	Coref_Of Arg1:T9 Arg2:T8	
+R10	Coref_Of Arg1:T11 Arg2:T10	
+R11	Coref_Of Arg1:T16 Arg2:T15	
+R12	Number_Of Arg1:T18 Arg2:T19	
+R13	Amount_Of Arg1:T19 Arg2:T20	
+R14	Number_Of Arg1:T22 Arg2:T23	
+R15	Amount_Of Arg1:T23 Arg2:T21	
+R16	Brand_Of Arg1:T24 Arg2:T21	
+R17	Coref_Of Arg1:T21 Arg2:T20	
+R18	Number_Of Arg1:T25 Arg2:T26	
+R19	Amount_Of Arg1:T26 Arg2:T27	
+R20	Descriptor_Of Arg1:T28 Arg2:T27	
+R21	Number_Of Arg1:T30 Arg2:T31	
+R22	Coref_Of Arg1:T29 Arg2:T27	
+R23	Brand_Of Arg1:T32 Arg2:T29	
+R24	Amount_Of Arg1:T31 Arg2:T29	
+R25	Number_Of Arg1:T33 Arg2:T34	
+R26	Amount_Of Arg1:T34 Arg2:T35	
+R27	Coref_Of Arg1:T36 Arg2:T35	
+R28	Number_Of Arg1:T37 Arg2:T38	
+R29	Amount_Of Arg1:T38 Arg2:T36	
+R30	Brand_Of Arg1:T39 Arg2:T36	
+R31	Number_Of Arg1:T46 Arg2:T47	
+R32	Amount_Of Arg1:T47 Arg2:T49	
+R33	Number_Of Arg1:T50 Arg2:T51	
+R34	Amount_Of Arg1:T51 Arg2:T49	
+R35	Brand_Of Arg1:T52 Arg2:T49	
+R36	Condition_Of Arg1:T58 Arg2:E7	

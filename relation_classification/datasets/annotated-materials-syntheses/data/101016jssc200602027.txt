@@ -1,0 +1,6 @@
+10.1016/j.ssc.2006.02.027
+Spin-state transition, magnetic, electrical and thermal transport properties of the perovskite cobalt oxide Gd0.7Sr0.3CoO3
+
+Polycrystalline Gd0.7Sr0.3CoO3 sample was prepared by a conventional solid-state reaction method. Appropriate proportions of high purity Gd2O3, SrCO3, and Co3O4 powders were thoroughly mixed according to the desired stoichiometry, and then prefired at 800 and 1200 degC for 24 h, respectively. The powders obtained were reground, pelletized and sintered at 1200 degC for 24 h. In order to get relative homogeneous sample with less oxygen deficiency, the sample was annealed in the oxygen pressure of 165 atm at 500 degC for 48 h.
+
+

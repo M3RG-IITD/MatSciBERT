@@ -1,0 +1,97 @@
+T1	Material 35 40	MgZnO
+T3	Material 90 95	MgZnO
+T2	Property-Misc 81 89	Al doped
+R1	Property_Of Arg1:T2 Arg2:T3	
+T4	Material 122 130	MgZnO:Al
+T5	Meta 203 254	radio frequency (RF) magnetron sputtering technique
+T6	Material 175 183	sapphire
+T7	Material-Descriptor 167 174	c-plane
+T8	Material-Descriptor 184 193	substrate
+T9	Property-Misc 131 140	thin film
+T10	Operation 330 334	used
+E1	Operation:T10 Participant_Material:T19 Participant_Material:T20 Participant_Material:T18 Participant_Material:T13
+T11	Operation 729 744	vacuum annealed
+E2	Operation:T11 Recipe_Target:T50
+T12	Operation 145 150	grown
+E3	Operation:T12 Recipe_Target:T4
+R2	Property_Of Arg1:T9 Arg2:T4	
+R3	Descriptor_Of Arg1:T7 Arg2:T6	
+R4	Descriptor_Of Arg1:T8 Arg2:T6	
+T13	Material 258 272	ceramic target
+T14	Number 278 280	45
+T15	Amount-Unit 281 285	wt.%
+T16	Amount-Unit 297 301	wt.%
+T17	Amount-Unit 315 319	wt.%
+T18	Material 286 289	MgO
+T19	Material 320 325	Al2O3
+T20	Material 302 305	ZnO
+T21	Number 291 296	54.81
+T22	Number 310 314	0.19
+R5	Number_Of Arg1:T22 Arg2:T17	
+R6	Number_Of Arg1:T21 Arg2:T16	
+R7	Number_Of Arg1:T14 Arg2:T15	
+R8	Amount_Of Arg1:T15 Arg2:T18	
+R9	Amount_Of Arg1:T16 Arg2:T20	
+R10	Amount_Of Arg1:T17 Arg2:T19	
+T23	Material 340 354	ceramic target
+T24	Brand 371 398	Northeast Normal University
+T25	Operation 359 363	made
+E4	Operation:T25 Participant_Material:T23
+R11	Brand_Of Arg1:T24 Arg2:T23	
+R12	Next_Operation Arg1:E1 Arg2:E4	
+T26	Condition-Type 404 419	sputtering rate
+T27	Number 429 430	5
+T28	Condition-Unit 431 437	nm/min
+T29	Condition-Type 446 462	chamber pressure
+T30	Operation 467 477	maintained
+E5	Operation:T30 
+T31	Number 481 484	1.8
+T32	Condition-Unit 485 487	Pa
+R13	Number_Of Arg1:T31 Arg2:T32	
+R14	Next_Operation Arg1:E4 Arg2:E5	
+R15	Type_Of Arg1:T29 Arg2:T32	
+R16	Condition_Of Arg1:T32 Arg2:E5	
+R17	Type_Of Arg1:T26 Arg2:T28	
+R18	Number_Of Arg1:T27 Arg2:T28	
+R19	Condition_Of Arg1:T28 Arg2:E5	
+T34	Material 489 495	Oxygen
+T35	Number 501 503	20
+T36	Amount-Unit 504 508	sccm
+T37	Material 523 528	argon
+T38	Number 534 536	40
+T39	Amount-Unit 537 541	sccm
+R20	Number_Of Arg1:T38 Arg2:T39	
+R21	Amount_Of Arg1:T39 Arg2:T37	
+R22	Number_Of Arg1:T35 Arg2:T36	
+R23	Amount_Of Arg1:T36 Arg2:T34	
+T33	Operation 557 561	used
+E6	Operation:T33 Atmospheric_Material:T37 Atmospheric_Material:T34
+R24	Next_Operation Arg1:E5 Arg2:E6	
+T40	Condition-Type 585 603	Growth temperature
+T41	Condition-Type 625 633	RF power
+T42	Number 608 611	400
+T43	Number 638 640	90
+T44	Condition-Unit 612 616	degC
+T45	Condition-Unit 641 642	W
+R25	Number_Of Arg1:T42 Arg2:T44	
+R26	Number_Of Arg1:T43 Arg2:T45	
+R27	Type_Of Arg1:T40 Arg2:T44	
+R28	Type_Of Arg1:T41 Arg2:T45	
+R29	Condition_Of Arg1:T45 Arg2:E6	
+R30	Condition_Of Arg1:T44 Arg2:E6	
+T46	Property-Type 648 657	thickness
+T47	Material 665 678	as-grown film
+T48	Number 683 686	300
+T49	Property-Unit 687 689	nm
+R31	Number_Of Arg1:T48 Arg2:T49	
+R32	Type_Of Arg1:T46 Arg2:T49	
+R33	Property_Of Arg1:T49 Arg2:T47	
+T50	Material 709 717	MgZnO:Al
+T51	Number 749 750	1
+T52	Condition-Unit 751 752	h
+T53	Material 812 820	MgZnO:Al
+R34	Next_Operation Arg1:E6 Arg2:E2	
+R35	Number_Of Arg1:T51 Arg2:T52	
+R36	Condition_Of Arg1:T52 Arg2:E2	
+T54	Property-Misc 718 723	films
+R37	Property_Of Arg1:T54 Arg2:T50	

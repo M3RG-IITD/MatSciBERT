@@ -1,0 +1,107 @@
+T1	Operation 139 150	synthesized
+E1	Operation:T1 Participant_Material:T11 Recipe_Precursor:T12 Recipe_Precursor:T13
+T2	Operation 318 323	mixed
+E2	Operation:T2 Participant_Material:T15 Solvent_Material:T16
+T3	Operation 362 369	stirred
+E3	Operation:T3 Participant_Material:T17
+T4	Operation 485 490	added
+E4	Operation:T4 Participant_Material:T19 Recipe_Precursor:T18
+T5	Operation 514 523	sonicated
+E5	Operation:T5 
+T6	Operation 532 540	followed
+E6	Operation:T6 
+T7	Operation 544 552	dropping
+E7	Operation:T7 Participant_Material:T20
+T8	Operation 585 593	stirring
+E8	Operation:T8 Participant_Material:T21
+T9	Operation 648 656	filtered
+E9	Operation:T9 Participant_Material:T22 Solvent_Material:T23
+T10	Operation 689 693	kept
+E10	Operation:T10 
+T11	Material 114 128	Graphite oxide
+T12	Material 170 178	graphite
+T13	Material 188 196	graphite
+T14	Brand 229 242	Brodie method
+T15	Material 285 299	graphite oxide
+T16	Material 344 349	water
+T17	Material 387 389	GO
+T18	Material 420 426	silver
+T19	Material 498 500	GO
+T20	Material 553 570	hydrazine hydrate
+T21	Material 623 625	GO
+T22	Material 631 638	mixture
+T23	Material 679 684	water
+T24	Material-Descriptor 160 169	precursor
+T25	Material-Descriptor 180 187	natural
+T26	Brand 198 211	Sigma Aldrich
+T27	Material-Descriptor 300 306	powder
+T28	Number 310 311	1
+T29	Amount-Unit 312 313	g
+T30	Material-Descriptor 329 338	deionized
+T31	Number 353 354	1
+T32	Amount-Unit 355 357	ml
+T33	Number 374 376	12
+T34	Condition-Unit 377 378	h
+T35	Material-Descriptor 390 398	solution
+T36	Material-Descriptor 410 419	colloidal
+T37	Material-Descriptor 427 433	powder
+T38	Brand 440 453	Sigma-Aldrich
+T39	Amount-Unit 457 458	%
+T40	Number 455 457	75
+T41	Nonrecipe-Material 459 461	Ag
+T42	Number 472 477	0.002
+T43	Amount-Unit 478 479	g
+T44	Material-Descriptor 501 509	solution
+T45	Number 528 529	1
+T46	Condition-Unit 530 531	h
+T47	Number 574 577	0.2
+T48	Amount-Unit 578 580	μl
+T49	Number 598 599	3
+T50	Condition-Unit 600 601	h
+T51	Number 605 607	90
+T52	Condition-Unit 608 612	degC
+T53	Condition-Misc 657 670	several times
+T54	Material-Descriptor 676 678	DI
+T55	Synthesis-Apparatus 699 710	vacuum oven
+T56	Condition-Misc 715 724	overnight
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Next_Operation Arg1:E8 Arg2:E9	
+R8	Next_Operation Arg1:E9 Arg2:E10	
+R9	Condition_Of Arg1:T34 Arg2:E3	
+R10	Condition_Of Arg1:T46 Arg2:E5	
+R11	Condition_Of Arg1:T50 Arg2:E8	
+R12	Condition_Of Arg1:T52 Arg2:E8	
+R13	Condition_Of Arg1:T53 Arg2:E9	
+R14	Apparatus_Of Arg1:T55 Arg2:E10	
+R15	Condition_Of Arg1:T56 Arg2:E10	
+R16	Amount_Of Arg1:T29 Arg2:T15	
+R17	Amount_Of Arg1:T32 Arg2:T16	
+R18	Amount_Of Arg1:T39 Arg2:T41	
+R19	Amount_Of Arg1:T43 Arg2:T18	
+R20	Amount_Of Arg1:T48 Arg2:T20	
+R21	Descriptor_Of Arg1:T24 Arg2:T12	
+R22	Descriptor_Of Arg1:T25 Arg2:T13	
+R23	Descriptor_Of Arg1:T27 Arg2:T15	
+R24	Descriptor_Of Arg1:T30 Arg2:T16	
+R25	Descriptor_Of Arg1:T35 Arg2:T17	
+R26	Descriptor_Of Arg1:T36 Arg2:T18	
+R27	Descriptor_Of Arg1:T37 Arg2:T18	
+R28	Descriptor_Of Arg1:T44 Arg2:T19	
+R29	Descriptor_Of Arg1:T54 Arg2:T23	
+R30	Brand_Of Arg1:T26 Arg2:T13	
+R31	Brand_Of Arg1:T26 Arg2:T12	
+R32	Brand_Of Arg1:T38 Arg2:T18	
+R33	Number_Of Arg1:T28 Arg2:T29	
+R34	Number_Of Arg1:T31 Arg2:T32	
+R35	Number_Of Arg1:T33 Arg2:T34	
+R36	Number_Of Arg1:T40 Arg2:T39	
+R37	Number_Of Arg1:T42 Arg2:T43	
+R38	Number_Of Arg1:T45 Arg2:T46	
+R39	Number_Of Arg1:T47 Arg2:T48	
+R40	Number_Of Arg1:T49 Arg2:T50	
+R41	Number_Of Arg1:T51 Arg2:T52	

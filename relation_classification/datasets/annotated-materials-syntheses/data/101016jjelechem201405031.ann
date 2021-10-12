@@ -1,0 +1,139 @@
+T1	Operation 166 174	prepared
+E1	Operation:T1 Recipe_Target:T20 Recipe_Precursor:T21
+T2	Operation 276 279	put
+E2	Operation:T2 Recipe_Precursor:T22
+T3	Operation 297 305	vacuumed
+E3	Operation:T3 
+T5	Operation 392 401	pyrolyzed
+E4	Operation:T5 Atmospheric_Material:T25
+T6	Operation 471 478	crushed
+E5	Operation:T6 Participant_Material:T26 Participant_Material:T27
+T7	Operation 506 512	soaked
+E6	Operation:T7 Participant_Material:T28
+T8	Operation 579 588	filtrated
+E7	Operation:T8 Participant_Material:T29
+T9	Operation 593 599	coated
+E8	Operation:T9 Recipe_Precursor:T30 Recipe_Precursor:T31
+T10	Meta 635 660	chemical vapor deposition
+T11	Meta 662 665	CVD
+T12	Operation 730 733	put
+E9	Operation:T12 Participant_Material:T33
+T13	Operation 760 768	vacuumed
+E10	Operation:T13 
+T14	Operation 913 922	pyrolyzed
+E11	Operation:T14 Participant_Material:T37 Atmospheric_Material:T38
+T15	Operation 975 982	crushed
+E12	Operation:T15 Participant_Material:T39
+T16	Operation 1010 1020	granulated
+E13	Operation:T16 
+T17	Operation 1024 1036	ball-milling
+E14	Operation:T17 
+T18	Operation 1060 1068	obtained
+E15	Operation:T18 Participant_Material:T40
+T19	Operation 1077 1084	washing
+E16	Operation:T19 Solvent_Material:T41
+T20	Material 132 142	Si@C@CNT@C
+T21	Material 180 182	Si
+T22	Material 262 264	Si
+T23	Material 345 352	glucose
+T24	Material 380 387	mixture
+T4	Operation 366 371	added
+E17	Operation:T4 Recipe_Precursor:T23 Participant_Material:T24
+T25	Material 428 433	argon
+T26	Material 459 466	product
+T27	Material 487 491	Si@C
+T28	Material 528 536	Co(NO3)2
+T29	Material 568 574	sample
+T30	Material 605 608	CNT
+T31	Material 673 682	acetylene
+T32	Nonrecipe-Material 686 692	carbon
+T33	Material 717 725	Si@C@CNT
+T34	Material 796 806	Si@C@CNT@C
+T35	Material 832 837	pitch
+T36	Nonrecipe-Material 855 861	carbon
+T37	Material 902 908	sample
+T38	Material 949 954	argon
+T39	Material 996 1005	particles
+T40	Material 1048 1055	product
+T41	Material 1088 1093	water
+T42	Property-Misc 122 131	Spherical
+T43	Number 257 259	10
+T44	Amount-Unit 260 261	g
+T45	Material-Descriptor 265 271	powder
+T46	Synthesis-Apparatus 285 292	chamber
+T47	Number 310 311	1
+T48	Condition-Unit 312 313	h
+T49	Number 327 330	100
+T50	Amount-Unit 331 333	mL
+T51	Number 335 338	500
+T52	Amount-Unit 339 344	g L-1
+T53	Number 405 408	650
+T54	Condition-Unit 409 413	degC
+T55	Number 418 419	5
+T56	Condition-Unit 420 421	h
+T57	Number 516 519	0.5
+T58	Amount-Unit 520 527	mol L-1
+T59	Number 550 552	10
+T60	Condition-Unit 553 556	min
+T61	Number 612 615	650
+T62	Condition-Unit 616 620	degC
+T63	Number 625 627	30
+T64	Condition-Unit 628 631	min
+T65	Synthesis-Apparatus 741 755	vacuum chamber
+T66	Number 773 774	1
+T67	Condition-Unit 775 776	h
+T68	Number 827 829	10
+T69	Amount-Unit 830 831	g
+T70	Material-Descriptor 862 868	source
+T71	Number 926 929	800
+T72	Condition-Unit 930 934	degC
+T73	Number 939 940	5
+T74	Condition-Unit 941 942	h
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E17	
+R3	Next_Operation Arg1:E17 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E7	
+R7	Next_Operation Arg1:E7 Arg2:E8	
+R8	Next_Operation Arg1:E8 Arg2:E9	
+R9	Next_Operation Arg1:E9 Arg2:E10	
+R10	Next_Operation Arg1:E10 Arg2:E11	
+R11	Next_Operation Arg1:E11 Arg2:E12	
+R12	Next_Operation Arg1:E12 Arg2:E13	
+R13	Next_Operation Arg1:E13 Arg2:E14	
+R14	Next_Operation Arg1:E14 Arg2:E15	
+R15	Next_Operation Arg1:E15 Arg2:E16	
+R16	Apparatus_Of Arg1:T46 Arg2:E2	
+R17	Condition_Of Arg1:T48 Arg2:E3	
+R18	Condition_Of Arg1:T54 Arg2:E4	
+R19	Condition_Of Arg1:T56 Arg2:E4	
+R20	Condition_Of Arg1:T60 Arg2:E6	
+R21	Condition_Of Arg1:T62 Arg2:E8	
+R22	Condition_Of Arg1:T64 Arg2:E8	
+R23	Apparatus_Of Arg1:T65 Arg2:E9	
+R24	Condition_Of Arg1:T67 Arg2:E10	
+R25	Condition_Of Arg1:T72 Arg2:E11	
+R26	Condition_Of Arg1:T74 Arg2:E11	
+R27	Property_Of Arg1:T42 Arg2:T20	
+R28	Amount_Of Arg1:T44 Arg2:T22	
+R29	Amount_Of Arg1:T50 Arg2:T23	
+R30	Amount_Of Arg1:T52 Arg2:T23	
+R31	Amount_Of Arg1:T58 Arg2:T28	
+R32	Amount_Of Arg1:T69 Arg2:T35	
+R33	Descriptor_Of Arg1:T45 Arg2:T22	
+R34	Descriptor_Of Arg1:T70 Arg2:T36	
+R35	Number_Of Arg1:T47 Arg2:T48	
+R36	Number_Of Arg1:T53 Arg2:T54	
+R37	Number_Of Arg1:T55 Arg2:T56	
+R38	Number_Of Arg1:T57 Arg2:T58	
+R39	Number_Of Arg1:T59 Arg2:T60	
+R40	Number_Of Arg1:T61 Arg2:T62	
+R41	Number_Of Arg1:T63 Arg2:T64	
+R42	Number_Of Arg1:T66 Arg2:T67	
+R43	Number_Of Arg1:T68 Arg2:T69	
+R44	Number_Of Arg1:T71 Arg2:T72	
+R45	Number_Of Arg1:T73 Arg2:T74	
+R46	Number_Of Arg1:T43 Arg2:T44	
+R47	Number_Of Arg1:T49 Arg2:T50	
+R48	Number_Of Arg1:T51 Arg2:T52	

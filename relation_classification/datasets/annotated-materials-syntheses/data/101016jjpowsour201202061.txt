@@ -1,0 +1,4 @@
+10.1016/j.jpowsour.2012.02.061
+Effect of oxygen partial pressure on the electrochemical impedance of La0.8Sr0.2MnO3-δ/Zr0.92Y0.08O2 porous composite anodes in solid oxide electrolysis cell
+
+The La0.8Sr0.2MnO3-δ was synthesized by a solid-state reaction method. Firstly, the appropriate ratios of Lanthanum nitrate (La(NO3)3*6H2O, AR), strontium carbonate (SrCO3, AR), manganous carbonate (MnCO3, AR) were thoroughly mixed with alcohol using a ball mill. Subsequently, the alcohol was removed by heating the slurry at 120 degC in air for 12 h. Next, the resulting dry powder was then calcined at 1000 degC for 6 h in air. The obtained powders were ground, milled and finally sifted through 300 mesh. Finally the LSM powders were mixed with the YSZ (TZ-8Y, Tosoh Corporation, Japan) powders at a mass ratio of LSM/YSZ = 1.0 by ball milling for 10 h and then the composite powders were obtained.

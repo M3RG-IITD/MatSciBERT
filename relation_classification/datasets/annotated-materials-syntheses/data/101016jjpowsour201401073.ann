@@ -1,0 +1,123 @@
+T1	Operation 323 331	prepared
+E1	Operation:T1 Participant_Material:T17 Solvent_Material:T19
+T2	Operation 411 418	cleaned
+E2	Operation:T2 Participant_Material:T21 Solvent_Material:T23
+T3	Operation 474 483	protected
+E3	Operation:T3 
+T4	Operation 515 532	uniformly coating
+E4	Operation:T4 
+T5	Operation 628 637	contained
+E5	Operation:T5 Recipe_Precursor:T35 Participant_Material:T34 Recipe_Precursor:T39 Participant_Material:T42
+T6	Operation 720 728	immersed
+E6	Operation:T6 Participant_Material:T43 Participant_Material:T45
+T7	Operation 779 790	carried out
+E7	Operation:T7 
+T8	Operation 859 865	washed
+E8	Operation:T8 Participant_Material:T51 Solvent_Material:T52 Solvent_Material:T54
+T9	Operation 898 903	dried
+E9	Operation:T9 
+T10	Operation 933 939	heated
+E10	Operation:T10 Atmospheric_Material:T63 Recipe_Target:T64
+T11	Material 133 147	Cobalt nitrate
+T12	Material 149 164	Co(NO3)2*6(H2O)
+T13	Material 167 189	hexamethylenetetramine
+T14	Material 191 198	C6H12N4
+T15	Material 204 223	potassium hydroxide
+T16	Material-Descriptor 232 248	analytical grade
+T17	Material 300 309	solutions
+T18	Material-Descriptor 292 299	aqueous
+T19	Material 347 352	water
+T20	Material-Descriptor 337 346	deionized
+T21	Material 358 364	nickel
+T22	Material-Descriptor 365 379	foam substrate
+T23	Material 437 444	ethanol
+T24	Number 395 396	2
+T25	Number 402 403	3
+T26	Property-Unit 397 399	cm
+T27	Property-Unit 404 406	cm
+T28	Property-Type 387 391	size
+T29	Condition-Misc 419 433	ultrasonically
+T30	Number 449 451	10
+T31	Condition-Unit 452 455	min
+T32	Synthesis-Apparatus 564 568	tape
+T33	Apparatus-Descriptor 540 563	polytetrafluoroethylene
+T34	Material 574 587	reaction bath
+T35	Material 610 617	Co(OH)2
+T36	Material-Descriptor 618 627	precursor
+T37	Number 638 641	0.2
+T38	Amount-Unit 642 643	M
+T39	Material 644 659	Co(NO3)2*6(H2O)
+T40	Number 665 668	0.1
+T41	Amount-Unit 669 670	M
+T42	Material 671 678	C6H12N4
+T43	Material 692 698	nickel
+T44	Material-Descriptor 699 714	foam substrates
+T45	Material 747 762	deposition bath
+T46	Operation 764 774	Deposition
+E11	Operation:T46 
+T47	Number 794 797	100
+T48	Condition-Unit 798 802	degC
+T49	Number 807 808	5
+T50	Condition-Unit 809 810	h
+T51	Material 848 853	films
+T52	Material 879 884	water
+T53	Material-Descriptor 869 878	deionized
+T54	Material 889 896	alcohol
+T55	Synthesis-Apparatus 907 911	oven
+T56	Number 915 917	60
+T57	Condition-Unit 918 922	degC
+T58	Synthesis-Apparatus 945 957	tube furnace
+T59	Number 961 964	250
+T60	Condition-Unit 965 969	degC
+T61	Number 974 975	2
+T62	Condition-Unit 976 977	h
+T63	Material 989 994	argon
+T64	Material 1019 1024	Co3O4
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E11	
+R7	Next_Operation Arg1:E11 Arg2:E7	
+R8	Next_Operation Arg1:E7 Arg2:E8	
+R9	Next_Operation Arg1:E8 Arg2:E9	
+R10	Next_Operation Arg1:E9 Arg2:E10	
+R11	Condition_Of Arg1:T29 Arg2:E2	
+R12	Condition_Of Arg1:T31 Arg2:E2	
+R13	Apparatus_Of Arg1:T32 Arg2:E4	
+R14	Condition_Of Arg1:T48 Arg2:E7	
+R15	Condition_Of Arg1:T50 Arg2:E7	
+R16	Apparatus_Of Arg1:T55 Arg2:E9	
+R17	Condition_Of Arg1:T57 Arg2:E9	
+R18	Apparatus_Of Arg1:T58 Arg2:E10	
+R19	Condition_Of Arg1:T60 Arg2:E10	
+R20	Condition_Of Arg1:T62 Arg2:E10	
+R21	Property_Of Arg1:T26 Arg2:T21	
+R22	Property_Of Arg1:T27 Arg2:T21	
+R23	Amount_Of Arg1:T38 Arg2:T39	
+R24	Amount_Of Arg1:T41 Arg2:T42	
+R25	Descriptor_Of Arg1:T16 Arg2:T15	
+R26	Descriptor_Of Arg1:T16 Arg2:T13	
+R27	Coref_Of Arg1:T14 Arg2:T13	
+R28	Descriptor_Of Arg1:T16 Arg2:T11	
+R29	Coref_Of Arg1:T12 Arg2:T11	
+R30	Descriptor_Of Arg1:T18 Arg2:T17	
+R31	Descriptor_Of Arg1:T20 Arg2:T19	
+R32	Descriptor_Of Arg1:T22 Arg2:T21	
+R33	Descriptor_Of Arg1:T33 Arg2:T32	
+R34	Descriptor_Of Arg1:T36 Arg2:T35	
+R35	Descriptor_Of Arg1:T44 Arg2:T43	
+R36	Descriptor_Of Arg1:T53 Arg2:T52	
+R37	Type_Of Arg1:T28 Arg2:T26	
+R38	Type_Of Arg1:T28 Arg2:T27	
+R39	Number_Of Arg1:T24 Arg2:T26	
+R40	Number_Of Arg1:T25 Arg2:T27	
+R41	Number_Of Arg1:T30 Arg2:T31	
+R42	Number_Of Arg1:T37 Arg2:T38	
+R43	Number_Of Arg1:T40 Arg2:T41	
+R44	Number_Of Arg1:T47 Arg2:T48	
+R45	Number_Of Arg1:T49 Arg2:T50	
+R46	Number_Of Arg1:T56 Arg2:T57	
+R47	Number_Of Arg1:T59 Arg2:T60	
+R48	Number_Of Arg1:T61 Arg2:T62	

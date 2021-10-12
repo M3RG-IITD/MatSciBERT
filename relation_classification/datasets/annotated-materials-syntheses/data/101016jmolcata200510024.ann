@@ -1,0 +1,69 @@
+T1	Material 106 112	MCM-41
+T2	Material 117 126	Al-MCM-41
+T3	Property-Misc 95 105	mesoporous
+T4	Property-Misc 127 143	molecular sieves
+T5	Material 155 161	MCM-41
+T6	Material 166 175	Al-MCM-41
+T7	Property-Misc 176 185	catalysts
+T8	Operation 191 202	synthesized
+E1	Operation:T8 Recipe_Target:T6 Recipe_Target:T5
+T9	Operation 257 262	using
+E2	Operation:T9 Recipe_Precursor:T18
+T10	Operation 335 343	prepared
+E3	Operation:T10 Participant_Material:T25
+T11	Operation 348 353	mixed
+E4	Operation:T11 Participant_Material:T28 Participant_Material:T29
+T12	Operation 401 409	stirring
+E5	Operation:T12 
+T13	Operation 428 433	dried
+E6	Operation:T13 Participant_Material:T31
+T14	Operation 462 470	calcined
+E7	Operation:T14 Atmospheric_Material:T33
+T15	Reference 237 241	[20]
+T16	Reference 243 247	[21]
+T17	Reference 252 256	[22]
+T18	Material 263 280	C16H33(CH3)3N+Br-
+T19	Material-Descriptor 288 296	template
+T20	Number 298 301	0.3
+T21	Number 359 360	3
+T22	Number 481 484	550
+T23	Number 494 495	6
+T24	Amount-Unit 302 303	M
+T25	Material 304 321	manganese acetate
+T26	Material-Descriptor 322 330	solution
+T27	Amount-Unit 361 362	g
+T28	Material 366 372	MCM-41
+T29	Material 376 385	Al-MCM-41
+T30	Condition-Misc 392 400	constant
+T31	Material 415 423	solution
+T32	Condition-Misc 440 456	reduced pressure
+T33	Material 474 477	air
+T34	Condition-Unit 485 489	degC
+T35	Condition-Unit 496 497	h
+R1	Property_Of Arg1:T3 Arg2:T1	
+R2	Property_Of Arg1:T4 Arg2:T2	
+R3	Property_Of Arg1:T7 Arg2:T6	
+R4	Property_Of Arg1:T7 Arg2:T5	
+A1	Start_Recipe E1
+R5	Next_Operation Arg1:E1 Arg2:E2	
+R6	Next_Operation Arg1:E2 Arg2:E3	
+R7	Next_Operation Arg1:E3 Arg2:E4	
+R8	Next_Operation Arg1:E4 Arg2:E5	
+R9	Next_Operation Arg1:E5 Arg2:E6	
+R10	Next_Operation Arg1:E6 Arg2:E7	
+A2	End_Recipe E7
+R11	Descriptor_Of Arg1:T19 Arg2:T18	
+R12	Number_Of Arg1:T20 Arg2:T24	
+R13	Amount_Of Arg1:T24 Arg2:T25	
+R14	Descriptor_Of Arg1:T26 Arg2:T25	
+R15	Number_Of Arg1:T21 Arg2:T27	
+R16	Amount_Of Arg1:T27 Arg2:T28	
+R17	Amount_Of Arg1:T27 Arg2:T29	
+R18	Condition_Of Arg1:T30 Arg2:E5	
+R19	Condition_Of Arg1:T32 Arg2:E6	
+R20	Number_Of Arg1:T22 Arg2:T34	
+R21	Condition_Of Arg1:T34 Arg2:E7	
+R22	Number_Of Arg1:T23 Arg2:T35	
+R23	Condition_Of Arg1:T35 Arg2:E7	
+T36	Property-Misc 74 94	manganese containing
+R24	Property_Of Arg1:T36 Arg2:T1	

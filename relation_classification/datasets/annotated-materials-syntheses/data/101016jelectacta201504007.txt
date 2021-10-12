@@ -1,0 +1,4 @@
+10.1016/j.electacta.2015.04.007
+
+Effect of alkyl chain length of imidazolium cations on the electron transport and recombination kinetics in ionic gel electrolytes based quasi-solid-state dye-sensitized solar cells
+1-Methyl-3-propylimidazolium iodide (MPII), 1-Methyl-3-butylimidazolium iodide (BMII) and 1-Methyl-3-hexylimidazolium iodide (HMII) were prepared as reported previously [14] and [15]. The ionic liquid electrolytes (ILEs) for QS-DSSC were composed of 0.35 mol L-1 iodine (I2: 99%, Aldrich), 0.02 mol L-1 anhydrous lithium iodide (LiI: 99%, Aldrich) and 0.5 mol L-1 N-methylbenzimidazole (NMBI: 99%, Aldrich) in MPII, BMII and HMII, respectively. IGEs were prepared by adding 20 wt% (vs. ILE) 12-hydroxystearicacid (99%, Aldrich) into ILEs and heated under stirring until the gelators melted. After cooling to room temperature, the IGEs were formed. The IGEs based on MPII, MBII and HMII correspond to IGE P, IGE B and IGE H, respectively.

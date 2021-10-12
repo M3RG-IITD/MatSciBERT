@@ -1,0 +1,315 @@
+T1	Material 32 36	MnO2
+T2	Property-Misc 37 47	nanoflakes
+T3	Material 68 74	carbon
+T4	Property-Misc 75 89	nanocomposites
+T5	Property-Misc 48 67	hierarchical porous
+T6	Material 176 180	MnO2
+T7	Material 192 196	HPCs
+T8	Property-Misc 197 207	composites
+T9	Property-Misc 181 191	nanoflakes
+T10	Material 250 256	silica
+T11	Operation 270 274	used
+E1	Operation:T11 Participant_Material:T10
+T12	Operation 310 318	employed
+E2	Operation:T12 Participant_Material:T37 Participant_Material:T38
+T13	Operation 390 401	synthesized
+E3	Operation:T13 Participant_Material:T40
+T14	Operation 490 501	impregnated
+E4	Operation:T14 Participant_Material:T46 Solvent_Material:T51 Participant_Material:T53
+T15	Operation 582 586	form
+E5	Operation:T15 Participant_Material:T56
+T16	Operation 562 569	stirred
+E6	Operation:T16 
+T17	Operation 627 637	evaporated
+E7	Operation:T17 Participant_Material:T58
+T18	Operation 679 686	heating
+E8	Operation:T18 
+T19	Operation 751 761	carbonized
+E9	Operation:T19 Participant_Material:T67 Atmospheric_Material:T73
+T20	Operation 839 845	washed
+E10	Operation:T20 Participant_Material:T75 Solvent_Material:T77 Solvent_Material:T78
+T21	Operation 883 888	dried
+E11	Operation:T21 
+T22	Operation 1040 1064	ultrasonically dispersed
+E12	Operation:T22 Participant_Material:T93 Participant_Material:T89 Solvent_Material:T98
+T23	Operation 1151 1156	added
+E13	Operation:T23 Participant_Material:T106
+T24	Operation 1167 1175	stirring
+E14	Operation:T24 Participant_Material:T113
+T25	Operation 1296 1301	mixed
+E15	Operation:T25 Participant_Material:T119 Participant_Material:T122
+T26	Operation 1414 1419	added
+E16	Operation:T26 
+T27	Operation 1452 1461	collected
+E17	Operation:T27 Participant_Material:T129
+T28	Operation 1465 1475	filtration
+E18	Operation:T28 
+T29	Operation 1480 1486	rinsed
+E19	Operation:T29 Solvent_Material:T131 Solvent_Material:T132
+T30	Operation 1563 1570	removed
+E20	Operation:T30 Participant_Material:T134 Solvent_Material:T138
+T31	Operation 1639 1645	washed
+E21	Operation:T31 Participant_Material:T144 Solvent_Material:T146 Solvent_Material:T147
+T32	Operation 1692 1698	drying
+E22	Operation:T32 
+T33	Operation 1866 1873	denoted
+E23	Operation:T33 Participant_Material:T160 Recipe_Target:T161 Recipe_Target:T162 Recipe_Target:T163
+T34	Operation 1778 1787	estimated
+E24	Operation:T34 Participant_Material:T152
+R1	Property_Of Arg1:T2 Arg2:T1	
+R2	Property_Of Arg1:T5 Arg2:T3	
+R3	Property_Of Arg1:T4 Arg2:T3	
+R4	Property_Of Arg1:T9 Arg2:T6	
+R5	Property_Of Arg1:T8 Arg2:T7	
+R6	Next_Operation Arg1:E1 Arg2:E2	
+R7	Next_Operation Arg1:E4 Arg2:E6	
+R8	Next_Operation Arg1:E6 Arg2:E5	
+R9	Next_Operation Arg1:E5 Arg2:E7	
+R10	Next_Operation Arg1:E7 Arg2:E8	
+R11	Next_Operation Arg1:E8 Arg2:E9	
+R12	Next_Operation Arg1:E9 Arg2:E10	
+R13	Next_Operation Arg1:E10 Arg2:E11	
+R14	Next_Operation Arg1:E11 Arg2:E25	
+R15	Next_Operation Arg1:E12 Arg2:E13	
+R16	Next_Operation Arg1:E13 Arg2:E14	
+R17	Next_Operation Arg1:E14 Arg2:E15	
+R18	Next_Operation Arg1:E15 Arg2:E16	
+R19	Next_Operation Arg1:E16 Arg2:E17	
+R20	Next_Operation Arg1:E17 Arg2:E18	
+R21	Next_Operation Arg1:E18 Arg2:E19	
+R22	Next_Operation Arg1:E19 Arg2:E20	
+R23	Next_Operation Arg1:E20 Arg2:E21	
+R24	Next_Operation Arg1:E21 Arg2:E22	
+R25	Next_Operation Arg1:E22 Arg2:E24	
+R26	Next_Operation Arg1:E24 Arg2:E23	
+T35	Material-Descriptor 232 249	Hollow mesoporous
+T36	Material-Descriptor 257 264	spheres
+T37	Material 291 305	phenolic resin
+T38	Nonrecipe-Material 322 328	carbon
+T39	Material-Descriptor 341 369	uncalcined hollow mesoporous
+T40	Material 370 376	silica
+T41	Material-Descriptor 377 384	spheres
+T42	Reference 433 437	[26]
+T43	Number 448 451	0.1
+T44	Amount-Unit 452 453	g
+T45	Material-Descriptor 461 478	hollow mesoporous
+T46	Material 479 485	silica
+T47	Number 507 510	0.5
+T48	Amount-Unit 511 512	g
+T49	Amount-Unit 519 522	wt%
+T50	Number 516 518	20
+T51	Material 523 530	ethanol
+T52	Material-Descriptor 531 539	solution
+T53	Material 543 557	phenolic resin
+T54	Number 574 576	24
+T55	Condition-Unit 577 578	h
+T56	Material 597 604	mixture
+T57	Material-Descriptor 589 596	uniform
+T58	Material 615 622	mixture
+T59	Condition-Misc 641 657	room temperature
+T60	Number 662 663	5
+T61	Condition-Unit 664 665	h
+T62	Number 701 704	100
+T63	Synthesis-Apparatus 693 697	oven
+T64	Condition-Unit 705 709	degC
+T65	Number 714 716	24
+T66	Condition-Unit 717 718	h
+T67	Material 740 746	powder
+T68	Material-Descriptor 733 739	yellow
+T69	Number 765 768	800
+T70	Condition-Unit 769 773	degC
+T71	Number 778 779	4
+T72	Condition-Unit 780 781	h
+T73	Material 785 790	argon
+T74	Material-Descriptor 791 801	atmosphere
+T75	Material 826 833	samples
+T76	Material-Descriptor 851 860	deionized
+T77	Material 861 866	water
+T78	Material 871 878	ethanol
+T79	Number 892 894	60
+T80	Condition-Unit 895 899	degC
+T81	Synthesis-Apparatus 905 916	vacuum oven
+T82	Number 921 923	24
+T83	Condition-Unit 924 925	h
+T84	Operation 929 935	obtain
+E25	Operation:T84 Recipe_Target:T85
+R27	Next_Operation Arg1:E25 Arg2:E12	
+T85	Material 936 942	SiO2/C
+T86	Property-Misc 943 952	composite
+T87	Number 967 970	0.1
+T88	Amount-Unit 971 972	g
+T89	Material 976 982	SiO2/C
+T90	Material-Descriptor 983 992	composite
+T91	Number 997 1000	0.1
+T92	Amount-Unit 1001 1002	g
+T93	Material 1006 1010	P123
+T94	Brand 1012 1033	Aldrich, EO20PO70EO20
+T95	Number 1068 1070	30
+T96	Amount-Unit 1071 1073	mL
+T97	Material-Descriptor 1074 1083	deionized
+T98	Material 1084 1089	water
+T99	Number 1095 1098	100
+T100	Apparatus-Unit 1099 1101	mL
+T101	Synthesis-Apparatus 1102 1107	flask
+T102	Number 1109 1110	1
+T103	Amount-Unit 1111 1113	mL
+T104	Number 1117 1121	0.05
+T105	Amount-Unit 1122 1123	M
+T106	Material 1124 1129	KMnO4
+T107	Material-Descriptor 1130 1146	aqueous solution
+T108	Number 1180 1182	10
+T109	Condition-Unit 1183 1186	min
+T110	Synthesis-Apparatus 1193 1201	ice bath
+T111	Number 1208 1213	10.17
+T112	Amount-Unit 1214 1215	M
+T113	Material 1216 1224	Mn(NO3)2
+T114	Material-Descriptor 1225 1233	solution
+T115	Number 1257 1259	42
+T116	Number 1261 1264	200
+T117	Number 1269 1272	576
+T118	Amount-Unit 1273 1275	uL
+T119	Material 1311 1327	above suspension
+T120	Number 1350 1354	0.05
+T121	Amount-Unit 1355 1356	M
+T122	Material 1357 1362	KMnO4
+T123	Material-Descriptor 1363 1371	solution
+T124	Number 1393 1394	3
+T125	Number 1396 1398	14
+T126	Number 1403 1405	40
+T127	Amount-Unit 1406 1408	mL
+T128	Condition-Misc 1420 1428	dropwise
+T129	Material 1434 1446	precipitates
+T130	Material-Descriptor 1492 1501	deionized
+T131	Material 1502 1507	water
+T132	Material 1512 1519	ethanol
+T133	Condition-Misc 1524 1537	several times
+R28	Descriptor_Of Arg1:T35 Arg2:T10	
+R29	Descriptor_Of Arg1:T36 Arg2:T10	
+T134	Material 1543 1549	silica
+T135	Material-Descriptor 1550 1558	template
+T136	Number 1574 1575	2
+T137	Amount-Unit 1576 1577	M
+T138	Material 1578 1582	NaOH
+T139	Material-Descriptor 1583 1591	solution
+T140	Number 1595 1597	40
+T141	Condition-Unit 1598 1602	degC
+T142	Number 1607 1609	24
+T143	Condition-Unit 1610 1611	h
+T144	Material 1626 1633	samples
+T145	Material-Descriptor 1651 1660	deionized
+T146	Material 1661 1666	water
+T147	Material 1671 1678	ethanol
+T148	Number 1702 1704	60
+T149	Condition-Unit 1705 1709	degC
+T150	Condition-Unit 1717 1718	h
+T151	Number 1714 1716	12
+T152	Material 1735 1739	MnO2
+T153	Material 1753 1757	MnO2
+T154	Material 1758 1762	HPCs
+T155	Property-Misc 1763 1773	composites
+T156	Number 1794 1796	40
+T157	Number 1799 1801	75
+T158	Number 1807 1809	90
+T159	Characterization-Apparatus 1814 1821	TG test
+T160	Material 1845 1855	composites
+T161	Material 1877 1889	MnO2/HPCs-40
+T162	Material 1891 1903	MnO2/HPCs-75
+T163	Material 1905 1917	MnO2/HPCs-90
+R30	Descriptor_Of Arg1:T39 Arg2:T40	
+R31	Descriptor_Of Arg1:T41 Arg2:T40	
+R32	Number_Of Arg1:T43 Arg2:T44	
+R33	Amount_Of Arg1:T44 Arg2:T46	
+R34	Descriptor_Of Arg1:T45 Arg2:T46	
+R35	Number_Of Arg1:T47 Arg2:T48	
+R36	Number_Of Arg1:T50 Arg2:T49	
+R37	Amount_Of Arg1:T48 Arg2:T51	
+R38	Amount_Of Arg1:T49 Arg2:T51	
+R39	Descriptor_Of Arg1:T52 Arg2:T51	
+R40	Number_Of Arg1:T54 Arg2:T55	
+R41	Condition_Of Arg1:T55 Arg2:E6	
+R42	Descriptor_Of Arg1:T57 Arg2:T56	
+R43	Condition_Of Arg1:T59 Arg2:E7	
+R44	Number_Of Arg1:T60 Arg2:T61	
+R45	Condition_Of Arg1:T61 Arg2:E7	
+R46	Apparatus_Of Arg1:T63 Arg2:E8	
+R47	Number_Of Arg1:T62 Arg2:T64	
+R48	Number_Of Arg1:T65 Arg2:T66	
+R49	Condition_Of Arg1:T64 Arg2:E8	
+R50	Condition_Of Arg1:T66 Arg2:E8	
+R51	Descriptor_Of Arg1:T68 Arg2:T67	
+R52	Number_Of Arg1:T69 Arg2:T70	
+R53	Number_Of Arg1:T71 Arg2:T72	
+R54	Condition_Of Arg1:T70 Arg2:E9	
+R55	Condition_Of Arg1:T72 Arg2:E9	
+R56	Descriptor_Of Arg1:T74 Arg2:T73	
+R57	Descriptor_Of Arg1:T76 Arg2:T77	
+R58	Number_Of Arg1:T79 Arg2:T80	
+R59	Condition_Of Arg1:T80 Arg2:E11	
+R60	Apparatus_Of Arg1:T81 Arg2:E11	
+R61	Number_Of Arg1:T82 Arg2:T83	
+R62	Condition_Of Arg1:T83 Arg2:E11	
+R63	Property_Of Arg1:T86 Arg2:T85	
+R64	Number_Of Arg1:T87 Arg2:T88	
+R65	Descriptor_Of Arg1:T90 Arg2:T89	
+R66	Amount_Of Arg1:T88 Arg2:T89	
+R67	Number_Of Arg1:T91 Arg2:T92	
+R68	Amount_Of Arg1:T92 Arg2:T93	
+R69	Brand_Of Arg1:T94 Arg2:T93	
+R70	Number_Of Arg1:T95 Arg2:T96	
+R71	Descriptor_Of Arg1:T97 Arg2:T98	
+R72	Amount_Of Arg1:T96 Arg2:T98	
+R73	Number_Of Arg1:T99 Arg2:T100	
+R74	Apparatus_Attr_Of Arg1:T100 Arg2:T101	
+R75	Apparatus_Of Arg1:T101 Arg2:E12	
+R76	Number_Of Arg1:T102 Arg2:T103	
+R77	Number_Of Arg1:T104 Arg2:T105	
+R78	Descriptor_Of Arg1:T107 Arg2:T106	
+R79	Amount_Of Arg1:T105 Arg2:T106	
+R80	Amount_Of Arg1:T103 Arg2:T106	
+R81	Number_Of Arg1:T108 Arg2:T109	
+R82	Apparatus_Of Arg1:T110 Arg2:E14	
+R83	Condition_Of Arg1:T109 Arg2:E14	
+R84	Number_Of Arg1:T111 Arg2:T112	
+R85	Amount_Of Arg1:T112 Arg2:T113	
+R86	Descriptor_Of Arg1:T114 Arg2:T113	
+R87	Number_Of Arg1:T115 Arg2:T118	
+R88	Number_Of Arg1:T116 Arg2:T118	
+R89	Number_Of Arg1:T117 Arg2:T118	
+R90	Amount_Of Arg1:T118 Arg2:T113	
+R91	Number_Of Arg1:T120 Arg2:T121	
+R92	Descriptor_Of Arg1:T123 Arg2:T122	
+R93	Number_Of Arg1:T124 Arg2:T127	
+R94	Number_Of Arg1:T125 Arg2:T127	
+R95	Number_Of Arg1:T126 Arg2:T127	
+R96	Condition_Of Arg1:T128 Arg2:E16	
+R97	Descriptor_Of Arg1:T130 Arg2:T131	
+R98	Condition_Of Arg1:T133 Arg2:E19	
+R99	Descriptor_Of Arg1:T135 Arg2:T134	
+R100	Number_Of Arg1:T136 Arg2:T137	
+R101	Amount_Of Arg1:T137 Arg2:T138	
+R102	Descriptor_Of Arg1:T139 Arg2:T138	
+R103	Number_Of Arg1:T140 Arg2:T141	
+R104	Number_Of Arg1:T142 Arg2:T143	
+R105	Condition_Of Arg1:T141 Arg2:E20	
+R106	Condition_Of Arg1:T143 Arg2:E20	
+R107	Descriptor_Of Arg1:T145 Arg2:T146	
+R108	Number_Of Arg1:T148 Arg2:T149	
+R109	Number_Of Arg1:T151 Arg2:T150	
+R110	Condition_Of Arg1:T149 Arg2:E22	
+R111	Condition_Of Arg1:T150 Arg2:E22	
+T164	Property-Type 1724 1731	content
+R113	Property_Of Arg1:T155 Arg2:T153	
+R114	Property_Of Arg1:T155 Arg2:T154	
+T165	Property-Unit 1796 1797	%
+T166	Property-Unit 1801 1802	%
+T167	Property-Unit 1809 1810	%
+R115	Number_Of Arg1:T156 Arg2:T165	
+R116	Number_Of Arg1:T157 Arg2:T166	
+R117	Number_Of Arg1:T158 Arg2:T167	
+R112	Type_Of Arg1:T164 Arg2:T165	
+R118	Type_Of Arg1:T164 Arg2:T166	
+R119	Type_Of Arg1:T164 Arg2:T167	
+R120	Property_Of Arg1:T165 Arg2:T152	
+R121	Property_Of Arg1:T166 Arg2:T152	
+R122	Property_Of Arg1:T167 Arg2:T152	
+R123	Apparatus_Of Arg1:T159 Arg2:E24	

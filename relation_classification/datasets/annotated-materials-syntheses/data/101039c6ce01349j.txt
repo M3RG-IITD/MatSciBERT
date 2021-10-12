@@ -1,0 +1,6 @@
+10.1039/c6ce01349j
+Fabrication of Yb3+/Er3+co-doped yttrium-based coordination polymer hierarchical micro/nanostructures: upconversion luminescence properties and thermal conversion to the corresponding oxides
+
+All the reagents were of analytical grade and used without purification. Yb3+/Er3+ co-doped yttrium-based coordination polymer (Y-CP:Yb3+,Er3+ sample 1) hierarchical micro/nanostructures were prepared by simple hydrothermal synthesis without any additives. In a typical process, 0.3 mmol of allantoin was dissolved in 25 ml of distilled water at room temperature. Then, 0.08 mmol of Y(NO3)3*6H2O, 0.015 mmol of Yb(NO3)3*6H2O and 0.005 mmol of Er(NO3)3*6H2O (nY(NO3)3*6H2O:nYb(NO3)3*6H2O:nEr(NO3)3*6H2O = 16:3:1) were added to the solution under vigorous magnetic stirring. Finally, the obtained solution was transferred into a 40 mL Teflon-lined stainless steel autoclave, sealed and maintained at 200 degC for 24 h. After being cooled down to room temperature, the product was isolated by centrifugation and collected by washing with deionized water and ethanol three times. The final product was obtained by drying under vacuum at 60 degC for 24 h. The Yb3+/Er3+ co-doped Y2O3 (Y2O3:Yb3+,Er3+) hierarchical micro/nanostructures were prepared by calcining sample 1 at 800 degC for 4 h under atmospheric pressure with a heating rate of 1 degC min-1.
+
+

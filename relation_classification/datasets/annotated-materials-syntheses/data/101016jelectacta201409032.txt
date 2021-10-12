@@ -1,0 +1,6 @@
+10.1016/j.electacta.2014.09.032
+Graphene oxide assisted solvothermal synthesis of LiMnPO4 naonplates cathode materials for lithium ion batteries
+
+Graphite oxide was prepared by oxidation of graphite powder according to the modified Hummers' method. GO aqueous solution was obtained from centrifugation at 10000 rpm for 30 min following exfoliation of Graphite oxide by ultrasonication for 30 min, and the supernatant was freeze-dried to GO aerogel.
+
+Nanoplates of LiMnPO4 were prepared as follows: Aqueous MnSO4 (5 cm-3, 1 mol dm-3) were added gradually into NMP (15 cm3) containing GO (20 mg) under stirring, and the reaction lasted for 24 h. Before solvothermal process, a turbid liquid of Li3PO4 from LiOH (5 cm3, 3 mol dm-3) and H3PO4 (5 cm3 1 mol dm-3) was added into the above suspension. The suspension was then transferred into a Teflon-lined stainless steel autoclave, and heated at 180 degC for 12 h. After cooling to room temperature, the products (namely S1) were filtered, washed with water and ethanol for several times and finally dried at 80 degC. For comparison, the reaction with 0, 5, 10, 40 and 80 mg GO were carried out under the same process. The product of reaction without GO is named S2.

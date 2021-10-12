@@ -1,0 +1,244 @@
+T1	Operation 277 282	added
+E1	Operation:T1 Recipe_Precursor:T53 Recipe_Precursor:T55 Recipe_Precursor:T56
+T2	Operation 384 391	stirred
+E2	Operation:T2 Participant_Material:T106
+T3	Operation 464 473	monitored
+E3	Operation:T3 
+T5	Characterization-Apparatus 484 486	GC
+T6	Operation 494 504	completion
+E5	Operation:T6 
+T7	Operation 538 547	extracted
+E6	Operation:T7 Participant_Material:T57 Participant_Material:T58
+T8	Operation 602 608	washed
+E7	Operation:T8 Participant_Material:T59 Participant_Material:T60
+T9	Operation 632 637	dried
+E8	Operation:T9 Participant_Material:T61
+T10	Operation 677 684	removed
+E9	Operation:T10 Participant_Material:T62
+T11	Operation 772 784	purification
+E10	Operation:T11 
+T12	Operation 902 907	known
+E11	Operation:T12 Participant_Material:T114
+T13	Operation 917 930	characterized
+E12	Operation:T13 
+T14	Operation 1119 1124	added
+E13	Operation:T14 Recipe_Precursor:T73 Recipe_Precursor:T74 Recipe_Precursor:T75
+T16	Operation 1298 1307	monitored
+E14	Operation:T16 
+T18	Operation 1372 1381	extracted
+E15	Operation:T18 Participant_Material:T77 Participant_Material:T78
+T19	Operation 1436 1442	washed
+E16	Operation:T19 Participant_Material:T79 Participant_Material:T80
+T20	Operation 1466 1471	dried
+E17	Operation:T20 Participant_Material:T81
+T21	Operation 1511 1518	removed
+E18	Operation:T21 Participant_Material:T82
+T22	Operation 1604 1616	purification
+E19	Operation:T22 
+T23	Operation 1633 1650	recrystallization
+E20	Operation:T23 Participant_Material:T84
+T17	Operation 1328 1338	completion
+E21	Operation:T17 
+T24	Operation 1683 1688	known
+E22	Operation:T24 Participant_Material:T85
+T25	Operation 1698 1711	characterized
+E23	Operation:T25 
+T26	Reference 1793 1804	7, 8 and 25
+T27	Reference 1012 1032	8, 23, 24, 25 and 26
+T28	Number 265 266	1
+T29	Number 300 302	30
+T30	Number 310 313	1.2
+T31	Number 321 324	0.5
+T32	Number 344 347	0.1
+T33	Number 354 359	0.006
+T34	Number 444 445	2
+T35	Number 561 567	3 x 10
+T36	Number 621 623	15
+T37	Number 864 868	1/10
+T38	Number 1107 1108	1
+T39	Number 1142 1144	30
+T40	Number 1152 1159	3.6-4.8
+T41	Number 1183 1190	0.2-0.3
+T42	Number 1278 1279	2
+T15	Operation 1218 1225	stirred
+E24	Operation:T15 Participant_Material:T76
+T4	Characterization-Apparatus 477 480	TLC
+T43	Characterization-Apparatus 1311 1314	TLC
+T44	Characterization-Apparatus 1318 1320	GC
+T45	Number 1395 1401	3 x 10
+T46	Number 1455 1457	15
+T47	Material 240 250	sulfoxides
+T48	Operation 215 224	oxidation
+E4	Operation:T48 Recipe_Precursor:T52 Recipe_Target:T47
+T49	Operation 1059 1068	oxidation
+E25	Operation:T49 Recipe_Precursor:T50 Recipe_Target:T51
+T50	Material 1072 1080	sulfides
+T51	Material 1084 1092	sulfones
+T52	Material 228 236	sulfides
+T53	Material 256 263	sulfide
+T54	Material-Descriptor 288 296	solution
+T55	Material 304 308	H2O2
+T56	Material 332 342	boric acid
+T57	Material 526 533	product
+T58	Material 553 559	CH2Cl2
+T59	Material 589 597	organics
+T60	Material 614 619	brine
+T61	Material 653 659	Na2SO4
+T62	Material 665 672	solvent
+T63	Characterization-Apparatus 934 936	IR
+T64	Characterization-Apparatus 938 944	1H NMR
+T65	Characterization-Apparatus 953 978	melting point comparisons
+T66	Material 1003 1010	samples
+T67	Material 739 748	sulfoxide
+T68	Operation 814 828	chromatography
+E26	Operation:T68 Participant_Material:T69 Participant_Material:T71 Participant_Material:T70
+T69	Material 832 838	silica
+T70	Nonrecipe-Material 854 862	n-hexane
+T71	Nonrecipe-Material 848 853	EtOAc
+T72	Material-Descriptor 873 879	eluent
+T73	Material 1098 1105	sulfide
+T74	Material 1146 1150	H2O2
+T75	Material 1171 1181	boric acid
+T76	Material 1206 1213	mixture
+T77	Material 1360 1367	product
+T78	Material 1387 1393	CH2Cl2
+T79	Material 1423 1431	organics
+T80	Material 1448 1453	brine
+T81	Material 1487 1493	Na2SO4
+T82	Material 1499 1506	solvent
+T83	Material 1573 1580	sulfone
+T84	Material 1656 1660	EtOH
+T85	Material 1670 1678	products
+T86	Characterization-Apparatus 1715 1717	IR
+T87	Characterization-Apparatus 1719 1725	1H NMR
+T88	Characterization-Apparatus 1734 1759	melting point comparisons
+T89	Material 1784 1791	samples
+T90	Amount-Unit 267 271	mmol
+T91	Amount-Unit 302 303	%
+T92	Amount-Unit 325 326	g
+T93	Amount-Unit 314 319	equiv
+T94	Amount-Unit 348 352	mmol
+T95	Amount-Unit 360 361	g
+T96	Condition-Type 420 424	time
+T97	Amount-Unit 568 570	mL
+T98	Amount-Unit 624 626	mL
+T99	Amount-Unit 1109 1113	mmol
+T100	Amount-Unit 1144 1145	%
+T101	Amount-Unit 1160 1165	equiv
+T102	Amount-Unit 1191 1195	mmol
+T103	Condition-Type 1254 1258	time
+T104	Amount-Unit 1402 1404	mL
+T105	Amount-Unit 1458 1460	mL
+T106	Material 372 379	mixture
+T107	Condition-Misc 395 411	room temperature
+T108	Material-Descriptor 580 588	combined
+T109	Material-Descriptor 643 652	anhydrous
+T110	Condition-Misc 691 707	reduced pressure
+T111	Property-Misc 734 738	pure
+T112	Synthesis-Apparatus 801 813	short-column
+T113	Material-Descriptor 839 842	gel
+T114	Material 889 897	products
+T115	Property-Misc 993 1002	authentic
+T116	Material-Descriptor 1130 1138	solution
+T117	Condition-Misc 1229 1245	room temperature
+T118	Material-Descriptor 1414 1422	combined
+T119	Material-Descriptor 1477 1486	anhydrous
+T120	Condition-Misc 1525 1541	reduced pressure
+T121	Property-Misc 1568 1572	pure
+T122	Material-Descriptor 1774 1783	authentic
+T123	Material 95 103	sulfides
+T124	Property-Misc 31 47	highly efficient
+T125	Property-Misc 49 54	green
+T126	Property-Misc 56 61	rapid
+T127	Property-Misc 67 81	chemoselective
+T128	Property-Misc 150 158	catalyst
+R1	Property_Of Arg1:T127 Arg2:T123	
+R2	Property_Of Arg1:T126 Arg2:T123	
+R3	Property_Of Arg1:T125 Arg2:T123	
+R4	Property_Of Arg1:T124 Arg2:T123	
+R5	Property_Of Arg1:T128 Arg2:T123	
+A1	Start_Recipe E4
+R6	Next_Operation Arg1:E4 Arg2:E1	
+R7	Next_Operation Arg1:E1 Arg2:E2	
+R8	Next_Operation Arg1:E2 Arg2:E3	
+R9	Next_Operation Arg1:E3 Arg2:E5	
+R10	Next_Operation Arg1:E5 Arg2:E6	
+R11	Next_Operation Arg1:E6 Arg2:E7	
+R12	Next_Operation Arg1:E7 Arg2:E8	
+R13	Next_Operation Arg1:E8 Arg2:E9	
+R14	Next_Operation Arg1:E9 Arg2:E10	
+R15	Next_Operation Arg1:E10 Arg2:E26	
+R16	Next_Operation Arg1:E26 Arg2:E11	
+R17	Next_Operation Arg1:E11 Arg2:E12	
+A2	End_Recipe E12
+A3	Start_Recipe E25
+R18	Next_Operation Arg1:E25 Arg2:E13	
+R19	Next_Operation Arg1:E13 Arg2:E24	
+R20	Next_Operation Arg1:E24 Arg2:E14	
+R21	Next_Operation Arg1:E14 Arg2:E21	
+R22	Next_Operation Arg1:E21 Arg2:E15	
+R23	Next_Operation Arg1:E15 Arg2:E16	
+R24	Next_Operation Arg1:E16 Arg2:E17	
+R25	Next_Operation Arg1:E17 Arg2:E18	
+R26	Next_Operation Arg1:E18 Arg2:E19	
+R27	Next_Operation Arg1:E19 Arg2:E20	
+R28	Next_Operation Arg1:E20 Arg2:E22	
+R29	Next_Operation Arg1:E22 Arg2:E23	
+A4	End_Recipe E23
+R30	Number_Of Arg1:T28 Arg2:T90	
+R31	Amount_Of Arg1:T90 Arg2:T53	
+R32	Descriptor_Of Arg1:T54 Arg2:T55	
+R33	Descriptor_Of Arg1:T54 Arg2:T56	
+R34	Number_Of Arg1:T29 Arg2:T91	
+R35	Amount_Of Arg1:T91 Arg2:T55	
+R36	Number_Of Arg1:T30 Arg2:T93	
+R37	Amount_Of Arg1:T93 Arg2:T55	
+R38	Number_Of Arg1:T31 Arg2:T92	
+R39	Amount_Of Arg1:T92 Arg2:T55	
+R40	Number_Of Arg1:T32 Arg2:T94	
+R41	Number_Of Arg1:T33 Arg2:T95	
+R42	Amount_Of Arg1:T95 Arg2:T56	
+R43	Amount_Of Arg1:T94 Arg2:T56	
+R44	Condition_Of Arg1:T107 Arg2:E2	
+R45	Apparatus_Of Arg1:T4 Arg2:E3	
+R46	Apparatus_Of Arg1:T5 Arg2:E3	
+R47	Number_Of Arg1:T35 Arg2:T97	
+R48	Amount_Of Arg1:T97 Arg2:T58	
+R49	Descriptor_Of Arg1:T108 Arg2:T59	
+R50	Number_Of Arg1:T36 Arg2:T98	
+R51	Amount_Of Arg1:T98 Arg2:T60	
+R52	Descriptor_Of Arg1:T109 Arg2:T61	
+R53	Condition_Of Arg1:T110 Arg2:E9	
+R54	Property_Of Arg1:T111 Arg2:T67	
+R55	Apparatus_Of Arg1:T112 Arg2:E26	
+R56	Descriptor_Of Arg1:T113 Arg2:T69	
+R57	Descriptor_Of Arg1:T72 Arg2:T70	
+R58	Descriptor_Of Arg1:T72 Arg2:T71	
+R59	Apparatus_Of Arg1:T63 Arg2:E12	
+R60	Apparatus_Of Arg1:T64 Arg2:E12	
+R61	Apparatus_Of Arg1:T65 Arg2:E12	
+R62	Property_Of Arg1:T115 Arg2:T66	
+R63	Number_Of Arg1:T38 Arg2:T99	
+R64	Amount_Of Arg1:T99 Arg2:T73	
+R65	Descriptor_Of Arg1:T116 Arg2:T73	
+R66	Number_Of Arg1:T39 Arg2:T100	
+R67	Amount_Of Arg1:T100 Arg2:T74	
+R68	Number_Of Arg1:T40 Arg2:T101	
+R69	Amount_Of Arg1:T101 Arg2:T74	
+R70	Number_Of Arg1:T41 Arg2:T102	
+R71	Amount_Of Arg1:T102 Arg2:T75	
+R72	Condition_Of Arg1:T117 Arg2:E24	
+R73	Apparatus_Of Arg1:T43 Arg2:E14	
+R74	Apparatus_Of Arg1:T44 Arg2:E14	
+R75	Number_Of Arg1:T45 Arg2:T104	
+R76	Amount_Of Arg1:T104 Arg2:T78	
+R77	Descriptor_Of Arg1:T118 Arg2:T79	
+R78	Number_Of Arg1:T46 Arg2:T105	
+R79	Amount_Of Arg1:T105 Arg2:T80	
+R80	Descriptor_Of Arg1:T119 Arg2:T81	
+R81	Condition_Of Arg1:T120 Arg2:E18	
+R82	Property_Of Arg1:T121 Arg2:T83	
+R83	Apparatus_Of Arg1:T86 Arg2:E23	
+R84	Apparatus_Of Arg1:T87 Arg2:E23	
+R85	Apparatus_Of Arg1:T88 Arg2:E23	
+R86	Descriptor_Of Arg1:T122 Arg2:T89	

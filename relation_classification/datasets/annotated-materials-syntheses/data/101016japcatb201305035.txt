@@ -1,0 +1,6 @@
+10.1016/j.apcatb.2013.05.035
+Relationship between structure and performance of a novel cerium-niobium binary oxide catalyst for selective catalytic reduction of NO with NH3
+
+The cerium-niobium mixed oxides were prepared by co-precipitation method. Desired amount of niobium chloride was dissolved in methanol and cerium nitrate in deionized water, respectively. These two kinds of solutions were mixed together and added into an excess of ammonia solution with continuous stirring. Afterwards, the precipitates were collected by filtration for several times until no residue Cl- (detected by AgNO3 solution), dried at 120 degC overnight and calcined at 500 degC for 5 h under air conditions. The catalysts were crushed and sieved to 40-60 meshes for activity tests. The molar ratios of Ce/Nb were 1/3, 1/1, and 3/1. The single oxides, namely Nb2O5 and CeO2, were prepared by similar precipitation method.
+
+

@@ -1,0 +1,114 @@
+T1	Operation 238 247	dispersed
+E1	Operation:T1 Recipe_Precursor:T10 Recipe_Precursor:T11 Solvent_Material:T12
+T2	Operation 315 324	sonicated
+E2	Operation:T2 Recipe_Precursor:T13
+T3	Operation 405 414	conducted
+E3	Operation:T3 Recipe_Precursor:T22
+T4	Operation 528 538	completing
+E4	Operation:T4 Recipe_Precursor:T24
+T5	Operation 641 650	sonicated
+E5	Operation:T5 Participant_Material:T25
+T6	Operation 655 663	filtered
+E6	Operation:T6 Participant_Material:T26
+T7	Operation 751 756	dried
+E7	Operation:T7 
+T8	Operation 832 840	obtained
+E8	Operation:T8 Recipe_Target:T28 Participant_Material:T29
+T9	Operation 845 866	carbonization process
+E9	Operation:T9 
+T10	Material 179 181	Ni
+T11	Material 188 190	Si
+T12	Material 261 263	OA
+T13	Material 273 275	Si
+T15	Synthesis-Apparatus 371 381	NTi-mini P
+T16	Brand 383 392	Nano Tech
+T17	Number 440 442	40
+T18	Apparatus-Unit 443 445	mm
+T19	Apparatus-Property-Type 420 436	feeding distance
+T20	Number 470 473	320
+T21	Condition-Unit 474 475	V
+T22	Material 483 485	Si
+T23	Meta 543 569	electrical pulse treatment
+T14	Meta 344 369	electrical wire explosion
+T24	Material 575 577	Ni
+T25	Material 606 611	Ni-Si
+T26	Material 674 679	nylon
+T27	Brand 709 718	Millipore
+T28	Material 806 811	Ni-Si
+T29	Nonrecipe-Material 792 798	carbon
+T30	Property-Misc 799 805	coated
+T31	Property-Misc 812 826	nanocomposites
+T32	Operation 884 895	carried out
+E10	Operation:T32 Atmospheric_Material:T37
+T33	Number 899 902	500
+T34	Condition-Unit 903 907	degC
+T35	Number 912 913	5
+T36	Condition-Unit 914 915	h
+T37	Material 922 924	Ar
+T38	Meta 149 173	electrical pulse process
+T39	Material-Descriptor 182 186	wire
+T40	Material-Descriptor 191 204	nanoparticles
+T41	Number 206 209	0.2
+T42	Number 211 214	0.6
+T43	Number 220 223	0.8
+T44	Amount-Unit 224 225	g
+T45	Number 251 254	700
+T46	Amount-Unit 255 257	mL
+T47	Material-Descriptor 276 310	nanoparticles-dispersed suspension
+T48	Number 329 330	1
+T49	Condition-Unit 331 332	h
+T50	Material-Descriptor 486 520	nanoparticles-dispersed suspension
+T51	Material-Descriptor 578 582	wire
+T52	Material-Descriptor 612 636	nanocolloidal suspension
+T53	Material-Descriptor 680 688	membrane
+T54	Number 700 704	0.22
+T55	Property-Unit 705 707	mm
+T56	Condition-Misc 720 733	several times
+T57	Number 760 763	120
+T58	Condition-Unit 764 768	degC
+T59	Number 773 775	10
+T60	Condition-Unit 776 777	h
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E7	
+R7	Next_Operation Arg1:E7 Arg2:E8	
+R8	Next_Operation Arg1:E8 Arg2:E9	
+R9	Next_Operation Arg1:E9 Arg2:E10	
+R10	Condition_Of Arg1:T21 Arg2:E3	
+R11	Condition_Of Arg1:T49 Arg2:E2	
+R12	Apparatus_Of Arg1:T15 Arg2:E3	
+R13	Condition_Of Arg1:T56 Arg2:E6	
+R14	Condition_Of Arg1:T58 Arg2:E7	
+R15	Condition_Of Arg1:T60 Arg2:E7	
+R16	Condition_Of Arg1:T34 Arg2:E10	
+R17	Condition_Of Arg1:T36 Arg2:E10	
+R18	Amount_Of Arg1:T44 Arg2:T11	
+R19	Amount_Of Arg1:T46 Arg2:T12	
+R20	Property_Of Arg1:T55 Arg2:T26	
+R21	Property_Of Arg1:T30 Arg2:T28	
+R22	Property_Of Arg1:T31 Arg2:T28	
+R23	Descriptor_Of Arg1:T39 Arg2:T10	
+R24	Descriptor_Of Arg1:T40 Arg2:T11	
+R25	Descriptor_Of Arg1:T47 Arg2:T13	
+R26	Descriptor_Of Arg1:T50 Arg2:T22	
+R27	Descriptor_Of Arg1:T53 Arg2:T26	
+R28	Descriptor_Of Arg1:T52 Arg2:T25	
+R29	Descriptor_Of Arg1:T51 Arg2:T24	
+R30	Type_Of Arg1:T19 Arg2:T18	
+R31	Number_Of Arg1:T41 Arg2:T44	
+R32	Number_Of Arg1:T42 Arg2:T44	
+R33	Number_Of Arg1:T43 Arg2:T44	
+R34	Number_Of Arg1:T45 Arg2:T46	
+R35	Number_Of Arg1:T48 Arg2:T49	
+R36	Number_Of Arg1:T17 Arg2:T18	
+R37	Number_Of Arg1:T20 Arg2:T21	
+R38	Number_Of Arg1:T54 Arg2:T55	
+R39	Number_Of Arg1:T57 Arg2:T58	
+R40	Number_Of Arg1:T59 Arg2:T60	
+R41	Number_Of Arg1:T33 Arg2:T34	
+R42	Number_Of Arg1:T35 Arg2:T36	
+R43	Brand_Of Arg1:T16 Arg2:T15	
+R44	Apparatus_Attr_Of Arg1:T18 Arg2:T15	

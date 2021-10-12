@@ -1,0 +1,89 @@
+T1	Material 295 299	MnOx
+T2	Operation 315 323	prepared
+E1	Operation:T2 Recipe_Target:T1
+T3	Meta 339 361	coprecipitation method
+T4	Operation 420 427	diluted
+E2	Operation:T4 Recipe_Precursor:T14 Solvent_Material:T16
+T5	Operation 494 502	adjusted
+E3	Operation:T5 Participant_Material:T18
+T6	Operation 532 547	dropwise adding
+E4	Operation:T6 Participant_Material:T19
+T7	Operation 598 606	stirring
+E5	Operation:T7 
+T8	Operation 649 653	kept
+E6	Operation:T8 Participant_Material:T20
+T9	Operation 710 719	collected
+E7	Operation:T9 Participant_Material:T21
+T10	Operation 723 737	centrifugation
+E8	Operation:T10 
+T11	Operation 742 748	washed
+E9	Operation:T11 Solvent_Material:T22
+T12	Operation 796 801	dried
+E10	Operation:T12 
+T13	Property-Misc 300 309	catalysts
+T14	Material 387 395	Mn(NO3)2
+T15	Material-Descriptor 407 415	solution
+T16	Material 443 448	water
+T17	Material-Descriptor 433 442	deionized
+T18	Material 481 489	solution
+T19	Material 568 572	NaOH
+T20	Material 636 644	solution
+T21	Material 692 704	precipitates
+T22	Material 764 769	water
+T23	Material-Descriptor 754 763	deionized
+T24	Number 397 399	50
+T25	Amount-Unit 399 400	%
+T26	Amount-Unit 402 405	v/v
+T27	Number 452 455	2.5
+T28	Amount-Unit 455 456	%
+T29	Amount-Unit 471 473	pH
+T30	Number 506 507	9
+T31	Number 509 512	9.5
+T32	Number 514 516	10
+T33	Number 518 520	11
+T34	Number 526 528	13
+T35	Material-Descriptor 551 567	aqueous solution
+T36	Number 574 575	2
+T37	Amount-Unit 576 581	mol/L
+T38	Number 608 611	200
+T39	Condition-Unit 612 615	rpm
+T40	Condition-Misc 667 679	half an hour
+T41	Condition-Misc 774 785	three times
+T42	Number 805 807	70
+T43	Condition-Unit 808 812	degC
+T44	Number 817 818	6
+T45	Condition-Unit 819 820	h
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Next_Operation Arg1:E8 Arg2:E9	
+R8	Next_Operation Arg1:E9 Arg2:E10	
+R9	Condition_Of Arg1:T39 Arg2:E5	
+R10	Condition_Of Arg1:T40 Arg2:E6	
+R11	Condition_Of Arg1:T41 Arg2:E9	
+R12	Condition_Of Arg1:T43 Arg2:E10	
+R13	Condition_Of Arg1:T45 Arg2:E10	
+R14	Property_Of Arg1:T13 Arg2:T1	
+R15	Amount_Of Arg1:T25 Arg2:T14	
+R16	Amount_Of Arg1:T26 Arg2:T14	
+R17	Amount_Of Arg1:T28 Arg2:T16	
+R18	Amount_Of Arg1:T29 Arg2:T18	
+R19	Amount_Of Arg1:T37 Arg2:T19	
+R20	Descriptor_Of Arg1:T15 Arg2:T14	
+R21	Descriptor_Of Arg1:T17 Arg2:T16	
+R22	Descriptor_Of Arg1:T35 Arg2:T19	
+R23	Descriptor_Of Arg1:T23 Arg2:T22	
+R24	Number_Of Arg1:T24 Arg2:T25	
+R25	Number_Of Arg1:T30 Arg2:T29	
+R26	Number_Of Arg1:T31 Arg2:T29	
+R27	Number_Of Arg1:T32 Arg2:T29	
+R28	Number_Of Arg1:T33 Arg2:T29	
+R29	Number_Of Arg1:T34 Arg2:T29	
+R30	Number_Of Arg1:T27 Arg2:T28	
+R31	Number_Of Arg1:T36 Arg2:T37	
+R32	Number_Of Arg1:T38 Arg2:T39	
+R33	Number_Of Arg1:T42 Arg2:T43	
+R34	Number_Of Arg1:T44 Arg2:T45	

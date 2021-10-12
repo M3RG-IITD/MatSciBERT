@@ -1,0 +1,145 @@
+T1	Material 61 74	Bi2Te2.7Se0.3
+T2	Property-Misc 75 87	nanocompound
+T3	Property-Misc 168 182	thermoelectric
+T4	Property-Type 116 125	transport
+T5	Operation 248 256	dissolve
+E1	Operation:T5 Recipe_Precursor:T15 Solvent_Material:T17
+T6	Operation 313 317	form
+E2	Operation:T6 Participant_Material:T19
+T7	Operation 348 354	showed
+E3	Operation:T7 Participant_Material:T20
+T8	Operation 385 393	generate
+E4	Operation:T8 Participant_Material:T21 Participant_Material:T24
+T9	Operation 498 506	dissolve
+E5	Operation:T9 Recipe_Precursor:T25 Solvent_Material:T27
+T10	Operation 524 528	turn
+E6	Operation:T10 Participant_Material:T28 Participant_Material:T29
+T11	Operation 589 593	form
+E7	Operation:T11 Participant_Material:T30
+T12	Operation 669 677	exposing
+E8	Operation:T12 Solvent_Material:T33
+T13	Operation 727 735	observed
+E9	Operation:T13 
+T14	Operation 795 804	dissolved
+E10	Operation:T14 Recipe_Precursor:T34 Recipe_Precursor:T35
+T15	Material 195 208	Bismuth shots
+T16	Material 210 212	Bi
+T17	Material 268 279	nitric acid
+T18	Material 287 295	HNO3(aq)
+T19	Material 332 340	solution
+T20	Nonrecipe-Material 364 371	bismuth
+T21	Nonrecipe-Material 394 406	bismuth ions
+T22	Nonrecipe-Material 408 413	Bi3 +
+T23	Nonrecipe-Material 428 432	NO3-
+T24	Nonrecipe-Material 419 426	nitrate
+T25	Material 435 444	Tellurium
+T26	Material 454 456	Te
+T27	Material 510 514	HNO3
+T28	Material 538 550	precipitates
+T29	Nonrecipe-Material 566 575	tellurium
+T30	Material 594 608	tellurous acid
+T31	Material 610 616	H2TeO3
+T32	Nonrecipe-Material 651 662	Te oxoacids
+T33	Material 703 707	HNO3
+T34	Material 774 776	Te
+T35	Material 814 816	Bi
+T36	Material 851 859	solution
+T37	Brand 214 230	Kojundo Chemical
+T38	Brand 458 474	Kojundo Chemical
+T39	Number 232 237	99.99
+T40	Number 240 243	2-5
+T41	Number 281 284	2.5
+T42	Number 476 481	99.99
+T43	Number 484 486	45
+T44	Amount-Unit 237 238	%
+T45	Amount-Unit 244 246	mm
+T46	Amount-Unit 285 286	M
+T47	Amount-Unit 481 482	%
+T48	Amount-Unit 487 489	μm
+T49	Material-Descriptor 260 267	diluted
+T50	Material-Descriptor 320 331	transparent
+T51	Material-Descriptor 445 452	powders
+T52	Condition-Misc 494 497	not
+T53	Material-Descriptor 532 537	white
+T54	Material-Descriptor 644 650	stable
+T55	Condition-Misc 708 722	simultaneously
+T56	Material-Descriptor 777 784	powders
+T57	Material-Descriptor 817 822	shots
+T58	Material-Descriptor 839 850	transparent
+R1	Property_Of Arg1:T2 Arg2:T1	
+R2	Property_Of Arg1:T3 Arg2:T1	
+R3	Coref_Of Arg1:T16 Arg2:T15	
+R4	Brand_Of Arg1:T37 Arg2:T15	
+A1	Start_Recipe E1
+R5	Next_Operation Arg1:E1 Arg2:E2	
+R6	Next_Operation Arg1:E2 Arg2:E3	
+R7	Next_Operation Arg1:E3 Arg2:E4	
+R8	Next_Operation Arg1:E4 Arg2:E5	
+R9	Next_Operation Arg1:E5 Arg2:E6	
+R10	Next_Operation Arg1:E6 Arg2:E7	
+R11	Next_Operation Arg1:E7 Arg2:E8	
+R12	Next_Operation Arg1:E8 Arg2:E9	
+R13	Next_Operation Arg1:E9 Arg2:E10	
+T59	Number 1096 1100	99.9
+T60	Operation 888 896	oxidized
+E11	Operation:T60 Participant_Material:T68 Participant_Material:T65 Participant_Material:T66
+T61	Operation 1042 1050	replaced
+E12	Operation:T61 Participant_Material:T64 Participant_Material:T62
+T62	Material 1056 1064	selenium
+T63	Material-Descriptor 1065 1072	powders
+T64	Nonrecipe-Material 1035 1037	Te
+T65	Nonrecipe-Material 900 904	NO3-
+T66	Nonrecipe-Material 914 916	Bi
+T67	Material 938 942	HNO3
+T68	Nonrecipe-Material 881 883	Te
+T69	Material 953 962	tellurite
+T70	Material 964 971	TeO32 -
+T71	Material 996 1002	H2TeO3
+T72	Amount-Misc 1018 1031	small portion
+T73	Brand 1078 1094	Kojundo Chemical
+T74	Material 1074 1076	Se
+T75	Amount-Unit 1100 1101	%
+T76	Number 1103 1105	75
+T77	Amount-Unit 1106 1108	μm
+T78	Operation 1113 1120	prepare
+E13	Operation:T78 Participant_Material:T79
+R14	Next_Operation Arg1:E10 Arg2:E11	
+R15	Next_Operation Arg1:E11 Arg2:E12	
+R16	Next_Operation Arg1:E12 Arg2:E13	
+T79	Material 1131 1139	compound
+T80	Material-Descriptor 1123 1130	ternary
+A2	End_Recipe E13
+R17	Number_Of Arg1:T39 Arg2:T44	
+R18	Number_Of Arg1:T40 Arg2:T45	
+R19	Amount_Of Arg1:T44 Arg2:T15	
+R20	Amount_Of Arg1:T45 Arg2:T15	
+R21	Descriptor_Of Arg1:T49 Arg2:T17	
+R22	Number_Of Arg1:T41 Arg2:T46	
+R23	Coref_Of Arg1:T18 Arg2:T17	
+R24	Descriptor_Of Arg1:T50 Arg2:T19	
+R25	Coref_Of Arg1:T22 Arg2:T21	
+R26	Coref_Of Arg1:T23 Arg2:T24	
+R27	Descriptor_Of Arg1:T51 Arg2:T25	
+R28	Coref_Of Arg1:T26 Arg2:T25	
+R29	Brand_Of Arg1:T38 Arg2:T25	
+R30	Number_Of Arg1:T42 Arg2:T47	
+R31	Amount_Of Arg1:T47 Arg2:T25	
+R32	Number_Of Arg1:T43 Arg2:T48	
+R33	Amount_Of Arg1:T48 Arg2:T25	
+R34	Condition_Of Arg1:T52 Arg2:E5	
+R35	Descriptor_Of Arg1:T53 Arg2:T28	
+R36	Coref_Of Arg1:T31 Arg2:T30	
+R37	Descriptor_Of Arg1:T54 Arg2:T32	
+R38	Condition_Of Arg1:T55 Arg2:E8	
+R39	Descriptor_Of Arg1:T56 Arg2:T34	
+R40	Descriptor_Of Arg1:T57 Arg2:T35	
+R41	Descriptor_Of Arg1:T58 Arg2:T36	
+R42	Amount_Of Arg1:T72 Arg2:T64	
+R43	Descriptor_Of Arg1:T63 Arg2:T62	
+R44	Coref_Of Arg1:T74 Arg2:T62	
+R45	Brand_Of Arg1:T73 Arg2:T62	
+R46	Number_Of Arg1:T59 Arg2:T75	
+R47	Amount_Of Arg1:T75 Arg2:T62	
+R48	Number_Of Arg1:T76 Arg2:T77	
+R49	Amount_Of Arg1:T77 Arg2:T62	
+R50	Descriptor_Of Arg1:T80 Arg2:T79	

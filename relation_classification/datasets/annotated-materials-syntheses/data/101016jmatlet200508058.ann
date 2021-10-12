@@ -1,0 +1,130 @@
+T1	Material 63 67	NdF3
+T2	Property-Misc 46 62	mono-crystalline
+T3	Property-Misc 68 82	nanostructures
+T4	Meta 90 102	hydrothermal
+T5	Operation 133 141	obtained
+E1	Operation:T5 Recipe_Target:T26
+T6	Meta 159 171	hydrothermal
+T7	Operation 235 240	added
+E2	Operation:T7 Recipe_Precursor:T27 Solvent_Material:T28
+T8	Operation 294 305	transferred
+E3	Operation:T8 Participant_Material:T29
+T9	Operation 377 383	sealed
+E4	Operation:T9 
+T10	Operation 393 399	heated
+E5	Operation:T10 
+T11	Operation 427 437	maintained
+E6	Operation:T11 
+T12	Operation 459 464	taken
+E7	Operation:T12 
+T13	Operation 473 479	cooled
+E8	Operation:T13 
+T14	Operation 579 585	washed
+E9	Operation:T14 Participant_Material:T30 Participant_Material:T31 Participant_Material:T32
+T15	Operation 661 666	dried
+E10	Operation:T15 
+T16	Number 215 216	3
+T17	Number 223 224	1
+T18	Number 244 246	10
+T19	Number 253 256	0.1
+T20	Number 357 359	20
+T21	Number 414 417	160
+T22	Number 448 450	10
+T23	Number 833 840	0.15406
+T24	Number 896 897	5
+T25	Number 904 906	85
+T26	Material 115 119	NdF3
+T27	Material 226 230	NH4F
+T28	Material 259 267	Nd(NO3)3
+T29	Material 282 289	mixture
+T30	Material 566 573	samples
+T31	Material 602 607	water
+T32	Material 617 624	ethanol
+T33	Characterization-Apparatus 698 728	Powder X-ray diffraction (XRD)
+T34	Material 745 752	samples
+T35	Characterization-Apparatus 770 806	RIGAKU-DMAX2500 X-ray diffractometer
+T36	Apparatus-Property-Type 850 863	scanning rate
+T37	Number 867 868	5
+T38	Material 974 981	samples
+T39	Property-Type 915 928	microstucture
+T40	Property-Type 930 940	morphology
+T41	Property-Type 946 966	chemical composition
+T42	Characterization-Apparatus 999 1047	transmission electron microscope (TEM, JEM-2010)
+T43	Characterization-Apparatus 1062 1104	energy dispersive X-ray spectroscopy (EDS)
+T44	Amount-Unit 217 219	ml
+T45	Amount-Unit 224 225	M
+T46	Amount-Unit 247 249	ml
+T47	Amount-Unit 257 258	M
+T48	Apparatus-Unit 360 362	mL
+T49	Condition-Unit 418 422	degC
+T50	Condition-Unit 451 452	h
+T51	Apparatus-Unit 841 843	nm
+T52	Apparatus-Unit 868 875	deg/min
+T53	Apparatus-Unit 897 900	deg
+T54	Apparatus-Unit 906 909	deg
+T55	Property-Misc 120 127	samples
+T56	Material-Descriptor 268 276	solution
+T57	Synthesis-Apparatus 342 351	autoclave
+T58	Apparatus-Descriptor 313 341	Teflon-lined stainless-steel
+T59	Apparatus-Property-Type 363 371	capacity
+T60	Synthesis-Apparatus 384 388	tank
+T61	Synthesis-Apparatus 406 410	oven
+T62	Condition-Misc 488 504	room temperature
+T63	Condition-Misc 511 529	ambiance condition
+T64	Material-Descriptor 556 565	composite
+T65	Material-Descriptor 591 601	de-ionized
+T66	Material-Descriptor 612 616	pure
+T67	Condition-Misc 643 656	several times
+T68	Condition-Misc 670 676	vacuum
+T69	Condition-Misc 680 696	room temperature
+R1	Property_Of Arg1:T2 Arg2:T1	
+R2	Property_Of Arg1:T3 Arg2:T1	
+A1	Start_Recipe E1
+R3	Next_Operation Arg1:E1 Arg2:E2	
+R4	Next_Operation Arg1:E2 Arg2:E3	
+R5	Next_Operation Arg1:E3 Arg2:E4	
+R6	Next_Operation Arg1:E4 Arg2:E5	
+R7	Next_Operation Arg1:E5 Arg2:E6	
+R8	Next_Operation Arg1:E6 Arg2:E7	
+R9	Next_Operation Arg1:E7 Arg2:E8	
+R10	Next_Operation Arg1:E8 Arg2:E9	
+R11	Next_Operation Arg1:E9 Arg2:E10	
+A2	End_Recipe E10
+R12	Property_Of Arg1:T55 Arg2:T26	
+R13	Number_Of Arg1:T16 Arg2:T44	
+R14	Number_Of Arg1:T17 Arg2:T45	
+R15	Amount_Of Arg1:T44 Arg2:T27	
+R16	Amount_Of Arg1:T45 Arg2:T27	
+R17	Number_Of Arg1:T18 Arg2:T46	
+R18	Number_Of Arg1:T19 Arg2:T47	
+R19	Amount_Of Arg1:T47 Arg2:T28	
+R20	Amount_Of Arg1:T46 Arg2:T28	
+R21	Descriptor_Of Arg1:T56 Arg2:T28	
+R22	Descriptor_Of Arg1:T58 Arg2:T57	
+R23	Apparatus_Of Arg1:T57 Arg2:E3	
+R24	Number_Of Arg1:T20 Arg2:T48	
+R25	Type_Of Arg1:T59 Arg2:T48	
+R26	Apparatus_Attr_Of Arg1:T48 Arg2:T57	
+R27	Apparatus_Of Arg1:T60 Arg2:E4	
+R28	Apparatus_Of Arg1:T61 Arg2:E5	
+R29	Number_Of Arg1:T21 Arg2:T49	
+R30	Condition_Of Arg1:T49 Arg2:E5	
+R31	Number_Of Arg1:T22 Arg2:T50	
+R32	Condition_Of Arg1:T50 Arg2:E6	
+R33	Condition_Of Arg1:T62 Arg2:E8	
+R34	Condition_Of Arg1:T63 Arg2:E8	
+R35	Descriptor_Of Arg1:T64 Arg2:T30	
+R36	Descriptor_Of Arg1:T65 Arg2:T31	
+R37	Descriptor_Of Arg1:T66 Arg2:T32	
+R38	Condition_Of Arg1:T67 Arg2:E9	
+R39	Condition_Of Arg1:T68 Arg2:E10	
+R40	Condition_Of Arg1:T69 Arg2:E10	
+R41	Number_Of Arg1:T23 Arg2:T51	
+R42	Number_Of Arg1:T37 Arg2:T52	
+R43	Type_Of Arg1:T36 Arg2:T52	
+R44	Apparatus_Attr_Of Arg1:T51 Arg2:T35	
+R45	Number_Of Arg1:T24 Arg2:T53	
+R46	Number_Of Arg1:T25 Arg2:T54	
+R47	Apparatus_Attr_Of Arg1:T52 Arg2:T35	
+R48	Apparatus_Attr_Of Arg1:T53 Arg2:T35	
+R49	Apparatus_Attr_Of Arg1:T54 Arg2:T35	

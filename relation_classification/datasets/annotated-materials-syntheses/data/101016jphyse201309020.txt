@@ -1,0 +1,6 @@
+10.1016/j.physe.2013.09.020
+ZnO nanowire/reduced graphene oxide nanocomposites for significantly enhanced photocatalytic degradation of Rhodamine 6G
+
+ZnO NWs were prepared by a modified carbothermal reduction method in our previous work [23]. The mixture of ZnO powder and graphite (500 mesh) with a weight ratio of 1:0.8 was placed in the middle of the furnace. The furnace was heated to 1150 degC and purged with mixed gas of air (0.1 L/min) and N2 (4.5 L/min) as reactive and carrier gas. After about 5 min, white snowflake-like product was carried out by the carrier gas and collected by a 5000 mL flask at the downstream of the furnace.
+
+GO was prepared by a modified Hummers' method. The procedure for the preparation of ZnO NW/RGO nanocomposites is illustrated in Fig. 1. In a typical experiment, 0.5 g graphite oxide was ultrasonicated in deionized water with 0.1 g PVP to form GO solution. Then 0.5 g ZnO NWs were added into GO solution. After that, the mixture was stirred at room temperature for 2 h, followed by centrifuging and washing with deionized water to remove impurities. Finally, the nanocomposites were desiccated at 50 degC overnight and further thermally reduced at 300 degC.

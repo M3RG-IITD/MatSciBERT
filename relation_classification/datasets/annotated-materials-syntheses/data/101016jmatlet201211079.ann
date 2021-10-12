@@ -1,0 +1,109 @@
+T1	Material 92 108	(Ni1-xCox)0.85Se
+T2	Meta 121 147	simple hydrothermal method
+T3	Property-Misc 67 91	ferromagnetic nano-sized
+T4	Operation 201 209	prepared
+E1	Operation:T4 Recipe_Target:T16
+T5	Operation 266 274	prepared
+E2	Operation:T5 Participant_Material:T20
+T6	Operation 278 288	dissolving
+E3	Operation:T6 Recipe_Precursor:T22 Recipe_Precursor:T23 Recipe_Precursor:T24 Solvent_Material:T28
+T7	Operation 425 430	added
+E4	Operation:T7 Participant_Material:T31
+T8	Operation 446 454	stirring
+E5	Operation:T8 
+T9	Operation 483 494	transferred
+E6	Operation:T9 Participant_Material:T37
+T10	Operation 545 551	heated
+E7	Operation:T10 
+T11	Operation 580 587	cooling
+E8	Operation:T11 
+T12	Operation 627 635	filtered
+E9	Operation:T12 Participant_Material:T47
+T13	Operation 641 647	washed
+E10	Operation:T13 Solvent_Material:T48 Solvent_Material:T51
+T14	Operation 714 719	dried
+E11	Operation:T14 
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Next_Operation Arg1:E8 Arg2:E9	
+R8	Next_Operation Arg1:E9 Arg2:E10	
+R9	Next_Operation Arg1:E10 Arg2:E11	
+R10	Property_Of Arg1:T3 Arg2:T1	
+T15	Meta 215 241	simple hydrothermal route.
+T16	Material 148 164	(Ni1-xCox)0.85Se
+T17	Number 170 173	0.0
+T18	Number 178 179	1
+T19	Property-Misc 180 195	solid solutions
+R11	Property_Of Arg1:T19 Arg2:T16	
+T20	Material 245 261	aqueous solution
+T21	Amount-Misc 293 311	appropriate amount
+T22	Material 315 325	NiCl2*6H2O
+T23	Material 333 343	CoCl2*6H2O
+T24	Material 348 355	Na2SeO3
+T25	Number 359 361	70
+T26	Amount-Unit 362 364	ml
+T27	Material-Descriptor 365 374	distilled
+T28	Material 375 380	water
+T29	Number 382 383	8
+T30	Amount-Unit 384 386	ml
+T31	Material 387 404	hydrazine hydrate
+T32	Material 406 414	N2H4.H2O
+T33	Number 416 418	99
+T34	Amount-Unit 418 419	%
+T35	Number 459 461	30
+T36	Condition-Unit 462 465	min
+T37	Material 471 478	mixture
+T38	Apparatus-Descriptor 500 522	stainless Teflon-lined
+T39	Number 523 526	100
+T40	Apparatus-Unit 527 529	mL
+T41	Synthesis-Apparatus 530 539	autoclave
+T42	Number 555 558	140
+T43	Number 568 570	12
+T44	Condition-Unit 559 563	degC
+T45	Condition-Unit 571 572	h
+T46	Condition-Misc 591 607	room temperature
+T47	Material 613 621	products
+T48	Material 663 668	water
+T49	Material-Descriptor 653 662	distilled
+T50	Material-Descriptor 673 681	absolute
+T51	Material 682 689	ethanol
+T52	Condition-Misc 690 703	several times
+T53	Condition-Misc 723 729	vacuum
+T54	Number 733 735	50
+T55	Number 745 746	3
+T56	Condition-Unit 736 740	degC
+T57	Condition-Unit 747 748	h
+R12	Amount_Of Arg1:T21 Arg2:T22	
+R13	Amount_Of Arg1:T21 Arg2:T23	
+R14	Amount_Of Arg1:T21 Arg2:T24	
+R15	Number_Of Arg1:T25 Arg2:T26	
+R16	Descriptor_Of Arg1:T27 Arg2:T28	
+R17	Amount_Of Arg1:T26 Arg2:T28	
+R18	Number_Of Arg1:T29 Arg2:T30	
+R19	Amount_Of Arg1:T30 Arg2:T31	
+R20	Coref_Of Arg1:T32 Arg2:T31	
+R21	Number_Of Arg1:T33 Arg2:T34	
+R22	Amount_Of Arg1:T34 Arg2:T31	
+R23	Number_Of Arg1:T35 Arg2:T36	
+R24	Condition_Of Arg1:T36 Arg2:E5	
+R25	Descriptor_Of Arg1:T38 Arg2:T41	
+R26	Number_Of Arg1:T39 Arg2:T40	
+R27	Apparatus_Attr_Of Arg1:T40 Arg2:T41	
+R28	Apparatus_Of Arg1:T41 Arg2:E6	
+R29	Number_Of Arg1:T42 Arg2:T44	
+R30	Number_Of Arg1:T43 Arg2:T45	
+R31	Condition_Of Arg1:T44 Arg2:E7	
+R32	Condition_Of Arg1:T45 Arg2:E7	
+R33	Condition_Of Arg1:T46 Arg2:E8	
+R34	Descriptor_Of Arg1:T49 Arg2:T48	
+R35	Descriptor_Of Arg1:T50 Arg2:T51	
+R36	Condition_Of Arg1:T52 Arg2:E10	
+R37	Condition_Of Arg1:T53 Arg2:E11	
+R38	Number_Of Arg1:T54 Arg2:T56	
+R39	Number_Of Arg1:T55 Arg2:T57	
+R40	Condition_Of Arg1:T56 Arg2:E11	
+R41	Condition_Of Arg1:T57 Arg2:E11	

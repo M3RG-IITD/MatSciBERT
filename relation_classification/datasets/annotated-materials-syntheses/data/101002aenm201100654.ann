@@ -1,0 +1,202 @@
+T1	Material 70 76	Carbon
+T2	Property-Misc 77 86	Nanosheet
+T3	Property-Misc 54 69	Pillared-Porous
+T4	Material 166 169	MgO
+T5	Operation 254 259	added
+E1	Operation:T5 Recipe_Precursor:T46 Participant_Material:T47
+T6	Operation 299 314	ultrasonication
+E2	Operation:T6 
+T7	Operation 363 369	boiled
+E3	Operation:T7 
+T8	Operation 384 388	form
+E4	Operation:T8 Participant_Material:T48
+T9	Operation 433 443	filtration
+E5	Operation:T9 
+T10	Operation 448 459	desiccation
+E6	Operation:T10 
+T11	Operation 511 519	calcined
+E7	Operation:T11 Participant_Material:T49
+T12	Operation 657 666	dissolved
+E8	Operation:T12 Recipe_Precursor:T50 Solvent_Material:T51
+T13	Operation 713 721	stirring
+E9	Operation:T13 
+T14	Operation 759 764	added
+E10	Operation:T14 Recipe_Precursor:T53
+T15	Operation 770 778	stirring
+E11	Operation:T15 
+T16	Operation 845 849	aged
+E12	Operation:T16 Participant_Material:T93
+T17	Operation 826 831	mixed
+E13	Operation:T17 Participant_Material:T93
+T18	Operation 883 890	heating
+E14	Operation:T18 Atmospheric_Material:T54
+T19	Operation 968 981	carbonization
+E15	Operation:T19 
+T20	Operation 1018 1024	washed
+E16	Operation:T20 Recipe_Target:T55 Participant_Material:T56
+T21	Operation 1045 1051	remove
+E17	Operation:T21 Participant_Material:T57
+T22	Operation 1073 1083	filtration
+E18	Operation:T22 
+T23	Operation 1088 1094	drying
+E19	Operation:T23 Participant_Material:T96
+T24	Operation 1178 1186	prepared
+E20	Operation:T24 Recipe_Target:T58 Participant_Material:T59 Participant_Material:T60
+T25	Number 186 189	100
+T26	Brand 212 247	Sinopharm Chemical Reagent Co. Ltd.
+T27	Number 265 268	500
+T28	Number 327 330	600
+T29	Number 338 340	30
+T30	Number 374 378	2-24
+T31	Number 463 466	100
+T32	Number 476 478	24
+T33	Number 523 526	500
+T34	Number 536 538	30
+T35	Number 572 573	1
+T36	Brand 595 617	Taiyuan Steel Co. Ltd.
+T37	Number 643 646	160
+T38	Number 670 672	40
+T39	Number 737 738	2
+T40	Number 853 855	60
+T41	Number 865 867	48
+T42	Number 894 897	900
+T43	Number 907 908	2
+T44	Number 934 935	5
+T45	Number 1031 1033	10
+T46	Material 193 196	MgO
+T47	Material 280 288	solution
+T48	Material 389 396	Mg(OH)2
+T49	Material 498 506	material
+T50	Material 579 593	coal tar pitch
+T51	Material 676 691	tetrahydrofuran
+T52	Material 693 696	THF
+T53	Material 751 754	MgO
+T54	Material 953 955	N2
+T55	Material 993 1003	carbon/MgO
+T56	Material 1038 1041	HCl
+T57	Material 1056 1059	MgO
+T58	Material 1156 1162	carbon
+T59	Material 1232 1235	MgO
+T60	Material 1253 1260	Mg(OH)2
+T61	Amount-Unit 190 192	mg
+T62	Amount-Unit 269 271	mL
+T63	Apparatus-Unit 331 332	W
+T64	Condition-Unit 341 344	min
+T65	Condition-Unit 379 380	h
+T66	Condition-Unit 467 471	degC
+T67	Condition-Unit 479 480	h
+T68	Condition-Unit 527 531	degC
+T69	Condition-Unit 539 542	min
+T70	Amount-Unit 574 575	g
+T71	Property-Unit 647 651	degC
+T72	Amount-Unit 673 675	mL
+T73	Amount-Unit 739 740	g
+T74	Condition-Unit 856 860	degC
+T75	Condition-Unit 868 869	h
+T76	Condition-Unit 898 902	degC
+T77	Condition-Unit 909 910	h
+T78	Condition-Type 918 930	heating rate
+T79	Condition-Unit 936 946	degC min-1
+T80	Condition-Type 956 960	flow
+T81	Amount-Unit 1034 1037	wt%
+T82	Property-Misc 159 165	Porous
+T83	Property-Misc 170 175	Layer
+T84	Material-Descriptor 197 210	nanoparticles
+T85	Material-Descriptor 272 279	aqueous
+T86	Synthesis-Apparatus 316 325	KQ-600KDE
+T87	Synthesis-Apparatus 412 421	apparatus
+T88	Apparatus-Descriptor 405 411	reflux
+T89	Property-Type 626 641	softening point
+T90	Material-Descriptor 698 706	solution
+T91	Material-Descriptor 744 750	porous
+T92	Condition-Misc 794 808	homogenization
+T93	Material 832 840	solution
+T94	Property-Misc 987 992	black
+T95	Property-Misc 1004 1013	composite
+T96	Material 1102 1108	sample
+T97	Property-Misc 1127 1135	nanofoam
+T98	Property-Misc 1141 1155	porous layered
+T99	Material-Descriptor 1236 1248	nanoparticle
+T100	Material-Descriptor 1261 1270	nanosheet
+R1	Property_Of Arg1:T3 Arg2:T1	
+R2	Property_Of Arg1:T2 Arg2:T1	
+A1	Start_Recipe E1
+R3	Next_Operation Arg1:E1 Arg2:E2	
+R4	Next_Operation Arg1:E2 Arg2:E3	
+R5	Next_Operation Arg1:E3 Arg2:E4	
+R6	Next_Operation Arg1:E4 Arg2:E5	
+R7	Next_Operation Arg1:E5 Arg2:E6	
+R8	Next_Operation Arg1:E6 Arg2:E7	
+R9	Next_Operation Arg1:E7 Arg2:E8	
+R10	Next_Operation Arg1:E8 Arg2:E9	
+R11	Next_Operation Arg1:E9 Arg2:E10	
+R12	Next_Operation Arg1:E10 Arg2:E11	
+R13	Next_Operation Arg1:E11 Arg2:E13	
+R14	Next_Operation Arg1:E13 Arg2:E12	
+R15	Next_Operation Arg1:E12 Arg2:E14	
+R16	Next_Operation Arg1:E14 Arg2:E15	
+R17	Next_Operation Arg1:E15 Arg2:E16	
+R18	Next_Operation Arg1:E16 Arg2:E17	
+R19	Next_Operation Arg1:E17 Arg2:E18	
+R20	Next_Operation Arg1:E18 Arg2:E19	
+R21	Next_Operation Arg1:E19 Arg2:E20	
+A2	End_Recipe E20
+R22	Property_Of Arg1:T82 Arg2:T4	
+R23	Property_Of Arg1:T83 Arg2:T4	
+R24	Number_Of Arg1:T25 Arg2:T61	
+R25	Amount_Of Arg1:T61 Arg2:T46	
+R26	Descriptor_Of Arg1:T84 Arg2:T46	
+R27	Brand_Of Arg1:T26 Arg2:T46	
+R28	Number_Of Arg1:T27 Arg2:T62	
+R29	Amount_Of Arg1:T62 Arg2:T47	
+R30	Descriptor_Of Arg1:T85 Arg2:T47	
+R31	Number_Of Arg1:T28 Arg2:T63	
+R32	Apparatus_Attr_Of Arg1:T63 Arg2:T86	
+R33	Apparatus_Of Arg1:T86 Arg2:E2	
+R34	Condition_Of Arg1:T64 Arg2:E2	
+R35	Number_Of Arg1:T29 Arg2:T64	
+R36	Number_Of Arg1:T30 Arg2:T65	
+R37	Condition_Of Arg1:T65 Arg2:E3	
+R38	Descriptor_Of Arg1:T88 Arg2:T87	
+R39	Apparatus_Of Arg1:T87 Arg2:E4	
+R40	Number_Of Arg1:T31 Arg2:T66	
+R41	Condition_Of Arg1:T66 Arg2:E6	
+R42	Number_Of Arg1:T32 Arg2:T67	
+R43	Condition_Of Arg1:T67 Arg2:E6	
+R44	Condition_Of Arg1:T69 Arg2:E7	
+R45	Condition_Of Arg1:T68 Arg2:E7	
+R46	Number_Of Arg1:T34 Arg2:T69	
+R47	Number_Of Arg1:T33 Arg2:T68	
+R48	Number_Of Arg1:T35 Arg2:T70	
+R49	Amount_Of Arg1:T70 Arg2:T50	
+R50	Brand_Of Arg1:T36 Arg2:T50	
+R51	Number_Of Arg1:T37 Arg2:T71	
+R52	Type_Of Arg1:T89 Arg2:T71	
+R53	Property_Of Arg1:T71 Arg2:T50	
+R54	Coref_Of Arg1:T52 Arg2:T51	
+R55	Number_Of Arg1:T38 Arg2:T72	
+R56	Amount_Of Arg1:T72 Arg2:T51	
+R57	Descriptor_Of Arg1:T90 Arg2:T51	
+R58	Number_Of Arg1:T39 Arg2:T73	
+R59	Descriptor_Of Arg1:T91 Arg2:T53	
+R60	Amount_Of Arg1:T73 Arg2:T53	
+R61	Condition_Of Arg1:T92 Arg2:E11	
+R62	Number_Of Arg1:T40 Arg2:T74	
+R63	Condition_Of Arg1:T74 Arg2:E12	
+R64	Number_Of Arg1:T41 Arg2:T75	
+R65	Condition_Of Arg1:T75 Arg2:E12	
+R66	Number_Of Arg1:T42 Arg2:T76	
+R67	Condition_Of Arg1:T77 Arg2:E14	
+R68	Condition_Of Arg1:T76 Arg2:E14	
+R69	Number_Of Arg1:T43 Arg2:T77	
+R70	Type_Of Arg1:T78 Arg2:T79	
+R71	Number_Of Arg1:T44 Arg2:T79	
+R72	Condition_Of Arg1:T79 Arg2:E14	
+R73	Property_Of Arg1:T94 Arg2:T55	
+R74	Property_Of Arg1:T95 Arg2:T55	
+R75	Number_Of Arg1:T45 Arg2:T81	
+R76	Amount_Of Arg1:T81 Arg2:T56	
+R77	Property_Of Arg1:T98 Arg2:T58	
+R78	Property_Of Arg1:T97 Arg2:T58	
+R79	Descriptor_Of Arg1:T99 Arg2:T59	
+R80	Descriptor_Of Arg1:T100 Arg2:T60	

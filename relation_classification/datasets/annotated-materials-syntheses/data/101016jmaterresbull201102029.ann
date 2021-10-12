@@ -1,0 +1,95 @@
+T1	Operation 206 215	dispersed
+E1	Operation:T1 Recipe_Precursor:T10 Solvent_Material:T11
+T2	Operation 300 307	subject
+E2	Operation:T2 Participant_Material:T12
+T3	Operation 317 332	ultrasonication
+E3	Operation:T3 
+T4	Operation 362 369	stirred
+E4	Operation:T4 
+T5	Operation 393 404	transferred
+E5	Operation:T5 Participant_Material:T13
+T6	Operation 453 459	heated
+E6	Operation:T6 
+T7	Operation 536 545	collected
+E7	Operation:T7 Participant_Material:T17
+T8	Operation 550 556	washed
+E8	Operation:T8 Solvent_Material:T18 Solvent_Material:T20
+T9	Operation 646 651	dried
+E9	Operation:T9 Participant_Material:T23 Atmospheric_Material:T24
+T10	Material 159 162	TiN
+T11	Material 260 264	H2O2
+T12	Material 288 295	mixture
+T13	Material 383 388	solid
+T14	Synthesis-Apparatus 425 434	autoclave
+T15	Apparatus-Descriptor 412 424	Teflon-lined
+T16	Meta 492 514	hydrothermal treatment
+T17	Material 520 531	precipitate
+T18	Material 572 577	water
+T19	Material-Descriptor 562 571	distilled
+T20	Material 591 598	alcohol
+T21	Material-Descriptor 582 590	absolute
+T22	Condition-Misc 603 614	three times
+T23	Material 634 641	product
+T24	Material 655 658	air
+T25	Number 662 665	110
+T26	Condition-Unit 666 670	degC
+T27	Number 675 677	24
+T28	Condition-Unit 678 679	h
+T29	Number 152 155	500
+T30	Amount-Unit 156 158	mg
+T31	Number 164 166	99
+T32	Amount-Unit 166 167	%
+T33	Brand 168 192	Hefei Kaier Nano Company
+T34	Number 219 221	80
+T35	Amount-Unit 222 224	mL
+T36	Material-Descriptor 265 273	solution
+T37	Number 311 314	700
+T38	Condition-Unit 315 316	W
+T39	Number 337 339	10
+T40	Condition-Unit 340 343	min
+T41	Number 374 375	2
+T42	Condition-Unit 376 377	h
+T43	Number 436 439	100
+T44	Apparatus-Unit 440 442	mL
+T45	Number 463 466	170
+T46	Condition-Unit 467 471	degC
+T47	Number 476 478	24
+T48	Condition-Unit 479 480	h
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E7	
+R7	Next_Operation Arg1:E7 Arg2:E8	
+R8	Next_Operation Arg1:E8 Arg2:E9	
+R9	Condition_Of Arg1:T38 Arg2:E2	
+R10	Condition_Of Arg1:T40 Arg2:E3	
+R11	Condition_Of Arg1:T38 Arg2:E3	
+R12	Condition_Of Arg1:T42 Arg2:E4	
+R13	Apparatus_Of Arg1:T14 Arg2:E5	
+R14	Condition_Of Arg1:T46 Arg2:E6	
+R15	Condition_Of Arg1:T48 Arg2:E6	
+R16	Condition_Of Arg1:T22 Arg2:E8	
+R17	Condition_Of Arg1:T26 Arg2:E9	
+R18	Condition_Of Arg1:T28 Arg2:E9	
+R19	Amount_Of Arg1:T30 Arg2:T10	
+R20	Amount_Of Arg1:T32 Arg2:T10	
+R21	Amount_Of Arg1:T35 Arg2:T11	
+R22	Descriptor_Of Arg1:T36 Arg2:T11	
+R23	Descriptor_Of Arg1:T15 Arg2:T14	
+R24	Descriptor_Of Arg1:T19 Arg2:T18	
+R25	Descriptor_Of Arg1:T21 Arg2:T20	
+R26	Number_Of Arg1:T29 Arg2:T30	
+R27	Number_Of Arg1:T31 Arg2:T32	
+R28	Number_Of Arg1:T34 Arg2:T35	
+R29	Number_Of Arg1:T37 Arg2:T38	
+R30	Number_Of Arg1:T39 Arg2:T40	
+R31	Number_Of Arg1:T41 Arg2:T42	
+R32	Number_Of Arg1:T43 Arg2:T44	
+R33	Number_Of Arg1:T45 Arg2:T46	
+R34	Number_Of Arg1:T47 Arg2:T48	
+R35	Number_Of Arg1:T25 Arg2:T26	
+R36	Number_Of Arg1:T27 Arg2:T28	
+R37	Brand_Of Arg1:T33 Arg2:T10	
+R38	Apparatus_Attr_Of Arg1:T44 Arg2:T14	

@@ -1,0 +1,4 @@
+10.1016/j.spmi.2014.05.032
+Influence of the growth rate on the morphology of electrodeposited zinc oxide
+
+The electrochemical growth of ZnO was performed by using a potentiostat in the three-electrode configuration with F-doped SnO2 (FTO) supplied by SOLEMS, graphite and Ag/AgCl(sat) as working (WE), counter and reference electrode (RE), respectively. The electrolyte was made by dissolving different amount of Zn(NO3)2*4H2O in deionized water (18.2 MΩ cm), to reach concentrations from 0.01 M to 0.1 M. The bath was then heated at 80 degC under magnetic stirring and the final pH was around 4.6. Electrodeposition was carried out at a potential ranging between -0.9 V/RE and -1.4 V/RE with adjusted deposition time to obtain 350/400 nm-thick layers, in compliance with Faraday's law. Then, the samples were rinsed with deionized water, dried with nitrogen and finally annealed at 200 degC during 30 min at atmospheric pressure.

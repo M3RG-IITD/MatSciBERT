@@ -1,0 +1,106 @@
+T1	Operation 159 167	prepared
+E1	Operation:T1 Recipe_Target:T12
+T2	Operation 304 308	used
+E2	Operation:T2 Recipe_Precursor:T18 Participant_Material:T19
+T3	Operation 370 374	used
+E3	Operation:T3 Recipe_Precursor:T20 Participant_Material:T22
+T4	Operation 442 447	added
+E4	Operation:T4 Recipe_Precursor:T24
+T5	Operation 596 604	prepared
+E5	Operation:T5 Recipe_Precursor:T25 Recipe_Precursor:T26 Recipe_Precursor:T28 Participant_Material:T29 Recipe_Precursor:T30
+T6	Operation 689 700	transferred
+E6	Operation:T6 Participant_Material:T31
+T7	Operation 744 750	heated
+E7	Operation:T7 
+T8	Operation 802 811	collected
+E8	Operation:T8 Participant_Material:T33
+T9	Operation 815 829	centrifugation
+E9	Operation:T9 
+T10	Operation 845 851	washed
+E10	Operation:T10 Solvent_Material:T34 Solvent_Material:T35
+T11	Operation 913 925	vacuum-dried
+E11	Operation:T11 Participant_Material:T36
+T12	Material 146 154	TiO2-xNy
+T13	Property-Misc 137 145	co-doped
+T14	Meta 171 190	hydrothermal method
+T15	Nonrecipe-Material 230 234	TiO2
+T16	Nonrecipe-Material 222 223	N
+T17	Material-Descriptor 224 229	doped
+T18	Material 270 275	TiCl3
+T19	Nonrecipe-Material 316 324	titanium
+T20	Material 337 359	hexamethylenetetramine
+T21	Material 361 364	HMT
+T22	Nonrecipe-Material 378 386	nitrogen
+T23	Nonrecipe-Material 406 408	Fe
+T24	Material 427 437	FeCl2*4H2O
+T25	Material 535 540	TiCl3
+T26	Material 542 552	FeCl2*4H2O
+T28	Material 557 579	hexamethylenetetramine
+T27	Material 581 584	HMT
+T29	Material 634 644	metal ions
+T30	Material 661 664	HMT
+T31	Material 676 684	solution
+T32	Synthesis-Apparatus 729 738	autoclave
+T33	Material 784 796	precipitates
+T34	Material 867 872	water
+T35	Material 877 884	acetone
+T36	Material 899 907	products
+T37	Number 276 278	20
+T38	Amount-Unit 279 282	wt%
+T39	Material-Descriptor 283 299	aqueous solution
+T40	Material-Descriptor 325 331	source
+T41	Material-Descriptor 387 393	source
+T42	Material 418 425	samples
+T43	Number 503 505	50
+T44	Amount-Unit 506 508	mL
+T45	Material-Descriptor 509 531	mixed aqueous solution
+T46	Number 622 626	0.03
+T47	Amount-Unit 627 630	mol
+T48	Number 649 653	0.06
+T49	Amount-Unit 654 657	mol
+T50	Apparatus-Descriptor 706 728	Teflon-lined stainless
+T51	Number 754 757	190
+T52	Condition-Unit 758 762	degC
+T53	Number 767 768	2
+T54	Condition-Unit 769 770	h
+T55	Material-Descriptor 857 866	distilled
+T56	Number 929 931	60
+T57	Condition-Unit 932 936	degC
+T58	Condition-Misc 937 946	overnight
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Next_Operation Arg1:E8 Arg2:E9	
+R8	Next_Operation Arg1:E9 Arg2:E10	
+R9	Next_Operation Arg1:E10 Arg2:E11	
+R10	Coref_Of Arg1:T21 Arg2:T20	
+R11	Coref_Of Arg1:T27 Arg2:T28	
+R12	Apparatus_Of Arg1:T32 Arg2:E6	
+R13	Condition_Of Arg1:T52 Arg2:E7	
+R14	Condition_Of Arg1:T54 Arg2:E7	
+R15	Condition_Of Arg1:T57 Arg2:E11	
+R16	Condition_Of Arg1:T58 Arg2:E11	
+R17	Property_Of Arg1:T13 Arg2:T12	
+R18	Amount_Of Arg1:T38 Arg2:T18	
+R19	Amount_Of Arg1:T47 Arg2:T29	
+R20	Amount_Of Arg1:T49 Arg2:T30	
+R21	Amount_Of Arg1:T44 Arg2:T25	
+R22	Amount_Of Arg1:T44 Arg2:T26	
+R23	Amount_Of Arg1:T44 Arg2:T28	
+R24	Descriptor_Of Arg1:T39 Arg2:T18	
+R25	Descriptor_Of Arg1:T40 Arg2:T19	
+R26	Descriptor_Of Arg1:T41 Arg2:T22	
+R27	Descriptor_Of Arg1:T45 Arg2:T25	
+R28	Descriptor_Of Arg1:T45 Arg2:T26	
+R29	Descriptor_Of Arg1:T45 Arg2:T28	
+R30	Descriptor_Of Arg1:T50 Arg2:T32	
+R31	Descriptor_Of Arg1:T55 Arg2:T34	
+R32	Number_Of Arg1:T43 Arg2:T44	
+R33	Number_Of Arg1:T46 Arg2:T47	
+R34	Number_Of Arg1:T48 Arg2:T49	
+R35	Number_Of Arg1:T51 Arg2:T52	
+R36	Number_Of Arg1:T53 Arg2:T54	
+R37	Number_Of Arg1:T56 Arg2:T57	

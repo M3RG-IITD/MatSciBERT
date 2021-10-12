@@ -1,0 +1,71 @@
+T1	Material 87 114	cerium-niobium binary oxide
+T2	Material 178 205	cerium-niobium mixed oxides
+T3	Operation 211 219	prepared
+E1	Operation:T3 Recipe_Target:T2
+T4	Operation 287 296	dissolved
+E2	Operation:T4 Recipe_Precursor:T15 Solvent_Material:T16 Recipe_Precursor:T17 Solvent_Material:T18
+T5	Operation 396 401	mixed
+E3	Operation:T5 Participant_Material:T19
+T6	Operation 415 420	added
+E4	Operation:T6 Participant_Material:T20
+T7	Operation 472 480	stirring
+E5	Operation:T7 
+T8	Operation 516 525	collected
+E6	Operation:T8 Participant_Material:T21
+T9	Operation 529 539	filtration
+E7	Operation:T9 Participant_Material:T22
+T10	Operation 609 614	dried
+E8	Operation:T10 
+T11	Operation 641 649	calcined
+E9	Operation:T11 Atmospheric_Material:T23
+T12	Nonrecipe-Material 786 788	Ce
+T13	Nonrecipe-Material 789 791	Nb
+T14	Meta 223 246	co-precipitation method
+T15	Material 266 282	niobium chloride
+T16	Material 300 308	methanol
+T17	Material 313 327	cerium nitrate
+T18	Material 341 346	water
+T19	Material 381 390	solutions
+T20	Material 439 446	ammonia
+T21	Material 498 510	precipitates
+T22	Nonrecipe-Material 575 578	Cl-
+T23	Material 676 679	air
+T24	Number 618 621	120
+T25	Condition-Unit 622 626	degC
+T26	Number 653 656	500
+T27	Condition-Unit 657 661	degC
+T28	Number 666 667	5
+T29	Condition-Unit 668 669	h
+T30	Number 797 800	1/3
+T31	Number 802 805	1/1
+T32	Number 811 814	3/1
+T33	Amount-Unit 770 782	molar ratios
+T34	Amount-Misc 248 262	Desired amount
+T35	Material-Descriptor 331 340	deionized
+T36	Material-Descriptor 447 455	solution
+T37	Condition-Misc 544 557	several times
+T38	Nonrecipe-Material 592 597	AgNO3
+T39	Condition-Misc 627 636	overnight
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Next_Operation Arg1:E8 Arg2:E9	
+T40	Operation 580 588	detected
+E10	Operation:T40 Participant_Material:T38
+R8	Condition_Of Arg1:T37 Arg2:E7	
+R9	Condition_Of Arg1:T25 Arg2:E8	
+R10	Condition_Of Arg1:T39 Arg2:E8	
+R11	Condition_Of Arg1:T27 Arg2:E9	
+R12	Condition_Of Arg1:T29 Arg2:E9	
+R13	Amount_Of Arg1:T34 Arg2:T15	
+R14	Amount_Of Arg1:T33 Arg2:T12	
+R15	Amount_Of Arg1:T33 Arg2:T13	
+R16	Number_Of Arg1:T24 Arg2:T25	
+R17	Number_Of Arg1:T26 Arg2:T27	
+R18	Number_Of Arg1:T28 Arg2:T29	
+R19	Number_Of Arg1:T30 Arg2:T33	
+R20	Number_Of Arg1:T31 Arg2:T33	
+R21	Number_Of Arg1:T32 Arg2:T33	

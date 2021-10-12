@@ -1,0 +1,276 @@
+T1	Operation 145 154	purchased
+E1	Operation:T1 Participant_Material:T40
+T2	Operation 273 277	used
+E2	Operation:T2 Recipe_Precursor:T41 Recipe_Precursor:T42 Participant_Material:T44 Participant_Material:T45
+T3	Operation 429 438	dissolved
+E3	Operation:T3 Recipe_Precursor:T47 Recipe_Precursor:T46 Solvent_Material:T51
+T4	Operation 617 625	prepared
+E4	Operation:T4 Participant_Material:T54 Recipe_Precursor:T53 Recipe_Precursor:T55 Participant_Material:T59
+T5	Operation 703 711	prepared
+E5	Operation:T5 Recipe_Precursor:T60 Participant_Material:T61
+T6	Operation 788 792	used
+E6	Operation:T6 Participant_Material:T62
+T7	Operation 822 829	dropped
+E7	Operation:T7 Participant_Material:T63 Participant_Material:T64
+T8	Operation 887 895	stirring
+E8	Operation:T8 Atmospheric_Material:T65
+T9	Operation 996 1002	formed
+E9	Operation:T9 Participant_Material:T67 Participant_Material:T68
+T10	Operation 1032 1039	dropped
+E10	Operation:T10 Participant_Material:T126
+T11	Operation 1083 1089	obtain
+E11	Operation:T11 Participant_Material:T69
+T12	Operation 1160 1169	treatment
+E12	Operation:T12 Participant_Material:T70
+T13	Operation 1202 1208	obtain
+E13	Operation:T13 Participant_Material:T71 Participant_Material:T72
+T14	Operation 1331 1338	dropped
+E14	Operation:T14 Recipe_Precursor:T73 Participant_Material:T74
+T15	Operation 1410 1413	get
+E15	Operation:T15 Participant_Material:T75
+T16	Operation 1461 1469	dropping
+E16	Operation:T16 
+T17	Operation 1536 1542	coated
+E17	Operation:T17 Participant_Material:T76
+T18	Operation 1583 1589	formed
+E18	Operation:T18 
+T19	Operation 1599 1603	aged
+E19	Operation:T19 
+T20	Operation 1643 1651	filtered
+E20	Operation:T20 Participant_Material:T77 Participant_Material:T78
+T21	Operation 1684 1691	washing
+E21	Operation:T21 Participant_Material:T79
+T22	Operation 1837 1843	heated
+E22	Operation:T22 Participant_Material:T82 Atmospheric_Material:T83
+T23	Operation 1874 1878	form
+E23	Operation:T23 Participant_Material:T84
+T24	Operation 1904 1910	mixing
+E24	Operation:T24 Recipe_Precursor:T85
+T25	Operation 1973 1981	calcined
+E25	Operation:T25 Participant_Material:T86
+T26	Operation 2006 2012	obtain
+E26	Operation:T26 Recipe_Target:T87 Recipe_Target:T88 Recipe_Target:T89 Recipe_Target:T90 Recipe_Target:T91
+T27	Brand 160 193	Tianjin Chemical Reagent Co. Ltd.
+T28	Brand 195 197	AR
+T29	Number 199 201	99
+T30	Number 398 407	1.95:0.05
+T31	Number 588 595	0.5:1.5
+T32	Number 1608 1609	1
+T33	Number 1744 1745	7
+T34	Number 1847 1850	500
+T35	Number 1860 1861	5
+T36	Number 1916 1917	3
+T37	Number 1985 1988	750
+T38	Number 1998 2000	10
+T39	Number 2185 2186	3
+T40	Material 120 129	chemicals
+T41	Material 206 222	Mn(CH3COO)2*4H2O
+T42	Material 224 234	MgSO4*7H2O
+T43	Material 236 253	Ni (CH3COO)2*4H2O
+T44	Material 259 267	LiOH*H2O
+T45	Material 290 299	materials
+T46	Material 339 355	Mn(CH3COO)2*4H2O
+T47	Material 360 370	MgSO4*7H2O
+T48	Nonrecipe-Material 390 392	Mn
+T49	Nonrecipe-Material 393 395	Mg
+T50	Material 409 414	Mn-Mg
+T51	Material 463 468	water
+T52	Material 482 488	spinel
+T53	Material 522 538	Ni(CH3COO)2*4H2O
+T54	Material 502 509	mixture
+T55	Material 544 560	Mn(CH3COO)2*4H2O
+T56	Nonrecipe-Material 580 582	Ni
+T57	Nonrecipe-Material 583 585	Mn
+T58	Material 597 602	Ni-Mn
+T59	Material 630 644	LiNi0.5Mn1.5O4
+T60	Material 676 684	LiOH*H2O
+T61	Material 715 726	precipitant
+T62	Material 773 784	precipitant
+T63	Material 803 808	Mn-Mg
+T64	Material 839 847	LiOH*H2O
+T65	Material 901 903	N2
+T66	Material 924 938	LiNi0.5Mn1.5O4
+T67	Material 978 995	Mg0.05Mn1.95(OH)4
+T68	Material 1008 1013	Ni-Mn
+T69	Material 1090 1123	Mg0.05Mn1.95(OH)4-Ni0.5Mn1.5(OH)4
+T70	Material 1191 1197	spinel
+T71	Material 1213 1221	Li2Mn4O9
+T72	Material 1233 1242	Li4Mn5O12
+T73	Material 1309 1325	Mn(CH3COO)2*4H2O
+T74	Material 1377 1394	Mg0.05Mn1.95(OH)4
+T75	Material 1414 1439	Mg0.05Mn1.95(OH)4-Mn(OH)2
+T76	Material 1504 1521	Mg0.05Mn1.95(OH)4
+T77	Material 1621 1632	suspensions
+T78	Material 1663 1671	sediment
+T79	Material 1707 1712	water
+T80	Nonrecipe-Material 1784 1790	Li ion
+T81	Material 1802 1811	precursor
+T82	Material 1817 1826	sediments
+T83	Material 1867 1870	air
+T84	Material 1891 1896	oxide
+T85	Material 1948 1956	LiOH*H2O
+T86	Material 1962 1968	powder
+T87	Material 2035 2051	LiMg0.05Mn1.95O4
+T88	Material 2057 2065	Li2Mn4O9
+T89	Material 2074 2083	Li4Mn5O12
+T90	Material 2096 2110	LiNi0.5Mn1.5O4
+T91	Material 2118 2134	LiMg0.05Mn1.95O4
+T92	Amount-Unit 202 203	%
+T93	Amount-Unit 372 386	cationic ratio
+T94	Amount-Unit 562 576	cationic ratio
+T95	Condition-Unit 1610 1613	day
+T96	Condition-Unit 1723 1725	pH
+T97	Operation 1732 1740	degraded
+E27	Operation:T97 
+T98	Condition-Unit 1851 1855	degC
+T99	Condition-Unit 1862 1863	h
+T100	Amount-Unit 1918 1919	%
+T101	Amount-Unit 1933 1944	molar ratio
+T102	Condition-Unit 1989 1993	degC
+T103	Condition-Unit 2001 2002	h
+T104	Amount-Unit 2187 2191	wt.%
+T105	Amount-Unit 2176 2181	ratio
+T106	Amount-Misc 314 335	stoichiometric amount
+T107	Material-Descriptor 415 423	solution
+T108	Material-Descriptor 453 462	deionized
+T109	Material-Descriptor 473 481	Mg-doped
+T110	Material-Descriptor 489 498	precursor
+T111	Material-Descriptor 510 518	solution
+T112	Material-Descriptor 603 611	solution
+T113	Material-Descriptor 645 652	coating
+T114	Material-Descriptor 666 675	saturated
+T115	Material-Descriptor 685 693	solution
+T116	Material-Descriptor 809 817	solution
+T117	Material-Descriptor 848 856	solution
+T118	Synthesis-Apparatus 862 867	flask
+T119	Condition-Misc 874 886	continuously
+T120	Condition-Type 904 914	atmosphere
+T121	Material-Descriptor 939 945	coated
+T122	Material-Descriptor 946 952	spinel
+T123	Material-Descriptor 964 977	coprecipitate
+T124	Material-Descriptor 1014 1022	solution
+T125	Material-Descriptor 1055 1068	coprecipitate
+T126	Material 1069 1079	suspension
+T127	Material-Descriptor 1124 1137	coprecipitate
+T128	Material-Descriptor 1186 1190	bare
+T129	Material-Descriptor 1222 1228	coated
+T130	Material-Descriptor 1243 1249	coated
+T131	Material-Descriptor 1250 1257	spinels
+T132	Material-Descriptor 1296 1305	solutions
+T133	Material-Descriptor 1288 1295	aqueous
+T134	Amount-Misc 1273 1287	stoichiometric
+T135	Material-Descriptor 1363 1376	coprecipitate
+T136	Material-Descriptor 1395 1406	suspensions
+T137	Material-Descriptor 1440 1453	coprecipitate
+T138	Material-Descriptor 1488 1498	suspension
+T139	Material-Descriptor 1522 1535	coprecipitate
+T140	Material-Descriptor 1697 1706	deionized
+T141	Material-Descriptor 1775 1783	residual
+T142	Material-Descriptor 1881 1890	composite
+T143	Property-Misc 2023 2034	bare spinel
+T144	Property-Misc 2066 2072	coated
+T145	Property-Misc 2084 2090	coated
+T146	Property-Misc 2111 2117	coated
+T147	Property-Misc 2135 2142	spinels
+T148	Material 59 65	spinel
+T149	Property-Misc 50 58	Mg-doped
+R1	Property_Of Arg1:T149 Arg2:T148	
+A1	Start_Recipe E1
+R2	Next_Operation Arg1:E1 Arg2:E2	
+R3	Next_Operation Arg1:E2 Arg2:E3	
+R4	Next_Operation Arg1:E3 Arg2:E4	
+R5	Next_Operation Arg1:E4 Arg2:E5	
+R6	Next_Operation Arg1:E5 Arg2:E6	
+R7	Next_Operation Arg1:E6 Arg2:E7	
+R8	Next_Operation Arg1:E7 Arg2:E8	
+R9	Next_Operation Arg1:E8 Arg2:E9	
+R10	Next_Operation Arg1:E9 Arg2:E10	
+R11	Next_Operation Arg1:E10 Arg2:E11	
+R12	Next_Operation Arg1:E11 Arg2:E12	
+A2	End_Recipe E12
+A3	Start_Recipe E13
+R13	Next_Operation Arg1:E13 Arg2:E14	
+R14	Next_Operation Arg1:E14 Arg2:E15	
+R15	Next_Operation Arg1:E15 Arg2:E16	
+R16	Next_Operation Arg1:E16 Arg2:E17	
+R17	Next_Operation Arg1:E17 Arg2:E18	
+R18	Next_Operation Arg1:E18 Arg2:E19	
+R19	Next_Operation Arg1:E19 Arg2:E20	
+R20	Next_Operation Arg1:E20 Arg2:E21	
+R21	Next_Operation Arg1:E21 Arg2:E27	
+R22	Next_Operation Arg1:E27 Arg2:E22	
+R23	Next_Operation Arg1:E22 Arg2:E23	
+R24	Next_Operation Arg1:E23 Arg2:E24	
+R25	Next_Operation Arg1:E24 Arg2:E25	
+R26	Next_Operation Arg1:E25 Arg2:E26	
+A4	End_Recipe E26
+R27	Brand_Of Arg1:T27 Arg2:T40	
+R28	Number_Of Arg1:T29 Arg2:T92	
+R29	Brand_Of Arg1:T28 Arg2:T40	
+R30	Amount_Of Arg1:T92 Arg2:T40	
+T150	Material-Descriptor 281 289	starting
+R31	Descriptor_Of Arg1:T150 Arg2:T45	
+R32	Amount_Of Arg1:T106 Arg2:T46	
+R33	Amount_Of Arg1:T93 Arg2:T48	
+R34	Amount_Of Arg1:T93 Arg2:T49	
+R35	Number_Of Arg1:T30 Arg2:T93	
+R36	Descriptor_Of Arg1:T107 Arg2:T50	
+T151	Condition-Misc 439 449	completely
+R37	Condition_Of Arg1:T151 Arg2:E3	
+R38	Descriptor_Of Arg1:T108 Arg2:T51	
+R39	Descriptor_Of Arg1:T109 Arg2:T52	
+R40	Descriptor_Of Arg1:T110 Arg2:T52	
+R41	Descriptor_Of Arg1:T111 Arg2:T54	
+R42	Amount_Of Arg1:T94 Arg2:T56	
+R43	Amount_Of Arg1:T94 Arg2:T57	
+R44	Number_Of Arg1:T31 Arg2:T94	
+R45	Descriptor_Of Arg1:T112 Arg2:T58	
+R46	Descriptor_Of Arg1:T113 Arg2:T59	
+R47	Descriptor_Of Arg1:T114 Arg2:T60	
+R48	Descriptor_Of Arg1:T115 Arg2:T60	
+R49	Descriptor_Of Arg1:T116 Arg2:T63	
+R50	Descriptor_Of Arg1:T117 Arg2:T64	
+R51	Apparatus_Of Arg1:T118 Arg2:E7	
+R52	Condition_Of Arg1:T119 Arg2:E8	
+R53	Descriptor_Of Arg1:T121 Arg2:T66	
+R54	Descriptor_Of Arg1:T122 Arg2:T66	
+R55	Descriptor_Of Arg1:T123 Arg2:T67	
+R56	Descriptor_Of Arg1:T124 Arg2:T68	
+R57	Descriptor_Of Arg1:T125 Arg2:T126	
+R58	Descriptor_Of Arg1:T127 Arg2:T69	
+R59	Descriptor_Of Arg1:T128 Arg2:T70	
+R60	Descriptor_Of Arg1:T129 Arg2:T71	
+R61	Descriptor_Of Arg1:T130 Arg2:T72	
+R62	Descriptor_Of Arg1:T131 Arg2:T72	
+R63	Amount_Of Arg1:T134 Arg2:T73	
+R64	Descriptor_Of Arg1:T133 Arg2:T73	
+R65	Descriptor_Of Arg1:T132 Arg2:T73	
+R66	Descriptor_Of Arg1:T135 Arg2:T74	
+R67	Descriptor_Of Arg1:T136 Arg2:T74	
+R68	Descriptor_Of Arg1:T137 Arg2:T75	
+R69	Descriptor_Of Arg1:T138 Arg2:T76	
+R70	Descriptor_Of Arg1:T139 Arg2:T76	
+R71	Number_Of Arg1:T32 Arg2:T95	
+R72	Condition_Of Arg1:T95 Arg2:E19	
+R73	Descriptor_Of Arg1:T140 Arg2:T79	
+R74	Condition_Of Arg1:T96 Arg2:E27	
+R75	Number_Of Arg1:T33 Arg2:T96	
+R76	Descriptor_Of Arg1:T141 Arg2:T80	
+R77	Number_Of Arg1:T34 Arg2:T98	
+R78	Condition_Of Arg1:T98 Arg2:E22	
+R79	Number_Of Arg1:T35 Arg2:T99	
+R80	Condition_Of Arg1:T99 Arg2:E22	
+R81	Descriptor_Of Arg1:T142 Arg2:T84	
+R82	Number_Of Arg1:T36 Arg2:T100	
+R83	Amount_Of Arg1:T101 Arg2:T85	
+R84	Amount_Of Arg1:T100 Arg2:T85	
+R85	Number_Of Arg1:T37 Arg2:T102	
+R86	Condition_Of Arg1:T102 Arg2:E25	
+R87	Condition_Of Arg1:T103 Arg2:E25	
+R88	Number_Of Arg1:T38 Arg2:T103	
+R89	Number_Of Arg1:T39 Arg2:T104	
+R90	Property_Of Arg1:T143 Arg2:T87	
+R91	Property_Of Arg1:T144 Arg2:T88	
+R92	Property_Of Arg1:T145 Arg2:T89	
+R93	Property_Of Arg1:T146 Arg2:T90	
+R94	Property_Of Arg1:T147 Arg2:T91	

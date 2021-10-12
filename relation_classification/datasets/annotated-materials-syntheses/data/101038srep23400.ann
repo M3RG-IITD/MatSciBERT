@@ -1,0 +1,68 @@
+T1	Operation 227 235	prepared
+E1	Operation:T1 Recipe_Target:T10 Recipe_Precursor:T11 Recipe_Precursor:T12 Recipe_Precursor:T13 Recipe_Precursor:T14
+T2	Meta 239 259	solid state reaction
+T3	Operation 354 360	heated
+E2	Operation:T3 Participant_Material:T15 Atmospheric_Material:T20
+T4	Operation 394 402	followed
+E3	Operation:T4 
+T5	Operation 406 416	regrinding
+E4	Operation:T5 
+T6	Operation 421 428	heating
+E5	Operation:T6 
+T7	Operation 482 490	reground
+E6	Operation:T7 Participant_Material:T25
+T8	Operation 495 502	pressed
+E7	Operation:T8 Participant_Material:T36
+T9	Operation 556 564	sintered
+E8	Operation:T9 
+T10	Material 187 203	SrTi1-2xFexTaxO3
+T11	Material 286 291	SrCO3
+T12	Material 293 298	Fe2O3
+T13	Material 300 305	Ta2O5
+T14	Material 310 314	TiO2
+T15	Material 327 335	mixtures
+T16	Number 364 368	1173
+T17	Condition-Unit 369 370	K
+T18	Number 375 377	30
+T19	Condition-Unit 378 379	h
+T20	Material 390 393	air
+T21	Number 432 436	1473
+T22	Condition-Unit 437 438	K
+T23	Number 443 445	30
+T24	Condition-Unit 446 447	h
+T25	Material 468 476	products
+T26	Number 517 519	10
+T27	Property-Unit 520 522	mm
+T28	Number 536 537	2
+T29	Property-Unit 538 540	mm
+T30	Property-Type 523 531	diameter
+T31	Property-Type 541 550	thickness
+T32	Number 568 572	1623
+T33	Condition-Unit 573 574	K
+T34	Number 579 581	30
+T35	Condition-Unit 582 583	h
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Condition_Of Arg1:T17 Arg2:E2	
+R8	Condition_Of Arg1:T19 Arg2:E2	
+R9	Condition_Of Arg1:T22 Arg2:E5	
+R10	Condition_Of Arg1:T24 Arg2:E5	
+R11	Condition_Of Arg1:T33 Arg2:E8	
+R12	Condition_Of Arg1:T35 Arg2:E8	
+T36	Material 508 515	pellets
+R13	Property_Of Arg1:T27 Arg2:T36	
+R14	Property_Of Arg1:T29 Arg2:T36	
+R15	Type_Of Arg1:T30 Arg2:T27	
+R16	Type_Of Arg1:T31 Arg2:T29	
+R17	Number_Of Arg1:T16 Arg2:T17	
+R18	Number_Of Arg1:T18 Arg2:T19	
+R19	Number_Of Arg1:T21 Arg2:T22	
+R20	Number_Of Arg1:T23 Arg2:T24	
+R21	Number_Of Arg1:T26 Arg2:T27	
+R22	Number_Of Arg1:T28 Arg2:T29	
+R23	Number_Of Arg1:T32 Arg2:T33	
+R24	Number_Of Arg1:T34 Arg2:T35	

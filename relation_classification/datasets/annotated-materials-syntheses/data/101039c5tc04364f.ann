@@ -1,0 +1,153 @@
+T1	Material 46 73	silver nanowire/metal oxide
+T2	Property-Misc 74 90	hybrid electrode
+T3	Property-Misc 29 44	gravure-printed
+T4	Operation 151 160	dispersed
+E1	Operation:T4 Recipe_Precursor:T28 Solvent_Material:T29
+T5	Operation 177 186	purchased
+E2	Operation:T5 
+T6	Operation 296 304	obtained
+E3	Operation:T6 
+T7	Operation 384 392	provided
+E4	Operation:T7 
+T8	Operation 458 466	obtained
+E5	Operation:T8 Participant_Material:T34 Participant_Material:T33
+T9	Operation 517 525	prepared
+E6	Operation:T9 Recipe_Target:T36 Recipe_Precursor:T37
+T10	Operation 551 560	dispersed
+E7	Operation:T10 Solvent_Material:T38 Recipe_Precursor:T39 Recipe_Precursor:T41
+T11	Operation 656 665	dissolved
+E8	Operation:T11 Recipe_Precursor:T42 Recipe_Precursor:T43
+T12	Operation 770 779	sonicated
+E9	Operation:T12 Participant_Material:T44
+T13	Operation 806 817	dissolution
+E10	Operation:T13 Participant_Material:T45
+T14	Operation 862 870	filtered
+E11	Operation:T14 
+T15	Operation 907 913	mixing
+E12	Operation:T15 
+T16	Operation 929 939	dispersion
+E13	Operation:T16 Recipe_Precursor:T46
+T17	Operation 986 994	remained
+E14	Operation:T17 Participant_Material:T47
+T18	Operation 1002 1011	dispersed
+E15	Operation:T18 
+T19	Number 229 231	33
+T20	Number 253 255	14
+T21	Number 279 280	1
+T22	Number 616 621	99.99
+T23	Number 648 653	99.99
+T24	Number 671 674	2:1
+T25	Number 784 785	1
+T26	Number 881 884	0.2
+T27	Number 1026 1029	one
+T28	Material 144 150	Ag NWs
+T29	Material 164 171	ethanol
+T30	Brand 192 206	Blue Nano Inc.
+T31	Brand 310 325	VWR Scientific.
+T32	Brand 396 416	Dupont Teijin Films.
+T33	Material 421 429	solvents
+T34	Material 442 452	precursors
+T35	Brand 472 485	Sigma Aldrich
+T36	Material 487 496	IZO/Ag NW
+T37	Material 544 550	Ag NWs
+T38	Material 564 571	ethanol
+T39	Material 576 579	IZO
+T40	Material 600 614	Indium Acetate
+T41	Material 624 646	Zinc Acetate dehydrate
+T42	Material 701 717	2-methoxyethanol
+T43	Material 722 738	monoethanolamine
+T44	Material 752 761	precursor
+T45	Material 836 844	solution
+T46	Material 923 928	Ag NW
+T47	Material 982 985	ink
+T48	Property-Type 208 224	average diameter
+T49	Property-Unit 232 234	nm
+T50	Property-Type 236 250	average length
+T51	Property-Unit 256 258	μm
+T52	Amount-Unit 621 622	%
+T53	Amount-Unit 653 654	%
+T54	Amount-Unit 684 696	volume ratio
+T55	Condition-Unit 786 790	hour
+T56	Apparatus-Unit 885 887	μm
+T57	Condition-Unit 1030 1035	month
+T58	Synthesis-Apparatus 267 277	substrates
+T59	Apparatus-Descriptor 261 266	Glass
+T60	Apparatus-Unit 281 283	mm
+T61	Apparatus-Property-Type 284 289	thick
+T62	Synthesis-Apparatus 362 372	substrates
+T63	Apparatus-Descriptor 326 361	Planarized polyethylene naphthalate
+T64	Synthesis-Apparatus 374 377	PEN
+T65	Material-Descriptor 434 441	sol-gel
+T66	Material-Descriptor 497 511	composite inks
+T67	Material-Descriptor 675 682	mixture
+T68	Material-Descriptor 533 540	mixture
+T69	Material-Descriptor 580 598	sol-gel precursors
+T70	Material-Descriptor 744 751	sol-gel
+T71	Material-Descriptor 762 765	ink
+T72	Condition-Misc 797 805	complete
+T73	Synthesis-Apparatus 893 899	filter
+T74	Apparatus-Descriptor 888 892	PTFE
+T75	Condition-Misc 995 1001	stably
+R1	Property_Of Arg1:T3 Arg2:T1	
+R2	Property_Of Arg1:T2 Arg2:T1	
+A1	Start_Recipe E1
+R3	Next_Operation Arg1:E1 Arg2:E2	
+R4	Next_Operation Arg1:E2 Arg2:E3	
+R5	Next_Operation Arg1:E3 Arg2:E4	
+R6	Next_Operation Arg1:E4 Arg2:E5	
+R7	Next_Operation Arg1:E5 Arg2:E6	
+R8	Next_Operation Arg1:E6 Arg2:E7	
+R9	Next_Operation Arg1:E7 Arg2:E8	
+R10	Next_Operation Arg1:E8 Arg2:E9	
+R11	Next_Operation Arg1:E9 Arg2:E10	
+R12	Next_Operation Arg1:E10 Arg2:E11	
+R13	Next_Operation Arg1:E11 Arg2:E12	
+R14	Next_Operation Arg1:E12 Arg2:E13	
+R15	Next_Operation Arg1:E13 Arg2:E14	
+R16	Next_Operation Arg1:E14 Arg2:E15	
+A2	End_Recipe E15
+R17	Brand_Of Arg1:T30 Arg2:T29	
+R18	Brand_Of Arg1:T30 Arg2:T28	
+R19	Number_Of Arg1:T19 Arg2:T49	
+R20	Type_Of Arg1:T48 Arg2:T49	
+R21	Number_Of Arg1:T20 Arg2:T51	
+R22	Type_Of Arg1:T50 Arg2:T51	
+R23	Property_Of Arg1:T49 Arg2:T28	
+R24	Property_Of Arg1:T51 Arg2:T28	
+R25	Descriptor_Of Arg1:T59 Arg2:T58	
+R26	Number_Of Arg1:T21 Arg2:T60	
+R27	Type_Of Arg1:T61 Arg2:T60	
+R28	Apparatus_Of Arg1:T58 Arg2:E3	
+R29	Apparatus_Attr_Of Arg1:T60 Arg2:T58	
+R30	Brand_Of Arg1:T31 Arg2:T58	
+R31	Descriptor_Of Arg1:T63 Arg2:T62	
+R32	Apparatus_Of Arg1:T62 Arg2:E4	
+R33	Brand_Of Arg1:T32 Arg2:T62	
+R34	Descriptor_Of Arg1:T65 Arg2:T34	
+R35	Brand_Of Arg1:T35 Arg2:T34	
+R36	Brand_Of Arg1:T35 Arg2:T33	
+R37	Descriptor_Of Arg1:T66 Arg2:T36	
+R38	Descriptor_Of Arg1:T68 Arg2:T37	
+R39	Descriptor_Of Arg1:T69 Arg2:T39	
+R40	Coref_Of Arg1:T40 Arg2:T39	
+R41	Number_Of Arg1:T22 Arg2:T52	
+R42	Amount_Of Arg1:T52 Arg2:T39	
+R43	Number_Of Arg1:T23 Arg2:T53	
+R44	Amount_Of Arg1:T53 Arg2:T41	
+R45	Number_Of Arg1:T24 Arg2:T54	
+R46	Descriptor_Of Arg1:T67 Arg2:T42	
+R47	Descriptor_Of Arg1:T67 Arg2:T43	
+R48	Amount_Of Arg1:T54 Arg2:T42	
+R49	Amount_Of Arg1:T54 Arg2:T43	
+R50	Descriptor_Of Arg1:T70 Arg2:T44	
+R51	Descriptor_Of Arg1:T71 Arg2:T44	
+R52	Number_Of Arg1:T25 Arg2:T55	
+R53	Condition_Of Arg1:T55 Arg2:E9	
+R54	Condition_Of Arg1:T72 Arg2:E10	
+R55	Number_Of Arg1:T26 Arg2:T56	
+R56	Descriptor_Of Arg1:T74 Arg2:T73	
+R57	Apparatus_Attr_Of Arg1:T56 Arg2:T73	
+R58	Apparatus_Of Arg1:T73 Arg2:E11	
+R59	Condition_Of Arg1:T75 Arg2:E15	
+R60	Number_Of Arg1:T27 Arg2:T57	
+R61	Condition_Of Arg1:T57 Arg2:E15	

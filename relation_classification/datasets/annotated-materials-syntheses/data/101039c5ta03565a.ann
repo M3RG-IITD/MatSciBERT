@@ -1,0 +1,190 @@
+T1	Operation 145 156	synthesized
+E1	Operation:T1 Recipe_Target:T40
+T2	Meta 164 185	clear solution method
+T3	Operation 245 250	mixed
+E2	Operation:T3 Recipe_Precursor:T42 Recipe_Precursor:T44
+T4	Operation 412 419	stirred
+E3	Operation:T4 
+T5	Operation 457 463	heated
+E4	Operation:T5 Participant_Material:T50
+T8	Operation 565 573	maintain
+E5	Operation:T8 
+T6	Operation 478 484	remove
+E6	Operation:T6 Participant_Material:T51
+T7	Operation 556 561	added
+E7	Operation:T7 Recipe_Precursor:T54
+T9	Operation 597 612	crystallization
+E8	Operation:T9 
+T10	Operation 653 662	recovered
+E9	Operation:T10 Participant_Material:T55
+T11	Operation 666 680	centrifugation
+E10	Operation:T11 
+T12	Operation 685 690	dried
+E11	Operation:T12 
+T13	Operation 740 747	removed
+E12	Operation:T13 Participant_Material:T56
+T14	Operation 751 762	calcination
+E13	Operation:T14 Atmospheric_Material:T57
+T15	Operation 870 881	synthesized
+E14	Operation:T15 Recipe_Target:T62
+T16	Meta 888 918	incipient-wetness impregnation
+T17	Operation 941 949	calcined
+E15	Operation:T17 Recipe_Precursor:T63
+T18	Operation 967 978	impregnated
+E16	Operation:T18 Recipe_Precursor:T63 Recipe_Precursor:T64
+T19	Operation 1020 1026	drying
+E17	Operation:T19 
+T20	Operation 1066 1074	calcined
+E18	Operation:T20 Participant_Material:T65 Atmospheric_Material:T66
+T21	Operation 1206 1213	denoted
+E19	Operation:T21 Participant_Material:T69 Recipe_Target:T70 Recipe_Target:T71 Recipe_Target:T72
+T22	Number 198 202	15.4
+T23	Number 375 376	1
+T24	Number 382 386	0.27
+T25	Number 393 395	37
+T26	Number 424 425	3
+T27	Number 431 433	35
+T28	Number 467 469	80
+T29	Number 616 619	170
+T30	Number 629 630	3
+T31	Number 704 707	100
+T32	Number 780 783	540
+T33	Number 793 794	6
+T34	Number 1040 1043	100
+T35	Number 1092 1095	400
+T36	Number 1105 1106	2
+T37	Number 1148 1151	1.5
+T38	Number 1153 1154	3
+T39	Number 1159 1160	5
+T40	Material 122 134	Silicalite-1
+T41	Material 136 139	S-1
+T42	Material 209 233	tetraethyl orthosilicate
+T43	Material 235 239	TEOS
+T44	Material 276 305	tetrapropylammonium hydroxide
+T45	Material 307 312	TPAOH
+T46	Material 363 370	mixture
+T47	Nonrecipe-Material 377 381	TEOS
+T48	Nonrecipe-Material 387 392	TPAOH
+T49	Nonrecipe-Material 395 398	H2O
+T50	Material 444 452	solution
+T51	Material 489 496	ethanol
+T52	Operation 518 528	hydrolysis
+E20	Operation:T52 Recipe_Precursor:T53
+T53	Material 532 536	TEOS
+T54	Material 546 551	water
+T55	Material 641 648	product
+T56	Material 727 735	template
+T57	Material 773 776	air
+T58	Material 817 827	Ni@Hol S-1
+T59	Operation 802 813	Preparation
+E21	Operation:T59 Recipe_Target:T58 Recipe_Target:T60 Recipe_Target:T61
+T60	Material 829 839	Pt@Hol S-1
+T61	Material 844 857	Ni-Pt@Hol S-1
+T62	Material 858 865	NiO/S-1
+T63	Material 950 962	silicalite-1
+T64	Material 1007 1012	NiCl2
+T65	Material 1054 1061	product
+T66	Material 1085 1088	air
+T67	Nonrecipe-Material 1120 1122	Ni
+T68	Material 1135 1142	NiO/S-1
+T69	Material 1194 1201	samples
+T70	Material 1217 1227	1.5NiO/S-1
+T71	Material 1229 1237	3NiO/S-1
+T72	Material 1242 1250	5NiO/S-1
+T73	Amount-Unit 203 205	ml
+T74	Condition-Unit 426 427	h
+T75	Condition-Unit 434 438	degC
+T76	Condition-Unit 470 474	degC
+T77	Condition-Unit 620 624	degC
+T78	Condition-Unit 631 635	days
+T79	Condition-Unit 708 712	degC
+T80	Condition-Unit 784 788	degC
+T81	Condition-Unit 795 796	h
+T82	Condition-Unit 1044 1048	degC
+T83	Condition-Unit 1096 1100	degC
+T84	Condition-Unit 1107 1108	h
+T85	Amount-Unit 1161 1164	wt%
+T86	Amount-Unit 328 345	molar composition
+T87	Amount-Misc 258 272	certain amount
+T88	Material-Descriptor 314 322	solution
+T89	Condition-Type 583 589	volume
+T90	Condition-Misc 574 582	constant
+T91	Condition-Misc 691 700	overnight
+T92	Material-Descriptor 766 772	static
+T93	Material-Descriptor 987 1003	aqueous solution
+T94	Condition-Misc 1027 1036	overnight
+T95	Material-Descriptor 1078 1084	static
+T96	Material-Descriptor 1123 1131	loadings
+T97	Material-Descriptor 1114 1119	ideal
+R1	Coref_Of Arg1:T41 Arg2:T40	
+A1	Start_Recipe E1
+R2	Next_Operation Arg1:E1 Arg2:E2	
+R3	Next_Operation Arg1:E2 Arg2:E3	
+R4	Next_Operation Arg1:E3 Arg2:E4	
+R5	Next_Operation Arg1:E4 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E20	
+R7	Next_Operation Arg1:E20 Arg2:E7	
+R8	Next_Operation Arg1:E7 Arg2:E5	
+R9	Next_Operation Arg1:E5 Arg2:E8	
+R10	Next_Operation Arg1:E8 Arg2:E9	
+R11	Next_Operation Arg1:E9 Arg2:E10	
+R12	Next_Operation Arg1:E10 Arg2:E11	
+R13	Next_Operation Arg1:E11 Arg2:E12	
+R14	Next_Operation Arg1:E12 Arg2:E13	
+A2	End_Recipe E13
+R15	Number_Of Arg1:T22 Arg2:T73	
+R16	Amount_Of Arg1:T73 Arg2:T42	
+R17	Coref_Of Arg1:T43 Arg2:T42	
+A3	Start_Recipe E21
+R18	Next_Operation Arg1:E21 Arg2:E14	
+R19	Next_Operation Arg1:E14 Arg2:E15	
+R20	Next_Operation Arg1:E15 Arg2:E16	
+R21	Next_Operation Arg1:E16 Arg2:E17	
+R22	Next_Operation Arg1:E17 Arg2:E18	
+R23	Next_Operation Arg1:E18 Arg2:E19	
+A4	End_Recipe E19
+R24	Amount_Of Arg1:T87 Arg2:T44	
+R25	Coref_Of Arg1:T45 Arg2:T44	
+R26	Descriptor_Of Arg1:T88 Arg2:T44	
+R27	Amount_Of Arg1:T86 Arg2:T46	
+R28	Number_Of Arg1:T26 Arg2:T74	
+R29	Condition_Of Arg1:T74 Arg2:E3	
+R30	Number_Of Arg1:T27 Arg2:T75	
+R31	Condition_Of Arg1:T75 Arg2:E3	
+R32	Number_Of Arg1:T23 Arg2:T86	
+R33	Number_Of Arg1:T24 Arg2:T86	
+R34	Number_Of Arg1:T25 Arg2:T86	
+R35	Amount_Of Arg1:T86 Arg2:T47	
+R36	Amount_Of Arg1:T86 Arg2:T48	
+R37	Amount_Of Arg1:T86 Arg2:T49	
+R38	Number_Of Arg1:T28 Arg2:T76	
+R39	Condition_Of Arg1:T76 Arg2:E4	
+R40	Condition_Of Arg1:T90 Arg2:E5	
+R41	Number_Of Arg1:T29 Arg2:T77	
+R42	Condition_Of Arg1:T77 Arg2:E8	
+R43	Number_Of Arg1:T30 Arg2:T78	
+R44	Condition_Of Arg1:T78 Arg2:E8	
+R45	Condition_Of Arg1:T91 Arg2:E11	
+R46	Condition_Of Arg1:T79 Arg2:E11	
+R47	Number_Of Arg1:T31 Arg2:T79	
+R48	Descriptor_Of Arg1:T92 Arg2:T57	
+R49	Number_Of Arg1:T32 Arg2:T80	
+R50	Condition_Of Arg1:T80 Arg2:E13	
+R51	Number_Of Arg1:T33 Arg2:T81	
+R52	Condition_Of Arg1:T81 Arg2:E13	
+R53	Descriptor_Of Arg1:T93 Arg2:T64	
+R54	Condition_Of Arg1:T94 Arg2:E17	
+R55	Number_Of Arg1:T34 Arg2:T82	
+R56	Condition_Of Arg1:T82 Arg2:E17	
+R57	Descriptor_Of Arg1:T95 Arg2:T66	
+R58	Number_Of Arg1:T35 Arg2:T83	
+R59	Number_Of Arg1:T36 Arg2:T84	
+R60	Condition_Of Arg1:T83 Arg2:E18	
+R61	Condition_Of Arg1:T84 Arg2:E18	
+R62	Descriptor_Of Arg1:T97 Arg2:T67	
+R63	Descriptor_Of Arg1:T96 Arg2:T67	
+R64	Number_Of Arg1:T37 Arg2:T85	
+R65	Number_Of Arg1:T38 Arg2:T85	
+R66	Number_Of Arg1:T39 Arg2:T85	
+R67	Amount_Of Arg1:T85 Arg2:T68	
+T98	Material 47 61	Ni-Pt bimetals

@@ -1,0 +1,7 @@
+10.1016/j.matdes.2016.04.043
+Controlled synthesis of bismuth sulfide nanorods by hydrothermal method and their photocatalytic activity
+
+Bi(NO3)3*5H2O and thiourea (NH2)2S were used as precursors for Bi and S, respectively. MB has been employed in the photocatalytic evaluation of the prepared photocatalysts. All chemicals in the present work were analytical grade reagents and they were purchased from Sigma-Aldrich.
+
+Bi2S3 nanorods with orthorhombic structure were prepared through the hydrothermal method. In a typical procedure, different weights of thiourea were added to 100 ml distilled water with magnetic stirring, then 4.0 g of Bi(NO3)3 was added to the thiourea solution to obtain Bi2S3 nanorods at different Bi:S ratios. After being stirred for 10 min at 60 degC, the solution was transferred to a Teflon-lined autoclave. The autoclave was transferred into an oven and maintained at various temperatures (100-250 degC) for various reaction times (10-48 h). After cooling the autoclave to room temperature, the collected precipitates were washed with water and ethanol for three times, afterward, dried at 60 degC for 8 h.
+

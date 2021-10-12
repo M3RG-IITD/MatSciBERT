@@ -1,0 +1,152 @@
+T1	Operation 220 225	added
+E1	Operation:T1 Recipe_Precursor:T29 Recipe_Precursor:T30 Solvent_Material:T31
+T2	Operation 278 285	stirred
+E2	Operation:T2 Participant_Material:T32
+T4	Operation 367 378	transferred
+E3	Operation:T4 Participant_Material:T34
+T5	Operation 447 451	kept
+E4	Operation:T5 
+T6	Operation 528 534	cooled
+E5	Operation:T6 
+T7	Operation 616 624	filtered
+E6	Operation:T7 Participant_Material:T35
+T8	Operation 629 640	centrifuged
+E7	Operation:T8 
+T9	Operation 728 737	collected
+E8	Operation:T9 Participant_Material:T36
+T10	Operation 742 747	mixed
+E9	Operation:T10 Recipe_Precursor:T37
+T11	Operation 794 801	stirred
+E10	Operation:T11 
+T12	Operation 850 858	obtained
+E11	Operation:T12 Participant_Material:T38
+T13	Operation 893 904	centrifuged
+E12	Operation:T13 Participant_Material:T39
+T14	Operation 954 963	collected
+E13	Operation:T14 Participant_Material:T40
+T15	Operation 968 977	dispersed
+E14	Operation:T15 Solvent_Material:T41
+T16	Number 153 158	3.084
+T17	Number 192 197	1.262
+T18	Number 231 233	30
+T19	Number 289 291	60
+T20	Number 301 303	12
+T21	Number 428 430	50
+T22	Number 491 494	150
+T23	Number 504 506	10
+T24	Number 644 648	2000
+T25	Number 657 658	3
+T26	Number 759 762	400
+T27	Number 908 913	10000
+T28	Number 922 923	6
+T29	Material 161 187	nickel(II) acetylacetonate
+T30	Material 200 214	diethanolamine
+T31	Material 237 244	ethanol
+T32	Material 253 260	mixture
+T33	Material 328 336	solution
+T34	Material 354 362	solution
+T35	Material 603 611	solution
+T36	Material 715 723	solution
+T37	Material 766 777	cyclohexane
+T38	Material 837 845	solution
+T39	Material 880 888	solution
+T40	Material 936 949	precipitation
+T41	Material 992 999	ethanol
+T42	Material 1008 1012	NiOx
+T43	Material 129 133	NiOx
+T44	Property-Misc 112 128	solution-derived
+T45	Amount-Unit 159 160	g
+T46	Amount-Unit 198 199	g
+T47	Amount-Unit 234 236	ml
+T48	Condition-Unit 292 296	degC
+T49	Condition-Unit 304 305	h
+T50	Apparatus-Unit 431 433	ml
+T51	Condition-Unit 495 499	degC
+T52	Condition-Unit 507 508	h
+T53	Condition-Unit 649 652	rpm
+T54	Condition-Unit 659 662	min
+T55	Amount-Unit 763 765	ml
+T56	Condition-Unit 914 917	rpm
+T57	Condition-Unit 924 927	min
+T58	Condition-Misc 265 277	continuously
+T59	Material-Descriptor 316 327	clear green
+T60	Material-Descriptor 348 353	green
+T61	Synthesis-Apparatus 415 424	autoclave
+T62	Apparatus-Descriptor 386 414	Teflon-lined stainless steel
+T63	Apparatus-Property-Type 434 442	capacity
+T64	Synthesis-Apparatus 458 462	oven
+T65	Synthesis-Apparatus 514 523	autoclave
+T66	Condition-Misc 538 554	room temperature
+T67	Material-Descriptor 592 602	dark green
+T68	Material-Descriptor 703 714	clear green
+T69	Condition-Misc 806 821	tens of minutes
+T70	Material-Descriptor 830 836	turbid
+T71	Material-Descriptor 873 879	turbid
+T72	Property-Misc 1013 1026	nanoparticles
+T73	Property-Misc 1027 1036	solutions
+T74	Amount-Misc 1042 1066	different concentrations
+R1	Property_Of Arg1:T44 Arg2:T43	
+R2	Number_Of Arg1:T16 Arg2:T45	
+R3	Amount_Of Arg1:T45 Arg2:T29	
+R4	Number_Of Arg1:T17 Arg2:T46	
+R5	Amount_Of Arg1:T46 Arg2:T30	
+A1	Start_Recipe E1
+R6	Next_Operation Arg1:E1 Arg2:E2	
+R7	Next_Operation Arg1:E2 Arg2:E15	
+R8	Next_Operation Arg1:E3 Arg2:E4	
+R9	Next_Operation Arg1:E4 Arg2:E5	
+R10	Next_Operation Arg1:E5 Arg2:E6	
+R11	Next_Operation Arg1:E6 Arg2:E7	
+R12	Next_Operation Arg1:E7 Arg2:E8	
+R13	Next_Operation Arg1:E8 Arg2:E9	
+R14	Next_Operation Arg1:E9 Arg2:E10	
+R15	Next_Operation Arg1:E10 Arg2:E11	
+R16	Next_Operation Arg1:E11 Arg2:E12	
+R17	Next_Operation Arg1:E12 Arg2:E13	
+R18	Next_Operation Arg1:E13 Arg2:E14	
+R19	Number_Of Arg1:T18 Arg2:T47	
+R20	Amount_Of Arg1:T47 Arg2:T31	
+R21	Condition_Of Arg1:T58 Arg2:E2	
+R22	Number_Of Arg1:T19 Arg2:T48	
+R23	Number_Of Arg1:T20 Arg2:T49	
+R24	Condition_Of Arg1:T49 Arg2:E2	
+R25	Condition_Of Arg1:T48 Arg2:E2	
+T3	Operation 309 313	make
+E15	Operation:T3 Participant_Material:T33
+R26	Next_Operation Arg1:E15 Arg2:E3	
+R27	Descriptor_Of Arg1:T59 Arg2:T33	
+R28	Descriptor_Of Arg1:T60 Arg2:T34	
+R29	Descriptor_Of Arg1:T62 Arg2:T61	
+R30	Apparatus_Of Arg1:T61 Arg2:E3	
+R31	Number_Of Arg1:T21 Arg2:T50	
+R32	Type_Of Arg1:T63 Arg2:T50	
+R33	Apparatus_Attr_Of Arg1:T50 Arg2:T61	
+R34	Apparatus_Of Arg1:T64 Arg2:E4	
+R35	Number_Of Arg1:T22 Arg2:T51	
+R36	Number_Of Arg1:T23 Arg2:T52	
+R37	Condition_Of Arg1:T51 Arg2:E4	
+R38	Condition_Of Arg1:T52 Arg2:E4	
+R39	Apparatus_Of Arg1:T65 Arg2:E5	
+R40	Condition_Of Arg1:T66 Arg2:E5	
+R41	Descriptor_Of Arg1:T67 Arg2:T35	
+R42	Number_Of Arg1:T24 Arg2:T53	
+R43	Condition_Of Arg1:T53 Arg2:E7	
+R44	Number_Of Arg1:T25 Arg2:T54	
+R45	Condition_Of Arg1:T54 Arg2:E7	
+R46	Descriptor_Of Arg1:T68 Arg2:T36	
+R47	Number_Of Arg1:T26 Arg2:T55	
+R48	Amount_Of Arg1:T55 Arg2:T37	
+R49	Condition_Of Arg1:T69 Arg2:E10	
+R50	Descriptor_Of Arg1:T70 Arg2:T38	
+R51	Descriptor_Of Arg1:T71 Arg2:T39	
+R52	Number_Of Arg1:T27 Arg2:T56	
+R53	Number_Of Arg1:T28 Arg2:T57	
+R54	Condition_Of Arg1:T56 Arg2:E12	
+R55	Condition_Of Arg1:T57 Arg2:E12	
+T75	Operation 1003 1007	make
+E16	Operation:T75 Recipe_Target:T42
+R56	Next_Operation Arg1:E14 Arg2:E16	
+A2	End_Recipe E16
+R57	Property_Of Arg1:T72 Arg2:T42	
+R58	Property_Of Arg1:T73 Arg2:T42	
+R59	Amount_Of Arg1:T74 Arg2:T42	

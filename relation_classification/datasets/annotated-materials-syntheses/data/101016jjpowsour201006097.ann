@@ -1,0 +1,320 @@
+T1	Material 75 89	LiNi0.8Co0.2O2
+T2	Property-Misc 90 101	nanopowders
+T3	Property-Type 45 60	electrochemical
+T4	Operation 1121 1130	synthesis
+E1	Operation:T4 Recipe_Target:T30
+T5	Operation 1161 1168	carried
+E2	Operation:T5 
+T6	Operation 1191 1196	using
+E3	Operation:T6 Participant_Material:T33
+T7	Operation 1352 1361	dissolved
+E4	Operation:T7 Recipe_Precursor:T38 Recipe_Precursor:T37 Recipe_Precursor:T36 Recipe_Precursor:T35 Solvent_Material:T45
+T8	Operation 1513 1517	used
+E5	Operation:T8 Participant_Material:T47
+T9	Operation 1583 1593	dissolving
+E6	Operation:T9 Solvent_Material:T51
+T10	Operation 1636 1641	added
+E7	Operation:T10 Participant_Material:T53 Participant_Material:T54
+T11	Operation 1674 1680	heated
+E8	Operation:T11 
+T12	Operation 1696 1704	stirring
+E9	Operation:T12 
+T13	Operation 1747 1753	heated
+E10	Operation:T13 Participant_Material:T61
+T14	Operation 1769 1773	form
+E11	Operation:T14 Participant_Material:T64
+T15	Operation 1792 1797	dried
+E12	Operation:T15 
+T16	Operation 1815 1821	remove
+E13	Operation:T16 
+T17	Operation 1839 1846	achieve
+E14	Operation:T17 
+T18	Operation 1851 1856	dried
+E15	Operation:T18 
+T19	Operation 1867 1875	obtained
+E16	Operation:T19 Participant_Material:T65
+T20	Operation 1897 1902	dried
+E17	Operation:T20 
+T21	Operation 2024 2034	determined
+E18	Operation:T21 Recipe_Target:T77
+T22	Operation 2095 2104	conducted
+E19	Operation:T22 
+T23	Operation 2112 2117	dried
+E20	Operation:T23 Participant_Material:T80 Atmospheric_Material:T86
+T24	Operation 2183 2188	using
+E21	Operation:T24 
+T25	Operation 2229 2238	conducted
+E22	Operation:T25 Atmospheric_Material:T88
+T26	Operation 2383 2389	heated
+E23	Operation:T26 
+T27	Operation 2458 2464	cooled
+E24	Operation:T27 
+T28	Operation 2532 2541	performed
+E25	Operation:T28 
+T29	Operation 2631 2642	synthesized
+E26	Operation:T29 Participant_Material:T114
+T30	Material 1134 1148	LiNi0.8Co0.2O2
+T31	Meta 1176 1183	sol-gel
+T32	Property-Misc 1149 1156	powders
+T33	Material 1197 1206	materials
+T34	Amount-Misc 1230 1251	stoichiometric values
+T35	Material 1255 1262	lithium
+T36	Material 1264 1270	nickel
+T37	Material 1275 1281	cobalt
+T38	Material 1282 1289	nitrate
+T39	Material-Descriptor 1290 1295	salts
+T40	Amount-Unit 1301 1315	cationic ratio
+T41	Nonrecipe-Material 1319 1321	Li
+T42	Nonrecipe-Material 1322 1324	Ni
+T43	Nonrecipe-Material 1325 1327	Co
+T44	Number 1337 1346	1:0.8:0.2
+T45	Material 1375 1380	water
+T46	Material-Descriptor 1365 1374	distilled
+T47	Material 1501 1507	agents
+T48	Amount-Unit 1523 1534	molar ratio
+T49	Number 1538 1539	1
+T50	Nonrecipe-Material 1566 1579	metal cations
+T51	Material 1607 1612	water
+T52	Material-Descriptor 1597 1606	distilled
+T53	Material 1618 1626	solution
+T54	Material 1649 1656	nitrate
+T55	Material-Descriptor 1657 1665	solution
+T56	Condition-Misc 1687 1695	constant
+T57	Number 1708 1710	80
+T58	Condition-Unit 1711 1715	degC
+T59	Number 1720 1721	1
+T60	Condition-Unit 1722 1723	h
+T61	Material 1739 1742	sol
+T62	Number 1757 1760	100
+T63	Condition-Unit 1761 1765	degC
+T64	Material 1778 1781	gel
+T65	Material 1876 1879	gel
+T66	Number 1906 1909	100
+T67	Number 1911 1914	120
+T68	Number 1916 1919	150
+T69	Number 1921 1924	200
+T70	Condition-Unit 1925 1929	degC
+T71	Number 1934 1935	2
+T72	Condition-Unit 1936 1937	h
+T73	Number 1956 1957	5
+T74	Condition-Unit 1958 1959	h
+T75	Number 1963 1966	240
+T76	Condition-Unit 1967 1971	degC
+T77	Material 1997 2011	LiNi0.8Co0.2O2
+T78	Property-Misc 2012 2019	powders
+T79	Characterization-Apparatus 2038 2094	thermogravimetric/differential thermal analysis (TG/DTA)
+T80	Material 2118 2121	gel
+T81	Condition-Type 2127 2139	heating rate
+T82	Number 2143 2144	5
+T83	Condition-Unit 2145 2155	degC min-1
+T84	Number 2162 2166	1100
+T85	Condition-Unit 2167 2171	degC
+T86	Material 2179 2182	air
+T87	Characterization-Apparatus 2191 2212	Perkin Elmer analyzer
+T88	Material 2246 2249	air
+T89	Synthesis-Apparatus 2264 2268	pans
+T90	Apparatus-Descriptor 2256 2263	alumina
+T91	Material 2301 2304	TEA
+T92	Material 2306 2312	oxalic
+T93	Material 2317 2323	citric
+T94	Number 2329 2332	460
+T95	Number 2334 2337	250
+T96	Number 2342 2345	290
+T97	Amount-Unit 2346 2348	mg
+T98	Operation 2368 2373	dried
+E27	Operation:T98 
+T99	Number 2393 2396	500
+T100	Number 2398 2401	600
+T101	Number 2403 2406	700
+T102	Number 2408 2411	800
+T103	Number 2416 2419	900
+T104	Condition-Unit 2420 2424	degC
+T105	Condition-Misc 2429 2446	varying durations
+T106	Condition-Misc 2451 2457	slowly
+T107	Condition-Misc 2468 2484	room temperature
+T108	Characterization-Apparatus 2486 2527	Inductively coupled plasma (ICP) analysis
+T109	Characterization-Apparatus 2551 2564	ARL 3410 unit
+T110	Amount-Misc 2580 2593	stoichiometry
+T111	Nonrecipe-Material 2597 2604	lithium
+T112	Nonrecipe-Material 2606 2612	nickel
+T113	Nonrecipe-Material 2617 2623	cobalt
+T114	Material 2643 2650	powders
+T115	Material 2666 2673	powders
+T116	Amount-Unit 2678 2690	molar ratios
+T117	Nonrecipe-Material 2694 2696	Li
+T118	Nonrecipe-Material 2697 2699	Ni
+T119	Nonrecipe-Material 2700 2702	Co
+T120	Number 2719 2728	1:0.8:0.2
+R1	Property_Of Arg1:T2 Arg2:T1	
+T121	Meta 245 262	sol-gel technique
+T122	Material 205 219	LiNi0.8Co0.2O2
+T123	Material 139 147	Nitrates
+T124	Material 151 158	lithium
+T125	Material 160 166	cobalt
+T126	Material 171 177	nickel
+T127	Operation 194 204	synthesize
+E28	Operation:T127 Recipe_Precursor:T126 Recipe_Precursor:T125 Recipe_Precursor:T124 Recipe_Precursor:T123 Recipe_Target:T122
+T128	Property-Misc 220 227	cathode
+T129	Condition-Type 301 317	calcination time
+T130	Condition-Type 322 333	temperature
+T131	Material 345 360	chelating agent
+T132	Operation 423 433	processing
+E29	Operation:T132 
+T133	Characterization-Apparatus 441 458	TG/DTA techniques
+T134	Characterization-Apparatus 559 562	ICP
+T135	Characterization-Apparatus 564 567	XRD
+T136	Characterization-Apparatus 572 575	TEM
+T137	Property-Type 609 629	chemical composition
+T138	Property-Type 631 648	crystal structure
+T139	Property-Type 650 669	size and morphology
+T140	Material 677 684	powders
+T141	Material 708 715	powders
+T142	Material-Descriptor 686 692	Micron
+T143	Material-Descriptor 697 707	nano-sized
+T144	Operation 720 728	produced
+E30	Operation:T144 Participant_Material:T141 Recipe_Precursor:T145 Recipe_Precursor:T146
+T145	Material 735 748	citric/oxalic
+T146	Material 753 756	TEA
+T147	Material-Descriptor 760 775	chelating agent
+T148	Operation 812 816	used
+E31	Operation:T148 Participant_Material:T149
+T149	Material 800 807	powders
+T150	Material-Descriptor 820 827	cathode
+T151	Number 948 951	173
+T152	Property-Unit 952 959	mAh g-1
+T153	Number 985 988	0.1
+T154	Property-Unit 989 996	mA cm-2
+T155	Number 1006 1009	3.0
+T156	Number 1014 1017	4.2
+T157	Condition-Unit 1018 1019	V
+T158	Operation 1029 1037	obtained
+E32	Operation:T158 Participant_Material:T159 Recipe_Precursor:T160
+T159	Material 1070 1080	nanopowder
+T160	Material 1093 1096	TEA
+T161	Material-Descriptor 1100 1115	chelating agent
+T162	Number 1223 1224	1
+A1	Start_Recipe E28
+R2	Next_Operation Arg1:E28 Arg2:E29	
+T163	Condition-Type 474 498	calcination temperatures
+R3	Next_Operation Arg1:E29 Arg2:E30	
+R4	Next_Operation Arg1:E30 Arg2:E31	
+R5	Next_Operation Arg1:E31 Arg2:E32	
+A2	End_Recipe E32
+A3	Start_Recipe E1
+R6	Next_Operation Arg1:E1 Arg2:E2	
+R7	Next_Operation Arg1:E2 Arg2:E3	
+R8	Next_Operation Arg1:E3 Arg2:E4	
+T164	Material 1415 1430	triethanolamine
+T165	Material 1432 1435	TEA
+T166	Material 1438 1449	citric acid
+T167	Material 1451 1462	oxalic acid
+T168	Material-Descriptor 1388 1404	chelating agents
+R9	Next_Operation Arg1:E4 Arg2:E5	
+R10	Next_Operation Arg1:E5 Arg2:E6	
+R11	Next_Operation Arg1:E6 Arg2:E7	
+R12	Next_Operation Arg1:E7 Arg2:E8	
+R13	Next_Operation Arg1:E8 Arg2:E9	
+R14	Next_Operation Arg1:E9 Arg2:E10	
+R15	Next_Operation Arg1:E10 Arg2:E11	
+R16	Next_Operation Arg1:E11 Arg2:E12	
+R17	Next_Operation Arg1:E12 Arg2:E13	
+R18	Next_Operation Arg1:E13 Arg2:E14	
+R19	Next_Operation Arg1:E14 Arg2:E15	
+R20	Next_Operation Arg1:E15 Arg2:E16	
+R21	Next_Operation Arg1:E16 Arg2:E17	
+R22	Next_Operation Arg1:E17 Arg2:E18	
+R23	Next_Operation Arg1:E18 Arg2:E19	
+R24	Next_Operation Arg1:E19 Arg2:E20	
+R25	Next_Operation Arg1:E20 Arg2:E21	
+R26	Next_Operation Arg1:E21 Arg2:E22	
+R27	Next_Operation Arg1:E22 Arg2:E27	
+R28	Next_Operation Arg1:E27 Arg2:E23	
+R29	Next_Operation Arg1:E23 Arg2:E24	
+R30	Next_Operation Arg1:E24 Arg2:E25	
+R31	Next_Operation Arg1:E25 Arg2:E26	
+A4	End_Recipe E26
+R32	Property_Of Arg1:T128 Arg2:T122	
+R33	Descriptor_Of Arg1:T143 Arg2:T141	
+R34	Descriptor_Of Arg1:T142 Arg2:T141	
+R35	Descriptor_Of Arg1:T147 Arg2:T145	
+R36	Descriptor_Of Arg1:T147 Arg2:T146	
+R37	Descriptor_Of Arg1:T150 Arg2:T149	
+R38	Number_Of Arg1:T151 Arg2:T152	
+R39	Number_Of Arg1:T153 Arg2:T154	
+R40	Number_Of Arg1:T155 Arg2:T157	
+R41	Number_Of Arg1:T156 Arg2:T157	
+T169	Property-Type 918 944	highest discharge capacity
+R42	Type_Of Arg1:T169 Arg2:T152	
+T170	Property-Type 974 981	current
+R43	Type_Of Arg1:T170 Arg2:T154	
+R44	Descriptor_Of Arg1:T161 Arg2:T160	
+R45	Property_Of Arg1:T32 Arg2:T30	
+R46	Amount_Of Arg1:T34 Arg2:T35	
+R47	Amount_Of Arg1:T34 Arg2:T36	
+R48	Amount_Of Arg1:T34 Arg2:T37	
+R49	Descriptor_Of Arg1:T39 Arg2:T38	
+R50	Number_Of Arg1:T44 Arg2:T40	
+R51	Amount_Of Arg1:T40 Arg2:T41	
+R52	Amount_Of Arg1:T40 Arg2:T42	
+R53	Amount_Of Arg1:T40 Arg2:T43	
+R54	Descriptor_Of Arg1:T46 Arg2:T45	
+R55	Descriptor_Of Arg1:T168 Arg2:T164	
+R56	Descriptor_Of Arg1:T168 Arg2:T166	
+R57	Descriptor_Of Arg1:T168 Arg2:T167	
+R58	Coref_Of Arg1:T165 Arg2:T164	
+R59	Number_Of Arg1:T49 Arg2:T48	
+R60	Amount_Of Arg1:T48 Arg2:T47	
+R61	Descriptor_Of Arg1:T52 Arg2:T51	
+R62	Descriptor_Of Arg1:T55 Arg2:T54	
+R63	Condition_Of Arg1:T56 Arg2:E9	
+R64	Number_Of Arg1:T59 Arg2:T60	
+R65	Number_Of Arg1:T57 Arg2:T58	
+R66	Condition_Of Arg1:T58 Arg2:E9	
+R67	Condition_Of Arg1:T60 Arg2:E9	
+R68	Number_Of Arg1:T62 Arg2:T63	
+R69	Condition_Of Arg1:T63 Arg2:E10	
+R70	Number_Of Arg1:T66 Arg2:T70	
+R71	Number_Of Arg1:T67 Arg2:T70	
+R72	Number_Of Arg1:T68 Arg2:T70	
+R73	Number_Of Arg1:T69 Arg2:T70	
+R74	Condition_Of Arg1:T70 Arg2:E17	
+R75	Number_Of Arg1:T71 Arg2:T72	
+R76	Condition_Of Arg1:T72 Arg2:E17	
+R77	Number_Of Arg1:T73 Arg2:T74	
+R78	Number_Of Arg1:T75 Arg2:T76	
+R79	Condition_Of Arg1:T74 Arg2:E17	
+R80	Condition_Of Arg1:T76 Arg2:E17	
+R81	Property_Of Arg1:T78 Arg2:T77	
+R82	Apparatus_Of Arg1:T79 Arg2:E18	
+R83	Number_Of Arg1:T82 Arg2:T83	
+R84	Type_Of Arg1:T81 Arg2:T83	
+R85	Condition_Of Arg1:T83 Arg2:E20	
+R86	Number_Of Arg1:T84 Arg2:T85	
+R87	Condition_Of Arg1:T85 Arg2:E20	
+R88	Apparatus_Of Arg1:T87 Arg2:E21	
+R89	Descriptor_Of Arg1:T90 Arg2:T89	
+R90	Apparatus_Of Arg1:T89 Arg2:E22	
+R91	Number_Of Arg1:T94 Arg2:T97	
+R92	Number_Of Arg1:T95 Arg2:T97	
+R93	Number_Of Arg1:T96 Arg2:T97	
+R94	Amount_Of Arg1:T97 Arg2:T91	
+R95	Amount_Of Arg1:T97 Arg2:T92	
+R96	Amount_Of Arg1:T97 Arg2:T93	
+R97	Number_Of Arg1:T99 Arg2:T104	
+R98	Number_Of Arg1:T100 Arg2:T104	
+R99	Number_Of Arg1:T101 Arg2:T104	
+R100	Number_Of Arg1:T102 Arg2:T104	
+R101	Number_Of Arg1:T103 Arg2:T104	
+R102	Condition_Of Arg1:T104 Arg2:E23	
+R103	Condition_Of Arg1:T105 Arg2:E23	
+R104	Condition_Of Arg1:T106 Arg2:E24	
+R105	Condition_Of Arg1:T107 Arg2:E24	
+R106	Apparatus_Of Arg1:T108 Arg2:E25	
+R107	Apparatus_Of Arg1:T109 Arg2:E25	
+R108	Amount_Of Arg1:T110 Arg2:T111	
+R109	Amount_Of Arg1:T110 Arg2:T112	
+R110	Amount_Of Arg1:T110 Arg2:T113	
+R111	Number_Of Arg1:T120 Arg2:T116	
+R112	Amount_Of Arg1:T116 Arg2:T117	
+R113	Amount_Of Arg1:T116 Arg2:T118	
+R114	Amount_Of Arg1:T116 Arg2:T119	

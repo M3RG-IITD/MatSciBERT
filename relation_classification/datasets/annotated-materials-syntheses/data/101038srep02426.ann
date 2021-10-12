@@ -1,0 +1,97 @@
+T1	Material 108 134	PrBa0.5Sr0.5Co2-xFe x O5+δ
+T2	Material 153 177	LnBa0.5Sr0.5Co2-xFexO5+δ
+T3	Material 179 185	LnBSCF
+R1	Coref_Of Arg1:T3 Arg2:T2	
+T4	Operation 242 253	synthesized
+E1	Operation:T4 Recipe_Target:T2
+T5	Operation 484 493	dissolved
+E2	Operation:T5 Recipe_Precursor:T18 Recipe_Precursor:T17 Recipe_Precursor:T16 Recipe_Precursor:T15 Recipe_Precursor:T12 Solvent_Material:T39 Participant_Material:T42
+T6	Operation 563 569	heated
+E3	Operation:T6 Participant_Material:T43 Atmospheric_Material:T46
+T7	Operation 607 617	combustion
+E4	Operation:T7 Participant_Material:T47
+T8	Operation 651 659	calcined
+E5	Operation:T8 
+T9	Operation 716 723	grinded
+E6	Operation:T9 Participant_Material:T52
+T10	Operation 728 736	calcined
+E7	Operation:T10 
+T11	Meta 262 291	glycine-nitrate process (GNP)
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E7	
+T13	Nonrecipe-Material 193 195	Pr
+T14	Nonrecipe-Material 200 202	Nd
+T12	Material 319 332	Ln(NO3)3*6H2O
+T15	Material 363 371	Ba(NO3)2
+T16	Material 389 397	Sr(NO3)2
+T17	Material 415 428	Co(NO3)2*6H2O
+T18	Material 450 463	Fe(NO3)3*6H2O
+T19	Amount-Misc 293 315	Stoichiometric amounts
+T20	Brand 333 340	Aldrich
+T21	Brand 373 380	Aldrich
+T22	Brand 399 406	Aldrich
+T23	Brand 430 437	Aldrich
+T24	Brand 465 472	Aldrich
+T25	Number 208 209	0
+T26	Number 211 215	0.25
+T27	Number 217 220	0.5
+T28	Number 222 226	0.75
+T29	Number 232 235	1.0
+T30	Number 342 346	99.9
+T31	Amount-Unit 346 347	%
+T32	Number 382 384	99
+T33	Amount-Unit 385 386	%
+T34	Number 408 410	99
+T35	Number 439 441	98
+T36	Amount-Unit 442 443	%
+T37	Number 474 476	98
+T38	Amount-Unit 476 477	%
+T39	Material 507 512	water
+T40	Material-Descriptor 497 506	distilled
+R7	Descriptor_Of Arg1:T40 Arg2:T39	
+T41	Amount-Misc 518 531	proper amount
+T42	Material 535 542	glycine
+T43	Material 548 557	solutions
+T44	Number 576 579	350
+T45	Condition-Unit 579 583	degC
+T46	Material 587 590	air
+T47	Material 626 638	fine powders
+T48	Number 663 666	600
+T49	Condition-Unit 666 670	degC
+T50	Number 675 676	4
+T51	Condition-Unit 677 682	hours
+T52	Material 688 705	resulting powders
+T53	Number 746 749	900
+T54	Condition-Unit 749 753	degC
+T55	Number 758 759	4
+T56	Condition-Unit 760 765	hours
+R8	Amount_Of Arg1:T19 Arg2:T12	
+R9	Number_Of Arg1:T30 Arg2:T31	
+R10	Amount_Of Arg1:T31 Arg2:T12	
+R11	Brand_Of Arg1:T20 Arg2:T12	
+R12	Brand_Of Arg1:T21 Arg2:T15	
+R13	Number_Of Arg1:T32 Arg2:T33	
+R14	Amount_Of Arg1:T33 Arg2:T15	
+R15	Brand_Of Arg1:T22 Arg2:T16	
+T57	Amount-Unit 411 412	%
+R16	Number_Of Arg1:T34 Arg2:T57	
+R17	Amount_Of Arg1:T57 Arg2:T16	
+R18	Brand_Of Arg1:T23 Arg2:T17	
+R19	Number_Of Arg1:T35 Arg2:T36	
+R20	Amount_Of Arg1:T36 Arg2:T17	
+R21	Brand_Of Arg1:T24 Arg2:T18	
+R22	Number_Of Arg1:T37 Arg2:T38	
+R23	Amount_Of Arg1:T38 Arg2:T18	
+R24	Number_Of Arg1:T44 Arg2:T45	
+R25	Condition_Of Arg1:T45 Arg2:E3	
+R26	Number_Of Arg1:T48 Arg2:T49	
+R27	Condition_Of Arg1:T49 Arg2:E5	
+R28	Number_Of Arg1:T50 Arg2:T51	
+R29	Condition_Of Arg1:T51 Arg2:E5	
+R30	Number_Of Arg1:T53 Arg2:T54	
+R31	Condition_Of Arg1:T54 Arg2:E7	
+R32	Number_Of Arg1:T55 Arg2:T56	
+R33	Condition_Of Arg1:T56 Arg2:E7	

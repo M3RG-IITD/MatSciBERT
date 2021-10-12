@@ -1,0 +1,128 @@
+T1	Operation 184 194	fabricated
+E1	Operation:T1 Participant_Material:T15 Participant_Material:T16 Participant_Material:T17 Participant_Material:T18
+T2	Operation 316 321	added
+E2	Operation:T2 Recipe_Precursor:T20 Recipe_Precursor:T21 Recipe_Precursor:T22 Recipe_Precursor:T23 Solvent_Material:T24
+T3	Operation 394 399	added
+E3	Operation:T3 Participant_Material:T25 Participant_Material:T27 Participant_Material:T28
+T4	Operation 464 472	adjusted
+E4	Operation:T4 Participant_Material:T29
+T5	Operation 536 543	stirred
+E5	Operation:T5 Participant_Material:T30
+T6	Operation 548 554	heated
+E6	Operation:T6 Participant_Material:T31
+T7	Operation 603 609	heated
+E7	Operation:T7 Participant_Material:T32
+T8	Operation 629 638	combusted
+E8	Operation:T8 Participant_Material:T33
+T9	Operation 682 690	calcined
+E9	Operation:T9 
+T10	Operation 828 833	mixed
+E10	Operation:T10 Participant_Material:T36 Participant_Material:T37
+T11	Operation 837 849	ball milling
+E11	Operation:T11 Solvent_Material:T38 Participant_Material:T39
+T12	Operation 953 958	dried
+E12	Operation:T12 Participant_Material:T40
+T13	Operation 985 993	prepared
+E13	Operation:T13 
+T14	Material 62 93	BaCe0.8Y0.2O3-δ-BaZr0.8Y0.2O3-δ
+T15	Material 158 161	BCY
+T16	Material 166 170	BZCY
+T17	Material 203 214	citric acid
+T18	Material 215 222	nitrate
+T19	Meta 223 245	gel combustion process
+T20	Material 259 264	BaCO3
+T21	Material 266 279	Ce(NO3)4*4H2O
+T22	Material 281 294	Zr(NO3)4*5H2O
+T23	Material 299 311	Y(NO3)3*6H2O
+T24	Material 339 343	HNO3
+T25	Material 378 389	citric acid
+T26	Material 355 363	solution
+T27	Nonrecipe-Material 411 421	metal ions
+T28	Material 422 433	citric acid
+T29	Material 497 504	ammonia
+T30	Material 510 518	solution
+T31	Material 574 577	gel
+T32	Material 590 593	gel
+T33	Material 654 664	precursors
+T34	Material 742 745	BCY
+T35	Material 750 754	BZCY
+T36	Material 762 765	NiO
+T37	Material 818 822	BZCY
+T38	Material 853 860	ethanol
+T39	Material 913 919	starch
+T40	Material 941 948	mixture
+T41	Reference 246 250	[15]
+T42	Number 405 410	1:1.5
+T43	Amount-Unit 434 445	molar ratio
+T44	Number 490 491	7
+T45	Amount-Unit 451 453	pH
+T46	Number 558 560	70
+T47	Condition-Unit 561 565	degC
+T48	Number 694 698	1000
+T49	Condition-Unit 699 703	degC
+T50	Number 708 709	3
+T51	Condition-Unit 710 711	h
+T52	Number 865 867	24
+T53	Condition-Unit 868 869	h
+T54	Number 891 896	60/40
+T55	Amount-Unit 875 887	weight ratio
+T56	Number 902 904	10
+T57	Amount-Unit 905 909	wt.%
+T58	Number 973 975	60
+T59	Condition-Unit 976 980	degC
+T60	Material-Descriptor 171 178	powders
+T61	Material-Descriptor 327 335	solution
+T62	Synthesis-Apparatus 615 624	hot plate
+T63	Material-Descriptor 647 653	powder
+T64	Material-Descriptor 724 741	pure, crystalline
+T65	Number 804 807	600
+T66	Condition-Unit 808 812	degC
+T67	Operation 790 800	decomposed
+E14	Operation:T67 Participant_Material:T68
+T68	Material 773 789	nickel carbonate
+T69	Material-Descriptor 767 772	basic
+T70	Material-Descriptor 923 935	pore formers
+T71	Synthesis-Apparatus 965 969	oven
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Next_Operation Arg1:E8 Arg2:E9	
+R10	Next_Operation Arg1:E10 Arg2:E11	
+R11	Next_Operation Arg1:E11 Arg2:E12	
+R12	Next_Operation Arg1:E12 Arg2:E13	
+R8	Next_Operation Arg1:E9 Arg2:E10	
+R9	Condition_Of Arg1:T47 Arg2:E6	
+R13	Apparatus_Of Arg1:T62 Arg2:E7	
+R14	Condition_Of Arg1:T49 Arg2:E9	
+R15	Condition_Of Arg1:T51 Arg2:E9	
+R16	Condition_Of Arg1:T66 Arg2:E14	
+R17	Condition_Of Arg1:T53 Arg2:E11	
+R18	Apparatus_Of Arg1:T71 Arg2:E12	
+R19	Condition_Of Arg1:T59 Arg2:E12	
+R20	Amount_Of Arg1:T43 Arg2:T28	
+R21	Amount_Of Arg1:T43 Arg2:T27	
+R22	Amount_Of Arg1:T45 Arg2:T29	
+R23	Amount_Of Arg1:T57 Arg2:T39	
+R24	Amount_Of Arg1:T55 Arg2:T37	
+R25	Amount_Of Arg1:T55 Arg2:T36	
+R26	Descriptor_Of Arg1:T60 Arg2:T16	
+R27	Descriptor_Of Arg1:T60 Arg2:T15	
+R28	Descriptor_Of Arg1:T61 Arg2:T24	
+R29	Descriptor_Of Arg1:T63 Arg2:T33	
+R30	Descriptor_Of Arg1:T64 Arg2:T34	
+R31	Descriptor_Of Arg1:T64 Arg2:T35	
+R32	Descriptor_Of Arg1:T69 Arg2:T68	
+R33	Descriptor_Of Arg1:T70 Arg2:T39	
+R34	Number_Of Arg1:T42 Arg2:T43	
+R35	Number_Of Arg1:T44 Arg2:T45	
+R36	Number_Of Arg1:T46 Arg2:T47	
+R37	Number_Of Arg1:T48 Arg2:T49	
+R38	Number_Of Arg1:T50 Arg2:T51	
+R39	Number_Of Arg1:T65 Arg2:T66	
+R40	Number_Of Arg1:T52 Arg2:T53	
+R41	Number_Of Arg1:T54 Arg2:T55	
+R42	Number_Of Arg1:T56 Arg2:T57	
+R43	Number_Of Arg1:T58 Arg2:T59	

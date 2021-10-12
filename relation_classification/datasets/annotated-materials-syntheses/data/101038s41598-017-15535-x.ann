@@ -1,0 +1,135 @@
+T1	Material 36 48	Fe3O4@Carbon
+T2	Property-Misc 27 35	Flexible
+T3	Property-Misc 49 59	Nanofibers
+T4	Operation 281 290	purchased
+E1	Operation:T4 Recipe_Precursor:T35 Recipe_Precursor:T34 Solvent_Material:T32 Recipe_Precursor:T30 Recipe_Precursor:T28
+T5	Operation 389 397	provided
+E2	Operation:T5 Solvent_Material:T38 Solvent_Material:T36
+T6	Brand 296 322	Aladdin Chemicals Co. Ltd.
+T7	Brand 401 436	Shanghai Chemical Reagents Co., Ltd
+T8	Operation 465 469	used
+E3	Operation:T8 Participant_Material:T40
+T9	Operation 486 498	purification
+E4	Operation:T9 
+T10	Operation 572 581	dissolved
+E5	Operation:T10 Recipe_Precursor:T42 Recipe_Precursor:T41 Solvent_Material:T43
+T11	Operation 601 609	stirring
+E6	Operation:T11 
+T12	Operation 614 625	electrospun
+E7	Operation:T12 
+T13	Reference 683 685	18
+T14	Operation 731 736	dried
+E8	Operation:T14 Participant_Material:T44
+T15	Operation 741 753	pre-oxidized
+E9	Operation:T15 
+T16	Operation 786 799	carbonization
+E10	Operation:T16 Atmospheric_Material:T45
+T17	Operation 901 907	showed
+E11	Operation:T17 Participant_Material:T46
+T18	Number 181 187	90,000
+T19	Number 219 225	86,000
+T20	Number 547 548	1
+T21	Number 564 565	8
+T22	Number 757 760	280
+T23	Number 770 771	2
+T24	Number 803 806	800
+T25	Number 816 817	2
+T26	Number 843 844	2
+T27	Number 909 911	50
+T28	Material 152 169	Polyacrylonitrile
+T29	Material 171 174	PAN
+T30	Material 190 207	polyvinyl alcohol
+T31	Material 209 212	PVA
+T32	Material 228 247	Potassium hydroxide
+T33	Material 249 252	KOH
+T34	Material 255 264	Fe(acac)3
+T35	Material 270 275	KMnO4
+T36	Material 331 348	Dimethylformamide
+T37	Material 350 353	DMF
+T38	Material 360 374	sulphuric acid
+T39	Material 376 381	H2SO4
+T40	Material 450 459	chemicals
+T41	Material 536 545	Fe(acac)3
+T42	Material 559 562	PAN
+T43	Material 585 588	DMF
+T44	Material 707 713	fibers
+T45	Material 860 868	nitrogen
+T46	Material 892 900	membrane
+T47	Operation 931 940	treatment
+E12	Operation:T47 
+T48	Amount-Unit 176 178	Mw
+T49	Amount-Unit 214 216	Mw
+T50	Condition-Misc 470 477	without
+T51	Amount-Unit 549 553	wt.%
+T52	Amount-Unit 566 570	wt.%
+T53	Condition-Unit 761 765	degC
+T54	Condition-Unit 772 773	h
+T55	Condition-Unit 807 811	degC
+T56	Condition-Unit 818 819	h
+T57	Condition-Type 827 839	heating rate
+T58	Condition-Unit 845 853	degC/min
+T59	Condition-Type 869 880	environment
+T60	Property-Unit 912 914	um
+T61	Property-Type 915 924	thickness
+T62	Material-Descriptor 502 512	homogenous
+T63	Material-Descriptor 513 521	solution
+T64	Condition-Misc 592 600	magnetic
+T65	Material-Descriptor 697 706	precursor
+T66	Condition-Misc 724 730	vacuum
+R1	Property_Of Arg1:T2 Arg2:T1	
+R2	Property_Of Arg1:T3 Arg2:T1	
+R3	Coref_Of Arg1:T29 Arg2:T28	
+R4	Number_Of Arg1:T18 Arg2:T48	
+R5	Amount_Of Arg1:T48 Arg2:T28	
+R6	Coref_Of Arg1:T31 Arg2:T30	
+R7	Number_Of Arg1:T19 Arg2:T49	
+R8	Amount_Of Arg1:T49 Arg2:T30	
+R9	Coref_Of Arg1:T33 Arg2:T32	
+A1	Start_Recipe E1
+R10	Next_Operation Arg1:E1 Arg2:E2	
+R11	Next_Operation Arg1:E2 Arg2:E3	
+R12	Next_Operation Arg1:E3 Arg2:E4	
+R13	Next_Operation Arg1:E4 Arg2:E5	
+R14	Next_Operation Arg1:E5 Arg2:E6	
+R15	Next_Operation Arg1:E6 Arg2:E7	
+R16	Next_Operation Arg1:E7 Arg2:E8	
+R17	Next_Operation Arg1:E8 Arg2:E9	
+R18	Next_Operation Arg1:E9 Arg2:E10	
+R19	Next_Operation Arg1:E10 Arg2:E11	
+R20	Next_Operation Arg1:E11 Arg2:E12	
+A2	End_Recipe E12
+R21	Brand_Of Arg1:T6 Arg2:T35	
+R22	Brand_Of Arg1:T6 Arg2:T34	
+R23	Brand_Of Arg1:T6 Arg2:T32	
+R24	Brand_Of Arg1:T6 Arg2:T30	
+R25	Brand_Of Arg1:T6 Arg2:T28	
+R26	Coref_Of Arg1:T37 Arg2:T36	
+R27	Coref_Of Arg1:T39 Arg2:T38	
+R28	Brand_Of Arg1:T7 Arg2:T38	
+R29	Brand_Of Arg1:T7 Arg2:T36	
+R30	Condition_Of Arg1:T50 Arg2:E4	
+R31	Descriptor_Of Arg1:T63 Arg2:T41	
+R32	Descriptor_Of Arg1:T63 Arg2:T42	
+R33	Descriptor_Of Arg1:T62 Arg2:T41	
+R34	Descriptor_Of Arg1:T62 Arg2:T42	
+R35	Number_Of Arg1:T20 Arg2:T51	
+R36	Amount_Of Arg1:T51 Arg2:T41	
+R37	Number_Of Arg1:T21 Arg2:T52	
+R38	Amount_Of Arg1:T52 Arg2:T42	
+R39	Condition_Of Arg1:T64 Arg2:E6	
+R40	Descriptor_Of Arg1:T65 Arg2:T44	
+R41	Condition_Of Arg1:T66 Arg2:E8	
+R42	Number_Of Arg1:T22 Arg2:T53	
+R43	Number_Of Arg1:T23 Arg2:T54	
+R44	Condition_Of Arg1:T53 Arg2:E9	
+R45	Condition_Of Arg1:T54 Arg2:E9	
+R46	Number_Of Arg1:T24 Arg2:T55	
+R47	Number_Of Arg1:T25 Arg2:T56	
+R48	Condition_Of Arg1:T55 Arg2:E10	
+R49	Condition_Of Arg1:T56 Arg2:E10	
+R50	Type_Of Arg1:T57 Arg2:T58	
+R51	Number_Of Arg1:T26 Arg2:T58	
+R52	Condition_Of Arg1:T58 Arg2:E10	
+R53	Number_Of Arg1:T27 Arg2:T60	
+R54	Type_Of Arg1:T61 Arg2:T60	
+R55	Property_Of Arg1:T60 Arg2:T46	

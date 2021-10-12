@@ -1,0 +1,6 @@
+10.1016/j.solener.2016.10.023
+Silver nanoparticle plasmonic effects on hole-transport material-free mesoporous heterojunction perovskite solar cells
+
+To fabricate the silver NPs, a modified two-step reduction synthesis procedure was implemented, which was developed based on the conventional reduction method (Agnihotri et al., 2014). First, 90 mL of an aqueous solution containing sodium borohydride (NaBH4) and tri-sodium citrate (TSC) at the ratio of 2:7 (1 x 10-3 mol dm-3:3.5 x 10-3 mol dm-3) was heated to 60 degC for 30 min under vigorous stirring at 300 rpm to ensure a homogenous solution. After 30 min, 4 ml of an aqueous solution of AgNO3 (4 x 10-3 mol dm-3) was added drop-wise to the mixture, and the temperature was further raised to 95 degC to make the solution boil quickly. The reaction was allowed to continue for another 30 min. Finally, the solution was cooled down to room temperature with stirring, and the NPs were collected by centrifugation at 5000 rpm and redispersed in ethanol via sonicating for 15 min.
+
+

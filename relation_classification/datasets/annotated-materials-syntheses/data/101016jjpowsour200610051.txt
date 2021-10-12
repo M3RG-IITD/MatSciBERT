@@ -1,0 +1,4 @@
+10.1016/j.jpowsour.2006.10.051
+High activity Pt/C catalyst for methanol and adsorbed CO electro-oxidation
+The Pt/C(a) was prepared according to Ref. [16].
+The preparation of Pt/C(b) was: first a mixture of the required quantity of the carbon support (Vulcan XC-72R activated carbon black) and glycol was agitated ultrasonically and the hexachloroplatinic acid solution was added into the mixture at a temperature of 85deg C then, the formic acid solution was added drop by drop to reduce H2PtCl6 at 85deg C for 1 h. Next, the slurry obtained was filtered and washed with triply distilled water until no Cl- was detected. Finally the slurry was filtered and dried in the vacuum condition at 25deg C. The Pt/C catalyst prepared contained 20 wt.% Pt.

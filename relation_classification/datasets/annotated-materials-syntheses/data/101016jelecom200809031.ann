@@ -1,0 +1,165 @@
+T1	Operation 122 130	supplied
+E1	Operation:T1 Participant_Material:T32
+T2	Operation 159 163	used
+E2	Operation:T2 
+T3	Operation 205 213	prepared
+E3	Operation:T3 Participant_Material:T33
+T4	Operation 377 385	prepared
+E4	Operation:T4 Participant_Material:T37 Recipe_Precursor:T36 Recipe_Precursor:T35 Recipe_Precursor:T34
+T5	Operation 472 480	adjusted
+E5	Operation:T5 Solvent_Material:T41
+T6	Operation 527 536	synthesis
+E6	Operation:T6 Participant_Material:T42
+T7	Reference 622 626	[14]
+T8	Operation 714 719	added
+E7	Operation:T8 Solvent_Material:T44 Recipe_Precursor:T43 Recipe_Precursor:T45
+T9	Operation 787 794	stirred
+E8	Operation:T9 Participant_Material:T46 Atmospheric_Material:T47
+T10	Operation 837 842	added
+E9	Operation:T10 Recipe_Precursor:T48 Participant_Material:T49
+T11	Operation 886 895	separated
+E10	Operation:T11 
+T13	Operation 943 953	evaporated
+E11	Operation:T13 Participant_Material:T51
+T14	Operation 987 995	purified
+E12	Operation:T14 Participant_Material:T80 Participant_Material:T52 Participant_Material:T53
+T15	Operation 1120 1124	give
+E13	Operation:T15 Participant_Material:T82
+T16	Brand 134 154	Aldrich Chemical Co.
+T17	Number 229 230	7
+T18	Number 260 265	0.025
+T19	Number 305 310	0.025
+T20	Number 318 319	9
+T21	Number 321 325	0.05
+T22	Number 419 423	0.04
+T23	Number 665 666	1
+T24	Number 670 674	4.23
+T25	Number 703 705	30
+T26	Number 751 754	1.2
+T27	Number 758 762	4.43
+T28	Number 813 815	48
+T29	Number 826 828	50
+T30	Number 1149 1151	30
+T31	Number 1077 1082	40-60
+T32	Material 107 116	chemicals
+T33	Material 190 199	solutions
+T34	Material 231 258	disodium hydrogen phosphate
+T35	Material 273 303	potassium dihydrogen phosphate
+T36	Material 328 346	sodium tetraborate
+T37	Material 362 371	solutions
+T38	Material 426 436	boric acid
+T39	Material 438 453	phosphoric acid
+T40	Material 455 466	acetic acid
+T41	Material 508 512	NaOH
+T42	Material 545 553	compound
+T43	Material 654 663	Ferrocene
+T44	Material 688 701	diethyl ether
+T45	Material 733 749	Fast Red Al Salt
+T46	Material 774 782	solution
+T47	Material 801 803	N2
+T48	Material 819 824	Water
+T49	Material 851 859	solution
+T50	Nonrecipe-Material 915 920	MgSO4
+T51	Material 926 933	solvent
+T52	Nonrecipe-Material 1060 1075	petroleum ether
+T53	Nonrecipe-Material 1093 1106	diethyl ether
+T54	Condition-Unit 226 228	pH
+T55	Amount-Unit 266 267	M
+T56	Amount-Unit 311 312	M
+T57	Condition-Unit 315 317	pH
+T58	Amount-Unit 326 327	M
+T59	Condition-Unit 359 361	pH
+T60	Amount-Unit 424 425	M
+T61	Condition-Unit 500 502	pH
+T62	Amount-Unit 667 668	g
+T63	Amount-Unit 675 679	mmol
+T64	Amount-Unit 706 708	ml
+T65	Amount-Unit 755 756	g
+T66	Amount-Unit 763 767	mmol
+T67	Condition-Type 804 807	atm
+T68	Condition-Unit 816 817	h
+T69	Amount-Unit 829 831	ml
+T70	Condition-Unit 1083 1087	degC
+T71	Property-Unit 1151 1152	%
+T72	Property-Type 1153 1158	yield
+T73	Material-Descriptor 181 189	buffered
+T74	Material-Descriptor 394 417	Britton-Robinson buffer
+T75	Material-Descriptor 513 521	solution
+T76	Material-Descriptor 642 650	solution
+T77	Material-Descriptor 684 687	dry
+T78	Material-Descriptor 911 914	dry
+T79	Condition-Misc 960 966	vacuum
+T80	Material 975 982	residue
+T81	Synthesis-Apparatus 1004 1039	basic alumina chromatography column
+T82	Material 1137 1145	compound
+T83	Material 29 51	Anthraquinone-ferrocen
+T84	Property-Misc 53 57	film
+T85	Property-Misc 58 68	electrodes
+R1	Property_Of Arg1:T84 Arg2:T83	
+R2	Property_Of Arg1:T85 Arg2:T83	
+R3	Brand_Of Arg1:T16 Arg2:T32	
+R4	Descriptor_Of Arg1:T73 Arg2:T33	
+A1	Start_Recipe E1
+R5	Next_Operation Arg1:E1 Arg2:E2	
+R6	Next_Operation Arg1:E2 Arg2:E3	
+R7	Next_Operation Arg1:E3 Arg2:E4	
+R8	Next_Operation Arg1:E4 Arg2:E5	
+R9	Next_Operation Arg1:E5 Arg2:E6	
+R10	Next_Operation Arg1:E6 Arg2:E7	
+R11	Next_Operation Arg1:E7 Arg2:E8	
+R12	Next_Operation Arg1:E8 Arg2:E9	
+R13	Next_Operation Arg1:E9 Arg2:E10	
+R14	Next_Operation Arg1:E10 Arg2:E14	
+R15	Next_Operation Arg1:E11 Arg2:E12	
+R16	Next_Operation Arg1:E12 Arg2:E13	
+A2	End_Recipe E13
+R17	Number_Of Arg1:T17 Arg2:T54	
+R18	Number_Of Arg1:T18 Arg2:T55	
+R19	Amount_Of Arg1:T55 Arg2:T34	
+R20	Number_Of Arg1:T19 Arg2:T56	
+R21	Amount_Of Arg1:T56 Arg2:T35	
+R22	Number_Of Arg1:T20 Arg2:T57	
+R23	Number_Of Arg1:T21 Arg2:T58	
+R24	Amount_Of Arg1:T58 Arg2:T36	
+R25	Condition_Of Arg1:T59 Arg2:E4	
+R26	Condition_Of Arg1:T54 Arg2:E4	
+R27	Condition_Of Arg1:T57 Arg2:E4	
+R28	Number_Of Arg1:T22 Arg2:T60	
+R29	Amount_Of Arg1:T60 Arg2:T38	
+R30	Amount_Of Arg1:T60 Arg2:T39	
+R31	Amount_Of Arg1:T60 Arg2:T40	
+R32	Descriptor_Of Arg1:T74 Arg2:T38	
+R33	Descriptor_Of Arg1:T74 Arg2:T39	
+R34	Descriptor_Of Arg1:T74 Arg2:T40	
+R35	Condition_Of Arg1:T61 Arg2:E5	
+R36	Descriptor_Of Arg1:T75 Arg2:T41	
+R37	Descriptor_Of Arg1:T76 Arg2:T43	
+R38	Number_Of Arg1:T23 Arg2:T62	
+R39	Number_Of Arg1:T24 Arg2:T63	
+R40	Amount_Of Arg1:T62 Arg2:T43	
+R41	Amount_Of Arg1:T63 Arg2:T43	
+R42	Descriptor_Of Arg1:T77 Arg2:T44	
+R43	Number_Of Arg1:T25 Arg2:T64	
+R44	Amount_Of Arg1:T64 Arg2:T44	
+R45	Number_Of Arg1:T26 Arg2:T65	
+R46	Number_Of Arg1:T27 Arg2:T66	
+R47	Amount_Of Arg1:T65 Arg2:T45	
+R48	Amount_Of Arg1:T66 Arg2:T45	
+R49	Number_Of Arg1:T28 Arg2:T68	
+R50	Condition_Of Arg1:T68 Arg2:E8	
+R51	Number_Of Arg1:T29 Arg2:T69	
+R52	Amount_Of Arg1:T69 Arg2:T48	
+T12	Operation 900 905	dried
+E14	Operation:T12 Participant_Material:T50
+R53	Next_Operation Arg1:E14 Arg2:E11	
+R54	Descriptor_Of Arg1:T78 Arg2:T50	
+R55	Condition_Of Arg1:T79 Arg2:E11	
+R56	Apparatus_Of Arg1:T81 Arg2:E12	
+R57	Number_Of Arg1:T31 Arg2:T70	
+R58	Condition_Of Arg1:T70 Arg2:E12	
+T86	Material-Descriptor 1110 1116	eluent
+R59	Number_Of Arg1:T30 Arg2:T71	
+R60	Type_Of Arg1:T72 Arg2:T71	
+R61	Property_Of Arg1:T71 Arg2:T82	
+R62	Descriptor_Of Arg1:T86 Arg2:T53	
+R63	Descriptor_Of Arg1:T86 Arg2:T52	

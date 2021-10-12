@@ -1,0 +1,5 @@
+10.1016/j.tsf.2013.01.068
+Fabrication and characteristics of BaTi0.85Sn0.15O3 thin films on tin doped indium oxide/glass substrate
+
+Raw materials of BaCO3, SnO2 and TiO2 were first weighed in accordance with the composition of BaTi0.85Sn0.15O3. After mixing and ball milling for 1 h, the mixture was dried for 24 h and then ground. Then, the calcining process with a temperature of 1100 degC for 2 h was conducted. Finally, the pressed target was sintered at 1370 degC in an air ambient for 2 h. The BTS films with various thicknesses were deposited on ITO/glass substrate with 200 nm ITO thickness and In/Sn = 90/10 using the rf magnetron sputtering at 600 degC substrate temperature through controlling the sputtering time. The target of BTS was placed about 5 cm away from the ITO/glass substrate. Thin films were deposited under the sputtering parameters such as the rf power of 160 W, chamber pressure of 1.3 Pa and oxygen concentration of 25%. The film deposition rate is estimated to be 3.6 nm/min.
+

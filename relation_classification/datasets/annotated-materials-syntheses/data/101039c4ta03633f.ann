@@ -1,0 +1,192 @@
+T1	Material 47 58	MgMxCr2-xO4
+T2	Property-Misc 88 95	spinels
+T3	Property-Misc 100 109	electrode
+T4	Property-Type 19 28	Structure
+T5	Operation 187 195	prepared
+E1	Operation:T5 Participant_Material:T44 Recipe_Precursor:T49
+T6	Operation 284 292	prepared
+E2	Operation:T6 Participant_Material:T50
+T7	Meta 296 307	solid state
+T8	Meta 219 239	combustion synthesis
+T9	Reference 240 242	34
+T10	Operation 328 338	combustion
+E3	Operation:T10 
+T11	Operation 366 374	obtained
+E4	Operation:T11 Participant_Material:T53
+T12	Operation 388 396	calcined
+E5	Operation:T12 Participant_Material:T53
+T13	Meta 428 449	solid state synthesis
+T14	Operation 571 578	weighed
+E6	Operation:T14 Recipe_Precursor:T60 Recipe_Precursor:T58 Recipe_Precursor:T56 Recipe_Precursor:T54
+T15	Operation 609 614	mixed
+E7	Operation:T15 Recipe_Precursor:T54 Recipe_Precursor:T56 Recipe_Precursor:T58 Recipe_Precursor:T60 Solvent_Material:T62
+T16	Operation 680 686	obtain
+E8	Operation:T16 Participant_Material:T63
+T18	Operation 842 847	added
+E10	Operation:T18 Participant_Material:T64
+T19	Operation 871 878	stirred
+E11	Operation:T19 Participant_Material:T65
+T20	Operation 910 915	dried
+E12	Operation:T20 Participant_Material:T66
+T21	Operation 947 955	calcined
+E13	Operation:T21 Participant_Material:T67
+T22	Operation 995 1003	calcined
+E14	Operation:T22 
+T23	Operation 1022 1028	milled
+E15	Operation:T23 Participant_Material:T68 Solvent_Material:T69
+T24	Operation 1061 1066	dried
+E16	Operation:T24 
+T25	Operation 1100 1107	pressed
+E17	Operation:T25 Participant_Material:T70 Participant_Material:T71
+T26	Operation 1194 1202	sintered
+E18	Operation:T26 Atmospheric_Material:T72
+T27	Number 400 404	1000
+T28	Number 414 416	10
+T29	Number 469 471	99
+T30	Number 507 509	99
+T31	Number 532 536	99.5
+T32	Number 557 562	99.99
+T33	Number 656 658	10
+T34	Number 755 756	1
+T35	Number 883 884	2
+T36	Number 959 963	1000
+T37	Number 973 975	10
+T38	Number 1033 1034	2
+T39	Number 1122 1124	13
+T40	Number 1141 1149	2 +- 0.3
+T41	Number 1182 1185	200
+T42	Number 1206 1210	1400
+T43	Number 1220 1222	12
+T44	Material 145 152	Samples
+T45	Nonrecipe-Material 164 166	Li
+T46	Nonrecipe-Material 168 170	Mg
+T47	Nonrecipe-Material 172 174	Fe
+T48	Nonrecipe-Material 179 181	Cu
+T49	Material 199 218	citric acid-nitrate
+T50	Material 253 260	samples
+T51	Nonrecipe-Material 272 274	Ti
+T52	Nonrecipe-Material 276 278	Ga
+T53	Material 375 382	powders
+T54	Material 450 455	Cr2O3
+T55	Brand 457 467	Alfa Aesar
+T56	Material 476 496	(MgCO3)4Mg(OH)2*5H2O
+T57	Brand 498 505	Aldrich
+T58	Material 514 518	TiO2
+T59	Brand 520 530	Alfa Aesar
+T60	Material 541 546	Ga2O3
+T61	Brand 548 555	Aldrich
+T62	Material 644 651	acetone
+T63	Material 712 718	oxides
+T64	Material 776 780	KD-I
+T65	Material 856 866	dispersion
+T66	Material 896 904	mixtures
+T67	Material 934 941	powders
+T68	Material 1009 1016	powders
+T69	Material 1044 1051	acetone
+T70	Material 1082 1089	powders
+T71	Material 1113 1120	pellets
+T72	Material 1232 1235	air
+T73	Condition-Unit 405 409	degC
+T74	Condition-Unit 417 422	hours
+T75	Amount-Unit 471 472	%
+T76	Amount-Unit 509 510	%
+T77	Amount-Unit 536 537	%
+T78	Amount-Unit 562 563	%
+T79	Condition-Unit 659 666	minutes
+T80	Amount-Unit 757 760	wt%
+T81	Brand 782 804	Tape Casting Warehouse
+T82	Material 806 825	polyester/polyamide
+T83	Condition-Unit 885 890	hours
+T84	Condition-Unit 964 968	degC
+T85	Condition-Unit 976 981	hours
+T86	Condition-Unit 1035 1040	hours
+T87	Property-Unit 1125 1127	mm
+T88	Property-Type 1128 1136	diameter
+T89	Property-Unit 1150 1152	mm
+T90	Property-Type 1153 1162	thickness
+T91	Condition-Type 1169 1177	pressure
+T92	Condition-Unit 1186 1189	MPa
+T93	Condition-Unit 1211 1215	degC
+T94	Condition-Unit 1223 1228	hours
+T95	Amount-Misc 582 604	stoichiometric amounts
+T96	Synthesis-Apparatus 635 640	probe
+T97	Apparatus-Descriptor 624 634	ultrasonic
+T98	Condition-Misc 723 737	homogenisation
+T99	Amount-Misc 741 753	small amount
+T100	Material-Descriptor 765 775	dispersant
+T101	Material-Descriptor 826 835	copolymer
+R1	Property_Of Arg1:T2 Arg2:T1	
+R2	Property_Of Arg1:T3 Arg2:T1	
+A1	Start_Recipe E1
+R3	Next_Operation Arg1:E1 Arg2:E2	
+R4	Next_Operation Arg1:E2 Arg2:E3	
+R5	Next_Operation Arg1:E3 Arg2:E4	
+R6	Next_Operation Arg1:E4 Arg2:E5	
+R7	Next_Operation Arg1:E5 Arg2:E6	
+R8	Next_Operation Arg1:E6 Arg2:E7	
+R9	Next_Operation Arg1:E7 Arg2:E8	
+R12	Next_Operation Arg1:E10 Arg2:E11	
+R13	Next_Operation Arg1:E11 Arg2:E12	
+R14	Next_Operation Arg1:E12 Arg2:E13	
+R15	Next_Operation Arg1:E13 Arg2:E14	
+R16	Next_Operation Arg1:E14 Arg2:E15	
+R17	Next_Operation Arg1:E15 Arg2:E16	
+R18	Next_Operation Arg1:E16 Arg2:E17	
+R19	Next_Operation Arg1:E17 Arg2:E18	
+A2	End_Recipe E18
+R20	Number_Of Arg1:T27 Arg2:T73	
+R21	Number_Of Arg1:T28 Arg2:T74	
+R22	Condition_Of Arg1:T73 Arg2:E5	
+R23	Condition_Of Arg1:T74 Arg2:E5	
+R24	Brand_Of Arg1:T55 Arg2:T54	
+R25	Number_Of Arg1:T29 Arg2:T75	
+R26	Amount_Of Arg1:T75 Arg2:T54	
+R27	Brand_Of Arg1:T57 Arg2:T56	
+R28	Number_Of Arg1:T30 Arg2:T76	
+R29	Amount_Of Arg1:T76 Arg2:T56	
+R30	Brand_Of Arg1:T59 Arg2:T58	
+R31	Number_Of Arg1:T31 Arg2:T77	
+R32	Amount_Of Arg1:T77 Arg2:T58	
+R33	Brand_Of Arg1:T61 Arg2:T60	
+R34	Number_Of Arg1:T32 Arg2:T78	
+R35	Amount_Of Arg1:T78 Arg2:T60	
+R36	Amount_Of Arg1:T95 Arg2:T60	
+R37	Amount_Of Arg1:T95 Arg2:T58	
+R38	Amount_Of Arg1:T95 Arg2:T56	
+R39	Amount_Of Arg1:T95 Arg2:T54	
+R40	Descriptor_Of Arg1:T97 Arg2:T96	
+R41	Apparatus_Of Arg1:T96 Arg2:E7	
+R42	Number_Of Arg1:T33 Arg2:T79	
+R43	Condition_Of Arg1:T79 Arg2:E7	
+T17	Material-Descriptor 694 704	dispersion
+R10	Next_Operation Arg1:E8 Arg2:E10	
+R11	Descriptor_Of Arg1:T17 Arg2:T63	
+R44	Condition_Of Arg1:T98 Arg2:E8	
+R45	Number_Of Arg1:T34 Arg2:T80	
+R46	Amount_Of Arg1:T80 Arg2:T64	
+R47	Descriptor_Of Arg1:T100 Arg2:T64	
+R48	Brand_Of Arg1:T81 Arg2:T64	
+R49	Descriptor_Of Arg1:T101 Arg2:T82	
+R50	Coref_Of Arg1:T82 Arg2:T64	
+R51	Amount_Of Arg1:T99 Arg2:T64	
+R52	Number_Of Arg1:T35 Arg2:T83	
+R53	Condition_Of Arg1:T83 Arg2:E11	
+R54	Number_Of Arg1:T36 Arg2:T84	
+R55	Number_Of Arg1:T37 Arg2:T85	
+R56	Condition_Of Arg1:T84 Arg2:E13	
+R57	Condition_Of Arg1:T85 Arg2:E13	
+R58	Number_Of Arg1:T38 Arg2:T86	
+R59	Condition_Of Arg1:T86 Arg2:E15	
+R60	Number_Of Arg1:T39 Arg2:T87	
+R61	Type_Of Arg1:T88 Arg2:T87	
+R62	Property_Of Arg1:T87 Arg2:T71	
+R63	Type_Of Arg1:T90 Arg2:T89	
+R64	Number_Of Arg1:T40 Arg2:T89	
+R65	Property_Of Arg1:T89 Arg2:T71	
+R66	Number_Of Arg1:T41 Arg2:T92	
+R67	Type_Of Arg1:T91 Arg2:T92	
+R68	Condition_Of Arg1:T92 Arg2:E17	
+R69	Number_Of Arg1:T42 Arg2:T93	
+R70	Condition_Of Arg1:T93 Arg2:E18	
+R71	Number_Of Arg1:T43 Arg2:T94	
+R72	Condition_Of Arg1:T94 Arg2:E18	

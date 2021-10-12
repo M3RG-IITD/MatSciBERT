@@ -1,0 +1,178 @@
+T1	Operation 231 236	fired
+E1	Operation:T1 Recipe_Precursor:T16 Recipe_Precursor:T17 Participant_Material:T19 Participant_Material:T20 Participant_Material:T21 Participant_Material:T22
+T2	Operation 314 323	converted
+E2	Operation:T2 Recipe_Precursor:T25 Participant_Material:T26
+T3	Operation 336 343	heating
+E3	Operation:T3 Recipe_Precursor:T27 Atmospheric_Material:T28
+T4	Operation 531 535	used
+E4	Operation:T4 Participant_Material:T29 Recipe_Precursor:T30 Recipe_Precursor:T31
+T5	Operation 583 588	grown
+E5	Operation:T5 Recipe_Target:T32 Participant_Material:T33
+T6	Operation 729 735	loaded
+E6	Operation:T6 Recipe_Precursor:T34 Participant_Material:T35 Participant_Material:T36 Participant_Material:T37 Participant_Material:T38 Participant_Material:T39 Recipe_Precursor:T40 Recipe_Precursor:T41 Participant_Material:T42
+T7	Operation 765 771	heated
+E7	Operation:T7 
+T8	Operation 866 872	cooled
+E8	Operation:T8 
+T9	Operation 910 917	allowed
+E9	Operation:T9 
+T10	Operation 921 925	cool
+E10	Operation:T10 
+T11	Operation 998 1005	removed
+E11	Operation:T11 Participant_Material:T47 Participant_Material:T48
+T12	Operation 1030 1040	dissolving
+E12	Operation:T12 Participant_Material:T49 Solvent_Material:T50
+T13	Operation 1068 1078	sonication
+E13	Operation:T13 
+T14	Operation 1106 1115	extracted
+E14	Operation:T14 Participant_Material:T51
+T15	Operation 1119 1136	vacuum filtration
+E15	Operation:T15 
+T16	Material 156 179	lanthanide sesquioxides
+T17	Material 181 186	Ln2O3
+T18	Brand 206 216	Alfa Aesar
+T19	Nonrecipe-Material 188 190	Nd
+T20	Nonrecipe-Material 192 194	Sm
+T21	Nonrecipe-Material 196 198	Eu
+T22	Nonrecipe-Material 200 202	Gd
+T23	Number 218 223	99.99
+T24	Amount-Unit 223 224	%
+T25	Material 283 289	Pr6O11
+T26	Material 327 332	Pr2O3
+T27	Material 344 350	Pr6O11
+T28	Material 393 395	H2
+T29	Material 408 411	KOH
+T30	Material 461 468	iridium
+T31	Material 500 503	MgO
+T32	Material 568 577	Ln2MgIrO6
+T33	Material 621 640	potassium hydroxide
+T34	Material 642 647	Ln2O3
+T35	Nonrecipe-Material 649 651	Pr
+T36	Nonrecipe-Material 653 655	Nd
+T37	Nonrecipe-Material 657 659	Sm
+T38	Nonrecipe-Material 661 663	Eu
+T39	Nonrecipe-Material 665 667	Gd
+T40	Material 681 684	MgO
+T41	Material 695 697	Ir
+T42	Material 714 717	KOH
+T43	Synthesis-Apparatus 748 760	silver tubes
+T44	Synthesis-Apparatus 777 788	box furnace
+T45	Condition-Misc 929 945	room temperature
+T46	Synthesis-Apparatus 965 972	furnace
+T47	Material 984 992	crystals
+T48	Material 1015 1026	flux matrix
+T49	Material 1045 1049	flux
+T50	Material 1053 1058	water
+T51	Material 1084 1092	crystals
+T52	Number 240 244	1000
+T53	Condition-Unit 245 249	degC
+T54	Number 254 256	12
+T55	Condition-Unit 257 258	h
+T56	Brand 291 301	Alfa Aesar
+T57	Number 303 307	99.9
+T58	Amount-Unit 307 308	%
+T59	Number 354 358	1000
+T60	Condition-Unit 359 363	degC
+T61	Number 368 370	24
+T62	Condition-Unit 371 372	h
+T63	Number 390 391	5
+T64	Amount-Unit 391 392	%
+T65	Brand 413 430	Fisher Scientific
+T66	Material-Descriptor 432 451	A.C.S Reagent Grade
+T67	Number 453 457	99.9
+T68	Amount-Unit 457 458	%
+T69	Brand 477 486	Engelhard
+T70	Number 488 493	99.99
+T71	Amount-Unit 493 494	%
+T72	Brand 505 515	Alfa Aesar
+T73	Number 517 523	99.998
+T74	Amount-Unit 523 524	%
+T75	Property-Misc 549 564	Single crystals
+T76	Material-Descriptor 613 617	melt
+T77	Number 670 673	0.5
+T78	Amount-Unit 674 678	mmol
+T79	Number 686 687	1
+T80	Amount-Unit 688 692	mmol
+T81	Number 699 702	0.5
+T82	Amount-Unit 703 707	mmol
+T83	Number 719 720	4
+T84	Amount-Unit 721 722	g
+T85	Number 809 812	700
+T86	Condition-Unit 813 817	degC
+T87	Number 821 823	10
+T88	Condition-Unit 824 832	degC/min
+T89	Number 843 845	24
+T90	Condition-Unit 846 847	h
+T91	Number 851 854	700
+T92	Condition-Unit 855 859	degC
+T93	Number 876 879	600
+T94	Condition-Unit 880 884	degC
+T95	Number 888 891	0.2
+T96	Condition-Unit 892 900	degC/min
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E7	
+R7	Next_Operation Arg1:E7 Arg2:E8	
+R8	Next_Operation Arg1:E8 Arg2:E9	
+R9	Next_Operation Arg1:E9 Arg2:E10	
+R10	Next_Operation Arg1:E10 Arg2:E11	
+R11	Next_Operation Arg1:E11 Arg2:E12	
+R12	Next_Operation Arg1:E12 Arg2:E13	
+R13	Next_Operation Arg1:E13 Arg2:E14	
+R14	Next_Operation Arg1:E14 Arg2:E15	
+R15	Condition_Of Arg1:T53 Arg2:E1	
+R16	Condition_Of Arg1:T60 Arg2:E3	
+R17	Condition_Of Arg1:T62 Arg2:E3	
+R18	Apparatus_Of Arg1:T43 Arg2:E6	
+R19	Apparatus_Of Arg1:T44 Arg2:E7	
+R20	Condition_Of Arg1:T86 Arg2:E7	
+R21	Condition_Of Arg1:T88 Arg2:E7	
+R22	Condition_Of Arg1:T90 Arg2:E7	
+R23	Condition_Of Arg1:T92 Arg2:E7	
+R24	Condition_Of Arg1:T94 Arg2:E8	
+R25	Condition_Of Arg1:T96 Arg2:E8	
+R26	Condition_Of Arg1:T45 Arg2:E10	
+R27	Apparatus_Of Arg1:T46 Arg2:E10	
+R28	Amount_Of Arg1:T24 Arg2:T16	
+R29	Amount_Of Arg1:T24 Arg2:T17	
+R30	Amount_Of Arg1:T58 Arg2:T25	
+R31	Amount_Of Arg1:T64 Arg2:T28	
+R32	Amount_Of Arg1:T68 Arg2:T29	
+R33	Amount_Of Arg1:T71 Arg2:T30	
+R34	Amount_Of Arg1:T74 Arg2:T31	
+R35	Property_Of Arg1:T75 Arg2:T32	
+R36	Amount_Of Arg1:T78 Arg2:T34	
+R37	Amount_Of Arg1:T80 Arg2:T40	
+R38	Amount_Of Arg1:T82 Arg2:T41	
+R39	Amount_Of Arg1:T84 Arg2:T42	
+R40	Descriptor_Of Arg1:T66 Arg2:T29	
+R41	Descriptor_Of Arg1:T76 Arg2:T33	
+R42	Number_Of Arg1:T23 Arg2:T24	
+R43	Number_Of Arg1:T52 Arg2:T53	
+R44	Number_Of Arg1:T54 Arg2:T55	
+R45	Number_Of Arg1:T57 Arg2:T58	
+R46	Number_Of Arg1:T59 Arg2:T60	
+R47	Number_Of Arg1:T61 Arg2:T62	
+R48	Number_Of Arg1:T63 Arg2:T64	
+R49	Number_Of Arg1:T67 Arg2:T68	
+R50	Number_Of Arg1:T70 Arg2:T71	
+R51	Number_Of Arg1:T73 Arg2:T74	
+R52	Number_Of Arg1:T77 Arg2:T78	
+R53	Number_Of Arg1:T79 Arg2:T80	
+R54	Number_Of Arg1:T81 Arg2:T82	
+R55	Number_Of Arg1:T83 Arg2:T84	
+R56	Number_Of Arg1:T85 Arg2:T86	
+R57	Number_Of Arg1:T87 Arg2:T88	
+R58	Number_Of Arg1:T89 Arg2:T90	
+R59	Number_Of Arg1:T91 Arg2:T92	
+R60	Number_Of Arg1:T93 Arg2:T94	
+R61	Number_Of Arg1:T95 Arg2:T96	
+R62	Brand_Of Arg1:T18 Arg2:T16	
+R63	Brand_Of Arg1:T18 Arg2:T17	
+R64	Brand_Of Arg1:T56 Arg2:T25	
+R65	Brand_Of Arg1:T65 Arg2:T29	
+R66	Brand_Of Arg1:T69 Arg2:T30	
+R67	Brand_Of Arg1:T72 Arg2:T31	

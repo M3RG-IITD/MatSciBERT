@@ -1,0 +1,141 @@
+T1	Material 62 69	V 2 O 5
+T2	Property-Misc 70 84	nanostructures
+R1	Property_Of Arg1:T2 Arg2:T1	
+T3	Material 152 156	V2O5
+T4	Property-Misc 157 170	nanomaterials
+R2	Property_Of Arg1:T4 Arg2:T3	
+T5	Operation 176 187	synthesized
+E1	Operation:T5 Recipe_Target:T3
+T6	Meta 194 205	solid-state
+T7	Operation 301 305	used
+E2	Operation:T7 Participant_Material:T21
+T8	Operation 344 353	synthesis
+E3	Operation:T8 Recipe_Target:T23
+T9	Operation 566 573	weighed
+E4	Operation:T9 Recipe_Precursor:T36 Recipe_Precursor:T30 Recipe_Precursor:T25
+T10	Operation 578 584	ground
+E5	Operation:T10 
+T11	Operation 671 676	mixed
+E6	Operation:T11 
+T12	Operation 702 707	mixed
+E7	Operation:T12 Participant_Material:T43
+T13	Operation 734 741	changed
+E8	Operation:T13 Participant_Material:T44
+T14	Operation 770 775	grind
+E9	Operation:T14 
+T15	Operation 829 836	changed
+E10	Operation:T15 Participant_Material:T48
+T16	Operation 882 888	washed
+E11	Operation:T16 Solvent_Material:T52 Participant_Material:T49
+T17	Operation 921 926	dried
+E12	Operation:T17 
+T18	Operation 1002 1005	got
+E13	Operation:T18 Recipe_Precursor:T57
+T19	Operation 1030 1036	placed
+E14	Operation:T19 Participant_Material:T58
+T20	Operation 1150 1156	obtain
+E15	Operation:T20 Participant_Material:T72
+R3	Next_Operation Arg1:E2 Arg2:E3	
+R4	Next_Operation Arg1:E3 Arg2:E4	
+R5	Next_Operation Arg1:E4 Arg2:E5	
+R6	Next_Operation Arg1:E5 Arg2:E6	
+R7	Next_Operation Arg1:E6 Arg2:E7	
+R8	Next_Operation Arg1:E7 Arg2:E8	
+R9	Next_Operation Arg1:E8 Arg2:E9	
+R10	Next_Operation Arg1:E9 Arg2:E10	
+R11	Next_Operation Arg1:E10 Arg2:E11	
+R12	Next_Operation Arg1:E11 Arg2:E12	
+R13	Next_Operation Arg1:E12 Arg2:E13	
+R14	Next_Operation Arg1:E13 Arg2:E14	
+R15	Next_Operation Arg1:E14 Arg2:E15	
+T21	Material 241 249	reagents
+T22	Amount-Misc 255 272	analytically pure
+R16	Amount_Of Arg1:T22 Arg2:T21	
+T23	Material 358 362	V2O5
+T24	Property-Misc 363 377	nanostructures
+R17	Property_Of Arg1:T24 Arg2:T23	
+T25	Material 400 421	ammonium metavanadate
+T26	Material-Descriptor 394 399	Solid
+R18	Descriptor_Of Arg1:T26 Arg2:T25	
+T27	Material 423 429	NH4VO3
+R19	Coref_Of Arg1:T27 Arg2:T25	
+T28	Number 436 438	99
+T29	Amount-Unit 438 439	%
+R20	Number_Of Arg1:T28 Arg2:T29	
+R21	Amount_Of Arg1:T29 Arg2:T25	
+T30	Material 445 458	tartaric acid
+T31	Material 460 466	C4H6O6
+R22	Coref_Of Arg1:T31 Arg2:T30	
+T32	Number 473 475	99
+T33	Amount-Unit 475 476	%
+R23	Number_Of Arg1:T32 Arg2:T33	
+R24	Amount_Of Arg1:T33 Arg2:T30	
+T34	Amount-Unit 485 496	molar ratio
+T35	Number 500 503	1:2
+R25	Number_Of Arg1:T35 Arg2:T34	
+T36	Material 509 533	polyethylene glycol 4000
+T37	Material 535 543	PEG-4000
+R26	Coref_Of Arg1:T37 Arg2:T36	
+T38	Number 550 552	99
+T39	Amount-Unit 552 553	%
+R27	Number_Of Arg1:T38 Arg2:T39	
+R28	Amount_Of Arg1:T39 Arg2:T36	
+T40	Synthesis-Apparatus 591 603	agate mortar
+R29	Apparatus_Of Arg1:T40 Arg2:E5	
+T41	Number 614 615	5
+T42	Condition-Unit 616 619	min
+R30	Number_Of Arg1:T41 Arg2:T42	
+R31	Condition_Of Arg1:T42 Arg2:E5	
+T43	Material 687 696	reactants
+T44	Material 726 733	mixture
+T45	Number 780 782	30
+T46	Condition-Unit 783 786	min
+R32	Number_Of Arg1:T45 Arg2:T46	
+R33	Condition_Of Arg1:T46 Arg2:E9	
+T47	Condition-Misc 790 806	room temperature
+R34	Condition_Of Arg1:T47 Arg2:E9	
+T48	Material 821 828	mixture
+T49	Material 871 877	sample
+T50	Material-Descriptor 862 870	obtained
+R35	Descriptor_Of Arg1:T50 Arg2:T49	
+T51	Material-Descriptor 894 902	absolute
+T52	Material 903 910	ethanol
+R36	Descriptor_Of Arg1:T51 Arg2:T52	
+T53	Number 930 932	60
+T54	Number 942 944	10
+T55	Condition-Unit 933 937	degC
+T56	Condition-Unit 945 946	h
+R37	Number_Of Arg1:T53 Arg2:T55	
+R38	Number_Of Arg1:T54 Arg2:T56	
+R39	Condition_Of Arg1:T55 Arg2:E12	
+R40	Condition_Of Arg1:T56 Arg2:E12	
+T57	Material 976 997	(NH4)2[(VO)(C4H4O6)2]
+T58	Material 1016 1025	precursor
+T59	Material-Descriptor 956 975	pure grey precursor
+R41	Descriptor_Of Arg1:T59 Arg2:T57	
+T60	Synthesis-Apparatus 1040 1054	muffle furnace
+R42	Apparatus_Of Arg1:T60 Arg2:E14	
+T61	Condition-Type 1068 1091	calcination temperature
+T62	Number 1095 1098	400
+T63	Condition-Unit 1099 1103	degC
+T64	Number 1105 1108	500
+T66	Number 1128 1129	4
+T67	Number 1133 1134	1
+R43	Number_Of Arg1:T62 Arg2:T63	
+T68	Condition-Unit 1109 1113	degC
+R44	Number_Of Arg1:T64 Arg2:T68	
+T65	Number 1115 1118	600
+T69	Condition-Unit 1119 1123	degC
+R45	Number_Of Arg1:T65 Arg2:T69	
+T70	Condition-Unit 1130 1131	h
+T71	Condition-Unit 1135 1145	degC min-1
+R46	Number_Of Arg1:T67 Arg2:T71	
+R47	Number_Of Arg1:T66 Arg2:T70	
+R48	Type_Of Arg1:T61 Arg2:T63	
+R49	Type_Of Arg1:T61 Arg2:T68	
+R50	Condition_Of Arg1:T63 Arg2:E14	
+R51	Condition_Of Arg1:T68 Arg2:E14	
+R52	Condition_Of Arg1:T69 Arg2:E14	
+R53	Condition_Of Arg1:T70 Arg2:E14	
+R54	Condition_Of Arg1:T71 Arg2:E14	
+T72	Material 1157 1171	final products

@@ -1,0 +1,76 @@
+T1	Material 19 42	CeO2-modified Au@SBA-15
+T2	Property-Misc 43 56	nanocatalysts
+R1	Property_Of Arg1:T2 Arg2:T1	
+T3	Material 116 130	Au-CeO2@SBA-15
+T4	Property-Misc 131 139	catalyst
+R2	Property_Of Arg1:T4 Arg2:T3	
+T5	Operation 144 152	prepared
+E1	Operation:T5 Recipe_Target:T3
+T6	Meta 163 175	impregnation
+T7	Operation 223 232	dissolved
+E2	Operation:T7 Solvent_Material:T19
+T8	Operation 253 258	added
+E3	Operation:T8 Participant_Material:T20
+T9	Operation 322 332	ultrasound
+E4	Operation:T9 Participant_Material:T22
+T10	Operation 351 356	dried
+E5	Operation:T10 
+T11	Operation 387 395	generate
+E6	Operation:T11 Participant_Material:T29
+T12	Operation 459 467	calcined
+E7	Operation:T12 Participant_Material:T31 Atmospheric_Material:T34
+T13	Operation 498 504	obtain
+E8	Operation:T13 Participant_Material:T38
+T14	Operation 524 531	labeled
+E9	Operation:T14 Recipe_Target:T39
+T15	Amount-Misc 186 201	required amount
+T16	Material 205 218	Ce(NO3)3*6H2O
+R3	Next_Operation Arg1:E2 Arg2:E3	
+R4	Next_Operation Arg1:E3 Arg2:E4	
+R5	Next_Operation Arg1:E4 Arg2:E5	
+R6	Next_Operation Arg1:E5 Arg2:E6	
+R7	Next_Operation Arg1:E6 Arg2:E7	
+R8	Next_Operation Arg1:E7 Arg2:E8	
+R9	Next_Operation Arg1:E8 Arg2:E9	
+T17	Number 236 237	7
+T18	Amount-Unit 238 240	mL
+T19	Material 241 248	ethanol
+R10	Number_Of Arg1:T17 Arg2:T18	
+R11	Amount_Of Arg1:T18 Arg2:T19	
+T20	Material 278 291	Au@NH2-SBA-15
+T21	Material-Descriptor 292 298	sample
+R12	Descriptor_Of Arg1:T21 Arg2:T20	
+T22	Material 304 311	mixture
+T23	Number 337 340	0.5
+T24	Condition-Unit 341 342	h
+R13	Number_Of Arg1:T23 Arg2:T24	
+R14	Condition_Of Arg1:T24 Arg2:E4	
+T25	Number 367 369	60
+T26	Condition-Unit 370 374	degC
+R15	Number_Of Arg1:T25 Arg2:T26	
+R16	Condition_Of Arg1:T26 Arg2:E5	
+T27	Number 379 381	12
+T28	Condition-Unit 382 383	h
+R17	Number_Of Arg1:T27 Arg2:T28	
+R18	Condition_Of Arg1:T28 Arg2:E5	
+T29	Material 399 414	Au-xCeO2@SBA-15
+T30	Material-Descriptor 415 424	precursor
+R19	Descriptor_Of Arg1:T30 Arg2:T29	
+T31	Material 430 444	Au-CeO2@SBA-15
+T32	Material-Descriptor 445 454	precursor
+R20	Descriptor_Of Arg1:T32 Arg2:T31	
+T33	Number 478 481	500
+T34	Material 471 474	air
+T35	Condition-Unit 482 486	degC
+R21	Number_Of Arg1:T33 Arg2:T35	
+R22	Condition_Of Arg1:T35 Arg2:E7	
+T36	Number 491 492	4
+T37	Condition-Unit 493 494	h
+R23	Number_Of Arg1:T36 Arg2:T37	
+R24	Condition_Of Arg1:T37 Arg2:E7	
+T38	Material 509 523	final catalyst
+T39	Material 539 554	Au-xCeO2@SBA-15
+T40	Nonrecipe-Material 578 582	CeO2
+T41	Nonrecipe-Material 592 596	CeO2
+T42	Nonrecipe-Material 607 612	mCeO2
+T43	Nonrecipe-Material 613 620	mSBA-15

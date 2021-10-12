@@ -1,0 +1,5 @@
+10.1016/j.susc.2005.07.041
+Oxidation of reduced polycrystalline Nb-doped SrTiO3: Characterization of surface islands
+
+Nb-doped (5 mol%) polycrystalline SrTiO3 was prepared from highly pure SrCO3, TiO2, and Nb2O5 powders (99.999%, Aldrich) by the mixed oxide route. The mixed powder was calcined at 1100 degC under air for 1 h and isostatically pressed into a pellet under 680 MPa. The pellet was sintered under reducing atmosphere (5% H2 + 95% Ar) at 1360 degC for 15 h. The reduced polycrystalline SrTi0.95Nb0.05O3 exhibits a deep dark gray color indicating high electron conductivity, i.e. electron compensation of the dopant.
+

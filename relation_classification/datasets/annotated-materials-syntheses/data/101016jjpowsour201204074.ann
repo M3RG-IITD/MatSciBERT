@@ -1,0 +1,116 @@
+T1	Material 42 56	Li4Ti5O12/CNTs
+T2	Operation 71 79	prepared
+E1	Operation:T2 Recipe_Target:T1
+T3	Meta 85 115	liquid phase deposition method
+T4	Operation 229 238	dispersed
+E2	Operation:T4 Recipe_Precursor:T14 Solvent_Material:T15
+T5	Operation 261 271	sonication
+E3	Operation:T5 
+T6	Operation 320 325	added
+E4	Operation:T6 Recipe_Precursor:T16
+T7	Operation 350 358	stirring
+E5	Operation:T7 
+T8	Operation 389 398	dissolved
+E6	Operation:T8 Recipe_Precursor:T17 Solvent_Material:T18 Solvent_Material:T19
+T9	Operation 463 470	dropped
+E7	Operation:T9 Participant_Material:T20
+T10	Operation 520 528	stirring
+E8	Operation:T10 
+T11	Operation 546 550	aged
+E9	Operation:T11 Participant_Material:T21
+T12	Operation 605 611	ground
+E10	Operation:T12 
+T14	Material 219 223	CNTs
+T15	Material 248 255	ethanol
+T16	Material 296 315	tetrabutyl titanate
+T17	Material 369 384	lithium acetate
+T18	Material 413 420	ethanol
+T19	Material 421 426	water
+T20	Material 486 496	suspension
+T21	Material 534 541	mixture
+T22	Material 582 590	solvents
+T23	Synthesis-Apparatus 617 623	mortar
+T24	Material 629 638	precursor
+T25	Material 670 672	N2
+T26	Material 736 750	Li4Ti5O12/CNTs
+T27	Property-Misc 751 760	composite
+T28	Property-Misc 731 735	nano
+T29	Property-Misc 37 41	nano
+T30	Property-Misc 57 66	composite
+T31	Material-Descriptor 210 218	purified
+T32	Number 204 207	0.3
+T33	Amount-Unit 208 209	g
+T34	Number 242 244	24
+T35	Amount-Unit 245 247	mL
+T36	Number 276 277	1
+T37	Condition-Unit 278 279	h
+T38	Number 289 293	10.2
+T39	Amount-Unit 294 295	g
+T40	Number 360 366	1.6632
+T41	Amount-Unit 367 368	g
+T42	Number 404 406	26
+T43	Amount-Unit 407 409	mL
+T44	Material-Descriptor 427 434	mixture
+T45	Number 436 440	12:1
+T46	Amount-Unit 441 450	in volume
+T47	Number 504 506	24
+T48	Condition-Unit 507 508	h
+T49	Number 554 556	60
+T50	Condition-Unit 557 561	degC
+T51	Number 567 569	60
+T52	Condition-Unit 570 571	h
+T53	Number 655 658	900
+T54	Condition-Unit 659 663	degC
+T55	Number 677 678	1
+T56	Condition-Unit 679 680	h
+T57	Number 704 705	5
+T58	Condition-Unit 706 716	degC min-1
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Next_Operation Arg1:E8 Arg2:E9	
+R8	Next_Operation Arg1:E9 Arg2:E10	
+T13	Operation 643 651	calcined
+E11	Operation:T13 Participant_Material:T24 Atmospheric_Material:T25
+R9	Next_Operation Arg1:E10 Arg2:E11	
+R10	Condition_Of Arg1:T37 Arg2:E3	
+R11	Condition_Of Arg1:T48 Arg2:E8	
+R12	Condition_Of Arg1:T50 Arg2:E9	
+R13	Condition_Of Arg1:T52 Arg2:E9	
+R14	Apparatus_Of Arg1:T23 Arg2:E10	
+R15	Condition_Of Arg1:T54 Arg2:E11	
+R16	Condition_Of Arg1:T56 Arg2:E11	
+R17	Condition_Of Arg1:T58 Arg2:E11	
+T59	Condition-Type 688 700	heating rate
+R18	Property_Of Arg1:T29 Arg2:T1	
+R19	Property_Of Arg1:T30 Arg2:T1	
+R20	Amount_Of Arg1:T33 Arg2:T14	
+R21	Amount_Of Arg1:T35 Arg2:T15	
+R22	Amount_Of Arg1:T39 Arg2:T16	
+R23	Amount_Of Arg1:T41 Arg2:T17	
+R24	Amount_Of Arg1:T43 Arg2:T18	
+R25	Amount_Of Arg1:T43 Arg2:T19	
+R26	Amount_Of Arg1:T46 Arg2:T19	
+R27	Amount_Of Arg1:T46 Arg2:T18	
+R28	Property_Of Arg1:T28 Arg2:T26	
+R29	Property_Of Arg1:T27 Arg2:T26	
+R30	Descriptor_Of Arg1:T31 Arg2:T14	
+R31	Descriptor_Of Arg1:T44 Arg2:T19	
+R32	Descriptor_Of Arg1:T44 Arg2:T18	
+R33	Type_Of Arg1:T59 Arg2:T58	
+R34	Number_Of Arg1:T32 Arg2:T33	
+R35	Number_Of Arg1:T34 Arg2:T35	
+R36	Number_Of Arg1:T36 Arg2:T37	
+R37	Number_Of Arg1:T38 Arg2:T39	
+R38	Number_Of Arg1:T40 Arg2:T41	
+R39	Number_Of Arg1:T42 Arg2:T43	
+R40	Number_Of Arg1:T45 Arg2:T46	
+R41	Number_Of Arg1:T47 Arg2:T48	
+R42	Number_Of Arg1:T49 Arg2:T50	
+R43	Number_Of Arg1:T51 Arg2:T52	
+R44	Number_Of Arg1:T53 Arg2:T54	
+R45	Number_Of Arg1:T55 Arg2:T56	
+R46	Number_Of Arg1:T57 Arg2:T58	

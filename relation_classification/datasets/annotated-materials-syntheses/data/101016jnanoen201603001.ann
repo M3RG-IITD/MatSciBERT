@@ -1,0 +1,81 @@
+T1	Meta 29 66	Ambient dissolution-recrystallization
+T2	Material 102 106	V2O5
+T3	Property-Misc 107 116	nanobelts
+T4	Operation 226 231	mixed
+E1	Operation:T4 Recipe_Precursor:T13 Solvent_Material:T18
+T5	Operation 293 301	stirring
+E2	Operation:T5 
+T6	Operation 359 366	changed
+E3	Operation:T6 Participant_Material:T28 Participant_Material:T29
+T7	Operation 407 413	washed
+E4	Operation:T7 Participant_Material:T31
+T8	Operation 431 458	centrifugation-redispersion
+E5	Operation:T8 Solvent_Material:T33 Solvent_Material:T34
+T9	Operation 509 514	dried
+E6	Operation:T9 
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+T10	Operation 575 583	obtained
+E7	Operation:T10 Participant_Material:T40
+R6	Next_Operation Arg1:E6 Arg2:E7	
+T11	Number 178 183	100.0
+T12	Amount-Unit 184 185	g
+T13	Material 197 201	V2O5
+T14	Material-Descriptor 202 208	powder
+T15	Brand 210 220	Alfa Aesar
+T16	Number 239 242	1.5
+T17	Amount-Unit 243 244	L
+T18	Material 248 252	NaCl
+T19	Number 254 257	2.0
+T20	Amount-Unit 258 259	M
+T21	Material-Descriptor 261 277	aqueous solution
+T22	Condition-Misc 284 292	vigorous
+T23	Condition-Misc 305 321	room temperature
+T24	Number 324 326	25
+T25	Condition-Unit 327 331	degC
+T26	Number 340 342	72
+T27	Condition-Unit 343 344	h
+T28	Material 350 358	solution
+T29	Material 379 389	suspension
+T30	Material-Descriptor 370 378	brownish
+T31	Material 395 402	product
+T32	Material-Descriptor 471 480	distilled
+T33	Material 481 486	water
+T34	Material 491 498	ethanol
+T35	Synthesis-Apparatus 521 525	oven
+T36	Number 529 531	80
+T37	Number 541 543	12
+T38	Condition-Unit 532 536	degC
+T39	Condition-Unit 544 545	h
+T40	Material 563 570	product
+T41	Property-Type 587 597	high yield
+T42	Number 600 604	99.2
+T43	Property-Unit 605 606	g
+R7	Number_Of Arg1:T42 Arg2:T43	
+R8	Type_Of Arg1:T41 Arg2:T43	
+R9	Property_Of Arg1:T43 Arg2:T40	
+R10	Number_Of Arg1:T11 Arg2:T12	
+R11	Amount_Of Arg1:T12 Arg2:T13	
+R12	Descriptor_Of Arg1:T14 Arg2:T13	
+R13	Brand_Of Arg1:T15 Arg2:T13	
+R14	Number_Of Arg1:T16 Arg2:T17	
+R15	Amount_Of Arg1:T17 Arg2:T18	
+R16	Number_Of Arg1:T19 Arg2:T20	
+R17	Amount_Of Arg1:T20 Arg2:T18	
+R18	Descriptor_Of Arg1:T21 Arg2:T18	
+R19	Condition_Of Arg1:T22 Arg2:E2	
+R20	Condition_Of Arg1:T23 Arg2:E2	
+R21	Number_Of Arg1:T24 Arg2:T25	
+R22	Condition_Of Arg1:T25 Arg2:E2	
+R23	Number_Of Arg1:T26 Arg2:T27	
+R24	Condition_Of Arg1:T27 Arg2:E2	
+R25	Descriptor_Of Arg1:T30 Arg2:T29	
+R26	Descriptor_Of Arg1:T32 Arg2:T33	
+R27	Apparatus_Of Arg1:T35 Arg2:E6	
+R28	Number_Of Arg1:T36 Arg2:T38	
+R29	Condition_Of Arg1:T38 Arg2:E6	
+R30	Number_Of Arg1:T37 Arg2:T39	
+R31	Condition_Of Arg1:T39 Arg2:E6	

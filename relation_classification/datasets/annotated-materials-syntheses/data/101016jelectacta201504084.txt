@@ -1,0 +1,5 @@
+10.1016/j.electacta.2015.04.084
+Low temperature electrochemical performance of β-LixV2O5 cathode for lithium-ion batteries
+
+The LixV2O5 sample was prepared through a hydrothermal reaction followed by calcination treatment. All chemicals were used directly without further purification. In a typical procedure, 0.1 g V2O5 and 3.0 g LiNO3 were added into 33 mL de-ionized water with vigorously stirring at room temperature. The resultant orange-yellow suspension was then transferred into a 42 mL Teflon-lined stainless autoclave and kept in an oven at 220 degC for 24 h. After cooling down naturally, the precursor was collected by centrifugation and washed with absolute ethanol for several times before drying. The final product of LixV2O5 was obtained by calcining the precursor hydrate compound at 600 degC for 3 h under Ar atmosphere with a ramping rate of 5 degC /min.
+

@@ -1,0 +1,106 @@
+T1	Material 45 49	Pt/C
+T2	Material 110 117	Pt/C(a)
+T3	Property-Misc 50 58	catalyst
+T4	Property-Misc 31 44	High activity
+T5	Operation 122 130	prepared
+E1	Operation:T5 Recipe_Target:T2
+T6	Operation 159 170	preparation
+E2	Operation:T6 Recipe_Target:T20
+T7	Operation 304 312	agitated
+E3	Operation:T7 Recipe_Precursor:T26 Recipe_Precursor:T25
+T8	Operation 373 378	added
+E4	Operation:T8 Recipe_Precursor:T29 Participant_Material:T31
+T9	Operation 459 464	added
+E5	Operation:T9 Recipe_Precursor:T35
+T10	Operation 481 487	reduce
+E6	Operation:T10 Participant_Material:T38
+T11	Operation 533 541	obtained
+E7	Operation:T11 Participant_Material:T43
+T12	Operation 546 554	filtered
+E8	Operation:T12 
+T13	Operation 559 565	washed
+E9	Operation:T13 Participant_Material:T44
+T14	Operation 611 619	detected
+E10	Operation:T14 Participant_Material:T47
+T15	Operation 644 652	filtered
+E11	Operation:T15 Participant_Material:T48
+T16	Operation 657 662	dried
+E12	Operation:T16 
+T17	Material 703 707	Pt/C
+T18	Operation 717 725	prepared
+E13	Operation:T18 Recipe_Target:T17 Participant_Material:T55
+T19	Reference 144 153	Ref. [16]
+T20	Material 174 181	Pt/C(b)
+T21	Material 195 202	mixture
+T22	Amount-Misc 210 227	required quantity
+T23	Nonrecipe-Material 235 241	carbon
+T24	Material-Descriptor 242 249	support
+T25	Material 293 299	glycol
+T26	Material 251 264	Vulcan XC-72R
+T27	Material-Descriptor 265 287	activated carbon black
+T28	Condition-Misc 313 327	ultrasonically
+T29	Material 336 359	hexachloroplatinic acid
+T30	Material-Descriptor 360 368	solution
+T31	Material 388 395	mixture
+T32	Condition-Type 401 412	temperature
+T33	Number 416 418	85
+T34	Condition-Unit 418 423	deg C
+T35	Material 434 445	formic acid
+T36	Material-Descriptor 446 454	solution
+T37	Condition-Misc 465 477	drop by drop
+T38	Material 488 495	H2PtCl6
+T39	Number 499 501	85
+T40	Condition-Unit 501 506	deg C
+T41	Number 511 512	1
+T42	Condition-Unit 513 514	h
+T43	Material 526 532	slurry
+T44	Material 588 593	water
+T45	Material-Descriptor 571 587	triply distilled
+T46	Condition-Misc 600 602	no
+T47	Nonrecipe-Material 603 606	Cl-
+T48	Material 633 639	slurry
+T49	Condition-Misc 670 676	vacuum
+T50	Number 690 692	25
+T51	Condition-Unit 692 697	deg C
+T52	Property-Misc 708 716	catalyst
+T53	Number 736 738	20
+T54	Amount-Unit 739 743	wt.%
+T55	Nonrecipe-Material 744 746	Pt
+R1	Property_Of Arg1:T4 Arg2:T1	
+R2	Property_Of Arg1:T3 Arg2:T1	
+A1	Start_Recipe E1
+R3	Next_Operation Arg1:E1 Arg2:E2	
+R4	Next_Operation Arg1:E2 Arg2:E3	
+R5	Next_Operation Arg1:E3 Arg2:E4	
+R6	Next_Operation Arg1:E4 Arg2:E5	
+R7	Next_Operation Arg1:E5 Arg2:E6	
+R8	Next_Operation Arg1:E6 Arg2:E7	
+R9	Next_Operation Arg1:E7 Arg2:E8	
+R10	Next_Operation Arg1:E8 Arg2:E9	
+R11	Next_Operation Arg1:E9 Arg2:E10	
+R12	Next_Operation Arg1:E10 Arg2:E11	
+R13	Next_Operation Arg1:E11 Arg2:E12	
+R14	Next_Operation Arg1:E12 Arg2:E13	
+A2	End_Recipe E13
+R15	Amount_Of Arg1:T22 Arg2:T23	
+R16	Descriptor_Of Arg1:T24 Arg2:T23	
+R17	Descriptor_Of Arg1:T27 Arg2:T26	
+R18	Condition_Of Arg1:T28 Arg2:E3	
+R19	Descriptor_Of Arg1:T30 Arg2:T29	
+R20	Number_Of Arg1:T33 Arg2:T34	
+R21	Type_Of Arg1:T32 Arg2:T34	
+R22	Condition_Of Arg1:T34 Arg2:E4	
+R23	Descriptor_Of Arg1:T36 Arg2:T35	
+R24	Condition_Of Arg1:T37 Arg2:E5	
+R25	Number_Of Arg1:T39 Arg2:T40	
+R26	Condition_Of Arg1:T40 Arg2:E6	
+R27	Number_Of Arg1:T41 Arg2:T42	
+R28	Condition_Of Arg1:T42 Arg2:E6	
+R29	Descriptor_Of Arg1:T45 Arg2:T44	
+R30	Condition_Of Arg1:T46 Arg2:E10	
+R31	Condition_Of Arg1:T49 Arg2:E12	
+R32	Number_Of Arg1:T50 Arg2:T51	
+R33	Condition_Of Arg1:T51 Arg2:E12	
+R34	Property_Of Arg1:T52 Arg2:T17	
+R35	Number_Of Arg1:T53 Arg2:T54	
+R36	Amount_Of Arg1:T54 Arg2:T55	

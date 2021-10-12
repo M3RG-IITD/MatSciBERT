@@ -1,0 +1,3 @@
+10.1016/j.elecom.2003.08.018
+Anthracene based organodisulfide positive active materials for lithium secondary battery
+The ABTH was prepared following the methods in the literature [10] either from 1,4,5,8-tetrachloroanthracene (route 1 in Scheme 1) or from anthracene (route 2 in Scheme 1), the products were extracted with CS2 in Soxhlet's extractor for 24 h to remove free sulfur then with water-alcohol to remove soluble impurities. PABTH was polymerized simply by oxidative coupling reaction of ABTH in the presence of FeCl3 in chloroform at room temperature for 48 h. After reaction, the chloroform was filtered out, FeCl3 was removed by washing with dilute hydrochloric acid then water till pH 7. The polymer was dried at 60 degC in oven to constant weight.

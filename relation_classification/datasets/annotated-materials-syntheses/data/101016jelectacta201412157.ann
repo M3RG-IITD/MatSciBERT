@@ -1,0 +1,87 @@
+T1	Operation 192 196	used
+E1	Operation:T1 Participant_Material:T9
+T2	Operation 348 353	added
+E2	Operation:T2 Recipe_Precursor:T11 Recipe_Precursor:T12
+T3	Operation 443 448	added
+E3	Operation:T3 Participant_Material:T17
+T4	Operation 475 481	adding
+E4	Operation:T4 Solvent_Material:T20
+T5	Operation 528 531	run
+E5	Operation:T5 Participant_Material:T21
+T6	Operation 608 613	dried
+E6	Operation:T6 Participant_Material:T22 Atmospheric_Material:T23
+T7	Operation 671 680	collected
+E7	Operation:T7 Participant_Material:T24
+T8	Operation 685 697	heat-treated
+E8	Operation:T8 
+T9	Material 134 143	chemicals
+T10	Material 77 84	ZnCo2O4
+T11	Material 251 273	zinc acetate dihydrate
+T12	Material 278 310	cobalt (II) acetate tetrahydrate
+T13	Nonrecipe-Material 318 320	Zn
+T14	Nonrecipe-Material 321 323	Co
+T15	Amount-Unit 324 335	molar ratio
+T16	Number 339 342	1:2
+T17	Material 370 381	Citric acid
+T18	Nonrecipe-Material 424 426	Zn
+T19	Nonrecipe-Material 431 433	Co
+T20	Material 503 508	water
+T21	Material 565 574	precursor
+T22	Material 596 603	mixture
+T23	Material 628 631	air
+T24	Material 660 666	powder
+T25	Material 753 761	products
+T26	Number 389 392	120
+T27	Amount-Unit 392 393	%
+T28	Amount-Unit 394 407	mole fraction
+T29	Number 536 537	4
+T30	Condition-Unit 538 539	h
+T31	Number 543 546	500
+T32	Condition-Unit 547 550	rpm
+T33	Number 617 619	80
+T34	Condition-Unit 620 624	degC
+T35	Number 721 724	400
+T36	Condition-Unit 725 729	degC
+T37	Number 734 737	500
+T38	Condition-Unit 738 742	degC
+T39	Material-Descriptor 166 182	analytical grade
+T40	Synthesis-Apparatus 359 368	ball mill
+T41	Synthesis-Apparatus 458 467	ball mill
+T42	Amount-Misc 484 499	suitable volume
+T43	Synthesis-Apparatus 514 523	ball mill
+T44	Material-Descriptor 641 659	wine red precursor
+T45	Synthesis-Apparatus 703 717	muffle furnace
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E7	
+R7	Next_Operation Arg1:E7 Arg2:E8	
+R8	Apparatus_Of Arg1:T40 Arg2:E2	
+R9	Apparatus_Of Arg1:T41 Arg2:E3	
+R10	Apparatus_Of Arg1:T43 Arg2:E5	
+R11	Condition_Of Arg1:T30 Arg2:E5	
+R12	Condition_Of Arg1:T32 Arg2:E5	
+R13	Condition_Of Arg1:T34 Arg2:E6	
+R14	Apparatus_Of Arg1:T45 Arg2:E8	
+R15	Condition_Of Arg1:T36 Arg2:E8	
+R16	Condition_Of Arg1:T38 Arg2:E8	
+R17	Amount_Of Arg1:T15 Arg2:T13	
+R18	Amount_Of Arg1:T15 Arg2:T14	
+R19	Amount_Of Arg1:T27 Arg2:T17	
+R20	Amount_Of Arg1:T28 Arg2:T17	
+R21	Amount_Of Arg1:T42 Arg2:T20	
+R22	Descriptor_Of Arg1:T39 Arg2:T9	
+R23	Descriptor_Of Arg1:T44 Arg2:T24	
+R24	Number_Of Arg1:T16 Arg2:T15	
+R25	Number_Of Arg1:T26 Arg2:T27	
+R26	Number_Of Arg1:T29 Arg2:T30	
+R27	Number_Of Arg1:T31 Arg2:T32	
+R28	Number_Of Arg1:T33 Arg2:T34	
+R29	Number_Of Arg1:T35 Arg2:T36	
+R30	Number_Of Arg1:T37 Arg2:T38	
+R31	Amount_Of Arg1:T15 Arg2:T12	
+R32	Amount_Of Arg1:T15 Arg2:T11	
+R33	Amount_Of Arg1:T28 Arg2:T18	
+R34	Amount_Of Arg1:T28 Arg2:T19	

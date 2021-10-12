@@ -1,0 +1,5 @@
+10.1038/s41598-017-16585-x
+Low-temperature fabrication of an HfO2 passivation layer for amorphous indium-gallium-zinc oxide thin film transistors using a solution process
+
+To fabricate the HfO2 passivation layer, the HfO2 precursor solution (0.1 M) was prepared by dissolving hafnium (IV) chloride (HfCl4; Aldrich, 98%) in DI water. For the Y2O3 passivation layer, the Y2O3 precursor solution was made using yttrium (III) chloride hexahydrate (YCl3*6H2O; Aldrich, 99.9%) using the same molar ratio and solvent as the HfO2 precursor solution. For the PMMA passivation layer, the PMMA precursor solution was synthesized by dissolving 40 mg/mL of PMMA ([CH2C(CH3)(CO2CH3)]n; Aldrich; Mw ca.15,000) in butyl acetate (CH3COO(CH2)3CH3; Sigma-Aldrich, 99%). All solutions were stirred for 1 h at room temperature and aged for 24 h. The precursor solutions were then spin-coated onto the fabricated a-IGZO TFTs at 3,000 rpm for 30 s, and annealed at 100 to 250 degC in air for 1 h.
+

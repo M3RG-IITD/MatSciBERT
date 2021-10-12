@@ -1,0 +1,6 @@
+10.1016/j.jpowsour.2014.11.037
+Phase composition and electrochemical performance of sodium lithium titanates as anode materials for lithium rechargeable batteries
+
+NaxLi4-xTi6O14 (0 <= x <= 4) samples with different Na contents (x = 0, 1, 2, 3 and 4) were synthesized by a traditional solid-state method. The stoichiometric amounts of CH3COOLi*2H2O (Aladdin Chemistry), CH3COONa*3H2O (Aladdin Chemistry), TiO2 (Aladdin Chemistry) were mixed with oxalic acid dehydrate chelating agent (Aladdin Chemistry) under various Na/Li molar ratios and pretreated by high energy ball-milling in ethanol at 400 rpm rotational speed for 15 h. The obtained precursor slurry was dried at 80 degC and then calcinated at 900 degC for 10 h in air atmosphere. Based on the different Na/Li molar ratios, the as-prepared five NaxLi4-xTi6O14 (0 <= x <= 4) samples were designated as Li4Ti6O14, NaLi3Ti6O14, Na2Li2Ti6O14, Na3LiTi6O14 and Na4Ti6O14, respectively.
+
+

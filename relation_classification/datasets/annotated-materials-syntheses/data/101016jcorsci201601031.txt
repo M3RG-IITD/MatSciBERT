@@ -1,0 +1,4 @@
+10.1016/j.corsci.2016.01.031
+The influence of the high Fe and Cr contents of Alloy 800 on its inter- and intragranular oxidation tendency in 480degC hydrogenated steam
+Alloy 800 was purchased from Rolled Alloys Inc. as a 1.3 mm thick plate; Table 1 reports the composition of the material. The material was cut into flat coupons measuring 1 cm by 1 cm. Coupons were solution annealed at 1050 degC in Ar-5% H2 gas for one hour and immediately water quenched to ensure complete dissolution of carbides and homogeneous composition.
+Samples were ground with 400, 800, and 1200 grit paper. Following this, coupons were fine polished using diamond paste (9 μm, 3 μm, and 1 μm) and then with alumina suspension to a 0.05 μm finish. Coupons were ultrasonically cleaned in ethanol and de-ionized water for 10 minutes each between polishing stages and dried with air. A desiccator was used to store samples until time of exposure.

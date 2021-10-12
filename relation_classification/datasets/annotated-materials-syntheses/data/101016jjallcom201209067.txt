@@ -1,0 +1,5 @@
+10.1016/j.jallcom.2012.09.067
+Synthesis and property evaluation of CuFeS2-x as earth-abundant and environmentally-friendly thermoelectric materials
+
+The commercial elemental powders of Cu (99.99%), Fe (99.99%) and S (99.9%) were used as starting materials. These powders were mixed according to the compositions of CuFeS2-x (x = 0, 0.05, 0.15, 0.20, 0.25), and the mixtures were subjected to MA in a planetary ball mill (QM-2L) using a hardened stainless steel vial and ball, which was performed at 450 rpm for different times. The weight ratio of balls to powders was kept at about 20:1, and the mill vial was filled with Ar (99.9%) atmosphere to prevent the powders from oxidation during the milling process. The MA-derived powders were densified by SPS at different temperatures ranging from 873 to 923 K for 5 min under an axial pressure of 50 MPa. Graphite dies were used for SPS, which was conducted in vacuum. In this paper, 10 h/873 K means that the sample was synthesized by milling for 10 h and then sintering at 873 K for 5 min.
+

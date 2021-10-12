@@ -1,0 +1,171 @@
+T1	Operation 150 159	purchased
+E1	Operation:T1 Participant_Material:T42
+T2	Operation 190 194	used
+E2	Operation:T2 
+T3	Operation 314 323	dissolved
+E3	Operation:T3 Recipe_Precursor:T44 Recipe_Precursor:T43 Solvent_Material:T46 Solvent_Material:T47
+T4	Operation 511 516	mixed
+E4	Operation:T4 Recipe_Precursor:T49 Participant_Material:T50
+T5	Operation 590 599	dissolved
+E5	Operation:T5 Recipe_Precursor:T51 Solvent_Material:T52
+T6	Operation 649 653	used
+E6	Operation:T6 
+T7	Operation 658 665	coating
+E7	Operation:T7 
+T8	Operation 722 730	filtered
+E8	Operation:T8 Participant_Material:T53
+T9	Operation 764 769	avoid
+E9	Operation:T9 Participant_Material:T54
+T10	Operation 850 854	used
+E10	Operation:T10 
+T11	Operation 858 862	seal
+E11	Operation:T11 
+T12	Meta 91 123	chlorine-mediated interdiffusion
+T13	Material 53 63	perovskite
+T14	Property-Misc 64 75	solar cells
+T15	Property-Misc 39 52	highly stable
+T16	Property-Misc 19 34	Hysteresis-free
+T17	Number 253 255	99
+T18	Number 304 306	98
+T19	Number 372 376	99.5
+T20	Number 380 383	400
+T21	Brand 292 301	Wako Chem
+T22	Brand 238 251	Sigma Aldrich
+T23	Brand 360 370	Wako chem.
+T24	Brand 419 429	Wako chem.
+T25	Number 432 434	50
+T26	Number 480 484	5-20
+T27	Number 568 570	99
+T28	Brand 548 566	Solenne or Lumitec
+T29	Number 583 584	2
+T30	Brand 495 505	Wako chem.
+T31	Brand 628 638	Wako chem.
+T32	Number 640 642	99
+T33	Number 737 741	0.45
+T34	Number 1031 1038	1.54050
+T35	Number 1150 1151	5
+T36	Number 1307 1309	10
+T37	Number 1370 1371	1
+T38	Number 1409 1412	100
+T39	Number 1769 1780	0.02 to 0.3
+T40	Number 1856 1860	0.18
+T41	Number 1806 1809	240
+T42	Material 135 144	chemicals
+T43	Material 232 236	PbI2
+T44	Material 262 284	methyl ammonium iodide
+T45	Material 286 289	MAI
+T46	Material 327 358	anhydrous N,N-dimethylformamide
+T47	Material 397 417	anhydrous 2-propanol
+T48	Nonrecipe-Material 463 471	chlorine
+T49	Material 489 493	MACl
+T50	Material 526 529	MAI
+T51	Material 540 546	PC61BM
+T52	Material 603 626	anhydrous chlorobenzene
+T53	Material 707 716	solutions
+T54	Nonrecipe-Material 782 790	particle
+T55	Amount-Unit 255 256	%
+T56	Amount-Unit 306 307	%
+T57	Amount-Unit 376 377	%
+T58	Amount-Unit 384 391	mg ml-1
+T59	Amount-Unit 435 442	mg ml-1
+T60	Amount-Unit 485 488	wt%
+T61	Amount-Unit 570 571	%
+T62	Amount-Unit 585 588	wt%
+T63	Amount-Unit 642 643	%
+T64	Apparatus-Unit 742 744	μm
+T65	Material-Descriptor 530 538	solution
+T66	Material-Descriptor 573 581	solution
+T67	Synthesis-Apparatus 745 760	syringe filters
+T68	Synthesis-Apparatus 802 819	UV-curable resins
+T69	Brand 821 843	NagaseChemtex XNR5516Z
+T70	Synthesis-Apparatus 863 870	devices
+T71	Apparatus-Descriptor 876 890	cavity glasses
+T72	Brand 1177 1189	Hitachi-4800
+T73	Characterization-Apparatus 896 913	X-ray diffraction
+T74	Characterization-Apparatus 970 1009	Bruker D8 advanced X-ray diffractometer
+T75	Apparatus-Unit 1039 1040	Å
+T76	Characterization-Apparatus 1102 1146	high resolution scanning electron microscope
+T77	Apparatus-Unit 1152 1154	kV
+T78	Apparatus-Property-Type 1168 1175	voltage
+T79	Apparatus-Property-Type 1296 1303	voltage
+T80	Apparatus-Unit 1310 1312	kV
+T81	Characterization-Apparatus 1257 1274	X-ray measurement
+T82	Apparatus-Unit 1413 1420	mW cm-2
+T83	Apparatus-Unit 1781 1786	V s-1
+T84	Apparatus-Unit 1861 1864	cm2
+T85	Synthesis-Apparatus 1865 1878	aperture mask
+T86	Apparatus-Property-Type 1741 1751	scan rates
+T87	Characterization-Apparatus 1575 1608	External quantum efficiency (EQE)
+T88	Characterization-Apparatus 1535 1571	conversion efficiency (IPCE) spectra
+T89	Characterization-Apparatus 1630 1652	CEP-200BX spectrometer
+T90	Brand 1654 1664	Bunkokeiki
+T91	Operation 1614 1622	measured
+E12	Operation:T91 
+T92	Condition-Misc 1683 1699	room temperature
+T93	Operation 1091 1096	taken
+E13	Operation:T93 
+R1	Property_Of Arg1:T16 Arg2:T13	
+R2	Property_Of Arg1:T15 Arg2:T13	
+R3	Property_Of Arg1:T14 Arg2:T13	
+A1	Start_Recipe E1
+R4	Next_Operation Arg1:E1 Arg2:E2	
+R5	Next_Operation Arg1:E2 Arg2:E3	
+R6	Next_Operation Arg1:E3 Arg2:E4	
+R7	Next_Operation Arg1:E4 Arg2:E5	
+R8	Next_Operation Arg1:E5 Arg2:E6	
+R9	Next_Operation Arg1:E6 Arg2:E7	
+R10	Next_Operation Arg1:E7 Arg2:E9	
+R11	Next_Operation Arg1:E9 Arg2:E10	
+R12	Next_Operation Arg1:E10 Arg2:E11	
+A2	End_Recipe E11
+R13	Brand_Of Arg1:T22 Arg2:T43	
+R14	Number_Of Arg1:T17 Arg2:T55	
+R15	Amount_Of Arg1:T55 Arg2:T43	
+R16	Coref_Of Arg1:T45 Arg2:T44	
+R17	Brand_Of Arg1:T21 Arg2:T44	
+R18	Number_Of Arg1:T18 Arg2:T56	
+R19	Amount_Of Arg1:T56 Arg2:T44	
+R20	Brand_Of Arg1:T23 Arg2:T46	
+R21	Number_Of Arg1:T19 Arg2:T57	
+R22	Amount_Of Arg1:T57 Arg2:T46	
+R23	Number_Of Arg1:T20 Arg2:T58	
+R24	Amount_Of Arg1:T58 Arg2:T46	
+R25	Brand_Of Arg1:T24 Arg2:T47	
+R26	Number_Of Arg1:T25 Arg2:T59	
+R27	Amount_Of Arg1:T59 Arg2:T47	
+R28	Number_Of Arg1:T26 Arg2:T60	
+R29	Amount_Of Arg1:T60 Arg2:T49	
+R30	Brand_Of Arg1:T30 Arg2:T49	
+R31	Descriptor_Of Arg1:T65 Arg2:T50	
+R32	Brand_Of Arg1:T28 Arg2:T51	
+R33	Number_Of Arg1:T27 Arg2:T61	
+R34	Amount_Of Arg1:T61 Arg2:T51	
+R35	Descriptor_Of Arg1:T66 Arg2:T51	
+R36	Number_Of Arg1:T29 Arg2:T62	
+R37	Amount_Of Arg1:T62 Arg2:T51	
+R38	Brand_Of Arg1:T31 Arg2:T52	
+R39	Number_Of Arg1:T32 Arg2:T63	
+R40	Amount_Of Arg1:T63 Arg2:T52	
+R41	Number_Of Arg1:T33 Arg2:T64	
+R42	Apparatus_Attr_Of Arg1:T64 Arg2:T67	
+R43	Apparatus_Of Arg1:T67 Arg2:E8	
+R44	Brand_Of Arg1:T69 Arg2:T68	
+R45	Apparatus_Of Arg1:T68 Arg2:E10	
+R46	Apparatus_Of Arg1:T70 Arg2:E11	
+R47	Descriptor_Of Arg1:T71 Arg2:T70	
+R48	Number_Of Arg1:T34 Arg2:T75	
+R49	Apparatus_Attr_Of Arg1:T75 Arg2:T74	
+R50	Number_Of Arg1:T35 Arg2:T77	
+R51	Type_Of Arg1:T78 Arg2:T77	
+R52	Brand_Of Arg1:T72 Arg2:T76	
+R53	Apparatus_Attr_Of Arg1:T77 Arg2:T76	
+R54	Number_Of Arg1:T36 Arg2:T80	
+R55	Type_Of Arg1:T79 Arg2:T80	
+R56	Apparatus_Attr_Of Arg1:T80 Arg2:T81	
+R57	Number_Of Arg1:T38 Arg2:T82	
+R58	Brand_Of Arg1:T90 Arg2:T89	
+R59	Condition_Of Arg1:T92 Arg2:E12	
+R60	Number_Of Arg1:T39 Arg2:T83	
+R61	Type_Of Arg1:T86 Arg2:T83	
+R62	Number_Of Arg1:T40 Arg2:T84	
+R63	Apparatus_Attr_Of Arg1:T84 Arg2:T85	

@@ -1,0 +1,5 @@
+10.1038/srep39770
+Real-time oxide evolution of copper protected by graphene and boron nitride barriers
+
+The graphene samples were grown using a commercial Annealsys AS-ONE cold-wall chemical vapour deposition (CVD) reactor on 25 μm-thick electropolished copper foils. First, the Cu foils were annealed in argon at 1035 degC in atmospheric pressure for 10 minutes, then graphene was synthesised at the same temperature at a pressure of 25 mbar using a mixture of 900sccm Ar, 60sccm H2 and 2sccm CH4 for 15 minutes. hBN coatings were grown using a quartz tube furnace on the same batch of electropolished copper foils used for growing graphene. The growth was done at 900 degC at a total pressure of 60 mbar for 15 minutes with a mixture of 300sccm Ar, 15sccm H2 and 3sccm of borazine (B3H6N3, from Fluorochem).
+

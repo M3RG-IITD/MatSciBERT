@@ -1,0 +1,146 @@
+T3	Operation 380 384	used
+E3	Operation:T3 Participant_Material:T1
+T4	Operation 422 426	made
+E4	Operation:T4 Recipe_Target:T2
+T5	Operation 457 465	followed
+E5	Operation:T5 
+T6	Operation 471 490	thermal exfoliation
+E6	Operation:T6 Atmospheric_Material:T21
+T7	Operation 637 646	dispersed
+E7	Operation:T7 Recipe_Precursor:T23 Recipe_Precursor:T22 Solvent_Material:T24
+T8	Operation 676 685	subjected
+E8	Operation:T8 
+T9	Operation 689 709	ultrasonic vibration
+E9	Operation:T9 Participant_Material:T25
+T10	Operation 804 809	mixed
+E10	Operation:T10 Participant_Material:T26
+T11	Operation 830 839	subjected
+E11	Operation:T11 
+T12	Operation 843 863	ultrasonic vibration
+E12	Operation:T12 
+T13	Operation 886 899	freeze drying
+E13	Operation:T13 
+T14	Operation 942 949	grinded
+E14	Operation:T14 Recipe_Precursor:T27
+T15	Operation 966 971	mixed
+E15	Operation:T15 
+T16	Operation 1003 1011	calcined
+E16	Operation:T16 Participant_Material:T28
+T17	Operation 1065 1071	cooled
+E17	Operation:T17 Atmospheric_Material:T29
+T18	Operation 1145 1151	washed
+E18	Operation:T18 Participant_Material:T30 Solvent_Material:T31 Solvent_Material:T32
+T19	Operation 1272 1277	dried
+E19	Operation:T19 Participant_Material:T34
+T20	Material 59 67	graphene
+T1	Material 341 350	chemicals
+T2	Material 415 417	GS
+T21	Material 522 527	H2/Ar
+T22	Material 608 610	GS
+T23	Material 621 631	NiCl2*6H2O
+T24	Material 666 671	water
+T25	Material 732 742	suspension
+T26	Material 773 784	suspensions
+T27	Material 926 937	NaH2PO2*H2O
+T28	Material 991 998	mixture
+T29	Material 1108 1110	Ar
+T30	Material 1126 1131	solid
+T31	Material 1178 1183	water
+T32	Material 1197 1210	ethyl alcohol
+T33	Material 1225 1236	by-products
+T34	Material 1258 1266	products
+T35	Number 495 498	800
+T36	Condition-Unit 499 503	degC
+T37	Number 508 509	1
+T38	Condition-Unit 510 513	min
+T39	Number 544 546	10
+T40	Condition-Unit 547 555	degC/min
+T41	Number 603 604	5
+T42	Amount-Unit 605 607	mg
+T43	Number 615 618	0.3
+T44	Amount-Unit 619 620	g
+T45	Number 650 652	20
+T46	Amount-Unit 653 655	ml
+T47	Number 919 923	1.03
+T48	Amount-Unit 924 925	g
+T49	Number 1015 1018	500
+T50	Condition-Unit 1019 1023	degC
+T51	Number 1028 1029	1
+T52	Condition-Unit 1030 1031	h
+T53	Number 1037 1038	2
+T54	Condition-Unit 1039 1047	degC/min
+T55	Condition-Misc 1075 1091	room temperature
+T56	Number 1112 1118	99.999
+T57	Amount-Unit 1118 1119	%
+T58	Number 1281 1283	80
+T59	Condition-Unit 1284 1288	degC
+T60	Number 1293 1294	1
+T61	Condition-Unit 1296 1297	h
+T62	Property-Misc 50 58	crumpled
+T63	Property-Misc 68 78	nanosheets
+T64	Material-Descriptor 359 375	analytical grade
+T65	Meta 442 456	Hummers method
+T66	Material-Descriptor 528 538	atmosphere
+T67	Material-Descriptor 656 665	distilled
+T68	Material-Descriptor 720 731	homogeneous
+T69	Synthesis-Apparatus 955 961	mortar
+T70	Material-Descriptor 1168 1177	distilled
+T71	Material-Descriptor 1188 1196	absolute
+T72	Material-Descriptor 1254 1257	wet
+T73	Synthesis-Apparatus 1310 1314	oven
+T74	Apparatus-Descriptor 1303 1309	vacuum
+R1	Next_Operation Arg1:E3 Arg2:E4	
+R2	Next_Operation Arg1:E4 Arg2:E5	
+R3	Next_Operation Arg1:E5 Arg2:E6	
+R4	Next_Operation Arg1:E6 Arg2:E7	
+R5	Next_Operation Arg1:E7 Arg2:E8	
+R6	Next_Operation Arg1:E8 Arg2:E9	
+R7	Next_Operation Arg1:E9 Arg2:E10	
+R8	Next_Operation Arg1:E10 Arg2:E11	
+R9	Next_Operation Arg1:E11 Arg2:E12	
+R10	Next_Operation Arg1:E12 Arg2:E13	
+R11	Next_Operation Arg1:E13 Arg2:E14	
+R12	Next_Operation Arg1:E14 Arg2:E15	
+R13	Next_Operation Arg1:E15 Arg2:E16	
+R14	Next_Operation Arg1:E16 Arg2:E17	
+R15	Next_Operation Arg1:E17 Arg2:E18	
+R16	Next_Operation Arg1:E18 Arg2:E19	
+R17	Condition_Of Arg1:T36 Arg2:E6	
+R18	Condition_Of Arg1:T38 Arg2:E6	
+R19	Condition_Of Arg1:T40 Arg2:E6	
+R20	Apparatus_Of Arg1:T69 Arg2:E14	
+R21	Condition_Of Arg1:T50 Arg2:E16	
+R22	Condition_Of Arg1:T52 Arg2:E16	
+R23	Condition_Of Arg1:T54 Arg2:E16	
+R24	Condition_Of Arg1:T55 Arg2:E17	
+R25	Condition_Of Arg1:T59 Arg2:E19	
+R26	Condition_Of Arg1:T61 Arg2:E19	
+R27	Apparatus_Of Arg1:T73 Arg2:E19	
+R28	Property_Of Arg1:T62 Arg2:T20	
+R29	Property_Of Arg1:T63 Arg2:T20	
+R30	Amount_Of Arg1:T42 Arg2:T22	
+R31	Amount_Of Arg1:T44 Arg2:T23	
+R32	Amount_Of Arg1:T46 Arg2:T24	
+R33	Amount_Of Arg1:T48 Arg2:T27	
+R34	Amount_Of Arg1:T57 Arg2:T29	
+R35	Descriptor_Of Arg1:T64 Arg2:T1	
+R36	Descriptor_Of Arg1:T66 Arg2:T21	
+R37	Descriptor_Of Arg1:T67 Arg2:T24	
+R38	Descriptor_Of Arg1:T68 Arg2:T25	
+R39	Descriptor_Of Arg1:T70 Arg2:T31	
+R40	Descriptor_Of Arg1:T71 Arg2:T32	
+R41	Descriptor_Of Arg1:T74 Arg2:T73	
+R42	Descriptor_Of Arg1:T72 Arg2:T34	
+R43	Number_Of Arg1:T35 Arg2:T36	
+R44	Number_Of Arg1:T37 Arg2:T38	
+R45	Number_Of Arg1:T39 Arg2:T40	
+R46	Number_Of Arg1:T41 Arg2:T42	
+R47	Number_Of Arg1:T43 Arg2:T44	
+R48	Number_Of Arg1:T45 Arg2:T46	
+R49	Number_Of Arg1:T47 Arg2:T48	
+R50	Number_Of Arg1:T49 Arg2:T50	
+R51	Number_Of Arg1:T51 Arg2:T52	
+R52	Number_Of Arg1:T53 Arg2:T54	
+R53	Number_Of Arg1:T56 Arg2:T57	
+R54	Number_Of Arg1:T58 Arg2:T59	
+R55	Number_Of Arg1:T60 Arg2:T61	

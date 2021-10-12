@@ -1,0 +1,96 @@
+T1	Operation 324 329	mixed
+E1	Operation:T1 Recipe_Precursor:T13 Recipe_Precursor:T14 Solvent_Material:T17
+T2	Operation 374 382	stirring
+E2	Operation:T2 
+T3	Operation 430 441	transferred
+E3	Operation:T3 Participant_Material:T18
+T4	Operation 496 502	heated
+E4	Operation:T4 
+T5	Operation 519 529	maintained
+E5	Operation:T5 
+T6	Operation 638 644	cooled
+E6	Operation:T6 
+T7	Operation 710 718	obtained
+E7	Operation:T7 Participant_Material:T22
+T8	Operation 738 743	dried
+E8	Operation:T8 Participant_Material:T23 Atmospheric_Material:T24 Participant_Material:T25
+T9	Operation 809 815	ground
+E9	Operation:T9 Participant_Material:T26 Participant_Material:T27
+T10	Operation 836 844	calcined
+E10	Operation:T10 Atmospheric_Material:T28
+T11	Operation 934 940	cooled
+E11	Operation:T11 Participant_Material:T29
+T12	Operation 975 981	ground
+E12	Operation:T12 Participant_Material:T30
+T13	Material 273 281	LiOH*H2O
+T14	Material 286 292	NH4VO3
+T15	Nonrecipe-Material 294 296	Li
+T16	Nonrecipe-Material 297 298	V
+T17	Material 343 348	water
+T18	Material 412 420	solution
+T19	Synthesis-Apparatus 467 476	autoclave
+T20	Synthesis-Apparatus 482 491	autoclave
+T21	Synthesis-Apparatus 624 633	autoclave
+T22	Material 697 705	solution
+T23	Material 725 733	solution
+T24	Material 747 750	air
+T25	Material 792 795	gel
+T26	Material 801 804	gel
+T27	Material 819 826	powders
+T28	Material 892 895	air
+T29	Material 921 928	powders
+T30	Material 1008 1016	products
+T31	Amount-Misc 247 269	Stoichiometric amounts
+T32	Number 301 304	1:3
+T33	Amount-Unit 306 317	molar ratio
+T34	Material-Descriptor 333 342	deionized
+T35	Number 447 450	100
+T36	Apparatus-Unit 451 453	mL
+T37	Apparatus-Descriptor 454 466	Teflon lined
+T38	Condition-Misc 648 664	room temperature
+T39	Number 754 756	80
+T40	Condition-Unit 757 761	degC
+T41	Number 766 768	10
+T42	Condition-Unit 769 770	h
+T43	Number 848 851	400
+T44	Condition-Unit 852 856	degC
+T45	Number 861 863	10
+T46	Condition-Unit 864 865	h
+T47	Synthesis-Apparatus 871 885	muffle furnace
+T48	Condition-Misc 944 960	room temperature
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E7	
+R7	Next_Operation Arg1:E7 Arg2:E8	
+R8	Next_Operation Arg1:E8 Arg2:E9	
+R9	Next_Operation Arg1:E9 Arg2:E10	
+R10	Next_Operation Arg1:E10 Arg2:E11	
+R11	Next_Operation Arg1:E11 Arg2:E12	
+R12	Apparatus_Of Arg1:T19 Arg2:E3	
+R13	Apparatus_Of Arg1:T20 Arg2:E4	
+R14	Apparatus_Of Arg1:T21 Arg2:E6	
+R15	Condition_Of Arg1:T38 Arg2:E6	
+R16	Condition_Of Arg1:T40 Arg2:E8	
+R17	Condition_Of Arg1:T42 Arg2:E8	
+R18	Condition_Of Arg1:T44 Arg2:E10	
+R19	Condition_Of Arg1:T46 Arg2:E10	
+R20	Apparatus_Of Arg1:T47 Arg2:E10	
+R21	Condition_Of Arg1:T48 Arg2:E11	
+R22	Amount_Of Arg1:T31 Arg2:T13	
+R23	Amount_Of Arg1:T31 Arg2:T14	
+R24	Amount_Of Arg1:T33 Arg2:T13	
+R25	Amount_Of Arg1:T33 Arg2:T14	
+R26	Amount_Of Arg1:T33 Arg2:T15	
+R27	Amount_Of Arg1:T33 Arg2:T16	
+R28	Descriptor_Of Arg1:T34 Arg2:T17	
+R29	Descriptor_Of Arg1:T37 Arg2:T19	
+R30	Number_Of Arg1:T32 Arg2:T33	
+R31	Number_Of Arg1:T35 Arg2:T36	
+R32	Number_Of Arg1:T39 Arg2:T40	
+R33	Number_Of Arg1:T41 Arg2:T42	
+R34	Number_Of Arg1:T43 Arg2:T44	
+R35	Number_Of Arg1:T45 Arg2:T46	
+R36	Apparatus_Attr_Of Arg1:T36 Arg2:T19	

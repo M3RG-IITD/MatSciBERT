@@ -1,0 +1,4 @@
+10.1016/j.jpowsour.2011.10.077
+A novel FeAs anode material for lithium ion battery
+
+FeAs was prepared using Fe powder and arsenic bulk by solid state reaction. The starting materials were mixed in a mole ratio of 1:1, and then transferred into a quartz tube. After evacuation, the quartz tube was sealed by an oxyhydrogen flame. The tube was then put into a muffle furnace, heated to 800 degC at 5 degC min-1, and calcined at 800 degC for 10 h.

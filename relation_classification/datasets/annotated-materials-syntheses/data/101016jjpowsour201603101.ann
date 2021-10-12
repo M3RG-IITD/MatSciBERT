@@ -1,0 +1,68 @@
+T1	Material 80 105	Li1.2Mn0.54Co0.13Ni0.13O2
+T2	Property-Misc 71 79	Ti-doped
+T3	Nonrecipe-Material 110 121	lithium-ion
+T4	Operation 311 322	synthesized
+E1	Operation:T4 Recipe_Target:T13
+T5	Meta 328 351	modified Pechini method
+T6	Operation 482 491	dissolved
+E2	Operation:T6 Recipe_Precursor:T21 Recipe_Precursor:T20 Recipe_Precursor:T19 Recipe_Precursor:T18 Recipe_Precursor:T17 Solvent_Material:T25 Solvent_Material:T26 Solvent_Material:T27
+T7	Operation 581 585	form
+E3	Operation:T7 Participant_Material:T30
+T9	Number 691 694	400
+T10	Operation 722 730	calcined
+E4	Operation:T10 Atmospheric_Material:T39 Participant_Material:T40
+T11	Number 200 232	0, 0.025, 0.05, 0.10, 0.20, 0.50
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E5	
+T12	Reference 657 661	[22]
+T13	Material 164 194	Li1.2-xTixMn0.54Co0.13Ni0.13O2
+T14	Property-Misc 132 153	Li-rich layered oxide
+T15	Material 245 291	Pristine Ti, Ti-2.5, Ti-5, Ti-10, Ti-20, Ti-50
+R3	Coref_Of Arg1:T15 Arg2:T13	
+R4	Property_Of Arg1:T2 Arg2:T1	
+T16	Amount-Misc 353 375	Stoichiometric amounts
+T17	Material 379 395	Co(CH3COO)2*4H2O
+T18	Material 397 413	Ni(CH3COO)2*4H2O
+T19	Material 415 431	Mn(CH3COO)2*4H2O
+T20	Material 433 447	Ti(OCH(CH3)2)4
+T21	Material 464 476	LiCH3COO*H2O
+T22	Amount-Misc 452 458	excess
+T23	Number 460 461	5
+T24	Amount-Unit 461 462	%
+R5	Number_Of Arg1:T23 Arg2:T24	
+R6	Amount_Of Arg1:T24 Arg2:T21	
+R7	Amount_Of Arg1:T22 Arg2:T21	
+T25	Material 495 511	absolute alcohol
+T26	Material 526 537	citric acid
+T27	Material 542 557	ethylene glycol
+T28	Amount-Unit 559 570	molar ratio
+T29	Number 573 576	1:4
+T30	Material 588 607	polymeric precursor
+T31	Material 667 676	precursor
+T32	Condition-Unit 695 699	degC
+T33	Number 704 705	5
+T34	Condition-Unit 706 707	h
+T35	Number 734 737	800
+T36	Condition-Unit 738 742	degC
+T37	Number 747 749	12
+T38	Condition-Unit 750 751	h
+T39	Material 755 758	air
+R8	Amount_Of Arg1:T16 Arg2:T17	
+R9	Amount_Of Arg1:T16 Arg2:T18	
+R10	Property_Of Arg1:T14 Arg2:T13	
+R11	Amount_Of Arg1:T16 Arg2:T19	
+R12	Amount_Of Arg1:T16 Arg2:T20	
+R13	Number_Of Arg1:T29 Arg2:T28	
+R14	Amount_Of Arg1:T28 Arg2:T27	
+R15	Amount_Of Arg1:T28 Arg2:T26	
+T8	Operation 681 687	heated
+E5	Operation:T8 Participant_Material:T31
+R16	Next_Operation Arg1:E5 Arg2:E4	
+R17	Number_Of Arg1:T9 Arg2:T32	
+R18	Number_Of Arg1:T33 Arg2:T34	
+R19	Condition_Of Arg1:T32 Arg2:E5	
+R20	Condition_Of Arg1:T34 Arg2:E5	
+R21	Number_Of Arg1:T35 Arg2:T36	
+T40	Material 715 717	it
+R22	Number_Of Arg1:T37 Arg2:T38	
+R23	Condition_Of Arg1:T38 Arg2:E4	

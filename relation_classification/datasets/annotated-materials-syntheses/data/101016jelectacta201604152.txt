@@ -1,0 +1,3 @@
+10.1016/j.electacta.2016.04.152
+Disordered spinel LiNi0.5Mn1.5O4 cathode with improved rate performance for lithium-ion batteries
+To prepare LiNi0.5Mn1.5O4, 0.65 g of NiCl2 (Aldrich, 98%), 2.97 g of MnCl2.4H2O (Sigma-Aldrich, 99%), 0.42 g of LiOH*H2O (Sigma-Aldrich, 99%), and 2.50 g of glycine (Sigma, 99%) were homogeneously dissolved in deionized water. The solution was then heated at 90 degC for 8 h under vacuum until blue suspension was formed. The as-obtained precursor was heat-treated at 580 degC for 5 h and then further heated at 750 degC, 850 degC, and 950 degC, respectively for 12 h in air to yield the final products. The synthesized powders obtained were marked as S580, S750, S850, and S950, respectively.

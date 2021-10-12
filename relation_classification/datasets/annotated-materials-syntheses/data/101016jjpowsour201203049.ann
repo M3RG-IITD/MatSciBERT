@@ -1,0 +1,67 @@
+T1	Operation 180 191	synthesized
+E1	Operation:T1 Recipe_Target:T8
+T2	Meta 197 204	sol-gel
+T3	Operation 332 341	dissolved
+E2	Operation:T3 Recipe_Precursor:T9 Recipe_Precursor:T10 Recipe_Precursor:T11 Recipe_Precursor:T12 Participant_Material:T13 Solvent_Material:T14
+T4	Operation 403 410	stirred
+E3	Operation:T4 Participant_Material:T15 Atmospheric_Material:T16
+T5	Operation 446 452	heated
+E4	Operation:T5 Participant_Material:T17
+T6	Operation 503 508	fired
+E5	Operation:T6 Participant_Material:T18 Atmospheric_Material:T19
+T7	Material 82 99	LiFe0.5Mn0.5PO4/C
+T8	Material 158 175	LiFe0.5Mn0.5PO4/C
+T9	Material 231 244	CH3COOLi*2H2O
+T10	Material 246 256	FeCl2*4H2O
+T11	Material 258 268	MnCl2*4H2O
+T12	Material 270 274	P2O5
+T13	Material 279 290	critic acid
+T14	Material 351 358	ethanol
+T15	Material 381 389	solution
+T16	Material 423 431	nitrogen
+T17	Material 469 476	xerogel
+T18	Material 491 498	xerogel
+T19	Material 542 547	argon
+T20	Nonrecipe-Material 588 592	Fe2+
+T21	Material 603 620	LiFe0.5Mn0.5PO4/C
+T22	Number 313 326	1:0.5:0.5:1:1
+T23	Amount-Unit 298 309	molar ratio
+T24	Number 345 347	40
+T25	Amount-Unit 348 350	mL
+T26	Number 415 417	12
+T27	Condition-Unit 418 419	h
+T28	Number 456 459	353
+T29	Condition-Unit 460 461	K
+T30	Number 512 515	773
+T31	Condition-Unit 516 517	K
+T32	Number 522 523	5
+T33	Condition-Unit 524 525	h
+T34	Material-Descriptor 359 367	solution
+T35	Material-Descriptor 373 380	mixture
+T36	Material-Descriptor 533 541	purified
+T37	Material-Descriptor 432 435	gas
+T38	Material-Descriptor 548 551	gas
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Condition_Of Arg1:T27 Arg2:E3	
+R5	Condition_Of Arg1:T29 Arg2:E4	
+R6	Condition_Of Arg1:T31 Arg2:E5	
+R7	Condition_Of Arg1:T33 Arg2:E5	
+R8	Amount_Of Arg1:T23 Arg2:T13	
+R9	Amount_Of Arg1:T23 Arg2:T12	
+R10	Amount_Of Arg1:T23 Arg2:T11	
+R11	Amount_Of Arg1:T23 Arg2:T10	
+R12	Amount_Of Arg1:T23 Arg2:T9	
+R13	Amount_Of Arg1:T25 Arg2:T14	
+R14	Descriptor_Of Arg1:T37 Arg2:T16	
+R15	Descriptor_Of Arg1:T36 Arg2:T19	
+R16	Descriptor_Of Arg1:T38 Arg2:T19	
+R17	Descriptor_Of Arg1:T35 Arg2:T15	
+R18	Descriptor_Of Arg1:T34 Arg2:T14	
+R19	Number_Of Arg1:T22 Arg2:T23	
+R20	Number_Of Arg1:T24 Arg2:T25	
+R21	Number_Of Arg1:T26 Arg2:T27	
+R22	Number_Of Arg1:T28 Arg2:T29	
+R23	Number_Of Arg1:T30 Arg2:T31	
+R24	Number_Of Arg1:T32 Arg2:T33	

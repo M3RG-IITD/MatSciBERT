@@ -1,0 +1,108 @@
+T1	Operation 173 182	purchased
+E1	Operation:T1 Recipe_Precursor:T22
+T2	Brand 188 249	Chengdu Institute of Organic Chemistry of Academy of Sciences
+T3	Operation 254 265	synthesized
+E2	Operation:T3 
+T4	Meta 269 294	chemical vapor deposition
+T5	Operation 304 312	obtained
+E3	Operation:T5 Recipe_Precursor:T23
+T6	Brand 322 346	Jiangsu Chemical Company
+T8	Brand 429 454	Shanghai Chemical Reagent
+T9	Operation 473 477	used
+E4	Operation:T9 
+T10	Operation 494 506	purification
+E5	Operation:T10 
+T11	Operation 563 572	deaerated
+E6	Operation:T11 Participant_Material:T26 Atmospheric_Material:T27
+T12	Operation 637 645	prepared
+E7	Operation:T12 Participant_Material:T28 Recipe_Precursor:T30 Recipe_Precursor:T31
+T13	Operation 687 695	adjusted
+E8	Operation:T13 Participant_Material:T32 Participant_Material:T33
+T14	Operation 766 774	prepared
+E9	Operation:T14 Participant_Material:T34 Solvent_Material:T35
+T15	Operation 829 838	conducted
+E10	Operation:T15 
+T7	Operation 415 423	obtained
+E11	Operation:T7 Participant_Material:T25 Recipe_Precursor:T24
+T16	Number 156 158	95
+T19	Number 665 668	0.1
+T18	Number 649 652	0.1
+T20	Number 708 711	0.1
+T21	Number 723 726	0.1
+T22	Material 148 154	MWCNTs
+T23	Material 296 299	PCV
+T24	Material 356 360	H2O2
+T25	Material 371 380	chemicals
+T26	Material 553 562	solutions
+T27	Material 581 589	nitrogen
+T28	Material 595 604	phosphate
+T29	Material 622 625	PBS
+T30	Material 654 660	KH2PO4
+T31	Material 670 676	K2HPO4
+T32	Material 713 718	H3PO4
+T33	Material 728 731	KOH
+T34	Material 751 760	solutions
+T35	Material 797 802	water
+T36	Amount-Unit 158 159	%
+T17	Number 627 630	0.1
+T37	Amount-Unit 630 631	M
+T38	Amount-Unit 652 653	M
+T39	Amount-Unit 668 669	M
+T40	Condition-Unit 700 702	pH
+T41	Amount-Unit 711 712	M
+T42	Amount-Unit 726 727	M
+T43	Amount-Misc 160 166	purity
+T44	Amount-Misc 389 405	analytical grade
+T45	Condition-Misc 478 485	without
+T46	Material-Descriptor 576 580	pure
+T47	Material-Descriptor 605 620	buffer solution
+T48	Material-Descriptor 732 741	solutions
+T49	Material-Descriptor 780 796	doubly distilled
+T50	Condition-Misc 846 862	room temperature
+T51	Material 72 78	carbon
+T52	Property-Misc 79 114	nanotubes/poly(pyrocatechol violet)
+T53	Property-Misc 60 71	multiwalled
+T54	Property-Misc 138 147	electrode
+R1	Property_Of Arg1:T53 Arg2:T51	
+R2	Property_Of Arg1:T52 Arg2:T51	
+R3	Property_Of Arg1:T54 Arg2:T51	
+A1	Start_Recipe E1
+R4	Next_Operation Arg1:E1 Arg2:E2	
+R5	Next_Operation Arg1:E2 Arg2:E3	
+R6	Next_Operation Arg1:E3 Arg2:E11	
+R7	Next_Operation Arg1:E11 Arg2:E4	
+R8	Next_Operation Arg1:E4 Arg2:E5	
+R9	Next_Operation Arg1:E5 Arg2:E6	
+R10	Next_Operation Arg1:E6 Arg2:E7	
+R11	Next_Operation Arg1:E7 Arg2:E8	
+R12	Next_Operation Arg1:E8 Arg2:E9	
+R13	Next_Operation Arg1:E9 Arg2:E10	
+A2	End_Recipe E10
+R14	Number_Of Arg1:T16 Arg2:T36	
+R15	Amount_Of Arg1:T36 Arg2:T22	
+R16	Amount_Of Arg1:T43 Arg2:T22	
+R17	Brand_Of Arg1:T2 Arg2:T22	
+R18	Brand_Of Arg1:T6 Arg2:T23	
+R19	Amount_Of Arg1:T44 Arg2:T25	
+R20	Amount_Of Arg1:T44 Arg2:T24	
+R21	Brand_Of Arg1:T8 Arg2:T25	
+R22	Brand_Of Arg1:T8 Arg2:T24	
+R23	Condition_Of Arg1:T45 Arg2:E5	
+R24	Descriptor_Of Arg1:T46 Arg2:T27	
+R25	Descriptor_Of Arg1:T47 Arg2:T28	
+R26	Coref_Of Arg1:T29 Arg2:T28	
+R27	Number_Of Arg1:T17 Arg2:T37	
+R28	Amount_Of Arg1:T37 Arg2:T28	
+R29	Number_Of Arg1:T18 Arg2:T38	
+R30	Amount_Of Arg1:T38 Arg2:T30	
+R31	Number_Of Arg1:T19 Arg2:T39	
+R32	Amount_Of Arg1:T39 Arg2:T31	
+R33	Condition_Of Arg1:T40 Arg2:E8	
+R34	Amount_Of Arg1:T41 Arg2:T32	
+R35	Number_Of Arg1:T20 Arg2:T41	
+R36	Number_Of Arg1:T21 Arg2:T42	
+R37	Amount_Of Arg1:T42 Arg2:T33	
+R38	Descriptor_Of Arg1:T48 Arg2:T33	
+R39	Descriptor_Of Arg1:T48 Arg2:T32	
+R40	Descriptor_Of Arg1:T49 Arg2:T35	
+R41	Condition_Of Arg1:T50 Arg2:E10	

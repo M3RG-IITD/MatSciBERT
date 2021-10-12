@@ -1,0 +1,7 @@
+10.1016/j.enconman.2011.11.001
+
+0.5:1, 1:1, and 2:1 2,2'-Bipyridine-SnCl2 complexes were prepared in MeOH (20 mL) by adding respectively 2.5, 5.0, and 10.0 mmol 2,2'-bipyridine to 5 mmol SnCl2 under a nitrogen atmosphere. The color of the solution turned to yellow after the addition of 2,2'-bipyridine and a precipitate appeared. The mixture was further stirred for 0.5 h before filtration. The solid obtained was washed two times with methanol and dried in vacuo to yield the 2,2'-bipyridine-SnCl2 complex.
+
+The Sn nanoparticles/graphite (molar ratio of 1:12) nanocomposite was prepared by treatment of the 2,2'-bipyridine-SnCl2 complex with sodium borohydride in the presence of graphite.
+
+In a typical synthesis, 5 mmol of SnCl2 coordinated with 2,2'-bipyridine was dispersed in methanol (20 mL) and UF4 graphite (Le Carbone Lorraine) was added. The mixture was stirred for 10 min at room temperature under a nitrogen atmosphere. NaBH4 (5 mmol) was then added. A mild exothermic reaction was observed. The solution was further stirred at room temperature for 2 h. The reaction mixture was then concentrated in vacuo and the product washed with water (2 x 5 mL) and acetone (2 x 5 mL) by centrifugation (4000 rpm for 5 min). Such a washing process leads to a significant loss of tin present in the crude material [18].

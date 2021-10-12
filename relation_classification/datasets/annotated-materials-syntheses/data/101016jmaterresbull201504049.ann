@@ -1,0 +1,275 @@
+T1	Material 48 59	zeolite NaX
+T2	Condition-Misc 63 69	25degC
+T3	Condition-Misc 74 80	95degC
+T4	Operation 35 44	Synthesis
+E1	Operation:T4 Recipe_Target:T1
+R1	Condition_Of Arg1:T2 Arg2:E1	
+R2	Condition_Of Arg1:T3 Arg2:E1	
+T5	Nonrecipe-Material 100 106	cobalt
+T6	Nonrecipe-Material 160 167	styrene
+T7	Material 185 196	zeolite NaX
+T8	Operation 172 181	synthesis
+E2	Operation:T8 Recipe_Target:T7
+T9	Operation 201 210	performed
+E3	Operation:T9 
+T10	Material 229 244	sodium silicate
+T11	Material 246 260	Na2SiO3[?]9H2O
+T12	Number 263 265	98
+T13	Amount-Unit 265 266	%
+R3	Number_Of Arg1:T12 Arg2:T13	
+R4	Amount_Of Arg1:T13 Arg2:T10	
+R5	Coref_Of Arg1:T11 Arg2:T10	
+T14	Operation 283 292	dissolved
+E4	Operation:T14 Recipe_Precursor:T10 Solvent_Material:T52 Participant_Material:T54
+T15	Operation 358 367	dissolved
+E5	Operation:T15 Recipe_Precursor:T55 Solvent_Material:T58
+T16	Operation 400 408	addition
+E6	Operation:T16 Recipe_Precursor:T60 Participant_Material:T61
+T17	Operation 475 481	poured
+E7	Operation:T17 Participant_Material:T63 Participant_Material:T62
+T18	Operation 513 521	stirring
+E8	Operation:T18 Participant_Material:T65
+T19	Operation 626 633	stirred
+E9	Operation:T19 Participant_Material:T66
+T20	Operation 654 665	transferred
+E10	Operation:T20 
+T21	Operation 696 702	sealed
+E11	Operation:T21 
+T22	Operation 707 713	placed
+E12	Operation:T22 Solvent_Material:T71 Solvent_Material:T75
+T23	Operation 829 837	filtered
+E13	Operation:T23 Participant_Material:T79
+T24	Operation 843 849	washed
+E14	Operation:T24 Solvent_Material:T80
+T25	Operation 907 912	dried
+E15	Operation:T25 
+T26	Operation 958 968	introduced
+E16	Operation:T26 Participant_Material:T88 Recipe_Target:T90
+T27	Operation 1058 1065	treated
+E17	Operation:T27 Participant_Material:T94 Participant_Material:T97
+T28	Operation 1165 1174	recovered
+E18	Operation:T28 Participant_Material:T105
+T29	Operation 1178 1188	filtration
+E19	Operation:T29 
+T31	Operation 1190 1196	washed
+E20	Operation:T31 
+T30	Operation 1260 1268	detected
+E21	Operation:T30 
+T32	Operation 1274 1282	followed
+E22	Operation:T32 
+T33	Operation 1286 1292	drying
+E23	Operation:T33 
+T34	Operation 1389 1397	prepared
+E24	Operation:T34 Recipe_Target:T114
+T35	Operation 1410 1423	ion exchanges
+E25	Operation:T35 Participant_Material:T116
+T36	Operation 1445 1456	epoxidation
+E26	Operation:T36 Participant_Material:T117 Atmospheric_Material:T118
+T37	Operation 1480 1489	performed
+E27	Operation:T37 
+T38	Operation 1540 1548	equipped
+E28	Operation:T38 
+T39	Operation 1742 1747	added
+E29	Operation:T39 Participant_Material:T126 Solvent_Material:T130
+T40	Operation 1802 1809	stirred
+E30	Operation:T40 
+T41	Operation 1825 1831	heated
+E31	Operation:T41 
+T42	Operation 1888 1896	bubbling
+E32	Operation:T42 Atmospheric_Material:T142
+T43	Operation 1877 1884	started
+E33	Operation:T43 
+T44	Number 575 578	4.0
+T45	Nonrecipe-Material 578 582	Na2O
+T46	Number 583 586	0.2
+T47	Nonrecipe-Material 587 592	Al2O3
+T48	Number 593 596	1.0
+T49	Nonrecipe-Material 596 600	SiO2
+T50	Number 601 604	200
+T51	Nonrecipe-Material 604 607	H2O
+R6	Next_Operation Arg1:E2 Arg2:E3	
+R8	Next_Operation Arg1:E5 Arg2:E6	
+R9	Next_Operation Arg1:E6 Arg2:E7	
+R10	Next_Operation Arg1:E7 Arg2:E8	
+R7	Next_Operation Arg1:E4 Arg2:E7	
+R11	Next_Operation Arg1:E8 Arg2:E9	
+R12	Next_Operation Arg1:E9 Arg2:E10	
+R13	Next_Operation Arg1:E10 Arg2:E11	
+R14	Next_Operation Arg1:E11 Arg2:E12	
+R15	Next_Operation Arg1:E12 Arg2:E13	
+R16	Next_Operation Arg1:E13 Arg2:E14	
+R17	Next_Operation Arg1:E14 Arg2:E15	
+R18	Next_Operation Arg1:E15 Arg2:E16	
+R19	Next_Operation Arg1:E16 Arg2:E17	
+R20	Next_Operation Arg1:E17 Arg2:E18	
+R21	Next_Operation Arg1:E18 Arg2:E19	
+R22	Next_Operation Arg1:E19 Arg2:E20	
+R23	Next_Operation Arg1:E20 Arg2:E21	
+R24	Next_Operation Arg1:E21 Arg2:E22	
+R25	Next_Operation Arg1:E22 Arg2:E23	
+R26	Next_Operation Arg1:E23 Arg2:E24	
+R27	Next_Operation Arg1:E24 Arg2:E25	
+R28	Next_Operation Arg1:E25 Arg2:E26	
+R29	Next_Operation Arg1:E26 Arg2:E27	
+R30	Next_Operation Arg1:E27 Arg2:E28	
+R31	Next_Operation Arg1:E28 Arg2:E29	
+R32	Next_Operation Arg1:E29 Arg2:E30	
+R33	Next_Operation Arg1:E30 Arg2:E31	
+R34	Next_Operation Arg1:E31 Arg2:E33	
+R35	Next_Operation Arg1:E33 Arg2:E32	
+T52	Material 306 311	water
+T53	Material-Descriptor 296 305	deionized
+T54	Material 319 329	solution A
+T55	Material 331 347	sodium hydroxide
+T56	Number 349 351	99
+T57	Amount-Unit 351 352	%
+T58	Material 381 386	water
+T59	Material-Descriptor 371 380	deionized
+T60	Material 412 440	sodium aluminate (anhydrous)
+T61	Material 448 458	solution B
+R36	Descriptor_Of Arg1:T53 Arg2:T52	
+R37	Number_Of Arg1:T56 Arg2:T57	
+R38	Amount_Of Arg1:T57 Arg2:T55	
+R39	Descriptor_Of Arg1:T59 Arg2:T58	
+T62	Material 460 470	Solution A
+T63	Material 487 497	solution B
+T64	Amount-Unit 527 544	molar composition
+T65	Material 562 570	hydrogel
+R40	Number_Of Arg1:T44 Arg2:T64	
+R41	Number_Of Arg1:T46 Arg2:T64	
+R42	Number_Of Arg1:T48 Arg2:T64	
+R43	Number_Of Arg1:T50 Arg2:T64	
+R44	Amount_Of Arg1:T64 Arg2:T45	
+R45	Amount_Of Arg1:T64 Arg2:T47	
+R46	Amount_Of Arg1:T64 Arg2:T49	
+R47	Amount_Of Arg1:T64 Arg2:T51	
+T66	Material 613 621	hydrogel
+T67	Number 638 640	30
+T68	Condition-Unit 641 644	min
+T69	Apparatus-Descriptor 673 686	polypropylene
+T70	Synthesis-Apparatus 687 694	bottles
+R48	Descriptor_Of Arg1:T69 Arg2:T70	
+R49	Apparatus_Of Arg1:T70 Arg2:E10	
+R50	Number_Of Arg1:T67 Arg2:T68	
+R51	Condition_Of Arg1:T68 Arg2:E9	
+T71	Material 717 722	water
+T72	Synthesis-Apparatus 723 727	bath
+R52	Apparatus_Of Arg1:T72 Arg2:E12	
+T73	Number 733 735	25
+T74	Number 760 762	95
+T75	Material 746 749	oil
+T76	Synthesis-Apparatus 750 754	bath
+R53	Apparatus_Of Arg1:T76 Arg2:E12	
+T77	Condition-Unit 736 740	degC
+T78	Condition-Unit 763 767	degC
+R54	Number_Of Arg1:T74 Arg2:T78	
+R55	Number_Of Arg1:T73 Arg2:T77	
+R56	Condition_Of Arg1:T77 Arg2:E12	
+R57	Condition_Of Arg1:T78 Arg2:E12	
+T79	Material 809 823	solid products
+T80	Material 865 870	water
+T81	Material-Descriptor 855 864	deionized
+R58	Descriptor_Of Arg1:T81 Arg2:T80	
+T82	Condition-Unit 881 883	pH
+T83	Number 899 900	8
+R59	Number_Of Arg1:T83 Arg2:T82	
+R60	Condition_Of Arg1:T82 Arg2:E14	
+T84	Number 923 926	100
+T85	Number 936 938	24
+T86	Condition-Unit 927 931	degC
+T87	Condition-Unit 939 940	h
+R61	Number_Of Arg1:T84 Arg2:T86	
+R62	Number_Of Arg1:T85 Arg2:T87	
+R63	Condition_Of Arg1:T86 Arg2:E15	
+R64	Condition_Of Arg1:T87 Arg2:E15	
+T88	Nonrecipe-Material 943 947	Co2+
+T89	Material-Descriptor 948 952	ions
+R65	Descriptor_Of Arg1:T89 Arg2:T88	
+T90	Material 974 985	zeolite NaX
+T91	Meta 998 1017	ion exchange method
+T92	Number 1037 1040	5.0
+T93	Amount-Unit 1041 1042	g
+T94	Material 1046 1053	zeolite
+R66	Number_Of Arg1:T92 Arg2:T93	
+R67	Amount_Of Arg1:T93 Arg2:T94	
+T95	Number 1071 1074	0.3
+T96	Amount-Unit 1075 1076	M
+R68	Number_Of Arg1:T95 Arg2:T96	
+T97	Material 1101 1115	cobalt nitrate
+T98	Material-Descriptor 1077 1093	aqueous solution
+R69	Descriptor_Of Arg1:T98 Arg2:T97	
+R70	Amount_Of Arg1:T96 Arg2:T97	
+T99	Number 1117 1120	150
+T100	Number 1128 1131	300
+T101	Number 1138 1140	24
+T102	Condition-Unit 1132 1133	K
+T103	Condition-Unit 1141 1142	h
+T104	Amount-Unit 1121 1123	ml
+R71	Number_Of Arg1:T99 Arg2:T104	
+R72	Amount_Of Arg1:T104 Arg2:T97	
+R73	Number_Of Arg1:T100 Arg2:T102	
+R74	Number_Of Arg1:T101 Arg2:T103	
+R75	Condition_Of Arg1:T102 Arg2:E17	
+R76	Condition_Of Arg1:T103 Arg2:E17	
+T105	Material 1148 1160	solid powder
+T106	Condition-Misc 1197 1210	several times
+R77	Condition_Of Arg1:T106 Arg2:E20	
+T107	Material 1226 1231	water
+T108	Material-Descriptor 1216 1225	deionized
+R78	Descriptor_Of Arg1:T108 Arg2:T107	
+T109	Number 1296 1298	40
+T110	Number 1318 1320	48
+T111	Condition-Unit 1299 1303	degC
+T112	Condition-Unit 1322 1323	.
+R79	Number_Of Arg1:T109 Arg2:T111	
+R80	Number_Of Arg1:T110 Arg2:T112	
+R81	Condition_Of Arg1:T111 Arg2:E23	
+R82	Condition_Of Arg1:T112 Arg2:E23	
+T113	Condition-Misc 1307 1313	vacuum
+R83	Condition_Of Arg1:T113 Arg2:E23	
+T114	Material 1324 1335	Zeolite NaX
+T115	Nonrecipe-Material 1368 1374	cobalt
+T116	Material 1431 1438	zeolite
+T117	Material 1460 1467	styrene
+T118	Material 1473 1475	O2
+T119	Number 1495 1497	50
+T120	Apparatus-Unit 1498 1500	ml
+T121	Synthesis-Apparatus 1501 1539	three-necked flat-bottomed glass flask
+R84	Number_Of Arg1:T119 Arg2:T120	
+R85	Apparatus_Attr_Of Arg1:T120 Arg2:T121	
+R86	Apparatus_Of Arg1:T121 Arg2:E27	
+T122	Synthesis-Apparatus 1556 1572	liquid condenser
+T123	Condition-Misc 1579 1599	atmospheric pressure
+R87	Apparatus_Of Arg1:T122 Arg2:E28	
+R88	Condition_Of Arg1:T123 Arg2:E28	
+T124	Number 1612 1614	10
+T125	Amount-Unit 1615 1619	mmol
+T126	Material 1623 1630	styrene
+R89	Number_Of Arg1:T124 Arg2:T125	
+R90	Amount_Of Arg1:T125 Arg2:T126	
+T127	Number 1633 1635	99
+T128	Amount-Unit 1635 1636	%
+R91	Number_Of Arg1:T127 Arg2:T128	
+R92	Amount_Of Arg1:T128 Arg2:T126	
+T129	Amount-Misc 1641 1656	measured amount
+T130	Material 1668 1690	N,N'-dimethylformamide
+T131	Number 1692 1696	99.5
+T132	Amount-Unit 1696 1697	%
+T133	Material 1699 1702	DMF
+T134	Material-Descriptor 1660 1667	solvent
+R93	Descriptor_Of Arg1:T134 Arg2:T130	
+R94	Number_Of Arg1:T131 Arg2:T132	
+R95	Coref_Of Arg1:T133 Arg2:T130	
+R96	Amount_Of Arg1:T132 Arg2:T130	
+T135	Material 1728 1736	catalyst
+T136	Amount-Misc 1710 1724	certain amount
+T137	Synthesis-Apparatus 1755 1762	reactor
+T138	Material 1768 1784	reaction mixture
+T139	Number 1813 1816	600
+T140	Condition-Unit 1817 1820	rpm
+R97	Number_Of Arg1:T139 Arg2:T140	
+R98	Condition_Of Arg1:T140 Arg2:E30	
+T141	Condition-Misc 1839 1858	desired temperature
+R99	Condition_Of Arg1:T141 Arg2:E31	
+T142	Material 1897 1899	O2
+T143	Material 1909 1915	liquid

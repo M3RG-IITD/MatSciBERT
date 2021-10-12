@@ -1,0 +1,66 @@
+T1	Material 84 108	sodium lithium titanates
+T2	Operation 256 267	synthesized
+E1	Operation:T2 Recipe_Target:T8 Participant_Material:T9
+T3	Operation 435 440	mixed
+E2	Operation:T3 Recipe_Precursor:T11 Recipe_Precursor:T12 Recipe_Precursor:T13 Participant_Material:T14
+T4	Operation 541 551	pretreated
+E3	Operation:T4 
+T5	Operation 555 579	high energy ball-milling
+E4	Operation:T5 Solvent_Material:T17
+T6	Operation 663 668	dried
+E5	Operation:T6 Participant_Material:T18
+T7	Operation 689 699	calcinated
+E6	Operation:T7 Atmospheric_Material:T19
+T8	Material 164 178	NaxLi4-xTi6O14
+T9	Nonrecipe-Material 216 218	Na
+T10	Meta 285 303	solid-state method
+T11	Material 335 348	CH3COOLi*2H2O
+T12	Material 370 383	CH3COONa*3H2O
+T13	Material 405 409	TiO2
+T14	Material 446 467	oxalic acid dehydrate
+T15	Nonrecipe-Material 518 520	Na
+T16	Nonrecipe-Material 521 523	Li
+T17	Material 583 590	ethanol
+T18	Material 652 658	slurry
+T19	Material 724 727	air
+T20	Number 594 597	400
+T21	Condition-Unit 598 601	rpm
+T22	Number 623 625	15
+T23	Condition-Unit 626 627	h
+T24	Number 672 674	80
+T25	Condition-Unit 675 679	degC
+T26	Number 703 706	900
+T27	Condition-Unit 707 711	degC
+T28	Number 716 718	10
+T29	Condition-Unit 719 720	h
+T30	Amount-Misc 309 331	stoichiometric amounts
+T31	Brand 350 367	Aladdin Chemistry
+T32	Brand 385 402	Aladdin Chemistry
+T33	Brand 411 428	Aladdin Chemistry
+T34	Brand 485 502	Aladdin Chemistry
+T35	Material-Descriptor 468 483	chelating agent
+T36	Material-Descriptor 642 651	precursor
+T37	Material-Descriptor 728 738	atmosphere
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Condition_Of Arg1:T21 Arg2:E4	
+R6	Condition_Of Arg1:T23 Arg2:E4	
+R7	Condition_Of Arg1:T25 Arg2:E5	
+R8	Condition_Of Arg1:T27 Arg2:E6	
+R9	Condition_Of Arg1:T29 Arg2:E6	
+R10	Amount_Of Arg1:T30 Arg2:T11	
+R11	Amount_Of Arg1:T30 Arg2:T12	
+R12	Amount_Of Arg1:T30 Arg2:T13	
+R13	Descriptor_Of Arg1:T36 Arg2:T18	
+R14	Descriptor_Of Arg1:T35 Arg2:T14	
+R15	Descriptor_Of Arg1:T37 Arg2:T19	
+R16	Number_Of Arg1:T20 Arg2:T21	
+R17	Number_Of Arg1:T22 Arg2:T23	
+R18	Number_Of Arg1:T24 Arg2:T25	
+R19	Number_Of Arg1:T26 Arg2:T27	
+R20	Number_Of Arg1:T28 Arg2:T29	
+R21	Brand_Of Arg1:T31 Arg2:T11	
+R22	Brand_Of Arg1:T32 Arg2:T12	
+R23	Brand_Of Arg1:T33 Arg2:T13	

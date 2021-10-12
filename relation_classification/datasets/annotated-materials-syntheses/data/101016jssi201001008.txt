@@ -1,0 +1,5 @@
+10.1016/j.ssi.2010.01.008
+Perovskite membrane of La1-xSrxTi1-yFeyO3-δ for partial oxidation of methane to syngas
+
+Powders of La2O3 (Wako Pure Chemical Industries, Ltd., grain size 1 μm), SrCO3 (Wako, grain size 1 μm), TiO2 (Wako, grain size 1 μm), and Fe2O3 (Wako, grain size 1 μm) were mixed to prepare various compositions of La1-xSrxTi1-yFeyO3-δ with x = 0.1-0.8 and y = 0.6-1.0. The powders were mixed using a ball mill with YSZ balls for 5 h, and then calcined at 1000 degC for 6 h. The calcined powder was mixed with a PVA aqueous solution binder and compacted into pellets (bar of 5 x 5 x 30 mm, disk of φ = 25 mmxt = 3 mm) using a compact press of 100 MPa. These compacts were fired at 1400degC in air for 3 h.
+

@@ -1,0 +1,59 @@
+T1	Operation 93 101	prepared
+E1	Operation:T1 Recipe_Target:T10 Recipe_Precursor:T11 Recipe_Precursor:T12
+T2	Meta 138 158	solid state reaction
+T3	Operation 188 193	mixed
+E2	Operation:T3 Participant_Material:T13
+T4	Operation 227 238	transferred
+E3	Operation:T4 
+T5	Operation 265 275	evacuation
+E4	Operation:T5 
+T6	Operation 297 303	sealed
+E5	Operation:T6 
+T7	Operation 347 350	put
+E6	Operation:T7 
+T8	Operation 374 380	heated
+E7	Operation:T8 
+T9	Operation 414 422	calcined
+E8	Operation:T9 
+T10	Material 84 88	FeAs
+T11	Material 108 110	Fe
+T12	Material 122 129	arsenic
+T13	Material 173 182	materials
+T14	Material-Descriptor 111 117	powder
+T15	Material-Descriptor 130 134	bulk
+T16	Amount-Unit 199 209	mole ratio
+T17	Number 213 216	1:1
+T18	Synthesis-Apparatus 246 257	quartz tube
+T19	Synthesis-Apparatus 281 292	quartz tube
+T20	Synthesis-Apparatus 333 337	tube
+T21	Synthesis-Apparatus 358 372	muffle furnace
+T22	Number 384 387	800
+T23	Condition-Unit 388 392	degC
+T24	Number 396 397	5
+T25	Condition-Unit 398 408	degC min-1
+T26	Number 426 429	800
+T27	Condition-Unit 430 434	degC
+T28	Number 439 441	10
+T29	Condition-Unit 442 443	h
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Apparatus_Of Arg1:T18 Arg2:E3	
+R8	Apparatus_Of Arg1:T19 Arg2:E5	
+R9	Apparatus_Of Arg1:T20 Arg2:E6	
+R10	Apparatus_Of Arg1:T21 Arg2:E6	
+R11	Condition_Of Arg1:T23 Arg2:E7	
+R12	Condition_Of Arg1:T25 Arg2:E7	
+R13	Condition_Of Arg1:T27 Arg2:E8	
+R14	Condition_Of Arg1:T29 Arg2:E8	
+R15	Amount_Of Arg1:T16 Arg2:T13	
+R16	Descriptor_Of Arg1:T14 Arg2:T11	
+R17	Descriptor_Of Arg1:T15 Arg2:T12	
+R18	Number_Of Arg1:T17 Arg2:T16	
+R19	Number_Of Arg1:T22 Arg2:T23	
+R20	Number_Of Arg1:T24 Arg2:T25	
+R21	Number_Of Arg1:T26 Arg2:T27	
+R22	Number_Of Arg1:T28 Arg2:T29	

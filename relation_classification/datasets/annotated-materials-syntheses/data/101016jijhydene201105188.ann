@@ -1,0 +1,136 @@
+T1	Operation 891 900	suspended
+E1	Operation:T1 
+T2	Operation 922 936	ultrasonicated
+E2	Operation:T2 
+T3	Operation 1002 1011	preheated
+E3	Operation:T3 
+T4	Operation 1028 1037	suspended
+E4	Operation:T4 
+T5	Operation 1065 1079	ultrasonicated
+E5	Operation:T5 
+T6	Operation 1118 1123	added
+E6	Operation:T6 
+T7	Operation 1264 1283	Ultrasonic blending
+E7	Operation:T7 
+T8	Operation 1332 1343	carried out
+E8	Operation:T8 
+T9	Operation 1440 1444	kept
+E9	Operation:T9 
+T10	Operation 1529 1536	reduced
+E10	Operation:T10 
+T11	Material 158 168	precursors
+T12	Material 197 213	electrocatalysts
+T13	Material 219 231	H2PtCl6.6H2O
+T14	Brand 233 243	Alfa Aesar
+T15	Material 251 261	SnCl2.2H2O
+T16	Brand 263 268	Merck
+T17	Material 283 288	ReCl3
+T18	Brand 290 300	Alfa Aesar
+T19	Material 308 320	Vulcan XC-72
+T20	Brand 322 328	Carbot
+T21	Material-Descriptor 347 354	support
+T22	Material 374 380	Carbon
+T23	Material-Descriptor 381 386	paper
+T24	Material-Descriptor 388 391	90T
+T25	Brand 393 398	Toray
+T26	Material-Descriptor 417 426	substrate
+T27	Material 478 484	Nafion
+T28	Material-Descriptor 489 495	DE 521
+T29	Brand 497 503	DuPont
+T30	Material-Descriptor 510 520	dispersion
+T31	Material 559 566	Ethanol
+T32	Brand 568 573	Merck
+T33	Material 588 593	H2SO4
+T34	Brand 595 600	Merck
+T35	Material 692 705	Nafion 117(r)
+T36	Brand 707 713	DuPont
+T37	Material 803 807	Pt/C
+T38	Number 809 811	40
+T39	Amount-Unit 811 814	%wt
+T40	Brand 817 832	Johnson Matthey
+T41	Material 869 879	precursors
+T42	Material 904 912	propanol
+T43	Number 941 942	3
+T44	Condition-Unit 943 944	h
+T45	Material 964 976	carbon black
+T46	Material-Descriptor 946 963	High-surface-area
+T47	Material 984 996	Vulcan XC-72
+T48	Number 1015 1018	110
+T49	Condition-Unit 1019 1023	degC
+T50	Material 1041 1049	propanol
+T51	Number 1084 1085	3
+T52	Condition-Unit 1086 1087	h
+T53	Material 1099 1109	suspension
+T54	Condition-Misc 1124 1133	drop wise
+T55	Material 1137 1143	carbon
+T56	Material-Descriptor 1144 1154	suspension
+T57	Number 1288 1289	3
+T58	Condition-Unit 1290 1291	h
+T59	Material 1296 1305	precursor
+T60	Material 1310 1316	carbon
+T61	Material-Descriptor 1317 1327	suspension
+T62	Material 1387 1397	precursors
+T63	Material 1401 1407	carbon
+T64	Material-Descriptor 1408 1415	support
+T65	Material 1421 1431	suspension
+T66	Number 1448 1450	70
+T67	Condition-Unit 1451 1455	degC
+T68	Number 1460 1462	12
+T69	Condition-Unit 1463 1464	h
+T70	Material 1477 1485	propanol
+T71	Material 1515 1523	mixtures
+T72	Material 1540 1548	hydrogen
+T73	Material-Descriptor 1549 1559	atmosphere
+T74	Material 1632 1641	catalysts
+T75	Material-Descriptor 1604 1614	bimetallic
+T76	Material-Descriptor 1619 1631	tri-metallic
+T77	Meta 1645 1664	impregnation method
+T78	Condition-Misc 1563 1585	different temperatures
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E7	
+R7	Next_Operation Arg1:E7 Arg2:E8	
+R8	Next_Operation Arg1:E8 Arg2:E9	
+R9	Next_Operation Arg1:E9 Arg2:E10	
+R10	Condition_Of Arg1:T44 Arg2:E2	
+R11	Condition_Of Arg1:T49 Arg2:E3	
+R12	Condition_Of Arg1:T52 Arg2:E5	
+R13	Condition_Of Arg1:T54 Arg2:E6	
+R14	Condition_Of Arg1:T58 Arg2:E7	
+R15	Condition_Of Arg1:T67 Arg2:E9	
+R16	Condition_Of Arg1:T69 Arg2:E9	
+R17	Condition_Of Arg1:T78 Arg2:E10	
+R18	Amount_Of Arg1:T39 Arg2:T37	
+R19	Descriptor_Of Arg1:T21 Arg2:T19	
+R20	Descriptor_Of Arg1:T23 Arg2:T22	
+R21	Descriptor_Of Arg1:T24 Arg2:T22	
+R22	Descriptor_Of Arg1:T26 Arg2:T22	
+R23	Descriptor_Of Arg1:T28 Arg2:T27	
+R24	Descriptor_Of Arg1:T30 Arg2:T27	
+R25	Descriptor_Of Arg1:T46 Arg2:T45	
+R26	Descriptor_Of Arg1:T56 Arg2:T55	
+R27	Descriptor_Of Arg1:T61 Arg2:T60	
+R28	Descriptor_Of Arg1:T64 Arg2:T63	
+R29	Descriptor_Of Arg1:T73 Arg2:T72	
+R30	Descriptor_Of Arg1:T75 Arg2:T74	
+R31	Descriptor_Of Arg1:T76 Arg2:T74	
+R32	Number_Of Arg1:T38 Arg2:T39	
+R33	Number_Of Arg1:T43 Arg2:T44	
+R34	Number_Of Arg1:T48 Arg2:T49	
+R35	Number_Of Arg1:T51 Arg2:T52	
+R36	Number_Of Arg1:T57 Arg2:T58	
+R37	Number_Of Arg1:T66 Arg2:T67	
+R38	Number_Of Arg1:T68 Arg2:T69	
+R39	Brand_Of Arg1:T14 Arg2:T13	
+R40	Brand_Of Arg1:T16 Arg2:T15	
+R41	Brand_Of Arg1:T18 Arg2:T17	
+R42	Brand_Of Arg1:T20 Arg2:T19	
+R43	Brand_Of Arg1:T25 Arg2:T22	
+R44	Brand_Of Arg1:T29 Arg2:T27	
+R45	Brand_Of Arg1:T32 Arg2:T31	
+R46	Brand_Of Arg1:T34 Arg2:T33	
+R47	Brand_Of Arg1:T36 Arg2:T35	
+R48	Brand_Of Arg1:T40 Arg2:T37	

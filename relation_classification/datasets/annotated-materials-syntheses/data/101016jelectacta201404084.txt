@@ -1,0 +1,6 @@
+10.1016/j.electacta.2014.04.084
+Significant influence of insufficient lithium on electrochemical performance of lithium-rich layered oxide cathodes for lithium ion batteries
+
+Li[Li1/3-2x/3Mn2/3-x/3Nix]O2 (x = 0.3) was prepared in two steps: formation of transition-metal hydroxide (Ni0.35Mn0.65(OH)2) and subsequent solid phase reaction of Ni0.35Mn0.75(OH)2 and Li2CO3. Specially, 8.74 g MnSO4*H2O (99%) and 7.20 g NiSO4*6H2O (98%) were dissolved into 400 ml H2O under magnetic stirring, and 10 ml ammonia hydroxide was then added as chelating agent. After being kept at 60 degC for 10 min, 100 ml aqueous solution containing 6.4 g KOH (98%) was slowly dropped, and the precipitation reaction was kept for 24 h. The resulting precipitation was mixed completely with lithium carbonate (98%). In this mixing, the precursors with 10 wt% excess lithium (E10), 5 wt% excess lithium (E5), stoichiometric lithium (ST), and 5 wt% deficient lithium (D5) were used. Four samples were obtained by calcining the mixture at 900 degC for 12 h, denoted as 900E10, 900E5, 900ST, and 900D5, respectively.
+
+

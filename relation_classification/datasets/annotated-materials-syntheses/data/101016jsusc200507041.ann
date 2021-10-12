@@ -1,0 +1,80 @@
+T1	Material 152 158	SrTiO3
+T2	Operation 163 171	prepared
+E1	Operation:T2 Recipe_Target:T1 Participant_Material:T6 Recipe_Precursor:T11 Recipe_Precursor:T12 Recipe_Precursor:T13
+T3	Operation 286 294	calcined
+E2	Operation:T3 Participant_Material:T19 Atmospheric_Material:T22
+T4	Operation 330 351	isostatically pressed
+E3	Operation:T4 Participant_Material:T25
+T5	Operation 396 404	sintered
+E4	Operation:T5 Participant_Material:T28 Atmospheric_Material:T29 Atmospheric_Material:T30
+T6	Nonrecipe-Material 118 120	Nb
+T7	Property-Misc 121 126	doped
+T8	Property-Misc 136 151	polycrystalline
+T9	Number 128 129	5
+T10	Amount-Unit 130 134	mol%
+T11	Material 189 194	SrCO3
+T12	Material 196 200	TiO2
+T13	Material 206 211	Nb2O5
+T14	Material-Descriptor 177 188	highly pure
+T15	Material-Descriptor 212 219	powders
+T16	Number 221 227	99.999
+T17	Amount-Unit 227 228	%
+T18	Brand 230 237	Aldrich
+T19	Material 275 281	powder
+T20	Number 298 302	1100
+T21	Condition-Unit 303 307	degC
+T22	Material 314 317	air
+T23	Number 322 323	1
+T24	Condition-Unit 324 325	h
+T25	Material 359 365	pellet
+T26	Number 372 375	680
+T27	Condition-Unit 376 379	MPa
+T28	Material 385 391	pellet
+T29	Material 435 437	H2
+T30	Material 444 446	Ar
+T31	Number 432 433	5
+T32	Amount-Unit 433 434	%
+T33	Number 440 442	95
+T34	Amount-Unit 442 443	%
+T35	Number 451 455	1360
+T36	Condition-Unit 456 460	degC
+T37	Number 465 467	15
+T38	Condition-Unit 468 469	h
+T39	Material-Descriptor 411 430	reducing atmosphere
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Condition_Of Arg1:T36 Arg2:E4	
+R5	Condition_Of Arg1:T38 Arg2:E4	
+R6	Condition_Of Arg1:T21 Arg2:E2	
+R7	Condition_Of Arg1:T24 Arg2:E2	
+R8	Condition_Of Arg1:T27 Arg2:E3	
+R9	Property_Of Arg1:T7 Arg2:T6	
+R10	Property_Of Arg1:T7 Arg2:T1	
+R11	Amount_Of Arg1:T10 Arg2:T6	
+R12	Property_Of Arg1:T8 Arg2:T1	
+R13	Amount_Of Arg1:T17 Arg2:T13	
+R14	Amount_Of Arg1:T17 Arg2:T12	
+R15	Amount_Of Arg1:T17 Arg2:T11	
+R16	Amount_Of Arg1:T32 Arg2:T29	
+R17	Amount_Of Arg1:T34 Arg2:T30	
+R18	Descriptor_Of Arg1:T14 Arg2:T11	
+R19	Descriptor_Of Arg1:T14 Arg2:T12	
+R20	Descriptor_Of Arg1:T14 Arg2:T13	
+R21	Descriptor_Of Arg1:T15 Arg2:T13	
+R22	Descriptor_Of Arg1:T15 Arg2:T12	
+R23	Descriptor_Of Arg1:T15 Arg2:T11	
+R24	Descriptor_Of Arg1:T39 Arg2:T29	
+R25	Descriptor_Of Arg1:T39 Arg2:T30	
+R26	Number_Of Arg1:T9 Arg2:T10	
+R27	Number_Of Arg1:T16 Arg2:T17	
+R28	Number_Of Arg1:T20 Arg2:T21	
+R29	Number_Of Arg1:T23 Arg2:T24	
+R30	Number_Of Arg1:T26 Arg2:T27	
+R31	Number_Of Arg1:T31 Arg2:T32	
+R32	Number_Of Arg1:T33 Arg2:T34	
+R33	Number_Of Arg1:T35 Arg2:T36	
+R34	Number_Of Arg1:T37 Arg2:T38	
+R35	Brand_Of Arg1:T18 Arg2:T11	
+R36	Brand_Of Arg1:T18 Arg2:T12	
+R37	Brand_Of Arg1:T18 Arg2:T13	

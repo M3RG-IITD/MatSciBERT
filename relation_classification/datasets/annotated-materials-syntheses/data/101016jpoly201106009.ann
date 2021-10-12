@@ -1,0 +1,229 @@
+T1	Operation 219 227	prepared
+E1	Operation:T1 Recipe_Target:T49 Recipe_Precursor:T51 Recipe_Precursor:T52 Solvent_Material:T53
+T2	Operation 302 310	obtained
+E2	Operation:T2 Recipe_Precursor:T54
+T3	Operation 346 367	thermal decomposition
+E3	Operation:T3 Recipe_Precursor:T55
+T4	Operation 411 419	prepared
+E4	Operation:T4 Recipe_Precursor:T56 Recipe_Precursor:T57
+T5	Operation 462 473	synthesized
+E5	Operation:T5 Recipe_Precursor:T58
+T6	Operation 477 496	galactose oxidation
+E6	Operation:T6 Recipe_Precursor:T59
+T7	Reference 520 524	[24]
+T8	Reference 284 288	[22]
+T9	Reference 603 607	[25]
+T10	Operation 562 573	synthesized
+E7	Operation:T10 Recipe_Target:T60
+T11	Operation 666 670	kept
+E8	Operation:T11 Solvent_Material:T64 Participant_Material:T62 Participant_Material:T65
+T12	Operation 698 704	remove
+E9	Operation:T12 Participant_Material:T66
+T13	Operation 761 767	formed
+E10	Operation:T13 Participant_Material:T67
+T14	Reference 821 825	[26]
+T15	Operation 979 985	boiled
+E11	Operation:T15 Recipe_Precursor:T72 Recipe_Precursor:T71 Recipe_Precursor:T70 Recipe_Precursor:T69
+T16	Operation 1143 1149	washed
+E12	Operation:T16 Recipe_Target:T75 Participant_Material:T76
+T17	Operation 1191 1206	chromatographed
+E13	Operation:T17 Participant_Material:T77 Participant_Material:T78
+T18	Operation 1253 1257	used
+E14	Operation:T18 Recipe_Target:T96
+T19	Operation 1373 1382	dissolved
+E15	Operation:T19 Participant_Material:T79 Solvent_Material:T80
+T21	Operation 1509 1517	appeared
+E16	Operation:T21 Participant_Material:T83
+T22	Operation 1540 1546	washed
+E17	Operation:T22 Participant_Material:T84
+T23	Operation 1584 1589	dried
+E18	Operation:T23 Atmospheric_Material:T108
+T24	Reference 331 335	[23]
+T25	Number 688 689	2
+T26	Number 739 743	2-10
+T27	Number 840 843	0.5
+T28	Number 847 852	0.813
+T29	Number 864 868	0.25
+T30	Number 872 876	1.14
+T31	Number 921 923	50
+T32	Number 945 948	250
+T33	Number 990 991	1
+T34	Number 1286 1289	2:1
+T35	Number 1338 1340	77
+T36	Number 1330 1334	0.43
+T37	Number 1347 1349	34
+T38	Number 1354 1358	0.05
+T39	Number 1386 1388	15
+T40	Number 1404 1405	1
+T41	Number 1457 1460	7.3
+T42	Number 1465 1469	0.05
+T43	Number 1521 1523	30
+T44	Number 1561 1562	1
+T45	Number 1567 1568	2
+T46	Number 1597 1599	70
+T47	Number 1602 1604	29
+T48	Material 89 114	zinc tetraphenylporphyrin
+T49	Material 189 208	Tetraphenylporphine
+T50	Material 210 213	TPP
+T51	Material 233 240	pyrrole
+T52	Material 245 257	benzaldehyde
+T53	Material 269 283	propionic acid
+T54	Material 290 297	Pyrrole
+T55	Material 390 400	mucic acid
+T56	Material 425 435	mucic acid
+T57	Material 440 445	NH4OH
+T58	Material 447 457	Mucic acid
+T59	Material 502 506	HNO3
+T60	Material 526 548	Zn-tetraphenylporphine
+T61	Material 550 556	Zn-TPP
+T62	Material 627 646	Tetraphenylporphine
+T63	Material 648 651	TPP
+T64	Material 656 661	CHCl3
+T65	Material 676 680	PbO2
+T66	Material 718 737	tetraphenylchlorine
+T67	Material 771 774	TPP
+T68	Material 792 799	radical
+T69	Material 859 862	TPP
+T70	Material 903 919	(CH3COO)2Zn*2H2O
+T71	Material 930 940	chloroform
+T72	Material 963 974	acetic acid
+T73	Material 1021 1032	(CH3COO)2Zn
+T74	Material 1089 1092	TPP
+T75	Material 1131 1137	Zn-TPP
+T76	Material 1155 1166	acetic acid
+T77	Material 1177 1186	substance
+T78	Material 1233 1243	chloroform
+T79	Material 1366 1372	Zn-TPP
+T80	Material 1395 1402	acetone
+T81	Material 1415 1422	acetone
+T82	Material 1435 1455	isoquinoline N-oxide
+T83	Material 1500 1508	crystals
+T84	Material 1552 1559	acetone
+T85	Condition-Unit 690 694	days
+T86	Amount-Unit 743 744	%
+T87	Amount-Unit 844 845	g
+T88	Amount-Unit 853 857	mmol
+T89	Amount-Unit 869 870	g
+T90	Amount-Unit 877 881	mmol
+T91	Amount-Unit 924 926	mL
+T92	Amount-Unit 949 951	mL
+T93	Condition-Unit 992 993	h
+T94	Nonrecipe-Material 1259 1266	Silufol
+T95	Nonrecipe-Material 1268 1285	chloroform-hexane
+T96	Material 1295 1301	Zn-TPP
+T97	Property-Unit 1335 1336	g
+T98	Property-Unit 1340 1341	%
+T99	Amount-Unit 1350 1352	mg
+T100	Amount-Unit 1359 1361	mM
+T101	Amount-Unit 1389 1391	mL
+T102	Amount-Unit 1406 1408	mL
+T103	Amount-Unit 1461 1463	mg
+T104	Amount-Unit 1470 1472	mM
+T105	Condition-Unit 1524 1527	min
+T106	Amount-Unit 1563 1565	mL
+T107	Condition-Unit 1569 1574	times
+T108	Material 1580 1583	air
+T109	Property-Unit 1599 1600	%
+T110	Property-Unit 1605 1607	mg
+T111	Material-Descriptor 261 268	boiling
+T112	Material-Descriptor 371 386	diammonium salt
+T113	Operation 512 519	heating
+E19	Operation:T113 
+T114	Material-Descriptor 705 714	admixture
+T115	Material-Descriptor 829 836	mixture
+T116	Amount-Misc 883 898	1.4-fold excess
+T117	Material-Descriptor 955 962	glacial
+T118	Amount-Misc 1004 1017	7-fold excess
+T119	Material 1052 1061	substance
+T120	Property-Misc 1109 1127	dark blue crystals
+T121	Synthesis-Apparatus 1221 1227	column
+T122	Apparatus-Descriptor 1213 1220	alumina
+T123	Characterization-Apparatus 1245 1248	TLC
+T124	Property-Type 1324 1329	Yield
+T125	Property-Type 1302 1308	purity
+T126	Material-Descriptor 1423 1431	solution
+T127	Material-Descriptor 1489 1499	red-violet
+T128	Property-Type 1591 1596	Yield
+A1	Start_Recipe E1
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E19	
+R7	Next_Operation Arg1:E19 Arg2:E7	
+R8	Next_Operation Arg1:E7 Arg2:E8	
+R9	Next_Operation Arg1:E8 Arg2:E9	
+R10	Next_Operation Arg1:E9 Arg2:E10	
+R11	Next_Operation Arg1:E10 Arg2:E11	
+R12	Next_Operation Arg1:E11 Arg2:E12	
+R13	Next_Operation Arg1:E12 Arg2:E13	
+R14	Next_Operation Arg1:E13 Arg2:E14	
+R15	Next_Operation Arg1:E14 Arg2:E15	
+R16	Next_Operation Arg1:E15 Arg2:E20	
+R17	Next_Operation Arg1:E16 Arg2:E17	
+R18	Next_Operation Arg1:E17 Arg2:E18	
+A2	End_Recipe E18
+R19	Coref_Of Arg1:T50 Arg2:T49	
+R20	Descriptor_Of Arg1:T111 Arg2:T53	
+R21	Descriptor_Of Arg1:T112 Arg2:T55	
+R22	Coref_Of Arg1:T61 Arg2:T60	
+R23	Coref_Of Arg1:T63 Arg2:T62	
+R24	Number_Of Arg1:T25 Arg2:T85	
+R25	Condition_Of Arg1:T85 Arg2:E8	
+R26	Descriptor_Of Arg1:T114 Arg2:T66	
+R27	Number_Of Arg1:T26 Arg2:T86	
+R28	Amount_Of Arg1:T86 Arg2:T66	
+R29	Number_Of Arg1:T27 Arg2:T87	
+R30	Descriptor_Of Arg1:T115 Arg2:T69	
+R31	Number_Of Arg1:T28 Arg2:T88	
+R32	Amount_Of Arg1:T87 Arg2:T69	
+R33	Amount_Of Arg1:T88 Arg2:T69	
+R34	Number_Of Arg1:T29 Arg2:T89	
+R35	Number_Of Arg1:T30 Arg2:T90	
+R36	Amount_Of Arg1:T89 Arg2:T70	
+R37	Amount_Of Arg1:T90 Arg2:T70	
+R38	Amount_Of Arg1:T116 Arg2:T70	
+R39	Number_Of Arg1:T31 Arg2:T91	
+R40	Amount_Of Arg1:T91 Arg2:T71	
+R41	Number_Of Arg1:T32 Arg2:T92	
+R42	Descriptor_Of Arg1:T117 Arg2:T72	
+R43	Amount_Of Arg1:T92 Arg2:T72	
+R44	Number_Of Arg1:T33 Arg2:T93	
+R45	Condition_Of Arg1:T93 Arg2:E11	
+R46	Amount_Of Arg1:T118 Arg2:T73	
+R47	Property_Of Arg1:T120 Arg2:T75	
+R48	Descriptor_Of Arg1:T122 Arg2:T121	
+R49	Apparatus_Of Arg1:T121 Arg2:E13	
+R50	Apparatus_Of Arg1:T123 Arg2:E14	
+R51	Type_Of Arg1:T124 Arg2:T97	
+R52	Type_Of Arg1:T124 Arg2:T98	
+R53	Number_Of Arg1:T36 Arg2:T97	
+R54	Number_Of Arg1:T35 Arg2:T98	
+R55	Number_Of Arg1:T37 Arg2:T99	
+R56	Number_Of Arg1:T38 Arg2:T100	
+R57	Amount_Of Arg1:T100 Arg2:T79	
+R58	Amount_Of Arg1:T99 Arg2:T79	
+R59	Number_Of Arg1:T39 Arg2:T101	
+R60	Amount_Of Arg1:T101 Arg2:T80	
+R61	Number_Of Arg1:T40 Arg2:T102	
+R62	Amount_Of Arg1:T102 Arg2:T81	
+R63	Descriptor_Of Arg1:T126 Arg2:T81	
+T20	Operation 1478 1483	added
+E20	Operation:T20 Recipe_Precursor:T82
+R64	Next_Operation Arg1:E20 Arg2:E16	
+R65	Number_Of Arg1:T41 Arg2:T103	
+R66	Number_Of Arg1:T42 Arg2:T104	
+R67	Amount_Of Arg1:T103 Arg2:T82	
+R68	Amount_Of Arg1:T104 Arg2:T82	
+R69	Descriptor_Of Arg1:T127 Arg2:T83	
+R70	Number_Of Arg1:T43 Arg2:T105	
+R71	Condition_Of Arg1:T105 Arg2:E16	
+R72	Number_Of Arg1:T44 Arg2:T106	
+R73	Amount_Of Arg1:T106 Arg2:T84	
+R74	Condition_Of Arg1:T107 Arg2:E17	
+R75	Number_Of Arg1:T45 Arg2:T107	
+R76	Number_Of Arg1:T46 Arg2:T109	
+R77	Type_Of Arg1:T128 Arg2:T109	
+R78	Number_Of Arg1:T47 Arg2:T110	
+R79	Type_Of Arg1:T128 Arg2:T110	

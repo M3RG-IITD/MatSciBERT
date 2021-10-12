@@ -1,0 +1,186 @@
+T1	Material 49 55	carbon
+T2	Property-Misc 19 48	Graphene-based nitrogen-doped
+T3	Property-Misc 56 75	sandwich nanosheets
+T4	Property-Misc 113 118	anode
+T5	Material 170 184	Graphene oxide
+T6	Material 186 188	GO
+T7	Operation 194 205	synthesized
+E1	Operation:T7 Participant_Material:T5 Recipe_Precursor:T28
+T8	Operation 263 272	dispersed
+E2	Operation:T8 Solvent_Material:T30
+T9	Operation 371 380	dispersed
+E3	Operation:T9 Recipe_Precursor:T38 Solvent_Material:T42
+T10	Operation 403 418	ultrasonication
+E4	Operation:T10 
+T11	Operation 453 456	put
+E5	Operation:T11 Participant_Material:T45
+T12	Operation 481 487	cooled
+E6	Operation:T12 
+T13	Operation 532 540	addition
+E7	Operation:T13 Recipe_Precursor:T49
+T14	Operation 589 597	stirring
+E8	Operation:T14 
+T15	Operation 651 656	added
+E9	Operation:T15 Recipe_Precursor:T57
+T16	Operation 660 668	initiate
+E10	Operation:T16 
+T17	Operation 673 687	polymerization
+E11	Operation:T17 Recipe_Precursor:T62
+T18	Operation 714 723	continued
+E12	Operation:T18 
+T19	Operation 742 750	stirring
+E13	Operation:T19 
+T20	Operation 783 795	concentrated
+E14	Operation:T20 Participant_Material:T65
+T21	Operation 822 832	filtration
+E15	Operation:T21 
+T22	Operation 852 857	dried
+E16	Operation:T22 
+T23	Operation 868 881	freeze-drying
+E17	Operation:T23 
+T24	Operation 926 935	pyrolysed
+E18	Operation:T24 Participant_Material:T71 Atmospheric_Material:T80
+T25	Operation 1004 1012	yielding
+E19	Operation:T25 Participant_Material:T82 Recipe_Target:T83 Recipe_Target:T84 Recipe_Target:T85
+T26	Operation 1126 1134	prepared
+E20	Operation:T26 Recipe_Target:T88 Recipe_Target:T86
+T27	Operation 1173 1181	addition
+E21	Operation:T27 Recipe_Precursor:T92 Recipe_Precursor:T93
+T28	Material 211 219	graphite
+T29	Reference 235 254	Hummers method32,33
+T30	Material 278 283	water
+T31	Operation 287 302	ultrasonication
+E22	Operation:T31 
+T32	Number 304 305	1
+T33	Amount-Unit 306 313	mg mL-1
+T34	Number 316 319	300
+T35	Condition-Unit 320 323	min
+T36	Number 326 328	25
+T37	Amount-Unit 329 331	mL
+T38	Material 345 347	GO
+T39	Material-Descriptor 348 358	suspension
+T40	Number 386 389	175
+T41	Amount-Unit 390 392	mL
+T42	Material 396 399	H2O
+T43	Number 423 424	5
+T44	Condition-Unit 425 428	min
+T45	Material 440 448	solution
+T46	Synthesis-Apparatus 464 476	refrigerator
+T47	Number 496 499	0-5
+T48	Condition-Unit 500 504	degC
+T49	Material 544 551	pyrrole
+T50	Brand 553 566	Sigma-Aldrich
+T51	Number 567 568	1
+T52	Amount-Unit 569 571	mL
+T53	Condition-Misc 580 588	vigorous
+T54	Number 602 603	5
+T55	Condition-Unit 604 607	min
+T56	Material-Descriptor 613 621	oxidizer
+T57	Material 623 633	(NH4)2S2O8
+T58	Number 634 637	1.2
+T59	Amount-Unit 638 639	g
+T60	Number 640 642	10
+T61	Amount-Unit 643 645	mL
+T62	Material 700 707	pyrrole
+T63	Number 728 731	120
+T64	Condition-Unit 732 735	min
+T65	Material 768 778	suspension
+T66	Number 813 815	30
+T67	Amount-Unit 816 818	mL
+T68	Condition-Misc 861 867	vacuum
+T69	Material-Descriptor 905 912	product
+T70	Material-Descriptor 893 904	as-prepared
+T71	Material 914 920	Go-Ppy
+T72	Number 939 942	500
+T73	Condition-Unit 943 947	degC
+T74	Number 949 952	700
+T75	Condition-Unit 953 957	degC
+T76	Number 963 966	900
+T77	Condition-Unit 967 971	degC
+T78	Number 976 977	1
+T79	Condition-Unit 978 979	h
+T80	Material 989 991	Ar
+T81	Condition-Type 992 1002	atmosphere
+T82	Material 1023 1031	products
+T83	Material 1047 1054	G-NCs-5
+T84	Material 1056 1061	G-NCs
+T85	Material 1067 1074	G-NCs-9
+T86	Material 1077 1085	Graphene
+T87	Material 1087 1088	G
+T88	Material 1109 1115	carbon
+T89	Property-Misc 1094 1108	nitrogen-doped
+T90	Material 1117 1119	NC
+T91	Condition-Misc 1161 1168	without
+T92	Material 1185 1192	pyrrole
+T93	Material 1197 1205	graphene
+R1	Property_Of Arg1:T2 Arg2:T1	
+R2	Property_Of Arg1:T3 Arg2:T1	
+R3	Property_Of Arg1:T4 Arg2:T1	
+R4	Coref_Of Arg1:T6 Arg2:T5	
+A1	Start_Recipe E1
+R5	Next_Operation Arg1:E1 Arg2:E2	
+R6	Next_Operation Arg1:E2 Arg2:E22	
+R7	Next_Operation Arg1:E22 Arg2:E3	
+R8	Next_Operation Arg1:E3 Arg2:E4	
+R9	Next_Operation Arg1:E4 Arg2:E5	
+R10	Next_Operation Arg1:E5 Arg2:E6	
+R11	Next_Operation Arg1:E6 Arg2:E7	
+R12	Next_Operation Arg1:E7 Arg2:E8	
+R13	Next_Operation Arg1:E8 Arg2:E9	
+R14	Next_Operation Arg1:E9 Arg2:E10	
+R15	Next_Operation Arg1:E10 Arg2:E11	
+R16	Next_Operation Arg1:E11 Arg2:E12	
+R17	Next_Operation Arg1:E12 Arg2:E13	
+R18	Next_Operation Arg1:E13 Arg2:E14	
+R19	Next_Operation Arg1:E14 Arg2:E15	
+R20	Next_Operation Arg1:E15 Arg2:E16	
+R21	Next_Operation Arg1:E16 Arg2:E17	
+R22	Next_Operation Arg1:E17 Arg2:E18	
+R23	Next_Operation Arg1:E18 Arg2:E19	
+R24	Next_Operation Arg1:E19 Arg2:E20	
+R25	Next_Operation Arg1:E20 Arg2:E21	
+A2	End_Recipe E21
+R26	Number_Of Arg1:T32 Arg2:T33	
+R27	Number_Of Arg1:T34 Arg2:T35	
+R28	Amount_Of Arg1:T33 Arg2:T30	
+R29	Condition_Of Arg1:T35 Arg2:E22	
+R30	Number_Of Arg1:T36 Arg2:T37	
+R31	Amount_Of Arg1:T37 Arg2:T38	
+R32	Descriptor_Of Arg1:T39 Arg2:T38	
+R33	Number_Of Arg1:T40 Arg2:T41	
+R34	Amount_Of Arg1:T41 Arg2:T42	
+R35	Number_Of Arg1:T43 Arg2:T44	
+R36	Condition_Of Arg1:T44 Arg2:E4	
+R37	Apparatus_Of Arg1:T46 Arg2:E5	
+R38	Number_Of Arg1:T47 Arg2:T48	
+R39	Condition_Of Arg1:T48 Arg2:E6	
+R40	Brand_Of Arg1:T50 Arg2:T49	
+R41	Number_Of Arg1:T51 Arg2:T52	
+R42	Amount_Of Arg1:T52 Arg2:T49	
+R43	Condition_Of Arg1:T53 Arg2:E8	
+R44	Number_Of Arg1:T54 Arg2:T55	
+R45	Condition_Of Arg1:T55 Arg2:E8	
+R46	Descriptor_Of Arg1:T56 Arg2:T57	
+R47	Number_Of Arg1:T58 Arg2:T59	
+R48	Number_Of Arg1:T60 Arg2:T61	
+R49	Amount_Of Arg1:T59 Arg2:T57	
+R50	Amount_Of Arg1:T61 Arg2:T57	
+R51	Number_Of Arg1:T63 Arg2:T64	
+R52	Condition_Of Arg1:T64 Arg2:E13	
+R53	Number_Of Arg1:T66 Arg2:T67	
+R54	Amount_Of Arg1:T67 Arg2:T65	
+R55	Condition_Of Arg1:T68 Arg2:E17	
+R56	Descriptor_Of Arg1:T70 Arg2:T71	
+R57	Descriptor_Of Arg1:T69 Arg2:T71	
+R58	Number_Of Arg1:T72 Arg2:T73	
+R59	Condition_Of Arg1:T73 Arg2:E18	
+R60	Number_Of Arg1:T74 Arg2:T75	
+R61	Condition_Of Arg1:T75 Arg2:E18	
+R62	Number_Of Arg1:T76 Arg2:T77	
+R63	Condition_Of Arg1:T77 Arg2:E18	
+R64	Number_Of Arg1:T78 Arg2:T79	
+R65	Condition_Of Arg1:T79 Arg2:E18	
+R66	Coref_Of Arg1:T87 Arg2:T86	
+R67	Property_Of Arg1:T89 Arg2:T88	
+R68	Coref_Of Arg1:T90 Arg2:T88	
+R69	Condition_Of Arg1:T91 Arg2:E21	

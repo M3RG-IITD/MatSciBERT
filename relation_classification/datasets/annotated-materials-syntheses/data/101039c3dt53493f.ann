@@ -1,0 +1,195 @@
+T1	Operation 279 288	purchased
+E1	Operation:T1 Solvent_Material:T45 Recipe_Precursor:T43 Recipe_Precursor:T41 Recipe_Precursor:T39 Recipe_Precursor:T37 Recipe_Precursor:T35
+T2	Operation 336 345	purchased
+E2	Operation:T2 Recipe_Precursor:T46
+T3	Brand 294 311	Beijing Chemicals
+T4	Brand 351 366	Aladdin Reagent
+T5	Operation 388 392	used
+E3	Operation:T5 Participant_Material:T48
+T6	Operation 443 447	used
+E4	Operation:T6 
+T7	Operation 473 485	purification
+E5	Operation:T7 
+T8	Operation 530 541	synthesized
+E6	Operation:T8 Recipe_Target:T50
+T9	Meta 550 570	one-pot solvothermal
+T10	Operation 614 623	dissolved
+E7	Operation:T10 Recipe_Precursor:T51 Solvent_Material:T53 Solvent_Material:T54
+T11	Operation 685 689	form
+E8	Operation:T11 Participant_Material:T55
+T12	Operation 754 759	added
+E9	Operation:T12 Recipe_Precursor:T57 Recipe_Precursor:T56 Participant_Material:T58
+T13	Operation 810 818	stirring
+E10	Operation:T13 
+T14	Operation 836 845	dissolved
+E11	Operation:T14 
+T15	Operation 872 880	obtained
+E12	Operation:T15 Participant_Material:T59
+T16	Operation 885 896	transferred
+E13	Operation:T16 
+T17	Operation 950 956	sealed
+E14	Operation:T17 
+T18	Operation 961 967	heated
+E15	Operation:T18 
+T19	Operation 1023 1029	cooled
+E16	Operation:T19 
+T20	Operation 1068 1076	obtained
+E17	Operation:T20 
+T21	Operation 1102 1108	washed
+E18	Operation:T21 Participant_Material:T60 Participant_Material:T61 Participant_Material:T62
+T22	Operation 1161 1166	dried
+E19	Operation:T22 
+T23	Operation 1259 1271	investigated
+E20	Operation:T23 Participant_Material:T64
+T24	Number 590 593	1.5
+T25	Number 627 629	40
+T26	Number 659 661	30
+T27	Number 675 677	10
+T28	Number 716 719	4.0
+T29	Number 734 737	1.0
+T30	Number 942 944	50
+T31	Number 971 974	200
+T32	Number 1000 1001	8
+T33	Number 1183 1185	60
+T34	Number 1195 1197	12
+T35	Material 113 140	Ferric chloride hexahydrate
+T36	Material 142 152	FeCl3*6H2O
+T37	Material 155 179	anhydrous sodium acetate
+T38	Material 181 186	NaOAc
+T39	Material 189 216	polyethylene glycolethylene
+T40	Material 218 226	PEG-2000
+T41	Material 229 235	glycol
+T42	Material 237 239	EG
+T43	Material 242 254	ethanolamine
+T44	Material 256 259	ETA
+T45	Material 266 273	ethanol
+T46	Material 313 325	Camptothecin
+T47	Material 327 330	CPT
+T48	Material 381 387	agents
+T49	Material-Descriptor 372 380	chemical
+T50	Material 504 509	Fe3O4
+T51	Material 599 609	FeCl3*6H2O
+T52	Material-Descriptor 636 643	solvent
+T53	Material 655 657	EG
+T54	Material 670 673	ETA
+T55	Material 706 714	solution
+T56	Material 725 729	NaAc
+T57	Material 740 748	PEG-2000
+T58	Material 775 783	solution
+T59	Material 863 871	solution
+T60	Material 1087 1096	particles
+T61	Material 1114 1121	ethanol
+T62	Material 1136 1141	water
+T63	Meta 1234 1246	solvothermal
+T64	Nonrecipe-Material 1223 1226	ETA
+T65	Nonrecipe-Material 1308 1310	EG
+T66	Nonrecipe-Material 1315 1318	ETA
+T67	Amount-Unit 594 595	g
+T68	Amount-Unit 630 632	mL
+T69	Amount-Unit 662 664	mL
+T70	Amount-Unit 678 680	mL
+T71	Amount-Unit 720 721	g
+T72	Amount-Unit 738 739	g
+T73	Apparatus-Unit 945 947	mL
+T74	Condition-Unit 975 979	degC
+T75	Condition-Unit 1002 1003	h
+T76	Condition-Unit 1186 1190	degC
+T77	Condition-Unit 1198 1199	h
+T78	Amount-Misc 422 438	analytical grade
+T79	Condition-Misc 457 464	without
+T80	Property-Misc 491 503	monodisperse
+T81	Property-Misc 510 524	hollow spheres
+T82	Material-Descriptor 692 705	stable orange
+T83	Condition-Misc 790 809	vigorously magnetic
+T84	Condition-Misc 825 835	completely
+T85	Material-Descriptor 851 862	homogeneous
+T86	Synthesis-Apparatus 931 940	autoclave
+T87	Apparatus-Descriptor 902 930	Teflon-lined stainless-steel
+T88	Operation 987 995	reacting
+E21	Operation:T88 
+T89	Synthesis-Apparatus 1009 1018	autoclave
+T90	Condition-Misc 1033 1062	ambient temperature naturally
+T91	Material-Descriptor 1077 1086	magnetite
+T92	Material-Descriptor 1126 1135	deionized
+T93	Condition-Misc 1173 1179	vacuum
+T94	Material 27 37	iron oxide
+T95	Property-Misc 38 52	hollow spheres
+T96	Property-Misc 19 26	Uniform
+R1	Property_Of Arg1:T96 Arg2:T94	
+R2	Property_Of Arg1:T95 Arg2:T94	
+A1	Start_Recipe E1
+R3	Next_Operation Arg1:E1 Arg2:E2	
+R4	Next_Operation Arg1:E2 Arg2:E3	
+R5	Next_Operation Arg1:E3 Arg2:E4	
+R6	Next_Operation Arg1:E4 Arg2:E5	
+R7	Next_Operation Arg1:E5 Arg2:E6	
+R8	Next_Operation Arg1:E6 Arg2:E7	
+R9	Next_Operation Arg1:E7 Arg2:E8	
+R10	Next_Operation Arg1:E8 Arg2:E9	
+R11	Next_Operation Arg1:E9 Arg2:E10	
+R12	Next_Operation Arg1:E10 Arg2:E11	
+R13	Next_Operation Arg1:E11 Arg2:E12	
+R14	Next_Operation Arg1:E12 Arg2:E13	
+R15	Next_Operation Arg1:E13 Arg2:E14	
+R16	Next_Operation Arg1:E14 Arg2:E15	
+R17	Next_Operation Arg1:E15 Arg2:E21	
+R18	Next_Operation Arg1:E21 Arg2:E16	
+R19	Next_Operation Arg1:E16 Arg2:E17	
+R20	Next_Operation Arg1:E17 Arg2:E18	
+R21	Next_Operation Arg1:E18 Arg2:E19	
+R22	Next_Operation Arg1:E19 Arg2:E20	
+A2	End_Recipe E20
+R23	Coref_Of Arg1:T36 Arg2:T35	
+R24	Coref_Of Arg1:T38 Arg2:T37	
+R25	Coref_Of Arg1:T40 Arg2:T39	
+R26	Coref_Of Arg1:T42 Arg2:T41	
+R27	Coref_Of Arg1:T44 Arg2:T43	
+R28	Brand_Of Arg1:T3 Arg2:T35	
+R29	Brand_Of Arg1:T3 Arg2:T37	
+R30	Brand_Of Arg1:T3 Arg2:T39	
+R31	Brand_Of Arg1:T3 Arg2:T41	
+R32	Brand_Of Arg1:T3 Arg2:T43	
+R33	Brand_Of Arg1:T3 Arg2:T45	
+R34	Coref_Of Arg1:T47 Arg2:T46	
+R35	Brand_Of Arg1:T4 Arg2:T46	
+R36	Descriptor_Of Arg1:T49 Arg2:T48	
+R37	Amount_Of Arg1:T78 Arg2:T48	
+R38	Condition_Of Arg1:T79 Arg2:E5	
+R39	Property_Of Arg1:T80 Arg2:T50	
+R40	Property_Of Arg1:T81 Arg2:T50	
+R41	Number_Of Arg1:T24 Arg2:T67	
+R42	Amount_Of Arg1:T67 Arg2:T51	
+R43	Number_Of Arg1:T25 Arg2:T68	
+R45	Number_Of Arg1:T26 Arg2:T69	
+R44	Descriptor_Of Arg1:T52 Arg2:T53	
+R46	Descriptor_Of Arg1:T52 Arg2:T54	
+R47	Amount_Of Arg1:T69 Arg2:T53	
+R48	Amount_Of Arg1:T68 Arg2:T53	
+R49	Amount_Of Arg1:T68 Arg2:T54	
+R50	Number_Of Arg1:T27 Arg2:T70	
+R51	Amount_Of Arg1:T70 Arg2:T54	
+R52	Descriptor_Of Arg1:T82 Arg2:T55	
+R53	Number_Of Arg1:T28 Arg2:T71	
+R54	Amount_Of Arg1:T71 Arg2:T56	
+R55	Number_Of Arg1:T29 Arg2:T72	
+R56	Amount_Of Arg1:T72 Arg2:T57	
+R57	Condition_Of Arg1:T83 Arg2:E10	
+R58	Condition_Of Arg1:T84 Arg2:E11	
+R59	Descriptor_Of Arg1:T85 Arg2:T59	
+R60	Descriptor_Of Arg1:T87 Arg2:T86	
+R61	Number_Of Arg1:T30 Arg2:T73	
+R62	Apparatus_Attr_Of Arg1:T73 Arg2:T86	
+R63	Apparatus_Of Arg1:T86 Arg2:E13	
+R64	Number_Of Arg1:T31 Arg2:T74	
+R65	Condition_Of Arg1:T74 Arg2:E15	
+R66	Number_Of Arg1:T32 Arg2:T75	
+R67	Condition_Of Arg1:T75 Arg2:E21	
+R68	Apparatus_Of Arg1:T89 Arg2:E16	
+R69	Condition_Of Arg1:T90 Arg2:E16	
+R70	Descriptor_Of Arg1:T91 Arg2:T60	
+R71	Descriptor_Of Arg1:T92 Arg2:T62	
+R72	Condition_Of Arg1:T93 Arg2:E19	
+R73	Number_Of Arg1:T33 Arg2:T76	
+R74	Condition_Of Arg1:T76 Arg2:E19	
+R75	Number_Of Arg1:T34 Arg2:T77	
+R76	Condition_Of Arg1:T77 Arg2:E19	

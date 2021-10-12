@@ -1,0 +1,5 @@
+10.1016/j.jssc.2005.12.036
+High-temperature phase equilibria in the oxide systems SrFe1-xGaxO2.5-SrFe1-xGaxO3 (, 0.1, 0.2)
+
+The samples used in this study were prepared by solid-state reactions. Starting materials were oxides Fe2O3 (99.92%), Ga2O3 (99.99%) and strontium carbonate SrCO3 (99.94%). The raw materials were weighed in desirable amounts and thoroughly mixed with a mortar and pestle with addition of ethanol. The mixtures were pressed into pellets and fired at 900-1250 degC in air. The materials were crushed into powder, pressed and fired several times with a gradual increase in temperature before single-phase specimens were obtained. Phase purity and determination of the lattice parameters were carried out with X-ray powder diffraction ( λ = 1.5 4 1 7 8 Å ). The lattice parameters were refined with the using of FullProf program [9]. A part of the synthesized materials was ball-milled in ethanol media and pressed into discs under 2 kbar uniaxial load. The disks were sintered in air at 1250 degC for 10 h to a density no less than 90% of theoretical. Rectangular bars 2x2x18 mm were cut from the sintered discs for the conductivity measurements.
+

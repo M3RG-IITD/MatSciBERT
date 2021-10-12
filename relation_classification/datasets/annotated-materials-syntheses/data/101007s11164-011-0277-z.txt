@@ -1,0 +1,5 @@
+10.1007/s11164-011-0277-z
+Synthesis of iron-containing nitrogen-doped titania by hydrothermal method and its photocatalytic activity
+
+Fe co-doped TiO2-xNy was prepared by hydrothermal method, similar to that used for only N-doped TiO2 reported in a previous paper [19]. TiCl3 20 wt% aqueous solution was used as the titanium source, and hexamethylenetetramine (HMT) was used as nitrogen source. To co-dope Fe into the samples, FeCl2*4H2O was added to the starting materials. In a typical preparation, a 50 mL mixed aqueous solution of TiCl3, FeCl2*4H2O and hexamethylenetetramine (HMT) was first prepared, which contained 0.03 mol of metal ions and 0.06 mol of HMT. Then, the solution was transferred to a Teflon-lined stainless autoclave, and heated at 190 degC for 2 h. After that, precipitates were collected by centrifugation, and carefully washed with distilled water and acetone. Finally, the products were vacuum-dried at 60 degC overnight. The amount of Fe in the final products was altered in the range from 1 to 5 mol%.
+

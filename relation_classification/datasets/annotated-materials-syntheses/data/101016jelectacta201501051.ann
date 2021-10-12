@@ -1,0 +1,135 @@
+T1	Material 117 124	Silicon
+T2	Property-Misc 125 134	Particles
+T3	Property-Misc 141 146	Anode
+T4	Property-Misc 78 116	Three-Dimensional Carbon Coated Porous
+T5	Operation 201 208	treated
+E1	Operation:T5 Recipe_Precursor:T24 Recipe_Precursor:T25
+T6	Operation 244 253	dissolved
+E2	Operation:T6 Solvent_Material:T26 Recipe_Precursor:T25
+T7	Operation 266 277	ball milled
+E3	Operation:T7 
+T8	Operation 431 437	spread
+E4	Operation:T8 Participant_Material:T29
+T9	Operation 508 513	dried
+E5	Operation:T9 
+T10	Operation 565 573	obtained
+E6	Operation:T10 Participant_Material:T30
+T11	Operation 610 616	heated
+E7	Operation:T11 Participant_Material:T30 Atmospheric_Material:T31
+T12	Number 237 239	10
+T13	Number 282 283	1
+T14	Number 289 292	200
+T15	Number 323 325	40
+T16	Number 353 356	600
+T17	Number 474 476	14
+T18	Number 518 519	3
+T19	Number 549 551	80
+T20	Number 650 651	5
+T21	Number 666 669	700
+T22	Number 688 689	1
+T23	Number 744 748	0.85
+T24	Material 184 191	silicon
+T25	Material 223 226	PAN
+T26	Material 257 260	DMF
+T27	Material 336 343	silicon
+T28	Material 380 383	PAN
+T29	Material 420 426	slurry
+T30	Material 585 588	PSP
+T31	Material 623 625	Ar
+T32	Material 711 714	PSP
+T33	Amount-Unit 240 243	wt%
+T34	Condition-Unit 284 285	h
+T35	Condition-Unit 293 300	r min-1
+T36	Amount-Unit 326 328	mg
+T37	Amount-Unit 357 359	mg
+T38	Apparatus-Unit 477 479	mm
+T39	Condition-Unit 520 521	h
+T40	Condition-Unit 552 556	degC
+T41	Condition-Unit 652 662	degC min-1
+T42	Condition-Unit 670 674	degC
+T43	Condition-Unit 690 691	h
+T44	Property-Unit 749 751	mg
+T45	Material-Descriptor 177 183	porous
+T46	Material-Descriptor 192 196	film
+T47	Material-Descriptor 216 222	liquid
+T48	Material-Descriptor 227 235	solution
+T49	Material-Descriptor 329 335	porous
+T50	Material-Descriptor 344 348	film
+T51	Material-Descriptor 373 379	liquid
+T52	Material-Descriptor 384 392	solution
+T53	Operation 414 419	mixed
+E8	Operation:T53 Participant_Material:T29
+T54	Synthesis-Apparatus 450 454	foil
+T55	Apparatus-Descriptor 443 449	copper
+T56	Apparatus-Property-Type 462 470	diameter
+T57	Apparatus-Descriptor 494 503	collector
+T58	Apparatus-Descriptor 486 493	current
+T59	Synthesis-Apparatus 541 545	oven
+T60	Apparatus-Descriptor 527 540	vacuum drying
+T61	Material-Descriptor 574 577	PAN
+T62	Material-Descriptor 578 584	coated
+T63	Material-Descriptor 589 599	electrodes
+T64	Condition-Type 626 636	atmosphere
+T65	Condition-Type 642 646	rate
+T66	Operation 679 683	held
+E9	Operation:T66 
+T67	Property-Misc 697 710	carbon-coated
+T68	Property-Misc 729 738	electrode
+R1	Property_Of Arg1:T4 Arg2:T1	
+R2	Property_Of Arg1:T2 Arg2:T1	
+R3	Property_Of Arg1:T3 Arg2:T1	
+A1	Start_Recipe E1
+R4	Next_Operation Arg1:E1 Arg2:E2	
+R5	Next_Operation Arg1:E2 Arg2:E3	
+R6	Next_Operation Arg1:E3 Arg2:E8	
+R7	Next_Operation Arg1:E8 Arg2:E4	
+R8	Next_Operation Arg1:E4 Arg2:E5	
+R9	Next_Operation Arg1:E5 Arg2:E6	
+R10	Next_Operation Arg1:E6 Arg2:E7	
+R11	Next_Operation Arg1:E7 Arg2:E9	
+A2	End_Recipe E9
+R12	Descriptor_Of Arg1:T45 Arg2:T24	
+R13	Descriptor_Of Arg1:T46 Arg2:T24	
+R14	Descriptor_Of Arg1:T47 Arg2:T25	
+R15	Descriptor_Of Arg1:T48 Arg2:T25	
+R16	Number_Of Arg1:T12 Arg2:T33	
+R17	Amount_Of Arg1:T33 Arg2:T25	
+R18	Number_Of Arg1:T13 Arg2:T34	
+R19	Number_Of Arg1:T14 Arg2:T35	
+R20	Condition_Of Arg1:T35 Arg2:E3	
+R21	Condition_Of Arg1:T34 Arg2:E3	
+R22	Number_Of Arg1:T15 Arg2:T36	
+R23	Descriptor_Of Arg1:T49 Arg2:T27	
+R24	Descriptor_Of Arg1:T50 Arg2:T27	
+R25	Amount_Of Arg1:T36 Arg2:T27	
+R26	Number_Of Arg1:T16 Arg2:T37	
+R27	Amount_Of Arg1:T37 Arg2:T28	
+R28	Descriptor_Of Arg1:T51 Arg2:T28	
+R29	Descriptor_Of Arg1:T52 Arg2:T28	
+R30	Descriptor_Of Arg1:T55 Arg2:T54	
+R31	Apparatus_Of Arg1:T54 Arg2:E4	
+R32	Type_Of Arg1:T56 Arg2:T38	
+R33	Number_Of Arg1:T17 Arg2:T38	
+R34	Apparatus_Attr_Of Arg1:T38 Arg2:T54	
+R35	Descriptor_Of Arg1:T57 Arg2:T54	
+R36	Descriptor_Of Arg1:T58 Arg2:T54	
+R37	Number_Of Arg1:T18 Arg2:T39	
+R38	Condition_Of Arg1:T39 Arg2:E5	
+R39	Descriptor_Of Arg1:T60 Arg2:T59	
+R40	Apparatus_Of Arg1:T59 Arg2:E5	
+R41	Number_Of Arg1:T19 Arg2:T40	
+R42	Condition_Of Arg1:T40 Arg2:E5	
+R43	Descriptor_Of Arg1:T61 Arg2:T30	
+R44	Descriptor_Of Arg1:T62 Arg2:T30	
+R45	Descriptor_Of Arg1:T63 Arg2:T30	
+R46	Type_Of Arg1:T65 Arg2:T41	
+R47	Number_Of Arg1:T20 Arg2:T41	
+R48	Condition_Of Arg1:T41 Arg2:E7	
+R49	Condition_Of Arg1:T42 Arg2:E7	
+R50	Number_Of Arg1:T21 Arg2:T42	
+R51	Number_Of Arg1:T22 Arg2:T43	
+R52	Condition_Of Arg1:T43 Arg2:E9	
+R53	Property_Of Arg1:T67 Arg2:T32	
+R54	Number_Of Arg1:T23 Arg2:T44	
+R55	Property_Of Arg1:T44 Arg2:T32	
+R56	Property_Of Arg1:T68 Arg2:T32	

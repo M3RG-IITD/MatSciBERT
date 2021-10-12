@@ -1,0 +1,88 @@
+T1	Operation 320 325	added
+E1	Operation:T1 Participant_Material:T12 Recipe_Precursor:T13
+T2	Operation 421 428	stirred
+E2	Operation:T2 
+T3	Operation 520 528	filtered
+E3	Operation:T3 Participant_Material:T15
+T4	Operation 530 536	washed
+E4	Operation:T4 Solvent_Material:T16
+T5	Operation 577 582	dried
+E5	Operation:T5 Atmospheric_Material:T17
+T6	Operation 637 647	carbonized
+E6	Operation:T6 Participant_Material:T18 Atmospheric_Material:T19
+T7	Operation 776 782	ground
+E7	Operation:T7 Participant_Material:T20 Participant_Material:T21
+T8	Operation 806 818	ball milling
+E8	Operation:T8 
+T9	Operation 823 832	collected
+E9	Operation:T9 
+T12	Material 297 302	resin
+T13	Material 379 410	ammonium molybdate tetrahydrate
+T14	Material 412 415	AHM
+T15	Material 510 515	resin
+T16	Material 566 571	water
+T17	Material 586 589	air
+T18	Material 625 632	product
+T19	Material 677 682	argon
+T20	Material 756 763	product
+T21	Material 793 802	particles
+T10	Material-Descriptor 250 296	pretreated macroporous cinnamic anion-exchange
+T11	Number 304 306	10
+T22	Amount-Unit 307 308	g
+T23	Number 331 334	100
+T24	Amount-Unit 335 337	mL
+T25	Material-Descriptor 344 360	aqueous solution
+T26	Number 372 376	6.18
+T27	Amount-Unit 377 378	g
+T28	Condition-Misc 435 453	ambient atmosphere
+T29	Condition-Misc 457 473	room temperature
+T30	Number 478 480	10
+T31	Condition-Unit 481 482	h
+T32	Material-Descriptor 556 565	distilled
+T33	Number 593 595	60
+T34	Condition-Unit 596 600	degC
+T35	Number 605 607	24
+T36	Condition-Unit 608 609	h
+T37	Number 651 654	750
+T38	Condition-Unit 655 659	degC
+T39	Number 664 665	3
+T40	Condition-Unit 666 667	h
+T41	Number 715 716	5
+T42	Condition-Unit 717 727	degC min-1
+T43	Material-Descriptor 742 755	black-colored
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E7	
+R7	Next_Operation Arg1:E7 Arg2:E8	
+R8	Next_Operation Arg1:E8 Arg2:E9	
+R9	Coref_Of Arg1:T14 Arg2:T13	
+R10	Condition_Of Arg1:T28 Arg2:E2	
+R11	Condition_Of Arg1:T29 Arg2:E2	
+R12	Condition_Of Arg1:T31 Arg2:E2	
+R13	Condition_Of Arg1:T34 Arg2:E5	
+R14	Condition_Of Arg1:T36 Arg2:E5	
+R15	Condition_Of Arg1:T38 Arg2:E6	
+R16	Condition_Of Arg1:T40 Arg2:E6	
+R17	Condition_Of Arg1:T42 Arg2:E6	
+T44	Condition-Type 699 711	heating rate
+R18	Type_Of Arg1:T44 Arg2:T42	
+R19	Number_Of Arg1:T41 Arg2:T42	
+R20	Amount_Of Arg1:T22 Arg2:T12	
+R21	Amount_Of Arg1:T27 Arg2:T13	
+R22	Amount_Of Arg1:T24 Arg2:T13	
+R23	Descriptor_Of Arg1:T10 Arg2:T12	
+R24	Descriptor_Of Arg1:T25 Arg2:T13	
+R25	Descriptor_Of Arg1:T32 Arg2:T16	
+R26	Descriptor_Of Arg1:T43 Arg2:T20	
+R27	Number_Of Arg1:T11 Arg2:T22	
+R28	Number_Of Arg1:T23 Arg2:T24	
+R29	Number_Of Arg1:T26 Arg2:T27	
+R30	Number_Of Arg1:T30 Arg2:T31	
+R31	Number_Of Arg1:T33 Arg2:T34	
+R32	Number_Of Arg1:T35 Arg2:T36	
+R33	Number_Of Arg1:T37 Arg2:T38	
+R34	Number_Of Arg1:T39 Arg2:T40	
+R35	Number_Of Arg1:T41 Arg2:T42	

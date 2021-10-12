@@ -1,0 +1,56 @@
+T1	Material 109 121	Ga1+xGe1-xTe
+T2	Material 141 150	GaGeTe1-y
+T3	Operation 171 182	synthesized
+E1	Operation:T3 Recipe_Target:T1 Recipe_Target:T2 Recipe_Precursor:T8 Recipe_Precursor:T9 Recipe_Precursor:T10
+T4	Operation 254 260	heated
+E2	Operation:T4 Participant_Material:T11
+T5	Operation 315 323	quenched
+E3	Operation:T5 Atmospheric_Material:T13
+T6	Operation 358 366	annealed
+E4	Operation:T6 
+T7	Operation 422 430	powdered
+E5	Operation:T7 Participant_Material:T15 Solvent_Material:T17
+T8	Material 197 199	Ga
+T9	Material 201 203	Ge
+T10	Material 208 210	Te
+T11	Material 241 249	elements
+T12	Synthesis-Apparatus 281 289	ampoules
+T13	Material 327 330	air
+T14	Synthesis-Apparatus 336 344	ampoules
+T15	Material 408 416	Products
+T16	Synthesis-Apparatus 451 465	vibrating mill
+T17	Material 472 478	hexane
+T18	Property-Misc 85 100	Polycrystalline
+T19	Number 214 215	5
+T20	Amount-Unit 216 217	N
+T21	Apparatus-Descriptor 264 280	evacuated quartz
+T22	Number 293 297	1220
+T23	Condition-Unit 298 299	K
+T24	Number 304 306	75
+T25	Condition-Unit 307 310	min
+T26	Number 370 373	770
+T27	Condition-Unit 374 375	K
+T28	Number 380 381	3
+T29	Condition-Unit 382 385	day
+T30	Condition-Misc 435 445	one minute
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Apparatus_Of Arg1:T12 Arg2:E2	
+R5	Condition_Of Arg1:T23 Arg2:E2	
+R6	Condition_Of Arg1:T25 Arg2:E2	
+R7	Condition_Of Arg1:T27 Arg2:E4	
+R8	Condition_Of Arg1:T29 Arg2:E4	
+R9	Condition_Of Arg1:T30 Arg2:E5	
+R10	Apparatus_Of Arg1:T16 Arg2:E5	
+R11	Apparatus_Of Arg1:T14 Arg2:E4	
+R12	Property_Of Arg1:T18 Arg2:T1	
+R13	Amount_Of Arg1:T20 Arg2:T8	
+R14	Amount_Of Arg1:T20 Arg2:T9	
+R15	Amount_Of Arg1:T20 Arg2:T10	
+R16	Descriptor_Of Arg1:T21 Arg2:T12	
+R17	Number_Of Arg1:T19 Arg2:T20	
+R18	Number_Of Arg1:T22 Arg2:T23	
+R19	Number_Of Arg1:T24 Arg2:T25	
+R20	Number_Of Arg1:T26 Arg2:T27	
+R21	Number_Of Arg1:T28 Arg2:T29	

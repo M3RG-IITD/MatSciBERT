@@ -1,0 +1,3 @@
+10.1039/c5nr00246j
+CeO2-modified Au@SBA-15 nanocatalysts for liquid-phase selective oxidation of benzyl alcohol
+The Au-CeO2@SBA-15 catalyst was prepared using the impregnation method. A required amount of Ce(NO3)3*6H2O was dissolved in 7 mL ethanol and added into the resulting Au@NH2-SBA-15 sample. The mixture underwent ultrasound for 0.5 h and was dried in air at 60 degC for 12 h to generate an Au-xCeO2@SBA-15 precursor. The Au-CeO2@SBA-15 precursor was calcined in air at 500 degC for 4 h to obtain the final catalyst labeled as the Au-xCeO2@SBA-15 catalyst (x denote the CeO2 loading; CeO2 loading = mCeO2/mSBA-15).

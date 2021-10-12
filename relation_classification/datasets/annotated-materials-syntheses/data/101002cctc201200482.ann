@@ -1,0 +1,325 @@
+T1	Material 66 73	Vanadia
+T2	Property-Misc 48 65	Zeolite-Supported
+R1	Property_Of Arg1:T2 Arg2:T1	
+T3	Material 102 125	5-hydroxymethylfurfural
+T4	Material 129 146	2,5-diformylfuran
+T5	Material 147 170	5-Hydroxymethylfurfural
+T6	Material 172 175	HMF
+R2	Coref_Of Arg1:T6 Arg2:T5	
+T7	Number 178 180	99
+T8	Amount-Unit 181 182	%
+R3	Number_Of Arg1:T7 Arg2:T8	
+R4	Amount_Of Arg1:T8 Arg2:T5	
+T9	Material 185 197	acetonitrile
+T10	Number 201 205	99.9
+T11	Amount-Unit 206 207	%
+R5	Number_Of Arg1:T10 Arg2:T11	
+R6	Amount_Of Arg1:T11 Arg2:T9	
+T12	Material 210 217	toluene
+T13	Material-Descriptor 219 228	anhydrous
+R7	Descriptor_Of Arg1:T13 Arg2:T12	
+T14	Number 230 234	99.8
+T15	Amount-Unit 235 236	%
+R8	Number_Of Arg1:T14 Arg2:T15	
+R9	Amount_Of Arg1:T15 Arg2:T12	
+T16	Material 239 261	α,α,α-trifluorotoluene
+T17	Material 676 688	NH4-zeolites
+T18	Material 736 750	Vanadium oxide
+T19	Number 751 756	(99.8
+T20	Amount-Unit 757 758	%
+R10	Number_Of Arg1:T19 Arg2:T20	
+R11	Amount_Of Arg1:T20 Arg2:T18	
+T21	Brand 778 781	Chr
+T22	Brand 708 734	Zeolyst International, USA
+T23	Brand 650 670	Air Liquide, Denmark
+R12	Brand_Of Arg1:T22 Arg2:T17	
+R13	Brand_Of Arg1:T21 Arg2:T18	
+T24	Brand 597 611	ABCR GmbH & Co
+T25	Reference 1250 1252	44
+T26	Material 349 360	oxalic acid
+T27	Material 371 385	sodium nitrate
+T28	Material 278 299	N,N-dimethylformamide
+T29	Material 317 338	ammonium metavanadate
+T30	Material 263 266	TFT
+R14	Coref_Of Arg1:T30 Arg2:T16	
+T31	Material 301 304	DMF
+R15	Coref_Of Arg1:T31 Arg2:T28	
+T32	Number 271 273	99
+T33	Number 308 312	99.9
+T34	Number 342 344	99
+T35	Number 364 366	99
+T36	Number 389 391	99
+T37	Number 409 411	99
+T38	Amount-Unit 274 275	%
+T40	Amount-Unit 345 346	%
+T41	Amount-Unit 367 368	%
+T42	Amount-Unit 392 393	%
+T43	Amount-Unit 412 413	%
+R16	Number_Of Arg1:T32 Arg2:T38	
+R17	Number_Of Arg1:T34 Arg2:T40	
+T39	Amount-Unit 313 314	%
+R18	Number_Of Arg1:T33 Arg2:T39	
+R19	Number_Of Arg1:T35 Arg2:T41	
+R20	Number_Of Arg1:T36 Arg2:T42	
+R21	Number_Of Arg1:T37 Arg2:T43	
+R22	Amount_Of Arg1:T38 Arg2:T16	
+R23	Amount_Of Arg1:T39 Arg2:T28	
+R24	Amount_Of Arg1:T40 Arg2:T29	
+R25	Amount_Of Arg1:T41 Arg2:T26	
+R26	Amount_Of Arg1:T42 Arg2:T27	
+T44	Material 400 407	anisole
+R27	Amount_Of Arg1:T43 Arg2:T44	
+T45	Brand 434 447	Sigma-Aldrich
+R28	Brand_Of Arg1:T45 Arg2:T5	
+R29	Brand_Of Arg1:T45 Arg2:T9	
+R30	Brand_Of Arg1:T45 Arg2:T12	
+R31	Brand_Of Arg1:T45 Arg2:T16	
+R32	Brand_Of Arg1:T45 Arg2:T28	
+R33	Brand_Of Arg1:T45 Arg2:T29	
+R34	Brand_Of Arg1:T45 Arg2:T26	
+R35	Brand_Of Arg1:T45 Arg2:T27	
+R36	Brand_Of Arg1:T45 Arg2:T44	
+T46	Operation 420 428	acquired
+E1	Operation:T46 Participant_Material:T5 Participant_Material:T9 Solvent_Material:T12 Solvent_Material:T16 Solvent_Material:T28 Recipe_Precursor:T29 Solvent_Material:T26 Recipe_Precursor:T27 Solvent_Material:T44
+T47	Material 613 621	Dioxygen
+T48	Number 623 627	99.5
+T49	Material 473 477	MIBK
+T50	Material 449 471	Methyl isobutyl ketone
+T51	Material 551 568	2,5-Diformylfuran
+T52	Material 570 573	DFF
+R37	Coref_Of Arg1:T52 Arg2:T51	
+R38	Coref_Of Arg1:T49 Arg2:T50	
+T53	Number 481 483	98
+T54	Number 575 577	98
+T55	Amount-Unit 484 485	%
+T56	Amount-Unit 578 579	%
+R39	Number_Of Arg1:T53 Arg2:T55	
+R40	Number_Of Arg1:T54 Arg2:T56	
+R41	Amount_Of Arg1:T55 Arg2:T50	
+R42	Amount_Of Arg1:T56 Arg2:T51	
+T57	Material 491 508	dimethylsulfoxide
+T58	Material 510 514	DMSO
+R43	Coref_Of Arg1:T58 Arg2:T57	
+T59	Number 518 520	99
+T60	Amount-Unit 521 522	%
+R44	Number_Of Arg1:T59 Arg2:T60	
+R45	Amount_Of Arg1:T60 Arg2:T57	
+T61	Brand 544 549	Fluka
+T62	Operation 529 538	purchased
+E2	Operation:T62 Solvent_Material:T57 Solvent_Material:T50
+R46	Brand_Of Arg1:T61 Arg2:T57	
+R47	Brand_Of Arg1:T61 Arg2:T50	
+R48	Brand_Of Arg1:T24 Arg2:T51	
+T63	Operation 585 593	supplied
+E3	Operation:T63 Solvent_Material:T51
+R49	Next_Operation Arg1:E2 Arg2:E3	
+R50	Next_Operation Arg1:E1 Arg2:E2	
+T64	Operation 635 644	purchased
+E4	Operation:T64 
+R51	Next_Operation Arg1:E3 Arg2:E4	
+T65	Operation 694 702	obtained
+E5	Operation:T65 
+R52	Next_Operation Arg1:E4 Arg2:E5	
+T66	Operation 764 772	acquired
+E6	Operation:T66 
+R53	Next_Operation Arg1:E5 Arg2:E6	
+T67	Operation 817 821	used
+E7	Operation:T67 
+R54	Next_Operation Arg1:E6 Arg2:E7	
+T68	Operation 960 968	calcined
+E8	Operation:T68 Recipe_Precursor:T96 Recipe_Precursor:T86 Recipe_Precursor:T90 Recipe_Precursor:T95
+T69	Operation 992 998	obtain
+E9	Operation:T69 Participant_Material:T108 Participant_Material:T109 Participant_Material:T110 Participant_Material:T111
+R55	Next_Operation Arg1:E7 Arg2:E8	
+R56	Next_Operation Arg1:E8 Arg2:E9	
+T70	Operation 1130 1138	prepared
+E10	Operation:T70 Recipe_Target:T112 Participant_Material:T113 Recipe_Target:T117 Solvent_Material:T119
+T71	Operation 1280 1287	prepare
+E11	Operation:T71 Recipe_Target:T123
+T72	Operation 1479 1484	added
+E12	Operation:T72 
+T73	Operation 1611 1616	dried
+E13	Operation:T73 Participant_Material:T143
+T74	Operation 1646 1654	calcined
+E14	Operation:T74 
+T75	Operation 1695 1700	named
+E15	Operation:T75 Participant_Material:T152
+T76	Operation 1773 1784	preparation
+E16	Operation:T76 Recipe_Target:T155
+T77	Operation 1831 1840	suspended
+E17	Operation:T77 Participant_Material:T158 Solvent_Material:T161
+T78	Operation 1901 1907	heated
+E18	Operation:T78 Participant_Material:T165
+T79	Operation 1923 1930	stirred
+E19	Operation:T79 
+T80	Operation 1971 1979	filtered
+E20	Operation:T80 Participant_Material:T170
+T81	Operation 1984 1990	washed
+E21	Operation:T81 Solvent_Material:T171
+T82	Operation 2032 2040	repeated
+E22	Operation:T82 
+T83	Operation 2092 2097	dried
+E23	Operation:T83 Recipe_Target:T173
+T84	Operation 2107 2115	calcined
+E24	Operation:T84 
+R57	Next_Operation Arg1:E9 Arg2:E10	
+R58	Next_Operation Arg1:E10 Arg2:E11	
+R59	Next_Operation Arg1:E11 Arg2:E12	
+R60	Next_Operation Arg1:E12 Arg2:E13	
+R61	Next_Operation Arg1:E13 Arg2:E14	
+R62	Next_Operation Arg1:E14 Arg2:E15	
+R63	Next_Operation Arg1:E15 Arg2:E16	
+R64	Next_Operation Arg1:E16 Arg2:E17	
+R65	Next_Operation Arg1:E17 Arg2:E18	
+R66	Next_Operation Arg1:E18 Arg2:E19	
+R67	Next_Operation Arg1:E19 Arg2:E20	
+R68	Next_Operation Arg1:E20 Arg2:E21	
+R69	Next_Operation Arg1:E21 Arg2:E22	
+R70	Next_Operation Arg1:E22 Arg2:E23	
+R71	Next_Operation Arg1:E23 Arg2:E24	
+T85	Brand 783 796	Gerner-Jensen
+R72	Brand_Of Arg1:T85 Arg2:T18	
+T86	Material 847 856	NH4-ZSM-5
+T87	Nonrecipe-Material 858 860	Si
+T88	Nonrecipe-Material 861 863	Al
+T89	Number 866 867	)
+T90	Material 869 877	NH4-beta
+T91	Nonrecipe-Material 879 881	Si
+T92	Nonrecipe-Material 882 884	Al
+T93	Number 885 887	25
+T94	Material-Descriptor 836 846	Commercial
+R73	Descriptor_Of Arg1:T94 Arg2:T86	
+T95	Material 890 903	NH4-mordenite
+T96	Material 919 924	NH4-Y
+T97	Nonrecipe-Material 905 907	Si
+T98	Nonrecipe-Material 908 910	Al
+T99	Number 911 913	10
+T100	Number 932 934	12
+T101	Nonrecipe-Material 926 928	Si
+T102	Nonrecipe-Material 929 931	Al
+T103	Material-Descriptor 936 944	zeolites
+R74	Descriptor_Of Arg1:T103 Arg2:T96	
+R75	Descriptor_Of Arg1:T103 Arg2:T95	
+R76	Descriptor_Of Arg1:T103 Arg2:T90	
+R77	Descriptor_Of Arg1:T103 Arg2:T86	
+T104	Number 972 975	550
+T105	Condition-Unit 976 980	degC
+R78	Number_Of Arg1:T104 Arg2:T105	
+T106	Number 985 986	5
+T107	Condition-Unit 987 988	h
+R80	Number_Of Arg1:T106 Arg2:T107	
+T108	Material 1003 1010	H-ZSM-5
+T109	Material 1012 1018	H-beta
+T110	Material 1020 1031	H-mordenite
+T111	Material 1037 1040	H-Y
+T112	Material 1066 1073	Vanadia
+T113	Material 1087 1094	zeolite
+T114	Material-Descriptor 1095 1104	catalysts
+R83	Descriptor_Of Arg1:T114 Arg2:T113	
+T115	Number 1110 1114	1-10
+T116	Amount-Unit 1115 1119	wt %
+R84	Number_Of Arg1:T115 Arg2:T116	
+T117	Material 1120 1124	V2O5
+R85	Amount_Of Arg1:T116 Arg2:T117	
+T118	Meta 1142 1158	wet impregnation
+T119	Material 1180 1196	vanadium oxalate
+T120	Material-Descriptor 1197 1205	solution
+R86	Descriptor_Of Arg1:T120 Arg2:T119	
+T121	Number 1288 1289	3
+T122	Amount-Unit 1290 1294	wt %
+R87	Number_Of Arg1:T121 Arg2:T122	
+T123	Material 1313 1320	vanadia
+T124	Property-Misc 1295 1312	zeolite-supported
+R88	Property_Of Arg1:T124 Arg2:T123	
+T125	Property-Misc 1321 1329	catalyst
+R89	Property_Of Arg1:T125 Arg2:T123	
+R90	Amount_Of Arg1:T122 Arg2:T123	
+T126	Number 1488 1489	1
+T127	Number 1331 1335	1.75
+T128	Amount-Unit 1336 1338	mL
+T129	Material 1342 1348	NH4VO3
+T130	Material 1349 1360	oxalic acid
+T131	Material-Descriptor 1361 1377	aqueous solution
+R91	Descriptor_Of Arg1:T131 Arg2:T130	
+R92	Descriptor_Of Arg1:T131 Arg2:T129	
+R93	Number_Of Arg1:T127 Arg2:T128	
+R94	Amount_Of Arg1:T128 Arg2:T129	
+R95	Amount_Of Arg1:T128 Arg2:T130	
+T132	Number 1379 1384	0.378
+T133	Amount-Unit 1385 1386	M
+R96	Number_Of Arg1:T132 Arg2:T133	
+T134	Material 1402 1423	ammonium metavanadate
+T135	Material 1428 1439	oxalic acid
+T136	Amount-Unit 1447 1458	molar ratio
+T137	Number 1459 1462	1:2
+R97	Number_Of Arg1:T137 Arg2:T136	
+T138	Number 1466 1468	70
+T139	Condition-Unit 1469 1473	degC
+R98	Number_Of Arg1:T138 Arg2:T139	
+R99	Amount_Of Arg1:T133 Arg2:T129	
+R100	Amount_Of Arg1:T133 Arg2:T130	
+T140	Amount-Unit 1490 1491	g
+R101	Number_Of Arg1:T126 Arg2:T140	
+T141	Material 1499 1506	zeolite
+R102	Amount_Of Arg1:T140 Arg2:T141	
+T142	Meta 1516 1546	incipient wetness impregnation
+T143	Material 1599 1605	solids
+T144	Number 1620 1623	120
+T145	Number 1633 1634	8
+T146	Condition-Unit 1624 1628	degC
+T147	Condition-Unit 1635 1636	h
+R103	Number_Of Arg1:T144 Arg2:T146	
+R104	Number_Of Arg1:T145 Arg2:T147	
+R105	Condition_Of Arg1:T146 Arg2:E13	
+R106	Condition_Of Arg1:T147 Arg2:E13	
+T148	Number 1658 1661	500
+T149	Number 1671 1672	5
+T150	Condition-Unit 1662 1666	degC
+T151	Condition-Unit 1673 1674	h
+R107	Number_Of Arg1:T148 Arg2:T150	
+R108	Number_Of Arg1:T149 Arg2:T151	
+R109	Condition_Of Arg1:T150 Arg2:E14	
+R110	Condition_Of Arg1:T151 Arg2:E14	
+T152	Material 1680 1689	catalysts
+T153	Nonrecipe-Material 1726 1730	V2O5
+T154	Amount-Unit 1742 1746	wt %
+T155	Material 1792 1799	Na-beta
+T156	Number 1809 1811	10
+T157	Amount-Unit 1812 1813	g
+T158	Material 1817 1825	NH4-beta
+T159	Number 1844 1847	300
+T160	Number 1854 1855	1
+T161	Material 1878 1883	NaNO3
+T162	Amount-Unit 1848 1850	mL
+T163	Amount-Unit 1856 1857	M
+T164	Material-Descriptor 1858 1874	aqueous solution
+R111	Descriptor_Of Arg1:T164 Arg2:T161	
+R112	Number_Of Arg1:T159 Arg2:T162	
+R113	Number_Of Arg1:T160 Arg2:T163	
+R114	Amount_Of Arg1:T163 Arg2:T161	
+R115	Amount_Of Arg1:T162 Arg2:T161	
+R116	Number_Of Arg1:T156 Arg2:T157	
+R117	Amount_Of Arg1:T157 Arg2:T158	
+T165	Material 1889 1896	mixture
+T166	Number 1911 1913	80
+T167	Condition-Unit 1914 1918	degC
+R118	Number_Of Arg1:T166 Arg2:T167	
+R119	Condition_Of Arg1:T167 Arg2:E18	
+T168	Number 1935 1936	1
+T169	Condition-Unit 1937 1941	hour
+R120	Number_Of Arg1:T168 Arg2:T169	
+R121	Condition_Of Arg1:T169 Arg2:E19	
+T170	Material 1959 1966	zeolite
+T171	Material 2006 2011	water
+T172	Material-Descriptor 1996 2005	distilled
+R122	Descriptor_Of Arg1:T172 Arg2:T171	
+T173	Material 2071 2078	Na-beta
+T174	Number 2119 2122	500
+T175	Number 2132 2133	5
+T176	Condition-Unit 2123 2127	degC
+T177	Condition-Unit 2134 2135	h
+R123	Number_Of Arg1:T174 Arg2:T176	
+R124	Number_Of Arg1:T175 Arg2:T177	
+R125	Condition_Of Arg1:T176 Arg2:E24	
+R126	Condition_Of Arg1:T177 Arg2:E24	
+R79	Condition_Of Arg1:T105 Arg2:E8	

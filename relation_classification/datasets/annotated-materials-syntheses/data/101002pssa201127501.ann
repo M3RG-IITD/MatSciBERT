@@ -1,0 +1,168 @@
+T1	Material 62 77	Ag0.8Pb18SbTe20
+T2	Property-Misc 78 93	alloyed with Se
+T3	Property-Misc 32 46	thermoelectric
+T4	Material 98 118	Ag0.8Pb18SbTe20-xSex
+T5	Operation 132 140	prepared
+E1	Operation:T5 Recipe_Target:T4 Recipe_Precursor:T30 Recipe_Precursor:T31 Recipe_Precursor:T32 Recipe_Precursor:T33 Recipe_Precursor:T34
+T9	Operation 524 533	assembled
+E2	Operation:T9 Participant_Material:T37
+T10	Operation 538 561	high-pressure synthesis
+E3	Operation:T10 
+T11	Operation 603 611	prepared
+E4	Operation:T11 Recipe_Target:T38
+T12	Operation 773 783	maintained
+E5	Operation:T12 
+T13	Operation 833 840	heating
+E6	Operation:T13 
+T14	Operation 874 882	released
+E7	Operation:T14 
+T15	Operation 901 910	estimated
+E8	Operation:T15 
+T16	Operation 944 954	calibrated
+E9	Operation:T16 
+T17	Operation 1058 1067	estimated
+E10	Operation:T17 
+T18	Operation 1137 1145	measured
+E11	Operation:T18 
+T19	Number 157 163	99.999
+T20	Number 180 184	99.9
+T21	Number 198 204	99.999
+T22	Number 216 220	99.9
+T23	Number 238 243	99.95
+T24	Number 469 471	10
+T25	Number 489 490	4
+T26	Number 694 696	23
+T27	Number 714 723	1200-1300
+T28	Number 730 733	4.0
+T29	Number 788 790	20
+T30	Material 146 155	tellurium
+T31	Material 174 178	lead
+T32	Material 188 196	antimony
+T33	Material 208 214	silver
+T34	Material 228 236	selenium
+T35	Material 377 382	argon
+T36	Material 418 426	mixtures
+T37	Material 511 518	samples
+T38	Material 567 587	Ag0.8Pb18SbTe20-xSex
+T39	Nonrecipe-Material 1000 1007	bismuth
+T40	Nonrecipe-Material 1009 1017	thallium
+T41	Nonrecipe-Material 1023 1029	barium
+T42	Nonrecipe-Material 1153 1169	platinum-rhodium
+T43	Amount-Unit 163 164	%
+T44	Amount-Unit 184 185	%
+T45	Amount-Unit 204 205	%
+T46	Amount-Unit 220 221	%
+T47	Amount-Unit 243 244	%
+T48	Property-Unit 472 474	mm
+T49	Property-Unit 491 493	mm
+T50	Property-Type 457 465	diameter
+T51	Property-Type 479 485	height
+T52	Apparatus-Unit 697 699	mm
+T53	Condition-Unit 724 725	K
+T54	Condition-Unit 734 737	GPa
+T55	Condition-Unit 791 794	min
+T56	Property-Misc 119 126	samples
+T57	Amount-Misc 165 171	purity
+T58	Material-Descriptor 246 253	powders
+T59	Material-Descriptor 257 264	sources
+T60	Amount-Misc 302 322	stoichiometric ratio
+T61	Synthesis-Apparatus 364 370	mortar
+T62	Apparatus-Descriptor 358 363	agate
+T63	Condition-Type 383 393	protection
+T64	Synthesis-Apparatus 403 412	glove box
+T65	Property-Misc 447 451	disk
+T66	Material-Descriptor 499 510	pole-shaped
+T67	Property-Misc 588 597	compounds
+T68	Synthesis-Apparatus 643 652	apparatus
+T69	Synthesis-Apparatus 654 667	SPD 6 x 1200T
+T70	Apparatus-Descriptor 617 642	cubic anvil high-pressure
+T71	Synthesis-Apparatus 676 690	sample chamber
+T72	Apparatus-Property-Type 706 710	edge
+T73	Condition-Type 759 767	pressure
+T74	Condition-Type 743 754	temperature
+T75	Material-Descriptor 1030 1036	metals
+T76	Characterization-Apparatus 918 932	oil press load
+T77	Characterization-Apparatus 962 996	pressure-induced phase transitions
+T78	Condition-Type 1042 1053	temperature
+T79	Condition-Type 1114 1125	temperature
+T80	Condition-Type 1091 1109	input heater power
+T81	Characterization-Apparatus 1170 1183	thermocouples
+T82	Condition-Type 888 896	pressure
+R1	Property_Of Arg1:T3 Arg2:T1	
+R2	Property_Of Arg1:T2 Arg2:T1	
+R3	Property_Of Arg1:T56 Arg2:T4	
+T6	Operation 277 284	weighed
+E12	Operation:T6 
+T7	Operation 346 351	mixed
+E13	Operation:T7 Atmospheric_Material:T35
+T8	Operation 432 439	pressed
+E14	Operation:T8 Participant_Material:T36
+A1	Start_Recipe E1
+R4	Next_Operation Arg1:E1 Arg2:E12	
+R5	Next_Operation Arg1:E12 Arg2:E13	
+R6	Next_Operation Arg1:E13 Arg2:E14	
+R7	Next_Operation Arg1:E14 Arg2:E2	
+R8	Next_Operation Arg1:E2 Arg2:E3	
+A2	End_Recipe E3
+A3	Start_Recipe E4
+R9	Next_Operation Arg1:E4 Arg2:E5	
+R10	Next_Operation Arg1:E5 Arg2:E6	
+R11	Next_Operation Arg1:E6 Arg2:E7	
+R12	Next_Operation Arg1:E7 Arg2:E8	
+R13	Next_Operation Arg1:E8 Arg2:E9	
+R14	Next_Operation Arg1:E9 Arg2:E10	
+R15	Next_Operation Arg1:E10 Arg2:E11	
+A4	End_Recipe E11
+T83	Condition-Type 861 869	pressure
+T84	Apparatus-Property-Type 812 828	electrical power
+R16	Number_Of Arg1:T19 Arg2:T43	
+R17	Amount_Of Arg1:T43 Arg2:T30	
+R18	Amount_Of Arg1:T57 Arg2:T30	
+R19	Number_Of Arg1:T20 Arg2:T44	
+R20	Amount_Of Arg1:T44 Arg2:T31	
+R21	Number_Of Arg1:T21 Arg2:T45	
+R22	Amount_Of Arg1:T45 Arg2:T32	
+R23	Number_Of Arg1:T22 Arg2:T46	
+R24	Amount_Of Arg1:T46 Arg2:T33	
+R25	Amount_Of Arg1:T47 Arg2:T34	
+R26	Number_Of Arg1:T23 Arg2:T47	
+R27	Descriptor_Of Arg1:T58 Arg2:T30	
+R28	Descriptor_Of Arg1:T58 Arg2:T31	
+R29	Descriptor_Of Arg1:T58 Arg2:T32	
+R30	Descriptor_Of Arg1:T58 Arg2:T33	
+R31	Descriptor_Of Arg1:T58 Arg2:T34	
+R32	Descriptor_Of Arg1:T59 Arg2:T30	
+R33	Descriptor_Of Arg1:T59 Arg2:T31	
+R34	Descriptor_Of Arg1:T59 Arg2:T32	
+R35	Descriptor_Of Arg1:T59 Arg2:T33	
+R36	Descriptor_Of Arg1:T59 Arg2:T34	
+R37	Descriptor_Of Arg1:T62 Arg2:T61	
+R38	Apparatus_Of Arg1:T61 Arg2:E13	
+R39	Apparatus_Of Arg1:T64 Arg2:E13	
+R40	Property_Of Arg1:T65 Arg2:T36	
+R41	Type_Of Arg1:T50 Arg2:T48	
+R42	Number_Of Arg1:T24 Arg2:T48	
+R43	Type_Of Arg1:T51 Arg2:T49	
+R44	Number_Of Arg1:T25 Arg2:T49	
+R45	Property_Of Arg1:T49 Arg2:T36	
+R46	Descriptor_Of Arg1:T66 Arg2:T37	
+R47	Property_Of Arg1:T67 Arg2:T38	
+R48	Descriptor_Of Arg1:T70 Arg2:T68	
+R49	Apparatus_Of Arg1:T68 Arg2:E4	
+R50	Apparatus_Of Arg1:T69 Arg2:E4	
+R51	Apparatus_Of Arg1:T71 Arg2:E4	
+R52	Number_Of Arg1:T26 Arg2:T52	
+R53	Type_Of Arg1:T72 Arg2:T52	
+R54	Apparatus_Attr_Of Arg1:T52 Arg2:T71	
+R55	Number_Of Arg1:T27 Arg2:T53	
+R56	Number_Of Arg1:T28 Arg2:T54	
+R57	Condition_Of Arg1:T53 Arg2:E4	
+R58	Condition_Of Arg1:T54 Arg2:E4	
+R59	Number_Of Arg1:T29 Arg2:T55	
+R60	Condition_Of Arg1:T55 Arg2:E5	
+R61	Apparatus_Of Arg1:T76 Arg2:E8	
+R62	Apparatus_Of Arg1:T77 Arg2:E9	
+R63	Descriptor_Of Arg1:T75 Arg2:T39	
+R64	Descriptor_Of Arg1:T75 Arg2:T40	
+R65	Descriptor_Of Arg1:T75 Arg2:T41	
+R66	Apparatus_Of Arg1:T81 Arg2:E11	

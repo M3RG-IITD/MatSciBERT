@@ -1,0 +1,140 @@
+T1	Meta 60 72	hydrothermal
+T2	Material 73 80	titania
+T3	Property-Misc 81 90	nanowires
+T4	Material 94 102	titanium
+T5	Material-Descriptor 103 113	substrates
+R1	Descriptor_Of Arg1:T5 Arg2:T4	
+T6	Operation 139 147	prepared
+E1	Operation:T6 
+T7	Operation 221 229	polished
+E2	Operation:T7 Participant_Material:T73
+T8	Operation 267 274	cleaned
+E3	Operation:T8 Solvent_Material:T29 Solvent_Material:T30
+T9	Operation 312 319	created
+E4	Operation:T9 Participant_Material:T31
+T10	Operation 323 332	immersing
+E5	Operation:T10 Participant_Material:T32 Solvent_Material:T36
+T11	Operation 510 517	removed
+E6	Operation:T11 
+T12	Operation 569 573	cool
+E7	Operation:T12 
+T13	Operation 612 618	rinsed
+E8	Operation:T13 Participant_Material:T50 Solvent_Material:T51 Solvent_Material:T52
+T14	Operation 681 693	heat treated
+E9	Operation:T14 
+T15	Operation 723 735	ion exchange
+E10	Operation:T15 Solvent_Material:T57
+T16	Operation 810 818	immersed
+E11	Operation:T16 Participant_Material:T61 Solvent_Material:T64
+T17	Operation 841 847	rinsed
+E12	Operation:T17 Solvent_Material:T67 Solvent_Material:T68
+T18	Operation 882 894	heat treated
+E13	Operation:T18 
+R2	Next_Operation Arg1:E1 Arg2:E2	
+R3	Next_Operation Arg1:E2 Arg2:E3	
+R4	Next_Operation Arg1:E3 Arg2:E4	
+R5	Next_Operation Arg1:E4 Arg2:E5	
+R6	Next_Operation Arg1:E5 Arg2:E6	
+R7	Next_Operation Arg1:E6 Arg2:E7	
+R8	Next_Operation Arg1:E7 Arg2:E8	
+R9	Next_Operation Arg1:E8 Arg2:E9	
+R10	Next_Operation Arg1:E9 Arg2:E10	
+R11	Next_Operation Arg1:E10 Arg2:E14	
+R12	Next_Operation Arg1:E11 Arg2:E12	
+R13	Next_Operation Arg1:E12 Arg2:E13	
+T19	Material 118 120	Ti
+T20	Material-Descriptor 121 125	disk
+T21	Material-Descriptor 126 133	samples
+T22	Number 155 158	0.9
+T23	Property-Unit 159 161	mm
+T24	Brand 168 180	ASTM grade 1
+T25	Material 181 183	Ti
+T26	Material-Descriptor 184 189	sheet
+T27	Brand 191 208	Ti metals Ltd, UK
+T28	Condition-Misc 252 266	ultrasonically
+T29	Material 278 283	water
+T30	Material 288 295	ethanol
+T31	Material 297 306	Nanowires
+T32	Material 337 339	Ti
+T33	Material-Descriptor 340 345	disks
+T34	Number 349 350	1
+T35	Amount-Unit 351 352	M
+T36	Material 353 357	NaOH
+T37	Apparatus-Descriptor 363 379	PTFE lined steel
+T38	Synthesis-Apparatus 380 386	vessel
+T39	Brand 388 444	Acid Digestion vessel 4748, Parr Instrument Company, USA
+T40	Condition-Type 452 463	temperature
+T41	Number 467 470	240
+T42	Number 480 481	2
+T43	Number 483 486	2.5
+T44	Number 490 491	3
+T45	Condition-Unit 471 475	degC
+T46	Condition-Unit 492 493	h
+T47	Synthesis-Apparatus 499 505	vessel
+T48	Synthesis-Apparatus 549 553	oven
+T49	Condition-Misc 577 593	room temperature
+T50	Material 599 606	samples
+T51	Material 622 627	water
+T52	Material 632 639	ethanol
+T53	Number 697 700	300
+T54	Number 710 711	1
+T55	Condition-Unit 701 705	degC
+T56	Condition-Unit 712 713	h
+T57	Material 739 742	HCl
+T58	Material 759 774	sodium titanate
+T59	Material 788 792	TiO2
+T60	Material-Descriptor 775 784	nanowires
+T61	Material 797 804	samples
+T62	Number 822 825	0.6
+T63	Amount-Unit 826 827	M
+T64	Material 828 831	HCl
+T65	Number 836 837	1
+T66	Condition-Unit 838 839	h
+T67	Material 851 856	water
+T68	Material 861 868	ethanol
+T69	Number 898 901	600
+T70	Number 911 912	2
+T71	Condition-Unit 902 906	degC
+T72	Condition-Unit 913 914	h
+R14	Property_Of Arg1:T3 Arg2:T2	
+R15	Descriptor_Of Arg1:T20 Arg2:T19	
+R16	Descriptor_Of Arg1:T21 Arg2:T19	
+R17	Number_Of Arg1:T22 Arg2:T23	
+R18	Descriptor_Of Arg1:T26 Arg2:T25	
+R19	Property_Of Arg1:T23 Arg2:T25	
+R20	Brand_Of Arg1:T24 Arg2:T25	
+R21	Brand_Of Arg1:T27 Arg2:T25	
+R22	Condition_Of Arg1:T28 Arg2:E3	
+T73	Material 211 215	They
+R23	Descriptor_Of Arg1:T33 Arg2:T32	
+R24	Number_Of Arg1:T34 Arg2:T35	
+R25	Amount_Of Arg1:T35 Arg2:T36	
+R26	Descriptor_Of Arg1:T37 Arg2:T38	
+R27	Brand_Of Arg1:T39 Arg2:T38	
+R28	Apparatus_Of Arg1:T38 Arg2:E5	
+R29	Number_Of Arg1:T41 Arg2:T45	
+R30	Type_Of Arg1:T40 Arg2:T45	
+R31	Condition_Of Arg1:T45 Arg2:E5	
+R32	Number_Of Arg1:T42 Arg2:T46	
+R33	Number_Of Arg1:T43 Arg2:T46	
+R34	Number_Of Arg1:T44 Arg2:T46	
+R35	Condition_Of Arg1:T46 Arg2:E5	
+R36	Apparatus_Of Arg1:T47 Arg2:E6	
+R37	Apparatus_Of Arg1:T48 Arg2:E6	
+R38	Condition_Of Arg1:T49 Arg2:E7	
+R39	Number_Of Arg1:T53 Arg2:T55	
+R40	Condition_Of Arg1:T55 Arg2:E9	
+R41	Number_Of Arg1:T54 Arg2:T56	
+R42	Condition_Of Arg1:T56 Arg2:E9	
+R43	Descriptor_Of Arg1:T60 Arg2:T58	
+T74	Operation 747 754	convert
+E14	Operation:T74 Participant_Material:T58 Recipe_Target:T59
+R44	Next_Operation Arg1:E14 Arg2:E11	
+R45	Number_Of Arg1:T62 Arg2:T63	
+R46	Amount_Of Arg1:T63 Arg2:T64	
+R47	Number_Of Arg1:T65 Arg2:T66	
+R48	Condition_Of Arg1:T66 Arg2:E11	
+R49	Number_Of Arg1:T69 Arg2:T71	
+R50	Condition_Of Arg1:T71 Arg2:E13	
+R51	Number_Of Arg1:T70 Arg2:T72	
+R52	Condition_Of Arg1:T72 Arg2:E13	

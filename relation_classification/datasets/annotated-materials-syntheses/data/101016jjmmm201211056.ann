@@ -1,0 +1,101 @@
+T1	Operation 152 156	used
+E1	Operation:T1 Recipe_Precursor:T2 Recipe_Precursor:T3
+T2	Material 122 132	BaCl2 2H2O
+T3	Material 137 147	FeCl3 6H2O
+T4	Material-Descriptor 168 177	materials
+T5	Material 215 225	FeCl3 6H2O
+T6	Material 241 251	BaCl2 2H2O
+T7	Nonrecipe-Material 253 255	Fe
+T8	Nonrecipe-Material 256 258	Ba
+T9	Operation 281 290	dissolved
+E2	Operation:T9 Recipe_Precursor:T5 Recipe_Precursor:T6 Solvent_Material:T27
+T10	Operation 343 348	added
+E3	Operation:T10 Participant_Material:T30 Participant_Material:T31
+T11	Operation 381 389	stirring
+E4	Operation:T11 
+T12	Operation 417 420	put
+E5	Operation:T12 Participant_Material:T32
+T13	Operation 480 484	kept
+E6	Operation:T13 
+T14	Operation 521 529	followed
+E7	Operation:T14 
+T15	Operation 533 548	furnace cooling
+E8	Operation:T15 
+T16	Operation 611 620	collected
+E9	Operation:T16 Participant_Material:T43
+T17	Operation 642 648	washed
+E10	Operation:T17 Solvent_Material:T46 Solvent_Material:T47 Solvent_Material:T48
+T18	Number 204 209	0.487
+T19	Amount-Unit 210 211	g
+T20	Number 230 235	0.054
+T21	Amount-Unit 236 237	g
+T22	Amount-Unit 259 269	mole ratio
+T23	Number 273 274	8
+T24	Number 294 296	21
+T25	Amount-Unit 297 299	mL
+T26	Material-Descriptor 303 312	distilled
+T27	Material 313 318	water
+T28	Number 326 329	4.0
+T29	Amount-Unit 330 331	g
+T30	Material 335 338	KOH
+T31	Material 356 364	solution
+T32	Material 404 412	solution
+T33	Number 428 430	30
+T34	Apparatus-Unit 431 433	mL
+T35	Synthesis-Apparatus 466 475	autoclave
+T36	Apparatus-Descriptor 437 465	Teflon-lined stainless-steel
+T37	Synthesis-Apparatus 494 498	oven
+T38	Number 502 505	220
+T39	Condition-Unit 506 510	degC
+T40	Number 515 517	24
+T41	Condition-Unit 518 519	h
+T42	Condition-Misc 552 568	room temperature
+T43	Material 596 605	particles
+T44	Synthesis-Apparatus 626 632	magnet
+T45	Material-Descriptor 654 663	distilled
+T46	Material 664 669	water
+T47	Material 671 678	alcohol
+T48	Material 687 698	acetic acid
+T49	Number 683 685	10
+T50	Amount-Unit 685 686	%
+T51	Condition-Misc 703 716	several times
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E7	
+R7	Next_Operation Arg1:E7 Arg2:E8	
+R8	Next_Operation Arg1:E8 Arg2:E9	
+R9	Next_Operation Arg1:E9 Arg2:E10	
+R10	Apparatus_Of Arg1:T35 Arg2:E5	
+R11	Apparatus_Of Arg1:T37 Arg2:E6	
+R12	Condition_Of Arg1:T39 Arg2:E6	
+R13	Condition_Of Arg1:T41 Arg2:E6	
+R14	Condition_Of Arg1:T42 Arg2:E8	
+R15	Apparatus_Of Arg1:T44 Arg2:E9	
+R16	Condition_Of Arg1:T51 Arg2:E10	
+R17	Amount_Of Arg1:T19 Arg2:T5	
+R18	Amount_Of Arg1:T21 Arg2:T6	
+R19	Amount_Of Arg1:T22 Arg2:T7	
+R20	Amount_Of Arg1:T22 Arg2:T8	
+R21	Amount_Of Arg1:T22 Arg2:T6	
+R22	Amount_Of Arg1:T22 Arg2:T5	
+R23	Amount_Of Arg1:T25 Arg2:T27	
+R24	Amount_Of Arg1:T29 Arg2:T30	
+R25	Amount_Of Arg1:T50 Arg2:T48	
+R26	Descriptor_Of Arg1:T4 Arg2:T3	
+R27	Descriptor_Of Arg1:T4 Arg2:T2	
+R28	Descriptor_Of Arg1:T26 Arg2:T27	
+R29	Descriptor_Of Arg1:T36 Arg2:T35	
+R30	Descriptor_Of Arg1:T45 Arg2:T46	
+R31	Number_Of Arg1:T18 Arg2:T19	
+R32	Number_Of Arg1:T20 Arg2:T21	
+R33	Number_Of Arg1:T23 Arg2:T22	
+R34	Number_Of Arg1:T24 Arg2:T25	
+R35	Number_Of Arg1:T28 Arg2:T29	
+R36	Number_Of Arg1:T33 Arg2:T34	
+R37	Number_Of Arg1:T38 Arg2:T39	
+R38	Number_Of Arg1:T40 Arg2:T41	
+R39	Number_Of Arg1:T49 Arg2:T50	
+R40	Apparatus_Attr_Of Arg1:T34 Arg2:T35	

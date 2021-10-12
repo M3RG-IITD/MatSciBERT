@@ -1,0 +1,387 @@
+T1	Material 102 120	Ba0.95La0.05FeO3-δ
+T2	Property-Misc 121 142	Perovskite-Type Oxide
+T3	Property-Misc 40 66	Oxygen-Permeable Membranes
+T4	Operation 168 178	fabricated
+E1	Operation:T4 Recipe_Target:T39
+T5	Operation 281 290	dissolved
+E2	Operation:T5 Recipe_Precursor:T50 Recipe_Precursor:T47 Solvent_Material:T53
+T6	Operation 349 354	added
+E3	Operation:T6 Participant_Material:T56 Solvent_Material:T58 Solvent_Material:T61
+T7	Operation 314 319	mixed
+E4	Operation:T7 
+T8	Operation 413 419	mixing
+E5	Operation:T8 
+T9	Operation 420 428	produced
+E6	Operation:T9 Participant_Material:T64
+T10	Operation 479 484	stand
+E7	Operation:T10 
+T11	Operation 498 501	use
+E8	Operation:T11 Solvent_Material:T68
+T12	Operation 589 598	filtrated
+E9	Operation:T12 Participant_Material:T71
+T13	Operation 602 609	collect
+E10	Operation:T13 Participant_Material:T72
+T14	Operation 683 688	dried
+E11	Operation:T14 Participant_Material:T75
+T15	Operation 718 726	calcined
+E12	Operation:T15 
+T16	Operation 752 760	calcined
+E13	Operation:T16 
+T17	Operation 772 784	press-formed
+E14	Operation:T17 Participant_Material:T85 Participant_Material:T195
+T18	Operation 800 804	form
+E15	Operation:T18 Participant_Material:T196
+T19	Operation 885 893	prepared
+E16	Operation:T19 Participant_Material:T86
+T20	Operation 958 963	added
+E17	Operation:T20 Recipe_Precursor:T89 Participant_Material:T94
+T21	Operation 1083 1091	stirring
+E18	Operation:T21 
+T22	Operation 1147 1150	set
+E19	Operation:T22 Participant_Material:T103 Participant_Material:T102
+T23	Operation 1173 1178	mixed
+E20	Operation:T23 
+T24	Operation 1200 1208	adjusted
+E21	Operation:T24 Participant_Material:T106 Participant_Material:T109
+T25	Operation 1246 1251	mixed
+E22	Operation:T25 
+T26	Operation 1265 1275	evaporated
+E23	Operation:T26 Participant_Material:T113
+T27	Operation 1295 1303	obtained
+E24	Operation:T27 
+T28	Operation 1315 1323	calcined
+E25	Operation:T28 Participant_Material:T115 Atmospheric_Material:T116
+T29	Operation 1348 1356	calcined
+E26	Operation:T29 
+T30	Operation 1368 1374	ground
+E27	Operation:T30 Participant_Material:T119
+T31	Operation 1379 1388	dispersed
+E28	Operation:T31 Solvent_Material:T120
+T32	Operation 1403 1410	prepare
+E29	Operation:T32 Participant_Material:T121
+T33	Operation 1444 1455	fabricating
+E30	Operation:T33 
+T34	Operation 1513 1519	formed
+E31	Operation:T34 Recipe_Target:T125
+T35	Operation 1523 1531	dropping
+E32	Operation:T35 Participant_Material:T127 Participant_Material:T139
+T36	Operation 1602 1607	dried
+E33	Operation:T36 Participant_Material:T131
+T37	Operation 1632 1640	sintered
+E34	Operation:T37 
+T38	Operation 1665 1674	fabricate
+E35	Operation:T38 Recipe_Target:T136
+T39	Material 152 155	BLF
+T40	Property-Misc 145 151	porous
+T41	Reference 200 202	28
+T42	Property-Misc 431 445	yellow-colored
+T43	Number 208 211	9.5
+T44	Number 226 229	0.5
+T45	Amount-Unit 230 234	mmol
+T46	Amount-Unit 212 216	mmol
+T47	Material 249 259	Fe nitrate
+T48	Material 204 206	Ba
+T49	Material 222 224	La
+T50	Material 236 244	acetates
+T51	Number 261 263	10
+T52	Amount-Unit 264 268	mmol
+T53	Material 294 299	water
+T54	Number 301 304	100
+T55	Amount-Unit 305 307	mL
+T56	Material 320 330	metal salt
+T57	Material-Descriptor 331 339	solution
+T58	Material 358 365	ethanol
+T59	Number 367 370	100
+T60	Amount-Unit 371 373	mL
+T61	Material 386 397	oxalic acid
+T62	Number 399 401	90
+T63	Amount-Unit 402 406	mmol
+T64	Material 446 456	suspension
+T65	Operation 468 475	allowed
+E36	Operation:T65 
+T66	Number 489 490	1
+T67	Condition-Unit 491 492	h
+T68	Material 505 512	ethanol
+T69	Operation 533 546	precipitation
+E37	Operation:T69 Participant_Material:T70
+T70	Material 554 568	metal oxalates
+T71	Material 574 584	suspension
+T72	Material 624 637	metal oxalate
+T73	Material-Descriptor 638 647	particles
+T74	Material-Descriptor 614 623	precursor
+T75	Material 662 671	precursor
+T76	Material-Descriptor 672 678	powder
+T77	Number 692 695	120
+T78	Condition-Unit 696 700	degC
+T79	Number 705 706	2
+T80	Condition-Unit 707 708	h
+T81	Number 730 733	700
+T82	Condition-Unit 734 738	degC
+T83	Number 743 744	2
+T84	Condition-Unit 745 746	h
+T85	Material 761 767	powder
+T86	Material 836 839	BLF
+T87	Reference 900 913	AMP method 31
+T88	Material-Descriptor 840 846	powder
+T89	Material 926 936	malic acid
+T90	Material-Descriptor 918 925	aqueous
+T91	Material-Descriptor 937 945	solution
+T92	Number 947 949	50
+T93	Amount-Unit 950 952	mL
+T94	Material 969 977	solution
+T95	Number 979 981	50
+T96	Amount-Unit 982 984	mL
+T97	Material 1015 1029	metal nitrates
+T98	Material 1033 1041	acetates
+T99	Amount-Misc 1047 1067	stoichiometric ratio
+T100	Condition-Misc 1074 1082	vigorous
+T101	Amount-Unit 1097 1108	molar ratio
+T102	Nonrecipe-Material 1112 1122	malic acid
+T103	Nonrecipe-Material 1132 1142	metal ions
+T104	Number 1154 1157	1.5
+T105	Condition-Unit 1163 1165	pH
+T106	Material 1187 1195	solution
+T107	Material-Descriptor 1179 1186	aqueous
+T108	Number 1212 1213	6
+T109	Material 1227 1234	ammonia
+T110	Material-Descriptor 1219 1226	aqueous
+T111	Number 1236 1238	28
+T112	Amount-Unit 1238 1239	%
+T113	Material 1252 1260	solution
+T114	Condition-Misc 1279 1286	dryness
+T115	Material 1304 1310	powder
+T116	Material 1327 1330	air
+T117	Number 1334 1337	800
+T118	Condition-Unit 1338 1342	degC
+T119	Material 1357 1363	powder
+T120	Material 1392 1399	ethanol
+T121	Material 1423 1429	slurry
+T122	Material-Descriptor 1413 1422	precursor
+T123	Number 1431 1433	10
+T124	Amount-Unit 1434 1438	wt %
+T125	Material 1499 1502	BLF
+T126	Property-Misc 1493 1498	dense
+T127	Material 1536 1542	slurry
+T128	Number 1544 1547	0.6
+T129	Amount-Unit 1548 1550	mL
+T130	Condition-Misc 1611 1627	room temperature
+T131	Material 1593 1597	disk
+T132	Number 1644 1648	1175
+T133	Condition-Unit 1649 1653	degC
+T134	Number 1658 1659	5
+T135	Condition-Unit 1660 1661	h
+T136	Material 1689 1692	BLF
+T137	Property-Misc 1678 1688	asymmetric
+T138	Property-Misc 1693 1701	membrane
+R1	Property_Of Arg1:T3 Arg2:T1	
+R2	Property_Of Arg1:T2 Arg2:T1	
+A1	Start_Recipe E1
+R3	Next_Operation Arg1:E1 Arg2:E2	
+R4	Next_Operation Arg1:E2 Arg2:E4	
+R5	Next_Operation Arg1:E4 Arg2:E3	
+R6	Next_Operation Arg1:E3 Arg2:E5	
+R7	Next_Operation Arg1:E5 Arg2:E6	
+R8	Next_Operation Arg1:E6 Arg2:E36	
+R9	Next_Operation Arg1:E36 Arg2:E7	
+R10	Next_Operation Arg1:E7 Arg2:E8	
+R11	Next_Operation Arg1:E8 Arg2:E37	
+R12	Next_Operation Arg1:E37 Arg2:E9	
+R13	Next_Operation Arg1:E9 Arg2:E10	
+R14	Next_Operation Arg1:E10 Arg2:E11	
+R15	Next_Operation Arg1:E11 Arg2:E12	
+R16	Next_Operation Arg1:E12 Arg2:E13	
+R17	Next_Operation Arg1:E13 Arg2:E14	
+R18	Next_Operation Arg1:E14 Arg2:E15	
+R19	Next_Operation Arg1:E15 Arg2:E16	
+R20	Next_Operation Arg1:E16 Arg2:E17	
+R21	Next_Operation Arg1:E17 Arg2:E18	
+R22	Next_Operation Arg1:E18 Arg2:E19	
+R23	Next_Operation Arg1:E19 Arg2:E20	
+R24	Next_Operation Arg1:E20 Arg2:E21	
+R25	Next_Operation Arg1:E21 Arg2:E22	
+R26	Next_Operation Arg1:E22 Arg2:E23	
+R27	Next_Operation Arg1:E23 Arg2:E24	
+R28	Next_Operation Arg1:E24 Arg2:E25	
+R29	Next_Operation Arg1:E25 Arg2:E26	
+R30	Next_Operation Arg1:E26 Arg2:E27	
+R31	Next_Operation Arg1:E27 Arg2:E28	
+R32	Next_Operation Arg1:E28 Arg2:E29	
+R33	Next_Operation Arg1:E29 Arg2:E30	
+R34	Next_Operation Arg1:E30 Arg2:E31	
+R35	Next_Operation Arg1:E31 Arg2:E32	
+R36	Next_Operation Arg1:E32 Arg2:E33	
+R37	Next_Operation Arg1:E33 Arg2:E34	
+R38	Next_Operation Arg1:E34 Arg2:E35	
+A2	End_Recipe E35
+T139	Material 1572 1579	support
+T140	Material-Descriptor 1559 1571	green porous
+T141	Material 1738 1741	BLF
+T142	Property-Misc 1719 1737	sintered-disk-type
+T143	Property-Misc 1742 1751	membranes
+T144	Operation 1762 1772	fabricated
+E38	Operation:T144 Participant_Material:T155 Recipe_Target:T141
+T145	Operation 1871 1881	controlled
+E39	Operation:T145 Participant_Material:T159
+T146	Operation 2038 2046	observed
+E40	Operation:T146 Participant_Material:T167
+T147	Characterization-Apparatus 2054 2057	SEM
+T148	Brand 2059 2084	JSM-6340F, JEOL Co., LTD.
+T149	Operation 2161 2169	measured
+E41	Operation:T149 Participant_Material:T170
+T150	Operation 2273 2278	fixed
+E42	Operation:T150 Participant_Material:T189
+T151	Operation 2392 2400	supplied
+E43	Operation:T151 Atmospheric_Material:T177 Atmospheric_Material:T175 Atmospheric_Material:T174
+T152	Operation 2631 2639	detected
+E44	Operation:T152 Atmospheric_Material:T186
+T153	Characterization-Apparatus 2655 2682	conductivity detector (TCD)
+T154	Characterization-Apparatus 2688 2705	gas chromatograph
+T155	Material 1783 1786	BLF
+T156	Material-Descriptor 1787 1793	powder
+T157	Property-Type 1826 1835	thickness
+T158	Material-Descriptor 1843 1856	sintered-disk
+T159	Material 1857 1866	membranes
+T160	Number 1891 1894	1.0
+T161	Number 1899 1902	0.5
+T162	Property-Unit 1903 1905	mm
+T163	Operation 1909 1918	polishing
+E45	Operation:T163 
+T164	Synthesis-Apparatus 1937 1948	emery paper
+T165	Number 1952 1954	80
+T166	Property-Type 1961 1971	morphology
+T167	Material 2024 2032	membrane
+T168	Material-Descriptor 2013 2023	asymmetric
+T169	Operation 2126 2136	fabricated
+E46	Operation:T169 
+T170	Material 2148 2156	membrane
+T171	Material-Descriptor 2137 2147	asymmetric
+T172	Synthesis-Apparatus 2180 2189	apparatus
+T173	Material 2354 2357	Air
+T174	Material 2359 2361	O2
+T175	Material 2362 2364	N2
+T176	Material-Descriptor 2365 2372	mixture
+T177	Material 2384 2386	He
+T178	Condition-Type 2468 2478	flow rates
+T179	Material 2482 2485	air
+T180	Material 2487 2489	O2
+T181	Material 2490 2492	N2
+T182	Material 2512 2514	He
+T183	Number 2520 2523	200
+T184	Number 2528 2531	150
+T185	Condition-Unit 2532 2540	mL min-1
+T186	Material 2587 2593	oxygen
+T187	Material 2603 2606	air
+T188	Material 2619 2621	He
+T189	Material 2260 2268	membrane
+T190	Material-Descriptor 2249 2259	asymmetric
+T191	Synthesis-Apparatus 2291 2295	tube
+T192	Apparatus-Descriptor 2284 2290	quartz
+T193	Number 2340 2347	960-970
+T194	Condition-Unit 2348 2352	degC
+R39	Property_Of Arg1:T40 Arg2:T39	
+A3	Start_Recipe E38
+R40	Next_Operation Arg1:E38 Arg2:E39	
+R41	Next_Operation Arg1:E39 Arg2:E45	
+R42	Next_Operation Arg1:E45 Arg2:E40	
+R43	Next_Operation Arg1:E40 Arg2:E46	
+R44	Next_Operation Arg1:E46 Arg2:E41	
+R45	Next_Operation Arg1:E41 Arg2:E42	
+R46	Next_Operation Arg1:E42 Arg2:E43	
+R47	Next_Operation Arg1:E43 Arg2:E44	
+A4	End_Recipe E44
+R48	Number_Of Arg1:T43 Arg2:T46	
+R49	Amount_Of Arg1:T46 Arg2:T48	
+R50	Number_Of Arg1:T44 Arg2:T45	
+R51	Amount_Of Arg1:T45 Arg2:T49	
+R52	Number_Of Arg1:T51 Arg2:T52	
+R53	Amount_Of Arg1:T52 Arg2:T50	
+R54	Amount_Of Arg1:T52 Arg2:T47	
+R55	Number_Of Arg1:T54 Arg2:T55	
+R56	Amount_Of Arg1:T55 Arg2:T53	
+R57	Descriptor_Of Arg1:T57 Arg2:T56	
+R58	Number_Of Arg1:T59 Arg2:T60	
+R59	Amount_Of Arg1:T60 Arg2:T58	
+R60	Number_Of Arg1:T62 Arg2:T63	
+R61	Amount_Of Arg1:T63 Arg2:T61	
+R62	Property_Of Arg1:T42 Arg2:T64	
+R63	Number_Of Arg1:T66 Arg2:T67	
+R64	Condition_Of Arg1:T67 Arg2:E7	
+R65	Descriptor_Of Arg1:T74 Arg2:T72	
+R66	Descriptor_Of Arg1:T73 Arg2:T72	
+R67	Descriptor_Of Arg1:T76 Arg2:T75	
+R68	Number_Of Arg1:T77 Arg2:T78	
+R69	Condition_Of Arg1:T78 Arg2:E11	
+R70	Number_Of Arg1:T79 Arg2:T80	
+R71	Condition_Of Arg1:T80 Arg2:E11	
+R72	Number_Of Arg1:T81 Arg2:T82	
+R73	Number_Of Arg1:T83 Arg2:T84	
+R74	Condition_Of Arg1:T82 Arg2:E12	
+R75	Condition_Of Arg1:T84 Arg2:E12	
+T195	Material 792 796	disk
+T196	Material 828 832	disk
+T197	Material-Descriptor 807 827	green porous support
+R76	Descriptor_Of Arg1:T197 Arg2:T196	
+R77	Descriptor_Of Arg1:T88 Arg2:T86	
+R78	Descriptor_Of Arg1:T90 Arg2:T89	
+R79	Descriptor_Of Arg1:T91 Arg2:T89	
+R80	Number_Of Arg1:T92 Arg2:T93	
+R81	Amount_Of Arg1:T93 Arg2:T89	
+R82	Number_Of Arg1:T95 Arg2:T96	
+R83	Amount_Of Arg1:T96 Arg2:T94	
+R84	Amount_Of Arg1:T99 Arg2:T98	
+R85	Amount_Of Arg1:T99 Arg2:T97	
+R86	Condition_Of Arg1:T100 Arg2:E18	
+R87	Amount_Of Arg1:T101 Arg2:T102	
+R88	Amount_Of Arg1:T101 Arg2:T103	
+R89	Number_Of Arg1:T104 Arg2:T101	
+R90	Number_Of Arg1:T108 Arg2:T105	
+R91	Descriptor_Of Arg1:T107 Arg2:T106	
+R92	Condition_Of Arg1:T105 Arg2:E21	
+R93	Descriptor_Of Arg1:T110 Arg2:T109	
+R94	Number_Of Arg1:T111 Arg2:T112	
+R95	Amount_Of Arg1:T112 Arg2:T109	
+R96	Condition_Of Arg1:T114 Arg2:E23	
+R97	Number_Of Arg1:T117 Arg2:T118	
+R98	Condition_Of Arg1:T118 Arg2:E25	
+R99	Descriptor_Of Arg1:T122 Arg2:T121	
+R100	Number_Of Arg1:T123 Arg2:T124	
+R101	Amount_Of Arg1:T124 Arg2:T121	
+R102	Property_Of Arg1:T126 Arg2:T125	
+R103	Number_Of Arg1:T128 Arg2:T129	
+R104	Amount_Of Arg1:T129 Arg2:T127	
+R105	Descriptor_Of Arg1:T140 Arg2:T139	
+R106	Condition_Of Arg1:T130 Arg2:E33	
+R107	Number_Of Arg1:T132 Arg2:T133	
+R108	Condition_Of Arg1:T133 Arg2:E34	
+R109	Number_Of Arg1:T134 Arg2:T135	
+R110	Condition_Of Arg1:T135 Arg2:E34	
+R111	Property_Of Arg1:T137 Arg2:T136	
+R112	Property_Of Arg1:T138 Arg2:T136	
+R113	Property_Of Arg1:T142 Arg2:T141	
+R114	Property_Of Arg1:T143 Arg2:T141	
+R115	Descriptor_Of Arg1:T156 Arg2:T155	
+R116	Descriptor_Of Arg1:T158 Arg2:T159	
+R117	Number_Of Arg1:T160 Arg2:T162	
+R118	Number_Of Arg1:T161 Arg2:T162	
+R119	Property_Of Arg1:T162 Arg2:T159	
+R120	Apparatus_Of Arg1:T164 Arg2:E45	
+R121	Descriptor_Of Arg1:T168 Arg2:T167	
+R122	Apparatus_Of Arg1:T147 Arg2:E40	
+R123	Brand_Of Arg1:T148 Arg2:T147	
+R124	Descriptor_Of Arg1:T171 Arg2:T170	
+R125	Apparatus_Of Arg1:T172 Arg2:E41	
+R126	Descriptor_Of Arg1:T190 Arg2:T189	
+R127	Descriptor_Of Arg1:T192 Arg2:T191	
+R128	Apparatus_Of Arg1:T191 Arg2:E42	
+R129	Number_Of Arg1:T193 Arg2:T194	
+R130	Condition_Of Arg1:T194 Arg2:E42	
+R131	Descriptor_Of Arg1:T176 Arg2:T174	
+R132	Descriptor_Of Arg1:T176 Arg2:T175	
+R133	Coref_Of Arg1:T173 Arg2:T174	
+R134	Coref_Of Arg1:T173 Arg2:T175	
+R135	Coref_Of Arg1:T179 Arg2:T180	
+R136	Coref_Of Arg1:T179 Arg2:T181	
+R137	Number_Of Arg1:T183 Arg2:T185	
+R138	Number_Of Arg1:T184 Arg2:T185	
+R139	Apparatus_Of Arg1:T153 Arg2:E44	
+R140	Apparatus_Of Arg1:T154 Arg2:E44	

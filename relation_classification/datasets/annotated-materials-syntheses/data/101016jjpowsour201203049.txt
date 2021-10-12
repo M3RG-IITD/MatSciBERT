@@ -1,0 +1,6 @@
+10.1016/j.jpowsour.2012.03.049
+Characteristics and electrochemical performance of LiFe0.5Mn0.5PO4/C used as cathode for aqueous rechargeable lithium battery
+
+LiFe0.5Mn0.5PO4/C was synthesized by a sol-gel and calcinations process. CH3COOLi*2H2O, FeCl2*4H2O, MnCl2*4H2O, P2O5 and critic acid with a molar ratio of 1:0.5:0.5:1:1 were dissolved in 40 mL ethanol solution. The mixture solution was rigorous stirred for 12 h in nitrogen gas, and then heated at 353 K to get xerogel. Finally, the xerogel was fired at 773 K for 5 h in the purified argon gas flowing to prevent the oxidation of Fe2+ to obtain LiFe0.5Mn0.5PO4/C. LiV3O8 was synthesized as describe as previous publication [5].
+
+

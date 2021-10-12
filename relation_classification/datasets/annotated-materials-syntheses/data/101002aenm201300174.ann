@@ -1,0 +1,147 @@
+T1	Operation 238 249	synthesized
+E1	Operation:T1 Recipe_Target:T16 Participant_Material:T17
+T2	Operation 348 356	utilized
+E2	Operation:T2 Recipe_Precursor:T18 Recipe_Precursor:T19 Recipe_Precursor:T20 Recipe_Precursor:T21
+T3	Operation 385 394	performed
+E3	Operation:T3 Atmospheric_Material:T22
+T4	Operation 435 442	weighed
+E4	Operation:T4 Participant_Material:T23
+T5	Operation 459 464	mixed
+E5	Operation:T5 
+T6	Operation 513 524	transferred
+E6	Operation:T6 Participant_Material:T24
+T7	Operation 551 558	covered
+E7	Operation:T7 Participant_Material:T25
+T8	Operation 584 593	compacted
+E8	Operation:T8 
+T9	Operation 614 620	placed
+E9	Operation:T9 
+T10	Operation 645 651	heated
+E10	Operation:T10 
+T11	Operation 682 688	cooled
+E11	Operation:T11 
+T12	Operation 731 737	ground
+E12	Operation:T12 
+T13	Operation 742 748	sieved
+E13	Operation:T13 
+T14	Operation 763 774	hot pressed
+E14	Operation:T14 Participant_Material:T27
+T15	Material 78 98	Mg 2 Si 0.45 Sn 0.55
+T16	Material 159 187	Mg2(1+x)Si0.45Sn0.537Sb0.013
+T18	Material 285 287	Mg
+T19	Material 295 297	Si
+T20	Material 307 309	Sn
+T21	Material 322 324	Sb
+T22	Material 401 406	argon
+T17	Material 255 259	B2O3
+T23	Material 422 429	powders
+T24	Material 498 507	materials
+T25	Material 562 566	B2O3
+T26	Material 719 725	ingots
+T27	Material 873 880	pellets
+T28	Number 193 197	0.04
+T29	Number 199 203	0.06
+T30	Number 205 209	0.08
+T31	Number 211 215	0.10
+T32	Number 217 221	0.12
+T33	Number 289 291	99
+T34	Number 299 303	99.9
+T35	Number 311 315	99.5
+T36	Number 326 332	99.999
+T37	Number 655 658	973
+T38	Number 665 667	10
+T39	Number 753 755	50
+T40	Number 798 802	12.7
+T41	Number 826 828	80
+T42	Number 836 840	1025
+T43	Number 847 848	2
+T44	Amount-Unit 291 292	%
+T45	Amount-Unit 303 304	%
+T46	Amount-Unit 315 316	%
+T47	Amount-Unit 332 333	%
+T48	Condition-Unit 659 660	K
+T49	Condition-Unit 668 669	h
+T50	Property-Unit 756 758	μm
+T51	Apparatus-Unit 803 805	mm
+T52	Condition-Unit 829 832	MPa
+T53	Condition-Unit 841 842	K
+T54	Condition-Unit 849 850	h
+T55	Property-Misc 223 232	compounds
+T56	Material-Descriptor 260 264	flux
+T57	Material-Descriptor 275 284	Elemental
+T58	Material-Descriptor 335 342	powders
+T59	Synthesis-Apparatus 407 416	glove box
+T60	Material-Descriptor 418 421	Raw
+T61	Synthesis-Apparatus 477 483	mortar
+T62	Apparatus-Descriptor 471 476	agate
+T63	Synthesis-Apparatus 541 549	crucible
+T64	Apparatus-Descriptor 533 540	alumina
+T65	Material-Descriptor 567 574	powders
+T66	Synthesis-Apparatus 599 608	crucibles
+T67	Synthesis-Apparatus 636 643	furnace
+T68	Apparatus-Descriptor 628 635	chamber
+T69	Condition-Misc 697 713	room temperature
+T70	Synthesis-Apparatus 789 792	die
+T71	Apparatus-Descriptor 780 788	graphite
+T72	Material-Descriptor 865 872	compact
+R1	Next_Operation Arg1:E2 Arg2:E4	
+R2	Next_Operation Arg1:E4 Arg2:E5	
+R3	Next_Operation Arg1:E5 Arg2:E6	
+R4	Next_Operation Arg1:E6 Arg2:E7	
+R5	Next_Operation Arg1:E7 Arg2:E8	
+R6	Next_Operation Arg1:E8 Arg2:E9	
+R7	Next_Operation Arg1:E9 Arg2:E10	
+R8	Next_Operation Arg1:E10 Arg2:E11	
+R9	Next_Operation Arg1:E11 Arg2:E12	
+R10	Next_Operation Arg1:E12 Arg2:E13	
+R11	Next_Operation Arg1:E13 Arg2:E14	
+R12	Apparatus_Of Arg1:T59 Arg2:E3	
+R13	Apparatus_Of Arg1:T61 Arg2:E5	
+R14	Apparatus_Of Arg1:T63 Arg2:E6	
+R15	Apparatus_Of Arg1:T66 Arg2:E9	
+R16	Apparatus_Of Arg1:T67 Arg2:E9	
+R17	Condition_Of Arg1:T48 Arg2:E10	
+R18	Condition_Of Arg1:T49 Arg2:E10	
+R19	Condition_Of Arg1:T69 Arg2:E11	
+R20	Apparatus_Of Arg1:T70 Arg2:E14	
+R21	Condition_Of Arg1:T52 Arg2:E14	
+R22	Condition_Of Arg1:T53 Arg2:E14	
+R23	Condition_Of Arg1:T54 Arg2:E14	
+R24	Property_Of Arg1:T55 Arg2:T16	
+R25	Amount_Of Arg1:T44 Arg2:T18	
+R26	Amount_Of Arg1:T45 Arg2:T19	
+R27	Amount_Of Arg1:T46 Arg2:T20	
+R28	Amount_Of Arg1:T47 Arg2:T21	
+R29	Property_Of Arg1:T50 Arg2:T26	
+R30	Descriptor_Of Arg1:T56 Arg2:T17	
+R31	Descriptor_Of Arg1:T57 Arg2:T18	
+R32	Descriptor_Of Arg1:T58 Arg2:T21	
+R33	Descriptor_Of Arg1:T58 Arg2:T20	
+R34	Descriptor_Of Arg1:T58 Arg2:T19	
+R35	Descriptor_Of Arg1:T58 Arg2:T18	
+R36	Descriptor_Of Arg1:T60 Arg2:T23	
+R37	Descriptor_Of Arg1:T62 Arg2:T61	
+R38	Descriptor_Of Arg1:T64 Arg2:T63	
+R39	Descriptor_Of Arg1:T65 Arg2:T25	
+R40	Descriptor_Of Arg1:T68 Arg2:T67	
+R41	Descriptor_Of Arg1:T71 Arg2:T70	
+R42	Descriptor_Of Arg1:T72 Arg2:T27	
+R43	Apparatus_Attr_Of Arg1:T51 Arg2:T70	
+R44	Number_Of Arg1:T33 Arg2:T44	
+R45	Number_Of Arg1:T34 Arg2:T45	
+R46	Number_Of Arg1:T35 Arg2:T46	
+R47	Number_Of Arg1:T36 Arg2:T47	
+R48	Number_Of Arg1:T37 Arg2:T48	
+R49	Number_Of Arg1:T38 Arg2:T49	
+R50	Number_Of Arg1:T39 Arg2:T50	
+R51	Number_Of Arg1:T40 Arg2:T51	
+R52	Number_Of Arg1:T41 Arg2:T52	
+R53	Number_Of Arg1:T42 Arg2:T53	
+R54	Number_Of Arg1:T43 Arg2:T54	
+T73	Amount-Unit 189 190	x
+R55	Number_Of Arg1:T28 Arg2:T73	
+R56	Number_Of Arg1:T29 Arg2:T73	
+R57	Number_Of Arg1:T30 Arg2:T73	
+R58	Number_Of Arg1:T31 Arg2:T73	
+R59	Number_Of Arg1:T32 Arg2:T73	
+R60	Amount_Of Arg1:T73 Arg2:T16	

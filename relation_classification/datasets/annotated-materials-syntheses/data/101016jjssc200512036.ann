@@ -1,0 +1,67 @@
+T1	Material 128 135	samples
+T2	Operation 160 168	prepared
+E1	Operation:T2 Participant_Material:T1
+T3	Meta 172 193	solid-state reactions
+T4	Material 204 213	materials
+T5	Operation 214 218	were
+E2	Operation:T5 Participant_Material:T4 Recipe_Precursor:T6 Recipe_Precursor:T7 Recipe_Precursor:T8
+T6	Material 226 231	Fe2O3
+T7	Material 242 247	Ga2O3
+T8	Material 261 280	strontium carbonate
+T9	Material 281 286	SrCO3
+T10	Operation 320 327	weighed
+E3	Operation:T10 Participant_Material:T24
+T11	Operation 364 369	mixed
+E4	Operation:T11 
+T12	Operation 400 408	addition
+E5	Operation:T12 Solvent_Material:T28
+T13	Operation 439 446	pressed
+E6	Operation:T13 Participant_Material:T29 Participant_Material:T30
+T14	Operation 464 469	fired
+E7	Operation:T14 Atmospheric_Material:T33
+T15	Operation 514 521	crushed
+E8	Operation:T15 Participant_Material:T34 Participant_Material:T35
+T16	Operation 535 542	pressed
+E9	Operation:T16 
+T17	Operation 547 552	fired
+E10	Operation:T17 
+T18	Number 233 238	99.92
+T19	Amount-Unit 238 239	%
+T20	Number 249 254	99.99
+T21	Amount-Unit 254 255	%
+T22	Number 288 293	99.94
+T23	Amount-Unit 293 294	%
+T24	Material 305 314	materials
+T25	Amount-Misc 331 348	desirable amounts
+T26	Synthesis-Apparatus 377 383	mortar
+T27	Synthesis-Apparatus 388 394	pestle
+T28	Material 412 419	ethanol
+T29	Material 425 433	mixtures
+T30	Material 452 459	pellets
+T31	Number 473 481	900-1250
+T32	Condition-Unit 482 486	degC
+T33	Material 490 493	air
+T34	Material 499 508	materials
+T35	Material 527 533	powder
+T36	Condition-Misc 553 566	several times
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Next_Operation Arg1:E8 Arg2:E9	
+R8	Next_Operation Arg1:E9 Arg2:E10	
+R9	Coref_Of Arg1:T9 Arg2:T8	
+R10	Apparatus_Of Arg1:T26 Arg2:E4	
+R11	Apparatus_Of Arg1:T27 Arg2:E4	
+R12	Condition_Of Arg1:T32 Arg2:E7	
+R13	Condition_Of Arg1:T36 Arg2:E10	
+R14	Amount_Of Arg1:T19 Arg2:T6	
+R15	Amount_Of Arg1:T21 Arg2:T7	
+R16	Amount_Of Arg1:T23 Arg2:T9	
+R17	Amount_Of Arg1:T25 Arg2:T24	
+R18	Number_Of Arg1:T18 Arg2:T19	
+R19	Number_Of Arg1:T20 Arg2:T21	
+R20	Number_Of Arg1:T22 Arg2:T23	
+R21	Number_Of Arg1:T31 Arg2:T32	

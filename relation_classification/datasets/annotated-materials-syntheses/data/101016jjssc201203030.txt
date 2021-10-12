@@ -1,0 +1,4 @@
+10.1016/j.jssc.2012.03.030
+Thermoelectric properties and nonstoichiometry of GaGeTe
+
+Polycrystalline samples Ga1+xGe1-xTe (x=-0.03/0.07) and GaGeTe1-y (y=-0.02/0.02) were synthesized from elements Ga, Ge and Te of 5 N purity. The mixture of elements was heated in evacuated quartz ampoules at 1220 K for 75 min and quenched in air. The ampoules were further annealed at 770 K for 3 day to reach equilibrium. Products were powdered for one minute in a vibrating mill under hexane and identified by X-ray diffraction (XRD). Bulk samples, rectangular with dimensions of 15x3.5x2 mm3 (for all measurements except thermal conductivity) and round ones of diameter d=12 mm and thickness 2 mm (for thermal conductivity) were prepared from the powder using a high-pressure/high-temperature (820 K/85 MPa) technique in a graphite die. The density of the samples (calculated from geometry and weight) was always higher than 95% of its theoretical value.

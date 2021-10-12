@@ -1,0 +1,115 @@
+T1	Operation 269 275	etched
+E1	Operation:T1 Recipe_Precursor:T17 Participant_Material:T18 Participant_Material:T19
+T2	Operation 396 403	removed
+E2	Operation:T2 Participant_Material:T20 Participant_Material:T22
+T3	Operation 479 486	cleaned
+E3	Operation:T3 Participant_Material:T24 Solvent_Material:T25 Solvent_Material:T26
+T4	Operation 523 527	used
+E4	Operation:T4 
+T5	Operation 614 624	controlled
+E5	Operation:T5 Participant_Material:T27
+T6	Operation 629 640	infiltrated
+E6	Operation:T6 Participant_Material:T28
+T7	Operation 700 706	mixing
+E7	Operation:T7 Recipe_Precursor:T29 Solvent_Material:T30 Recipe_Precursor:T31 Solvent_Material:T32
+T8	Operation 779 787	prepared
+E8	Operation:T8 
+T9	Operation 789 797	followed
+E9	Operation:T9 
+T10	Operation 805 813	addition
+E10	Operation:T10 Participant_Material:T33
+T11	Operation 929 935	raised
+E11	Operation:T11 
+T12	Operation 977 988	synthesized
+E12	Operation:T12 Participant_Material:T36
+T13	Operation 994 1001	dipping
+E13	Operation:T13 Participant_Material:T37
+T15	Operation 1270 1276	washed
+E15	Operation:T15 Participant_Material:T14 Solvent_Material:T40
+T16	Operation 1301 1306	dried
+E16	Operation:T16 Atmospheric_Material:T41
+T17	Material 254 256	Si
+T18	Material 303 308	AgNO3
+T19	Material 313 315	HF
+T20	Material 359 370	by-products
+T21	Material 372 374	Ag
+T22	Material 407 418	nitric acid
+T23	Material 432 440	nanowire
+T24	Material 466 473	samples
+T25	Material 500 505	water
+T26	Material 517 519	HF
+T27	Material 582 603	hydrazine monohydrate
+T28	Material 663 672	nanowires
+T29	Material 707 712	BiCl3
+T30	Material 724 735	nitric acid
+T31	Material 740 746	H6TeO6
+T32	Material 769 774	water
+T33	Material 817 834	thioglycolic acid
+T34	Material 866 873	complex
+T35	Number 939 941	90
+T36	Material 951 957	Bi2Te3
+T37	Material 1006 1015	hydrazine
+T38	Material 1050 1058	solution
+T39	Material 1084 1090	Bi2Te3
+T14	Material 1252 1259	samples
+T40	Material 1289 1296	acetone
+T41	Material 1310 1312	N2
+T42	Material-Descriptor 248 253	(001)
+T43	Material-Descriptor 257 263	wafers
+T44	Material-Descriptor 279 293	mixed solution
+T45	Number 297 300	0.4
+T46	Amount-Unit 301 302	M
+T47	Number 320 322	30
+T48	Condition-Unit 323 326	min
+T49	Material-Descriptor 375 389	nanostructures
+T50	Material-Descriptor 441 448	bundles
+T51	Material-Descriptor 490 499	deionized
+T52	Material-Descriptor 510 516	dilute
+T53	Number 605 607	98
+T54	Amount-Unit 607 608	%
+T55	Number 714 717	0.2
+T56	Amount-Unit 718 719	M
+T57	Number 748 752	0.15
+T58	Amount-Unit 753 754	M
+T59	Material-Descriptor 759 768	deionized
+T60	Condition-Misc 877 893	room temperature
+T61	Condition-Unit 942 946	degC
+T62	Material-Descriptor 958 971	nanoparticles
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E7	
+R7	Next_Operation Arg1:E7 Arg2:E8	
+R8	Next_Operation Arg1:E8 Arg2:E9	
+R9	Next_Operation Arg1:E9 Arg2:E10	
+R10	Next_Operation Arg1:E10 Arg2:E11	
+R11	Next_Operation Arg1:E11 Arg2:E12	
+R12	Next_Operation Arg1:E12 Arg2:E13	
+R13	Next_Operation Arg1:E13 Arg2:E15	
+R14	Next_Operation Arg1:E15 Arg2:E16	
+R15	Coref_Of Arg1:T21 Arg2:T20	
+R16	Condition_Of Arg1:T48 Arg2:E1	
+R17	Condition_Of Arg1:T60 Arg2:E10	
+R18	Amount_Of Arg1:T46 Arg2:T18	
+R19	Amount_Of Arg1:T54 Arg2:T27	
+R20	Amount_Of Arg1:T56 Arg2:T29	
+R21	Amount_Of Arg1:T58 Arg2:T31	
+R22	Descriptor_Of Arg1:T42 Arg2:T17	
+R23	Descriptor_Of Arg1:T43 Arg2:T17	
+R24	Descriptor_Of Arg1:T44 Arg2:T18	
+R25	Descriptor_Of Arg1:T44 Arg2:T19	
+R26	Descriptor_Of Arg1:T49 Arg2:T21	
+R27	Descriptor_Of Arg1:T50 Arg2:T23	
+R28	Descriptor_Of Arg1:T51 Arg2:T25	
+R29	Descriptor_Of Arg1:T52 Arg2:T26	
+R30	Condition_Of Arg1:T61 Arg2:E11	
+R31	Descriptor_Of Arg1:T62 Arg2:T36	
+R32	Descriptor_Of Arg1:T59 Arg2:T32	
+R33	Number_Of Arg1:T45 Arg2:T46	
+R34	Number_Of Arg1:T47 Arg2:T48	
+R35	Number_Of Arg1:T53 Arg2:T54	
+R36	Number_Of Arg1:T55 Arg2:T56	
+R37	Number_Of Arg1:T57 Arg2:T58	
+R38	Number_Of Arg1:T35 Arg2:T61	

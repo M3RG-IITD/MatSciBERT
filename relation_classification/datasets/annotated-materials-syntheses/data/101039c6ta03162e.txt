@@ -1,0 +1,6 @@
+10.1039/c6ta03162e
+Super high-rate, long cycle life of europium-modified, carbon-coated, hierarchical mesoporous lithium-titanate anode materials for lithium ion batteries
+
+Europium doping hierarchical mesoporous Li4-x/2Ti5-x/2EuxO12@C microspheres were prepared by the co-precipitation method. In a typical synthesis, 12 mL of tetrabutyl titanate and an appropriate amount of Eu(NO3)3*6H2O were added to anhydrous ethanol to form a faint yellow homogeneous solution A. Then, 1.208 g of LiOH*H2O were dissolved in deionized water to form solution B. Finally, solution B was slowly dropped into solution A with stirring. The yellow transparent solution gradually turned into a white suspension. The mixture was stirred for 4 h, dried at 80 degC overnight to fully remove the solvent, with subsequent heating to 600 degC for 5 h under 5 vol% N2/H2 atmosphere. Excess Li was used to compensate for volatilization of Li at high temperatures. The Li4-x/2Ti5-x/2EuxO12@C (x = 0, 0.002, 0.004, 0.006, 0.008 and 0.01) samples were obtained and denoted as LTO1, LTO2, LTO3, LTO4, LTO5 and LTO6, respectively.
+
+

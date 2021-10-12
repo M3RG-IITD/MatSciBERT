@@ -1,0 +1,3 @@
+10.1016/j.matlet.2012.11.079
+Structural and magnetic properties of ferromagnetic nano-sized (Ni1-xCox)0.85Se prepared by simple hydrothermal method
+(Ni1-xCox)0.85Se with 0.0<=x<=1 solid solutions were prepared by a simple hydrothermal route. An aqueous solution was prepared by dissolving the appropriate amount of NiCl2*6H2O or/and CoCl2*6H2O and Na2SeO3 in 70 ml distilled water. 8 ml hydrazine hydrate (N2H4.H2O, 99%) was added under constant stirring for 30 min. The mixture was transferred to a stainless Teflon-lined 100 mL autoclave, and heated at 140 degC for 12 h. After cooling to room temperature, the products were filtered off, washed with distilled water and absolute ethanol several times, and then dried in vacuum at 50 degC for 3 h.

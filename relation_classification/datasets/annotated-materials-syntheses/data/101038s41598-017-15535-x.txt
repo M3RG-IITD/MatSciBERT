@@ -1,0 +1,4 @@
+10.1038/s41598-017-15535-x
+Flexible Fe3O4@Carbon Nanofibers Hierarchically Assembled with MnO2 Particles for High-Performance Supercapacitor Electrodes
+Polyacrylonitrile (PAN, Mw = 90,000), polyvinyl alcohol (PVA, Mw = 86,000), Potassium hydroxide (KOH), Fe(acac)3, and KMnO4 were purchased from Aladdin Chemicals Co. Ltd., China. Dimethylformamide (DMF), and sulphuric acid (H2SO4), were provided by Shanghai Chemical Reagents Co., Ltd., China. All chemicals were used without further purification.
+A homogenous solution comprising of Fe(acac)3 (1 wt.%) and PAN (8 wt.%) dissolved in DMF by magnetic stirring was electrospun following same conditions as reported in our earlier work18. Resultant precursor fibers were then vacuum dried and pre-oxidized at 280 degC for 2 h followed by carbonization at 800 degC for 2 h with a heating rate of 2 degC/min under nitrogen environment. Developed membrane showed ~50 um thickness after treatment.

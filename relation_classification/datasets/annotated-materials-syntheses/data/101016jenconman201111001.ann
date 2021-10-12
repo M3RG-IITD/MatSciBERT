@@ -1,0 +1,198 @@
+T1	Number 32 37	0.5:1
+T2	Number 39 42	1:1
+T3	Number 48 51	2:1
+T4	Material 52 73	2,2'-Bipyridine-SnCl2
+T5	Property-Misc 74 83	complexes
+T6	Operation 89 97	prepared
+E1	Operation:T6 Solvent_Material:T7
+T7	Material 101 105	MeOH
+T8	Number 107 109	20
+T9	Amount-Unit 110 112	mL
+T10	Operation 117 123	adding
+E2	Operation:T10 Recipe_Precursor:T15 Recipe_Precursor:T18 Atmospheric_Material:T19
+T11	Number 137 140	2.5
+T12	Number 142 145	5.0
+T13	Number 151 155	10.0
+T14	Amount-Unit 156 160	mmol
+T15	Material 161 176	2,2'-bipyridine
+T16	Number 180 181	5
+T17	Amount-Unit 182 186	mmol
+T18	Material 187 192	SnCl2
+T19	Material 201 209	nitrogen
+T20	Property-Type 226 231	color
+T21	Material 239 247	solution
+T22	Material-Descriptor 258 264	yellow
+T23	Operation 275 283	addition
+E3	Operation:T23 Recipe_Precursor:T24
+T24	Material 287 302	2,2'-bipyridine
+T25	Material 309 320	precipitate
+T26	Operation 321 329	appeared
+E4	Operation:T26 Participant_Material:T25
+T27	Operation 248 254	turned
+E5	Operation:T27 Participant_Material:T21
+T28	Operation 355 362	stirred
+E6	Operation:T28 Participant_Material:T46
+T29	Operation 380 390	filtration
+E7	Operation:T29 
+T30	Operation 415 421	washed
+E8	Operation:T30 Participant_Material:T52
+T31	Operation 450 455	dried
+E9	Operation:T31 
+T32	Operation 468 473	yield
+E10	Operation:T32 Recipe_Target:T54
+T33	Operation 580 588	prepared
+E11	Operation:T33 Participant_Material:T67
+T34	Operation 592 601	treatment
+E12	Operation:T34 Recipe_Target:T69 Participant_Material:T71 Participant_Material:T72
+T35	Operation 733 744	coordinated
+E13	Operation:T35 Recipe_Precursor:T58 Recipe_Precursor:T59
+T36	Operation 770 779	dispersed
+E14	Operation:T36 Solvent_Material:T60
+T37	Operation 843 848	added
+E15	Operation:T37 Recipe_Precursor:T63
+T38	Operation 866 873	stirred
+E16	Operation:T38 Participant_Material:T73 Atmospheric_Material:T78
+T39	Operation 958 963	added
+E17	Operation:T39 Recipe_Precursor:T80
+T40	Operation 996 1004	observed
+E18	Operation:T40 
+T41	Operation 1031 1038	stirred
+E19	Operation:T41 Participant_Material:T83
+T42	Operation 1098 1110	concentrated
+E20	Operation:T42 Participant_Material:T87
+T43	Operation 1136 1142	washed
+E21	Operation:T43 Participant_Material:T89 Participant_Material:T90 Participant_Material:T94
+T44	Operation 1191 1205	centrifugation
+E22	Operation:T44 
+T45	Operation 1274 1278	loss
+E23	Operation:T45 Participant_Material:T102
+T46	Material 335 342	mixture
+T47	Number 367 370	0.5
+T48	Condition-Unit 371 372	h
+T49	Operation 402 410	obtained
+E24	Operation:T49 Participant_Material:T50
+T50	Material 396 401	solid
+T51	Number 422 425	two
+T52	Material 437 445	methanol
+T54	Material 478 499	2,2'-bipyridine-SnCl2
+T55	Property-Misc 500 507	complex
+T56	Number 717 718	5
+T57	Amount-Unit 719 723	mmol
+T58	Material 727 732	SnCl2
+T59	Material 750 765	2,2'-bipyridine
+T60	Material 783 791	methanol
+T61	Number 793 795	20
+T62	Amount-Unit 796 798	mL
+T63	Material 804 816	UF4 graphite
+T64	Brand 818 837	Le Carbone Lorraine
+T65	Number 556 560	1:12
+T66	Amount-Unit 541 552	molar ratio
+T67	Material 514 539	Sn nanoparticles/graphite
+T68	Material-Descriptor 562 575	nanocomposite
+T69	Material 609 630	2,2'-bipyridine-SnCl2
+T70	Property-Misc 631 638	complex
+T71	Material 644 662	sodium borohydride
+T72	Material 682 690	graphite
+T73	Material 854 861	mixture
+T74	Number 878 880	10
+T75	Condition-Unit 881 884	min
+T76	Condition-Type 210 220	atmosphere
+T77	Condition-Misc 888 904	room temperature
+T78	Material 913 921	nitrogen
+T79	Condition-Type 922 932	atmosphere
+T80	Material 934 939	NaBH4
+T81	Number 941 942	5
+T82	Amount-Unit 943 947	mmol
+T83	Material 1010 1018	solution
+T84	Condition-Misc 1042 1058	room temperature
+T85	Number 1063 1064	2
+T86	Condition-Unit 1065 1066	h
+T87	Material 1081 1088	mixture
+T53	Condition-Misc 459 464	vacuo
+T88	Condition-Misc 1114 1119	vacuo
+T89	Material 1128 1135	product
+T90	Material 1148 1153	water
+T92	Amount-Unit 1161 1163	mL
+T91	Number 1159 1160	5
+T93	Number 1155 1156	2
+T94	Material 1169 1176	acetone
+T95	Number 1182 1183	5
+T96	Number 1178 1179	2
+T97	Amount-Unit 1184 1186	mL
+T98	Number 1207 1211	4000
+T99	Condition-Unit 1212 1215	rpm
+T100	Number 1220 1221	5
+T101	Condition-Unit 1222 1225	min
+T102	Nonrecipe-Material 1282 1285	tin
+T103	Material 1307 1315	material
+T104	Reference 1316 1320	[18]
+R1	Property_Of Arg1:T5 Arg2:T4	
+R2	Next_Operation Arg1:E2 Arg2:E5	
+R3	Next_Operation Arg1:E5 Arg2:E3	
+R4	Next_Operation Arg1:E3 Arg2:E4	
+R5	Next_Operation Arg1:E4 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E7	
+R7	Next_Operation Arg1:E7 Arg2:E24	
+R8	Next_Operation Arg1:E24 Arg2:E8	
+R9	Next_Operation Arg1:E8 Arg2:E9	
+R10	Next_Operation Arg1:E9 Arg2:E10	
+R11	Next_Operation Arg1:E10 Arg2:E11	
+R12	Next_Operation Arg1:E11 Arg2:E12	
+R13	Next_Operation Arg1:E12 Arg2:E13	
+R14	Next_Operation Arg1:E13 Arg2:E14	
+R15	Next_Operation Arg1:E14 Arg2:E15	
+R16	Next_Operation Arg1:E15 Arg2:E16	
+R17	Next_Operation Arg1:E16 Arg2:E17	
+R18	Next_Operation Arg1:E17 Arg2:E18	
+R19	Next_Operation Arg1:E18 Arg2:E19	
+R20	Next_Operation Arg1:E19 Arg2:E20	
+R21	Next_Operation Arg1:E20 Arg2:E21	
+R22	Next_Operation Arg1:E21 Arg2:E22	
+A2	End_Recipe E22
+R23	Next_Operation Arg1:E1 Arg2:E2	
+A1	Start_Recipe E1
+R24	Number_Of Arg1:T11 Arg2:T14	
+R25	Number_Of Arg1:T12 Arg2:T14	
+R26	Number_Of Arg1:T13 Arg2:T14	
+R27	Number_Of Arg1:T8 Arg2:T9	
+R28	Number_Of Arg1:T16 Arg2:T17	
+R29	Amount_Of Arg1:T14 Arg2:T15	
+R30	Amount_Of Arg1:T17 Arg2:T18	
+R31	Descriptor_Of Arg1:T22 Arg2:T21	
+R32	Number_Of Arg1:T47 Arg2:T48	
+R33	Condition_Of Arg1:T48 Arg2:E6	
+T105	Condition-Unit 426 431	times
+R34	Number_Of Arg1:T51 Arg2:T105	
+R35	Condition_Of Arg1:T105 Arg2:E8	
+R36	Condition_Of Arg1:T53 Arg2:E9	
+R37	Property_Of Arg1:T55 Arg2:T54	
+R38	Number_Of Arg1:T65 Arg2:T66	
+R39	Amount_Of Arg1:T66 Arg2:T67	
+R40	Descriptor_Of Arg1:T68 Arg2:T67	
+R41	Property_Of Arg1:T70 Arg2:T69	
+R42	Number_Of Arg1:T56 Arg2:T57	
+R43	Amount_Of Arg1:T57 Arg2:T58	
+R44	Number_Of Arg1:T61 Arg2:T62	
+R45	Amount_Of Arg1:T62 Arg2:T60	
+R46	Brand_Of Arg1:T64 Arg2:T63	
+R47	Number_Of Arg1:T74 Arg2:T75	
+R48	Condition_Of Arg1:T75 Arg2:E16	
+R49	Condition_Of Arg1:T77 Arg2:E16	
+R50	Number_Of Arg1:T81 Arg2:T82	
+R51	Amount_Of Arg1:T82 Arg2:T80	
+R52	Condition_Of Arg1:T84 Arg2:E19	
+R53	Number_Of Arg1:T85 Arg2:T86	
+R54	Condition_Of Arg1:T86 Arg2:E19	
+R55	Condition_Of Arg1:T88 Arg2:E20	
+R56	Number_Of Arg1:T93 Arg2:T92	
+R57	Number_Of Arg1:T91 Arg2:T92	
+R58	Amount_Of Arg1:T92 Arg2:T90	
+R59	Number_Of Arg1:T96 Arg2:T97	
+R60	Number_Of Arg1:T95 Arg2:T97	
+R61	Amount_Of Arg1:T97 Arg2:T94	
+R62	Number_Of Arg1:T98 Arg2:T99	
+R63	Number_Of Arg1:T100 Arg2:T101	
+R64	Condition_Of Arg1:T99 Arg2:E22	
+R65	Condition_Of Arg1:T101 Arg2:E22	
+T106	Material-Descriptor 1301 1306	crude
+R66	Descriptor_Of Arg1:T106 Arg2:T103	

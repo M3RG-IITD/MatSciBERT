@@ -1,0 +1,108 @@
+T1	Material 70 98	NaLi 0.1 Ni 0.35 Mn 0.55 O 2
+T2	Property-Misc 99 106	cathode
+T3	Property-Misc 62 69	O3-type
+T4	Operation 184 195	synthesized
+E1	Operation:T4 Recipe_Target:T19 Recipe_Target:T18
+T5	Meta 201 224	co-precipitation method
+T6	Operation 256 264	titrated
+E2	Operation:T6 Recipe_Precursor:T20 Recipe_Precursor:T21 Solvent_Material:T22
+T7	Operation 304 308	form
+E3	Operation:T7 Recipe_Precursor:T23
+T8	Operation 348 354	washed
+E4	Operation:T8 Participant_Material:T24
+T9	Operation 359 364	dried
+E5	Operation:T9 
+T10	Operation 471 476	mixed
+E6	Operation:T10 Recipe_Precursor:T25 Recipe_Precursor:T27 Recipe_Precursor:T28 Recipe_Precursor:T29
+T11	Operation 510 522	ball milling
+E7	Operation:T11 
+T12	Operation 535 540	dried
+E8	Operation:T12 
+T13	Operation 570 577	pressed
+E9	Operation:T13 Participant_Material:T30 Participant_Material:T31
+T14	Operation 592 600	calcined
+E10	Operation:T14 Atmospheric_Material:T32
+T15	Operation 638 644	cooled
+E11	Operation:T15 
+T16	Operation 708 714	stored
+E12	Operation:T16 Participant_Material:T33
+T17	Reference 887 889	24
+T18	Material 174 178	NNMO
+T19	Material 164 169	NLNMO
+T20	Material 241 250	MnSO4*H2O
+T21	Material 226 236	NiSO4*6H2O
+T22	Material 287 291	NaOH
+T23	Material 321 328	TM(OH)2
+T24	Material 334 343	precursor
+T25	Material 422 428	Li2CO3
+T26	Material 438 443	NLNMO
+T27	Material 446 452	Na2CO3
+T28	Material 458 465	TM(OH)2
+T29	Material 482 489	acetone
+T30	Material 558 565	mixture
+T31	Material 583 590	pellets
+T32	Material 625 628	air
+T33	Material 690 697	samples
+T34	Nonrecipe-Material 839 842	Na+
+T35	Material 878 886	material
+T36	Number 368 371	120
+T37	Number 381 383	12
+T38	Number 527 528	6
+T39	Number 544 547	120
+T40	Number 604 607	900
+T41	Number 617 619	12
+T42	Condition-Unit 372 376	degC
+T43	Condition-Unit 384 385	h
+T44	Condition-Unit 529 530	h
+T45	Condition-Unit 548 552	degC
+T46	Condition-Unit 608 612	degC
+T47	Condition-Unit 620 621	h
+T48	Property-Misc 156 163	O3-type
+T49	Amount-Misc 272 286	stoichiometric
+T50	Material-Descriptor 292 300	solution
+T51	Material-Descriptor 311 320	precursor
+T52	Amount-Misc 396 418	stoichiometric amounts
+T53	Material-Descriptor 495 505	dispersant
+T54	Condition-Misc 653 669	room temperature
+T55	Synthesis-Apparatus 677 684	furnace
+T56	Synthesis-Apparatus 731 740	glove box
+T57	Apparatus-Descriptor 721 730	Ar-filled
+R1	Property_Of Arg1:T3 Arg2:T1	
+R2	Property_Of Arg1:T2 Arg2:T1	
+R3	Property_Of Arg1:T48 Arg2:T19	
+R4	Property_Of Arg1:T48 Arg2:T18	
+A1	Start_Recipe E1
+R5	Next_Operation Arg1:E1 Arg2:E2	
+R6	Next_Operation Arg1:E2 Arg2:E3	
+R7	Next_Operation Arg1:E3 Arg2:E4	
+R8	Next_Operation Arg1:E4 Arg2:E5	
+R9	Next_Operation Arg1:E5 Arg2:E6	
+R10	Next_Operation Arg1:E6 Arg2:E7	
+R11	Next_Operation Arg1:E7 Arg2:E8	
+R12	Next_Operation Arg1:E8 Arg2:E9	
+R13	Next_Operation Arg1:E9 Arg2:E10	
+R14	Next_Operation Arg1:E10 Arg2:E11	
+R15	Next_Operation Arg1:E11 Arg2:E12	
+A2	End_Recipe E12
+R16	Amount_Of Arg1:T49 Arg2:T22	
+R17	Descriptor_Of Arg1:T50 Arg2:T22	
+R18	Descriptor_Of Arg1:T51 Arg2:T23	
+R19	Number_Of Arg1:T36 Arg2:T42	
+R20	Condition_Of Arg1:T42 Arg2:E5	
+R21	Number_Of Arg1:T37 Arg2:T43	
+R22	Condition_Of Arg1:T43 Arg2:E5	
+R23	Amount_Of Arg1:T52 Arg2:T25	
+R24	Amount_Of Arg1:T52 Arg2:T27	
+R25	Descriptor_Of Arg1:T53 Arg2:T29	
+R26	Number_Of Arg1:T38 Arg2:T44	
+R27	Condition_Of Arg1:T44 Arg2:E7	
+R28	Number_Of Arg1:T39 Arg2:T45	
+R29	Condition_Of Arg1:T45 Arg2:E8	
+R30	Number_Of Arg1:T40 Arg2:T46	
+R31	Condition_Of Arg1:T46 Arg2:E10	
+R32	Number_Of Arg1:T41 Arg2:T47	
+R33	Condition_Of Arg1:T47 Arg2:E10	
+R34	Condition_Of Arg1:T54 Arg2:E11	
+R35	Apparatus_Of Arg1:T55 Arg2:E11	
+R36	Descriptor_Of Arg1:T57 Arg2:T56	
+R37	Apparatus_Of Arg1:T56 Arg2:E12	

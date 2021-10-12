@@ -1,0 +1,129 @@
+T1	Operation 176 180	used
+E1	Operation:T1 Recipe_Precursor:T15 Recipe_Precursor:T16
+T2	Operation 388 397	purchased
+E2	Operation:T2 Participant_Material:T22
+T3	Operation 467 475	prepared
+E3	Operation:T3 Recipe_Target:T25
+T4	Operation 568 573	added
+E4	Operation:T4 Recipe_Precursor:T29 Solvent_Material:T30
+T5	Operation 614 622	stirring
+E5	Operation:T5 
+T6	Operation 651 656	added
+E6	Operation:T6 Recipe_Precursor:T31 Recipe_Precursor:T32
+T7	Operation 745 752	stirred
+E7	Operation:T7 
+T8	Operation 793 804	transferred
+E8	Operation:T8 Participant_Material:T40
+T9	Operation 852 863	transferred
+E9	Operation:T9 
+T10	Operation 881 891	maintained
+E10	Operation:T10 
+T11	Operation 975 982	cooling
+E11	Operation:T11 
+T12	Operation 1050 1056	washed
+E12	Operation:T12 Participant_Material:T53 Solvent_Material:T55 Solvent_Material:T56
+T13	Operation 1108 1113	dried
+E13	Operation:T13 
+T14	Material 53 68	bismuth sulfide
+T15	Material 136 149	Bi(NO3)3*5H2O
+T16	Material 154 162	thiourea
+T17	Material 163 170	(NH2)2S
+T18	Nonrecipe-Material 199 201	Bi
+T19	Nonrecipe-Material 206 207	S
+T20	Material-Descriptor 184 194	precursors
+T21	Property-Misc 69 77	nanorods
+T22	Material 313 322	chemicals
+T23	Material-Descriptor 348 373	analytical grade reagents
+T24	Brand 403 416	Sigma-Aldrich
+T25	Material 419 424	Bi2S3
+T26	Property-Misc 425 433	nanorods
+T27	Property-Misc 439 461	orthorhombic structure
+T28	Meta 488 507	hydrothermal method
+T29	Material 554 562	thiourea
+T30	Material 594 599	water
+T31	Material 638 646	Bi(NO3)3
+T32	Material 664 672	thiourea
+T33	Material 692 697	Bi2S3
+T34	Nonrecipe-Material 720 724	Bi:S
+T35	Property-Misc 698 706	nanorods
+T36	Number 757 759	10
+T37	Condition-Unit 760 763	min
+T38	Number 767 769	60
+T39	Condition-Unit 770 774	degC
+T40	Material 780 788	solution
+T41	Synthesis-Apparatus 823 832	autoclave
+T42	Apparatus-Descriptor 810 822	Teflon-lined
+T43	Synthesis-Apparatus 838 847	autoclave
+T44	Synthesis-Apparatus 872 876	oven
+T45	Condition-Misc 895 915	various temperatures
+T46	Number 917 924	100-250
+T47	Condition-Unit 925 929	degC
+T48	Condition-Misc 935 957	various reaction times
+T49	Number 959 964	10-48
+T50	Condition-Unit 965 966	h
+T51	Synthesis-Apparatus 987 996	autoclave
+T52	Condition-Misc 1000 1016	room temperature
+T53	Material 1032 1044	precipitates
+T54	Material-Descriptor 1022 1031	collected
+T55	Material 1062 1067	water
+T56	Material 1072 1079	ethanol
+T57	Condition-Misc 1084 1095	three times
+T58	Number 1117 1119	60
+T59	Condition-Unit 1120 1124	degC
+T60	Number 1129 1130	8
+T61	Condition-Unit 1131 1132	h
+T62	Meta 81 100	hydrothermal method
+T63	Number 577 580	100
+T64	Amount-Unit 581 583	ml
+T65	Material-Descriptor 584 593	distilled
+T66	Number 629 632	4.0
+T67	Amount-Unit 633 634	g
+T68	Material-Descriptor 673 681	solution
+R1	Next_Operation Arg1:E2 Arg2:E1	
+R2	Next_Operation Arg1:E1 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Next_Operation Arg1:E8 Arg2:E9	
+R8	Next_Operation Arg1:E9 Arg2:E10	
+R9	Next_Operation Arg1:E10 Arg2:E11	
+R10	Next_Operation Arg1:E11 Arg2:E12	
+R11	Next_Operation Arg1:E12 Arg2:E13	
+R12	Coref_Of Arg1:T17 Arg2:T16	
+R13	Condition_Of Arg1:T37 Arg2:E7	
+R14	Condition_Of Arg1:T39 Arg2:E7	
+R15	Apparatus_Of Arg1:T41 Arg2:E8	
+R16	Apparatus_Of Arg1:T43 Arg2:E9	
+R17	Apparatus_Of Arg1:T44 Arg2:E9	
+R18	Condition_Of Arg1:T45 Arg2:E10	
+R19	Condition_Of Arg1:T47 Arg2:E10	
+R20	Condition_Of Arg1:T48 Arg2:E10	
+R21	Condition_Of Arg1:T50 Arg2:E10	
+R22	Apparatus_Of Arg1:T51 Arg2:E11	
+R23	Condition_Of Arg1:T52 Arg2:E11	
+R24	Condition_Of Arg1:T57 Arg2:E12	
+R25	Condition_Of Arg1:T59 Arg2:E13	
+R26	Condition_Of Arg1:T61 Arg2:E13	
+R27	Property_Of Arg1:T21 Arg2:T14	
+R28	Property_Of Arg1:T26 Arg2:T25	
+R29	Property_Of Arg1:T27 Arg2:T25	
+R30	Amount_Of Arg1:T64 Arg2:T30	
+R31	Amount_Of Arg1:T67 Arg2:T31	
+R32	Property_Of Arg1:T35 Arg2:T33	
+R33	Descriptor_Of Arg1:T20 Arg2:T16	
+R34	Descriptor_Of Arg1:T20 Arg2:T15	
+R35	Descriptor_Of Arg1:T23 Arg2:T22	
+R36	Descriptor_Of Arg1:T65 Arg2:T30	
+R37	Descriptor_Of Arg1:T68 Arg2:T32	
+R38	Descriptor_Of Arg1:T42 Arg2:T41	
+R39	Descriptor_Of Arg1:T54 Arg2:T53	
+R40	Number_Of Arg1:T63 Arg2:T64	
+R41	Number_Of Arg1:T66 Arg2:T67	
+R42	Number_Of Arg1:T36 Arg2:T37	
+R43	Number_Of Arg1:T38 Arg2:T39	
+R44	Number_Of Arg1:T46 Arg2:T47	
+R45	Number_Of Arg1:T49 Arg2:T50	
+R46	Number_Of Arg1:T58 Arg2:T59	
+R47	Number_Of Arg1:T60 Arg2:T61	
+R48	Brand_Of Arg1:T24 Arg2:T22	

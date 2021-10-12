@@ -1,0 +1,94 @@
+T1	Material 51 58	Zn2TiO4
+T2	Material 63 71	Zn2Ti3O8
+T3	Property-Misc 72 80	nanorods
+T4	Meta 84 108	hydrothermal-calcination
+T5	Operation 185 194	dissolved
+E1	Operation:T5 Recipe_Precursor:T24 Recipe_Precursor:T23 Solvent_Material:T25
+T6	Operation 249 254	added
+E2	Operation:T6 Recipe_Precursor:T26
+T7	Operation 363 368	added
+E3	Operation:T7 Recipe_Precursor:T27 Solvent_Material:T28 Participant_Material:T29
+T8	Operation 404 411	keeping
+E4	Operation:T8 
+T9	Operation 470 494	hydrothermally processed
+E5	Operation:T9 Participant_Material:T30
+T10	Operation 534 542	calcined
+E6	Operation:T10 Participant_Material:T31
+T11	Number 128 133	0.200
+T12	Number 156 161	0.015
+T13	Number 198 201	100
+T14	Number 272 274	10
+T15	Number 281 286	0.100
+T16	Number 295 300	0.300
+T17	Number 322 325	100
+T18	Number 422 424	10
+T19	Number 498 501	120
+T20	Number 511 513	12
+T21	Number 546 549	750
+T22	Number 559 560	5
+T24	Material 166 179	La(NO3)3*6H2O
+T25	Material 216 221	water
+T26	Material 223 228	NH4OH
+T27	Material 305 318	C4K2O9Ti*2H2O
+T28	Material 340 345	water
+T29	Material 389 398	solutions
+T30	Material 455 464	solutions
+T31	Material 521 528	samples
+T23	Material 138 151	Zn(NO3)2*6H2O
+T32	Amount-Unit 134 137	mol
+T33	Amount-Unit 162 165	mol
+T34	Amount-Unit 202 204	ml
+T35	Condition-Unit 265 267	pH
+T36	Amount-Unit 287 290	mol
+T37	Amount-Unit 301 304	mol
+T38	Amount-Unit 326 328	ml
+T39	Condition-Unit 416 418	pH
+T40	Condition-Unit 502 506	degC
+T41	Condition-Unit 514 515	h
+T42	Condition-Unit 550 554	degC
+T43	Condition-Unit 561 562	h
+T44	Material-Descriptor 205 215	de-ionized
+T45	Material-Descriptor 229 237	solution
+T46	Condition-Misc 242 248	slowly
+T47	Material-Descriptor 329 339	de-ionized
+T48	Condition-Misc 356 362	slowly
+T49	Material-Descriptor 376 388	transparency
+R1	Property_Of Arg1:T3 Arg2:T2	
+R2	Property_Of Arg1:T3 Arg2:T1	
+A1	Start_Recipe E1
+R3	Next_Operation Arg1:E1 Arg2:E2	
+R4	Next_Operation Arg1:E2 Arg2:E3	
+R5	Next_Operation Arg1:E3 Arg2:E4	
+R6	Next_Operation Arg1:E4 Arg2:E5	
+R7	Next_Operation Arg1:E5 Arg2:E6	
+A2	End_Recipe E6
+R8	Number_Of Arg1:T11 Arg2:T32	
+R9	Amount_Of Arg1:T32 Arg2:T23	
+R10	Number_Of Arg1:T12 Arg2:T33	
+R11	Amount_Of Arg1:T33 Arg2:T24	
+R12	Number_Of Arg1:T13 Arg2:T34	
+R13	Descriptor_Of Arg1:T44 Arg2:T25	
+R14	Amount_Of Arg1:T34 Arg2:T25	
+R15	Descriptor_Of Arg1:T45 Arg2:T26	
+R16	Condition_Of Arg1:T46 Arg2:E2	
+R17	Number_Of Arg1:T14 Arg2:T35	
+R18	Condition_Of Arg1:T35 Arg2:E2	
+R19	Number_Of Arg1:T15 Arg2:T36	
+R20	Number_Of Arg1:T16 Arg2:T37	
+R21	Amount_Of Arg1:T36 Arg2:T27	
+R22	Amount_Of Arg1:T37 Arg2:T27	
+R23	Number_Of Arg1:T17 Arg2:T38	
+R24	Descriptor_Of Arg1:T47 Arg2:T28	
+R25	Amount_Of Arg1:T38 Arg2:T28	
+R26	Condition_Of Arg1:T48 Arg2:E3	
+R27	Descriptor_Of Arg1:T49 Arg2:T29	
+R28	Number_Of Arg1:T18 Arg2:T39	
+R29	Condition_Of Arg1:T39 Arg2:E4	
+R30	Number_Of Arg1:T19 Arg2:T40	
+R31	Condition_Of Arg1:T40 Arg2:E5	
+R32	Number_Of Arg1:T20 Arg2:T41	
+R33	Condition_Of Arg1:T41 Arg2:E5	
+R34	Number_Of Arg1:T21 Arg2:T42	
+R35	Condition_Of Arg1:T42 Arg2:E6	
+R36	Number_Of Arg1:T22 Arg2:T43	
+R37	Condition_Of Arg1:T43 Arg2:E6	

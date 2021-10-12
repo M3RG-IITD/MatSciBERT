@@ -1,0 +1,179 @@
+T1	Material 59 69	MoOx/Fe2O3
+T2	Property-Misc 70 79	catalysts
+T3	Material 120 130	MoOx/Fe2O3
+T4	Operation 135 143	prepared
+E1	Operation:T4 Recipe_Target:T3
+T5	Meta 154 181	incipient wetness technique
+T6	Operation 234 242	calcined
+E2	Operation:T6 Recipe_Precursor:T45
+T7	Operation 275 281	adding
+E3	Operation:T7 Recipe_Precursor:T46
+T8	Operation 396 401	dried
+E4	Operation:T8 Participant_Material:T48
+T9	Operation 441 449	calcined
+E5	Operation:T9 
+T10	Operation 534 542	calcined
+E6	Operation:T10 Participant_Material:T49
+T11	Operation 558 565	reduced
+E7	Operation:T11 Participant_Material:T49 Atmospheric_Material:T50
+T12	Operation 662 673	synthesised
+E8	Operation:T12 Participant_Material:T51
+T14	Operation 809 817	stirring
+E9	Operation:T14 Recipe_Precursor:T54
+T15	Operation 884 893	acidified
+E10	Operation:T15 Participant_Material:T55
+T16	Operation 946 952	heated
+E11	Operation:T16 Participant_Material:T56
+T17	Operation 998 1006	remained
+E12	Operation:T17 Participant_Material:T57
+T18	Operation 1029 1032	dry
+E13	Operation:T18 Atmospheric_Material:T58
+T19	Operation 1063 1068	dried
+E14	Operation:T19 
+T20	Operation 1107 1118	calcination
+E15	Operation:T20 
+T13	Operation 788 793	added
+E16	Operation:T13 Recipe_Precursor:T52
+T21	Number 246 249	500
+T22	Number 259 260	3
+T23	Number 340 341	1
+T24	Number 343 344	3
+T25	Number 348 349	6
+T26	Number 405 408	120
+T27	Number 418 420	24
+T28	Number 453 456	500
+T29	Number 466 468	24
+T30	Number 612 615	350
+T31	Number 625 630	three
+T32	Number 779 781	98
+T33	Number 868 870	99
+T34	Number 900 901	2
+T35	Number 956 958	90
+T36	Number 969 970	1
+T37	Number 1072 1075	120
+T38	Number 1085 1087	24
+T39	Number 1122 1125	500
+T40	Number 1135 1137	48
+T41	Brand 201 214	Sigma Aldrich
+T42	Brand 764 777	Sigma Aldrich
+T43	Brand 849 865	Fluka Analytical
+T44	Number 217 219	50
+T45	Material 194 199	Fe2O3
+T46	Material 312 335	ammonium heptamolybdate
+T47	Material 367 377	MoOx/Fe2O3
+T48	Material 383 390	samples
+T49	Material 543 552	materials
+T50	Material 592 603	methanol/He
+T51	Material 649 656	samples
+T52	Material 740 753	Fe(NO3)3*9H2O
+T53	Nonrecipe-Material 755 762	Fe(III)
+T54	Material 830 847	(NH4)6Mo7O24*4H2O
+T55	Material 914 918	HNO3
+T56	Material 934 941	mixture
+T57	Material 991 997	sludge
+T58	Material 1025 1028	air
+T59	Amount-Unit 220 222	nm
+T60	Condition-Unit 250 254	degC
+T61	Condition-Unit 261 266	hours
+T62	Condition-Unit 409 413	degC
+T63	Condition-Unit 421 426	hours
+T64	Condition-Unit 457 461	degC
+T65	Condition-Unit 469 474	hours
+T66	Condition-Unit 616 620	degC
+T67	Condition-Unit 631 636	hours
+T68	Amount-Unit 781 782	%
+T69	Amount-Unit 870 871	%
+T70	Condition-Unit 897 899	pH
+T71	Condition-Unit 959 963	degC
+T72	Condition-Unit 971 975	hour
+T73	Condition-Unit 1076 1080	degC
+T74	Condition-Unit 1088 1093	hours
+T75	Condition-Unit 1126 1130	degC
+T76	Condition-Unit 1138 1143	hours
+T77	Material-Descriptor 183 193	Commercial
+T78	Amount-Misc 286 300	desired amount
+T79	Material-Descriptor 304 311	aqueous
+T80	Property-Misc 350 360	monolayers
+T81	Synthesis-Apparatus 487 494	furnace
+T82	Apparatus-Descriptor 480 486	muffle
+T83	Synthesis-Apparatus 571 583	tube furnace
+T84	Condition-Type 604 608	flow
+T85	Material-Descriptor 638 648	Bulk phase
+T86	Amount-Misc 725 739	Stoichiometric
+T87	Condition-Misc 794 803	drop wise
+T88	Material-Descriptor 818 826	solution
+T89	Material-Descriptor 907 913	dilute
+T90	Material-Descriptor 984 990	yellow
+T91	Condition-Misc 1033 1042	overnight
+R1	Property_Of Arg1:T2 Arg2:T1	
+A1	Start_Recipe E1
+R2	Next_Operation Arg1:E1 Arg2:E2	
+R3	Next_Operation Arg1:E2 Arg2:E3	
+R4	Next_Operation Arg1:E3 Arg2:E4	
+R5	Next_Operation Arg1:E4 Arg2:E5	
+R6	Next_Operation Arg1:E5 Arg2:E6	
+R7	Next_Operation Arg1:E6 Arg2:E7	
+R8	Next_Operation Arg1:E7 Arg2:E8	
+R9	Next_Operation Arg1:E8 Arg2:E16	
+R10	Next_Operation Arg1:E16 Arg2:E9	
+R11	Next_Operation Arg1:E9 Arg2:E10	
+R12	Next_Operation Arg1:E10 Arg2:E11	
+R13	Next_Operation Arg1:E11 Arg2:E12	
+R14	Next_Operation Arg1:E12 Arg2:E13	
+R15	Next_Operation Arg1:E13 Arg2:E14	
+R16	Next_Operation Arg1:E14 Arg2:E15	
+A2	End_Recipe E15
+R17	Descriptor_Of Arg1:T77 Arg2:T45	
+R18	Brand_Of Arg1:T41 Arg2:T45	
+R19	Number_Of Arg1:T44 Arg2:T59	
+R20	Amount_Of Arg1:T59 Arg2:T45	
+R21	Number_Of Arg1:T21 Arg2:T60	
+R22	Condition_Of Arg1:T60 Arg2:E2	
+R23	Number_Of Arg1:T22 Arg2:T61	
+R24	Condition_Of Arg1:T61 Arg2:E2	
+R25	Amount_Of Arg1:T78 Arg2:T46	
+R26	Descriptor_Of Arg1:T79 Arg2:T46	
+R27	Property_Of Arg1:T80 Arg2:T47	
+R28	Number_Of Arg1:T26 Arg2:T62	
+R29	Number_Of Arg1:T27 Arg2:T63	
+R30	Condition_Of Arg1:T62 Arg2:E4	
+R31	Condition_Of Arg1:T63 Arg2:E4	
+R32	Number_Of Arg1:T28 Arg2:T64	
+R33	Number_Of Arg1:T29 Arg2:T65	
+R34	Condition_Of Arg1:T65 Arg2:E5	
+R35	Condition_Of Arg1:T64 Arg2:E5	
+R36	Apparatus_Of Arg1:T81 Arg2:E5	
+R37	Descriptor_Of Arg1:T82 Arg2:T81	
+R38	Apparatus_Of Arg1:T83 Arg2:E7	
+R39	Number_Of Arg1:T30 Arg2:T66	
+R40	Condition_Of Arg1:T67 Arg2:E7	
+R41	Number_Of Arg1:T31 Arg2:T67	
+R42	Condition_Of Arg1:T66 Arg2:E7	
+R43	Descriptor_Of Arg1:T85 Arg2:T51	
+R44	Amount_Of Arg1:T86 Arg2:T52	
+R45	Coref_Of Arg1:T53 Arg2:T52	
+R46	Brand_Of Arg1:T42 Arg2:T52	
+R47	Number_Of Arg1:T32 Arg2:T68	
+R48	Amount_Of Arg1:T68 Arg2:T52	
+R49	Condition_Of Arg1:T87 Arg2:E16	
+R50	Descriptor_Of Arg1:T88 Arg2:T54	
+R51	Brand_Of Arg1:T43 Arg2:T54	
+R52	Number_Of Arg1:T33 Arg2:T69	
+R53	Amount_Of Arg1:T69 Arg2:T54	
+R54	Number_Of Arg1:T34 Arg2:T70	
+R55	Condition_Of Arg1:T70 Arg2:E10	
+R56	Descriptor_Of Arg1:T89 Arg2:T55	
+R57	Number_Of Arg1:T35 Arg2:T71	
+R58	Condition_Of Arg1:T71 Arg2:E11	
+R59	Number_Of Arg1:T36 Arg2:T72	
+R60	Condition_Of Arg1:T72 Arg2:E11	
+R61	Descriptor_Of Arg1:T90 Arg2:T57	
+R62	Condition_Of Arg1:T91 Arg2:E13	
+R63	Number_Of Arg1:T37 Arg2:T73	
+R64	Condition_Of Arg1:T73 Arg2:E14	
+R65	Number_Of Arg1:T38 Arg2:T74	
+R66	Condition_Of Arg1:T74 Arg2:E14	
+R67	Number_Of Arg1:T39 Arg2:T75	
+R68	Number_Of Arg1:T40 Arg2:T76	
+R69	Condition_Of Arg1:T76 Arg2:E15	
+R70	Condition_Of Arg1:T75 Arg2:E15	

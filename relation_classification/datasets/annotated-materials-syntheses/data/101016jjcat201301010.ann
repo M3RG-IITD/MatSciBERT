@@ -1,0 +1,138 @@
+T1	Material 111 118	α-Mn2O3
+T2	Property-Misc 119 131	nanocatalyst
+T3	Operation 181 189	prepared
+E1	Operation:T3 Recipe_Target:T30 Participant_Material:T32
+T4	Meta 195 212	one-pot synthesis
+T5	Operation 311 320	dissolved
+E2	Operation:T5 Recipe_Precursor:T34 Recipe_Precursor:T33 Solvent_Material:T35
+T6	Operation 357 365	stirring
+E3	Operation:T6 
+T7	Operation 397 403	sealed
+E4	Operation:T7 Participant_Material:T36
+T8	Operation 461 467	heated
+E5	Operation:T8 
+T9	Operation 512 521	dissolved
+E6	Operation:T9 Participant_Material:T37 Solvent_Material:T38
+T10	Operation 561 570	extracted
+E7	Operation:T10 Participant_Material:T39 Participant_Material:T40
+T11	Operation 614 620	washed
+E8	Operation:T11 Participant_Material:T41 Participant_Material:T42 Recipe_Precursor:T43
+T12	Operation 664 669	dried
+E9	Operation:T12 Atmospheric_Material:T44
+T13	Operation 690 698	prepared
+E10	Operation:T13 Participant_Material:T45
+T14	Operation 709 717	calcined
+E11	Operation:T14 Participant_Material:T45
+T15	Operation 850 858	obtained
+E12	Operation:T15 Recipe_Target:T46
+T16	Operation 908 916	supplied
+E13	Operation:T16 Participant_Material:T47
+T17	Brand 920 945	Shanghai Lingfeng Co. Ltd
+T18	Number 274 278	14.7
+T19	Number 298 301	8.0
+T20	Number 334 337	100
+T21	Number 370 371	1
+T22	Number 449 452	200
+T23	Number 471 474	180
+T24	Number 484 486	24
+T25	Number 681 682	5
+T26	Number 756 758	50
+T27	Number 769 772	500
+T28	Number 793 794	1
+T29	Number 812 814	10
+T30	Material 132 137	Mn3O4
+T31	Material 165 175	oleic acid
+T32	Material 223 233	precursors
+T33	Material 242 272	manganese acetate tetrahydrate
+T34	Material 286 296	oleic acid
+T35	Material 324 332	methanol
+T36	Material 379 387	solution
+T37	Material 500 507	product
+T38	Material 525 531	hexane
+T39	Material 536 541	Mn3O4
+T40	Material 576 583	ethanol
+T41	Material 602 609	product
+T42	Material 637 642	water
+T43	Material 647 654	ethanol
+T44	Material 673 676	air
+T45	Material 699 704	Mn3O4
+T46	Material 823 830	α-Mn2O3
+T47	Material 881 890	chemicals
+T48	Amount-Unit 279 280	g
+T49	Amount-Unit 302 304	ml
+T50	Amount-Unit 338 340	ml
+T51	Condition-Unit 372 373	h
+T52	Apparatus-Unit 453 455	ml
+T53	Condition-Unit 475 479	degC
+T54	Condition-Unit 487 488	h
+T55	Condition-Unit 683 684	h
+T56	Condition-Type 745 752	airflow
+T57	Condition-Unit 759 765	ml/min
+T58	Condition-Unit 773 777	degC
+T59	Condition-Type 785 789	ramp
+T60	Condition-Unit 795 804	degC /min
+T61	Condition-Unit 815 816	h
+T62	Property-Misc 138 151	nanoparticles
+T63	Condition-Misc 348 356	magnetic
+T64	Synthesis-Apparatus 438 447	autoclave
+T65	Apparatus-Descriptor 409 437	Teflon-lined stainless steel
+T66	Material-Descriptor 542 555	nanoparticles
+T67	Material-Descriptor 589 601	brown powder
+T68	Material-Descriptor 627 636	deionized
+T69	Synthesis-Apparatus 731 738	furnace
+T70	Apparatus-Descriptor 723 730	tubular
+T71	Property-Misc 831 844	nanoparticles
+T72	Property-Misc 818 822	pure
+T73	Amount-Misc 892 902	C.P. grade
+R1	Property_Of Arg1:T2 Arg2:T1	
+R2	Property_Of Arg1:T62 Arg2:T30	
+A1	Start_Recipe E1
+R3	Next_Operation Arg1:E1 Arg2:E2	
+R4	Next_Operation Arg1:E2 Arg2:E3	
+R5	Next_Operation Arg1:E3 Arg2:E4	
+R6	Next_Operation Arg1:E4 Arg2:E5	
+R7	Next_Operation Arg1:E5 Arg2:E6	
+R8	Next_Operation Arg1:E6 Arg2:E7	
+R9	Next_Operation Arg1:E7 Arg2:E8	
+R10	Next_Operation Arg1:E8 Arg2:E10	
+R11	Next_Operation Arg1:E10 Arg2:E11	
+R12	Next_Operation Arg1:E11 Arg2:E12	
+R13	Next_Operation Arg1:E12 Arg2:E13	
+A2	End_Recipe E13
+R14	Number_Of Arg1:T18 Arg2:T48	
+R15	Amount_Of Arg1:T48 Arg2:T33	
+R16	Number_Of Arg1:T19 Arg2:T49	
+R17	Amount_Of Arg1:T49 Arg2:T34	
+R18	Number_Of Arg1:T20 Arg2:T50	
+R19	Amount_Of Arg1:T50 Arg2:T35	
+R20	Condition_Of Arg1:T63 Arg2:E3	
+R21	Number_Of Arg1:T21 Arg2:T51	
+R22	Condition_Of Arg1:T51 Arg2:E3	
+R23	Descriptor_Of Arg1:T65 Arg2:T64	
+R24	Number_Of Arg1:T22 Arg2:T52	
+R25	Apparatus_Attr_Of Arg1:T52 Arg2:T64	
+R26	Apparatus_Of Arg1:T64 Arg2:E4	
+R27	Number_Of Arg1:T23 Arg2:T53	
+R28	Condition_Of Arg1:T54 Arg2:E5	
+R29	Number_Of Arg1:T24 Arg2:T54	
+R30	Condition_Of Arg1:T53 Arg2:E5	
+R31	Descriptor_Of Arg1:T66 Arg2:T39	
+R32	Descriptor_Of Arg1:T67 Arg2:T41	
+R33	Descriptor_Of Arg1:T68 Arg2:T42	
+R34	Number_Of Arg1:T25 Arg2:T55	
+R35	Condition_Of Arg1:T55 Arg2:E9	
+R36	Descriptor_Of Arg1:T70 Arg2:T69	
+R37	Apparatus_Of Arg1:T69 Arg2:E11	
+R38	Type_Of Arg1:T56 Arg2:T57	
+R39	Number_Of Arg1:T26 Arg2:T57	
+R40	Number_Of Arg1:T27 Arg2:T58	
+R41	Condition_Of Arg1:T57 Arg2:E11	
+R42	Condition_Of Arg1:T58 Arg2:E11	
+R43	Number_Of Arg1:T28 Arg2:T60	
+R44	Type_Of Arg1:T59 Arg2:T60	
+R45	Condition_Of Arg1:T60 Arg2:E11	
+R46	Number_Of Arg1:T29 Arg2:T61	
+R47	Property_Of Arg1:T72 Arg2:T46	
+R48	Property_Of Arg1:T71 Arg2:T46	
+R49	Amount_Of Arg1:T73 Arg2:T47	
+R50	Brand_Of Arg1:T17 Arg2:T47	

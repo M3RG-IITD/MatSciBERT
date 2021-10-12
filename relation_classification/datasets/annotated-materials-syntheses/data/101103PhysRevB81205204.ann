@@ -1,0 +1,128 @@
+T1	Operation 258 266	combined
+E1	Operation:T1 Recipe_Precursor:T11 Recipe_Precursor:T12 Recipe_Precursor:T13 Recipe_Precursor:T14 Atmospheric_Material:T15
+T2	Operation 331 337	sealed
+E2	Operation:T2 
+T3	Operation 355 364	evacuated
+E3	Operation:T3 
+T4	Operation 457 461	held
+E4	Operation:T4 Participant_Material:T16
+T5	Operation 513 520	Cooling
+E5	Operation:T5 
+T6	Operation 576 582	anneal
+E6	Operation:T6 
+T7	Operation 621 632	ball milled
+E7	Operation:T7 Participant_Material:T17 Atmospheric_Material:T18
+T8	Operation 770 782	consolidated
+E8	Operation:T8 Participant_Material:T19
+T9	Operation 787 799	hot pressing
+E9	Operation:T9 
+T10	Operation 963 969	sliced
+E10	Operation:T10 Participant_Material:T20 Participant_Material:T62 Participant_Material:T21
+T11	Material 199 201	Zn
+T12	Material 212 214	Sb
+T13	Material 226 228	Yb
+T14	Material 242 244	Sr
+T15	Material 305 310	argon
+T16	Material 444 451	Samples
+T17	Material 611 616	ingot
+T18	Material 749 754	argon
+T19	Material 757 764	Samples
+T20	Material 950 957	pellets
+T21	Material 1015 1021	wafers
+T22	Amount-Misc 161 183	Stoichiometric amounts
+T23	Number 203 208	99.99
+T24	Amount-Unit 208 209	%
+T25	Number 216 222	99.999
+T26	Amount-Unit 222 223	%
+T27	Number 230 234	99.9
+T28	Amount-Unit 234 235	%
+T29	Number 246 250	99.9
+T30	Amount-Unit 250 251	%
+T31	Number 368 374	1x10-5
+T32	Condition-Unit 375 379	torr
+T33	Number 465 469	1223
+T34	Condition-Unit 470 471	K
+T35	Number 476 478	30
+T36	Condition-Unit 479 482	min
+T37	Number 524 527	825
+T38	Condition-Unit 528 529	K
+T39	Number 546 549	2.5
+T40	Condition-Unit 550 551	h
+T41	Number 570 573	2.5
+T42	Condition-Unit 574 575	h
+T43	Number 637 639	15
+T44	Condition-Unit 640 643	min
+T45	Number 803 806	823
+T46	Condition-Unit 807 808	K
+T47	Number 814 815	3
+T48	Condition-Unit 816 817	h
+T49	Number 1028 1031	1-2
+T50	Property-Unit 1032 1034	mm
+T51	Property-Type 1035 1040	thick
+T52	Material-Descriptor 187 198	high-purity
+T53	Synthesis-Apparatus 285 293	crucible
+T54	Apparatus-Descriptor 272 284	pyrolitic BN
+T55	Synthesis-Apparatus 311 318	dry box
+T56	Synthesis-Apparatus 343 354	quartz tube
+T57	Synthesis-Apparatus 680 690	Mixer/Mill
+T58	Apparatus-Descriptor 651 679	high-energy SPEX 8000 Series
+T59	Synthesis-Apparatus 717 721	vial
+T60	Synthesis-Apparatus 726 731	balls
+T61	Apparatus-Descriptor 701 716	stainless steel
+T62	Material 987 996	lubricant
+T63	Material-Descriptor 976 986	nonaqueous
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E7	
+R7	Next_Operation Arg1:E7 Arg2:E8	
+R8	Next_Operation Arg1:E8 Arg2:E9	
+R9	Next_Operation Arg1:E9 Arg2:E10	
+R10	Apparatus_Of Arg1:T55 Arg2:E1	
+R11	Apparatus_Of Arg1:T56 Arg2:E2	
+R12	Condition_Of Arg1:T32 Arg2:E3	
+R13	Condition_Of Arg1:T34 Arg2:E4	
+R14	Condition_Of Arg1:T36 Arg2:E4	
+R15	Condition_Of Arg1:T38 Arg2:E5	
+R16	Condition_Of Arg1:T40 Arg2:E5	
+R17	Condition_Of Arg1:T42 Arg2:E6	
+R18	Condition_Of Arg1:T44 Arg2:E7	
+R19	Apparatus_Of Arg1:T57 Arg2:E7	
+R20	Apparatus_Of Arg1:T59 Arg2:E7	
+R21	Apparatus_Of Arg1:T60 Arg2:E7	
+R22	Condition_Of Arg1:T46 Arg2:E9	
+R23	Condition_Of Arg1:T48 Arg2:E9	
+R24	Amount_Of Arg1:T22 Arg2:T11	
+R25	Amount_Of Arg1:T22 Arg2:T12	
+R26	Amount_Of Arg1:T22 Arg2:T13	
+R27	Amount_Of Arg1:T22 Arg2:T14	
+R28	Amount_Of Arg1:T24 Arg2:T11	
+R29	Amount_Of Arg1:T26 Arg2:T12	
+R30	Amount_Of Arg1:T28 Arg2:T13	
+R31	Amount_Of Arg1:T30 Arg2:T14	
+R32	Property_Of Arg1:T50 Arg2:T21	
+R33	Descriptor_Of Arg1:T52 Arg2:T11	
+R34	Descriptor_Of Arg1:T52 Arg2:T12	
+R35	Descriptor_Of Arg1:T52 Arg2:T13	
+R36	Descriptor_Of Arg1:T52 Arg2:T14	
+R37	Descriptor_Of Arg1:T54 Arg2:T53	
+R38	Descriptor_Of Arg1:T58 Arg2:T57	
+R39	Descriptor_Of Arg1:T61 Arg2:T59	
+R40	Descriptor_Of Arg1:T63 Arg2:T62	
+R41	Type_Of Arg1:T51 Arg2:T50	
+R42	Number_Of Arg1:T23 Arg2:T24	
+R43	Number_Of Arg1:T25 Arg2:T26	
+R44	Number_Of Arg1:T27 Arg2:T28	
+R45	Number_Of Arg1:T29 Arg2:T30	
+R46	Number_Of Arg1:T31 Arg2:T32	
+R47	Number_Of Arg1:T33 Arg2:T34	
+R48	Number_Of Arg1:T35 Arg2:T36	
+R49	Number_Of Arg1:T37 Arg2:T38	
+R50	Number_Of Arg1:T39 Arg2:T40	
+R51	Number_Of Arg1:T41 Arg2:T42	
+R52	Number_Of Arg1:T43 Arg2:T44	
+R53	Number_Of Arg1:T45 Arg2:T46	
+R54	Number_Of Arg1:T47 Arg2:T48	
+R55	Number_Of Arg1:T49 Arg2:T50	

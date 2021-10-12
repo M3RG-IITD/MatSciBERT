@@ -1,0 +1,190 @@
+T1	Property-Misc 43 59	lanthanide doped
+T2	Material 60 69	CeF3:Gd3+
+T3	Material 71 75	Sm3+
+T4	Property-Misc 76 89	nanoparticles
+R1	Property_Of Arg1:T4 Arg2:T3	
+R2	Property_Of Arg1:T1 Arg2:T2	
+T5	Meta 129 141	hydrothermal
+T6	Number 199 203	0.75
+T7	Amount-Unit 204 205	g
+T8	Material 213 220	product
+R3	Number_Of Arg1:T6 Arg2:T7	
+R4	Amount_Of Arg1:T7 Arg2:T8	
+T9	Operation 191 198	produce
+E1	Operation:T9 Participant_Material:T8
+T10	Material 278 282	NH4F
+T11	Number 284 286	50
+T12	Amount-Unit 286 287	%
+R5	Number_Of Arg1:T11 Arg2:T12	
+R6	Amount_Of Arg1:T12 Arg2:T10	
+T13	Operation 300 309	dissolved
+E2	Operation:T13 Solvent_Material:T38 Recipe_Precursor:T10
+T14	Operation 368 376	prepared
+E3	Operation:T14 Participant_Material:T40
+T15	Operation 422 427	mixed
+E4	Operation:T15 Recipe_Precursor:T42 Recipe_Precursor:T43
+T16	Operation 511 518	diluted
+E5	Operation:T16 Solvent_Material:T52
+T17	Operation 574 582	obtained
+E6	Operation:T17 Participant_Material:T55 Participant_Material:T56 Participant_Material:T57
+T18	Operation 685 694	dissolved
+E7	Operation:T18 Participant_Material:T60 Participant_Material:T61
+T19	Operation 743 751	adjusted
+E8	Operation:T19 Solvent_Material:T64
+T20	Operation 816 821	added
+E9	Operation:T20 Participant_Material:T67 Participant_Material:T68
+T21	Operation 863 876	precipitation
+E10	Operation:T21 Participant_Material:T70
+T22	Operation 936 945	performed
+E11	Operation:T22 
+T23	Operation 972 980	stirring
+E12	Operation:T23 
+T24	Operation 986 994	addition
+E13	Operation:T24 
+T25	Operation 1059 1066	divided
+E14	Operation:T25 Participant_Material:T76
+T26	Operation 1107 1115	purified
+E15	Operation:T26 Participant_Material:T77
+T27	Operation 1119 1133	centrifugation
+E16	Operation:T27 
+T28	Operation 1138 1144	washed
+E17	Operation:T28 Solvent_Material:T79
+T29	Operation 1198 1203	dried
+E18	Operation:T29 Participant_Material:T80
+T30	Operation 1280 1291	transferred
+E19	Operation:T30 Participant_Material:T85
+T31	Operation 1317 1339	hydrothermally treated
+E20	Operation:T31 
+T32	Operation 1501 1509	purified
+E21	Operation:T32 Participant_Material:T97
+T33	Operation 1513 1527	centrifugation
+E22	Operation:T33 
+T34	Operation 1532 1537	dried
+E23	Operation:T34 
+R7	Next_Operation Arg1:E2 Arg2:E3	
+R8	Next_Operation Arg1:E3 Arg2:E4	
+R9	Next_Operation Arg1:E4 Arg2:E5	
+R10	Next_Operation Arg1:E5 Arg2:E6	
+R11	Next_Operation Arg1:E6 Arg2:E7	
+R12	Next_Operation Arg1:E7 Arg2:E8	
+R13	Next_Operation Arg1:E8 Arg2:E9	
+R14	Next_Operation Arg1:E9 Arg2:E10	
+R15	Next_Operation Arg1:E10 Arg2:E11	
+R16	Next_Operation Arg1:E11 Arg2:E12	
+R17	Next_Operation Arg1:E12 Arg2:E13	
+R18	Next_Operation Arg1:E13 Arg2:E14	
+R19	Next_Operation Arg1:E14 Arg2:E19	
+R20	Next_Operation Arg1:E14 Arg2:E15	
+R21	Next_Operation Arg1:E15 Arg2:E16	
+R22	Next_Operation Arg1:E16 Arg2:E17	
+R23	Next_Operation Arg1:E17 Arg2:E18	
+R24	Next_Operation Arg1:E19 Arg2:E20	
+R25	Next_Operation Arg1:E20 Arg2:E21	
+R26	Next_Operation Arg1:E21 Arg2:E22	
+R27	Next_Operation Arg1:E22 Arg2:E23	
+T35	Amount-Misc 288 294	excess
+R28	Amount_Of Arg1:T35 Arg2:T10	
+T36	Number 313 315	25
+T37	Amount-Unit 316 318	mL
+T38	Material 322 327	water
+R29	Number_Of Arg1:T36 Arg2:T37	
+R30	Amount_Of Arg1:T37 Arg2:T38	
+T39	Material 329 339	solution A
+R31	Coref_Of Arg1:T39 Arg2:T38	
+R32	Coref_Of Arg1:T39 Arg2:T10	
+T40	Material 353 363	solution B
+T41	Material-Descriptor 345 352	aqueous
+R33	Descriptor_Of Arg1:T41 Arg2:T40	
+T42	Material 392 400	Ln(NO3)3
+T43	Material 405 410	CeCl3
+T45	Number 456 460	0.01
+T46	Number 471 475	0.15
+T47	Number 489 493	0.84
+T48	Nonrecipe-Material 461 469	Sm(NO3)3
+T49	Nonrecipe-Material 476 484	Gd(NO3)3
+T50	Nonrecipe-Material 494 499	CeCl3
+T51	Amount-Unit 500 504	mol%
+T44	Amount-Unit 443 454	molar ratio
+R34	Number_Of Arg1:T47 Arg2:T51	
+R35	Amount_Of Arg1:T51 Arg2:T50	
+R36	Number_Of Arg1:T46 Arg2:T51	
+R37	Amount_Of Arg1:T51 Arg2:T49	
+R38	Number_Of Arg1:T45 Arg2:T51	
+R39	Amount_Of Arg1:T51 Arg2:T48	
+T52	Material 524 529	water
+T53	Number 538 541	100
+T54	Amount-Unit 542 544	mL
+R40	Number_Of Arg1:T53 Arg2:T54	
+R41	Amount_Of Arg1:T54 Arg2:T40	
+T55	Material 565 573	products
+T56	Material 602 606	EDTA
+T57	Material 611 622	citric acid
+T58	Number 624 627	0.5
+T59	Amount-Unit 628 632	wt.%
+R42	Number_Of Arg1:T58 Arg2:T59	
+T60	Material 648 667	polycarboxylic acid
+R43	Amount_Of Arg1:T59 Arg2:T60	
+T61	Material 698 715	solutions A and B
+T62	Condition-Unit 721 723	pH
+T63	Number 758 759	7
+R44	Number_Of Arg1:T63 Arg2:T62	
+R45	Condition_Of Arg1:T62 Arg2:E8	
+T64	Material 786 790	NaOH
+T65	Material-Descriptor 778 785	aqueous
+T66	Material-Descriptor 791 799	solution
+R46	Descriptor_Of Arg1:T66 Arg2:T64	
+R47	Descriptor_Of Arg1:T65 Arg2:T64	
+T67	Material 801 811	Solution B
+T68	Material 834 844	solution A
+T69	Condition-Misc 822 830	dropwise
+R48	Condition_Of Arg1:T69 Arg2:E9	
+T70	Material 884 910	lanthanide doped fluorides
+T71	Material 912 916	LnF3
+R49	Coref_Of Arg1:T71 Arg2:T70	
+T72	Number 949 952	343
+T73	Condition-Unit 953 954	K
+R50	Number_Of Arg1:T72 Arg2:T73	
+R51	Condition_Of Arg1:T73 Arg2:E11	
+T74	Number 1012 1015	0.5
+T75	Condition-Unit 1016 1017	h
+R52	Number_Of Arg1:T74 Arg2:T75	
+R53	Condition_Of Arg1:T75 Arg2:E13	
+T76	Material 1045 1053	products
+T77	Material 1095 1102	product
+T78	Condition-Misc 1145 1158	several times
+R54	Condition_Of Arg1:T78 Arg2:E17	
+T79	Material 1164 1169	water
+T80	Material 1186 1193	product
+T81	Condition-Misc 1204 1213	overnight
+R55	Condition_Of Arg1:T81 Arg2:E18	
+T82	Synthesis-Apparatus 1221 1225	oven
+R56	Apparatus_Of Arg1:T82 Arg2:E18	
+T83	Number 1230 1233	358
+T84	Condition-Unit 1234 1235	K
+R57	Number_Of Arg1:T83 Arg2:T84	
+R58	Condition_Of Arg1:T84 Arg2:E18	
+T85	Material 1264 1275	precipitate
+T86	Material-Descriptor 1254 1263	colloidal
+R59	Descriptor_Of Arg1:T86 Arg2:T85	
+T87	Apparatus-Descriptor 1299 1305	Teflon
+T88	Synthesis-Apparatus 1306 1312	vessel
+R60	Descriptor_Of Arg1:T87 Arg2:T88	
+R61	Apparatus_Of Arg1:T88 Arg2:E19	
+T89	Number 1344 1345	2
+T90	Number 1352 1355	453
+T91	Number 1358 1360	40
+T92	Condition-Unit 1361 1364	bar
+T93	Condition-Unit 1346 1347	h
+T94	Condition-Unit 1356 1357	K
+R62	Number_Of Arg1:T89 Arg2:T93	
+R63	Number_Of Arg1:T90 Arg2:T94	
+R64	Number_Of Arg1:T91 Arg2:T92	
+R65	Condition_Of Arg1:T93 Arg2:E20	
+R66	Condition_Of Arg1:T94 Arg2:E20	
+R67	Condition_Of Arg1:T92 Arg2:E20	
+T95	Synthesis-Apparatus 1366 1385	microwave autoclave
+T96	Brand 1388 1411	ERTEC, Magnum II, 600 W
+R68	Brand_Of Arg1:T96 Arg2:T95	
+R69	Apparatus_Of Arg1:T95 Arg2:E20	
+T97	Material 1450 1457	product
+T98	Synthesis-Apparatus 1545 1549	oven

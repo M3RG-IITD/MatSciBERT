@@ -1,0 +1,5 @@
+10.1039/c4ta05178e
+Effect of Ru substitution on the first charge-discharge cycle of lithium-rich layered oxides
+
+The material synthesis began with a basic co-precipitation method. Required amounts of Mn and Ni acetate were dissolved in water and added dropwise to a stirring aqueous KOH solution at room temperature with no pH control. After the acetate solution was fully added, the resulting mixed-metal hydroxide particles were filtered, washed with de-ionized water, and dried overnight at 100 degC. The mixed-metal hydroxide powders were then ground together with required amounts of RuO2*xH2O and LiOH*H2O and fired to 900 degC for 15 h with heating and cooling rates of 3 degC min-1 and 5 degC min-1, respectively. The synthesized materials have the compositions of Li1.2Mn0.6-xRuxNi0.2O2 (x = 0.00, 0.025, 0.05, 0.10, 0.20, 0.40, 0.50, and 0.60).
+

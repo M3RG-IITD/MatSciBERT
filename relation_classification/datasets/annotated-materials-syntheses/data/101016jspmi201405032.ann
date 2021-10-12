@@ -1,0 +1,104 @@
+T1	Material 136 139	ZnO
+T2	Operation 144 153	performed
+E1	Operation:T2 Recipe_Target:T1
+T3	Operation 374 378	made
+E2	Operation:T3 Participant_Material:T29
+T4	Operation 382 392	dissolving
+E3	Operation:T4 Recipe_Precursor:T12 Solvent_Material:T13
+T5	Operation 524 530	heated
+E4	Operation:T5 Participant_Material:T15
+T6	Operation 557 565	stirring
+E5	Operation:T6 
+T7	Operation 621 632	carried out
+E6	Operation:T7 
+T8	Operation 810 816	rinsed
+E7	Operation:T8 Participant_Material:T17 Solvent_Material:T18
+T9	Operation 839 844	dried
+E8	Operation:T9 Atmospheric_Material:T20
+T10	Operation 871 879	annealed
+E9	Operation:T10 
+T11	Synthesis-Apparatus 165 177	potentiostat
+T12	Material 413 426	Zn(NO3)2*4H2O
+T13	Material 440 445	water
+T14	Material-Descriptor 430 439	deionized
+T15	Material 510 514	bath
+T16	Operation 599 616	Electrodeposition
+E10	Operation:T16 
+T17	Material 797 804	samples
+T18	Material 832 837	water
+T19	Material-Descriptor 822 831	deionized
+T20	Material 850 858	nitrogen
+T21	Synthesis-Apparatus 288 295	working
+T22	Synthesis-Apparatus 302 309	counter
+T23	Synthesis-Apparatus 314 333	reference electrode
+T24	Apparatus-Descriptor 220 232	F-doped SnO2
+T25	Apparatus-Descriptor 234 237	FTO
+T26	Brand 251 257	SOLEMS
+T27	Apparatus-Descriptor 259 267	graphite
+T28	Apparatus-Descriptor 272 284	Ag/AgCl(sat)
+T29	Material 358 369	electrolyte
+T30	Number 447 451	18.2
+T31	Property-Unit 452 457	MΩ cm
+T32	Number 489 493	0.01
+T33	Amount-Unit 494 495	M
+T34	Number 499 502	0.1
+T35	Amount-Unit 503 504	M
+T36	Number 534 536	80
+T37	Condition-Unit 537 541	degC
+T38	Amount-Unit 580 582	pH
+T39	Number 594 597	4.6
+T40	Number 664 668	-0.9
+T41	Condition-Unit 669 673	V/RE
+T42	Number 678 682	-1.4
+T43	Condition-Unit 683 687	V/RE
+T44	Number 728 735	350/400
+T45	Property-Unit 736 738	nm
+T46	Property-Type 739 744	thick
+T47	Number 883 886	200
+T48	Condition-Unit 887 891	degC
+T49	Number 899 901	30
+T50	Condition-Unit 902 905	min
+T51	Condition-Misc 909 929	atmospheric pressure
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E10	
+R5	Next_Operation Arg1:E10 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E7	
+R7	Next_Operation Arg1:E7 Arg2:E8	
+R8	Next_Operation Arg1:E8 Arg2:E9	
+R9	Apparatus_Of Arg1:T11 Arg2:E1	
+R10	Apparatus_Of Arg1:T21 Arg2:E1	
+R11	Apparatus_Of Arg1:T22 Arg2:E1	
+R12	Apparatus_Of Arg1:T23 Arg2:E1	
+R13	Condition_Of Arg1:T37 Arg2:E4	
+R14	Condition_Of Arg1:T41 Arg2:E6	
+R15	Condition_Of Arg1:T43 Arg2:E6	
+R16	Condition_Of Arg1:T48 Arg2:E9	
+R17	Condition_Of Arg1:T50 Arg2:E9	
+R18	Condition_Of Arg1:T51 Arg2:E9	
+R19	Property_Of Arg1:T31 Arg2:T13	
+R20	Amount_Of Arg1:T33 Arg2:T12	
+R21	Amount_Of Arg1:T33 Arg2:T13	
+R22	Amount_Of Arg1:T35 Arg2:T12	
+R23	Amount_Of Arg1:T35 Arg2:T13	
+R24	Amount_Of Arg1:T38 Arg2:T15	
+T52	Material 745 751	layers
+R25	Property_Of Arg1:T45 Arg2:T52	
+R26	Descriptor_Of Arg1:T28 Arg2:T23	
+R27	Descriptor_Of Arg1:T27 Arg2:T22	
+R28	Descriptor_Of Arg1:T24 Arg2:T21	
+R29	Brand_Of Arg1:T26 Arg2:T21	
+R30	Descriptor_Of Arg1:T19 Arg2:T18	
+R31	Descriptor_Of Arg1:T14 Arg2:T13	
+R32	Type_Of Arg1:T46 Arg2:T45	
+R33	Number_Of Arg1:T30 Arg2:T31	
+R34	Number_Of Arg1:T32 Arg2:T33	
+R35	Number_Of Arg1:T34 Arg2:T35	
+R36	Number_Of Arg1:T36 Arg2:T37	
+R37	Number_Of Arg1:T39 Arg2:T38	
+R38	Number_Of Arg1:T40 Arg2:T41	
+R39	Number_Of Arg1:T42 Arg2:T43	
+R40	Number_Of Arg1:T44 Arg2:T45	
+R41	Number_Of Arg1:T47 Arg2:T48	
+R42	Number_Of Arg1:T49 Arg2:T50	

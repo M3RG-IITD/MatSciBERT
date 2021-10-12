@@ -1,0 +1,86 @@
+T1	Material 145 148	CaO
+T2	Operation 153 161	obtained
+E1	Operation:T2 Participant_Material:T1
+T3	Operation 165 174	calcining
+E2	Operation:T3 Recipe_Precursor:T18
+T4	Operation 288 296	selected
+E3	Operation:T4 Participant_Material:T21
+T5	Operation 377 384	weighed
+E4	Operation:T5 Participant_Material:T27
+T6	Operation 410 415	mixed
+E5	Operation:T6 
+T7	Operation 484 494	pelletized
+E6	Operation:T7 Participant_Material:T31
+T8	Operation 532 538	placed
+E7	Operation:T8 Participant_Material:T32
+T9	Number 184 187	900
+T10	Number 197 198	8
+T11	Number 404 405	2
+T12	Number 453 455	20
+T13	Number 521 524	0.2
+T14	Number 582 586	99.9
+T15	Number 589 591	10
+T16	Number 614 616	10
+T17	Brand 634 669	Mathews Industrial Products Pty Ltd
+T18	Material 175 180	CaCO3
+T19	Condition-Unit 188 192	degC
+T20	Condition-Unit 199 204	hours
+T21	Material 240 244	slag
+T22	Material-Descriptor 230 239	synthetic
+T23	Number 259 260	2
+T24	Nonrecipe-Material 324 328	slag
+T25	Material-Descriptor 310 323	blast furnace
+T26	Nonrecipe-Material 345 353	pan-stee
+T27	Material 362 371	chemicals
+T28	Synthesis-Apparatus 431 448	mortar and pestle
+T29	Apparatus-Descriptor 425 430	agate
+T30	Condition-Unit 456 459	min
+T31	Material 465 473	mixtures
+T32	Material 501 507	pellet
+T33	Amount-Unit 525 526	g
+T34	Synthesis-Apparatus 565 573	crucible
+T35	Apparatus-Descriptor 544 564	high-purity graphite
+T36	Apparatus-Property-Type 575 581	purity
+T37	Apparatus-Unit 586 587	%
+T38	Apparatus-Property-Type 601 609	diameter
+T39	Apparatus-Property-Type 595 600	inner
+T40	Apparatus-Unit 592 594	mm
+T41	Apparatus-Unit 617 619	mm
+T42	Apparatus-Property-Type 620 632	inner height
+T43	Material 45 55	perovskite
+T44	Material 60 69	anosovite
+T45	Property-Misc 70 78	crystals
+R1	Property_Of Arg1:T45 Arg2:T44	
+R2	Property_Of Arg1:T45 Arg2:T43	
+A1	Start_Recipe E1
+R3	Next_Operation Arg1:E1 Arg2:E2	
+R4	Next_Operation Arg1:E2 Arg2:E3	
+R5	Next_Operation Arg1:E3 Arg2:E5	
+R6	Next_Operation Arg1:E5 Arg2:E6	
+R7	Next_Operation Arg1:E6 Arg2:E7	
+A2	End_Recipe E7
+R8	Number_Of Arg1:T9 Arg2:T19	
+R9	Number_Of Arg1:T10 Arg2:T20	
+R10	Condition_Of Arg1:T19 Arg2:E2	
+R11	Condition_Of Arg1:T20 Arg2:E2	
+R12	Descriptor_Of Arg1:T22 Arg2:T21	
+R13	Descriptor_Of Arg1:T25 Arg2:T24	
+R14	Descriptor_Of Arg1:T29 Arg2:T28	
+R15	Apparatus_Of Arg1:T28 Arg2:E5	
+R16	Number_Of Arg1:T12 Arg2:T30	
+R17	Condition_Of Arg1:T30 Arg2:E5	
+R18	Number_Of Arg1:T13 Arg2:T33	
+R19	Amount_Of Arg1:T33 Arg2:T32	
+R20	Descriptor_Of Arg1:T35 Arg2:T34	
+R21	Apparatus_Of Arg1:T34 Arg2:E7	
+R22	Number_Of Arg1:T14 Arg2:T37	
+R23	Type_Of Arg1:T36 Arg2:T37	
+R24	Number_Of Arg1:T15 Arg2:T40	
+R25	Type_Of Arg1:T39 Arg2:T40	
+R26	Type_Of Arg1:T38 Arg2:T40	
+R27	Number_Of Arg1:T16 Arg2:T41	
+R28	Type_Of Arg1:T42 Arg2:T41	
+R29	Brand_Of Arg1:T17 Arg2:T34	
+R30	Apparatus_Attr_Of Arg1:T37 Arg2:T34	
+R31	Apparatus_Attr_Of Arg1:T40 Arg2:T34	
+R32	Apparatus_Attr_Of Arg1:T41 Arg2:T34	

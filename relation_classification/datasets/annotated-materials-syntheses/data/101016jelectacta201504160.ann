@@ -1,0 +1,61 @@
+T1	Operation 294 303	purchased
+E1	Operation:T1 Recipe_Precursor:T12 Recipe_Precursor:T14 Recipe_Precursor:T18
+T2	Operation 382 391	purchased
+E2	Operation:T2 Recipe_Precursor:T20 Recipe_Precursor:T23
+T4	Brand 309 322	Sigma-Aldrich
+T5	Brand 397 402	Fluka
+T6	Brand 477 485	Biosolve
+T7	Operation 526 535	purchased
+E3	Operation:T7 Recipe_Precursor:T28
+T8	Operation 635 643	obtained
+E4	Operation:T8 Solvent_Material:T13
+T9	Brand 700 715	Millipore Corp.
+T10	Brand 541 554	Thermo Fisher
+T11	Brand 598 613	Merck Millipore
+T12	Material 153 162	Lidocaine
+T14	Material 172 196	monoethylglycinexylidide
+T15	Material 198 202	MEGX
+T17	Nonrecipe-Material 239 248	lidocaine
+T18	Material 254 272	ammonium hydroxide
+T19	Material 274 279	NH4OH
+T20	Material 324 335	Formic acid
+T21	Material 337 342	HCOOH
+T23	Material 355 368	acetaminophen
+T25	Material 429 441	acetonitrile
+T26	Material 443 446	ACN
+T28	Material 487 507	Trifluoroacetic acid
+T29	Material 509 512	TFA
+T30	Material 560 573	sulfuric acid
+T31	Material 575 580	H2SO4
+T13	Material 625 630	water
+T16	Material-Descriptor 217 230	N-dealkylated
+T22	Material-Descriptor 407 428	ultra-pure HPLC grade
+T24	Material-Descriptor 615 624	Ultrapure
+T27	Synthesis-Apparatus 651 698	Milli-Q Advantage A10 Water Purification system
+R1	Coref_Of Arg1:T15 Arg2:T14	
+R2	Descriptor_Of Arg1:T16 Arg2:T17	
+R3	Coref_Of Arg1:T19 Arg2:T18	
+A1	Start_Recipe E1
+R4	Next_Operation Arg1:E1 Arg2:E2	
+R5	Next_Operation Arg1:E2 Arg2:E5	
+T3	Operation 462 471	purchased
+E5	Operation:T3 Recipe_Precursor:T25
+R6	Next_Operation Arg1:E5 Arg2:E3	
+R7	Next_Operation Arg1:E3 Arg2:E4	
+A2	End_Recipe E4
+R8	Brand_Of Arg1:T4 Arg2:T18	
+R9	Brand_Of Arg1:T4 Arg2:T14	
+R10	Brand_Of Arg1:T4 Arg2:T12	
+R11	Coref_Of Arg1:T21 Arg2:T20	
+R12	Brand_Of Arg1:T5 Arg2:T23	
+R13	Brand_Of Arg1:T5 Arg2:T20	
+R14	Descriptor_Of Arg1:T22 Arg2:T25	
+R15	Coref_Of Arg1:T26 Arg2:T25	
+R16	Brand_Of Arg1:T6 Arg2:T25	
+R17	Coref_Of Arg1:T29 Arg2:T28	
+R18	Brand_Of Arg1:T10 Arg2:T28	
+R19	Coref_Of Arg1:T31 Arg2:T30	
+R20	Brand_Of Arg1:T11 Arg2:T30	
+R21	Descriptor_Of Arg1:T24 Arg2:T13	
+R22	Apparatus_Of Arg1:T27 Arg2:E4	
+R23	Brand_Of Arg1:T9 Arg2:T27	

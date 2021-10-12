@@ -1,0 +1,55 @@
+T1	Operation 181 188	weighed
+E1	Operation:T1 Recipe_Precursor:T11 Recipe_Precursor:T12 Recipe_Precursor:T13
+T2	Operation 251 257	mixing
+E2	Operation:T2 
+T3	Operation 262 274	ball milling
+E3	Operation:T3 
+T4	Operation 300 305	dried
+E4	Operation:T4 Participant_Material:T16
+T5	Operation 324 330	ground
+E5	Operation:T5 
+T6	Operation 342 351	calcining
+E6	Operation:T6 
+T7	Operation 404 413	conducted
+E7	Operation:T7 
+T8	Operation 428 435	pressed
+E8	Operation:T8 
+T9	Operation 447 455	sintered
+E9	Operation:T9 Atmospheric_Material:T25
+T10	Material 227 243	BaTi0.85Sn0.15O3
+T11	Material 149 154	BaCO3
+T12	Material 156 160	SnO2
+T13	Material 165 169	TiO2
+T14	Number 279 280	1
+T15	Condition-Unit 281 282	h
+T16	Material 288 295	mixture
+T17	Number 310 312	24
+T18	Condition-Unit 313 314	h
+T19	Number 382 386	1100
+T20	Condition-Unit 387 391	degC
+T21	Number 396 397	2
+T22	Condition-Unit 398 399	h
+T23	Number 459 463	1370
+T24	Condition-Unit 464 468	degC
+T25	Material 475 478	air
+T26	Number 491 492	2
+T27	Condition-Unit 493 494	h
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E8	
+R7	Next_Operation Arg1:E8 Arg2:E9	
+R8	Condition_Of Arg1:T15 Arg2:E3	
+R9	Condition_Of Arg1:T18 Arg2:E4	
+R10	Condition_Of Arg1:T20 Arg2:E6	
+R11	Condition_Of Arg1:T22 Arg2:E6	
+R12	Condition_Of Arg1:T24 Arg2:E9	
+R13	Condition_Of Arg1:T27 Arg2:E9	
+R14	Number_Of Arg1:T14 Arg2:T15	
+R15	Number_Of Arg1:T17 Arg2:T18	
+R16	Number_Of Arg1:T19 Arg2:T20	
+R17	Number_Of Arg1:T21 Arg2:T22	
+R18	Number_Of Arg1:T23 Arg2:T24	
+R19	Number_Of Arg1:T26 Arg2:T27	

@@ -1,0 +1,278 @@
+T1	Material 68 75	carbons
+T2	Property-Misc 32 67	Biomass derived hierarchical porous
+T3	Property-Misc 96 102	anodes
+T4	Material 148 155	carbons
+T5	Property-Misc 128 147	Hierarchical porous
+T6	Operation 161 169	prepared
+E1	Operation:T6 Recipe_Target:T4
+T7	Operation 234 259	hydrothermal pretreatment
+E2	Operation:T7 
+T8	Operation 191 201	activation
+E3	Operation:T8 Participant_Material:T138
+T9	Operation 173 186	carbonization
+E4	Operation:T9 
+T10	Operation 292 298	peeled
+E5	Operation:T10 Participant_Material:T33 Participant_Material:T35
+T11	Operation 427 433	placed
+E6	Operation:T11 Solvent_Material:T41 Recipe_Precursor:T36
+T12	Operation 491 497	heated
+E7	Operation:T12 
+T13	Operation 528 534	cooled
+E8	Operation:T13 
+T14	Operation 577 586	collected
+E9	Operation:T14 Participant_Material:T53
+T15	Operation 590 600	filtration
+E10	Operation:T15 
+T16	Operation 602 608	washed
+E11	Operation:T16 Participant_Material:T54
+T17	Operation 635 640	dried
+E12	Operation:T17 
+T18	Operation 673 678	dried
+E13	Operation:T18 Participant_Material:T58
+T19	Operation 735 741	ground
+E14	Operation:T19 Participant_Material:T58 Recipe_Precursor:T56
+T20	Operation 787 793	heated
+E15	Operation:T20 Participant_Material:T65 Atmospheric_Material:T73
+T21	Operation 918 924	washed
+E16	Operation:T21 Participant_Material:T75 Participant_Material:T80 Participant_Material:T81
+T22	Operation 971 976	dried
+E17	Operation:T22 
+T23	Operation 1036 1043	denoted
+E18	Operation:T23 Participant_Material:T89 Recipe_Target:T90
+T24	Operation 1142 1153	impregnated
+E19	Operation:T24 Recipe_Precursor:T96 Solvent_Material:T99
+T25	Operation 1245 1254	collected
+E20	Operation:T25 Participant_Material:T107
+T26	Operation 1258 1268	filtration
+E21	Operation:T26 
+T27	Operation 1273 1279	drying
+E22	Operation:T27 
+T28	Operation 1301 1308	carried
+E23	Operation:T28 Atmospheric_Material:T118
+T29	Operation 1428 1434	washed
+E24	Operation:T29 Participant_Material:T121 Participant_Material:T125 Participant_Material:T127
+T30	Operation 1481 1486	dried
+E25	Operation:T30 
+T31	Operation 1545 1552	labeled
+E26	Operation:T31 Participant_Material:T133 Recipe_Target:T134
+T32	Brand 329 353	Shandong region of China
+T33	Material 274 286	peanut skins
+T34	Material-Descriptor 265 273	employed
+T35	Nonrecipe-Material 308 315	peanuts
+T36	Material 375 386	peanut skin
+T37	Number 366 369	2.0
+T38	Amount-Unit 370 371	g
+T39	Number 391 393	50
+T40	Amount-Unit 394 396	mL
+T41	Material 408 421	sulfuric acid
+T42	Material-Descriptor 400 407	diluted
+T43	Number 439 442	100
+T44	Apparatus-Unit 443 445	mL
+T45	Synthesis-Apparatus 462 471	autoclave
+T46	Apparatus-Descriptor 446 461	stainless steel
+T47	Synthesis-Apparatus 477 486	autoclave
+T48	Number 501 504	180
+T49	Condition-Unit 505 509	degC
+T50	Number 514 516	24
+T51	Condition-Unit 517 518	h
+T52	Condition-Misc 540 549	naturally
+T53	Material 565 572	biochar
+T54	Material 624 629	water
+T55	Material-Descriptor 614 623	distilled
+T56	Material 664 667	KOH
+T57	Material-Descriptor 646 662	activation agent
+T58	Material 679 686	biochar
+T59	Amount-Unit 693 703	mass ratio
+T60	Number 707 710	1:1
+T61	Number 714 717	2:1
+T62	Condition-Misc 724 734	thoroughly
+T63	Synthesis-Apparatus 754 760	mortar
+T64	Apparatus-Descriptor 748 753	agate
+T65	Material 775 782	mixture
+T66	Number 797 800	800
+T67	Condition-Unit 801 805	degC
+T68	Condition-Type 813 825	heating rate
+T69	Number 829 830	5
+T70	Condition-Unit 831 841	degC min-1
+T71	Number 846 847	1
+T72	Condition-Unit 848 849	h
+T73	Material 856 861	argon
+T74	Condition-Type 862 866	flow
+T75	Material 894 901	samples
+T77	Condition-Misc 907 917	thoroughly
+T78	Number 930 931	2
+T79	Amount-Unit 932 933	M
+T80	Material 934 937	HCl
+T81	Material 952 957	water
+T82	Material-Descriptor 942 951	distilled
+T83	Synthesis-Apparatus 983 987	oven
+T84	Number 991 994	100
+T85	Condition-Unit 995 999	degC
+T86	Number 1004 1006	12
+T87	Condition-Unit 1007 1008	h
+T88	Operation 1014 1022	obtained
+E27	Operation:T88 Participant_Material:T89
+T89	Material 1023 1030	carbons
+T90	Material 1047 1054	HPC-1-n
+T91	Nonrecipe-Material 1079 1082	KOH
+T92	Nonrecipe-Material 1086 1093	biochar
+T93	Amount-Unit 1094 1104	mass ratio
+T94	Number 1117 1120	1.0
+T95	Amount-Unit 1121 1122	g
+T96	Material 1126 1137	peanut skin
+T97	Number 1157 1159	50
+T98	Amount-Unit 1160 1162	mL
+T99	Material 1163 1166	KOH
+T100	Material-Descriptor 1167 1175	solution
+T101	Number 1177 1178	2
+T102	Number 1184 1185	4
+T103	Amount-Unit 1179 1180	M
+T104	Amount-Unit 1186 1187	M
+T105	Number 1193 1194	2
+T106	Condition-Unit 1195 1199	days
+T107	Material 1217 1232	peanut skin-KOH
+T108	Material-Descriptor 1233 1240	mixture
+T109	Operation 1281 1291	Activation
+E28	Operation:T109 
+T110	Synthesis-Apparatus 1326 1333	furnace
+T111	Apparatus-Descriptor 1318 1325	tubular
+T112	Number 1337 1340	800
+T113	Condition-Unit 1341 1345	degC
+T114	Number 1347 1348	5
+T115	Condition-Unit 1349 1359	degC min-1
+T116	Number 1365 1366	1
+T117	Condition-Unit 1367 1368	h
+T118	Material 1375 1380	argon
+T119	Condition-Type 1381 1385	flow
+T120	Operation 1391 1400	activated
+E29	Operation:T120 Participant_Material:T121
+T76	Operation 884 893	activated
+E30	Operation:T76 Participant_Material:T75
+T121	Material 1401 1407	sample
+T122	Condition-Misc 1417 1427	thoroughly
+T123	Number 1440 1441	2
+T124	Amount-Unit 1442 1443	M
+T125	Material 1444 1447	HCl
+T126	Material-Descriptor 1452 1461	distilled
+T127	Material 1462 1467	water
+T128	Synthesis-Apparatus 1493 1497	oven
+T129	Number 1501 1504	100
+T130	Condition-Unit 1505 1509	degC
+T131	Number 1514 1516	12
+T132	Condition-Unit 1517 1518	h
+T133	Material 1534 1540	carbon
+T134	Material 1556 1563	HPC-2-m
+T135	Nonrecipe-Material 1605 1608	KOH
+T136	Material-Descriptor 1609 1617	solution
+R1	Property_Of Arg1:T2 Arg2:T1	
+R2	Property_Of Arg1:T3 Arg2:T1	
+A1	Start_Recipe E1
+R3	Next_Operation Arg1:E1 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E3	
+R5	Next_Operation Arg1:E3 Arg2:E2	
+T137	Condition-Misc 226 233	without
+T138	Material 205 216	peanut skin
+R6	Next_Operation Arg1:E2 Arg2:E5	
+R7	Next_Operation Arg1:E5 Arg2:E6	
+R8	Next_Operation Arg1:E6 Arg2:E7	
+R9	Next_Operation Arg1:E7 Arg2:E8	
+R10	Next_Operation Arg1:E8 Arg2:E9	
+R11	Next_Operation Arg1:E9 Arg2:E10	
+R12	Next_Operation Arg1:E10 Arg2:E11	
+R13	Next_Operation Arg1:E11 Arg2:E12	
+R14	Next_Operation Arg1:E12 Arg2:E13	
+R15	Next_Operation Arg1:E13 Arg2:E14	
+R16	Next_Operation Arg1:E14 Arg2:E15	
+R17	Next_Operation Arg1:E15 Arg2:E30	
+R18	Next_Operation Arg1:E30 Arg2:E16	
+R19	Next_Operation Arg1:E16 Arg2:E17	
+R20	Next_Operation Arg1:E17 Arg2:E27	
+R21	Next_Operation Arg1:E27 Arg2:E18	
+A2	End_Recipe E18
+A3	Start_Recipe E19
+R22	Next_Operation Arg1:E19 Arg2:E20	
+R23	Next_Operation Arg1:E20 Arg2:E21	
+R24	Next_Operation Arg1:E21 Arg2:E22	
+R25	Next_Operation Arg1:E22 Arg2:E28	
+R26	Next_Operation Arg1:E28 Arg2:E23	
+R27	Next_Operation Arg1:E23 Arg2:E29	
+R28	Next_Operation Arg1:E29 Arg2:E24	
+R29	Next_Operation Arg1:E24 Arg2:E25	
+R30	Next_Operation Arg1:E25 Arg2:E26	
+A4	End_Recipe E26
+R31	Property_Of Arg1:T5 Arg2:T4	
+R32	Condition_Of Arg1:T137 Arg2:E2	
+R33	Descriptor_Of Arg1:T34 Arg2:T33	
+R34	Brand_Of Arg1:T32 Arg2:T35	
+R35	Number_Of Arg1:T37 Arg2:T38	
+R36	Amount_Of Arg1:T38 Arg2:T36	
+R37	Number_Of Arg1:T39 Arg2:T40	
+R38	Descriptor_Of Arg1:T42 Arg2:T41	
+R39	Amount_Of Arg1:T40 Arg2:T41	
+R40	Number_Of Arg1:T43 Arg2:T44	
+R41	Apparatus_Attr_Of Arg1:T44 Arg2:T45	
+R42	Descriptor_Of Arg1:T46 Arg2:T45	
+R43	Apparatus_Of Arg1:T45 Arg2:E6	
+R44	Apparatus_Of Arg1:T47 Arg2:E7	
+R45	Number_Of Arg1:T48 Arg2:T49	
+R46	Condition_Of Arg1:T49 Arg2:E7	
+R47	Number_Of Arg1:T50 Arg2:T51	
+R48	Condition_Of Arg1:T51 Arg2:E7	
+R49	Condition_Of Arg1:T52 Arg2:E8	
+R50	Descriptor_Of Arg1:T55 Arg2:T54	
+R51	Descriptor_Of Arg1:T57 Arg2:T56	
+R52	Number_Of Arg1:T60 Arg2:T59	
+R53	Number_Of Arg1:T61 Arg2:T59	
+R54	Amount_Of Arg1:T59 Arg2:T58	
+R55	Amount_Of Arg1:T59 Arg2:T56	
+R56	Condition_Of Arg1:T62 Arg2:E14	
+R57	Descriptor_Of Arg1:T64 Arg2:T63	
+R58	Apparatus_Of Arg1:T63 Arg2:E14	
+R59	Number_Of Arg1:T66 Arg2:T67	
+R60	Condition_Of Arg1:T67 Arg2:E15	
+R61	Type_Of Arg1:T68 Arg2:T70	
+R62	Number_Of Arg1:T69 Arg2:T70	
+R63	Condition_Of Arg1:T70 Arg2:E15	
+R64	Number_Of Arg1:T71 Arg2:T72	
+R65	Condition_Of Arg1:T72 Arg2:E15	
+R66	Condition_Of Arg1:T77 Arg2:E16	
+R67	Number_Of Arg1:T78 Arg2:T79	
+R68	Amount_Of Arg1:T79 Arg2:T80	
+R69	Descriptor_Of Arg1:T82 Arg2:T81	
+R70	Apparatus_Of Arg1:T83 Arg2:E17	
+R71	Number_Of Arg1:T84 Arg2:T85	
+R72	Condition_Of Arg1:T85 Arg2:E17	
+R73	Number_Of Arg1:T86 Arg2:T87	
+R74	Condition_Of Arg1:T87 Arg2:E17	
+R75	Amount_Of Arg1:T93 Arg2:T92	
+R76	Amount_Of Arg1:T93 Arg2:T91	
+R77	Number_Of Arg1:T94 Arg2:T95	
+R78	Amount_Of Arg1:T95 Arg2:T96	
+R79	Number_Of Arg1:T97 Arg2:T98	
+R80	Amount_Of Arg1:T98 Arg2:T99	
+R81	Descriptor_Of Arg1:T100 Arg2:T99	
+R82	Number_Of Arg1:T101 Arg2:T103	
+R83	Number_Of Arg1:T102 Arg2:T104	
+R84	Amount_Of Arg1:T103 Arg2:T99	
+R85	Amount_Of Arg1:T104 Arg2:T99	
+R86	Number_Of Arg1:T105 Arg2:T106	
+R87	Condition_Of Arg1:T106 Arg2:E19	
+R88	Descriptor_Of Arg1:T108 Arg2:T107	
+R89	Descriptor_Of Arg1:T111 Arg2:T110	
+R90	Apparatus_Of Arg1:T110 Arg2:E23	
+R91	Number_Of Arg1:T112 Arg2:T113	
+R92	Number_Of Arg1:T114 Arg2:T115	
+R93	Condition_Of Arg1:T113 Arg2:E23	
+R94	Condition_Of Arg1:T115 Arg2:E23	
+R95	Number_Of Arg1:T116 Arg2:T117	
+R96	Condition_Of Arg1:T117 Arg2:E23	
+R97	Condition_Of Arg1:T122 Arg2:E24	
+R98	Number_Of Arg1:T123 Arg2:T124	
+R99	Amount_Of Arg1:T124 Arg2:T125	
+R100	Descriptor_Of Arg1:T126 Arg2:T127	
+R101	Apparatus_Of Arg1:T128 Arg2:E25	
+R102	Number_Of Arg1:T129 Arg2:T130	
+R103	Condition_Of Arg1:T130 Arg2:E25	
+R104	Number_Of Arg1:T131 Arg2:T132	
+R105	Condition_Of Arg1:T132 Arg2:E25	
+R106	Descriptor_Of Arg1:T136 Arg2:T135	

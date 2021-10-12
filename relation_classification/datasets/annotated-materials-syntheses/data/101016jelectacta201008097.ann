@@ -1,0 +1,103 @@
+T1	Operation 239 247	supplied
+E1	Operation:T1 Recipe_Precursor:T5
+T2	Operation 608 616	prepared
+E2	Operation:T2 Participant_Material:T26 Solvent_Material:T27
+T3	Operation 633 641	obtained
+E3	Operation:T3 
+T4	Operation 779 783	used
+E4	Operation:T4 Participant_Material:T29 Participant_Material:T28
+T5	Material 195 220	Propranolol hydrochloride
+T6	Number 224 226	99
+T7	Number 693 694	1
+T8	Number 721 723	18
+T9	Number 733 735	25
+T10	Brand 270 288	AstraZeneca Espana
+T11	Brand 343 360	BDH Chemical Ltd.
+T12	Brand 407 414	Aldrich
+T13	Brand 467 474	Panreac
+T14	Brand 576 591	Merck and Fluka
+T15	Brand 826 831	Merck
+T16	Brand 833 838	Fluka
+T17	Brand 840 847	Panreac
+T18	Brand 852 859	Aldrich
+T19	Material 306 316	1-Naphthol
+T20	Material 365 378	phthalic acid
+T21	Material 427 439	oxalic acids
+T22	Material 416 422	Oxamic
+T23	Material 476 489	Sulfuric acid
+T24	Material 491 515	anhydrous sodium sulfate
+T25	Material 520 548	ferrous sulfate heptahydrate
+T26	Material 593 602	Solutions
+T27	Material 627 632	water
+T28	Material 750 758	solvents
+T29	Material 769 778	chemicals
+T30	Amount-Unit 226 227	%
+T31	Apparatus-Unit 695 702	μg dm-3
+T32	Apparatus-Unit 724 729	MΩ cm
+T33	Apparatus-Unit 736 740	degC
+T34	Amount-Misc 228 234	purity
+T35	Material-Descriptor 321 337	reactive reagent
+T36	Amount-Misc 383 401	analytical reagent
+T37	Amount-Misc 445 461	analytical grade
+T38	Amount-Misc 554 570	analytical grade
+T39	Material-Descriptor 622 626	pure
+T40	Synthesis-Apparatus 649 666	Millipore Milli-Q
+T41	Apparatus-Property-Type 679 690	TOC content
+T42	Material-Descriptor 742 749	Organic
+T43	Amount-Misc 804 820	analytical grade
+T44	Amount-Misc 796 800	HPLC
+T45	Meta 79 123	electrochemical advanced oxidation processes
+T46	Material 181 188	diamond
+T47	Property-Misc 169 180	boron-doped
+T48	Property-Misc 189 194	anode
+R1	Property_Of Arg1:T47 Arg2:T46	
+R2	Property_Of Arg1:T48 Arg2:T46	
+A1	Start_Recipe E1
+R3	Next_Operation Arg1:E1 Arg2:E2	
+R4	Next_Operation Arg1:E2 Arg2:E3	
+R5	Next_Operation Arg1:E3 Arg2:E4	
+A2	End_Recipe E4
+R6	Number_Of Arg1:T6 Arg2:T30	
+R7	Amount_Of Arg1:T30 Arg2:T5	
+R8	Amount_Of Arg1:T34 Arg2:T5	
+R9	Brand_Of Arg1:T10 Arg2:T5	
+R10	Descriptor_Of Arg1:T35 Arg2:T19	
+R11	Brand_Of Arg1:T11 Arg2:T19	
+R12	Amount_Of Arg1:T36 Arg2:T20	
+R13	Amount_Of Arg1:T36 Arg2:T19	
+R14	Brand_Of Arg1:T12 Arg2:T20	
+R15	Brand_Of Arg1:T12 Arg2:T19	
+R16	Amount_Of Arg1:T37 Arg2:T21	
+R17	Amount_Of Arg1:T37 Arg2:T22	
+R18	Brand_Of Arg1:T13 Arg2:T21	
+R19	Brand_Of Arg1:T13 Arg2:T22	
+R20	Amount_Of Arg1:T38 Arg2:T25	
+R21	Amount_Of Arg1:T38 Arg2:T24	
+R22	Amount_Of Arg1:T38 Arg2:T23	
+R23	Brand_Of Arg1:T14 Arg2:T25	
+R24	Brand_Of Arg1:T14 Arg2:T24	
+R25	Brand_Of Arg1:T14 Arg2:T23	
+R26	Descriptor_Of Arg1:T39 Arg2:T27	
+R27	Apparatus_Of Arg1:T40 Arg2:E3	
+R28	Number_Of Arg1:T7 Arg2:T31	
+R29	Number_Of Arg1:T8 Arg2:T32	
+T49	Apparatus-Property-Type 707 718	resistivity
+R30	Type_Of Arg1:T49 Arg2:T32	
+R31	Type_Of Arg1:T41 Arg2:T31	
+R32	Number_Of Arg1:T9 Arg2:T33	
+R33	Apparatus_Attr_Of Arg1:T33 Arg2:T40	
+R34	Apparatus_Attr_Of Arg1:T32 Arg2:T40	
+R35	Apparatus_Attr_Of Arg1:T31 Arg2:T40	
+R36	Descriptor_Of Arg1:T42 Arg2:T28	
+R37	Amount_Of Arg1:T44 Arg2:T28	
+R38	Amount_Of Arg1:T43 Arg2:T28	
+R39	Amount_Of Arg1:T43 Arg2:T29	
+R40	Amount_Of Arg1:T43 Arg2:T29	
+R41	Brand_Of Arg1:T15 Arg2:T29	
+R42	Brand_Of Arg1:T15 Arg2:T28	
+R43	Brand_Of Arg1:T16 Arg2:T28	
+R44	Brand_Of Arg1:T16 Arg2:T29	
+R45	Brand_Of Arg1:T17 Arg2:T28	
+R46	Brand_Of Arg1:T17 Arg2:T29	
+R47	Brand_Of Arg1:T18 Arg2:T28	
+R48	Brand_Of Arg1:T18 Arg2:T29	

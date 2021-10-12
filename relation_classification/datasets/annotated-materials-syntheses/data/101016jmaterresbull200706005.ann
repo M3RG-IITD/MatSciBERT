@@ -1,0 +1,121 @@
+T1	Operation 192 200	prepared
+E1	Operation:T1 Recipe_Target:T11 Participant_Material:T12
+T2	Operation 325 329	made
+E2	Operation:T2 Participant_Material:T16 Participant_Material:T17 Participant_Material:T18 Recipe_Precursor:T19 Recipe_Precursor:T20 Participant_Material:T21
+T3	Operation 514 522	dissolve
+E3	Operation:T3 Recipe_Precursor:T15 Recipe_Precursor:T22 Solvent_Material:T23
+T4	Operation 639 643	pour
+E4	Operation:T4 Participant_Material:T24 Participant_Material:T25 Participant_Material:T26 Solvent_Material:T27
+T5	Operation 717 725	stirring
+E5	Operation:T5 
+T6	Operation 779 784	added
+E6	Operation:T6 Participant_Material:T28
+T7	Operation 835 842	heating
+E7	Operation:T7 Participant_Material:T29
+T8	Operation 956 961	dried
+E8	Operation:T8 Participant_Material:T32
+T9	Operation 1027 1033	heated
+E9	Operation:T9 Participant_Material:T33 Atmospheric_Material:T34
+T10	Material 85 93	La2Mo2O9
+T11	Material 172 180	La2Mo2O9
+T12	Material 243 256	polyacrylates
+T13	Nonrecipe-Material 260 262	La
+T14	Nonrecipe-Material 267 269	Mo
+T16	Material 311 320	precursor
+T17	Material 368 376	solution
+T18	Material 380 392	acrylic acid
+T19	Material 408 416	La(NO3)3
+T20	Material 421 433	(NH4)6Mo7O24
+T21	Material 439 448	(NH4)S2O8
+T15	Material 552 565	La(NO3)3*6H2O
+T22	Material 570 587	(NH4)6Mo7O24*4H2O
+T23	Material 608 613	water
+T24	Material 627 635	solution
+T25	Material 651 663	acrylic acid
+T26	Material 674 686	acrylic acid
+T27	Material 687 690	H2O
+T28	Material 756 765	(NH4)S2O8
+T29	Material 875 888	polyacrylates
+T30	Nonrecipe-Material 892 894	La
+T31	Nonrecipe-Material 899 901	Mo
+T32	Material 937 950	polyacrylates
+T33	Material 1005 1014	precursor
+T34	Material 1057 1060	air
+T35	Material 1161 1180	lanthanum molybdate
+T36	Number 692 697	70:30
+T37	Amount-Unit 698 701	wt%
+T38	Number 753 754	5
+T39	Amount-Unit 754 755	%
+T40	Number 847 849	80
+T41	Condition-Unit 850 854	degC
+T42	Number 965 968	120
+T43	Condition-Unit 969 973	degC
+T44	Number 978 981	1-2
+T45	Condition-Unit 982 983	h
+T46	Number 1037 1040	520
+T47	Condition-Unit 1041 1045	degC
+T48	Number 1050 1051	5
+T49	Condition-Unit 1052 1053	h
+T50	Number 1084 1085	5
+T51	Condition-Unit 1086 1094	degC/min
+T52	Property-Misc 69 84	nanocrystalline
+T53	Property-Misc 156 171	Nanocrystalline
+T54	Property-Misc 181 187	powder
+T55	Material-Descriptor 277 295	precursor compound
+T56	Material-Descriptor 301 310	polymeric
+T57	Meta 125 154	in-situ polymerization method
+T58	Meta 207 236	in situ polymerization method
+T59	Meta 333 356	solution polymerization
+T60	Material-Descriptor 360 367	aqueous
+T61	Material-Descriptor 456 465	initiator
+T62	Amount-Misc 527 548	stoichiometric amount
+T63	Material-Descriptor 591 607	triple distilled
+T64	Material-Descriptor 664 672	solution
+T65	Amount-Misc 737 749	small amount
+T66	Material-Descriptor 766 774	solution
+T67	Material-Descriptor 788 797	initiator
+T68	Material-Descriptor 989 1004	dried polymeric
+T69	Property-Misc 1145 1160	nanocrystalline
+T70	Property-Misc 1181 1187	powder
+R1	Next_Operation Arg1:E3 Arg2:E4	
+R2	Next_Operation Arg1:E4 Arg2:E5	
+R3	Next_Operation Arg1:E5 Arg2:E6	
+R4	Next_Operation Arg1:E6 Arg2:E7	
+R5	Next_Operation Arg1:E7 Arg2:E8	
+R6	Next_Operation Arg1:E8 Arg2:E9	
+R7	Condition_Of Arg1:T41 Arg2:E7	
+R8	Condition_Of Arg1:T43 Arg2:E8	
+R9	Condition_Of Arg1:T45 Arg2:E8	
+R10	Condition_Of Arg1:T47 Arg2:E9	
+R11	Condition_Of Arg1:T49 Arg2:E9	
+R12	Condition_Of Arg1:T51 Arg2:E9	
+T71	Condition-Type 1068 1080	heating rate
+R13	Type_Of Arg1:T71 Arg2:T51	
+R14	Property_Of Arg1:T52 Arg2:T10	
+R15	Property_Of Arg1:T53 Arg2:T11	
+R16	Property_Of Arg1:T54 Arg2:T11	
+R17	Amount_Of Arg1:T62 Arg2:T15	
+R18	Amount_Of Arg1:T62 Arg2:T22	
+R19	Amount_Of Arg1:T37 Arg2:T26	
+R20	Amount_Of Arg1:T37 Arg2:T27	
+R21	Number_Of Arg1:T36 Arg2:T37	
+R22	Amount_Of Arg1:T65 Arg2:T28	
+R23	Amount_Of Arg1:T39 Arg2:T28	
+R24	Property_Of Arg1:T69 Arg2:T35	
+R25	Property_Of Arg1:T70 Arg2:T35	
+R26	Descriptor_Of Arg1:T55 Arg2:T12	
+R27	Descriptor_Of Arg1:T56 Arg2:T16	
+R28	Descriptor_Of Arg1:T60 Arg2:T17	
+R29	Descriptor_Of Arg1:T61 Arg2:T21	
+R30	Descriptor_Of Arg1:T63 Arg2:T23	
+R31	Descriptor_Of Arg1:T64 Arg2:T25	
+R32	Descriptor_Of Arg1:T66 Arg2:T28	
+R33	Descriptor_Of Arg1:T67 Arg2:T28	
+R34	Descriptor_Of Arg1:T68 Arg2:T33	
+R35	Number_Of Arg1:T38 Arg2:T39	
+R36	Number_Of Arg1:T40 Arg2:T41	
+R37	Number_Of Arg1:T42 Arg2:T43	
+R38	Number_Of Arg1:T44 Arg2:T45	
+R39	Number_Of Arg1:T46 Arg2:T47	
+R40	Number_Of Arg1:T48 Arg2:T49	
+R41	Number_Of Arg1:T50 Arg2:T51	

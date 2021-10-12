@@ -1,0 +1,5 @@
+10.1016/j.electacta.2014.08.103
+Facile synthesis of heterogeneous Ni-Si@C nanocomposites as high-performance anodes for Li-ion batteries
+
+Before the electrical pulse process with Ni wire, Si nanoparticles (0.2, 0.6, and 0.8 g) were first dispersed in 700 mL of OA, and the Si nanoparticles-dispersed suspension was sonicated for 1 h. Then, the electrical wire explosion (NTi-mini P, Nano Tech, Korea) was conducted at a feeding distance of 40 mm and a charge voltage of 320 V in the Si nanoparticles-dispersed suspension. After completing the electrical pulse treatment with Ni wire, the obtained brownish Ni-Si nanocolloidal suspension was sonicated and filtered through a nylon membrane (Durapore, 0.22 mm, Millipore) several times and subsequently dried at 120 degC for 10 h. Finally, the carbon-coated Ni-Si nanocomposites were obtained via carbonization process (heat-treatment) carried out at 500 degC for 5 h in an Ar atmosphere. For comparison, bare Ni nanoparticles were also prepared using the electrical pulse process under the same conditions in a pure OA without any dispersed Si nanoparticles.
+

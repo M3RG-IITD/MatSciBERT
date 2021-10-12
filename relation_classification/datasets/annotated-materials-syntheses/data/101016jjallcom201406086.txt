@@ -1,0 +1,5 @@
+10.1016/j.jallcom.2014.06.086
+Solvothermal synthesis and electrochemical performance of Li2MnSiO4/C cathode materials for lithium ion batteries
+
+Li2MnSiO4/C with Ni2+ doping was prepared via the solvothermal method by using starch as the carbon source. Firstly, C19H42BrN (0.1 mmol, Aladdin, 99%) was dissolved in methanol (45 ml). Secondly, C2H3O2Li*2H2O (Aladdin, 99%), MnC4H6O4*4H2O (Aladdin, 99%), Si (OC2H5)4 (Aladdin, 99%) and NiC4H6O4*4H2O (Aladdin, 99%) were added into the above solution with the molar ratio of 2.2:0.95:1:0.05. Finally, glacial acetic acid (1.5 mL) was added as a catalyst. After stirring for 6 h, the homogeneous solution was loaded into a 100 ml Teflon-lined autoclave and maintained at 120 degC for 20 h. The jelly-like product was dried at 60 degC 12 h in a vacuum. The obtained precursor was thoroughly ground and mixed with starch suspension with a weight ratio of Li2MnSiO4:C of 2:1. After stirring at 40 degC for 5 h, the mixture was dried at 60 degC for 12 h. The dried product was heat treated at 450 degC for 2 h and then 700 degC for 10 h in Ar (95%)/H2 (5%) atmosphere to obtain Li2MnSiO4 with carbon coating and Ni2+ doping.
+

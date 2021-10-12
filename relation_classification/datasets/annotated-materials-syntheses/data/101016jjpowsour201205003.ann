@@ -1,0 +1,123 @@
+T1	Operation 590 601	synthesized
+E1	Operation:T1 Participant_Material:T16 Recipe_Precursor:T18 Participant_Material:T19
+T2	Operation 668 676	followed
+E2	Operation:T2 
+T3	Operation 680 691	calcination
+E3	Operation:T3 Atmospheric_Material:T20
+T4	Operation 752 760	prepared
+E4	Operation:T4 Participant_Material:T23 Recipe_Target:T22
+T5	Operation 769 778	reduction
+E5	Operation:T5 Recipe_Precursor:T26 Participant_Material:T27
+T6	Operation 845 854	dispersed
+E6	Operation:T6 Recipe_Precursor:T28 Solvent_Material:T29
+T7	Operation 876 886	sonication
+E7	Operation:T7 
+T8	Operation 934 939	added
+E8	Operation:T8 Recipe_Precursor:T30
+T9	Operation 961 968	stirred
+E9	Operation:T9 Participant_Material:T31
+T10	Operation 1033 1038	added
+E10	Operation:T10 Participant_Material:T32 Participant_Material:T33
+T11	Operation 1066 1074	followed
+E11	Operation:T11 
+T12	Operation 1078 1086	stirring
+E12	Operation:T12 
+T13	Operation 1134 1142	filtered
+E13	Operation:T13 
+T14	Operation 1144 1150	washed
+E14	Operation:T14 Solvent_Material:T34 Solvent_Material:T35
+T15	Operation 1179 1191	vacuum-dried
+E15	Operation:T15 
+T16	Material 568 572	SnO2
+T17	Meta 605 626	hydrothermal reaction
+T18	Material 630 636	K2SnO3
+T19	Material 651 658	glucose
+T20	Material 707 710	air
+T21	Reference 711 715	[18]
+T22	Material 736 738	Pd
+T23	Material 721 725	SnO2
+T24	Property-Misc 726 735	supported
+T25	Property-Misc 739 747	catalyst
+T26	Material 782 790	Na2PdCl4
+T27	Material 796 801	NaBH4
+T28	Material 836 840	SnO2
+T29	Material 867 872	water
+T30	Material 902 910	Na2PdCl4
+T31	Material 949 956	mixture
+T32	Material 1006 1011	NaBH4
+T33	Material 1046 1054	solution
+T34	Material 1156 1161	water
+T35	Material 1166 1173	ethanol
+T36	Material-Descriptor 573 584	nanospheres
+T37	Material-Descriptor 643 650	aqueous
+T38	Material-Descriptor 659 667	solution
+T39	Number 695 698	400
+T40	Condition-Unit 699 703	degC
+T41	Number 827 829	50
+T42	Amount-Unit 830 832	mg
+T43	Number 858 860	50
+T44	Amount-Unit 861 863	mL
+T45	Number 894 895	2
+T46	Amount-Unit 896 898	mL
+T47	Material-Descriptor 911 919	solution
+T48	Number 921 925	0.06
+T49	Amount-Unit 926 928	mM
+T50	Number 973 974	1
+T51	Condition-Unit 975 976	h
+T52	Number 997 999	10
+T53	Amount-Unit 1000 1002	mL
+T54	Material-Descriptor 1012 1020	solution
+T55	Number 1022 1025	0.1
+T56	Amount-Unit 1026 1027	M
+T57	Number 1058 1059	0
+T58	Condition-Unit 1060 1064	degC
+T59	Condition-Misc 1090 1106	room temperature
+T60	Condition-Misc 1107 1116	overnight
+T61	Number 1195 1197	70
+T62	Condition-Unit 1198 1202	degC
+T63	Number 1207 1208	6
+T64	Condition-Unit 1209 1210	h
+R1	Next_Operation Arg1:E6 Arg2:E7	
+R2	Next_Operation Arg1:E7 Arg2:E8	
+R3	Next_Operation Arg1:E8 Arg2:E9	
+R4	Next_Operation Arg1:E9 Arg2:E10	
+R5	Next_Operation Arg1:E10 Arg2:E11	
+R6	Next_Operation Arg1:E11 Arg2:E12	
+R7	Next_Operation Arg1:E12 Arg2:E13	
+R8	Next_Operation Arg1:E13 Arg2:E14	
+R9	Next_Operation Arg1:E14 Arg2:E15	
+R10	Condition_Of Arg1:T51 Arg2:E9	
+R11	Condition_Of Arg1:T58 Arg2:E10	
+R12	Condition_Of Arg1:T59 Arg2:E12	
+R13	Condition_Of Arg1:T60 Arg2:E12	
+R14	Condition_Of Arg1:T40 Arg2:E3	
+R15	Next_Operation Arg1:E1 Arg2:E2	
+R16	Next_Operation Arg1:E2 Arg2:E3	
+R17	Next_Operation Arg1:E4 Arg2:E5	
+R18	Condition_Of Arg1:T62 Arg2:E15	
+R19	Condition_Of Arg1:T64 Arg2:E15	
+R20	Property_Of Arg1:T24 Arg2:T23	
+R21	Property_Of Arg1:T24 Arg2:T22	
+R22	Property_Of Arg1:T25 Arg2:T22	
+R23	Amount_Of Arg1:T42 Arg2:T28	
+R24	Amount_Of Arg1:T44 Arg2:T29	
+R25	Amount_Of Arg1:T46 Arg2:T30	
+R26	Amount_Of Arg1:T49 Arg2:T30	
+R27	Amount_Of Arg1:T53 Arg2:T32	
+R28	Amount_Of Arg1:T56 Arg2:T32	
+R29	Descriptor_Of Arg1:T36 Arg2:T16	
+R30	Descriptor_Of Arg1:T37 Arg2:T19	
+R31	Descriptor_Of Arg1:T38 Arg2:T19	
+R32	Descriptor_Of Arg1:T47 Arg2:T30	
+R33	Descriptor_Of Arg1:T54 Arg2:T32	
+R34	Number_Of Arg1:T39 Arg2:T40	
+R35	Number_Of Arg1:T41 Arg2:T42	
+R36	Number_Of Arg1:T43 Arg2:T44	
+R37	Number_Of Arg1:T45 Arg2:T46	
+R38	Number_Of Arg1:T48 Arg2:T49	
+R39	Number_Of Arg1:T50 Arg2:T51	
+R40	Number_Of Arg1:T52 Arg2:T53	
+R41	Number_Of Arg1:T55 Arg2:T56	
+R42	Number_Of Arg1:T57 Arg2:T58	
+R43	Number_Of Arg1:T61 Arg2:T62	
+R44	Number_Of Arg1:T63 Arg2:T64	

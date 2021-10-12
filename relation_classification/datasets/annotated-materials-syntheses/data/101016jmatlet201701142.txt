@@ -1,0 +1,3 @@
+10.1016/j.matlet.2017.01.142
+Template synthesis of Zn2TiO4 and Zn2Ti3O8 nanorods by hydrothermal-calcination combined processes
+0.200 mol Zn(NO3)2*6H2O and 0.015 mol La(NO3)3*6H2O were dissolved in 100 ml de-ionized water. NH4OH solution was slowly added until the pH was 10. Then 0.100 mol and 0.300 mol C4K2O9Ti*2H2O in 100 ml de-ionized water each were slowly added to the transparency solutions with keeping the pH at 10 throughout the process. These solutions were hydrothermally processed at 120 degC for 12 h. The samples were calcined at 750 degC for 5 h for further characterization.

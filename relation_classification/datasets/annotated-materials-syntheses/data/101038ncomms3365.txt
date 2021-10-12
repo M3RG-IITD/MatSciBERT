@@ -1,0 +1,3 @@
+10.1038/ncomms3365
+A zero-strain layered metal oxide as the negative electrode for long-life sodium-ion batteries
+The resulting material was prepared by a solid-state reaction using precursors of Li2CO3 (99%), Na2CO3 (99%) and TiO2 (99.5%, anatase form). A phase-pure compound was obtained when an excess of 2 mol% Li2CO3 and Na2CO3 was used. The starting materials were ground in an agate mortar and pressed into pellets under pressure of 20 MPa. Then the pellets were heated at 1000 degC for 24 h in an alumina crucible.

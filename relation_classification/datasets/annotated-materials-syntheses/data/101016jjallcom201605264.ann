@@ -1,0 +1,125 @@
+T1	Operation 249 258	dissolved
+E1	Operation:T1 Participant_Material:T14 Recipe_Precursor:T15 Solvent_Material:T16
+T2	Operation 307 318	homogenized
+E2	Operation:T2 Participant_Material:T17
+T3	Operation 331 339	stirring
+E3	Operation:T3 
+T4	Operation 347 355	stirring
+E4	Operation:T4 
+T5	Operation 394 405	transferred
+E5	Operation:T5 Participant_Material:T18
+T6	Operation 441 449	followed
+E6	Operation:T6 
+T7	Operation 453 475	hydrothermal treatment
+E7	Operation:T7 
+T8	Operation 525 531	washed
+E8	Operation:T8 Participant_Material:T20
+T9	Operation 536 544	filtered
+E9	Operation:T9 Solvent_Material:T21 Solvent_Material:T22
+T10	Operation 622 627	dried
+E10	Operation:T10 
+T11	Operation 701 710	subjected
+E11	Operation:T11 Participant_Material:T24
+T12	Operation 714 723	annealing
+E12	Operation:T12 Atmospheric_Material:T25
+T13	Material 153 156	NiO
+T14	Material 207 216	d-glucose
+T15	Material 230 243	Ni(NO3)2*6H2O
+T16	Material 277 282	water
+T17	Material 294 302	solution
+T18	Material 382 389	mixture
+T19	Synthesis-Apparatus 431 440	autoclave
+T20	Material 511 519	products
+T21	Material 578 583	water
+T22	Material 588 595	ethanol
+T23	Synthesis-Apparatus 640 644	oven
+T24	Material 687 695	products
+T25	Material 764 767	air
+T26	Condition-Misc 809 825	room temperature
+T27	Material 850 853	NiO
+T28	Property-Misc 139 152	multi-shelled
+T29	Property-Misc 157 171	hollow spheres
+T30	Number 198 202	0.01
+T31	Amount-Unit 203 206	mol
+T32	Number 221 225	0.02
+T33	Amount-Unit 226 229	mol
+T34	Number 262 264	50
+T35	Amount-Unit 265 267	ml
+T36	Material-Descriptor 268 276	utrapure
+T37	Number 360 362	30
+T38	Condition-Unit 363 366	min
+T39	Number 411 414	100
+T40	Apparatus-Unit 415 417	ml
+T41	Apparatus-Descriptor 418 430	Teflon-lined
+T42	Number 479 482	180
+T43	Condition-Unit 483 487	degC
+T44	Number 492 494	20
+T45	Condition-Unit 495 496	h
+T46	Condition-Misc 549 562	several times
+T47	Material-Descriptor 569 577	utrapure
+T48	Apparatus-Descriptor 633 639	vacuum
+T49	Number 648 650	80
+T50	Condition-Unit 651 655	degC
+T51	Number 660 662	12
+T52	Condition-Unit 663 664	h
+T53	Number 727 730	270
+T54	Number 732 735	350
+T55	Number 737 740	430
+T56	Number 744 747	550
+T57	Condition-Unit 748 752	degC
+T58	Number 757 758	3
+T59	Condition-Unit 759 760	h
+T60	Number 791 792	2
+T61	Condition-Unit 793 803	degC min-1
+T62	Property-Misc 836 849	multi-shelled
+T63	Property-Misc 854 868	hollow spheres
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E7	
+R7	Next_Operation Arg1:E7 Arg2:E8	
+R8	Next_Operation Arg1:E8 Arg2:E9	
+R9	Next_Operation Arg1:E9 Arg2:E10	
+R10	Next_Operation Arg1:E10 Arg2:E11	
+R11	Next_Operation Arg1:E11 Arg2:E12	
+R12	Condition_Of Arg1:T38 Arg2:E4	
+R13	Apparatus_Of Arg1:T19 Arg2:E5	
+R14	Condition_Of Arg1:T43 Arg2:E7	
+R15	Condition_Of Arg1:T45 Arg2:E7	
+R16	Condition_Of Arg1:T46 Arg2:E9	
+R17	Apparatus_Of Arg1:T23 Arg2:E10	
+R18	Condition_Of Arg1:T50 Arg2:E10	
+R19	Condition_Of Arg1:T52 Arg2:E10	
+R20	Condition_Of Arg1:T57 Arg2:E12	
+R21	Condition_Of Arg1:T59 Arg2:E12	
+R22	Condition_Of Arg1:T61 Arg2:E12	
+R23	Condition_Of Arg1:T26 Arg2:E12	
+R24	Property_Of Arg1:T28 Arg2:T13	
+R25	Property_Of Arg1:T29 Arg2:T13	
+R26	Amount_Of Arg1:T31 Arg2:T14	
+R27	Amount_Of Arg1:T33 Arg2:T15	
+R28	Amount_Of Arg1:T35 Arg2:T16	
+R29	Property_Of Arg1:T62 Arg2:T27	
+R30	Property_Of Arg1:T63 Arg2:T27	
+R31	Descriptor_Of Arg1:T36 Arg2:T16	
+R32	Descriptor_Of Arg1:T41 Arg2:T19	
+R33	Descriptor_Of Arg1:T47 Arg2:T21	
+R34	Descriptor_Of Arg1:T48 Arg2:T23	
+R35	Number_Of Arg1:T30 Arg2:T31	
+R36	Number_Of Arg1:T32 Arg2:T33	
+R37	Number_Of Arg1:T34 Arg2:T35	
+R38	Number_Of Arg1:T37 Arg2:T38	
+R39	Number_Of Arg1:T39 Arg2:T40	
+R40	Number_Of Arg1:T42 Arg2:T43	
+R41	Number_Of Arg1:T44 Arg2:T45	
+R42	Number_Of Arg1:T49 Arg2:T50	
+R43	Number_Of Arg1:T51 Arg2:T52	
+R44	Number_Of Arg1:T53 Arg2:T57	
+R45	Number_Of Arg1:T54 Arg2:T57	
+R46	Number_Of Arg1:T55 Arg2:T57	
+R47	Number_Of Arg1:T56 Arg2:T57	
+R48	Number_Of Arg1:T58 Arg2:T59	
+R49	Number_Of Arg1:T60 Arg2:T61	
+R50	Apparatus_Attr_Of Arg1:T40 Arg2:T19	

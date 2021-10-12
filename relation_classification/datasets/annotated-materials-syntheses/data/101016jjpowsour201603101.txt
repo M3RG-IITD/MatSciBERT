@@ -1,0 +1,3 @@
+10.1016/j.jpowsour.2016.03.101
+Enhanced electrochemical performance of Ti-doped Li1.2Mn0.54Co0.13Ni0.13O2 for lithium-ion batteries
+Li-rich layered oxide materials Li1.2-xTixMn0.54Co0.13Ni0.13O2 (x = 0, 0.025, 0.05, 0.10, 0.20, 0.50, denoted as Pristine Ti, Ti-2.5, Ti-5, Ti-10, Ti-20, Ti-50 respectively) were synthesized by a modified Pechini method. Stoichiometric amounts of Co(CH3COO)2*4H2O, Ni(CH3COO)2*4H2O, Mn(CH3COO)2*4H2O, Ti(OCH(CH3)2)4 and excess (5%) LiCH3COO*H2O were dissolved in absolute alcohol together with citric acid and ethylene glycol (molar ratio = 1:4) to form a polymeric precursor. More details can be found in our previous paper [22]. The precursor was heated at 400 degC for 5 h before it was calcined at 800 degC for 12 h in air.

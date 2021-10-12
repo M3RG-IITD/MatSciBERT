@@ -1,0 +1,194 @@
+T1	Brand 37 71	soft-template/hydrothermal process
+T2	Material 96 102	carbon
+T3	Property-Misc 85 95	mesoporous
+T4	Property-Misc 103 110	spheres
+T5	Material 126 139	larch sawdust
+T6	Operation 242 247	added
+E1	Operation:T6 Solvent_Material:T55 Solvent_Material:T54 Solvent_Material:T56 Recipe_Precursor:T22
+T7	Operation 286 292	heated
+E2	Operation:T7 
+T8	Operation 364 372	filtered
+E3	Operation:T8 Participant_Material:T62
+T9	Operation 388 396	adjusted
+E4	Operation:T9 
+T10	Operation 412 420	filtered
+E5	Operation:T10 
+T11	Operation 445 457	concentrated
+E6	Operation:T11 Participant_Material:T65
+T12	Operation 464 483	vacuum distillation
+E7	Operation:T12 Participant_Material:T67
+T13	Operation 615 620	added
+E8	Operation:T13 Solvent_Material:T71 Solvent_Material:T68 Participant_Material:T73
+T14	Operation 643 651	generate
+E9	Operation:T14 Participant_Material:T74
+T15	Operation 731 736	added
+E10	Operation:T15 Participant_Material:T75 Participant_Material:T80
+T16	Operation 764 771	stirred
+E11	Operation:T16 
+T17	Operation 835 844	performed
+E12	Operation:T17 
+T18	Operation 803 813	adjustment
+E13	Operation:T18 
+T19	Operation 891 896	react
+E14	Operation:T19 Participant_Material:T84
+T20	Operation 939 949	carbonized
+E15	Operation:T20 Participant_Material:T87 Atmospheric_Material:T88
+T21	Operation 1061 1068	denoted
+E16	Operation:T21 Participant_Material:T95 Recipe_Target:T96
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E7	
+R7	Next_Operation Arg1:E7 Arg2:E8	
+R8	Next_Operation Arg1:E8 Arg2:E9	
+R9	Next_Operation Arg1:E9 Arg2:E10	
+R10	Next_Operation Arg1:E10 Arg2:E11	
+R11	Next_Operation Arg1:E11 Arg2:E13	
+R12	Next_Operation Arg1:E13 Arg2:E12	
+R13	Next_Operation Arg1:E12 Arg2:E14	
+R14	Next_Operation Arg1:E14 Arg2:E15	
+R15	Next_Operation Arg1:E15 Arg2:E16	
+R16	Property_Of Arg1:T3 Arg2:T2	
+R17	Property_Of Arg1:T4 Arg2:T2	
+T22	Material 140 153	Larch sawdust
+T23	Number 155 157	10
+T24	Number 170 172	30
+T25	Number 193 195	98
+T26	Number 198 199	1
+T27	Number 226 228	85
+T28	Number 231 232	2
+T29	Number 326 333	110-120
+T30	Number 343 344	1
+T31	Number 487 489	40
+T32	Number 576 578	90
+T33	Number 571 573	37
+T34	Number 605 606	3
+T35	Number 705 706	3
+T36	Number 709 710	6
+T37	Number 713 714	8
+T38	Number 721 723	10
+T39	Number 776 778	12
+T40	Condition-Unit 787 791	degC
+T41	Number 784 786	40
+T42	Number 827 830	0.5
+T43	Number 849 851	12
+T44	Number 901 902	6
+T45	Number 908 911	180
+T46	Number 999 1002	500
+T47	Number 1009 1012	600
+T48	Number 1019 1022	700
+T49	Number 1033 1034	2
+T50	Amount-Unit 158 159	g
+T51	Amount-Unit 173 175	mL
+T52	Amount-Unit 200 202	mL
+T53	Amount-Unit 195 196	%
+T54	Material 178 191	sulfuric acid
+T55	Material 209 224	phosphoric acid
+T56	Material 162 168	phenol
+T57	Synthesis-Apparatus 255 281	three-necked glass reactor
+T58	Condition-Misc 293 305	under reflux
+T59	Condition-Type 311 322	temperature
+T60	Condition-Unit 334 338	degC
+T61	Condition-Unit 345 346	h
+T62	Material 352 359	mixture
+T63	Condition-Unit 381 383	pH
+T64	Condition-Misc 400 407	neutral
+T65	Material 432 440	filtrate
+T66	Condition-Unit 490 494	degC
+T67	Material 507 530	liquefied larch sawdust
+T68	Material 557 569	formaldehyde
+T69	Amount-Unit 573 574	%
+T70	Amount-Unit 579 581	mL
+T71	Material 587 603	sodium hydroxide
+T72	Amount-Unit 607 608	g
+T73	Material 624 639	liquefied larch
+T74	Material 652 669	larch-based resin
+T75	Material 699 703	F127
+T76	Amount-Unit 706 707	%
+T77	Amount-Unit 710 711	%
+T78	Amount-Unit 714 715	%
+T79	Amount-Unit 723 724	%
+T80	Material 744 759	liquefied larch
+T81	Condition-Unit 779 780	h
+T82	Condition-Unit 821 823	pH
+T83	Condition-Unit 852 853	h
+T84	Material 859 875	reaction mixture
+T85	Condition-Unit 903 904	h
+T86	Condition-Unit 912 916	degC
+T87	Material 922 929	mixture
+T88	Material 958 960	N2
+T89	Material-Descriptor 961 971	atmosphere
+T90	Condition-Type 985 997	temperatures
+T91	Condition-Unit 1003 1007	degC
+T92	Condition-Unit 1013 1017	degC
+T93	Condition-Unit 1023 1027	degC
+T94	Condition-Unit 1035 1036	h
+T95	Material 1042 1055	resultant CSs
+T96	Material 1072 1078	CS-x-y
+T97	Material 1113 1117	F127
+T98	Condition-Type 1133 1158	carbonization temperature
+R18	Number_Of Arg1:T23 Arg2:T50	
+R19	Number_Of Arg1:T24 Arg2:T51	
+R20	Amount_Of Arg1:T50 Arg2:T22	
+R21	Amount_Of Arg1:T51 Arg2:T56	
+R22	Number_Of Arg1:T25 Arg2:T53	
+R23	Number_Of Arg1:T26 Arg2:T52	
+R24	Amount_Of Arg1:T53 Arg2:T54	
+R25	Amount_Of Arg1:T52 Arg2:T54	
+T99	Amount-Unit 228 229	%
+R26	Number_Of Arg1:T27 Arg2:T99	
+R27	Amount_Of Arg1:T99 Arg2:T55	
+T100	Amount-Unit 233 235	mL
+R28	Number_Of Arg1:T28 Arg2:T100	
+R29	Amount_Of Arg1:T100 Arg2:T55	
+R30	Apparatus_Of Arg1:T57 Arg2:E1	
+R31	Condition_Of Arg1:T58 Arg2:E2	
+R32	Type_Of Arg1:T59 Arg2:T60	
+R33	Number_Of Arg1:T29 Arg2:T60	
+R34	Condition_Of Arg1:T60 Arg2:E2	
+R35	Number_Of Arg1:T30 Arg2:T61	
+R36	Condition_Of Arg1:T61 Arg2:E2	
+R37	Condition_Of Arg1:T64 Arg2:E4	
+R38	Condition_Of Arg1:T63 Arg2:E4	
+R39	Number_Of Arg1:T31 Arg2:T66	
+R40	Condition_Of Arg1:T66 Arg2:E7	
+R41	Number_Of Arg1:T33 Arg2:T69	
+R42	Amount_Of Arg1:T69 Arg2:T68	
+R43	Number_Of Arg1:T32 Arg2:T70	
+R44	Amount_Of Arg1:T70 Arg2:T68	
+R45	Number_Of Arg1:T34 Arg2:T72	
+R46	Amount_Of Arg1:T72 Arg2:T71	
+R47	Number_Of Arg1:T35 Arg2:T76	
+R48	Amount_Of Arg1:T76 Arg2:T75	
+R49	Number_Of Arg1:T36 Arg2:T77	
+R50	Amount_Of Arg1:T77 Arg2:T75	
+R51	Number_Of Arg1:T37 Arg2:T78	
+R52	Amount_Of Arg1:T78 Arg2:T75	
+R53	Number_Of Arg1:T38 Arg2:T79	
+R54	Amount_Of Arg1:T79 Arg2:T75	
+R55	Number_Of Arg1:T39 Arg2:T81	
+R56	Condition_Of Arg1:T81 Arg2:E11	
+R57	Number_Of Arg1:T41 Arg2:T40	
+R58	Condition_Of Arg1:T40 Arg2:E11	
+R59	Number_Of Arg1:T42 Arg2:T82	
+R60	Condition_Of Arg1:T82 Arg2:E13	
+R61	Number_Of Arg1:T43 Arg2:T83	
+R62	Condition_Of Arg1:T83 Arg2:E12	
+R63	Number_Of Arg1:T44 Arg2:T85	
+R64	Condition_Of Arg1:T85 Arg2:E14	
+R65	Number_Of Arg1:T45 Arg2:T86	
+R66	Condition_Of Arg1:T86 Arg2:E14	
+R67	Descriptor_Of Arg1:T89 Arg2:T88	
+R68	Type_Of Arg1:T90 Arg2:T91	
+R69	Type_Of Arg1:T90 Arg2:T92	
+R70	Type_Of Arg1:T90 Arg2:T93	
+R71	Number_Of Arg1:T46 Arg2:T91	
+R72	Number_Of Arg1:T47 Arg2:T92	
+R73	Number_Of Arg1:T48 Arg2:T93	
+R74	Condition_Of Arg1:T91 Arg2:E15	
+R75	Condition_Of Arg1:T92 Arg2:E15	
+R76	Condition_Of Arg1:T93 Arg2:E15	
+R77	Number_Of Arg1:T49 Arg2:T94	
+R78	Condition_Of Arg1:T94 Arg2:E15	

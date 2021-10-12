@@ -1,0 +1,3 @@
+10.1016/j.jpowsour.2014.03.088
+Three-dimensional aluminum foam/carbon nanotube scaffolds as long- and short-range electron pathways with improved sulfur loading for high energy density lithium-sulfur batteries
+The CNTs were mass-produced on Fe based catalysts in a fluidized bed reactor [33]. The as-grown carbon products were purified by sodium hydroxide (12.0 mol L-1) aqueous solution at 160 degC for 4.0 h and hydrochloric acid (5.0 mol L-1) aqueous solution at 70 degC for 4.0 h, subsequently. The high purity CNT bundles were available after filtering, washing, and freeze-drying. Then the CNTs were mixed with sulfur powder in the anticipated mass ratio of 1:1 and ball-milled for 3.0 h to form CNT/sulfur composites.

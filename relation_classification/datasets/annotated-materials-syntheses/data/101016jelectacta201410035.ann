@@ -1,0 +1,186 @@
+T1	Material 66 72	NiV3O8
+T2	Nonrecipe-Material 104 115	lithium-ion
+T4	Material 238 245	VO2 (B)
+T5	Operation 268 276	prepared
+E1	Operation:T5 Recipe_Precursor:T4
+T6	Meta 282 301	hydrothermal method
+T7	Operation 420 425	mixed
+E2	Operation:T7 Solvent_Material:T34 Solvent_Material:T30 Recipe_Precursor:T26
+T8	Operation 450 458	stirring
+E3	Operation:T8 
+T9	Operation 483 487	kept
+E4	Operation:T9 
+T10	Operation 532 543	transferred
+E5	Operation:T10 Participant_Material:T41
+T11	Operation 597 603	sealed
+E6	Operation:T11 
+T12	Operation 608 614	heated
+E7	Operation:T12 
+T13	Operation 646 652	cooled
+E8	Operation:T13 
+T14	Operation 690 699	collected
+E9	Operation:T14 Participant_Material:T53
+T15	Operation 704 710	washed
+E10	Operation:T15 Solvent_Material:T55 Solvent_Material:T56
+T16	Operation 801 806	dried
+E11	Operation:T16 Recipe_Precursor:T59
+T17	Operation 922 927	mixed
+E12	Operation:T17 Recipe_Precursor:T66 Recipe_Precursor:T67 Recipe_Precursor:T68
+T18	Operation 932 942	wet milled
+E13	Operation:T18 Atmospheric_Material:T75
+T19	Operation 1074 1083	collected
+E14	Operation:T19 Participant_Material:T79
+T20	Operation 1088 1093	dried
+E15	Operation:T20 
+T21	Operation 1158 1164	heated
+E16	Operation:T21 Participant_Material:T85 Atmospheric_Material:T90
+T22	Operation 1213 1219	cooled
+E17	Operation:T22 
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Next_Operation Arg1:E8 Arg2:E9	
+R8	Next_Operation Arg1:E9 Arg2:E10	
+R9	Next_Operation Arg1:E10 Arg2:E11	
+R10	Next_Operation Arg1:E11 Arg2:E12	
+R11	Next_Operation Arg1:E12 Arg2:E13	
+R12	Next_Operation Arg1:E13 Arg2:E14	
+R13	Next_Operation Arg1:E14 Arg2:E15	
+R14	Next_Operation Arg1:E15 Arg2:E16	
+R15	Next_Operation Arg1:E16 Arg2:E17	
+T23	Material 148 165	chemical reagents
+T24	Amount-Misc 183 199	analytical grade
+T25	Material-Descriptor 246 255	precursor
+T26	Material 338 342	V2O5
+T27	Material-Descriptor 343 349	powder
+T28	Number 351 356	0.015
+T29	Amount-Unit 357 360	mol
+T30	Material 363 374	oxalic acid
+T31	Number 376 381	0.015
+T32	Amount-Unit 382 385	mol
+T33	Material-Descriptor 391 400	distilled
+T34	Material 401 406	water
+T35	Number 408 410	65
+T36	Amount-Unit 411 413	mL
+T37	Condition-Misc 432 449	vigorous magnetic
+T38	Condition-Misc 462 478	room temperature
+T39	Number 492 493	2
+T40	Condition-Unit 494 495	h
+T41	Material 520 527	mixture
+T42	Material-Descriptor 510 519	resultant
+T43	Number 552 554	80
+T44	Apparatus-Unit 555 557	mL
+T45	Apparatus-Descriptor 558 567	stainless
+T46	Synthesis-Apparatus 568 577	autoclave
+T47	Synthesis-Apparatus 583 592	autoclave
+T48	Number 618 621	180
+T49	Condition-Unit 622 626	degC
+T50	Condition-Unit 634 635	h
+T51	Number 631 633	30
+T52	Condition-Misc 656 672	room temperature
+T53	Material 678 685	product
+T54	Material-Descriptor 714 723	distilled
+T55	Material 724 729	water
+T56	Material 743 750	ethanol
+T57	Material-Descriptor 734 742	absolute
+T58	Condition-Misc 755 768	several times
+T59	Material 783 786	VO2
+T60	Material-Descriptor 787 796	precursor
+T61	Number 810 812	80
+T62	Condition-Unit 813 817	degC
+T63	Condition-Misc 821 827	vacuum
+T64	Number 832 834	12
+T65	Condition-Unit 835 836	h
+T66	Material 850 853	NiO
+T67	Material 855 859	V2O5
+T68	Material 864 867	VO2
+T69	Number 895 900	1:1:1
+T70	Amount-Misc 871 893	stoichiometric amounts
+T71	Amount-Unit 904 915	molar ratio
+T72	Synthesis-Apparatus 948 972	planetary-type ball mill
+T73	Number 977 978	3
+T74	Condition-Unit 979 980	h
+T75	Material 1005 1013	nitrogen
+T76	Condition-Type 1019 1032	milling speed
+T77	Number 1044 1047	200
+T78	Condition-Unit 1048 1051	rpm
+T79	Material 1062 1069	mixture
+T80	Condition-Misc 1097 1103	vacuum
+T81	Number 1107 1109	80
+T82	Condition-Unit 1110 1114	degC
+T83	Number 1119 1121	10
+T84	Condition-Unit 1122 1123	h
+T85	Material 1129 1136	mixture
+T86	Number 1171 1174	600
+T87	Number 1184 1186	30
+T88	Condition-Unit 1175 1179	degC
+T89	Condition-Unit 1187 1188	h
+T90	Material 1195 1197	Ar
+T91	Material-Descriptor 1198 1202	flux
+T92	Synthesis-Apparatus 1234 1241	furnace
+T93	Condition-Misc 1249 1265	room temperature
+R16	Amount_Of Arg1:T24 Arg2:T23	
+T3	Operation 204 208	used
+E18	Operation:T3 Participant_Material:T23
+R17	Next_Operation Arg1:E18 Arg2:E1	
+R18	Descriptor_Of Arg1:T25 Arg2:T4	
+R19	Descriptor_Of Arg1:T27 Arg2:T26	
+R20	Number_Of Arg1:T28 Arg2:T29	
+R21	Amount_Of Arg1:T29 Arg2:T26	
+R22	Number_Of Arg1:T31 Arg2:T32	
+R23	Amount_Of Arg1:T32 Arg2:T30	
+R24	Descriptor_Of Arg1:T33 Arg2:T34	
+R25	Number_Of Arg1:T35 Arg2:T36	
+R26	Amount_Of Arg1:T36 Arg2:T34	
+R27	Condition_Of Arg1:T37 Arg2:E3	
+R28	Condition_Of Arg1:T38 Arg2:E3	
+R29	Number_Of Arg1:T39 Arg2:T40	
+R30	Condition_Of Arg1:T40 Arg2:E4	
+R31	Descriptor_Of Arg1:T42 Arg2:T41	
+R32	Number_Of Arg1:T43 Arg2:T44	
+R33	Apparatus_Attr_Of Arg1:T44 Arg2:T46	
+R34	Descriptor_Of Arg1:T45 Arg2:T46	
+R35	Apparatus_Of Arg1:T46 Arg2:E5	
+R36	Apparatus_Of Arg1:T47 Arg2:E6	
+R37	Number_Of Arg1:T48 Arg2:T49	
+R38	Condition_Of Arg1:T49 Arg2:E7	
+R39	Number_Of Arg1:T51 Arg2:T50	
+R40	Condition_Of Arg1:T50 Arg2:E7	
+R41	Condition_Of Arg1:T52 Arg2:E8	
+R42	Descriptor_Of Arg1:T54 Arg2:T55	
+R43	Descriptor_Of Arg1:T57 Arg2:T56	
+R44	Condition_Of Arg1:T58 Arg2:E10	
+R45	Descriptor_Of Arg1:T60 Arg2:T59	
+R46	Number_Of Arg1:T61 Arg2:T62	
+R47	Condition_Of Arg1:T62 Arg2:E11	
+R48	Condition_Of Arg1:T63 Arg2:E11	
+R49	Number_Of Arg1:T64 Arg2:T65	
+R50	Condition_Of Arg1:T65 Arg2:E11	
+R51	Amount_Of Arg1:T70 Arg2:T68	
+R52	Amount_Of Arg1:T70 Arg2:T67	
+R53	Amount_Of Arg1:T70 Arg2:T66	
+R54	Number_Of Arg1:T69 Arg2:T71	
+R55	Amount_Of Arg1:T71 Arg2:T68	
+R56	Amount_Of Arg1:T71 Arg2:T67	
+R57	Amount_Of Arg1:T71 Arg2:T66	
+R58	Apparatus_Of Arg1:T72 Arg2:E13	
+R59	Number_Of Arg1:T73 Arg2:T74	
+R60	Condition_Of Arg1:T74 Arg2:E13	
+R61	Number_Of Arg1:T77 Arg2:T78	
+R62	Type_Of Arg1:T76 Arg2:T78	
+R63	Condition_Of Arg1:T78 Arg2:E13	
+R64	Condition_Of Arg1:T80 Arg2:E15	
+R65	Number_Of Arg1:T81 Arg2:T82	
+R66	Condition_Of Arg1:T82 Arg2:E15	
+R67	Number_Of Arg1:T83 Arg2:T84	
+R68	Condition_Of Arg1:T84 Arg2:E15	
+R69	Number_Of Arg1:T86 Arg2:T88	
+R70	Condition_Of Arg1:T88 Arg2:E16	
+R71	Number_Of Arg1:T87 Arg2:T89	
+R72	Condition_Of Arg1:T89 Arg2:E16	
+R73	Descriptor_Of Arg1:T91 Arg2:T90	
+R74	Apparatus_Of Arg1:T92 Arg2:E17	
+R75	Condition_Of Arg1:T93 Arg2:E17	

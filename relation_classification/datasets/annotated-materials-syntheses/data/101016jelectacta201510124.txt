@@ -1,0 +1,6 @@
+10.1016/j.electacta.2015.10.124
+A new insight into the LiTiOPO4 as an anode material for lithium ion batteries
+
+LiTiOPO4 was synthesized via a solution route. A stoichiometric aqueous mixture of Li2CO3 and (NH4)2HPO4 was prepared at the room temperature, while corresponded stoichiometric amount of TiCl4 was diluted in ethanol. The TiCl4 solution was added dropwisely into the aqueous mixture with stirring at room temperature, which induced a gelatinous precipitate. The resulting solution was stirred overnight and then evaporated the solvent at 80 degC under vacuum. The dried white precipitate was calcinated in air at 400 degC for 5 h and then at 850 degC for 12 h with a heating rate of 1 degC min-1.
+
+A measured amount (0.4 g) of PVDF was dissolved into 10 mL of N-methylpyrrolidone (NMP) and then 2.0 g of LiTiOPO4 was dispersed into the formed solution with stirring for 2 h. The mixture was dried to remove solvent at 80 degC under vacuum and subsequently calcinated in Ar atmosphere at 650 degC for 3 h with a heating rate of 1 degC min-1.

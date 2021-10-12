@@ -1,0 +1,3 @@
+10.1002/pssb.201200101
+Effect of chemical treatment on the thermoelectric properties of single walled carbon nanotube networks
+The SWCNTs used in this study were synthesized by the CVD method and purchased from Thomas Swan & Co. LTD, Crockhall, Consett, UK (Product Ref: PR0920), in the form of a "wet cake." To prepare SWCNT buckypapers, the SWCNT suspension in 0.5% sodium dodecyl benzene sulfonate (SDBS) was vacuum filtrated using a polycarbonate membrane (pore size 0.2 um, from Millipore). SDBS was removed by rinsing several times with de-ionized water. After drying on a filter in air, the free standing SWCNT films were peeled off from the membrane. The thickness of the obtained buckypapers was approximately 35 um.

@@ -1,0 +1,92 @@
+T1	Operation 194 202	prepared
+E1	Operation:T1 Recipe_Target:T7 Recipe_Target:T8 Recipe_Target:T9 Recipe_Precursor:T10 Recipe_Precursor:T11 Recipe_Precursor:T12 Recipe_Precursor:T13 Recipe_Precursor:T14
+T2	Operation 414 420	placed
+E2	Operation:T2 Participant_Material:T15
+T3	Operation 440 447	treated
+E3	Operation:T3 
+T4	Operation 696 704	quenched
+E4	Operation:T4 Participant_Material:T19
+T5	Operation 754 762	released
+E5	Operation:T5 
+T6	Material 108 115	AMn7O12
+T7	Material 156 164	SrMn7O12
+T8	Material 166 174	CdMn7O12
+T9	Material 180 188	PbMn7O12
+T10	Material 235 240	Mn2O3
+T11	Material 242 250	MnO1.839
+T12	Material 352 355	PbO
+T13	Material 367 370	CdO
+T14	Material 385 394	4H-SrMnO3
+T15	Material 400 408	mixtures
+T16	Material 480 488	CdMn7O12
+T17	Material 493 501	PbMn7O12
+T18	Material 538 546	SrMn7O12
+T19	Material 683 690	samples
+T20	Property-Misc 138 152	Powder samples
+T21	Amount-Misc 208 231	stoichiometric mixtures
+T22	Brand 252 263	Alpha Aesar
+T23	Material 264 268	MnO2
+T24	Number 269 275	99.997
+T25	Amount-Unit 275 276	%
+T26	Number 357 363	99.999
+T27	Amount-Unit 363 364	%
+T28	Number 372 377	99.99
+T29	Amount-Unit 377 378	%
+T30	Number 451 452	6
+T31	Condition-Unit 453 456	GPa
+T32	Number 461 465	1373
+T33	Condition-Unit 466 467	K
+T34	Number 472 473	2
+T35	Condition-Unit 474 475	h
+T36	Number 509 510	6
+T37	Condition-Unit 511 514	GPa
+T38	Number 519 523	1573
+T39	Condition-Unit 524 525	K
+T40	Number 530 531	2
+T41	Condition-Unit 532 533	h
+T42	Number 604 606	10
+T43	Condition-Unit 607 610	min
+T44	Condition-Misc 708 724	room temperature
+T45	Property-Misc 86 107	perovskite manganites
+T46	Synthesis-Apparatus 427 435	capsules
+T47	Apparatus-Descriptor 424 426	Au
+T48	Synthesis-Apparatus 641 650	apparatus
+T49	Apparatus-Descriptor 617 640	belt-type high-pressure
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Apparatus_Of Arg1:T46 Arg2:E2	
+R6	Condition_Of Arg1:T31 Arg2:E3	
+R7	Condition_Of Arg1:T33 Arg2:E3	
+R8	Condition_Of Arg1:T35 Arg2:E3	
+R9	Condition_Of Arg1:T37 Arg2:E3	
+R10	Condition_Of Arg1:T39 Arg2:E3	
+R11	Condition_Of Arg1:T41 Arg2:E3	
+R12	Condition_Of Arg1:T43 Arg2:E3	
+R13	Apparatus_Of Arg1:T48 Arg2:E3	
+R14	Condition_Of Arg1:T44 Arg2:E4	
+R15	Property_Of Arg1:T45 Arg2:T6	
+R16	Property_Of Arg1:T20 Arg2:T7	
+R17	Property_Of Arg1:T20 Arg2:T8	
+R18	Property_Of Arg1:T20 Arg2:T9	
+R19	Amount_Of Arg1:T21 Arg2:T10	
+R20	Amount_Of Arg1:T21 Arg2:T11	
+R21	Coref_Of Arg1:T23 Arg2:T11	
+R22	Amount_Of Arg1:T21 Arg2:T12	
+R23	Amount_Of Arg1:T21 Arg2:T13	
+R24	Amount_Of Arg1:T21 Arg2:T14	
+R25	Amount_Of Arg1:T25 Arg2:T23	
+R26	Descriptor_Of Arg1:T47 Arg2:T46	
+R27	Descriptor_Of Arg1:T49 Arg2:T48	
+R28	Number_Of Arg1:T24 Arg2:T25	
+R29	Number_Of Arg1:T26 Arg2:T27	
+R30	Number_Of Arg1:T28 Arg2:T29	
+R31	Number_Of Arg1:T30 Arg2:T31	
+R32	Number_Of Arg1:T32 Arg2:T33	
+R33	Number_Of Arg1:T34 Arg2:T35	
+R34	Number_Of Arg1:T36 Arg2:T37	
+R35	Number_Of Arg1:T38 Arg2:T39	
+R36	Number_Of Arg1:T40 Arg2:T41	
+R37	Number_Of Arg1:T42 Arg2:T43	
+R38	Brand_Of Arg1:T22 Arg2:T11	

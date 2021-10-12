@@ -1,0 +1,76 @@
+T1	Material 88 117	single walled carbon nanotube
+T2	Property-Misc 118 126	networks
+R1	Property_Of Arg1:T2 Arg2:T1	
+T3	Operation 162 173	synthesized
+E1	Operation:T3 Recipe_Target:T15
+T4	Operation 196 205	purchased
+E2	Operation:T4 
+T5	Operation 312 319	prepare
+E3	Operation:T5 Recipe_Target:T12
+T6	Operation 412 428	vacuum filtrated
+E4	Operation:T6 Recipe_Precursor:T17 Solvent_Material:T21
+T7	Operation 505 512	removed
+E5	Operation:T7 Solvent_Material:T28
+T8	Operation 516 523	rinsing
+E6	Operation:T8 Solvent_Material:T30
+T9	Operation 567 573	drying
+E7	Operation:T9 Atmospheric_Material:T33
+T10	Operation 629 635	peeled
+E8	Operation:T10 Recipe_Target:T34
+T11	Operation 680 688	obtained
+E9	Operation:T11 Recipe_Target:T37
+R2	Next_Operation Arg1:E1 Arg2:E2	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E7	
+R7	Next_Operation Arg1:E7 Arg2:E8	
+R8	Next_Operation Arg1:E8 Arg2:E9	
+T12	Material 320 325	SWCNT
+T13	Property-Misc 326 337	buckypapers
+R9	Property_Of Arg1:T13 Arg2:T12	
+T14	Brand 211 278	Thomas Swan & Co. LTD, Crockhall, Consett, UK (Product Ref: PR0920)
+T15	Material 131 137	SWCNTs
+R10	Brand_Of Arg1:T14 Arg2:T15	
+T16	Meta 181 191	CVD method
+T17	Material 343 348	SWCNT
+T18	Material-Descriptor 349 359	suspension
+R11	Descriptor_Of Arg1:T18 Arg2:T17	
+T19	Number 363 366	0.5
+T20	Amount-Unit 366 367	%
+R12	Number_Of Arg1:T19 Arg2:T20	
+R13	Amount_Of Arg1:T20 Arg2:T17	
+T21	Material 368 400	sodium dodecyl benzene sulfonate
+T22	Material 402 406	SDBS
+R14	Coref_Of Arg1:T22 Arg2:T21	
+T23	Synthesis-Apparatus 437 459	polycarbonate membrane
+R15	Apparatus_Of Arg1:T23 Arg2:E4	
+T24	Number 471 474	0.2
+T25	Apparatus-Unit 475 477	um
+T26	Apparatus-Property-Type 461 470	pore size
+R16	Number_Of Arg1:T24 Arg2:T25	
+R17	Type_Of Arg1:T26 Arg2:T25	
+R18	Apparatus_Attr_Of Arg1:T25 Arg2:T23	
+T27	Brand 484 493	Millipore
+R19	Brand_Of Arg1:T27 Arg2:T23	
+T28	Material 496 500	SDBS
+T29	Condition-Misc 524 537	several times
+R20	Condition_Of Arg1:T29 Arg2:E6	
+T30	Material 554 559	water
+T31	Material-Descriptor 543 553	de-ionized
+R21	Descriptor_Of Arg1:T31 Arg2:T30	
+T32	Synthesis-Apparatus 579 585	filter
+R22	Apparatus_Of Arg1:T32 Arg2:E7	
+T33	Material 589 592	air
+T34	Material 612 617	SWCNT
+T35	Property-Misc 618 623	films
+R23	Property_Of Arg1:T35 Arg2:T34	
+T36	Synthesis-Apparatus 649 657	membrane
+R24	Apparatus_Of Arg1:T36 Arg2:E8	
+T37	Material 689 700	buckypapers
+T38	Number 719 721	35
+T39	Property-Unit 722 724	um
+R25	Number_Of Arg1:T38 Arg2:T39	
+T40	Property-Type 663 672	thickness
+R26	Type_Of Arg1:T40 Arg2:T39	
+R27	Property_Of Arg1:T39 Arg2:T37	

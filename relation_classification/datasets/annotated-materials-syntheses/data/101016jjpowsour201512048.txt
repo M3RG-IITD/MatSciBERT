@@ -1,0 +1,7 @@
+10.1016/j.jpowsour.2015.12.048
+Synthesis of sub-10 nm copper sulphide rods as high-performance anode for long-cycle life Li-ion batteries
+
+Copper acetate monohydrate (analytical reagent (AR)), pyridine (AR), and sodium sulfide nonahydrate (AR) were purchased from Sigma-Aldrich. The electrolyte was purchased from Guo Tai Hua Long Company, including 1 M LiPF6 in ethylene carbonate (EC) and dimethyl carbonate (DMC) (1:1 by volume). All chemicals were used without further purification.
+
+In a typical synthesis, 5.0 mmol of copper acetate monohydrate was dissolved into 40 mL distilled water/pyridine mixture (v:v = 1:3) and heated to 80 degC. 5.0 mmol of sodium sulfide nonahydrate was dissolved into 20 mL of distilled water. Then, sodium sulfide solution was dropped into copper acetate solution under vigorous stirring. Finally, the mixture reacted for 2 h at 80 degC. The final products was collected and washed several times by distilled water or other solvents (e.g., ethanol, pyridine), and then dried in a vacuum at 60 degC for 12 h.
+

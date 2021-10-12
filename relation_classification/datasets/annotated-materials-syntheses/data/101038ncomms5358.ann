@@ -1,0 +1,116 @@
+T1	Operation 92 103	synthesized
+E1	Operation:T1 Participant_Material:T14 Recipe_Precursor:T15 Recipe_Precursor:T16
+T2	Operation 194 202	prepared
+E2	Operation:T2 Recipe_Precursor:T17
+T3	Operation 215 224	annealing
+E3	Operation:T3 Recipe_Precursor:T18
+T4	Operation 338 346	obtained
+E4	Operation:T4 Recipe_Target:T19
+T5	Meta 361 382	solid-state synthesis
+T6	Operation 386 398	ball milling
+E5	Operation:T6 Participant_Material:T20
+T7	Operation 422 430	followed
+E6	Operation:T7 
+T8	Operation 434 443	annealing
+E7	Operation:T8 Participant_Material:T21 Atmospheric_Material:T22
+T9	Operation 650 668	Chemical oxidation
+E8	Operation:T9 
+T10	Operation 673 682	performed
+E9	Operation:T10 Participant_Material:T23 Participant_Material:T24 Solvent_Material:T25
+T11	Operation 846 853	stirred
+E10	Operation:T11 Participant_Material:T26 Atmospheric_Material:T28
+T12	Operation 915 923	filtered
+E11	Operation:T12 Participant_Material:T29
+T13	Operation 928 933	dried
+E12	Operation:T13 
+T14	Material 79 87	material
+T15	Material 123 129	Na2SO4
+T16	Material 153 158	FeSO4
+T17	Material 174 179	FeSO4
+T18	Material 236 246	FeSO4.7H2O
+T19	Material 304 316	Na2Fe2(SO4)3
+T20	Material 403 413	precursors
+T21	Material 448 455	mixture
+T22	Material 490 492	Ar
+T23	Material 704 718	Na2-xFe2(SO4)3
+T24	Material 733 739	NO2BF4
+T25	Material 779 791	acetonitrile
+T26	Material 833 841	solution
+T27	Condition-Misc 854 863	overnight
+T28	Material 877 879	Ar
+T29	Material 901 909	products
+T30	Condition-Misc 951 957	vacuum
+T31	Number 116 120	1.54
+T32	Amount-Unit 121 122	g
+T33	Brand 131 135	Wako
+T34	Number 137 139	99
+T35	Amount-Unit 139 140	%
+T36	Number 146 150	2.73
+T37	Amount-Unit 151 152	g
+T38	Material-Descriptor 164 173	anhydrous
+T39	Brand 248 252	Wako
+T40	Number 254 256	99
+T41	Amount-Unit 256 257	%
+T42	Condition-Misc 265 271	vacuum
+T43	Number 275 278	200
+T44	Condition-Unit 279 283	degC
+T45	Number 288 290	12
+T46	Condition-Unit 291 292	h
+T47	Property-Misc 317 324	cathode
+T48	Number 418 419	4
+T49	Condition-Unit 420 421	h
+T50	Number 459 462	350
+T51	Condition-Unit 463 467	degC
+T52	Number 472 474	24
+T53	Condition-Unit 475 476	h
+T54	Brand 741 751	Alfa Aesar
+T55	Number 753 755	96
+T56	Amount-Unit 755 756	%
+T57	Brand 801 805	Wako
+T58	Nonrecipe-Material 807 810	H2O
+T59	Number 818 819	5
+T60	Amount-Unit 820 826	p.p.m.
+T61	Number 937 939	60
+T62	Condition-Unit 940 944	degC
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Next_Operation Arg1:E8 Arg2:E9	
+R8	Next_Operation Arg1:E9 Arg2:E10	
+R9	Next_Operation Arg1:E10 Arg2:E11	
+R10	Next_Operation Arg1:E11 Arg2:E12	
+R11	Condition_Of Arg1:T42 Arg2:E3	
+R12	Condition_Of Arg1:T44 Arg2:E3	
+R13	Condition_Of Arg1:T46 Arg2:E3	
+R14	Condition_Of Arg1:T51 Arg2:E7	
+R15	Condition_Of Arg1:T53 Arg2:E7	
+R16	Condition_Of Arg1:T27 Arg2:E10	
+R17	Condition_Of Arg1:T62 Arg2:E12	
+R18	Condition_Of Arg1:T30 Arg2:E12	
+R19	Amount_Of Arg1:T32 Arg2:T15	
+R20	Amount_Of Arg1:T35 Arg2:T15	
+R21	Amount_Of Arg1:T37 Arg2:T16	
+R22	Amount_Of Arg1:T41 Arg2:T18	
+R23	Property_Of Arg1:T47 Arg2:T19	
+R24	Amount_Of Arg1:T56 Arg2:T24	
+R25	Amount_Of Arg1:T60 Arg2:T58	
+R26	Descriptor_Of Arg1:T38 Arg2:T17	
+R27	Number_Of Arg1:T31 Arg2:T32	
+R28	Number_Of Arg1:T34 Arg2:T35	
+R29	Number_Of Arg1:T36 Arg2:T37	
+R30	Number_Of Arg1:T40 Arg2:T41	
+R31	Number_Of Arg1:T43 Arg2:T44	
+R32	Number_Of Arg1:T45 Arg2:T46	
+R33	Number_Of Arg1:T48 Arg2:T49	
+R34	Number_Of Arg1:T50 Arg2:T51	
+R35	Number_Of Arg1:T52 Arg2:T53	
+R36	Number_Of Arg1:T55 Arg2:T56	
+R37	Number_Of Arg1:T59 Arg2:T60	
+R38	Number_Of Arg1:T61 Arg2:T62	
+R39	Brand_Of Arg1:T33 Arg2:T15	
+R40	Brand_Of Arg1:T39 Arg2:T18	
+R41	Brand_Of Arg1:T54 Arg2:T24	
+R42	Brand_Of Arg1:T57 Arg2:T25	

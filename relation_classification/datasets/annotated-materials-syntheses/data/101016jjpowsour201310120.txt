@@ -1,0 +1,6 @@
+10.1016/j.jpowsour.2013.10.120
+Fabrication and performance of BaCe0.8Y0.2O3-δ-BaZr0.8Y0.2O3-δ bilayer electrolyte for anode-supported solid oxide fuel cells
+
+BCY and BZCY powders were fabricated using a citric acid-nitrate gel combustion process [15]. First, BaCO3, Ce(NO3)4*4H2O, Zr(NO3)4*5H2O and Y(NO3)3*6H2O was added to a solution of HNO3. After the solution became clear, citric acid was added in a 1:1.5 metal ions:citric acid molar ratio. The pH value was adjusted to approximately 7 with ammonia. The solution was continuously stirred and heated at 70 degC until a gel formed. The gel was then heated on a hot plate and combusted to form powder precursors, which were then calcined at 1000 degC for 3 h to obtain a pure, crystalline BCY and BZCY phase. NiO (basic nickel carbonate decomposed at 600 degC) and BZCY were mixed by ball milling in ethanol for 24 h in a weight ratio of 60/40 with 10 wt.% of starch as pore formers. The mixture was dried in an oven at 60 degC and prepared as anode supporting substrates.
+
+

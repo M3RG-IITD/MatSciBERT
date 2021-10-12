@@ -1,0 +1,47 @@
+T1	Material 64 91	metakaolin-based geopolymer
+T2	Material 54 58	clay
+T3	Material-Descriptor 41 53	low reactive
+T4	Operation 173 181	prepared
+E1	Operation:T4 Participant_Material:T9
+T5	Operation 185 195	dissolving
+E2	Operation:T5 Participant_Material:T10 Solvent_Material:T15
+T6	Operation 384 389	added
+E3	Operation:T6 Participant_Material:T23 Participant_Material:T22
+T7	Operation 404 410	placed
+E4	Operation:T7 Participant_Material:T24
+T8	Reference 532 549	Autef et al. [12]
+T9	Material 149 167	Geopolymer samples
+T10	Material 196 215	potassium hydroxide
+T11	Material-Descriptor 216 223	pellets
+T12	Brand 237 250	VWR (Belgium)
+T13	Number 252 256	85.2
+T14	Amount-Unit 256 257	%
+T15	Material 283 301	potassium silicate
+T16	Material-Descriptor 302 310	solution
+T17	Material-Descriptor 272 282	commercial
+T18	Nonrecipe-Material 312 314	Si
+T19	Nonrecipe-Material 315 316	K
+T20	Number 319 322	1.7
+T21	Brand 336 353	ChemLab (Belgium)
+T22	Material 361 368	Me clay
+T23	Material 376 378	MK
+T24	Material 391 398	Samples
+T25	Synthesis-Apparatus 416 448	closed sealable polystyrene mold
+T26	Condition-Misc 452 468	room temperature
+T27	Number 470 472	25
+T28	Condition-Unit 473 477	degC
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Descriptor_Of Arg1:T3 Arg2:T2	
+R5	Descriptor_Of Arg1:T11 Arg2:T10	
+R6	Brand_Of Arg1:T12 Arg2:T10	
+R7	Number_Of Arg1:T13 Arg2:T14	
+R8	Amount_Of Arg1:T14 Arg2:T10	
+R9	Descriptor_Of Arg1:T17 Arg2:T15	
+R10	Descriptor_Of Arg1:T16 Arg2:T15	
+R11	Brand_Of Arg1:T21 Arg2:T15	
+R12	Apparatus_Of Arg1:T25 Arg2:E4	
+R13	Condition_Of Arg1:T26 Arg2:E4	
+R14	Number_Of Arg1:T27 Arg2:T28	
+R15	Condition_Of Arg1:T28 Arg2:E4	

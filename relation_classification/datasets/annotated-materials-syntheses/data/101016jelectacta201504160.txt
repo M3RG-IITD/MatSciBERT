@@ -1,0 +1,3 @@
+10.1016/j.electacta.2015.04.160
+Optimization of reaction parameters for the electrochemical oxidation of lidocaine with a Design of Experiments approach
+Lidocaine (L7757), monoethylglycinexylidide (MEGX, SML0087, the N-dealkylated form of lidocaine) and ammonium hydroxide (NH4OH, 221228) were purchased from Sigma-Aldrich. Formic acid (HCOOH, 94318) and acetaminophen (00370) were purchased from Fluka and ultra-pure HPLC grade acetonitrile (ACN, 01203502) was purchased from Biosolve. Trifluoroacetic acid (TFA, 289084) was purchased from Thermo Fisher, and sulfuric acid (H2SO4, 100731100) from Merck Millipore. Ultrapure water was obtained from a Milli-Q Advantage A10 Water Purification system (Millipore Corp., Billerica, MA, USA).

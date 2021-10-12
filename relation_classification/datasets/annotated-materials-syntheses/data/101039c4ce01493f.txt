@@ -1,0 +1,6 @@
+10.1039/c4ce01493f
+
+Facile synthesis of hierarchical hollow MoS 2 nanotubes as anode materials for high-performance lithium-ion batteries
+
+
+In a typical procedure, 1.165 g of Na2MoO4*2H2O, 0.312 g of MnCl2*4H2O and 1.37 g of (NH2)2CS were dissolved in 30 ml of deionized water and 10 ml of absolute ethanol. After stirring for 30 min, the solution was transferred into a 50 ml Teflon-lined stainless steel autoclave and sealed tightly and then heated at 210 degC for 16 h. After cooling naturally, the black precipitates were collected, washed with diluted hydrochloric acid and deionized water several times, and dried at 60 degC for 5 h in a vacuum oven. Finally, the hierarchical hollow MoS2 nanotubes were obtained. MoS2 nanoflowers were obtained when the reagents were dissolved in 30 ml of absolute ethanol and 10 ml of deionized water with the other reaction conditions left unchanged.

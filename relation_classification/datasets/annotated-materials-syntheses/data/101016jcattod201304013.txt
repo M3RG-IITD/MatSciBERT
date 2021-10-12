@@ -1,0 +1,8 @@
+10.1016/j.cattod.2013.04.013
+Ethanol steam reforming over NiLaZr and NiCuLaZr mixed metal oxide catalysts
+
+
+Nickel nitrate Ni(NO3)2*6H2O, copper nitrate (Cu(NO3)2*2.5H2O, lanthanum nitrate (La(NO3)3*5H2O, 70% (w/w) zirconium propoxide Zr(OCH2CH2CH3)4 in 1-propanol, and oxalic acid (HO2CCO2H) were purchased from Sigma-Aldrich. Ethanol was purchased from Biopack. All chemicals were reagent-grade and were used as received.
+
+NiLaZr and NiCuLaZr catalysts were prepared by co-precipitation following the addition of oxalic acid to an ethanolic solution of Cu(NO3)2, Ni(NO3)2, La(NO3)3 and Zr(OCH2CH2CH3)4. The precipitates were washed with ethanol, dried at 80 degC, and calcined for 2 h at different temperatures: 700 degC, 850 degC, 900 degC and 950 degC. The resulting NiLaZr catalysts contained 5% of Ni, and the NiCuLaZr catalysts contained 4% of Ni and 1% of Cu, on a weight basis. Where required, the final calcination temperature (degC) is indicated in the catalyst denotation.
+

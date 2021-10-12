@@ -1,0 +1,116 @@
+T1	Operation 166 174	prepared
+E1	Operation:T1 Recipe_Target:T11
+T2	Operation 178 205	electrochemical anodization
+E2	Operation:T2 Recipe_Precursor:T12
+T3	Operation 274 283	performed
+E3	Operation:T3 Participant_Material:T14
+T4	Operation 304 314	containing
+E4	Operation:T4 Solvent_Material:T13
+T5	Operation 380 386	biased
+E5	Operation:T5 Recipe_Precursor:T15
+T6	Operation 430 437	produce
+E6	Operation:T6 Participant_Material:T16
+T7	Operation 559 566	cleaned
+E7	Operation:T7 Participant_Material:T17 Solvent_Material:T19
+T8	Operation 641 647	heated
+E8	Operation:T8 Recipe_Target:T20 Recipe_Precursor:T21 Atmospheric_Material:T22
+T9	Operation 708 717	annealing
+E9	Operation:T9 
+T10	Operation 758 764	cooled
+E10	Operation:T10 
+T11	Material 149 154	Nb2O5
+T12	Material 209 211	Nb
+T13	Material 315 323	glycerol
+T14	Material 297 303	K2HPO4
+T15	Material 366 368	Nb
+T16	Material 449 454	films
+T17	Material 548 553	films
+T18	Operation 503 530	electrochemical anodization
+E11	Operation:T18 
+T19	Material 582 587	water
+T20	Material 607 612	Nb2O5
+T21	Material 622 624	Nb
+T22	Material 663 666	air
+T23	Material 102 115	niobium oxide
+T24	Number 219 223	99.8
+T25	Number 289 291	10
+T26	Number 390 392	10
+T27	Number 397 399	20
+T28	Number 406 410	5-25
+T29	Number 418 421	180
+T30	Number 485 486	7
+T31	Number 490 492	18
+T32	Number 651 654	440
+T33	Number 688 689	1
+T34	Number 721 724	440
+T35	Number 734 736	20
+T36	Amount-Unit 223 224	%
+T37	Amount-Unit 292 296	wt.%
+T38	Condition-Unit 400 401	V
+T39	Condition-Unit 411 414	min
+T40	Condition-Unit 422 426	degC
+T41	Property-Unit 493 495	μm
+T42	Condition-Unit 655 659	degC
+T43	Condition-Unit 690 700	degC min-1
+T44	Condition-Unit 725 729	degC
+T45	Condition-Unit 737 740	min
+T46	Property-Misc 90 101	nanochannel
+T47	Property-Misc 128 148	Oriented nanochannel
+T48	Property-Misc 155 160	films
+T49	Brand 233 243	Alfa Aesar
+T50	Material-Descriptor 212 217	foils
+T51	Material-Descriptor 324 332	solution
+T52	Synthesis-Apparatus 343 360	counter electrode
+T53	Apparatus-Descriptor 340 342	Pt
+T54	Material-Descriptor 369 374	foils
+T55	Material-Descriptor 438 448	nanoporous
+T56	Property-Type 460 471	thicknesses
+T57	Material-Descriptor 536 547	as-prepared
+T58	Material-Descriptor 572 581	distilled
+T59	Condition-Misc 588 601	several times
+T60	Property-Misc 613 618	films
+T61	Material-Descriptor 625 635	substrates
+T62	Synthesis-Apparatus 746 753	furnace
+T63	Condition-Misc 768 784	room temperature
+R1	Next_Operation Arg1:E3 Arg2:E4	
+R2	Next_Operation Arg1:E4 Arg2:E5	
+R3	Next_Operation Arg1:E5 Arg2:E6	
+R4	Next_Operation Arg1:E6 Arg2:E11	
+R5	Next_Operation Arg1:E11 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Next_Operation Arg1:E8 Arg2:E9	
+R8	Next_Operation Arg1:E9 Arg2:E10	
+R9	Condition_Of Arg1:T38 Arg2:E5	
+R10	Condition_Of Arg1:T39 Arg2:E5	
+R11	Condition_Of Arg1:T40 Arg2:E5	
+R12	Apparatus_Of Arg1:T52 Arg2:E4	
+R13	Condition_Of Arg1:T59 Arg2:E7	
+R14	Condition_Of Arg1:T42 Arg2:E8	
+R15	Condition_Of Arg1:T43 Arg2:E8	
+R16	Condition_Of Arg1:T44 Arg2:E9	
+R17	Condition_Of Arg1:T45 Arg2:E9	
+R18	Apparatus_Of Arg1:T62 Arg2:E10	
+R19	Condition_Of Arg1:T63 Arg2:E10	
+R20	Descriptor_Of Arg1:T50 Arg2:T12	
+R21	Descriptor_Of Arg1:T51 Arg2:T13	
+R22	Descriptor_Of Arg1:T53 Arg2:T52	
+R23	Descriptor_Of Arg1:T55 Arg2:T16	
+R24	Descriptor_Of Arg1:T54 Arg2:T15	
+R25	Descriptor_Of Arg1:T57 Arg2:T17	
+R26	Descriptor_Of Arg1:T58 Arg2:T19	
+R27	Descriptor_Of Arg1:T61 Arg2:T21	
+R28	Type_Of Arg1:T56 Arg2:T41	
+R29	Number_Of Arg1:T24 Arg2:T36	
+R30	Number_Of Arg1:T25 Arg2:T37	
+R31	Number_Of Arg1:T26 Arg2:T38	
+R32	Number_Of Arg1:T27 Arg2:T38	
+R33	Number_Of Arg1:T28 Arg2:T39	
+R34	Number_Of Arg1:T29 Arg2:T40	
+R35	Number_Of Arg1:T30 Arg2:T41	
+R36	Number_Of Arg1:T31 Arg2:T41	
+R37	Property_Of Arg1:T41 Arg2:T16	
+R38	Number_Of Arg1:T32 Arg2:T42	
+R39	Number_Of Arg1:T33 Arg2:T43	
+R40	Number_Of Arg1:T34 Arg2:T44	
+R41	Number_Of Arg1:T35 Arg2:T45	
+R42	Brand_Of Arg1:T49 Arg2:T12	

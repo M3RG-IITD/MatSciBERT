@@ -1,0 +1,5 @@
+10.1016/j.matlet.2013.01.055
+Synthesis and conductive properties of Ga-doped ZnO nanosheets by the hydrothermal method
+
+All chemicals (analytical grade reagents) were purchased from Tianjin Jiangtian Chemicals Co. Ltd. and were used as received without further purification. The GZO nanoparticles were prepared by the hydrothermal method and the molar ratio of Ga:Zn varied from 0:100, 1:100 to 3:100. In a typical experiment, 7.44 g Zn(NO3)2*6 H2O and proper amount of Ga(NO3)3*9H2O were dissolved in 30 ml de-ionized water and stirring to complete dissolution. Subsequently, 30 ml of sodium hydroxide (4.0 mol L-1) aqueous solution was slowly dripped into the former mixture to obtain precursor. After 30 min of stirring, the precursor was transferred into a 100 ml Teflon autoclave, then the autoclave was heated at 160 degC for 3 h. After the reaction finished, the precipitate was separated and washed with de-ionized water and absolute ethanol several times to remove the ions possibly remaining in the final products. Finally, the resulting products were dried in oven at 75 degC for 15 h.
+

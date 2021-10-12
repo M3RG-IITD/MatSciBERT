@@ -1,0 +1,194 @@
+T1	Operation 180 188	obtained
+E1	Operation:T1 Recipe_Precursor:T40
+T2	Brand 194 226	Shenzhen Nanotech Port Co., Ltd.
+T3	Operation 366 370	used
+E2	Operation:T3 Recipe_Precursor:T43 Recipe_Precursor:T44 Participant_Material:T46
+T4	Operation 387 399	purification
+E3	Operation:T4 
+T5	Operation 442 456	ultrasonicated
+E4	Operation:T5 Recipe_Precursor:T47 Solvent_Material:T48
+T6	Operation 488 496	dissolve
+E5	Operation:T6 Participant_Material:T49
+T7	Operation 527 535	filtered
+E6	Operation:T7 Participant_Material:T49
+T8	Operation 537 543	washed
+E7	Operation:T8 
+T9	Operation 549 554	dried
+E8	Operation:T9 
+T10	Operation 558 564	obtain
+E9	Operation:T10 Participant_Material:T50
+T11	Operation 584 594	deposition
+E10	Operation:T11 Recipe_Precursor:T51 Recipe_Precursor:T52
+T12	Operation 649 658	dispersed
+E11	Operation:T12 Recipe_Precursor:T53 Recipe_Precursor:T54
+T13	Operation 707 721	ultrasonicated
+E12	Operation:T13 
+T14	Operation 788 793	added
+E13	Operation:T14 Recipe_Precursor:T55
+T15	Operation 818 826	stirring
+E14	Operation:T15 
+T16	Operation 830 834	form
+E15	Operation:T16 Participant_Material:T56 Participant_Material:T57
+T17	Operation 864 875	filteration
+E16	Operation:T17 
+T18	Operation 888 895	washing
+E17	Operation:T18 
+T19	Operation 935 944	collected
+E18	Operation:T19 Participant_Material:T58
+T20	Operation 949 954	dried
+E19	Operation:T20 
+T21	Operation 1005 1011	heated
+E20	Operation:T21 Participant_Material:T59 Atmospheric_Material:T60
+T22	Operation 1067 1076	decompose
+E21	Operation:T22 Participant_Material:T61
+T23	Operation 1126 1134	obtained
+E22	Operation:T23 Recipe_Target:T62 Participant_Material:T63
+T24	Number 264 271	40 ~ 60
+T25	Number 423 426	300
+T26	Number 465 466	1
+T27	Number 470 472	50
+T28	Number 481 482	1
+T29	Number 620 623	210
+T30	Number 682 685	253
+T31	Number 726 728	30
+T32	Number 771 774	141
+T33	Number 924 927	510
+T34	Number 958 961	100
+T35	Number 973 976	300
+T36	Number 1025 1028	550
+T37	Number 1038 1039	5
+T38	Number 1104 1107	160
+T39	Number 1168 1170	30
+T40	Material 151 157	carbon
+T41	Material 169 173	CNTs
+T42	Material 255 259	CNTs
+T43	Material 276 289	Sodium oleate
+T44	Material 291 308	potassium formate
+T45	Material 310 315	HCOOK
+T46	Material 327 335	reagents
+T47	Material 417 421	CNTs
+T48	Material 460 463	HCl
+T49	Material 512 520	residues
+T50	Material 574 578	CNTs
+T51	Material 598 600	Ag
+T52	Material 614 618	CNTs
+T53	Material 639 643	CNTs
+T54	Material 689 702	sodium oleate
+T55	Material 778 783	AgNO3
+T56	Material 835 848	silver oleate
+T57	Material 852 856	CNTs
+T58	Material 913 919	sample
+T59	Material 992 999	samples
+T60	Material 1050 1052	N2
+T61	Material 1081 1094	silver oleate
+T62	Material 1114 1121	Ag/CNTs
+T63	Nonrecipe-Material 1154 1156	Ag
+T64	Material 38 44	carbon
+T65	Property-Misc 45 54	nanotubes
+T66	Property-Type 243 251	diameter
+T67	Property-Unit 272 274	nm
+T68	Amount-Unit 427 429	mg
+T69	Amount-Unit 467 468	M
+T70	Amount-Unit 473 475	mL
+T71	Condition-Unit 483 484	h
+T72	Amount-Unit 624 626	mg
+T73	Amount-Unit 686 688	mg
+T74	Condition-Unit 729 732	min
+T75	Amount-Unit 775 777	mg
+T76	Amount-Unit 928 930	mg
+T77	Condition-Unit 962 966	degC
+T78	Amount-Unit 977 979	mg
+T79	Condition-Unit 1029 1033	degC
+T80	Condition-Unit 1040 1043	min
+T81	Amount-Unit 1108 1110	mg
+T82	Amount-Unit 1171 1177	wt. %.
+T83	Material-Descriptor 138 150	Multi-walled
+T84	Material-Descriptor 158 167	nanotubes
+T85	Amount-Misc 344 361	analytical purity
+T86	Condition-Misc 371 378	without
+T87	Material-Descriptor 506 511	metal
+T88	Material-Descriptor 565 573	purified
+T89	Material-Descriptor 601 610	particles
+T90	Material-Descriptor 630 638	purified
+T91	Synthesis-Apparatus 664 670	beaker
+T92	Material-Descriptor 743 759	aqueous solution
+T93	Condition-Misc 794 802	dropwise
+T94	Condition-Misc 809 817	magnetic
+T95	Condition-Misc 880 887	aqueous
+T96	Synthesis-Apparatus 1017 1021	tube
+T97	Condition-Type 1053 1063	protection
+R1	Property_Of Arg1:T65 Arg2:T64	
+A1	Start_Recipe E1
+R2	Next_Operation Arg1:E1 Arg2:E2	
+R3	Next_Operation Arg1:E2 Arg2:E3	
+R4	Next_Operation Arg1:E3 Arg2:E4	
+R5	Next_Operation Arg1:E4 Arg2:E5	
+R6	Next_Operation Arg1:E5 Arg2:E6	
+R7	Next_Operation Arg1:E6 Arg2:E7	
+R8	Next_Operation Arg1:E7 Arg2:E8	
+R9	Next_Operation Arg1:E8 Arg2:E9	
+R10	Next_Operation Arg1:E9 Arg2:E10	
+R11	Next_Operation Arg1:E10 Arg2:E11	
+R12	Next_Operation Arg1:E11 Arg2:E12	
+R13	Next_Operation Arg1:E12 Arg2:E13	
+R14	Next_Operation Arg1:E13 Arg2:E14	
+R15	Next_Operation Arg1:E14 Arg2:E15	
+R16	Next_Operation Arg1:E15 Arg2:E16	
+R17	Next_Operation Arg1:E16 Arg2:E17	
+R18	Next_Operation Arg1:E17 Arg2:E18	
+R19	Next_Operation Arg1:E18 Arg2:E19	
+R20	Next_Operation Arg1:E19 Arg2:E20	
+R21	Next_Operation Arg1:E20 Arg2:E21	
+R22	Next_Operation Arg1:E21 Arg2:E22	
+A2	End_Recipe E22
+R23	Descriptor_Of Arg1:T83 Arg2:T40	
+R24	Descriptor_Of Arg1:T84 Arg2:T40	
+R25	Coref_Of Arg1:T41 Arg2:T40	
+R26	Brand_Of Arg1:T2 Arg2:T40	
+R27	Type_Of Arg1:T66 Arg2:T67	
+R28	Number_Of Arg1:T24 Arg2:T67	
+R29	Property_Of Arg1:T67 Arg2:T42	
+R30	Coref_Of Arg1:T45 Arg2:T44	
+R31	Amount_Of Arg1:T85 Arg2:T46	
+R32	Amount_Of Arg1:T85 Arg2:T44	
+R33	Amount_Of Arg1:T85 Arg2:T43	
+R34	Condition_Of Arg1:T86 Arg2:E3	
+R35	Number_Of Arg1:T25 Arg2:T68	
+R36	Amount_Of Arg1:T68 Arg2:T47	
+R37	Number_Of Arg1:T26 Arg2:T69	
+R38	Number_Of Arg1:T27 Arg2:T70	
+R39	Amount_Of Arg1:T69 Arg2:T48	
+R40	Amount_Of Arg1:T70 Arg2:T48	
+R41	Number_Of Arg1:T28 Arg2:T71	
+R42	Condition_Of Arg1:T71 Arg2:E4	
+R43	Descriptor_Of Arg1:T87 Arg2:T49	
+R44	Descriptor_Of Arg1:T88 Arg2:T50	
+R45	Descriptor_Of Arg1:T89 Arg2:T51	
+R46	Number_Of Arg1:T29 Arg2:T72	
+R47	Amount_Of Arg1:T72 Arg2:T53	
+R48	Descriptor_Of Arg1:T90 Arg2:T53	
+R49	Apparatus_Of Arg1:T91 Arg2:E11	
+R50	Number_Of Arg1:T30 Arg2:T73	
+R51	Amount_Of Arg1:T73 Arg2:T54	
+R52	Number_Of Arg1:T31 Arg2:T74	
+R53	Condition_Of Arg1:T74 Arg2:E12	
+R54	Descriptor_Of Arg1:T92 Arg2:T55	
+R55	Number_Of Arg1:T32 Arg2:T75	
+R56	Condition_Of Arg1:T93 Arg2:E13	
+R57	Condition_Of Arg1:T94 Arg2:E14	
+R58	Condition_Of Arg1:T95 Arg2:E17	
+R59	Number_Of Arg1:T33 Arg2:T76	
+R60	Amount_Of Arg1:T76 Arg2:T58	
+R61	Number_Of Arg1:T34 Arg2:T77	
+R62	Condition_Of Arg1:T77 Arg2:E19	
+R63	Number_Of Arg1:T35 Arg2:T78	
+R64	Amount_Of Arg1:T78 Arg2:T59	
+R65	Apparatus_Of Arg1:T96 Arg2:E20	
+R66	Number_Of Arg1:T36 Arg2:T79	
+R67	Condition_Of Arg1:T79 Arg2:E20	
+R68	Number_Of Arg1:T37 Arg2:T80	
+R69	Condition_Of Arg1:T80 Arg2:E20	
+R70	Number_Of Arg1:T38 Arg2:T81	
+R71	Amount_Of Arg1:T81 Arg2:T62	
+R72	Number_Of Arg1:T39 Arg2:T82	
+R73	Amount_Of Arg1:T82 Arg2:T63	

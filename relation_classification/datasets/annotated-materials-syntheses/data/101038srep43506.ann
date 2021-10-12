@@ -1,0 +1,384 @@
+T1	Material 34 52	Nanographene Oxide
+T2	Property-Misc 18 33	Multifunctional
+T3	Operation 144 153	purchased
+E1	Operation:T3 Recipe_Precursor:T36
+T4	Operation 297 306	purchased
+E2	Operation:T4 Recipe_Precursor:T39 Recipe_Precursor:T41 Recipe_Precursor:T43 Recipe_Precursor:T46 Solvent_Material:T51 Recipe_Precursor:T52 Recipe_Precursor:T53
+T5	Operation 343 352	purchased
+E3	Operation:T5 Recipe_Precursor:T176
+T6	Operation 422 431	purchased
+E4	Operation:T6 
+T7	Operation 514 522	obtained
+E5	Operation:T7 Recipe_Precursor:T180 Recipe_Precursor:T179 Recipe_Precursor:T177
+T8	Operation 595 604	purchased
+E6	Operation:T8 Recipe_Precursor:T181
+T9	Operation 686 695	purchased
+E7	Operation:T9 
+T10	Operation 743 752	purchased
+E8	Operation:T10 Recipe_Precursor:T185
+T11	Operation 867 876	purchased
+E9	Operation:T11 
+T12	Operation 957 965	supplied
+E10	Operation:T12 Recipe_Precursor:T66 Recipe_Precursor:T65 Recipe_Precursor:T63
+T13	Operation 1007 1015	prepared
+E11	Operation:T13 Participant_Material:T72
+T14	Operation 1149 1153	used
+E12	Operation:T14 Participant_Material:T74 Participant_Material:T77
+T15	Operation 1282 1288	modify
+E13	Operation:T15 Recipe_Precursor:T80 Recipe_Precursor:T81 Recipe_Precursor:T82
+T16	Operation 1376 1381	mixed
+E14	Operation:T16 Recipe_Precursor:T87 Recipe_Precursor:T90 Recipe_Precursor:T93
+T17	Operation 1437 1444	stirred
+E15	Operation:T17 
+T18	Operation 1483 1493	activation
+E16	Operation:T18 Recipe_Precursor:T104
+T19	Operation 1529 1534	added
+E17	Operation:T19 Participant_Material:T108
+T20	Operation 1554 1559	react
+E18	Operation:T20 
+T21	Operation 1613 1620	removed
+E19	Operation:T21 Participant_Material:T112
+T22	Operation 1624 1633	dialyzing
+E20	Operation:T22 Participant_Material:T114
+T23	Operation 1725 1733	obtained
+E21	Operation:T23 Recipe_Target:T119 Recipe_Target:T120
+T24	Operation 1812 1818	loaded
+E22	Operation:T24 Recipe_Precursor:T125 Participant_Material:T126
+T25	Operation 1922 1927	mixed
+E23	Operation:T25 Recipe_Precursor:T134 Recipe_Precursor:T129 Solvent_Material:T137
+T26	Operation 1968 1975	stirred
+E24	Operation:T26 
+T27	Operation 2027 2034	removed
+E25	Operation:T27 Participant_Material:T143
+T28	Operation 2038 2047	dialyzing
+E26	Operation:T28 Participant_Material:T146 Participant_Material:T147
+T29	Operation 2228 2237	dissolved
+E27	Operation:T29 Recipe_Precursor:T150 Recipe_Precursor:T151 Recipe_Precursor:T153 Solvent_Material:T155
+T30	Operation 2263 2270	achieve
+E28	Operation:T30 Participant_Material:T159
+T31	Operation 2306 2311	blend
+E29	Operation:T31 Recipe_Precursor:T160 Recipe_Precursor:T161
+T32	Operation 2385 2394	incubated
+E30	Operation:T32 
+T33	Operation 2455 2465	adsorption
+E31	Operation:T33 
+T34	Operation 2430 2436	allows
+E32	Operation:T34 
+T35	Operation 2645 2654	dispersed
+E33	Operation:T35 Recipe_Precursor:T173 Solvent_Material:T175
+T36	Material 124 132	Graphite
+T37	Material-Descriptor 133 139	powder
+T38	Brand 159 164	Acros
+T39	Material 166 171	KMnO4
+T40	Amount-Misc 173 175	AR
+T41	Material 178 183	NaNO3
+T42	Amount-Misc 185 187	AR
+T43	Material 203 212	PEG amine
+T44	Number 214 218	5000
+T45	Material-Descriptor 190 202	linear chain
+T46	Material 230 246	polyethylenimine
+T47	Number 247 252	10000
+T48	Material-Descriptor 221 229	branched
+T49	Number 259 264	10000
+T50	Amount-Unit 254 258	BPEI
+T51	Material 267 277	folic acid
+T52	Material 279 282	EDC
+T53	Material 287 290	NHS
+T54	Brand 312 325	Sigma-Aldrich
+T55	Brand 437 444	HyClone
+T56	Brand 358 372	Sangon Biotech
+T57	Brand 528 533	Gibco
+T58	Brand 610 626	Molecular Probes
+T59	Brand 701 708	Dojindo
+T60	Brand 758 765	GeneTex
+T61	Brand 882 891	Millipore
+T62	Brand 969 979	GenePharma
+T63	Material 946 951	siRNA
+T64	Material-Descriptor 933 945	FAM-labelled
+T65	Material 923 928	siRNA
+T66	Material 897 907	P-gp siRNA
+T67	Material-Descriptor 913 922	scrambled
+T68	Synthesis-Apparatus 777 790	dialysis bags
+T69	Synthesis-Apparatus 795 816	ultrafiltration tubes
+T70	Characterization-Apparatus 670 680	Calcein AM
+T71	Characterization-Apparatus 638 657	Cell Counting Kit-8
+T72	Material 999 1002	PPG
+T73	Reference 1049 1061	methods27,28
+T74	Nonrecipe-Material 1189 1205	polyethylenimine
+T75	Number 1207 1212	10000
+T76	Material-Descriptor 1158 1188	high molecular weight branched
+T77	Nonrecipe-Material 1255 1271	polyethylenimine
+T78	Material-Descriptor 1225 1254	low molecular weight branched
+T79	Number 1273 1277	1800
+T80	Material 1289 1291	PG
+T81	Material 1325 1328	EDC
+T82	Material 1333 1336	NHS
+T83	Material-Descriptor 1302 1324	cross-linking reagents
+T84	Synthesis-Apparatus 392 417	Modified RPMI-1640 Medium
+T85	Number 1347 1349	40
+T86	Amount-Unit 1350 1352	mg
+T87	Material 1353 1356	EDC
+T88	Number 1361 1363	40
+T89	Amount-Unit 1364 1366	mg
+T90	Material 1367 1370	NHS
+T91	Number 1385 1386	4
+T92	Amount-Unit 1387 1389	mL
+T93	Material 1390 1392	FA
+T94	Number 1394 1397	0.5
+T95	Amount-Unit 1398 1403	mg/mL
+T96	Brand 1405 1409	DMSO
+T97	Material-Descriptor 1411 1419	solution
+T98	Condition-Misc 1424 1436	magnetically
+T99	Condition-Misc 1448 1464	room temperature
+T100	Number 1469 1471	15
+T101	Condition-Unit 1472 1475	min
+T102	Number 1495 1496	4
+T103	Amount-Unit 1497 1499	ml
+T104	Material 1500 1503	PPG
+T105	Number 1505 1508	1.0
+T106	Amount-Unit 1509 1514	mg/mL
+T107	Material-Descriptor 1516 1524	solution
+T108	Material 1542 1550	solution
+T109	Condition-Misc 1563 1579	room temperature
+T110	Number 1584 1586	24
+T111	Condition-Unit 1587 1588	h
+T112	Material 1606 1608	FA
+T113	Material-Descriptor 1599 1605	excess
+T114	Material 1659 1664	water
+T115	Material-Descriptor 1642 1658	double distilled
+T116	Material-Descriptor 1666 1668	DD
+T117	Number 1674 1676	24
+T118	Condition-Unit 1677 1678	h
+T119	Material 1714 1720	PPG-FA
+T120	Material 1756 1763	NGO-PEG
+T121	Number 1765 1768	0.5
+T122	Amount-Unit 1769 1774	mg/mL
+T123	Operation 1777 1788	Preparation
+E34	Operation:T123 Recipe_Target:T124
+T124	Material 1792 1802	PPG-FA/Dox
+T125	Material 1804 1807	Dox
+T126	Material 1824 1830	PPG-FA
+T127	Number 1866 1869	500
+T128	Amount-Unit 1870 1872	μL
+T129	Material 1873 1879	PPG-FA
+T130	Number 1881 1884	0.5
+T131	Amount-Unit 1885 1890	mg/mL
+T132	Number 1896 1899	500
+T133	Amount-Unit 1900 1902	μL
+T134	Material 1903 1906	Dox
+T135	Number 1933 1934	5
+T136	Amount-Unit 1935 1937	mL
+T137	Material 1938 1941	PBS
+T138	Material-Descriptor 1942 1950	solution
+T139	Condition-Misc 1955 1967	magnetically
+T140	Condition-Misc 1979 1995	room temperature
+T141	Number 2000 2002	12
+T142	Condition-Unit 2003 2004	h
+T143	Material 2019 2022	Dox
+T144	Material-Descriptor 2012 2018	excess
+T145	Material-Descriptor 2074 2076	DD
+T146	Material 2077 2082	water
+T147	Material 2093 2101	filtrate
+T148	Material 2141 2153	PPG-FA/siRNA
+T149	Operation 2126 2137	Preparation
+E35	Operation:T149 Recipe_Target:T148
+T150	Material 2159 2169	P-gp siRNA
+T151	Material 2181 2186	siRNA
+T152	Material-Descriptor 2171 2180	scrambled
+T153	Material 2204 2209	siRNA
+T154	Material-Descriptor 2191 2203	FAM-labelled
+T155	Material 2254 2259	water
+T156	Material-Descriptor 2241 2253	DEPC-treated
+T157	Number 2271 2274	0.1
+T158	Amount-Unit 2275 2280	mg/mL
+T159	Material 2281 2289	solution
+T160	Material 2295 2301	PPG-FA
+T161	Material 2327 2332	siRNA
+T162	Material-Descriptor 2333 2341	solution
+T163	Amount-Unit 2347 2359	weight ratio
+T164	Number 2363 2366	4:1
+T165	Nonrecipe-Material 2368 2371	NGO
+T166	Nonrecipe-Material 2373 2378	siRNA
+T167	Condition-Misc 2398 2414	room temperature
+T168	Number 2419 2421	30
+T169	Condition-Unit 2422 2425	min
+T170	Material 2549 2565	PPG-FA/Dox/siRNA
+T171	Operation 2534 2545	preparation
+E36	Operation:T171 Recipe_Target:T170
+T172	Material 2608 2620	PPG-FA/siRNA
+T173	Material 2634 2644	PPG-FA/Dox
+T174	Material-Descriptor 2658 2670	DEPC-treated
+T175	Material 2671 2676	water
+R1	Property_Of Arg1:T2 Arg2:T1	
+A1	Start_Recipe E1
+R2	Next_Operation Arg1:E1 Arg2:E2	
+R3	Next_Operation Arg1:E2 Arg2:E3	
+R4	Next_Operation Arg1:E3 Arg2:E4	
+R5	Next_Operation Arg1:E4 Arg2:E5	
+R6	Next_Operation Arg1:E5 Arg2:E6	
+R7	Next_Operation Arg1:E6 Arg2:E7	
+R8	Next_Operation Arg1:E7 Arg2:E8	
+R9	Next_Operation Arg1:E8 Arg2:E9	
+R10	Next_Operation Arg1:E9 Arg2:E10	
+R11	Next_Operation Arg1:E10 Arg2:E11	
+R12	Next_Operation Arg1:E11 Arg2:E12	
+R13	Next_Operation Arg1:E12 Arg2:E13	
+R14	Next_Operation Arg1:E13 Arg2:E14	
+R15	Next_Operation Arg1:E14 Arg2:E15	
+R16	Next_Operation Arg1:E15 Arg2:E16	
+R17	Next_Operation Arg1:E16 Arg2:E17	
+R18	Next_Operation Arg1:E17 Arg2:E18	
+R19	Next_Operation Arg1:E18 Arg2:E19	
+R20	Next_Operation Arg1:E19 Arg2:E20	
+R21	Next_Operation Arg1:E20 Arg2:E21	
+A2	End_Recipe E21
+A3	Start_Recipe E34
+R22	Next_Operation Arg1:E34 Arg2:E22	
+R23	Next_Operation Arg1:E22 Arg2:E23	
+R24	Next_Operation Arg1:E23 Arg2:E24	
+R25	Next_Operation Arg1:E24 Arg2:E25	
+R26	Next_Operation Arg1:E25 Arg2:E26	
+A4	End_Recipe E26
+A5	Start_Recipe E35
+R27	Next_Operation Arg1:E35 Arg2:E27	
+R28	Next_Operation Arg1:E27 Arg2:E28	
+R29	Next_Operation Arg1:E28 Arg2:E29	
+R30	Next_Operation Arg1:E29 Arg2:E30	
+R31	Next_Operation Arg1:E30 Arg2:E32	
+R32	Next_Operation Arg1:E32 Arg2:E31	
+R33	Next_Operation Arg1:E31 Arg2:E36	
+R34	Next_Operation Arg1:E36 Arg2:E33	
+A6	End_Recipe E33
+R35	Descriptor_Of Arg1:T37 Arg2:T36	
+R36	Brand_Of Arg1:T38 Arg2:T36	
+R37	Amount_Of Arg1:T40 Arg2:T39	
+R38	Amount_Of Arg1:T42 Arg2:T41	
+R39	Descriptor_Of Arg1:T45 Arg2:T43	
+R40	Descriptor_Of Arg1:T48 Arg2:T46	
+R41	Number_Of Arg1:T49 Arg2:T50	
+R42	Amount_Of Arg1:T50 Arg2:T46	
+R43	Brand_Of Arg1:T54 Arg2:T39	
+R44	Brand_Of Arg1:T54 Arg2:T41	
+R45	Brand_Of Arg1:T54 Arg2:T43	
+R46	Brand_Of Arg1:T54 Arg2:T46	
+R47	Brand_Of Arg1:T54 Arg2:T51	
+R48	Brand_Of Arg1:T54 Arg2:T52	
+R49	Brand_Of Arg1:T54 Arg2:T53	
+T176	Material 327 338	Doxorubicin
+R50	Brand_Of Arg1:T56 Arg2:T176	
+R51	Apparatus_Of Arg1:T84 Arg2:E4	
+R52	Brand_Of Arg1:T55 Arg2:T84	
+T177	Material 446 464	Fetal bovine serum
+T178	Material 466 469	FBS
+T179	Material 472 495	penicillin-streptomycin
+T180	Material 501 508	trypsin
+R53	Coref_Of Arg1:T178 Arg2:T177	
+R54	Brand_Of Arg1:T57 Arg2:T180	
+R55	Brand_Of Arg1:T57 Arg2:T179	
+R56	Brand_Of Arg1:T57 Arg2:T177	
+T181	Material 535 551	Propidium iodide
+T182	Synthesis-Apparatus 553 564	LysoTracker
+T183	Synthesis-Apparatus 566 577	MitoTracker
+T184	Synthesis-Apparatus 582 589	Hoechst
+R57	Apparatus_Of Arg1:T184 Arg2:E6	
+R58	Apparatus_Of Arg1:T183 Arg2:E6	
+R59	Apparatus_Of Arg1:T182 Arg2:E6	
+R60	Brand_Of Arg1:T58 Arg2:T184	
+R61	Brand_Of Arg1:T58 Arg2:T183	
+R62	Brand_Of Arg1:T58 Arg2:T182	
+R63	Brand_Of Arg1:T58 Arg2:T181	
+R64	Apparatus_Of Arg1:T70 Arg2:E7	
+R65	Apparatus_Of Arg1:T71 Arg2:E7	
+R66	Brand_Of Arg1:T59 Arg2:T70	
+R67	Brand_Of Arg1:T59 Arg2:T71	
+T185	Material 722 738	β-actin antibody
+R68	Brand_Of Arg1:T60 Arg2:T185	
+T186	Number 843 845	10
+T187	Number 854 856	30
+T188	Apparatus-Unit 846 849	kDa
+T189	Apparatus-Unit 857 860	kDa
+T190	Apparatus-Property-Type 818 841	molecular weight cutoff
+R69	Number_Of Arg1:T186 Arg2:T188	
+R70	Number_Of Arg1:T187 Arg2:T189	
+R71	Type_Of Arg1:T190 Arg2:T188	
+R72	Type_Of Arg1:T190 Arg2:T189	
+R73	Apparatus_Attr_Of Arg1:T188 Arg2:T68	
+R74	Apparatus_Attr_Of Arg1:T189 Arg2:T69	
+R75	Apparatus_Of Arg1:T69 Arg2:E9	
+R76	Apparatus_Of Arg1:T68 Arg2:E9	
+R77	Brand_Of Arg1:T61 Arg2:T69	
+R78	Brand_Of Arg1:T61 Arg2:T68	
+R79	Descriptor_Of Arg1:T67 Arg2:T65	
+R80	Descriptor_Of Arg1:T64 Arg2:T63	
+R81	Brand_Of Arg1:T62 Arg2:T66	
+R82	Brand_Of Arg1:T62 Arg2:T65	
+R83	Brand_Of Arg1:T62 Arg2:T63	
+R84	Descriptor_Of Arg1:T76 Arg2:T74	
+R85	Descriptor_Of Arg1:T78 Arg2:T77	
+R86	Descriptor_Of Arg1:T83 Arg2:T81	
+R87	Descriptor_Of Arg1:T83 Arg2:T82	
+R88	Number_Of Arg1:T85 Arg2:T86	
+R89	Amount_Of Arg1:T86 Arg2:T87	
+R90	Number_Of Arg1:T88 Arg2:T89	
+R91	Amount_Of Arg1:T89 Arg2:T90	
+R92	Number_Of Arg1:T91 Arg2:T92	
+R93	Amount_Of Arg1:T92 Arg2:T93	
+R94	Number_Of Arg1:T94 Arg2:T95	
+R95	Brand_Of Arg1:T96 Arg2:T93	
+R96	Amount_Of Arg1:T95 Arg2:T93	
+R97	Descriptor_Of Arg1:T97 Arg2:T93	
+R98	Condition_Of Arg1:T98 Arg2:E15	
+R99	Condition_Of Arg1:T99 Arg2:E15	
+R100	Number_Of Arg1:T100 Arg2:T101	
+R101	Condition_Of Arg1:T101 Arg2:E15	
+R102	Number_Of Arg1:T102 Arg2:T103	
+R103	Amount_Of Arg1:T103 Arg2:T104	
+R104	Number_Of Arg1:T105 Arg2:T106	
+R105	Amount_Of Arg1:T106 Arg2:T104	
+R106	Descriptor_Of Arg1:T107 Arg2:T104	
+R107	Condition_Of Arg1:T109 Arg2:E18	
+R108	Number_Of Arg1:T110 Arg2:T111	
+R109	Condition_Of Arg1:T111 Arg2:E18	
+R110	Descriptor_Of Arg1:T113 Arg2:T112	
+R111	Descriptor_Of Arg1:T115 Arg2:T114	
+R112	Descriptor_Of Arg1:T116 Arg2:T114	
+R113	Number_Of Arg1:T117 Arg2:T118	
+R114	Condition_Of Arg1:T118 Arg2:E20	
+T191	Apparatus-Property-Type 1680 1703	molecular weight cutoff
+T192	Number 1705 1707	10
+T193	Apparatus-Unit 1708 1711	kDa
+R115	Type_Of Arg1:T191 Arg2:T193	
+R116	Number_Of Arg1:T121 Arg2:T122	
+R117	Amount_Of Arg1:T122 Arg2:T120	
+R118	Number_Of Arg1:T127 Arg2:T128	
+R119	Amount_Of Arg1:T128 Arg2:T129	
+R120	Number_Of Arg1:T130 Arg2:T131	
+R121	Amount_Of Arg1:T131 Arg2:T129	
+R122	Number_Of Arg1:T132 Arg2:T133	
+R123	Amount_Of Arg1:T133 Arg2:T134	
+T194	Number 1908 1909	1
+T195	Amount-Unit 1910 1915	mg/mL
+R124	Number_Of Arg1:T194 Arg2:T195	
+R125	Amount_Of Arg1:T195 Arg2:T134	
+R126	Number_Of Arg1:T135 Arg2:T136	
+R127	Amount_Of Arg1:T136 Arg2:T137	
+R128	Descriptor_Of Arg1:T138 Arg2:T137	
+R129	Condition_Of Arg1:T139 Arg2:E24	
+R130	Condition_Of Arg1:T140 Arg2:E24	
+R131	Number_Of Arg1:T141 Arg2:T142	
+R132	Condition_Of Arg1:T142 Arg2:E24	
+R133	Descriptor_Of Arg1:T144 Arg2:T143	
+R134	Descriptor_Of Arg1:T145 Arg2:T146	
+R135	Descriptor_Of Arg1:T152 Arg2:T151	
+R136	Descriptor_Of Arg1:T154 Arg2:T153	
+R137	Descriptor_Of Arg1:T156 Arg2:T155	
+R138	Number_Of Arg1:T157 Arg2:T158	
+R139	Amount_Of Arg1:T158 Arg2:T159	
+R140	Descriptor_Of Arg1:T162 Arg2:T161	
+R141	Number_Of Arg1:T164 Arg2:T163	
+R142	Amount_Of Arg1:T163 Arg2:T165	
+R143	Amount_Of Arg1:T163 Arg2:T166	
+R144	Condition_Of Arg1:T167 Arg2:E30	
+R145	Number_Of Arg1:T168 Arg2:T169	
+R146	Condition_Of Arg1:T169 Arg2:E30	
+R147	Descriptor_Of Arg1:T174 Arg2:T175	

@@ -1,0 +1,4 @@
+10.1002/aoc.1683
+Palladium-Schiff base-triphenylphosphine catalyzed oxidation of alcohols
+All the chemicals used were of analytical grade. Solvents were purified and dried according to standard procedures.21 Anhydrous PdCl2 was purchased from Merck and was used without further purification. [PdCl2 (PPh3)2] was prepared by the reaction of anhydrous PdCl2 (CDH) and triphenylphosphine in tetrahydrofuran (Merck) under reflux for 5 h.22 The Schiff bases were prepared in 70-80% yield by condensation reactions of 2-hydrazinopyridine (Aldrich) with the corresponding 5-substituted salicylaldehyde (Loba) in methanolic media.23
+Complexes PdL1-PdL5 were prepared by stirring a mixture of [PdCl2 (PPh3)2] in 3 ml of 0.1 M sodium acetate and the respective ligands in 15 ml alcohol in a 1:1 ratio for 5 h. The red solid was filtered off, washed with ethanol and dried in vacuo.

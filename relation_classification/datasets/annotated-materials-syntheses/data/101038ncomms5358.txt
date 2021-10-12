@@ -1,0 +1,5 @@
+10.1038/ncomms5358
+A 3.8-V earth-abundant sodium battery electrode
+
+The target material was synthesized by reacting 1.54 g Na2SO4 (Wako, 99%) and 2.73 g FeSO4. The anhydrous FeSO4 precursor was prepared in-house by annealing commercial FeSO4.7H2O (Wako, 99%) under vacuum at 200 degC for 12 h (ref. 35). Na2Fe2(SO4)3 cathode compound was obtained via classical solid-state synthesis by ball milling the precursors for 4 h followed by annealing the mixture at 350 degC for 24 h under steady Ar flow. As SO4-based compounds are prone to dissolvation (in water) and thermal decomposition, we used these sustainable non-aqueous, low-temperature methods. Chemical oxidation was performed to obtain desodiated Na2-xFe2(SO4)3 samples using NO2BF4 (Alfa Aesar, 96%) oxidant dissolved in acetonitrile solvent (Wako, H2O level <5 p.p.m.). The solution was stirred overnight (with steady Ar flow), and the final products were filtered and dried at 60 degC under vacuum.
+

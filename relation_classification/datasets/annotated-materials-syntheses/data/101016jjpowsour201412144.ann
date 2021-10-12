@@ -1,0 +1,197 @@
+T1	Property-Type 31 42	Performance
+T2	Property-Type 47 57	durability
+T3	Material 84 86	Pd
+T4	Property-Misc 61 83	carbon black-supported
+T5	Property-Misc 87 95	catalyst
+T6	Material 195 200	Pd/CB
+T7	Operation 205 213	supplied
+E1	Operation:T7 
+T8	Operation 424 431	covered
+E2	Operation:T8 Recipe_Precursor:T31 Recipe_Precursor:T32
+T9	Operation 599 608	dispersed
+E3	Operation:T9 Recipe_Precursor:T43 Solvent_Material:T47
+T10	Operation 677 685	adjusted
+E4	Operation:T10 Participant_Material:T53
+T11	Operation 756 765	performed
+E5	Operation:T11 
+T12	Operation 796 804	addition
+E6	Operation:T12 Recipe_Precursor:T64 Participant_Material:T66
+T13	Operation 939 944	added
+E7	Operation:T13 Recipe_Precursor:T69 Participant_Material:T71
+T14	Operation 1034 1041	stirred
+E8	Operation:T14 Participant_Material:T76
+T15	Operation 1072 1080	filtered
+E9	Operation:T15 
+T16	Operation 1085 1091	washed
+E10	Operation:T16 Participant_Material:T82
+T17	Operation 1140 1148	obtained
+E11	Operation:T17 Participant_Material:T84
+T18	Operation 1154 1166	heat-treated
+E12	Operation:T18 
+T19	Operation 1248 1255	denoted
+E13	Operation:T19 Recipe_Target:T95 Recipe_Target:T97
+T20	Brand 219 251	Tanaka Kikinzoku Kogyo Co., Ltd.
+T21	Property-Type 256 277	specific surface area
+T22	Number 305 308	550
+T23	Property-Unit 309 315	m2 g-1
+T24	Property-Type 349 357	diameter
+T25	Material 361 363	Pd
+T26	Material-Descriptor 364 373	particles
+T27	Number 378 380	29
+T28	Amount-Unit 381 385	wt.%
+T29	Number 394 395	5
+T30	Property-Unit 396 398	nm
+T31	Material 414 419	Pd/CB
+T32	Material 437 443	silica
+T33	Material-Descriptor 444 450	layers
+T34	Operation 469 479	hydrolysis
+E14	Operation:T34 Recipe_Precursor:T35 Recipe_Precursor:T37
+T35	Material 483 511	3-aminopropyltriethoxysilane
+T36	Material 513 518	APTES
+T37	Material 524 541	tetraethoxysilane
+T38	Material 543 547	TEOS
+T39	Reference 549 553	[16]
+T40	Reference 558 562	[17]
+T41	Number 564 567	550
+T42	Amount-Unit 568 570	mg
+T43	Material 574 579	Pd/CB
+T44	Condition-Misc 584 598	ultrasonically
+T45	Number 612 615	220
+T46	Amount-Unit 616 618	mL
+T47	Material 627 632	water
+T48	Amount-Misc 622 626	pure
+T49	Number 636 638	60
+T50	Condition-Unit 639 643	degC
+T51	Condition-Unit 653 655	pH
+T52	Number 689 693	10.5
+T53	Material 664 672	solution
+T54	Operation 701 709	addition
+E15	Operation:T54 Recipe_Precursor:T55
+T55	Material 713 726	triethylamine
+T56	Operation 732 742	hydrolysis
+E16	Operation:T56 Recipe_Precursor:T57
+T57	Material 746 751	APTES
+T58	Number 769 771	60
+T59	Condition-Unit 772 776	degC
+T60	Number 782 784	30
+T61	Condition-Unit 785 788	min
+T62	Number 808 811	290
+T63	Amount-Unit 812 814	mg
+T64	Material 818 823	APTES
+T65	Brand 825 858	Tokyo Chemical Industry Co., Ltd.
+T66	Material 867 876	solutions
+T67	Number 892 896	1150
+T68	Amount-Unit 897 899	mg
+T69	Material 903 907	TEOS
+T70	Brand 909 933	Kanto Chemical Co., Inc.
+T71	Material 952 961	solutions
+T72	Material 975 982	samples
+T73	Material 994 1000	silica
+T74	Material-Descriptor 1001 1007	layers
+T75	Material-Descriptor 988 993	thick
+T76	Material 1019 1028	solutions
+T77	Number 1046 1047	3
+T78	Condition-Unit 1048 1049	h
+T79	Number 1053 1055	60
+T80	Condition-Unit 1056 1060	degC
+T81	Condition-Misc 1092 1105	several times
+T82	Material 1116 1121	water
+T83	Amount-Misc 1111 1115	pure
+T84	Material 1127 1134	samples
+T85	Number 1170 1173	350
+T86	Condition-Unit 1174 1178	degC
+T87	Material 1185 1187	H2
+T88	Material 1188 1190	N2
+T89	Material 1192 1194	H2
+T90	Number 1196 1197	5
+T91	Amount-Unit 1198 1203	vol.%
+T92	Condition-Type 1205 1215	atmosphere
+T93	Number 1220 1221	2
+T94	Condition-Unit 1222 1223	h
+T95	Material 1239 1244	Pd/CB
+T96	Property-Misc 1225 1238	Silica-coated
+T97	Material 1256 1266	SiO2/Pd/CB
+R1	Property_Of Arg1:T4 Arg2:T3	
+R2	Property_Of Arg1:T5 Arg2:T3	
+A1	Start_Recipe E1
+R3	Next_Operation Arg1:E1 Arg2:E2	
+R4	Next_Operation Arg1:E2 Arg2:E14	
+R5	Next_Operation Arg1:E14 Arg2:E3	
+R6	Next_Operation Arg1:E3 Arg2:E4	
+R7	Next_Operation Arg1:E4 Arg2:E16	
+R8	Next_Operation Arg1:E16 Arg2:E5	
+R9	Next_Operation Arg1:E5 Arg2:E6	
+R10	Next_Operation Arg1:E6 Arg2:E7	
+R11	Next_Operation Arg1:E7 Arg2:E8	
+R12	Next_Operation Arg1:E8 Arg2:E9	
+R13	Next_Operation Arg1:E9 Arg2:E10	
+R14	Next_Operation Arg1:E10 Arg2:E11	
+R15	Next_Operation Arg1:E11 Arg2:E12	
+R16	Next_Operation Arg1:E12 Arg2:E13	
+T98	Property-Type 1282 1292	morphology
+T99	Nonrecipe-Material 1300 1306	silica
+T100	Material-Descriptor 1307 1313	layers
+T101	Characterization-Apparatus 1331 1363	transmission electron microscopy
+T102	Characterization-Apparatus 1365 1368	TEM
+T103	Brand 1370 1410	HD-2700, Hitachi High-Technologies Corp.
+T104	Brand 1490 1522	Tanaka Kikinzoku Kogyo Co., Ltd.
+T105	Number 1447 1449	46
+T106	Amount-Unit 1450 1454	wt.%
+T107	Brand 1456 1465	TEC10E50E
+T108	Nonrecipe-Material 1435 1437	Pt
+T109	Material 1428 1433	Pt/CB
+T110	Operation 1476 1484	supplied
+E17	Operation:T110 Participant_Material:T109
+R17	Next_Operation Arg1:E13 Arg2:E17	
+A2	End_Recipe E17
+R18	Brand_Of Arg1:T20 Arg2:T6	
+T111	Material 285 287	CB
+R19	Number_Of Arg1:T22 Arg2:T23	
+R20	Type_Of Arg1:T24 Arg2:T30	
+R21	Number_Of Arg1:T29 Arg2:T30	
+R22	Number_Of Arg1:T27 Arg2:T28	
+R23	Descriptor_Of Arg1:T26 Arg2:T25	
+R24	Amount_Of Arg1:T28 Arg2:T25	
+R25	Property_Of Arg1:T30 Arg2:T25	
+R26	Descriptor_Of Arg1:T33 Arg2:T32	
+R27	Coref_Of Arg1:T36 Arg2:T35	
+R28	Coref_Of Arg1:T38 Arg2:T37	
+R29	Number_Of Arg1:T41 Arg2:T42	
+R30	Amount_Of Arg1:T42 Arg2:T43	
+R31	Condition_Of Arg1:T44 Arg2:E3	
+R32	Number_Of Arg1:T45 Arg2:T46	
+R33	Amount_Of Arg1:T46 Arg2:T47	
+R34	Amount_Of Arg1:T48 Arg2:T47	
+R35	Number_Of Arg1:T49 Arg2:T50	
+R36	Condition_Of Arg1:T50 Arg2:E3	
+R37	Number_Of Arg1:T52 Arg2:T51	
+R38	Condition_Of Arg1:T51 Arg2:E4	
+R39	Number_Of Arg1:T58 Arg2:T59	
+R40	Condition_Of Arg1:T59 Arg2:E5	
+R41	Number_Of Arg1:T60 Arg2:T61	
+R42	Condition_Of Arg1:T61 Arg2:E5	
+R43	Number_Of Arg1:T62 Arg2:T63	
+R44	Amount_Of Arg1:T63 Arg2:T64	
+R45	Brand_Of Arg1:T65 Arg2:T64	
+R46	Number_Of Arg1:T67 Arg2:T68	
+R47	Amount_Of Arg1:T68 Arg2:T69	
+R48	Brand_Of Arg1:T70 Arg2:T69	
+R49	Descriptor_Of Arg1:T75 Arg2:T73	
+R50	Descriptor_Of Arg1:T74 Arg2:T73	
+R51	Number_Of Arg1:T77 Arg2:T78	
+R52	Number_Of Arg1:T79 Arg2:T80	
+R53	Condition_Of Arg1:T78 Arg2:E8	
+R54	Condition_Of Arg1:T80 Arg2:E8	
+R55	Condition_Of Arg1:T81 Arg2:E10	
+R56	Amount_Of Arg1:T83 Arg2:T82	
+R57	Number_Of Arg1:T85 Arg2:T86	
+R58	Condition_Of Arg1:T86 Arg2:E12	
+R59	Number_Of Arg1:T90 Arg2:T91	
+R60	Amount_Of Arg1:T91 Arg2:T89	
+R61	Amount_Of Arg1:T91 Arg2:T88	
+R62	Amount_Of Arg1:T91 Arg2:T87	
+R63	Number_Of Arg1:T93 Arg2:T94	
+R64	Condition_Of Arg1:T94 Arg2:E12	
+R65	Property_Of Arg1:T96 Arg2:T95	
+R66	Descriptor_Of Arg1:T100 Arg2:T99	
+R67	Brand_Of Arg1:T104 Arg2:T109	

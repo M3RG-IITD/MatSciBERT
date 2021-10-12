@@ -1,0 +1,81 @@
+T1	Operation 295 303	prepared
+E1	Operation:T1 Recipe_Target:T7
+T2	Operation 307 319	impregnating
+E2	Operation:T2 Recipe_Precursor:T8 Recipe_Precursor:T9 Recipe_Precursor:T10 Recipe_Precursor:T11 Recipe_Precursor:T12
+T3	Operation 490 501	pre-treated
+E3	Operation:T3 Recipe_Precursor:T14
+T4	Operation 667 672	dried
+E4	Operation:T4 Participant_Material:T19
+T5	Operation 694 702	followed
+E5	Operation:T5 
+T6	Operation 706 717	calcination
+E6	Operation:T6 Atmospheric_Material:T24
+T7	Material 271 279	CuO/CeO2
+T8	Material 333 337	CeO2
+T9	Material 395 406	Cu(CH3COO)2
+T10	Material 408 416	Cu(NO3)2
+T11	Material 418 423	CuCl2
+T12	Material 428 433	CuSO4
+T13	Nonrecipe-Material 446 448	Cu
+T14	Material 473 477	CeO2
+T15	Condition-Misc 620 636	room temperature
+T16	Operation 593 604	impregnated
+E7	Operation:T16 
+T17	Number 646 648	24
+T18	Condition-Unit 649 650	h
+T19	Material 656 662	sample
+T20	Number 676 678	90
+T21	Condition-Unit 679 683	degC
+T22	Number 688 690	24
+T23	Condition-Unit 691 692	h
+T24	Material 728 731	air
+T25	Number 735 738	500
+T26	Number 742 745	800
+T27	Condition-Unit 746 750	degC
+T28	Number 755 756	4
+T29	Condition-Unit 757 758	h
+T30	Property-Misc 280 289	catalysts
+T31	Material-Descriptor 338 345	support
+T32	Number 354 358	11.1
+T33	Amount-Unit 359 365	m2 g-1
+T34	Material-Descriptor 375 391	aqueous solution
+T35	Number 460 462	10
+T36	Amount-Unit 463 467	wt.%
+T37	Material-Descriptor 478 485	support
+T38	Number 505 508	120
+T39	Condition-Unit 509 513	degC
+T40	Number 518 519	4
+T41	Condition-Unit 520 521	h
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E7	
+R4	Next_Operation Arg1:E7 Arg2:E4	
+R5	Next_Operation Arg1:E4 Arg2:E5	
+R6	Next_Operation Arg1:E5 Arg2:E6	
+R7	Condition_Of Arg1:T39 Arg2:E3	
+R8	Condition_Of Arg1:T41 Arg2:E3	
+R9	Condition_Of Arg1:T15 Arg2:E7	
+R10	Condition_Of Arg1:T18 Arg2:E7	
+R11	Condition_Of Arg1:T21 Arg2:E4	
+R12	Condition_Of Arg1:T23 Arg2:E4	
+R13	Condition_Of Arg1:T27 Arg2:E6	
+R14	Condition_Of Arg1:T29 Arg2:E6	
+R15	Property_Of Arg1:T30 Arg2:T7	
+R16	Amount_Of Arg1:T33 Arg2:T8	
+R17	Amount_Of Arg1:T36 Arg2:T13	
+R18	Descriptor_Of Arg1:T31 Arg2:T8	
+R19	Descriptor_Of Arg1:T34 Arg2:T9	
+R20	Descriptor_Of Arg1:T34 Arg2:T10	
+R21	Descriptor_Of Arg1:T34 Arg2:T11	
+R22	Descriptor_Of Arg1:T34 Arg2:T12	
+R23	Descriptor_Of Arg1:T37 Arg2:T14	
+R24	Number_Of Arg1:T32 Arg2:T33	
+R25	Number_Of Arg1:T35 Arg2:T36	
+R26	Number_Of Arg1:T38 Arg2:T39	
+R27	Number_Of Arg1:T40 Arg2:T41	
+R28	Number_Of Arg1:T17 Arg2:T18	
+R29	Number_Of Arg1:T20 Arg2:T21	
+R30	Number_Of Arg1:T22 Arg2:T23	
+R31	Number_Of Arg1:T25 Arg2:T27	
+R32	Number_Of Arg1:T26 Arg2:T27	
+R33	Number_Of Arg1:T28 Arg2:T29	

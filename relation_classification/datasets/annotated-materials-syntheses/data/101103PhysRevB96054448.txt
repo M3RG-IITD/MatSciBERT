@@ -1,0 +1,6 @@
+10.1103/PhysRevB.96.054448
+Magneto-orbital ordering in the divalent A -site quadruple perovskite manganites AMn7O12 ( A=Sr , Cd, and Pb)
+
+Powder samples of SrMn7O12, CdMn7O12, and PbMn7O12 were prepared from stoichiometric mixtures of Mn2O3, MnO1.839 (Alpha Aesar MnO2 99.997% with the precise oxygen content determined by thermogravimetric analysis), PbO (99.999%), CdO (99.99%), and 4H-SrMnO3. The mixtures were placed in Au capsules and treated at 6 GPa and 1373 K for 2 h for CdMn7O12 and PbMn7O12 and at 6 GPa and 1573 K for 2 h for SrMn7O12 (the duration of heating to the desired temperatures was 10 min) in a belt-type high-pressure apparatus. After the heat treatments, the samples were quenched to room temperature, and the pressure was slowly released. Data on CaMn7O12 presented in this paper have been reproduced from previous studies [3,22], in which single crystals were grown at ambient pressure by the flux method [3], and then ground and sieved through a 35-μm mesh. All samples were characterized by laboratory based x-ray powder-diffraction, and heat capacity and magnetization measurements using a Quantum Design physical property measurement system and magnetic property measurement system, respectively.
+
+

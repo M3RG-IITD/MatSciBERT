@@ -1,0 +1,114 @@
+T1	Operation 356 365	dissolved
+E1	Operation:T1 Recipe_Precursor:T12 Participant_Material:T14 Recipe_Precursor:T16 Solvent_Material:T18
+T2	Operation 418 423	added
+E2	Operation:T2 Participant_Material:T19 Participant_Material:T20
+T3	Operation 457 465	stirring
+E3	Operation:T3 
+T4	Operation 499 507	adjusted
+E4	Operation:T4 Participant_Material:T22
+T5	Operation 516 524	dropping
+E5	Operation:T5 Participant_Material:T26 Participant_Material:T28 Participant_Material:T29
+T6	Operation 608 619	transferred
+E6	Operation:T6 Participant_Material:T31
+T7	Operation 683 689	sealed
+E7	Operation:T7 
+T8	Operation 694 701	treated
+E8	Operation:T8 
+T9	Operation 773 784	calcination
+E9	Operation:T9 
+T10	Operation 815 821	washed
+E10	Operation:T10 Solvent_Material:T42 Participant_Material:T40 Solvent_Material:T44
+T11	Operation 883 888	dried
+E11	Operation:T11 Atmospheric_Material:T46
+T12	Material 225 241	sodium tungstate
+T13	Material 243 254	Na2WO4*2H2O
+T14	Material 269 296	hydroxylamine hydrochloride
+T15	Material 298 307	NH2OH*HCl
+T16	Material 321 330	sulfourea
+T17	Material 332 338	CH4N2S
+T18	Material 385 390	water
+T19	Material 396 407	surfactants
+T20	Material 433 441	solution
+T21	Amount-Unit 471 473	pH
+T22	Material 487 494	mixture
+T23	Number 511 512	6
+T24	Number 525 526	2
+T25	Amount-Unit 527 532	mol/L
+T26	Material 533 550	hydrochloric acid
+T27	Material 552 555	HCl
+T28	Material 560 567	ammonia
+T29	Material 568 573	water
+T30	Material 575 582	NH3*H2O
+T31	Material 595 603	solution
+T32	Synthesis-Apparatus 662 671	autoclave
+T33	Apparatus-Descriptor 633 661	Teflon-lined stainless steel
+T34	Number 627 629	50
+T35	Apparatus-Unit 630 632	ml
+T36	Number 705 708	180
+T37	Condition-Unit 709 713	degC
+T38	Number 718 720	24
+T39	Condition-Unit 721 722	h
+T40	Material 802 809	samples
+T41	Condition-Misc 822 835	several times
+T42	Material 851 856	water
+T43	Material-Descriptor 841 850	distilled
+T44	Material 870 877	ethanol
+T45	Material-Descriptor 861 869	absolute
+T46	Material 892 895	air
+T47	Number 899 901	60
+T48	Condition-Unit 902 906	degC
+T49	Number 911 913	10
+T50	Condition-Unit 914 915	h
+T51	Number 257 262	0.005
+T52	Amount-Unit 263 266	mol
+T53	Number 310 314	0.01
+T54	Amount-Unit 315 318	mol
+T55	Number 341 345	0.02
+T56	Amount-Unit 346 349	mol
+T57	Number 369 371	30
+T58	Amount-Unit 372 374	ml
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E7	
+R7	Next_Operation Arg1:E7 Arg2:E8	
+R8	Next_Operation Arg1:E8 Arg2:E9	
+R9	Next_Operation Arg1:E9 Arg2:E10	
+R10	Next_Operation Arg1:E10 Arg2:E11	
+R11	Coref_Of Arg1:T13 Arg2:T12	
+R12	Coref_Of Arg1:T15 Arg2:T14	
+R13	Coref_Of Arg1:T17 Arg2:T16	
+R14	Coref_Of Arg1:T27 Arg2:T26	
+R15	Coref_Of Arg1:T30 Arg2:T29	
+R16	Coref_Of Arg1:T30 Arg2:T28	
+R17	Apparatus_Of Arg1:T32 Arg2:E6	
+R18	Condition_Of Arg1:T37 Arg2:E8	
+R19	Condition_Of Arg1:T39 Arg2:E8	
+R20	Condition_Of Arg1:T41 Arg2:E10	
+R21	Condition_Of Arg1:T48 Arg2:E11	
+R22	Condition_Of Arg1:T50 Arg2:E11	
+R23	Amount_Of Arg1:T52 Arg2:T12	
+R24	Amount_Of Arg1:T54 Arg2:T14	
+R25	Amount_Of Arg1:T56 Arg2:T16	
+R26	Amount_Of Arg1:T58 Arg2:T18	
+R27	Amount_Of Arg1:T21 Arg2:T22	
+R28	Amount_Of Arg1:T25 Arg2:T26	
+R29	Amount_Of Arg1:T25 Arg2:T28	
+R30	Amount_Of Arg1:T25 Arg2:T29	
+R31	Descriptor_Of Arg1:T33 Arg2:T32	
+R32	Descriptor_Of Arg1:T43 Arg2:T42	
+R33	Descriptor_Of Arg1:T45 Arg2:T44	
+R34	Number_Of Arg1:T51 Arg2:T52	
+R35	Number_Of Arg1:T53 Arg2:T54	
+R36	Number_Of Arg1:T55 Arg2:T56	
+R37	Number_Of Arg1:T57 Arg2:T58	
+R38	Number_Of Arg1:T23 Arg2:T21	
+R39	Number_Of Arg1:T24 Arg2:T25	
+R40	Number_Of Arg1:T34 Arg2:T35	
+R41	Apparatus_Attr_Of Arg1:T35 Arg2:T32	
+R42	Number_Of Arg1:T36 Arg2:T37	
+R43	Number_Of Arg1:T38 Arg2:T39	
+R44	Number_Of Arg1:T47 Arg2:T48	
+R45	Number_Of Arg1:T49 Arg2:T50	

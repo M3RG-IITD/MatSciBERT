@@ -1,0 +1,128 @@
+T1	Material 31 35	Ni-P
+T2	Material 40 47	Ni-Cu-P
+T3	Property-Misc 48 73	modified carbon catalysts
+T4	Operation 157 163	chosen
+E1	Operation:T4 Participant_Material:T22
+T5	Operation 348 355	control
+E2	Operation:T5 
+T6	Operation 526 537	constitutes
+E3	Operation:T6 Participant_Material:T32
+T7	Operation 611 616	added
+E4	Operation:T7 Recipe_Precursor:T34
+T8	Operation 717 722	added
+E5	Operation:T8 Recipe_Precursor:T36 Participant_Material:T37
+T9	Operation 858 870	investigated
+E6	Operation:T9 
+T10	Operation 874 881	achieve
+E7	Operation:T10 
+T11	Operation 959 963	used
+E8	Operation:T11 Participant_Material:T38
+T13	Number 208 213	26.27
+T14	Number 259 264	38.71
+T15	Number 287 291	27.2
+T16	Number 430 432	21
+T17	Number 451 456	38.12
+T18	Number 579 584	0.015
+T19	Number 795 800	70-90
+T20	Number 812 816	7-12
+T21	Number 843 848	30-90
+T22	Material 144 152	solution
+T23	Material 220 235	nickel sulphate
+T24	Nonrecipe-Material 251 257	nickel
+T25	Material 271 285	sodium citrate
+T26	Material 298 312	sodium acetate
+T27	Nonrecipe-Material 339 344	agent
+T28	Nonrecipe-Material 392 402	metal ions
+T29	Material 420 428	solution
+T30	Material 439 446	glycine
+T31	Material 463 483	sodium hypophosphite
+T32	Nonrecipe-Material 552 562	phosphorus
+T33	Material 570 577	deposit
+T34	Material 591 606	copper sulphate
+T35	Material 641 650	Ni-Cu-P/C
+T36	Material 696 712	sodium hydroxide
+T37	Nonrecipe-Material 738 743	agent
+T38	Material 949 958	chemicals
+T39	Material 1026 1035	solutions
+T40	Material 1073 1078	water
+T41	Material-Descriptor 121 143	Electroless deposition
+T42	Amount-Unit 214 219	g L-1
+T43	Amount-Unit 265 270	g L-1
+T44	Amount-Unit 292 297	g L-1
+T45	Amount-Unit 433 438	g L-1
+T46	Amount-Unit 457 462	g L-1
+T47	Amount-Unit 585 590	g L-1
+T48	Condition-Unit 764 766	pH
+T49	Condition-Unit 801 805	degC
+T50	Condition-Unit 808 810	pH
+T51	Condition-Unit 849 852	min
+T52	Material-Descriptor 241 247	source
+T53	Material-Descriptor 328 338	complexing
+T54	Material-Descriptor 318 324	source
+T55	Material-Descriptor 410 419	reduction
+T56	Material-Descriptor 489 495	source
+T57	Material 508 513	agent
+T58	Material-Descriptor 499 507	reducing
+T59	Material-Descriptor 542 548	source
+T60	Synthesis-Apparatus 631 636	baths
+T61	Apparatus-Descriptor 620 630	deposition
+T62	Property-Misc 651 659	coatings
+T63	Material-Descriptor 728 737	buffering
+T64	Synthesis-Apparatus 759 763	bath
+T65	Condition-Type 782 793	temperature
+T66	Condition-Type 826 841	deposition time
+T67	Amount-Misc 993 1017	analytical reagent grade
+T68	Material-Descriptor 1056 1072	double distilled
+R1	Property_Of Arg1:T3 Arg2:T2	
+R2	Property_Of Arg1:T3 Arg2:T1	
+A1	Start_Recipe E1
+R3	Next_Operation Arg1:E1 Arg2:E2	
+R4	Next_Operation Arg1:E2 Arg2:E3	
+R5	Next_Operation Arg1:E3 Arg2:E4	
+R6	Next_Operation Arg1:E4 Arg2:E5	
+R7	Next_Operation Arg1:E5 Arg2:E6	
+R8	Next_Operation Arg1:E6 Arg2:E7	
+R9	Next_Operation Arg1:E7 Arg2:E8	
+R10	Descriptor_Of Arg1:T41 Arg2:T22	
+R11	Number_Of Arg1:T13 Arg2:T42	
+R12	Amount_Of Arg1:T42 Arg2:T23	
+R13	Descriptor_Of Arg1:T52 Arg2:T23	
+R14	Descriptor_Of Arg1:T52 Arg2:T24	
+R15	Number_Of Arg1:T14 Arg2:T43	
+R16	Amount_Of Arg1:T43 Arg2:T25	
+R17	Number_Of Arg1:T15 Arg2:T44	
+R18	Amount_Of Arg1:T44 Arg2:T26	
+R19	Descriptor_Of Arg1:T54 Arg2:T26	
+R20	Descriptor_Of Arg1:T54 Arg2:T27	
+R21	Descriptor_Of Arg1:T53 Arg2:T27	
+R22	Descriptor_Of Arg1:T55 Arg2:T29	
+R23	Number_Of Arg1:T16 Arg2:T45	
+R24	Amount_Of Arg1:T45 Arg2:T30	
+R25	Number_Of Arg1:T17 Arg2:T46	
+R26	Amount_Of Arg1:T46 Arg2:T31	
+R27	Descriptor_Of Arg1:T56 Arg2:T31	
+R28	Descriptor_Of Arg1:T56 Arg2:T57	
+R29	Descriptor_Of Arg1:T58 Arg2:T57	
+R30	Descriptor_Of Arg1:T59 Arg2:T32	
+R31	Number_Of Arg1:T18 Arg2:T47	
+R32	Amount_Of Arg1:T47 Arg2:T34	
+R33	Descriptor_Of Arg1:T61 Arg2:T60	
+R34	Apparatus_Of Arg1:T60 Arg2:E4	
+R35	Property_Of Arg1:T62 Arg2:T35	
+R36	Descriptor_Of Arg1:T63 Arg2:T37	
+R37	Apparatus_Of Arg1:T64 Arg2:E5	
+R38	Condition_Of Arg1:T48 Arg2:E5	
+R39	Type_Of Arg1:T65 Arg2:T49	
+R40	Number_Of Arg1:T19 Arg2:T49	
+R41	Number_Of Arg1:T20 Arg2:T50	
+R42	Type_Of Arg1:T66 Arg2:T51	
+R43	Number_Of Arg1:T21 Arg2:T51	
+R44	Condition_Of Arg1:T49 Arg2:E6	
+R45	Condition_Of Arg1:T50 Arg2:E6	
+R46	Condition_Of Arg1:T51 Arg2:E6	
+R47	Amount_Of Arg1:T67 Arg2:T38	
+T12	Operation 1041 1049	prepared
+E9	Operation:T12 Participant_Material:T39 Participant_Material:T40
+R48	Next_Operation Arg1:E8 Arg2:E9	
+A2	End_Recipe E9
+R49	Descriptor_Of Arg1:T68 Arg2:T40	

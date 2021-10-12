@@ -1,0 +1,111 @@
+T1	Operation 208 219	synthesized
+E1	Operation:T1 Recipe_Target:T12
+T2	Operation 240 247	melting
+E2	Operation:T2 
+T3	Operation 279 288	annealing
+E3	Operation:T3 
+T4	Operation 421 429	combined
+E4	Operation:T4 Recipe_Precursor:T13 Recipe_Precursor:T14 Recipe_Precursor:T15
+T5	Operation 465 471	placed
+E5	Operation:T5 
+T6	Operation 516 522	sealed
+E6	Operation:T6 
+T7	Operation 611 617	raised
+E7	Operation:T7 
+T8	Operation 632 642	maintained
+E8	Operation:T8 
+T9	Operation 682 688	cooled
+E9	Operation:T9 
+T10	Operation 719 728	annealing
+E10	Operation:T10 
+T11	Operation 766 780	furnace cooled
+E11	Operation:T11 
+T12	Material 155 165	Cu2Se1-xSx
+T13	Material 316 318	Cu
+T14	Material 348 350	Se
+T15	Material 384 385	S
+T16	Property-Misc 139 154	Polycrystalline
+T17	Material-Descriptor 290 301	High purity
+T18	Material-Descriptor 320 324	shot
+T19	Number 326 332	99.999
+T20	Amount-Unit 332 333	%
+T21	Brand 335 345	Alfa Aesar
+T22	Material-Descriptor 352 356	shot
+T23	Number 358 364	99.999
+T24	Amount-Unit 364 365	%
+T25	Brand 367 377	Alfa Aesar
+T26	Material-Descriptor 387 392	shots
+T27	Number 394 401	99.9999
+T28	Amount-Unit 401 402	%
+T29	Brand 404 414	Alfa Aesar
+T30	Amount-Misc 439 460	stoichiometric ratios
+T31	Synthesis-Apparatus 489 498	crucibles
+T32	Apparatus-Descriptor 475 488	boron nitride
+T33	Synthesis-Apparatus 539 544	tubes
+T34	Apparatus-Descriptor 526 538	fused silica
+T35	Condition-Misc 551 557	vacuum
+T36	Number 600 603	100
+T37	Condition-Unit 604 609	K h-1
+T38	Number 621 625	1423
+T39	Condition-Unit 626 627	K
+T40	Number 667 669	12
+T41	Condition-Unit 670 671	h
+T42	Number 697 701	1073
+T43	Condition-Unit 702 703	K
+T44	Number 707 709	24
+T45	Condition-Unit 710 711	h
+T46	Number 732 736	1073
+T47	Condition-Unit 737 738	K
+T48	Number 743 744	8
+T49	Condition-Unit 745 749	days
+T50	Synthesis-Apparatus 755 760	tubes
+T51	Condition-Misc 784 800	room temperature
+R1	Next_Operation Arg1:E4 Arg2:E5	
+R2	Next_Operation Arg1:E1 Arg2:E2	
+R3	Next_Operation Arg1:E2 Arg2:E3	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Next_Operation Arg1:E8 Arg2:E9	
+R8	Next_Operation Arg1:E9 Arg2:E10	
+R9	Next_Operation Arg1:E10 Arg2:E11	
+R10	Apparatus_Of Arg1:T31 Arg2:E5	
+R11	Apparatus_Of Arg1:T33 Arg2:E6	
+R12	Condition_Of Arg1:T35 Arg2:E6	
+R13	Condition_Of Arg1:T37 Arg2:E7	
+R14	Condition_Of Arg1:T39 Arg2:E7	
+R15	Condition_Of Arg1:T41 Arg2:E8	
+R16	Condition_Of Arg1:T43 Arg2:E9	
+R17	Condition_Of Arg1:T45 Arg2:E9	
+R18	Condition_Of Arg1:T47 Arg2:E10	
+R19	Condition_Of Arg1:T49 Arg2:E10	
+R20	Apparatus_Of Arg1:T50 Arg2:E11	
+R21	Condition_Of Arg1:T51 Arg2:E11	
+R22	Property_Of Arg1:T16 Arg2:T12	
+R23	Amount_Of Arg1:T20 Arg2:T13	
+R24	Amount_Of Arg1:T24 Arg2:T14	
+R25	Amount_Of Arg1:T28 Arg2:T15	
+R26	Amount_Of Arg1:T30 Arg2:T13	
+R27	Amount_Of Arg1:T30 Arg2:T14	
+R28	Amount_Of Arg1:T30 Arg2:T15	
+R29	Descriptor_Of Arg1:T17 Arg2:T13	
+R30	Descriptor_Of Arg1:T17 Arg2:T14	
+R31	Descriptor_Of Arg1:T17 Arg2:T15	
+R32	Descriptor_Of Arg1:T18 Arg2:T13	
+R33	Descriptor_Of Arg1:T22 Arg2:T14	
+R34	Descriptor_Of Arg1:T26 Arg2:T15	
+R35	Descriptor_Of Arg1:T32 Arg2:T31	
+R36	Descriptor_Of Arg1:T34 Arg2:T33	
+R37	Number_Of Arg1:T19 Arg2:T20	
+R38	Number_Of Arg1:T23 Arg2:T24	
+R39	Number_Of Arg1:T27 Arg2:T28	
+R40	Number_Of Arg1:T36 Arg2:T37	
+R41	Number_Of Arg1:T38 Arg2:T39	
+R42	Number_Of Arg1:T40 Arg2:T41	
+R43	Number_Of Arg1:T42 Arg2:T43	
+R44	Number_Of Arg1:T44 Arg2:T45	
+R45	Number_Of Arg1:T46 Arg2:T47	
+R46	Number_Of Arg1:T48 Arg2:T49	
+R47	Brand_Of Arg1:T21 Arg2:T13	
+R48	Brand_Of Arg1:T25 Arg2:T14	
+R49	Brand_Of Arg1:T29 Arg2:T15	

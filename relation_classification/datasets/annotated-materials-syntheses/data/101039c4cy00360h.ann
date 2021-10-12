@@ -1,0 +1,264 @@
+T1	Material 266 269	MWW
+T2	Material 274 278	PMWW
+T3	Operation 284 291	derived
+E1	Operation:T3 Recipe_Target:T2 Recipe_Target:T1 Recipe_Precursor:T4
+T4	Material 317 320	MWW
+T5	Operation 330 352	hydrothermal synthesis
+E2	Operation:T5 Recipe_Target:T47
+T6	Operation 368 375	carried
+E3	Operation:T6 
+T7	Operation 482 487	dried
+E4	Operation:T7 Recipe_Target:T48
+T8	Operation 492 500	calcined
+E5	Operation:T8 Recipe_Target:T50
+T9	Operation 550 557	swollen
+E6	Operation:T9 Recipe_Target:T51
+T10	Operation 582 591	developed
+E7	Operation:T10 
+T11	Operation 616 624	followed
+E8	Operation:T11 
+T12	Operation 628 637	pillaring
+E9	Operation:T12 Participant_Material:T52
+T13	Operation 734 741	treated
+E10	Operation:T13 Participant_Material:T53 Recipe_Target:T54
+T14	Operation 788 795	produce
+E11	Operation:T14 Recipe_Target:T55
+T15	Operation 826 837	synthesized
+E12	Operation:T15 Recipe_Target:T56
+T16	Operation 909 917	assembly
+E13	Operation:T16 Participant_Material:T58 Participant_Material:T60 Participant_Material:T61
+T17	Operation 1086 1090	done
+E14	Operation:T17 
+T18	Operation 1121 1128	produce
+E15	Operation:T18 Recipe_Target:T67
+T19	Operation 1151 1160	pillaring
+E16	Operation:T19 Recipe_Target:T68
+T20	Operation 1244 1257	ion-exchanged
+E17	Operation:T20 Recipe_Target:T71 Recipe_Target:T70 Participant_Material:T75
+T21	Operation 1387 1396	collected
+E18	Operation:T21 
+T22	Operation 1419 1425	washed
+E19	Operation:T22 Participant_Material:T86
+T23	Operation 1407 1417	filtration
+E20	Operation:T23 
+T24	Operation 1469 1474	dried
+E21	Operation:T24 
+T25	Operation 1498 1510	ion-exchange
+E22	Operation:T25 
+T26	Operation 1523 1530	applied
+E23	Operation:T26 Participant_Material:T90
+T27	Operation 1574 1583	purchased
+E24	Operation:T27 
+T28	Operation 1646 1653	treated
+E25	Operation:T28 Participant_Material:T92 Atmospheric_Material:T95
+T29	Operation 1702 1712	increasing
+E26	Operation:T29 
+T30	Operation 1783 1790	holding
+E27	Operation:T30 
+T31	Operation 1802 1821	thermally decompose
+E28	Operation:T31 Participant_Material:T106 Participant_Material:T107 Participant_Material:T108
+T32	Operation 1930 1935	named
+E29	Operation:T32 Participant_Material:T113
+T33	Reference 413 430	Corma et al.39,40
+T34	Reference 595 615	Maheshwari et al.,41
+T35	Reference 695 709	Barth et al.38
+T36	Reference 867 889	Ryoo and co-workers,43
+T37	Reference 1106 1117	Na et al.42
+T38	Number 1275 1276	1
+T39	Number 1346 1350	1:10
+T40	Number 1355 1358	353
+T41	Number 1365 1367	12
+T42	Number 1478 1481	343
+T43	Number 1666 1669	100
+T44	Number 1757 1760	823
+T45	Number 1766 1770	1.45
+T46	Number 1795 1796	4
+T47	Material 356 359	MWW
+T48	Material 470 473	MWW
+T49	Property-Misc 450 461	crystalline
+T50	Material 512 515	MWW
+T51	Material 538 541	MWW
+T52	Material 653 662	materials
+T53	Material 724 729	solid
+T54	Material 781 784	MWW
+T55	Material 796 800	PMWW
+T56	Material 818 821	MFI
+T57	Property-Misc 804 817	multilamellar
+T58	Material 925 932	zeolite
+T59	Material-Descriptor 933 938	layer
+T60	Material 947 972	structure directing agent
+T61	Material 976 997	diquaternary ammonium
+T62	Material-Descriptor 998 1008	surfactant
+T63	Nonrecipe-Material 1032 1043	hydrocarbon
+T64	Operation 1051 1060	Pillaring
+E30	Operation:T64 Recipe_Target:T65
+T65	Material 1078 1081	MFI
+T66	Property-Misc 1064 1077	multilamellar
+T67	Material 1129 1133	PMFI
+T68	Material 1190 1193	MWW
+T69	Property-Misc 1182 1189	swollen
+T70	Material 1218 1221	MWW
+T71	Material 1226 1229	MFI
+T72	Property-Misc 1230 1238	zeolites
+T74	Condition-Unit 1277 1284	mol L-1
+T75	Material 1293 1299	NH4NO3
+T76	Material-Descriptor 1285 1292	aqueous
+T77	Amount-Unit 1301 1313	weight ratio
+T78	Nonrecipe-Material 1317 1324	zeolite
+T79	Nonrecipe-Material 1328 1334	NH4NO3
+T80	Material-Descriptor 1335 1343	solution
+T81	Condition-Unit 1359 1360	K
+T82	Condition-Unit 1368 1369	h
+T83	Condition-Misc 1400 1406	vacuum
+T84	Material-Descriptor 1431 1440	deionized
+T85	Material 1442 1444	DI
+T86	Material 1446 1451	water
+T88	Condition-Unit 1482 1483	K
+T89	Condition-Misc 1484 1493	overnight
+T90	Material 1549 1557	zeolites
+T92	Material 1606 1613	zeolite
+T93	Material-Descriptor 1614 1621	samples
+T94	Nonrecipe-Material 1631 1636	NH4+-
+T91	Nonrecipe-Material 1591 1596	NH4+-
+T95	Material 1661 1664	air
+T96	Condition-Unit 1670 1678	mL min-1
+T97	Condition-Misc 1680 1689	ultrapure
+T98	Brand 1691 1697	Airgas
+T99	Condition-Misc 1657 1660	dry
+T100	Condition-Type 1717 1728	temperature
+T101	Condition-Misc 1734 1753	ambient temperature
+T102	Condition-Unit 1761 1762	K
+T103	Condition-Unit 1771 1772	K
+T104	Condition-Unit 1773 1778	min-1
+T105	Condition-Unit 1797 1798	h
+T106	Nonrecipe-Material 1822 1826	NH4+
+T107	Nonrecipe-Material 1830 1833	NH3
+T108	Nonrecipe-Material 1838 1840	H+
+T109	Material 1876 1883	zeolite
+T110	Nonrecipe-Material 1899 1901	Si
+T111	Nonrecipe-Material 1902 1904	Al
+T112	Amount-Unit 1905 1911	ratios
+T113	Material 1918 1926	catalyst
+T114	Property-Type 1943 1957	structure type
+T115	Nonrecipe-Material 1962 1964	Si
+T116	Nonrecipe-Material 1965 1967	Al
+T117	Amount-Unit 1968 1973	ratio
+T118	Material-Descriptor 160 171	microporous
+T119	Material 172 175	FER
+T120	Material 177 180	MFI
+T121	Material 182 185	MOR
+T122	Material 187 190	BEA
+T123	Material 196 199	FAU
+T124	Operation 242 251	purchased
+E31	Operation:T124 Recipe_Precursor:T123 Recipe_Precursor:T122 Recipe_Precursor:T121 Recipe_Precursor:T120 Recipe_Precursor:T119
+T125	Brand 257 264	Zeolyst
+T126	Nonrecipe-Material 224 226	Si
+T127	Nonrecipe-Material 227 229	Al
+T128	Amount-Unit 230 235	ratio
+T129	Property-Type 215 222	acidity
+T130	Property-Type 55 63	topology
+T131	Property-Type 65 77	mesoporosity
+T132	Property-Type 83 90	acidity
+T133	Meta 98 108	hydrolysis
+R1	Descriptor_Of Arg1:T118 Arg2:T119	
+R2	Descriptor_Of Arg1:T118 Arg2:T120	
+R3	Descriptor_Of Arg1:T118 Arg2:T121	
+R4	Descriptor_Of Arg1:T118 Arg2:T122	
+R5	Descriptor_Of Arg1:T118 Arg2:T123	
+R6	Amount_Of Arg1:T128 Arg2:T127	
+R7	Amount_Of Arg1:T128 Arg2:T126	
+R8	Brand_Of Arg1:T125 Arg2:T123	
+R9	Brand_Of Arg1:T125 Arg2:T122	
+R10	Brand_Of Arg1:T125 Arg2:T121	
+R11	Brand_Of Arg1:T125 Arg2:T120	
+R12	Brand_Of Arg1:T125 Arg2:T119	
+T134	Material-Descriptor 306 315	precursor
+R13	Descriptor_Of Arg1:T134 Arg2:T4	
+A1	Start_Recipe E31
+R14	Next_Operation Arg1:E31 Arg2:E1	
+R15	Next_Operation Arg1:E1 Arg2:E2	
+R16	Next_Operation Arg1:E2 Arg2:E3	
+R17	Next_Operation Arg1:E3 Arg2:E4	
+R18	Next_Operation Arg1:E4 Arg2:E5	
+R19	Next_Operation Arg1:E5 Arg2:E6	
+R20	Next_Operation Arg1:E6 Arg2:E7	
+R21	Next_Operation Arg1:E7 Arg2:E8	
+R22	Next_Operation Arg1:E8 Arg2:E9	
+R23	Next_Operation Arg1:E9 Arg2:E10	
+R24	Next_Operation Arg1:E10 Arg2:E11	
+A2	End_Recipe E11
+A3	Start_Recipe E12
+R25	Next_Operation Arg1:E12 Arg2:E13	
+R26	Next_Operation Arg1:E13 Arg2:E30	
+R27	Next_Operation Arg1:E30 Arg2:E14	
+R28	Next_Operation Arg1:E14 Arg2:E15	
+R29	Next_Operation Arg1:E15 Arg2:E16	
+R30	Next_Operation Arg1:E16 Arg2:E17	
+R31	Next_Operation Arg1:E17 Arg2:E18	
+R32	Next_Operation Arg1:E18 Arg2:E20	
+R33	Next_Operation Arg1:E20 Arg2:E19	
+R34	Next_Operation Arg1:E19 Arg2:E21	
+R35	Next_Operation Arg1:E21 Arg2:E22	
+R36	Next_Operation Arg1:E22 Arg2:E23	
+R37	Next_Operation Arg1:E23 Arg2:E24	
+R38	Next_Operation Arg1:E24 Arg2:E25	
+R39	Next_Operation Arg1:E25 Arg2:E26	
+R40	Next_Operation Arg1:E26 Arg2:E27	
+R41	Next_Operation Arg1:E27 Arg2:E28	
+R42	Next_Operation Arg1:E28 Arg2:E29	
+A4	End_Recipe E29
+R43	Property_Of Arg1:T49 Arg2:T48	
+R44	Property_Of Arg1:T57 Arg2:T56	
+R45	Descriptor_Of Arg1:T59 Arg2:T58	
+R46	Descriptor_Of Arg1:T62 Arg2:T61	
+T135	Material-Descriptor 1044 1049	chain
+R47	Descriptor_Of Arg1:T135 Arg2:T63	
+R48	Property_Of Arg1:T66 Arg2:T65	
+R49	Property_Of Arg1:T69 Arg2:T68	
+R50	Property_Of Arg1:T72 Arg2:T71	
+T73	Number 1258 1262	four
+T136	Condition-Unit 1263 1268	times
+R51	Number_Of Arg1:T73 Arg2:T136	
+R52	Condition_Of Arg1:T136 Arg2:E17	
+R53	Number_Of Arg1:T38 Arg2:T74	
+R54	Condition_Of Arg1:T74 Arg2:E17	
+R55	Descriptor_Of Arg1:T76 Arg2:T75	
+R56	Amount_Of Arg1:T77 Arg2:T78	
+R57	Amount_Of Arg1:T77 Arg2:T79	
+R58	Descriptor_Of Arg1:T80 Arg2:T79	
+R59	Number_Of Arg1:T39 Arg2:T77	
+R60	Number_Of Arg1:T40 Arg2:T81	
+R61	Number_Of Arg1:T41 Arg2:T82	
+R62	Condition_Of Arg1:T81 Arg2:E17	
+R63	Condition_Of Arg1:T82 Arg2:E17	
+R64	Condition_Of Arg1:T83 Arg2:E20	
+R65	Descriptor_Of Arg1:T84 Arg2:T86	
+T87	Number 1452 1457	three
+T137	Condition-Unit 1458 1463	times
+R66	Number_Of Arg1:T87 Arg2:T137	
+R67	Condition_Of Arg1:T137 Arg2:E19	
+R68	Number_Of Arg1:T42 Arg2:T88	
+R69	Condition_Of Arg1:T88 Arg2:E21	
+R70	Condition_Of Arg1:T89 Arg2:E21	
+T138	Material-Descriptor 1538 1548	commercial
+R71	Descriptor_Of Arg1:T138 Arg2:T90	
+R72	Descriptor_Of Arg1:T93 Arg2:T92	
+R73	Condition_Of Arg1:T99 Arg2:E25	
+R74	Number_Of Arg1:T43 Arg2:T96	
+R75	Condition_Of Arg1:T96 Arg2:E25	
+R76	Condition_Of Arg1:T97 Arg2:E25	
+R77	Brand_Of Arg1:T98 Arg2:T95	
+R78	Condition_Of Arg1:T101 Arg2:E26	
+R79	Number_Of Arg1:T44 Arg2:T102	
+R80	Type_Of Arg1:T100 Arg2:T102	
+R81	Condition_Of Arg1:T102 Arg2:E26	
+R82	Number_Of Arg1:T45 Arg2:T103	
+R83	Number_Of Arg1:T45 Arg2:T104	
+R84	Condition_Of Arg1:T103 Arg2:E26	
+R85	Condition_Of Arg1:T104 Arg2:E26	
+R86	Number_Of Arg1:T46 Arg2:T105	
+R87	Condition_Of Arg1:T105 Arg2:E27	
+R88	Amount_Of Arg1:T112 Arg2:T111	
+R89	Amount_Of Arg1:T112 Arg2:T110	
+R90	Amount_Of Arg1:T117 Arg2:T116	
+R91	Amount_Of Arg1:T117 Arg2:T115	

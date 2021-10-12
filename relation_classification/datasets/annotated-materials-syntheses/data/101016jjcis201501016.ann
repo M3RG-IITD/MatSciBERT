@@ -1,0 +1,169 @@
+T1	Meta 51 79	microwave-assisted synthesis
+T2	Material 27 33	Carbon
+T3	Property-Misc 34 46	microspheres
+T4	Property-Misc 91 101	electrodes
+T5	Material 132 135	CSs
+T6	Operation 141 149	prepared
+E1	Operation:T6 Recipe_Target:T5
+T7	Reference 198 202	[36]
+T8	Operation 272 281	dissolved
+E2	Operation:T8 Recipe_Precursor:T39 Recipe_Precursor:T38 Solvent_Material:T40 Solvent_Material:T41
+T9	Operation 292 298	mixing
+E3	Operation:T9 Solvent_Material:T40 Solvent_Material:T41
+T10	Operation 387 393	heated
+E4	Operation:T10 Participant_Material:T42
+T11	Operation 522 533	centrifuged
+E5	Operation:T11 
+T12	Operation 538 544	washed
+E6	Operation:T12 Participant_Material:T59
+T13	Operation 597 602	dried
+E7	Operation:T13 Participant_Material:T60
+T14	Operation 652 669	thermally treated
+E8	Operation:T14 Atmospheric_Material:T61
+T15	Operation 801 806	named
+E9	Operation:T15 Recipe_Target:T43 Recipe_Target:T44 Recipe_Target:T45 Recipe_Target:T46
+T16	Operation 877 886	deposited
+E10	Operation:T16 Recipe_Target:T47 Participant_Material:T69
+T17	Operation 967 982	screen printing
+E11	Operation:T17 
+T18	Operation 1024 1032	sintered
+E12	Operation:T18 Participant_Material:T48
+T19	Operation 1091 1095	used
+E13	Operation:T19 Participant_Material:T49
+T20	Number 216 221	6.846
+T21	Number 236 237	2
+T22	Number 285 288	100
+T23	Number 337 340	6:4
+T24	Number 361 363	20
+T25	Number 397 400	160
+T26	Number 444 447	100
+T27	Number 454 456	10
+T28	Brand 487 507	Explorer-48, CEM Co.
+T29	Number 623 625	80
+T30	Number 635 637	24
+T31	Number 700 701	2
+T32	Number 774 777	600
+T33	Number 779 782	800
+T34	Number 787 791	1000
+T35	Brand 931 949	Nippon Sheet Glass
+T36	Number 1036 1039	400
+T37	Number 1049 1051	30
+T38	Material 224 231	sucrose
+T39	Material 253 266	sulfuric acid
+T40	Material 310 315	water
+T41	Material 320 335	ethylene glycol
+T42	Material 374 382	solution
+T43	Material 731 734	CSs
+T44	Material 810 815	CS600
+T45	Material 817 822	CS800
+T46	Material 827 833	CS1000
+T47	Material 868 871	CSs
+T48	Material 1008 1018	electrodes
+T49	Material 1074 1076	Pt
+T50	Amount-Unit 222 223	g
+T51	Amount-Unit 238 239	g
+T52	Amount-Unit 289 291	ml
+T53	Amount-Unit 341 344	v/v
+T54	Amount-Unit 364 366	ml
+T55	Condition-Unit 401 405	degC
+T56	Condition-Unit 448 449	W
+T57	Condition-Unit 457 460	min
+T58	Condition-Type 413 440	microwave irradiation power
+T59	Material 560 565	water
+T60	Material 581 592	precipitate
+T61	Material 707 715	nitrogen
+T62	Condition-Unit 626 630	degC
+T63	Condition-Unit 638 639	h
+T64	Condition-Unit 702 703	h
+T65	Condition-Unit 792 796	degC
+T66	Condition-Type 758 770	temperatures
+T67	Number 923 925	14
+T68	Property-Type 910 921	resistivity
+T69	Material 898 902	SnO2
+T70	Property-Unit 926 929	Ω/#
+T71	Material 904 907	FTO
+T72	Condition-Unit 1040 1044	degC
+T73	Condition-Unit 1052 1055	min
+T74	Material-Descriptor 240 252	concentrated
+T75	Material-Descriptor 299 306	solvent
+T76	Synthesis-Apparatus 469 485	microwave system
+T77	Material-Descriptor 550 559	deionized
+T78	Material-Descriptor 571 580	resultant
+T79	Synthesis-Apparatus 615 619	oven
+T80	Apparatus-Descriptor 608 614	vacuum
+T81	Condition-Misc 673 695	different temperatures
+T82	Material-Descriptor 890 897	F-doped
+T83	Material-Descriptor 958 963	glass
+T84	Material-Descriptor 1000 1007	counter
+T85	Material-Descriptor 1077 1081	film
+T86	Material-Descriptor 1061 1073	conventional
+T87	Material-Descriptor 1107 1117	electrodes
+R1	Property_Of Arg1:T3 Arg2:T2	
+R2	Property_Of Arg1:T4 Arg2:T2	
+A1	Start_Recipe E1
+R3	Next_Operation Arg1:E1 Arg2:E2	
+R4	Next_Operation Arg1:E2 Arg2:E3	
+R5	Next_Operation Arg1:E3 Arg2:E4	
+R6	Next_Operation Arg1:E4 Arg2:E5	
+R7	Next_Operation Arg1:E5 Arg2:E6	
+R8	Next_Operation Arg1:E6 Arg2:E7	
+R9	Next_Operation Arg1:E7 Arg2:E8	
+R10	Next_Operation Arg1:E8 Arg2:E9	
+R11	Next_Operation Arg1:E9 Arg2:E10	
+R12	Next_Operation Arg1:E10 Arg2:E11	
+R13	Next_Operation Arg1:E11 Arg2:E12	
+R14	Next_Operation Arg1:E12 Arg2:E13	
+A2	End_Recipe E13
+R15	Number_Of Arg1:T20 Arg2:T50	
+R16	Amount_Of Arg1:T50 Arg2:T38	
+R17	Number_Of Arg1:T21 Arg2:T51	
+R18	Amount_Of Arg1:T51 Arg2:T39	
+R19	Descriptor_Of Arg1:T74 Arg2:T39	
+R20	Number_Of Arg1:T22 Arg2:T52	
+R21	Amount_Of Arg1:T52 Arg2:T40	
+R22	Descriptor_Of Arg1:T75 Arg2:T40	
+R23	Descriptor_Of Arg1:T75 Arg2:T41	
+R24	Number_Of Arg1:T23 Arg2:T53	
+R25	Amount_Of Arg1:T53 Arg2:T41	
+R26	Amount_Of Arg1:T53 Arg2:T40	
+R27	Number_Of Arg1:T24 Arg2:T54	
+R28	Amount_Of Arg1:T54 Arg2:T42	
+R29	Number_Of Arg1:T25 Arg2:T55	
+R30	Condition_Of Arg1:T55 Arg2:E4	
+R31	Type_Of Arg1:T58 Arg2:T56	
+R32	Number_Of Arg1:T26 Arg2:T56	
+R33	Condition_Of Arg1:T56 Arg2:E4	
+R34	Condition_Of Arg1:T57 Arg2:E4	
+R35	Number_Of Arg1:T27 Arg2:T57	
+R36	Apparatus_Of Arg1:T76 Arg2:E4	
+R37	Brand_Of Arg1:T28 Arg2:T76	
+R38	Descriptor_Of Arg1:T77 Arg2:T59	
+R39	Descriptor_Of Arg1:T78 Arg2:T60	
+R40	Descriptor_Of Arg1:T80 Arg2:T79	
+R41	Apparatus_Of Arg1:T79 Arg2:E7	
+R42	Number_Of Arg1:T29 Arg2:T62	
+R43	Condition_Of Arg1:T62 Arg2:E7	
+R44	Number_Of Arg1:T30 Arg2:T63	
+R45	Condition_Of Arg1:T63 Arg2:E7	
+R46	Condition_Of Arg1:T81 Arg2:E8	
+R47	Number_Of Arg1:T31 Arg2:T64	
+R48	Condition_Of Arg1:T64 Arg2:E8	
+R49	Type_Of Arg1:T66 Arg2:T65	
+R50	Number_Of Arg1:T32 Arg2:T65	
+R51	Number_Of Arg1:T33 Arg2:T65	
+R52	Number_Of Arg1:T34 Arg2:T65	
+R53	Descriptor_Of Arg1:T82 Arg2:T69	
+R54	Coref_Of Arg1:T71 Arg2:T69	
+R55	Type_Of Arg1:T68 Arg2:T70	
+R56	Number_Of Arg1:T67 Arg2:T70	
+R57	Property_Of Arg1:T70 Arg2:T69	
+R58	Brand_Of Arg1:T35 Arg2:T69	
+R59	Descriptor_Of Arg1:T83 Arg2:T69	
+R60	Descriptor_Of Arg1:T84 Arg2:T48	
+R61	Number_Of Arg1:T36 Arg2:T72	
+R62	Condition_Of Arg1:T72 Arg2:E12	
+R63	Number_Of Arg1:T37 Arg2:T73	
+R64	Condition_Of Arg1:T73 Arg2:E12	
+R65	Descriptor_Of Arg1:T86 Arg2:T49	
+R66	Descriptor_Of Arg1:T85 Arg2:T49	
+R67	Descriptor_Of Arg1:T87 Arg2:T49	

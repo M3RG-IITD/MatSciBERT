@@ -1,0 +1,120 @@
+T1	Material 83 99	La4Srn-4TinO3n+2
+T2	Property-Misc 112 119	layered
+T3	Property-Misc 141 151	perovskite
+T4	Property-Type 120 129	structure
+T5	Material 156 163	samples
+T6	Operation 169 177	prepared
+E1	Operation:T6 Participant_Material:T5
+T7	Meta 193 213	solid-state reaction
+T8	Operation 300 305	mixed
+E2	Operation:T8 Recipe_Precursor:T20 Recipe_Precursor:T21 Recipe_Precursor:T22
+T9	Operation 310 316	ground
+E3	Operation:T9 
+T10	Operation 326 334	calcined
+E4	Operation:T10 
+T11	Operation 394 400	ground
+E5	Operation:T11 Participant_Material:T29
+T12	Operation 402 407	mixed
+E6	Operation:T12 
+T13	Operation 423 430	pressed
+E7	Operation:T13 Participant_Material:T31
+T14	Operation 456 465	deposited
+E8	Operation:T14 
+T15	Operation 536 541	fired
+E9	Operation:T15 Participant_Material:T34
+T16	Operation 603 611	grinding
+E10	Operation:T16 
+T17	Operation 613 619	mixing
+E11	Operation:T17 
+T18	Operation 625 636	pelletizing
+E12	Operation:T18 
+T19	Amount-Misc 215 237	Stoichiometric amounts
+T20	Material 263 268	La2O3
+T21	Material 270 275	SrCO3
+T22	Material 280 284	TiO2
+T23	Material-Descriptor 241 262	pre-dried high-purity
+T24	Brand 286 293	Aldrich
+T25	Number 338 342	1200
+T26	Condition-Unit 342 346	degC
+T27	Number 351 352	6
+T28	Condition-Unit 353 354	h
+T29	Material 370 376	powder
+T30	Condition-Misc 412 422	uniaxially
+T31	Material 436 443	pellets
+T32	Synthesis-Apparatus 477 486	crucibles
+T33	Apparatus-Descriptor 469 476	alumina
+T34	Material 510 516	powder
+T35	Material-Descriptor 498 509	sacrificial
+T36	Number 545 554	1400-1600
+T37	Condition-Unit 554 558	degC
+T38	Number 563 566	3-9
+T39	Condition-Unit 567 571	days
+T40	Condition-Misc 577 589	intermediate
+R1	Property_Of Arg1:T2 Arg2:T1	
+R2	Property_Of Arg1:T3 Arg2:T1	
+A1	Start_Recipe E1
+R3	Next_Operation Arg1:E1 Arg2:E2	
+R4	Next_Operation Arg1:E2 Arg2:E3	
+R5	Next_Operation Arg1:E3 Arg2:E4	
+R6	Next_Operation Arg1:E4 Arg2:E5	
+R7	Next_Operation Arg1:E5 Arg2:E6	
+R8	Next_Operation Arg1:E6 Arg2:E7	
+R9	Next_Operation Arg1:E7 Arg2:E8	
+R10	Next_Operation Arg1:E8 Arg2:E9	
+R11	Next_Operation Arg1:E9 Arg2:E10	
+R12	Next_Operation Arg1:E10 Arg2:E11	
+R13	Next_Operation Arg1:E11 Arg2:E12	
+A2	End_Recipe E12
+T41	Characterization-Apparatus 639 642	XRD
+T42	Characterization-Apparatus 670 702	Stoe StadiP X-ray diffractometer
+T43	Number 772 775	300
+T44	Characterization-Apparatus 784 797	HRTEM imaging
+T45	Characterization-Apparatus 802 806	SAED
+T46	Characterization-Apparatus 832 865	JEOL-JEM 2011 electron microscope
+T47	Number 879 882	200
+T48	Apparatus-Unit 883 885	kV
+T49	Characterization-Apparatus 954 971	EDS microanalyses
+T50	Characterization-Apparatus 996 1019	Oxford Link ISIS system
+T51	Number 1032 1034	25
+T52	Material-Descriptor 1079 1090	homogeneity
+T53	Nonrecipe-Material 1045 1053	crystals
+R14	Descriptor_Of Arg1:T23 Arg2:T20	
+R15	Descriptor_Of Arg1:T23 Arg2:T21	
+R16	Descriptor_Of Arg1:T23 Arg2:T22	
+R17	Amount_Of Arg1:T19 Arg2:T20	
+R18	Amount_Of Arg1:T19 Arg2:T21	
+R19	Amount_Of Arg1:T19 Arg2:T22	
+R20	Brand_Of Arg1:T24 Arg2:T20	
+R21	Brand_Of Arg1:T24 Arg2:T21	
+R22	Brand_Of Arg1:T24 Arg2:T22	
+R23	Number_Of Arg1:T25 Arg2:T26	
+R24	Condition_Of Arg1:T26 Arg2:E4	
+R25	Number_Of Arg1:T27 Arg2:T28	
+R26	Condition_Of Arg1:T28 Arg2:E4	
+R27	Condition_Of Arg1:T30 Arg2:E7	
+R28	Descriptor_Of Arg1:T33 Arg2:T32	
+R29	Apparatus_Of Arg1:T32 Arg2:E8	
+R30	Descriptor_Of Arg1:T35 Arg2:T34	
+R31	Number_Of Arg1:T36 Arg2:T37	
+R32	Condition_Of Arg1:T37 Arg2:E9	
+R33	Number_Of Arg1:T38 Arg2:T39	
+R34	Condition_Of Arg1:T39 Arg2:E9	
+R35	Condition_Of Arg1:T40 Arg2:E10	
+R36	Number_Of Arg1:T47 Arg2:T48	
+R37	Apparatus_Attr_Of Arg1:T48 Arg2:T46	
+R38	Descriptor_Of Arg1:T52 Arg2:T53	
+T54	Apparatus-Unit 776 782	s/step
+R39	Number_Of Arg1:T43 Arg2:T54	
+R40	Apparatus_Attr_Of Arg1:T54 Arg2:T42	
+T55	Number 742 746	5-70
+T56	Apparatus-Unit 746 749	deg
+R41	Number_Of Arg1:T55 Arg2:T56	
+R42	Apparatus_Attr_Of Arg1:T56 Arg2:T42	
+T57	Number 762 765	0.1
+T58	Apparatus-Unit 765 768	deg
+R43	Number_Of Arg1:T57 Arg2:T58	
+R44	Apparatus_Attr_Of Arg1:T58 Arg2:T42	
+T59	Number 919 921	20
+T60	Apparatus-Unit 921 924	deg
+R45	Number_Of Arg1:T59 Arg2:T60	
+R46	Apparatus_Attr_Of Arg1:T60 Arg2:T46	

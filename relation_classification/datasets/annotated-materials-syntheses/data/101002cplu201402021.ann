@@ -1,0 +1,202 @@
+T1	Material 45 58	Sulfur/Carbon
+T2	Property-Misc 59 68	Composite
+T3	Property-Misc 25 44	Microsized Cagelike
+T4	Property-Misc 75 97	Lithium/Sulfur Battery
+T5	Operation 152 160	prepared
+E1	Operation:T5 Participant_Material:T26
+T6	Operation 215 225	synthesize
+E2	Operation:T6 Recipe_Target:T25
+T7	Operation 306 315	optimized
+E3	Operation:T7 Participant_Material:T28
+T8	Operation 417 424	stirred
+E4	Operation:T8 Solvent_Material:T40 Solvent_Material:T35 Recipe_Precursor:T32
+T9	Operation 447 453	afford
+E5	Operation:T9 Participant_Material:T47
+T10	Operation 558 563	added
+E6	Operation:T10 Solvent_Material:T59 Participant_Material:T57 Recipe_Precursor:T52 Recipe_Precursor:T49
+T11	Operation 580 587	stirred
+E7	Operation:T11 
+T12	Operation 621 631	evaporated
+E8	Operation:T12 Participant_Material:T63
+T13	Operation 656 660	held
+E9	Operation:T13 
+T14	Operation 697 718	thermo-polymerization
+E10	Operation:T14 
+T15	Operation 751 761	carbonized
+E11	Operation:T15 Participant_Material:T70 Atmospheric_Material:T73
+T16	Operation 830 838	obtained
+E12	Operation:T16 
+T17	Operation 855 861	washed
+E13	Operation:T17 Participant_Material:T79 Participant_Material:T82
+T18	Operation 881 887	remove
+E14	Operation:T18 Participant_Material:T83
+T19	Operation 950 955	mixed
+E15	Operation:T19 Recipe_Target:T86 Recipe_Precursor:T88
+T20	Operation 961 969	sublimed
+E16	Operation:T20 
+T21	Operation 983 995	ball-milling
+E17	Operation:T21 
+T22	Operation 1013 1019	heated
+E18	Operation:T22 Atmospheric_Material:T95 Recipe_Target:T97
+T23	Operation 1146 1154	prepared
+E19	Operation:T23 Participant_Material:T99
+T24	Reference 198 211	Zhao et al.22
+T25	Material 226 249	MWCNT@mesoporous carbon
+T26	Material 133 147	phenolic resin
+T27	Material-Descriptor 125 132	Soluble
+T28	Nonrecipe-Material 268 274	carbon
+T29	Material-Descriptor 275 301	source/template/surfactant
+T30	Amount-Misc 255 260	ratio
+T31	Reference 330 346	Nazar's group.10
+T32	Material 359 363	F127
+T33	Number 365 368	1.6
+T34	Amount-Unit 369 370	g
+T35	Material 373 380	ethanol
+T36	Number 382 385	8.0
+T37	Amount-Unit 386 387	g
+T38	Number 394 397	0.2
+T39	Amount-Unit 398 399	M
+T40	Material 400 403	HCl
+T41	Number 405 408	1.0
+T42	Amount-Unit 409 410	g
+T43	Number 429 430	2
+T44	Condition-Unit 431 432	h
+T45	Number 436 438	40
+T46	Condition-Unit 439 443	degC
+T47	Material 462 470	solution
+T48	Material-Descriptor 456 461	clear
+T49	Material 478 482	TEOS
+T50	Number 484 488	2.08
+T51	Amount-Unit 489 490	g
+T52	Material 493 499	MWCNTs
+T53	Number 501 504	1.0
+T54	Amount-Unit 505 506	g
+T55	Number 515 517	20
+T56	Amount-Unit 518 522	wt %
+T57	Material 535 541	resols
+T58	Material-Descriptor 523 531	solution
+T59	Material 545 552	ethanol
+T60	Condition-Misc 567 575	sequence
+T61	Number 600 601	5
+T62	Condition-Unit 602 603	h
+T63	Material 609 616	mixture
+T64	Condition-Misc 635 651	room temperature
+T65	Number 665 667	24
+T66	Condition-Unit 668 669	h
+T67	Number 673 676	100
+T68	Condition-Unit 677 681	degC
+T69	Synthesis-Apparatus 688 692	oven
+T70	Material 739 746	product
+T71	Material-Descriptor 724 738	as-synthesized
+T72	Synthesis-Apparatus 767 774	furnace
+T73	Material 784 789	argon
+T74	Condition-Type 790 800	atmosphere
+T75	Number 804 807	900
+T76	Condition-Unit 808 812	degC
+T77	Number 817 820	300
+T78	Condition-Unit 821 824	min
+T79	Material 839 845	sample
+T80	Number 867 869	10
+T81	Amount-Unit 870 874	wt %
+T82	Material 875 877	HF
+T83	Material 888 894	silica
+T84	Amount-Unit 901 913	weight ratio
+T85	Number 917 920	1:1
+T86	Material 926 935	MWCNT@MPC
+T87	Property-Misc 936 945	composite
+T88	Material 970 976	sulfur
+T89	Number 1000 1001	6
+T90	Condition-Unit 1002 1003	h
+T91	Number 1023 1026	155
+T92	Condition-Unit 1027 1031	degC
+T93	Number 1036 1038	12
+T94	Condition-Unit 1039 1040	h
+T95	Material 1047 1052	argon
+T96	Condition-Type 1053 1063	atmosphere
+T97	Material 1082 1084	SC
+T98	Property-Misc 1085 1094	composite
+T99	Material 1121 1126	S-MPC
+T100	Material-Descriptor 1112 1120	pristine
+T101	Material-Descriptor 1127 1136	composite
+T102	Material 1208 1215	samples
+T103	Nonrecipe-Material 1221 1227	sulfur
+T104	Number 1240 1242	50
+T105	Amount-Unit 1243 1247	wt %
+R1	Property_Of Arg1:T3 Arg2:T1	
+R2	Property_Of Arg1:T2 Arg2:T1	
+R3	Property_Of Arg1:T4 Arg2:T1	
+A1	Start_Recipe E1
+R4	Next_Operation Arg1:E1 Arg2:E2	
+R5	Next_Operation Arg1:E2 Arg2:E3	
+R6	Next_Operation Arg1:E3 Arg2:E4	
+R7	Next_Operation Arg1:E4 Arg2:E5	
+R8	Next_Operation Arg1:E5 Arg2:E6	
+R9	Next_Operation Arg1:E6 Arg2:E7	
+R10	Next_Operation Arg1:E7 Arg2:E8	
+R11	Next_Operation Arg1:E8 Arg2:E9	
+R12	Next_Operation Arg1:E9 Arg2:E10	
+R13	Next_Operation Arg1:E10 Arg2:E11	
+R14	Next_Operation Arg1:E11 Arg2:E12	
+R15	Next_Operation Arg1:E12 Arg2:E13	
+R16	Next_Operation Arg1:E13 Arg2:E14	
+R17	Next_Operation Arg1:E14 Arg2:E15	
+R18	Next_Operation Arg1:E15 Arg2:E16	
+R19	Next_Operation Arg1:E16 Arg2:E17	
+R20	Next_Operation Arg1:E17 Arg2:E18	
+R21	Next_Operation Arg1:E18 Arg2:E19	
+A2	End_Recipe E19
+R22	Descriptor_Of Arg1:T27 Arg2:T26	
+R23	Amount_Of Arg1:T30 Arg2:T28	
+R24	Descriptor_Of Arg1:T29 Arg2:T28	
+R25	Number_Of Arg1:T33 Arg2:T34	
+R26	Amount_Of Arg1:T34 Arg2:T32	
+R27	Number_Of Arg1:T36 Arg2:T37	
+R28	Amount_Of Arg1:T37 Arg2:T35	
+R29	Number_Of Arg1:T38 Arg2:T39	
+R30	Amount_Of Arg1:T39 Arg2:T40	
+R31	Number_Of Arg1:T41 Arg2:T42	
+R32	Amount_Of Arg1:T42 Arg2:T40	
+R33	Number_Of Arg1:T43 Arg2:T44	
+R34	Condition_Of Arg1:T44 Arg2:E4	
+R35	Number_Of Arg1:T45 Arg2:T46	
+R36	Condition_Of Arg1:T46 Arg2:E4	
+R37	Descriptor_Of Arg1:T48 Arg2:T47	
+R38	Number_Of Arg1:T50 Arg2:T51	
+R39	Amount_Of Arg1:T51 Arg2:T49	
+R40	Number_Of Arg1:T53 Arg2:T54	
+R41	Amount_Of Arg1:T54 Arg2:T52	
+R42	Number_Of Arg1:T55 Arg2:T56	
+R43	Descriptor_Of Arg1:T58 Arg2:T57	
+R44	Amount_Of Arg1:T56 Arg2:T57	
+R45	Condition_Of Arg1:T60 Arg2:E6	
+R46	Number_Of Arg1:T61 Arg2:T62	
+R47	Condition_Of Arg1:T62 Arg2:E7	
+R48	Condition_Of Arg1:T64 Arg2:E8	
+R49	Number_Of Arg1:T65 Arg2:T66	
+R50	Condition_Of Arg1:T66 Arg2:E9	
+R51	Number_Of Arg1:T67 Arg2:T68	
+R52	Condition_Of Arg1:T68 Arg2:E9	
+R53	Apparatus_Of Arg1:T69 Arg2:E9	
+R54	Descriptor_Of Arg1:T71 Arg2:T70	
+R55	Apparatus_Of Arg1:T72 Arg2:E11	
+R56	Number_Of Arg1:T75 Arg2:T76	
+R57	Condition_Of Arg1:T76 Arg2:E11	
+R58	Number_Of Arg1:T77 Arg2:T78	
+R59	Condition_Of Arg1:T78 Arg2:E11	
+R60	Number_Of Arg1:T80 Arg2:T81	
+R61	Amount_Of Arg1:T81 Arg2:T82	
+R62	Number_Of Arg1:T85 Arg2:T84	
+R63	Property_Of Arg1:T87 Arg2:T86	
+R64	Amount_Of Arg1:T84 Arg2:T86	
+R65	Amount_Of Arg1:T84 Arg2:T88	
+R66	Number_Of Arg1:T89 Arg2:T90	
+R67	Condition_Of Arg1:T90 Arg2:E17	
+R68	Number_Of Arg1:T91 Arg2:T92	
+R69	Condition_Of Arg1:T92 Arg2:E18	
+R70	Number_Of Arg1:T93 Arg2:T94	
+R71	Condition_Of Arg1:T94 Arg2:E18	
+R72	Property_Of Arg1:T98 Arg2:T97	
+R73	Descriptor_Of Arg1:T100 Arg2:T99	
+R74	Descriptor_Of Arg1:T101 Arg2:T99	
+R75	Number_Of Arg1:T104 Arg2:T105	
+R76	Amount_Of Arg1:T105 Arg2:T103	

@@ -1,0 +1,101 @@
+T1	Material 214 221	LiMnPO4
+T2	Operation 234 245	synthesized
+E1	Operation:T2 Recipe_Target:T1
+T3	Meta 251 270	hydrothermal method
+T4	Operation 678 683	added
+E2	Operation:T4 Participant_Material:T14 Recipe_Precursor:T15 Recipe_Precursor:T16 Recipe_Precursor:T17 Solvent_Material:T18
+T5	Operation 762 770	stirring
+E3	Operation:T5 
+T6	Operation 813 819	placed
+E4	Operation:T6 
+T7	Operation 856 862	sealed
+E5	Operation:T7 
+T8	Operation 872 875	put
+E6	Operation:T8 
+T9	Operation 893 903	maintained
+E7	Operation:T9 
+T10	Operation 977 983	cooled
+E8	Operation:T10 
+T11	Operation 1037 1045	filtered
+E9	Operation:T11 Participant_Material:T29
+T12	Operation 1047 1053	washed
+E10	Operation:T12 
+T13	Operation 1066 1071	dried
+E11	Operation:T13 Atmospheric_Material:T30
+T14	Material 603 612	Na2S*9H2O
+T15	Material 622 632	Li2SO4*H2O
+T16	Material 642 651	MnSO4*H2O
+T17	Material 664 672	NH4H2PO4
+T18	Material 741 746	water
+T19	Synthesis-Apparatus 841 850	autoclave
+T20	Synthesis-Apparatus 863 867	tank
+T21	Synthesis-Apparatus 884 888	oven
+T22	Number 907 910	200
+T23	Condition-Unit 911 915	degC
+T24	Number 920 922	10
+T25	Condition-Unit 923 924	h
+T26	Meta 936 957	hydrothermal reaction
+T27	Synthesis-Apparatus 963 972	autoclave
+T28	Condition-Misc 987 1003	room temperature
+T29	Material 1021 1032	precipitate
+T30	Material 1075 1078	air
+T31	Number 1082 1084	60
+T32	Condition-Unit 1085 1089	degC
+T33	Condition-Misc 1090 1099	overnight
+T34	Number 595 597	14
+T35	Amount-Unit 598 602	mmol
+T36	Number 614 616	40
+T37	Amount-Unit 617 621	mmol
+T38	Number 634 636	20
+T39	Amount-Unit 637 641	mmol
+T40	Number 656 658	20
+T41	Amount-Unit 659 663	mmol
+T42	Number 701 703	40
+T43	Apparatus-Unit 704 706	mL
+T44	Synthesis-Apparatus 707 719	Teflon liner
+T45	Number 725 727	30
+T46	Amount-Unit 728 730	mL
+T47	Material-Descriptor 731 740	distilled
+T48	Number 775 777	30
+T49	Condition-Unit 778 781	min
+T50	Synthesis-Apparatus 791 803	Teflon liner
+T51	Apparatus-Descriptor 825 840	stainless steel
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Next_Operation Arg1:E8 Arg2:E9	
+R8	Next_Operation Arg1:E9 Arg2:E10	
+R9	Next_Operation Arg1:E10 Arg2:E11	
+R10	Apparatus_Of Arg1:T44 Arg2:E2	
+R11	Condition_Of Arg1:T49 Arg2:E3	
+R12	Apparatus_Of Arg1:T50 Arg2:E3	
+R13	Apparatus_Of Arg1:T19 Arg2:E4	
+R14	Apparatus_Of Arg1:T20 Arg2:E5	
+R15	Apparatus_Of Arg1:T21 Arg2:E6	
+R16	Condition_Of Arg1:T23 Arg2:E7	
+R17	Condition_Of Arg1:T25 Arg2:E7	
+R18	Apparatus_Of Arg1:T27 Arg2:E8	
+R19	Condition_Of Arg1:T28 Arg2:E8	
+R20	Condition_Of Arg1:T32 Arg2:E11	
+R21	Condition_Of Arg1:T33 Arg2:E11	
+R22	Amount_Of Arg1:T35 Arg2:T14	
+R23	Amount_Of Arg1:T37 Arg2:T15	
+R24	Amount_Of Arg1:T39 Arg2:T16	
+R25	Amount_Of Arg1:T41 Arg2:T17	
+R26	Amount_Of Arg1:T46 Arg2:T18	
+R27	Descriptor_Of Arg1:T47 Arg2:T18	
+R28	Descriptor_Of Arg1:T51 Arg2:T19	
+R29	Number_Of Arg1:T34 Arg2:T35	
+R30	Number_Of Arg1:T36 Arg2:T37	
+R31	Number_Of Arg1:T38 Arg2:T39	
+R32	Number_Of Arg1:T40 Arg2:T41	
+R33	Number_Of Arg1:T42 Arg2:T43	
+R34	Number_Of Arg1:T45 Arg2:T46	
+R35	Number_Of Arg1:T48 Arg2:T49	
+R36	Number_Of Arg1:T22 Arg2:T23	
+R37	Number_Of Arg1:T24 Arg2:T25	
+R38	Number_Of Arg1:T31 Arg2:T32	
+R39	Apparatus_Attr_Of Arg1:T43 Arg2:T44	

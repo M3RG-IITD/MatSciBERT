@@ -1,0 +1,97 @@
+T1	Material 93 103	zinc oxide
+T2	Nonrecipe-Material 77 86	strontium
+T3	Property-Misc 87 92	doped
+T4	Property-Misc 104 117	nanoparticles
+T5	Material 154 157	ZnO
+T6	Nonrecipe-Material 145 147	Sr
+T7	Property-Misc 148 153	doped
+T8	Property-Misc 158 161	NPs
+T9	Material 180 204	zinc nitrate hexahydrate
+T10	Material 205 218	Zn(NO3)2*6H2O
+T11	Material 220 237	strontium nitrate
+T12	Material 238 246	Sr(NO3)2
+T13	Material 248 255	gelatin
+T14	Material 297 302	water
+T15	Material-Descriptor 287 296	distilled
+T16	Material 347 356	materials
+T17	Operation 367 376	purchased
+E1	Operation:T17 Participant_Material:T16
+T18	Brand 382 395	Sigma-Aldrich
+T19	Material 401 411	precursors
+T20	Operation 417 422	taken
+E2	Operation:T20 Participant_Material:T19 Recipe_Target:T27
+T21	Operation 550 558	prepared
+E3	Operation:T21 Participant_Material:T31 Participant_Material:T32 Solvent_Material:T35
+T22	Operation 641 650	dissolved
+E4	Operation:T22 Participant_Material:T39 Solvent_Material:T41
+T23	Operation 742 747	added
+E5	Operation:T23 Participant_Material:T44
+T24	Operation 813 820	stirred
+E6	Operation:T24 Participant_Material:T46
+T25	Operation 825 831	heated
+E7	Operation:T25 
+T26	Operation 883 891	calcined
+E8	Operation:T26 Participant_Material:T49
+T27	Material 456 465	Zn1-xSrxO
+T28	Amount-Misc 430 452	stoichiometric amounts
+T29	Material 510 518	products
+T30	Material-Descriptor 537 545	solution
+T31	Material 529 536	gelatin
+T32	Material 569 576	gelatin
+T33	Number 578 582	3.65
+T34	Amount-Unit 583 584	g
+T35	Material 599 604	water
+T36	Material-Descriptor 589 598	distilled
+T37	Number 608 610	60
+T38	Condition-Unit 611 615	degC
+T39	Material 621 635	metal nitrates
+T40	Amount-Misc 667 681	minimal amount
+T41	Material 695 700	water
+T42	Material-Descriptor 685 694	distilled
+T43	Condition-Misc 704 720	room temperature
+T44	Material 755 762	gelatin
+T45	Material-Descriptor 763 771	solution
+T46	Material 798 807	solutions
+T47	Number 835 837	80
+T48	Condition-Unit 838 842	degC
+T49	Material 873 877	gels
+T50	Number 895 898	550
+T51	Condition-Unit 899 903	degC
+T52	Number 908 909	5
+T53	Condition-Unit 910 911	h
+T54	Number 934 935	2
+T55	Condition-Unit 936 944	degC/min
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E7	
+R7	Next_Operation Arg1:E7 Arg2:E8	
+R8	Brand_Of Arg1:T18 Arg2:T16	
+R9	Condition_Of Arg1:T38 Arg2:E3	
+R10	Condition_Of Arg1:T43 Arg2:E4	
+R11	Condition_Of Arg1:T48 Arg2:E7	
+R12	Condition_Of Arg1:T51 Arg2:E8	
+R13	Condition_Of Arg1:T53 Arg2:E8	
+R14	Condition_Of Arg1:T55 Arg2:E8	
+R15	Property_Of Arg1:T3 Arg2:T2	
+R16	Property_Of Arg1:T3 Arg2:T1	
+R17	Property_Of Arg1:T4 Arg2:T1	
+R18	Property_Of Arg1:T7 Arg2:T6	
+R19	Property_Of Arg1:T7 Arg2:T5	
+R20	Property_Of Arg1:T8 Arg2:T5	
+R21	Amount_Of Arg1:T28 Arg2:T27	
+R22	Amount_Of Arg1:T34 Arg2:T32	
+R23	Amount_Of Arg1:T40 Arg2:T41	
+R24	Descriptor_Of Arg1:T15 Arg2:T14	
+R25	Descriptor_Of Arg1:T30 Arg2:T31	
+R26	Descriptor_Of Arg1:T36 Arg2:T35	
+R27	Descriptor_Of Arg1:T42 Arg2:T41	
+R28	Descriptor_Of Arg1:T45 Arg2:T44	
+R29	Number_Of Arg1:T33 Arg2:T34	
+R30	Number_Of Arg1:T37 Arg2:T38	
+R31	Number_Of Arg1:T47 Arg2:T48	
+R32	Number_Of Arg1:T54 Arg2:T55	
+R33	Number_Of Arg1:T52 Arg2:T53	
+R34	Number_Of Arg1:T50 Arg2:T51	

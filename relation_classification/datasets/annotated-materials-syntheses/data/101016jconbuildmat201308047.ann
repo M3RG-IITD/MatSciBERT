@@ -1,0 +1,113 @@
+T1	Material 95 106	geopolymers
+T2	Operation 146 157	synthesized
+E1	Operation:T2 Participant_Material:T16 Recipe_Target:T17
+T3	Operation 264 271	reacted
+E2	Operation:T3 Solvent_Material:T22 Participant_Material:T26
+T4	Operation 426 436	determined
+E3	Operation:T4 Participant_Material:T33 Solvent_Material:T32
+T5	Operation 478 487	dissolved
+E4	Operation:T5 Solvent_Material:T36 Solvent_Material:T37
+T6	Operation 518 523	added
+E5	Operation:T6 Participant_Material:T39
+T7	Operation 549 554	mixed
+E6	Operation:T7 
+T8	Operation 569 579	homogenize
+E7	Operation:T8 Participant_Material:T42
+T9	Operation 615 626	transferred
+E8	Operation:T9 Participant_Material:T43
+T10	Operation 688 696	vibrated
+E9	Operation:T10 
+T11	Operation 710 716	remove
+E10	Operation:T11 
+T12	Operation 757 765	demolded
+E11	Operation:T12 Participant_Material:T53
+T13	Operation 778 785	wrapped
+E12	Operation:T13 
+T14	Operation 846 850	cure
+E13	Operation:T14 
+T15	Material-Descriptor 163 171	calcined
+T16	Material 172 175	WTR
+R1	Descriptor_Of Arg1:T15 Arg2:T16	
+T17	Material 131 141	Geopolymer
+T18	Nonrecipe-Material 192 196	SiO2
+T19	Nonrecipe-Material 197 202	Al2O3
+T20	Amount-Unit 203 208	ratio
+T21	Number 212 216	1.78
+R2	Number_Of Arg1:T21 Arg2:T20	
+R3	Amount_Of Arg1:T20 Arg2:T18	
+R4	Amount_Of Arg1:T20 Arg2:T19	
+T22	Material 235 239	NaOH
+T23	Material-Descriptor 240 248	solution
+R5	Descriptor_Of Arg1:T23 Arg2:T22	
+T24	Brand 254 259	Merck
+R6	Brand_Of Arg1:T24 Arg2:T22	
+T25	Material-Descriptor 218 234	Analytical-grade
+R7	Descriptor_Of Arg1:T25 Arg2:T22	
+T26	Material 303 306	WTR
+T27	Material-Descriptor 277 302	calcined and non-calcined
+R8	Descriptor_Of Arg1:T27 Arg2:T26	
+T28	Nonrecipe-Material 313 317	Na2O
+T29	Nonrecipe-Material 318 322	Si2O
+T30	Amount-Unit 323 328	ratio
+T31	Number 332 336	0.25
+R9	Number_Of Arg1:T31 Arg2:T30	
+R10	Amount_Of Arg1:T30 Arg2:T28	
+R11	Amount_Of Arg1:T30 Arg2:T29	
+T32	Material 394 399	water
+T33	Material 414 421	mixture
+T34	Meta 443 463	ASTM Method C 187-68
+T35	Reference 464 467	[2]
+T36	Material 469 473	NaOH
+T37	Material 495 500	water
+T38	Material-Descriptor 501 508	mixture
+R12	Descriptor_Of Arg1:T38 Arg2:T37	
+T39	Material 531 544	solid mixture
+R13	Next_Operation Arg1:E2 Arg2:E3	
+R14	Next_Operation Arg1:E3 Arg2:E4	
+R15	Next_Operation Arg1:E4 Arg2:E5	
+R16	Next_Operation Arg1:E5 Arg2:E6	
+R17	Next_Operation Arg1:E6 Arg2:E7	
+R18	Next_Operation Arg1:E7 Arg2:E8	
+R19	Next_Operation Arg1:E8 Arg2:E9	
+R20	Next_Operation Arg1:E9 Arg2:E10	
+R21	Next_Operation Arg1:E10 Arg2:E11	
+R22	Next_Operation Arg1:E11 Arg2:E12	
+R23	Next_Operation Arg1:E12 Arg2:E13	
+T40	Number 559 561	15
+T41	Condition-Unit 562 565	min
+R24	Number_Of Arg1:T40 Arg2:T41	
+R25	Condition_Of Arg1:T41 Arg2:E6	
+T42	Material 584 590	sample
+T43	Material 596 604	mixtures
+T44	Synthesis-Apparatus 630 651	cylindrical PVC molds
+R26	Apparatus_Of Arg1:T44 Arg2:E8	
+T45	Number 662 664	35
+T46	Number 676 678	70
+T47	Apparatus-Property-Type 653 661	diameter
+T48	Apparatus-Property-Type 669 675	height
+T49	Apparatus-Unit 665 667	mm
+T50	Apparatus-Unit 679 681	mm
+R27	Number_Of Arg1:T45 Arg2:T49	
+R28	Number_Of Arg1:T46 Arg2:T50	
+R29	Type_Of Arg1:T48 Arg2:T50	
+R30	Type_Of Arg1:T47 Arg2:T49	
+R31	Apparatus_Attr_Of Arg1:T49 Arg2:T44	
+R32	Apparatus_Attr_Of Arg1:T50 Arg2:T44	
+T51	Number 701 702	2
+T52	Condition-Unit 703 706	min
+R33	Number_Of Arg1:T51 Arg2:T52	
+R34	Condition_Of Arg1:T52 Arg2:E9	
+T53	Material 744 751	samples
+T54	Number 772 774	24
+T55	Condition-Unit 775 776	h
+R35	Number_Of Arg1:T54 Arg2:T55	
+R36	Condition_Of Arg1:T55 Arg2:E11	
+T56	Synthesis-Apparatus 791 801	cling film
+R37	Apparatus_Of Arg1:T56 Arg2:E12	
+T57	Nonrecipe-Material 825 830	water
+T58	Condition-Type 865 876	temperature
+T59	Number 880 887	28 +- 2
+T60	Condition-Unit 888 892	degC
+R38	Number_Of Arg1:T59 Arg2:T60	
+R39	Condition_Of Arg1:T60 Arg2:E13	
+R40	Type_Of Arg1:T58 Arg2:T60	

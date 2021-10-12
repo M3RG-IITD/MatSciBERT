@@ -1,0 +1,323 @@
+T1	Material 38 50	indium oxide
+T2	Property-Misc 19 37	Solution-processed
+T3	Property-Misc 118 128	perovskite
+T4	Operation 685 694	purchased
+E1	Operation:T4 Recipe_Precursor:T80 Recipe_Precursor:T77 Recipe_Precursor:T76 Solvent_Material:T75 Solvent_Material:T74 Recipe_Precursor:T72 Recipe_Precursor:T70 Solvent_Material:T69 Recipe_Precursor:T67 Recipe_Precursor:T65 Recipe_Precursor:T64 Recipe_Precursor:T62 Recipe_Precursor:T60 Recipe_Precursor:T58 Recipe_Precursor:T21
+T5	Operation 739 748	purchased
+E2	Operation:T5 Recipe_Precursor:T82
+T6	Operation 783 792	purchased
+E3	Operation:T6 Recipe_Precursor:T85
+T7	Operation 851 860	purchased
+E4	Operation:T7 Recipe_Precursor:T87
+T8	Operation 925 934	purchased
+E5	Operation:T8 Recipe_Precursor:T90
+T9	Operation 984 992	prepared
+E6	Operation:T9 Participant_Material:T93
+T10	Operation 996 1006	dissolving
+E7	Operation:T10 Recipe_Precursor:T94 Solvent_Material:T95
+T11	Operation 1096 1104	prepared
+E8	Operation:T11 Participant_Material:T96
+T12	Operation 1226 1231	mixed
+E9	Operation:T12 Recipe_Precursor:T99 Recipe_Precursor:T98 Recipe_Precursor:T97 Recipe_Precursor:T100
+T13	Operation 1284 1292	prepared
+E10	Operation:T13 Participant_Material:T101
+T14	Operation 1296 1306	dissolving
+E11	Operation:T14 Recipe_Precursor:T102 Recipe_Precursor:T103 Recipe_Precursor:T104
+T15	Operation 1390 1398	prepared
+E12	Operation:T15 Participant_Material:T105
+T16	Operation 1402 1412	dissolving
+E13	Operation:T16 Recipe_Precursor:T106 Solvent_Material:T107
+T17	Operation 1555 1560	added
+E14	Operation:T17 Recipe_Precursor:T114 Solvent_Material:T113 Recipe_Precursor:T112 Recipe_Precursor:T111 Participant_Material:T115
+T18	Operation 1610 1618	modified
+E15	Operation:T18 Participant_Material:T109
+T19	Operation 1622 1628	mixing
+E16	Operation:T19 Recipe_Precursor:T108
+T20	Operation 1672 1680	prepared
+E17	Operation:T20 Participant_Material:T116 Atmospheric_Material:T117
+T21	Material 153 175	Indium nitrate hydrate
+T22	Material 177 190	In(NO3)3*xH2O
+T23	Number 192 197	99.99
+T24	Number 236 241	99.99
+T25	Number 269 275	99.999
+T26	Number 299 301	99
+T27	Number 312 314	99
+T28	Number 374 379	99.95
+T29	Number 412 416	99.8
+T30	Number 440 444	99.5
+T31	Number 483 487	99.9
+T32	Number 525 529	99.8
+T33	Number 558 562	99.9
+T34	Number 585 589	99.8
+T35	Number 620 622	96
+T36	Number 655 659	99.8
+T37	Number 769 776	99.9985
+T38	Number 839 844	99.98
+T39	Number 906 911	17500
+T40	Number 1007 1010	0.1
+T41	Number 1172 1175	461
+T42	Number 1188 1191	159
+T43	Number 1207 1209	78
+T44	Number 1237 1240	600
+T45	Number 1307 1308	1
+T46	Number 1322 1323	1
+T47	Number 1336 1337	1
+T48	Number 1350 1352	60
+T49	Number 1362 1364	30
+T50	Number 1413 1415	15
+T51	Number 1430 1431	1
+T52	Number 1462 1464	15
+T53	Number 1484 1487	170
+T54	Number 1505 1506	1
+T55	Number 1522 1524	15
+T56	Number 1540 1543	1:1
+T57	Number 1629 1630	1
+T58	Material 201 223	indium acetylacetonate
+T59	Material 225 234	In(AcAc)3
+T60	Material 245 260	indium chloride
+T61	Material 262 267	InCl3
+T62	Material 279 283	P3HT
+T63	Material 285 297	regioregular
+T64	Material 305 309	PCBM
+T65	Material 318 358	bis(trifluoromethane)sulfonamide lithium
+T66	Material 365 372	Li-TFSI
+T68	Material 407 410	ACN
+T69	Material 430 437	ethanol
+T70	Material 458 475	dimethylsulfoxide
+T71	Material 477 481	DMSO
+T72	Material 501 518	dimethylformamide
+T73	Material 520 523	DMF
+T74	Material 543 556	diethyl ether
+T75	Material 576 583	toluene
+T76	Material 593 613	4-tert-butylpyridine
+T77	Material 636 649	chlorobenzene
+T78	Material 615 618	tBP
+T79	Material 651 653	CB
+T80	Material 667 679	Triton X-100
+T81	Brand 700 713	Sigma-Aldrich
+T82	Material 715 724	PEDOT:PSS
+T83	Material 726 733	AI 4083
+T84	Brand 754 761	Clevios
+T85	Material 763 767	PbI2
+T86	Brand 798 808	Alfa Aesar
+T87	Material 810 831	Methylammonium iodide
+T88	Material 833 836	MAI
+T89	Brand 866 872	Dyesol
+T90	Material 874 893	Poly(triaryl amine)
+T91	Material 895 899	PTAA
+T92	Brand 940 948	EM Index
+T93	Material 954 960	indium
+T94	Material 1013 1035	indium nitrate hydrate
+T95	Material 1049 1056	ethanol
+T96	Material 1062 1072	CH3NH3PbI3
+T97	Material 1182 1186	PbI2
+T98	Material 1198 1201	MAI
+T99	Material 1216 1220	DMSO
+T100	Material 1247 1250	DMF
+T101	Material 1261 1270	P3HT/PCBM
+T102	Material 1313 1317	P3HT
+T103	Material 1328 1332	PCBM
+T104	Material 1344 1346	CB
+T105	Material 1372 1376	PTAA
+T106	Material 1422 1426	PTAA
+T107	Material 1438 1445	toluene
+T108	Material 1635 1647	Triton X-100
+T109	Material 1587 1596	PEDOT:PSS
+T110	Nonrecipe-Material 1451 1453	Li
+T111	Material 1471 1482	Li-TFSi/ACN
+T112	Material 1494 1501	Li-TFSi
+T113	Material 1513 1516	ACN
+T114	Material 1531 1538	tBP/ACN
+T115	Material 1568 1572	PTAA
+T116	Material 1657 1666	solutions
+T117	Material 1686 1688	N2
+T118	Amount-Unit 197 198	%
+T119	Amount-Unit 241 242	%
+T120	Amount-Unit 275 276	%
+T121	Amount-Unit 301 302	%
+T122	Amount-Unit 314 315	%
+T123	Amount-Unit 379 380	%
+T124	Amount-Unit 416 417	%
+T125	Amount-Unit 444 445	%
+T126	Amount-Unit 487 488	%
+T127	Amount-Unit 529 530	%
+T128	Amount-Unit 562 563	%
+T129	Amount-Unit 589 590	%
+T130	Amount-Unit 622 623	%
+T131	Amount-Unit 659 660	%
+T132	Amount-Unit 776 777	%
+T133	Amount-Unit 844 845	%
+T134	Amount-Unit 912 919	g mol-1
+T135	Amount-Unit 1011 1012	M
+T136	Amount-Unit 1176 1178	mg
+T137	Amount-Unit 1192 1194	mg
+T138	Amount-Unit 1210 1212	mg
+T139	Amount-Unit 1241 1243	mg
+T140	Reference 1251 1256	36,37
+T141	Amount-Unit 1309 1312	wt%
+T142	Amount-Unit 1324 1327	wt%
+T143	Amount-Unit 1338 1340	mL
+T144	Condition-Unit 1353 1357	degC
+T145	Condition-Unit 1365 1368	min
+T146	Amount-Unit 1416 1418	mg
+T147	Amount-Unit 1432 1434	mL
+T148	Amount-Unit 1465 1467	μL
+T149	Amount-Unit 1488 1490	mg
+T150	Amount-Unit 1507 1509	mL
+T151	Amount-Unit 1525 1527	μL
+T152	Amount-Unit 1631 1634	wt%
+T153	Amount-Unit 1545 1548	v/v
+T154	Material-Descriptor 359 363	salt
+T155	Material-Descriptor 420 429	anhydrous
+T67	Material 393 405	acetonitrile
+T156	Material-Descriptor 383 392	anhydrous
+T157	Material-Descriptor 448 457	anhydrous
+T158	Material-Descriptor 491 500	anhydrous
+T159	Material-Descriptor 533 542	anhydrous
+T160	Material-Descriptor 566 575	anhydrous
+T161	Material-Descriptor 626 635	anhydrous
+T162	Material-Descriptor 961 979	precursor solution
+T163	Material-Descriptor 1039 1048	anhydrous
+T164	Material-Descriptor 1073 1091	precursor solution
+T165	Material-Descriptor 1271 1279	solution
+T166	Material-Descriptor 1377 1385	solution
+T167	Material-Descriptor 1573 1581	solution
+T168	Material-Descriptor 1597 1605	solution
+T169	Synthesis-Apparatus 1696 1705	glove box
+R1	Property_Of Arg1:T2 Arg2:T1	
+R2	Property_Of Arg1:T3 Arg2:T1	
+A1	Start_Recipe E1
+R3	Next_Operation Arg1:E1 Arg2:E2	
+R4	Next_Operation Arg1:E2 Arg2:E3	
+R5	Next_Operation Arg1:E3 Arg2:E4	
+R6	Next_Operation Arg1:E4 Arg2:E5	
+R7	Next_Operation Arg1:E5 Arg2:E6	
+R8	Next_Operation Arg1:E6 Arg2:E7	
+R9	Next_Operation Arg1:E7 Arg2:E8	
+R10	Next_Operation Arg1:E8 Arg2:E9	
+R11	Next_Operation Arg1:E9 Arg2:E10	
+R12	Next_Operation Arg1:E10 Arg2:E11	
+R13	Next_Operation Arg1:E11 Arg2:E12	
+R14	Next_Operation Arg1:E12 Arg2:E13	
+R15	Next_Operation Arg1:E13 Arg2:E14	
+R16	Next_Operation Arg1:E14 Arg2:E15	
+R17	Next_Operation Arg1:E15 Arg2:E16	
+R18	Next_Operation Arg1:E16 Arg2:E17	
+A2	End_Recipe E17
+R19	Number_Of Arg1:T23 Arg2:T118	
+R20	Coref_Of Arg1:T22 Arg2:T21	
+R21	Amount_Of Arg1:T118 Arg2:T21	
+R22	Coref_Of Arg1:T59 Arg2:T58	
+R23	Number_Of Arg1:T24 Arg2:T119	
+R24	Amount_Of Arg1:T119 Arg2:T58	
+R25	Coref_Of Arg1:T61 Arg2:T60	
+R26	Number_Of Arg1:T25 Arg2:T120	
+R27	Amount_Of Arg1:T120 Arg2:T60	
+R28	Coref_Of Arg1:T63 Arg2:T62	
+R29	Number_Of Arg1:T26 Arg2:T121	
+R30	Amount_Of Arg1:T121 Arg2:T62	
+R31	Number_Of Arg1:T27 Arg2:T122	
+R32	Amount_Of Arg1:T122 Arg2:T64	
+R33	Descriptor_Of Arg1:T154 Arg2:T65	
+R34	Coref_Of Arg1:T66 Arg2:T65	
+R35	Number_Of Arg1:T28 Arg2:T123	
+R36	Amount_Of Arg1:T123 Arg2:T65	
+R37	Descriptor_Of Arg1:T156 Arg2:T67	
+R38	Coref_Of Arg1:T68 Arg2:T67	
+R39	Number_Of Arg1:T29 Arg2:T124	
+R40	Amount_Of Arg1:T124 Arg2:T67	
+R41	Descriptor_Of Arg1:T155 Arg2:T69	
+R42	Number_Of Arg1:T30 Arg2:T125	
+R43	Amount_Of Arg1:T125 Arg2:T69	
+R44	Descriptor_Of Arg1:T157 Arg2:T70	
+R45	Coref_Of Arg1:T71 Arg2:T70	
+R46	Number_Of Arg1:T31 Arg2:T126	
+R47	Amount_Of Arg1:T126 Arg2:T70	
+R48	Descriptor_Of Arg1:T158 Arg2:T72	
+R49	Coref_Of Arg1:T73 Arg2:T72	
+R50	Number_Of Arg1:T32 Arg2:T127	
+R51	Amount_Of Arg1:T127 Arg2:T72	
+R52	Descriptor_Of Arg1:T159 Arg2:T74	
+R53	Number_Of Arg1:T33 Arg2:T128	
+R54	Amount_Of Arg1:T128 Arg2:T74	
+R55	Descriptor_Of Arg1:T160 Arg2:T75	
+R56	Number_Of Arg1:T34 Arg2:T129	
+R57	Amount_Of Arg1:T129 Arg2:T75	
+R58	Coref_Of Arg1:T78 Arg2:T76	
+R59	Number_Of Arg1:T35 Arg2:T130	
+R60	Amount_Of Arg1:T130 Arg2:T76	
+R61	Descriptor_Of Arg1:T161 Arg2:T77	
+R62	Coref_Of Arg1:T79 Arg2:T77	
+R63	Number_Of Arg1:T36 Arg2:T131	
+R64	Brand_Of Arg1:T81 Arg2:T80	
+R65	Brand_Of Arg1:T81 Arg2:T77	
+R66	Brand_Of Arg1:T81 Arg2:T76	
+R67	Brand_Of Arg1:T81 Arg2:T75	
+R68	Brand_Of Arg1:T81 Arg2:T74	
+R69	Brand_Of Arg1:T81 Arg2:T72	
+R70	Brand_Of Arg1:T81 Arg2:T70	
+R71	Brand_Of Arg1:T81 Arg2:T69	
+R72	Brand_Of Arg1:T81 Arg2:T67	
+R73	Brand_Of Arg1:T81 Arg2:T65	
+R74	Brand_Of Arg1:T81 Arg2:T64	
+R75	Brand_Of Arg1:T81 Arg2:T62	
+R76	Brand_Of Arg1:T81 Arg2:T60	
+R77	Brand_Of Arg1:T81 Arg2:T58	
+R78	Brand_Of Arg1:T81 Arg2:T21	
+R79	Coref_Of Arg1:T83 Arg2:T82	
+R80	Brand_Of Arg1:T84 Arg2:T82	
+R81	Number_Of Arg1:T37 Arg2:T132	
+R82	Amount_Of Arg1:T132 Arg2:T85	
+R83	Brand_Of Arg1:T86 Arg2:T85	
+R84	Coref_Of Arg1:T88 Arg2:T87	
+R85	Number_Of Arg1:T38 Arg2:T133	
+R86	Amount_Of Arg1:T133 Arg2:T87	
+R87	Brand_Of Arg1:T89 Arg2:T87	
+R88	Coref_Of Arg1:T91 Arg2:T90	
+R89	Number_Of Arg1:T39 Arg2:T134	
+R90	Amount_Of Arg1:T134 Arg2:T90	
+R91	Brand_Of Arg1:T92 Arg2:T90	
+R92	Descriptor_Of Arg1:T162 Arg2:T93	
+R93	Number_Of Arg1:T40 Arg2:T135	
+R94	Amount_Of Arg1:T135 Arg2:T94	
+R95	Descriptor_Of Arg1:T163 Arg2:T95	
+R96	Descriptor_Of Arg1:T164 Arg2:T96	
+R97	Number_Of Arg1:T41 Arg2:T136	
+R98	Amount_Of Arg1:T136 Arg2:T97	
+R99	Number_Of Arg1:T42 Arg2:T137	
+R100	Amount_Of Arg1:T137 Arg2:T98	
+R101	Number_Of Arg1:T43 Arg2:T138	
+R102	Amount_Of Arg1:T138 Arg2:T99	
+R103	Number_Of Arg1:T44 Arg2:T139	
+R104	Amount_Of Arg1:T139 Arg2:T100	
+R105	Descriptor_Of Arg1:T165 Arg2:T101	
+R106	Number_Of Arg1:T45 Arg2:T141	
+R107	Amount_Of Arg1:T141 Arg2:T102	
+R108	Number_Of Arg1:T46 Arg2:T142	
+R109	Amount_Of Arg1:T142 Arg2:T103	
+R110	Number_Of Arg1:T47 Arg2:T143	
+R111	Amount_Of Arg1:T143 Arg2:T104	
+R112	Number_Of Arg1:T48 Arg2:T144	
+R113	Condition_Of Arg1:T144 Arg2:E11	
+R114	Number_Of Arg1:T49 Arg2:T145	
+R115	Condition_Of Arg1:T145 Arg2:E11	
+R116	Descriptor_Of Arg1:T166 Arg2:T105	
+R117	Number_Of Arg1:T50 Arg2:T146	
+R118	Amount_Of Arg1:T146 Arg2:T106	
+R119	Number_Of Arg1:T51 Arg2:T147	
+R120	Amount_Of Arg1:T147 Arg2:T107	
+R121	Number_Of Arg1:T52 Arg2:T148	
+R122	Amount_Of Arg1:T148 Arg2:T111	
+R123	Number_Of Arg1:T53 Arg2:T149	
+R124	Amount_Of Arg1:T149 Arg2:T112	
+R125	Number_Of Arg1:T54 Arg2:T150	
+R126	Amount_Of Arg1:T150 Arg2:T113	
+R127	Number_Of Arg1:T55 Arg2:T151	
+R128	Amount_Of Arg1:T151 Arg2:T114	
+R129	Number_Of Arg1:T56 Arg2:T153	
+R130	Amount_Of Arg1:T153 Arg2:T114	
+R131	Descriptor_Of Arg1:T167 Arg2:T115	
+R132	Descriptor_Of Arg1:T168 Arg2:T109	
+R133	Number_Of Arg1:T57 Arg2:T152	
+R134	Amount_Of Arg1:T152 Arg2:T108	
+R135	Apparatus_Of Arg1:T169 Arg2:E17	

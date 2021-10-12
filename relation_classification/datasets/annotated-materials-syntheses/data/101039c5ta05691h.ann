@@ -1,0 +1,152 @@
+T1	Meta 19 32	Facile method
+T2	Material 49 55	carbon
+T3	Property-Misc 56 61	layer
+T4	Material 76 92	titanium dioxide
+T5	Property-Misc 93 102	nanotubes
+T6	Material 108 119	metal oxide
+T7	Operation 190 198	prepared
+E1	Operation:T7 Recipe_Target:T21
+T8	Operation 202 229	electrochemical anodization
+E2	Operation:T8 Recipe_Precursor:T24
+T9	Operation 302 311	degreased
+E3	Operation:T9 Recipe_Precursor:T25
+T10	Operation 315 325	sonication
+E4	Operation:T10 Solvent_Material:T32
+T11	Operation 361 368	rinsing
+E5	Operation:T11 Solvent_Material:T33
+T12	Operation 399 405	drying
+E6	Operation:T12 Atmospheric_Material:T35
+T13	Operation 448 452	used
+E7	Operation:T13 Participant_Material:T36
+T14	Operation 500 506	served
+E8	Operation:T14 Participant_Material:T40
+T15	Operation 543 554	anodization
+E9	Operation:T15 Participant_Material:T42
+T16	Operation 667 673	washed
+E10	Operation:T16 Participant_Material:T54 Solvent_Material:T56
+T17	Operation 709 715	remove
+E11	Operation:T17 Participant_Material:T60
+T18	Operation 771 779	annealed
+E12	Operation:T18 Atmospheric_Material:T61
+T19	Operation 915 921	dipped
+E13	Operation:T19 Participant_Material:T72 Solvent_Material:T73
+T20	Operation 954 962	annealed
+E14	Operation:T20 Atmospheric_Material:T78
+T21	Material 164 168	TiO2
+T22	Property-Misc 169 177	nanotube
+T23	Property-Misc 178 184	layers
+T24	Material 233 235	Ti
+T25	Material 247 249	Ti
+T26	Material-Descriptor 250 255	foils
+T27	Number 257 260	0.1
+T28	Property-Unit 261 263	mm
+T29	Property-Type 264 273	thickness
+T30	Number 275 279	99.6
+T31	Amount-Unit 279 280	%
+T32	Material 329 336	ethanol
+T33	Material 389 394	water
+T34	Material-Descriptor 374 388	deionized (DI)
+T35	Material 413 421	nitrogen
+T36	Material 434 436	Ti
+T37	Material-Descriptor 437 442	foils
+T38	Synthesis-Apparatus 460 477	working electrode
+T39	Synthesis-Apparatus 514 531	counter electrode
+T40	Material 485 493	platinum
+T41	Material-Descriptor 494 499	gauze
+T42	Material 576 591	ethylene glycol
+T43	Material 593 595	EG
+T44	Number 608 613	0.135
+T45	Amount-Unit 614 615	M
+T46	Material 616 620	NH4F
+T47	Number 625 626	1
+T48	Amount-Unit 627 628	M
+T49	Material 629 632	H2O
+T50	Number 636 638	50
+T51	Number 645 646	6
+T52	Condition-Unit 639 640	V
+T53	Condition-Unit 647 648	h
+T54	Material 654 661	samples
+T55	Synthesis-Apparatus 679 683	bath
+T56	Material 690 695	water
+T57	Material-Descriptor 687 689	DI
+T58	Number 700 701	1
+T59	Condition-Unit 702 705	min
+T60	Material 720 739	organic electrolyte
+T61	Material 786 791	argon
+T62	Material 793 795	Ar
+T63	Material-Descriptor 797 807	atmosphere
+T64	Number 811 814	450
+T65	Number 824 825	1
+T66	Condition-Unit 815 819	degC
+T67	Condition-Unit 826 827	h
+T68	Property-Misc 844 851	anatase
+T69	Material 852 856	TiO2
+T70	Property-Misc 857 860	NTs
+T71	Nonrecipe-Material 869 875	carbon
+T72	Material 890 909	as-prepared samples
+T73	Material 927 934	ethanol
+T74	Number 939 941	24
+T75	Condition-Unit 942 943	h
+T76	Condition-Unit 988 989	h
+T79	Condition-Unit 977 981	degC
+T80	Number 973 976	450
+T77	Number 986 987	3
+T78	Material 966 969	air
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Next_Operation Arg1:E8 Arg2:E9	
+R8	Next_Operation Arg1:E9 Arg2:E15	
+T81	Operation 597 607	containing
+E15	Operation:T81 Participant_Material:T46 Participant_Material:T49
+R9	Next_Operation Arg1:E15 Arg2:E10	
+R10	Next_Operation Arg1:E10 Arg2:E11	
+R11	Next_Operation Arg1:E11 Arg2:E12	
+R12	Next_Operation Arg1:E13 Arg2:E14	
+R13	Property_Of Arg1:T3 Arg2:T2	
+R14	Property_Of Arg1:T5 Arg2:T4	
+R15	Property_Of Arg1:T22 Arg2:T21	
+R16	Property_Of Arg1:T23 Arg2:T21	
+R17	Descriptor_Of Arg1:T26 Arg2:T25	
+R18	Number_Of Arg1:T27 Arg2:T28	
+R19	Type_Of Arg1:T29 Arg2:T28	
+R20	Property_Of Arg1:T28 Arg2:T25	
+R21	Number_Of Arg1:T30 Arg2:T31	
+R22	Amount_Of Arg1:T31 Arg2:T25	
+R23	Descriptor_Of Arg1:T34 Arg2:T33	
+R24	Descriptor_Of Arg1:T37 Arg2:T36	
+R25	Descriptor_Of Arg1:T41 Arg2:T40	
+R26	Apparatus_Of Arg1:T39 Arg2:E8	
+R27	Coref_Of Arg1:T43 Arg2:T42	
+R28	Number_Of Arg1:T44 Arg2:T45	
+R29	Amount_Of Arg1:T45 Arg2:T46	
+R30	Number_Of Arg1:T47 Arg2:T48	
+R31	Amount_Of Arg1:T48 Arg2:T49	
+R32	Number_Of Arg1:T50 Arg2:T52	
+R33	Condition_Of Arg1:T52 Arg2:E9	
+R34	Number_Of Arg1:T51 Arg2:T53	
+R35	Condition_Of Arg1:T53 Arg2:E9	
+R36	Apparatus_Of Arg1:T55 Arg2:E10	
+R37	Descriptor_Of Arg1:T57 Arg2:T56	
+R38	Number_Of Arg1:T58 Arg2:T59	
+R39	Condition_Of Arg1:T59 Arg2:E10	
+R40	Coref_Of Arg1:T61 Arg2:T62	
+R41	Descriptor_Of Arg1:T63 Arg2:T61	
+R42	Number_Of Arg1:T64 Arg2:T66	
+R43	Condition_Of Arg1:T66 Arg2:E12	
+R44	Number_Of Arg1:T65 Arg2:T67	
+R45	Condition_Of Arg1:T67 Arg2:E12	
+R46	Property_Of Arg1:T68 Arg2:T69	
+R47	Property_Of Arg1:T70 Arg2:T69	
+T82	Operation 832 839	prepare
+E16	Operation:T82 Recipe_Target:T69
+R48	Next_Operation Arg1:E16 Arg2:E13	
+R49	Number_Of Arg1:T74 Arg2:T75	
+R50	Condition_Of Arg1:T75 Arg2:E13	
+R51	Number_Of Arg1:T80 Arg2:T79	
+R52	Condition_Of Arg1:T79 Arg2:E14	
+R53	Number_Of Arg1:T77 Arg2:T76	
+R54	Condition_Of Arg1:T76 Arg2:E14	

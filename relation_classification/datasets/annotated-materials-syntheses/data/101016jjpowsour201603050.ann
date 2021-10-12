@@ -1,0 +1,115 @@
+T1	Material 39 70	graphene oxide/carbon nanotubes
+T2	Property-Misc 71 77	sponge
+T3	Nonrecipe-Material 132 142	sodium-ion
+T4	Operation 177 185	obtained
+E1	Operation:T4 Recipe_Target:T14 Participant_Material:T16
+T5	Operation 300 309	synthesis
+E2	Operation:T5 Recipe_Target:T20 Recipe_Target:T24
+T6	Operation 431 436	added
+E3	Operation:T6 Recipe_Precursor:T25 Recipe_Precursor:T30
+T7	Operation 532 539	changed
+E4	Operation:T7 Recipe_Target:T32 Recipe_Target:T33
+T8	Operation 543 552	adjusting
+E5	Operation:T8 Recipe_Target:T34 Recipe_Target:T35
+T9	Operation 622 629	stirred
+E6	Operation:T9 Participant_Material:T39
+T10	Operation 677 683	placed
+E7	Operation:T10 
+T11	Operation 729 735	frozen
+E8	Operation:T11 Participant_Material:T43
+T12	Operation 750 755	moved
+E9	Operation:T12 
+T13	Operation 854 862	calcined
+E10	Operation:T13 Recipe_Target:T57 Atmospheric_Material:T62
+R1	Property_Of Arg1:T2 Arg2:T1	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E7	
+R7	Next_Operation Arg1:E7 Arg2:E8	
+R8	Next_Operation Arg1:E8 Arg2:E9	
+T14	Material 153 167	Graphene oxide
+T15	Material 169 171	GO
+R10	Coref_Of Arg1:T15 Arg2:T14	
+T16	Material 202 210	graphite
+T17	Material-Descriptor 191 201	commercial
+T18	Meta 216 239	modified Hummers method
+T19	Reference 286 290	[28]
+T20	Material 313 316	rGO
+T21	Property-Misc 31 38	Reduced
+T22	Property-Misc 317 323	sponge
+T23	Material 325 327	GS
+T24	Material 333 338	GCNTS
+T25	Material 362 366	CNTs
+T26	Brand 368 406	Nanotech Port Co. Ltd, Shenzhen, China
+T28	Material-Descriptor 408 426	aqueous dispersion
+T29	Synthesis-Apparatus 444 448	vial
+T30	Material 460 462	GO
+T31	Material-Descriptor 463 481	aqueous dispersion
+T32	Material 517 519	GO
+T33	Material 523 527	CNTs
+T34	Material 568 570	GO
+T35	Material 584 588	CNTs
+T36	Material-Descriptor 571 579	solution
+T37	Material-Descriptor 589 597	solution
+T38	Amount-Misc 501 513	weight ratio
+T39	Material 609 617	solution
+T40	Material-Descriptor 603 608	mixed
+T41	Condition-Misc 636 653	magnetic stirring
+T42	Synthesis-Apparatus 668 672	vial
+T44	Synthesis-Apparatus 691 698	freezer
+T43	Material 716 724	solution
+T45	Material-Descriptor 710 715	mixed
+T46	Synthesis-Apparatus 741 745	vial
+T47	Synthesis-Apparatus 761 773	freeze-dryer
+T48	Number 775 778	-53
+T49	Condition-Unit 779 783	degC
+T50	Condition-Type 785 793	pressure
+T51	Number 796 798	10
+T52	Condition-Unit 799 801	Pa
+T53	Number 807 808	3
+T54	Condition-Unit 809 813	days
+T55	Operation 817 823	obtain
+E11	Operation:T55 Recipe_Target:T56
+T56	Material 828 833	GCNTS
+R9	Next_Operation Arg1:E9 Arg2:E11	
+R11	Next_Operation Arg1:E11 Arg2:E10	
+T57	Material 844 849	GCNTS
+T58	Number 866 869	800
+T59	Condition-Unit 870 874	degC
+T60	Number 879 880	3
+T61	Condition-Unit 881 882	h
+T62	Material 886 894	nitrogen
+T63	Material-Descriptor 895 905	atmosphere
+R12	Property_Of Arg1:T21 Arg2:T1	
+R13	Descriptor_Of Arg1:T17 Arg2:T16	
+R14	Property_Of Arg1:T22 Arg2:T20	
+R15	Coref_Of Arg1:T23 Arg2:T20	
+R16	Brand_Of Arg1:T26 Arg2:T25	
+R17	Descriptor_Of Arg1:T28 Arg2:T25	
+R18	Apparatus_Of Arg1:T29 Arg2:E3	
+R19	Descriptor_Of Arg1:T31 Arg2:T30	
+R20	Amount_Of Arg1:T38 Arg2:T32	
+R21	Amount_Of Arg1:T38 Arg2:T33	
+R22	Descriptor_Of Arg1:T36 Arg2:T34	
+R23	Descriptor_Of Arg1:T37 Arg2:T35	
+R24	Descriptor_Of Arg1:T40 Arg2:T39	
+R25	Condition_Of Arg1:T41 Arg2:E6	
+R26	Apparatus_Of Arg1:T42 Arg2:E7	
+R27	Apparatus_Of Arg1:T44 Arg2:E7	
+R28	Descriptor_Of Arg1:T45 Arg2:T43	
+R29	Apparatus_Of Arg1:T46 Arg2:E9	
+R30	Apparatus_Of Arg1:T47 Arg2:E9	
+R31	Number_Of Arg1:T48 Arg2:T49	
+R32	Condition_Of Arg1:T49 Arg2:E9	
+R33	Number_Of Arg1:T51 Arg2:T52	
+R34	Type_Of Arg1:T50 Arg2:T52	
+R35	Condition_Of Arg1:T52 Arg2:E9	
+R36	Number_Of Arg1:T53 Arg2:T54	
+R37	Condition_Of Arg1:T54 Arg2:E9	
+R38	Number_Of Arg1:T58 Arg2:T59	
+R39	Condition_Of Arg1:T59 Arg2:E10	
+R40	Number_Of Arg1:T60 Arg2:T61	
+R41	Condition_Of Arg1:T61 Arg2:E10	
+R42	Descriptor_Of Arg1:T63 Arg2:T62	

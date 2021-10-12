@@ -1,0 +1,144 @@
+T1	Material 99 103	TiO2
+T2	Operation 116 124	prepared
+E1	Operation:T2 
+T3	Operation 129 139	hydrolysis
+E2	Operation:T3 Recipe_Precursor:T29
+T4	Operation 179 185	washed
+E3	Operation:T4 Participant_Material:T30
+T5	Operation 187 192	dried
+E4	Operation:T5 
+T6	Operation 202 210	calcined
+E5	Operation:T6 Atmospheric_Material:T31
+T7	Operation 295 305	identified
+E6	Operation:T7 Participant_Material:T32
+T8	Operation 394 402	prepared
+E7	Operation:T8 
+T9	Operation 406 418	impregnating
+E8	Operation:T9 Recipe_Precursor:T36 Recipe_Precursor:T37
+T10	Operation 480 486	drying
+E9	Operation:T10 
+T11	Operation 518 526	calcined
+E10	Operation:T11 Atmospheric_Material:T38
+T12	Operation 590 598	prepared
+E11	Operation:T12 Recipe_Target:T42
+T13	Operation 602 614	impregnating
+E12	Operation:T13 Recipe_Precursor:T41 Recipe_Precursor:T40
+T14	Operation 680 686	drying
+E13	Operation:T14 
+T15	Operation 718 726	calcined
+E14	Operation:T15 
+T16	Reference 1154 1157	[7]
+T17	Reference 313 317	[27]
+T18	Number 347 349	83
+T19	Number 229 232	500
+T20	Number 242 243	5
+T21	Number 490 493	100
+T22	Number 545 548	500
+T23	Number 558 559	7
+T24	Number 690 693	100
+T25	Number 745 748	500
+T26	Number 758 759	7
+T27	Number 927 928	4
+T28	Number 933 934	3
+T29	Material 143 161	titanium alkoxides
+T30	Material 167 174	product
+T31	Material 222 225	air
+T32	Material 283 290	product
+T33	Characterization-Apparatus 309 312	XRD
+T34	Material 358 367	CeO2/TiO2
+T36	Material 419 423	TiO2
+T37	Material 452 467	cerious nitrate
+T38	Material 538 541	air
+T39	Material 738 741	air
+T40	Material 653 667	cupric nitrate
+T41	Material 615 624	CeO2/TiO2
+T35	Material 384 388	TiO2
+T42	Material 563 576	CuO/CeO2/TiO2
+T43	Material 791 804	CuO/CeO2/TiO2
+T44	Material 827 837	xCu-yCe-Ti
+T45	Material 844 854	4Cu-3Ce-Ti
+T46	Nonrecipe-Material 886 898	copper oxide
+T47	Nonrecipe-Material 903 908	ceria
+T48	Material 1004 1008	TiO2
+T49	Condition-Unit 233 237	degC
+T50	Condition-Unit 244 245	h
+T51	Property-Unit 350 356	m2 g-1
+T52	Condition-Unit 494 498	degC
+T53	Condition-Unit 549 553	degC
+T54	Condition-Unit 560 561	h
+T55	Condition-Unit 694 698	degC
+T56	Condition-Unit 749 753	degC
+T57	Condition-Unit 760 761	h
+T58	Amount-Unit 935 939	wt.%
+T59	Property-Misc 104 111	support
+T60	Material-Descriptor 214 221	flowing
+T61	Material-Descriptor 251 270	anatase crystalline
+T62	Condition-Type 327 343	BET surface area
+T63	Material-Descriptor 369 383	ceria-modified
+T64	Material-Descriptor 432 448	aqueous solution
+T65	Condition-Misc 499 508	overnight
+T66	Material-Descriptor 530 537	flowing
+T67	Property-Misc 577 584	samples
+T68	Material-Descriptor 634 649	queous solution
+T69	Condition-Misc 699 708	overnight
+T70	Material-Descriptor 730 737	flowing
+T71	Property-Misc 805 812	samples
+T72	Material 874 880	sample
+T73	Property-Type 969 985	BET surface area
+T74	Material-Descriptor 989 1003	ceria-modified
+T75	Material 91 98	anatase
+T76	Property-Misc 76 90	ceria-modified
+R1	Property_Of Arg1:T76 Arg2:T75	
+R2	Property_Of Arg1:T59 Arg2:T1	
+A1	Start_Recipe E1
+R3	Next_Operation Arg1:E1 Arg2:E2	
+R4	Next_Operation Arg1:E2 Arg2:E3	
+R5	Next_Operation Arg1:E3 Arg2:E4	
+R6	Next_Operation Arg1:E4 Arg2:E5	
+R7	Next_Operation Arg1:E5 Arg2:E6	
+R8	Next_Operation Arg1:E6 Arg2:E7	
+R9	Next_Operation Arg1:E7 Arg2:E8	
+R10	Next_Operation Arg1:E8 Arg2:E9	
+R11	Next_Operation Arg1:E9 Arg2:E10	
+R12	Next_Operation Arg1:E10 Arg2:E11	
+R13	Next_Operation Arg1:E11 Arg2:E12	
+R14	Next_Operation Arg1:E12 Arg2:E13	
+R15	Next_Operation Arg1:E13 Arg2:E14	
+A2	End_Recipe E14
+R16	Descriptor_Of Arg1:T60 Arg2:T31	
+R17	Number_Of Arg1:T19 Arg2:T49	
+R18	Number_Of Arg1:T20 Arg2:T50	
+R19	Condition_Of Arg1:T49 Arg2:E5	
+R20	Condition_Of Arg1:T50 Arg2:E5	
+R21	Descriptor_Of Arg1:T61 Arg2:T32	
+R22	Apparatus_Of Arg1:T33 Arg2:E6	
+R23	Type_Of Arg1:T62 Arg2:T51	
+R24	Number_Of Arg1:T18 Arg2:T51	
+R25	Property_Of Arg1:T51 Arg2:T32	
+R27	Descriptor_Of Arg1:T63 Arg2:T35	
+R28	Coref_Of Arg1:T35 Arg2:T34	
+R26	Descriptor_Of Arg1:T64 Arg2:T37	
+R29	Number_Of Arg1:T21 Arg2:T52	
+R30	Condition_Of Arg1:T52 Arg2:E9	
+R31	Condition_Of Arg1:T65 Arg2:E9	
+R32	Descriptor_Of Arg1:T66 Arg2:T38	
+R33	Number_Of Arg1:T22 Arg2:T53	
+R34	Condition_Of Arg1:T53 Arg2:E10	
+R35	Number_Of Arg1:T23 Arg2:T54	
+R36	Condition_Of Arg1:T54 Arg2:E10	
+R37	Property_Of Arg1:T67 Arg2:T42	
+R38	Descriptor_Of Arg1:T68 Arg2:T40	
+R39	Number_Of Arg1:T24 Arg2:T55	
+R40	Condition_Of Arg1:T55 Arg2:E13	
+R41	Condition_Of Arg1:T69 Arg2:E13	
+R42	Descriptor_Of Arg1:T70 Arg2:T39	
+R43	Number_Of Arg1:T25 Arg2:T56	
+R44	Number_Of Arg1:T26 Arg2:T57	
+R45	Condition_Of Arg1:T56 Arg2:E14	
+R46	Condition_Of Arg1:T57 Arg2:E14	
+R47	Property_Of Arg1:T71 Arg2:T43	
+R48	Number_Of Arg1:T27 Arg2:T58	
+R49	Number_Of Arg1:T28 Arg2:T58	
+R50	Amount_Of Arg1:T58 Arg2:T44	
+R51	Amount_Of Arg1:T58 Arg2:T45	
+R52	Descriptor_Of Arg1:T74 Arg2:T48	

@@ -1,0 +1,5 @@
+10.1016/j.jcat.2013.05.016
+Catalytic oxidation of benzene by ozone over manganese oxides supported on USY zeolite
+
+Manganese oxide catalysts supported on ultrastable zeolite Y (Mn/USY) (Zeolyst CBV390H, SiO2/Al2O3 = 180, surface area 875 m2/g) were prepared by an impregnation method. An aqueous solution containing the appropriate amount of Mn(CH3COO)2*4H2O (Wako Pure Chemical, Japan, >99.9%) was added to the powders of USY and evaporated to dryness at 343 K. The catalyst samples were dried at 383 K for 24 h and then calcined at 773 K for 3 h. The Mn loading was varied from 5 to 15 wt% by changing the precursor amounts. SiO2-supported manganese oxide catalysts (Mn/SiO2) were prepared by the identical technique. Reference samples - MnO, Mn3O4, Mn2O3 and MnO2 - were obtained from Sigma-Aldrich Co. LLC.
+

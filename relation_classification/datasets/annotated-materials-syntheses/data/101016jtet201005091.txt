@@ -1,0 +1,7 @@
+10.1016/j.tet.2010.05.091
+The Baeyer-Villiger oxidation of ketones with Oxone(r) in the presence of ionic liquids as solvents
+Oxone(r) (4.0 mmol) was added to a solution of ketone (4.0 mmol) in ionic liquid (3.0 g) and stirred at 40 degC for 2.5-20 h (depending on the reaction rate). The progress of the reaction was monitored by GC or HPLC. After this time, the post reaction mixture was dissolved in CH2Cl2 and filtered. Next, the filtrate was concentrated and extracted with the appropriate solvent of: ethyl acetate, diethyl or dibutyl ether (6x5 mL) and concentrated. The yields of lactones after the purification by column chromatography with hexane/ethyl acetate (4:1) as the eluent were 65-95%.
+For HmimOAc (bp=240 degC; 70 degC/1.2 mbar) and H2mpyrOAc (bp=255 degC; 90 degC/1.2 mbar) distillation of the product or ionic liquid from the reaction mixture was performed.
+ILs were purified for recycling tests. After the filtration of post reaction mixture, and the extraction of the product with ethyl acetate (bmimBF4) or dibutyl ether (HmimOAc), ILs were concentrated, dried under vacuum (60 degC, 5 h) and reused.
+A solution of Oxone(r) (0.63 g) in 0.7 g of IL was stirred for 5 h at 40 degC. After this time the content of KHSO5 was determined by iodometric titration.
+Oxone(r) (4 g) was mixed with 5 g of IL and stirred for 1 h at room temperature. Next, CH2Cl2 was added to isolate the insoluble parts of Oxone(r) and to lower the viscosity. The mixture was filtered and the amount of KHSO5 in the filtrate was determined by iodometric titration.

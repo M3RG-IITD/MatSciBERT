@@ -1,0 +1,4 @@
+10.1016/j.tsf.2012.12.064
+Oxidation resistance and structural evolution of (TiVCrZrHf)N coatings
+
+The (TiVCrZrHf)N coatings were deposited on p-Si (100) wafers by a reactive RF magnetron sputtering system using equimolar TiVCrZrHf targets (75 mm in diameter). Before deposition, the Si substrates were cleaned and rinsed with ethanol and distilled water in an ultrasonic bath. Then, 1.4 μm-thick (TiVCrZrHf)N coatings were deposited at a plasma power of 350 W and a substrate bias of - 100 V in an Ar + N2 mixed atmosphere under a working pressure of 6.67 x 10- 1 Pa at 450 degC. The flow rates of Ar and N2 were maintained at 100 and 4 sccm, respectively. To determine the oxidation resistance of the as-deposited (TiVCrZrHf)N coatings, they were annealed at different temperatures (300-700 degC) for 2 h in air using a furnace.

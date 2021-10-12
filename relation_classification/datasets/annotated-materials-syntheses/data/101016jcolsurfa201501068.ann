@@ -1,0 +1,109 @@
+T1	Operation 179 183	used
+E1	Operation:T1 Participant_Material:T15
+T2	Operation 307 316	dissolved
+E2	Operation:T2 Recipe_Precursor:T16 Solvent_Material:T17
+T3	Operation 353 361	stirring
+E3	Operation:T3 
+T4	Operation 419 424	added
+E4	Operation:T4 Participant_Material:T18 Participant_Material:T19
+T5	Operation 443 451	addition
+E5	Operation:T5 Solvent_Material:T20
+T6	Operation 425 433	followed
+E6	Operation:T6 
+T7	Operation 480 487	stirred
+E7	Operation:T7 Participant_Material:T21
+T8	Operation 504 512	obtained
+E8	Operation:T8 Participant_Material:T22
+T9	Operation 538 548	autoclaved
+E9	Operation:T9 
+T10	Operation 668 679	centrifuged
+E10	Operation:T10 Participant_Material:T23
+T11	Operation 684 692	filtered
+E11	Operation:T11 
+T12	Operation 745 751	washed
+E12	Operation:T12 Participant_Material:T24 Solvent_Material:T25
+T13	Operation 778 788	oven dried
+E13	Operation:T13 Atmospheric_Material:T26
+T14	Material 59 66	Co(OH)2
+T15	Material 169 178	chemicals
+T16	Material 283 291	Co(NO3)2
+T17	Material 329 337	methanol
+T18	Material 381 389	solution
+T19	Material 398 405	ammonia
+T20	Material 455 460	water
+T21	Material 467 475	solution
+T22	Material 525 533	solution
+T23	Material 655 663	solution
+T24	Material 718 729	precipitate
+T25	Material 768 773	water
+T26	Material 801 804	air
+T27	Number 276 277	1
+T28	Amount-Unit 278 279	M
+T29	Number 320 322	32
+T30	Amount-Unit 323 325	mL
+T31	Number 391 392	1
+T32	Amount-Unit 393 394	M
+T33	Number 437 439	32
+T34	Amount-Unit 440 442	mL
+T35	Number 492 494	30
+T36	Condition-Unit 495 498	min
+T37	Number 580 582	90
+T38	Condition-Unit 583 587	degC
+T39	Number 630 631	3
+T40	Number 635 637	24
+T41	Condition-Unit 638 639	h
+T42	Number 697 699	30
+T43	Condition-Unit 700 703	min
+T44	Number 793 795	12
+T45	Condition-Unit 796 797	h
+T46	Number 808 810	50
+T47	Condition-Unit 811 815	degC
+T48	Property-Misc 31 55	Mesoscopic architectures
+T49	Material-Descriptor 213 229	analytical grade
+T50	Brand 244 258	Nice Chemicals
+T51	Material-Descriptor 406 414	solution
+T52	Material-Descriptor 513 524	precipitate
+T53	Synthesis-Apparatus 567 576	container
+T54	Apparatus-Descriptor 554 566	teflon lined
+T55	Material-Descriptor 757 767	de-ionized
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E5	
+R6	Next_Operation Arg1:E5 Arg2:E7	
+R7	Next_Operation Arg1:E7 Arg2:E8	
+R8	Next_Operation Arg1:E8 Arg2:E9	
+R9	Next_Operation Arg1:E9 Arg2:E10	
+R10	Next_Operation Arg1:E10 Arg2:E11	
+R11	Next_Operation Arg1:E11 Arg2:E12	
+R12	Next_Operation Arg1:E12 Arg2:E13	
+R13	Condition_Of Arg1:T36 Arg2:E7	
+R14	Apparatus_Of Arg1:T53 Arg2:E9	
+R15	Condition_Of Arg1:T38 Arg2:E9	
+R16	Condition_Of Arg1:T41 Arg2:E9	
+R17	Condition_Of Arg1:T43 Arg2:E11	
+R18	Condition_Of Arg1:T45 Arg2:E13	
+R19	Condition_Of Arg1:T47 Arg2:E13	
+R20	Property_Of Arg1:T48 Arg2:T14	
+R21	Amount_Of Arg1:T28 Arg2:T16	
+R22	Amount_Of Arg1:T30 Arg2:T17	
+R23	Amount_Of Arg1:T32 Arg2:T19	
+R24	Amount_Of Arg1:T34 Arg2:T20	
+R25	Descriptor_Of Arg1:T49 Arg2:T15	
+R26	Descriptor_Of Arg1:T51 Arg2:T19	
+R27	Descriptor_Of Arg1:T52 Arg2:T22	
+R28	Descriptor_Of Arg1:T54 Arg2:T53	
+R29	Descriptor_Of Arg1:T55 Arg2:T25	
+R30	Brand_Of Arg1:T50 Arg2:T15	
+R31	Number_Of Arg1:T27 Arg2:T28	
+R32	Number_Of Arg1:T29 Arg2:T30	
+R33	Number_Of Arg1:T31 Arg2:T32	
+R34	Number_Of Arg1:T33 Arg2:T34	
+R35	Number_Of Arg1:T35 Arg2:T36	
+R36	Number_Of Arg1:T37 Arg2:T38	
+R37	Number_Of Arg1:T39 Arg2:T41	
+R38	Number_Of Arg1:T40 Arg2:T41	
+R39	Number_Of Arg1:T42 Arg2:T43	
+R40	Number_Of Arg1:T44 Arg2:T45	
+R41	Number_Of Arg1:T46 Arg2:T47	

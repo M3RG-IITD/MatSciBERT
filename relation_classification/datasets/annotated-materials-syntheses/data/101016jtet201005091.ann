@@ -1,0 +1,237 @@
+T1	Operation 150 155	added
+E1	Operation:T1 Recipe_Precursor:T53 Recipe_Precursor:T54 Solvent_Material:T55
+T2	Operation 219 226	stirred
+E2	Operation:T2 
+T3	Operation 318 327	monitored
+E3	Operation:T3 
+T4	Characterization-Apparatus 331 333	GC
+T5	Characterization-Apparatus 337 341	HPLC
+T6	Operation 390 399	dissolved
+E4	Operation:T6 Participant_Material:T56 Solvent_Material:T57
+T7	Operation 414 422	filtered
+E5	Operation:T7 
+T8	Operation 447 459	concentrated
+E6	Operation:T8 Participant_Material:T58
+T9	Operation 464 473	extracted
+E7	Operation:T9 Solvent_Material:T59 Solvent_Material:T60 Solvent_Material:T61
+T10	Operation 560 572	concentrated
+E8	Operation:T10 
+T11	Operation 607 619	purification
+E9	Operation:T11 Recipe_Target:T62
+T12	Operation 794 806	distillation
+E10	Operation:T12 Participant_Material:T67 Participant_Material:T68
+T13	Operation 868 877	performed
+E11	Operation:T13 
+T14	Operation 888 896	purified
+E12	Operation:T14 Participant_Material:T70
+T15	Operation 928 938	filtration
+E13	Operation:T15 Participant_Material:T71
+T16	Operation 973 983	extraction
+E14	Operation:T16 Participant_Material:T72 Participant_Material:T73 Participant_Material:T74
+T17	Operation 1065 1077	concentrated
+E15	Operation:T17 Participant_Material:T75
+T18	Operation 1079 1084	dried
+E16	Operation:T18 
+T19	Operation 1117 1123	reused
+E17	Operation:T19 
+T20	Operation 1176 1183	stirred
+E18	Operation:T20 Solvent_Material:T77 Recipe_Precursor:T76
+T21	Operation 1245 1255	determined
+E19	Operation:T21 Participant_Material:T78
+T22	Operation 1300 1305	mixed
+E20	Operation:T22 Recipe_Precursor:T79 Solvent_Material:T80
+T23	Operation 1325 1332	stirred
+E21	Operation:T23 
+T24	Operation 1379 1384	added
+E22	Operation:T24 Recipe_Precursor:T81 Participant_Material:T82
+T25	Operation 1435 1440	lower
+E23	Operation:T25 
+T26	Operation 1472 1480	filtered
+E24	Operation:T26 Participant_Material:T83 Participant_Material:T84
+T27	Operation 1525 1535	determined
+E25	Operation:T27 Participant_Material:T121
+T28	Characterization-Apparatus 1539 1559	iodometric titration
+T29	Characterization-Apparatus 1259 1279	iodometric titration
+T30	Number 136 139	4.0
+T31	Number 181 184	4.0
+T32	Number 208 211	3.0
+T33	Number 230 232	40
+T34	Number 242 248	2.5-20
+T35	Number 548 551	6x5
+T36	Number 672 675	4:1
+T37	Number 696 701	65-95
+T38	Number 720 723	240
+T39	Number 730 732	70
+T40	Number 738 741	1.2
+T41	Number 766 769	255
+T42	Number 776 778	90
+T43	Number 784 787	1.2
+T44	Number 1099 1101	60
+T45	Number 1108 1109	5
+T46	Number 1149 1153	0.63
+T47	Number 1160 1163	0.7
+T48	Number 1188 1189	5
+T49	Number 1195 1197	40
+T50	Number 1291 1292	4
+T51	Number 1311 1312	5
+T52	Number 1337 1338	1
+T53	Material 126 134	Oxone(r)
+T54	Material 173 179	ketone
+T55	Material 194 206	ionic liquid
+T56	Material 378 385	mixture
+T57	Material 403 409	CH2Cl2
+T58	Material 434 442	filtrate
+T59	Material 507 520	ethyl acetate
+T60	Material 522 529	diethyl
+T61	Material 533 546	dibutyl ether
+T62	Material 588 596	lactones
+T63	Nonrecipe-Material 657 670	ethyl acetate
+T64	Nonrecipe-Material 650 656	hexane
+T65	Material 708 715	HmimOAc
+T66	Material 752 761	H2mpyrOAc
+T67	Material 814 821	product
+T68	Material 825 837	ionic liquid
+T69	Material 856 863	mixture
+T70	Material 879 882	ILs
+T71	Material 956 963	mixture
+T72	Material 991 998	product
+T73	Material 1004 1017	ethyl acetate
+T74	Material 1031 1044	dibutyl ether
+T75	Material 1056 1059	ILs
+T76	Material 1139 1147	Oxone(r)
+T77	Material 1169 1171	IL
+T78	Material 1235 1240	KHSO5
+T79	Material 1281 1289	Oxone(r)
+T80	Material 1318 1320	IL
+T81	Material 1368 1374	CH2Cl2
+T82	Material 1419 1427	Oxone(r)
+T83	Material 1460 1467	mixture
+T84	Material 1499 1504	KHSO5
+T85	Amount-Unit 140 144	mmol
+T86	Amount-Unit 185 189	mmol
+T87	Amount-Unit 212 213	g
+T88	Condition-Unit 233 237	degC
+T89	Condition-Unit 249 250	h
+T90	Amount-Unit 552 554	mL
+T91	Property-Unit 701 702	%
+T92	Property-Type 578 584	yields
+T93	Property-Type 717 719	bp
+T94	Property-Unit 724 728	degC
+T95	Property-Unit 733 737	degC
+T96	Property-Unit 742 746	mbar
+T97	Property-Type 763 765	bp
+T98	Property-Unit 770 774	degC
+T99	Property-Unit 779 783	degC
+T100	Property-Unit 788 792	mbar
+T101	Condition-Unit 1102 1106	degC
+T102	Condition-Unit 1110 1111	h
+T103	Amount-Unit 1154 1155	g
+T104	Amount-Unit 1164 1165	g
+T105	Condition-Unit 1190 1191	h
+T106	Condition-Unit 1198 1202	degC
+T107	Amount-Unit 1293 1294	g
+T108	Amount-Unit 1313 1314	g
+T109	Condition-Unit 1339 1340	h
+T110	Material-Descriptor 161 169	solution
+T111	Material 59 66	ketones
+T112	Condition-Type 269 282	reaction rate
+T113	Material-Descriptor 495 502	solvent
+T114	Synthesis-Apparatus 623 644	column chromatography
+T115	Material-Descriptor 684 690	eluent
+T116	Material-Descriptor 1019 1026	bmimBF4
+T117	Material-Descriptor 1046 1053	HmimOAc
+T118	Condition-Misc 1091 1097	vacuum
+T119	Material-Descriptor 1127 1135	solution
+T120	Condition-Misc 1344 1360	room temperature
+T121	Material 1512 1520	filtrate
+R1	Number_Of Arg1:T30 Arg2:T85	
+R2	Amount_Of Arg1:T85 Arg2:T53	
+A1	Start_Recipe E1
+R3	Next_Operation Arg1:E1 Arg2:E2	
+R4	Next_Operation Arg1:E2 Arg2:E3	
+R5	Next_Operation Arg1:E3 Arg2:E4	
+R6	Next_Operation Arg1:E4 Arg2:E5	
+R7	Next_Operation Arg1:E5 Arg2:E6	
+R8	Next_Operation Arg1:E6 Arg2:E7	
+R9	Next_Operation Arg1:E7 Arg2:E8	
+R10	Next_Operation Arg1:E8 Arg2:E9	
+R11	Next_Operation Arg1:E9 Arg2:E10	
+R12	Next_Operation Arg1:E10 Arg2:E11	
+R13	Next_Operation Arg1:E11 Arg2:E12	
+R14	Next_Operation Arg1:E12 Arg2:E13	
+R15	Next_Operation Arg1:E13 Arg2:E14	
+R16	Next_Operation Arg1:E14 Arg2:E15	
+R17	Next_Operation Arg1:E15 Arg2:E16	
+R18	Next_Operation Arg1:E16 Arg2:E17	
+R19	Next_Operation Arg1:E17 Arg2:E18	
+R20	Next_Operation Arg1:E18 Arg2:E19	
+R21	Next_Operation Arg1:E19 Arg2:E20	
+R22	Next_Operation Arg1:E20 Arg2:E21	
+R23	Next_Operation Arg1:E21 Arg2:E22	
+R24	Next_Operation Arg1:E22 Arg2:E23	
+R25	Next_Operation Arg1:E23 Arg2:E24	
+R26	Next_Operation Arg1:E24 Arg2:E25	
+A2	End_Recipe E25
+R27	Descriptor_Of Arg1:T110 Arg2:T54	
+R28	Number_Of Arg1:T31 Arg2:T86	
+R29	Amount_Of Arg1:T86 Arg2:T54	
+R30	Number_Of Arg1:T32 Arg2:T87	
+R31	Amount_Of Arg1:T87 Arg2:T55	
+R32	Number_Of Arg1:T33 Arg2:T88	
+R33	Condition_Of Arg1:T88 Arg2:E2	
+R34	Number_Of Arg1:T34 Arg2:T89	
+R35	Condition_Of Arg1:T89 Arg2:E2	
+R36	Apparatus_Of Arg1:T4 Arg2:E3	
+R37	Apparatus_Of Arg1:T5 Arg2:E3	
+R38	Descriptor_Of Arg1:T113 Arg2:T59	
+R39	Descriptor_Of Arg1:T113 Arg2:T60	
+R40	Descriptor_Of Arg1:T113 Arg2:T61	
+R41	Number_Of Arg1:T35 Arg2:T90	
+R42	Amount_Of Arg1:T90 Arg2:T59	
+R43	Amount_Of Arg1:T90 Arg2:T60	
+R44	Amount_Of Arg1:T90 Arg2:T61	
+R45	Apparatus_Of Arg1:T114 Arg2:E9	
+R46	Number_Of Arg1:T37 Arg2:T91	
+R47	Property_Of Arg1:T91 Arg2:T62	
+R48	Descriptor_Of Arg1:T115 Arg2:T63	
+R49	Descriptor_Of Arg1:T115 Arg2:T64	
+R50	Number_Of Arg1:T38 Arg2:T94	
+R51	Type_Of Arg1:T93 Arg2:T94	
+R52	Property_Of Arg1:T94 Arg2:T65	
+R53	Number_Of Arg1:T39 Arg2:T95	
+R54	Number_Of Arg1:T40 Arg2:T96	
+R55	Property_Of Arg1:T95 Arg2:T65	
+R56	Property_Of Arg1:T96 Arg2:T65	
+R57	Type_Of Arg1:T97 Arg2:T98	
+R58	Number_Of Arg1:T41 Arg2:T98	
+R59	Property_Of Arg1:T98 Arg2:T66	
+R60	Number_Of Arg1:T42 Arg2:T99	
+R61	Number_Of Arg1:T43 Arg2:T100	
+R62	Property_Of Arg1:T99 Arg2:T66	
+R63	Property_Of Arg1:T100 Arg2:T66	
+R64	Descriptor_Of Arg1:T116 Arg2:T73	
+R65	Descriptor_Of Arg1:T117 Arg2:T74	
+R66	Condition_Of Arg1:T118 Arg2:E16	
+R67	Number_Of Arg1:T44 Arg2:T101	
+R68	Number_Of Arg1:T45 Arg2:T102	
+R69	Condition_Of Arg1:T101 Arg2:E16	
+R70	Condition_Of Arg1:T102 Arg2:E16	
+R71	Descriptor_Of Arg1:T119 Arg2:T76	
+R72	Number_Of Arg1:T46 Arg2:T103	
+R73	Amount_Of Arg1:T103 Arg2:T76	
+R74	Number_Of Arg1:T47 Arg2:T104	
+R75	Amount_Of Arg1:T104 Arg2:T77	
+R76	Number_Of Arg1:T48 Arg2:T105	
+R77	Number_Of Arg1:T49 Arg2:T106	
+R78	Condition_Of Arg1:T105 Arg2:E18	
+R79	Condition_Of Arg1:T106 Arg2:E18	
+R80	Apparatus_Of Arg1:T29 Arg2:E19	
+R81	Number_Of Arg1:T50 Arg2:T107	
+R82	Amount_Of Arg1:T107 Arg2:T79	
+R83	Number_Of Arg1:T51 Arg2:T108	
+R84	Amount_Of Arg1:T108 Arg2:T80	
+R85	Number_Of Arg1:T52 Arg2:T109	
+R86	Condition_Of Arg1:T109 Arg2:E21	
+R87	Condition_Of Arg1:T120 Arg2:E21	
+T122	Property-Type 1445 1454	viscosity
+R88	Apparatus_Of Arg1:T28 Arg2:E25	

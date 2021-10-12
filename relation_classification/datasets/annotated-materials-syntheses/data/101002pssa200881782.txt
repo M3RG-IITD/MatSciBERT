@@ -1,0 +1,4 @@
+10.1002/pssa.200881782
+Resistance switching properties of epitaxial Pr 0.7 Ca 0.3 MnO 3 thin films with different electrodes
+
+A polycrystalline PCMO target was prepared by standard ceramics technique as follows. Accurate amounts of high-purity (99.9%) Pr6O11, MnO and CaCO3 powders were weighed and mixed by ball milling. After calcination at 1250 degC for 12 h, the powder was grounded, pressed and sintered in air for another 12 h at 1400 degC. Synthesis of PCMO target with x = 0.3 was confirmed by X-ray diffractometry (XRD) and electron diffraction spectroscopy (EDX).

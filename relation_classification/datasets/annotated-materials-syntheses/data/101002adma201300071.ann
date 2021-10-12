@@ -1,0 +1,504 @@
+T1	Material 31 36	SnO 2
+T2	Property-Misc 37 49	Nanocrystals
+T3	Material 68 76	Graphene
+T4	Property-Misc 53 67	Nitrogen-Doped
+T5	Property-Misc 77 83	Sheets
+T6	Property-Misc 87 92	Anode
+T7	Operation 129 140	Fabrication
+E1	Operation:T7 Recipe_Target:T59
+T8	Operation 183 191	produced
+E2	Operation:T8 Recipe_Target:T60 Recipe_Precursor:T61
+T9	Operation 276 285	Synthesis
+E3	Operation:T9 Recipe_Target:T66
+T10	Operation 392 401	dissolved
+E4	Operation:T10 Recipe_Precursor:T70 Solvent_Material:T74
+T11	Operation 466 477	transferred
+E5	Operation:T11 Participant_Material:T77
+T12	Operation 564 570	heated
+E6	Operation:T12 
+T13	Operation 606 613	produce
+E7	Operation:T13 Participant_Material:T88
+T14	Operation 645 654	harvested
+E8	Operation:T14 
+T15	Operation 658 672	centrifugation
+E9	Operation:T15 
+T16	Operation 677 686	dispersed
+E10	Operation:T16 Solvent_Material:T93
+T17	Operation 790 799	Synthesis
+E11	Operation:T17 Recipe_Target:T100
+T18	Operation 935 944	dispersed
+E12	Operation:T18 Recipe_Precursor:T106 Solvent_Material:T111
+T19	Operation 978 986	addition
+E13	Operation:T19 Recipe_Precursor:T114
+T20	Operation 1074 1083	sonicated
+E14	Operation:T20 Participant_Material:T118
+T21	Operation 1087 1091	form
+E15	Operation:T21 Participant_Material:T120
+T22	Operation 1124 1138	lyophilization
+E16	Operation:T22 
+T23	Operation 1140 1153	freeze-drying
+E17	Operation:T23 Recipe_Precursor:T126
+T24	Operation 1170 1178	obtained
+E18	Operation:T24 
+T25	Operation 1237 1240	put
+E19	Operation:T25 
+T26	Operation 1286 1292	placed
+E20	Operation:T26 Recipe_Precursor:T134
+T27	Operation 1450 1457	sealing
+E21	Operation:T27 
+T28	Operation 1480 1490	maintained
+E22	Operation:T28 
+T29	Operation 1514 1520	reduce
+E23	Operation:T29 Participant_Material:T146
+T30	Operation 1555 1562	cooling
+E24	Operation:T30 
+T31	Operation 1580 1586	washed
+E25	Operation:T31 Participant_Material:T148 Participant_Material:T149
+T32	Operation 1611 1617	remove
+E26	Operation:T32 
+T33	Operation 1681 1687	drying
+E27	Operation:T33 
+T34	Operation 1725 1731	obtain
+E28	Operation:T34 Recipe_Target:T160
+T35	Operation 1763 1772	Synthesis
+E29	Operation:T35 Recipe_Target:T163
+T36	Operation 1834 1845	synthesized
+E30	Operation:T36 Recipe_Target:T165 Recipe_Target:T166
+T37	Operation 1937 1944	reduced
+E31	Operation:T37 Participant_Material:T169
+T38	Operation 1948 1965	thermal reduction
+E32	Operation:T38 Atmospheric_Material:T177
+T39	Operation 2061 2068	washing
+E33	Operation:T39 
+T40	Operation 2084 2090	drying
+E34	Operation:T40 
+T41	Operation 2104 2113	Synthesis
+E35	Operation:T41 Recipe_Target:T183
+T42	Operation 2155 2163	produced
+E36	Operation:T42 Recipe_Target:T186 Recipe_Target:T187
+T43	Operation 2248 2253	added
+E37	Operation:T43 Recipe_Precursor:T188
+T44	Operation 2255 2264	Synthesis
+E38	Operation:T44 Recipe_Target:T193 Recipe_Target:T194
+T45	Operation 2360 2369	dispersed
+E39	Operation:T45 Recipe_Precursor:T200 Solvent_Material:T203
+T46	Operation 2402 2410	addition
+E40	Operation:T46 Recipe_Precursor:T205
+T47	Operation 2486 2495	sonicated
+E41	Operation:T47 Participant_Material:T209
+T48	Operation 2521 2533	freeze-dried
+E42	Operation:T48 
+T49	Operation 2537 2545	generate
+E43	Operation:T49 Recipe_Target:T212
+T50	Operation 2570 2579	Synthesis
+E44	Operation:T50 Recipe_Target:T214
+T51	Operation 2667 2676	reduction
+E45	Operation:T51 Recipe_Precursor:T216 Recipe_Target:T218
+T52	Operation 2716 2724	prepared
+E46	Operation:T52 Recipe_Target:T219 Recipe_Target:T220
+T53	Operation 2806 2813	reduced
+E47	Operation:T53 Participant_Material:T221 Solvent_Material:T223
+T54	Operation 2875 2880	mixed
+E48	Operation:T54 Participant_Material:T227 Solvent_Material:T232 Solvent_Material:T235
+T55	Operation 3010 3017	stirred
+E49	Operation:T55 Participant_Material:T242
+T56	Operation 3033 3039	heated
+E50	Operation:T56 
+T57	Operation 3087 3100	freeze-drying
+E51	Operation:T57 
+T58	Operation 3104 3110	obtain
+E52	Operation:T58 Recipe_Target:T250
+T59	Material 144 158	graphite oxide
+T60	Material 164 178	graphite oxide
+T61	Material 205 213	graphite
+T62	Material-Descriptor 214 220	flakes
+T63	Material-Descriptor 197 204	natural
+T64	Brand 222 242	Alfa Aesar, 325 mesh
+T65	Reference 258 275	Hummers method.57
+T66	Material 289 293	SnO2
+T67	Property-Misc 294 324	nanocrystal aqueous suspension
+T68	Number 326 329	2.0
+T69	Amount-Unit 330 331	g
+T70	Material 332 342	SnCl4*5H2O
+T71	Brand 344 380	Sinopharm Chemical Reagent Co., Ltd.
+T72	Number 405 408	100
+T73	Condition-Unit 409 411	mL
+T74	Material 427 432	water
+T75	Material-Descriptor 423 425	DI
+T76	Material-Descriptor 412 421	deionized
+T77	Material 448 456	solution
+T78	Number 485 488	100
+T79	Number 481 484	two
+T80	Apparatus-Unit 489 491	mL
+T81	Synthesis-Apparatus 549 559	autoclaves
+T82	Apparatus-Descriptor 492 548	poly(tetrafluoroethylene) (Teflon)-lined stainless steel
+T83	Synthesis-Apparatus 577 581	oven
+T84	Number 585 588	120
+T85	Condition-Unit 589 593	degC
+T86	Number 598 600	28
+T87	Condition-Unit 601 602	h
+T88	Material 622 633	precipitate
+T89	Material-Descriptor 616 621	white
+T90	Number 690 692	35
+T91	Amount-Unit 693 695	mL
+T92	Material-Descriptor 696 698	DI
+T93	Material 699 704	water
+T94	Operation 708 715	achieve
+E53	Operation:T94 Recipe_Target:T95
+T95	Material 718 722	SnO2
+T96	Property-Misc 723 753	nanocrystal aqueous suspension
+T97	Property-Type 761 774	concentration
+T98	Number 778 780	20
+T99	Property-Unit 781 788	mg mL-1
+T100	Material 835 838	RGO
+T101	Property-Misc 839 845	hybrid
+T102	Property-Misc 803 834	SnO2 nanocrystal/nitrogen-doped
+T103	Material 847 859	SnO2NC@N-RGO
+T104	Number 873 875	10
+T105	Amount-Unit 876 878	mL
+T106	Material 882 896	graphite oxide
+T107	Material-Descriptor 897 915	aqueous suspension
+T108	Number 917 921	10.0
+T109	Amount-Unit 922 929	mg mL-1
+T110	Material-Descriptor 948 950	DI
+T111	Material 951 956	water
+T112	Number 958 960	90
+T113	Amount-Unit 961 963	mL
+T114	Material 1000 1004	SnO2
+T115	Material-Descriptor 1005 1035	nanocrystal aqueous suspension
+T116	Number 1037 1039	10
+T117	Amount-Unit 1040 1042	mL
+T118	Material 1049 1056	mixture
+T119	Condition-Misc 1061 1073	continuously
+T120	Material 1106 1116	suspension
+T121	Material-Descriptor 1094 1105	homogeneous
+T122	Number 1156 1159	300
+T123	Amount-Unit 1160 1162	mg
+T124	Material-Descriptor 1184 1190	powder
+T125	Material-Descriptor 1179 1183	gray
+T126	Material 1192 1224	SnO2 nanocrystals/graphene oxide
+T127	Material-Descriptor 1225 1231	hybrid
+T128	Synthesis-Apparatus 1260 1266	beaker
+T129	Apparatus-Descriptor 1248 1259	small glass
+T130	Synthesis-Apparatus 1304 1310	bottle
+T131	Apparatus-Descriptor 1298 1303	glass
+T132	Number 1322 1323	6
+T133	Amount-Unit 1324 1326	mL
+T134	Material 1330 1351	hydrazine monohydrate
+T135	Brand 1353 1363	Alfa Aesar
+T136	Number 1365 1367	99
+T137	Amount-Unit 1367 1368	%
+T138	Material 1406 1412	powder
+T139	Material 1421 1442	hydrazine monohydrate
+T140	Synthesis-Apparatus 1469 1475	bottle
+T141	Apparatus-Descriptor 1463 1468	glass
+T142	Number 1494 1497	120
+T143	Condition-Unit 1498 1502	degC
+T144	Number 1507 1508	2
+T145	Condition-Unit 1509 1510	h
+T146	Material 1525 1539	graphene oxide
+T147	Condition-Misc 1540 1547	in situ
+T148	Material 1568 1575	product
+T149	Material 1592 1597	water
+T150	Number 1598 1601	six
+T151	Condition-Unit 1602 1607	times
+T152	Operation 1622 1630	adsorbed
+E54	Operation:T152 Participant_Material:T153 Participant_Material:T154
+T153	Material 1631 1652	hydrazine monohydrate
+T154	Material 1657 1667	byproducts
+T155	Number 1691 1694	120
+T156	Condition-Unit 1695 1699	degC
+T157	Condition-Misc 1706 1712	vacuum
+T158	Number 1717 1719	20
+T159	Condition-Unit 1720 1721	h
+T160	Material 1749 1761	SnO2NC@N-RGO
+T161	Property-Misc 1742 1748	hybrid
+T162	Material 1805 1816	SnO2NC@ RGO
+T163	Material 1776 1796	SnO2 nanocrystal/RGO
+T164	Property-Misc 1797 1803	hybrid
+T165	Material 1819 1829	SnO2NC@RGO
+T166	Material 1882 1894	SnO2NC@N-RGO
+T167	Number 1907 1910	300
+T168	Amount-Unit 1911 1913	mg
+T169	Material 1926 1932	powder
+T170	Material-Descriptor 1921 1925	gray
+T171	Synthesis-Apparatus 1976 1983	furnace
+T172	Apparatus-Descriptor 1971 1975	tube
+T173	Number 1987 1990	500
+T174	Condition-Unit 1991 1995	degC
+T175	Number 2000 2001	2
+T176	Condition-Unit 2002 2003	h
+T177	Material 2010 2012	Ar
+T178	Condition-Type 2013 2017	flow
+T179	Condition-Type 2025 2037	heating rate
+T180	Number 2041 2042	2
+T181	Condition-Unit 2043 2053	degC min-1
+T182	Condition-Misc 2058 2060	no
+T183	Material 2132 2135	RGO
+T184	Property-Misc 2117 2131	nitrogen-doped
+T185	Material 2137 2142	N-RGO
+T186	Material 2145 2150	N-RGO
+T187	Material 2196 2208	SnO2NC@N-RGO
+T188	Material 2221 2225	SnO2
+T189	Material-Descriptor 2226 2238	nanocrystals
+T190	Condition-Misc 2244 2247	not
+T191	Property-Misc 2279 2286	mixture
+T192	Property-Misc 2270 2278	physical
+T193	Material 2290 2294	SnO2
+T194	Material 2312 2317	N-RGO
+T195	Property-Misc 2295 2307	nanocrystals
+T196	Material 2319 2333	SnO2NC + N-RGO
+T197	Property-Misc 2334 2341	mixture
+T198	Number 2344 2346	30
+T199	Amount-Unit 2347 2349	mg
+T200	Material 2350 2355	N-RGO
+T201	Number 2373 2376	100
+T202	Amount-Unit 2377 2379	mL
+T203	Material 2383 2388	water
+T204	Material-Descriptor 2380 2382	DI
+T205	Material 2424 2428	SnO2
+T206	Material-Descriptor 2429 2459	nanocrystal aqueous suspension
+T207	Number 2461 2464	3.5
+T208	Amount-Unit 2465 2467	mL
+T209	Material 2474 2481	mixture
+T210	Number 2500 2501	1
+T211	Condition-Unit 2502 2503	h
+T212	Material 2546 2560	SnO2NC + N-RGO
+T213	Property-Misc 2561 2568	mixture
+T214	Material 2583 2605	SnO2 nanocrystal/N-RGO
+T215	Property-Misc 2606 2615	composite
+T216	Material 2628 2649	hydrazine monohydrate
+T217	Material-Descriptor 2650 2666	aqueous solution
+T218	Material 2678 2693	SnO2NC/N-RGO-HS
+T219	Material 2696 2711	SnO2NC/N-RGO-HS
+T220	Material 2761 2773	SnO2NC@N-RGO
+T221	Material 2795 2801	powder
+T222	Material-Descriptor 2790 2794	gray
+T223	Material 2817 2826	hydrazine
+T224	Material-Descriptor 2827 2843	aqueous solution
+T225	Number 2845 2848	150
+T226	Amount-Unit 2849 2851	mg
+T227	Material 2864 2870	powder
+T228	Material-Descriptor 2859 2863	gray
+T229	Number 2886 2889	200
+T230	Amount-Unit 2890 2892	mL
+T231	Material-Descriptor 2893 2895	DI
+T232	Material 2896 2901	water
+T233	Number 2906 2909	200
+T234	Amount-Unit 2910 2912	μL
+T235	Material 2913 2934	hydrazine monohydrate
+T236	Brand 2936 2946	Alfa Aesar
+T237	Number 2948 2950	99
+T238	Amount-Unit 2950 2951	%
+T239	Number 2958 2961	500
+T240	Apparatus-Unit 2962 2964	mL
+T241	Synthesis-Apparatus 2965 2970	flask
+T242	Material 2982 2989	mixture
+T243	Condition-Misc 2999 3009	vigorously
+T244	Synthesis-Apparatus 3023 3028	flask
+T245	Synthesis-Apparatus 3046 3054	oil bath
+T246	Number 3056 3059	100
+T247	Condition-Unit 3060 3064	degC
+T248	Number 3070 3071	1
+T249	Condition-Unit 3072 3073	h
+T250	Material 3123 3138	SnO2NC/N-RGO-HS
+R1	Property_Of Arg1:T2 Arg2:T1	
+R2	Property_Of Arg1:T4 Arg2:T3	
+R3	Property_Of Arg1:T5 Arg2:T3	
+R4	Property_Of Arg1:T6 Arg2:T3	
+A1	Start_Recipe E1
+R5	Next_Operation Arg1:E1 Arg2:E2	
+A2	End_Recipe E2
+A3	Start_Recipe E3
+R6	Next_Operation Arg1:E3 Arg2:E4	
+R7	Next_Operation Arg1:E4 Arg2:E5	
+R8	Next_Operation Arg1:E5 Arg2:E6	
+R9	Next_Operation Arg1:E6 Arg2:E7	
+R10	Next_Operation Arg1:E7 Arg2:E8	
+R11	Next_Operation Arg1:E8 Arg2:E9	
+R12	Next_Operation Arg1:E9 Arg2:E10	
+R13	Next_Operation Arg1:E10 Arg2:E53	
+A4	End_Recipe E53
+A5	Start_Recipe E11
+R14	Next_Operation Arg1:E11 Arg2:E12	
+R15	Next_Operation Arg1:E12 Arg2:E13	
+R16	Next_Operation Arg1:E13 Arg2:E14	
+R17	Next_Operation Arg1:E14 Arg2:E15	
+R18	Next_Operation Arg1:E15 Arg2:E16	
+R19	Next_Operation Arg1:E16 Arg2:E17	
+R20	Next_Operation Arg1:E17 Arg2:E18	
+R21	Next_Operation Arg1:E18 Arg2:E19	
+R22	Next_Operation Arg1:E19 Arg2:E20	
+R23	Next_Operation Arg1:E20 Arg2:E21	
+R24	Next_Operation Arg1:E21 Arg2:E22	
+R25	Next_Operation Arg1:E22 Arg2:E23	
+R26	Next_Operation Arg1:E23 Arg2:E24	
+R27	Next_Operation Arg1:E24 Arg2:E25	
+R28	Next_Operation Arg1:E25 Arg2:E26	
+R29	Next_Operation Arg1:E26 Arg2:E54	
+R30	Next_Operation Arg1:E54 Arg2:E27	
+R31	Next_Operation Arg1:E27 Arg2:E28	
+A6	End_Recipe E28
+A7	Start_Recipe E29
+R32	Next_Operation Arg1:E29 Arg2:E30	
+R33	Next_Operation Arg1:E30 Arg2:E31	
+R34	Next_Operation Arg1:E31 Arg2:E32	
+R35	Next_Operation Arg1:E32 Arg2:E33	
+R36	Next_Operation Arg1:E33 Arg2:E34	
+A8	End_Recipe E34
+A9	Start_Recipe E35
+R37	Next_Operation Arg1:E35 Arg2:E36	
+R38	Next_Operation Arg1:E36 Arg2:E37	
+A10	End_Recipe E37
+A11	Start_Recipe E38
+R39	Next_Operation Arg1:E38 Arg2:E39	
+R40	Next_Operation Arg1:E39 Arg2:E40	
+R41	Next_Operation Arg1:E40 Arg2:E41	
+R42	Next_Operation Arg1:E41 Arg2:E42	
+R43	Next_Operation Arg1:E42 Arg2:E43	
+A12	End_Recipe E43
+A13	Start_Recipe E44
+R44	Next_Operation Arg1:E44 Arg2:E45	
+R45	Next_Operation Arg1:E45 Arg2:E46	
+R46	Next_Operation Arg1:E46 Arg2:E47	
+R47	Next_Operation Arg1:E47 Arg2:E48	
+R48	Next_Operation Arg1:E48 Arg2:E49	
+R49	Next_Operation Arg1:E49 Arg2:E50	
+R50	Next_Operation Arg1:E50 Arg2:E51	
+R51	Next_Operation Arg1:E51 Arg2:E52	
+A14	End_Recipe E52
+R52	Descriptor_Of Arg1:T63 Arg2:T61	
+R53	Descriptor_Of Arg1:T62 Arg2:T61	
+R54	Brand_Of Arg1:T64 Arg2:T61	
+R55	Property_Of Arg1:T67 Arg2:T66	
+R56	Number_Of Arg1:T68 Arg2:T69	
+R57	Amount_Of Arg1:T69 Arg2:T70	
+R58	Brand_Of Arg1:T71 Arg2:T70	
+R59	Number_Of Arg1:T72 Arg2:T73	
+R60	Condition_Of Arg1:T73 Arg2:E4	
+R61	Descriptor_Of Arg1:T76 Arg2:T74	
+R62	Descriptor_Of Arg1:T75 Arg2:T74	
+R63	Number_Of Arg1:T79 Arg2:T80	
+R64	Number_Of Arg1:T78 Arg2:T80	
+R65	Apparatus_Attr_Of Arg1:T80 Arg2:T81	
+R66	Descriptor_Of Arg1:T82 Arg2:T81	
+R67	Apparatus_Of Arg1:T81 Arg2:E5	
+R68	Apparatus_Of Arg1:T83 Arg2:E6	
+R69	Number_Of Arg1:T84 Arg2:T85	
+R70	Condition_Of Arg1:T85 Arg2:E6	
+R71	Number_Of Arg1:T86 Arg2:T87	
+R72	Condition_Of Arg1:T87 Arg2:E6	
+R73	Descriptor_Of Arg1:T89 Arg2:T88	
+R74	Number_Of Arg1:T90 Arg2:T91	
+R75	Amount_Of Arg1:T91 Arg2:T93	
+R76	Descriptor_Of Arg1:T92 Arg2:T93	
+R77	Property_Of Arg1:T96 Arg2:T95	
+R78	Number_Of Arg1:T98 Arg2:T99	
+R79	Type_Of Arg1:T97 Arg2:T99	
+R80	Property_Of Arg1:T99 Arg2:T95	
+R81	Property_Of Arg1:T102 Arg2:T100	
+R82	Property_Of Arg1:T101 Arg2:T100	
+R83	Coref_Of Arg1:T103 Arg2:T100	
+R84	Number_Of Arg1:T104 Arg2:T105	
+R85	Amount_Of Arg1:T105 Arg2:T106	
+R86	Descriptor_Of Arg1:T107 Arg2:T106	
+R87	Number_Of Arg1:T108 Arg2:T109	
+R88	Amount_Of Arg1:T109 Arg2:T106	
+R89	Descriptor_Of Arg1:T110 Arg2:T111	
+R90	Number_Of Arg1:T112 Arg2:T113	
+R91	Amount_Of Arg1:T113 Arg2:T111	
+R92	Descriptor_Of Arg1:T115 Arg2:T114	
+R93	Number_Of Arg1:T116 Arg2:T117	
+R94	Amount_Of Arg1:T117 Arg2:T114	
+R95	Condition_Of Arg1:T119 Arg2:E14	
+R96	Descriptor_Of Arg1:T121 Arg2:T120	
+R97	Number_Of Arg1:T122 Arg2:T123	
+R98	Descriptor_Of Arg1:T127 Arg2:T126	
+R99	Descriptor_Of Arg1:T124 Arg2:T126	
+R100	Descriptor_Of Arg1:T125 Arg2:T126	
+R101	Amount_Of Arg1:T123 Arg2:T126	
+R102	Descriptor_Of Arg1:T129 Arg2:T128	
+R103	Apparatus_Of Arg1:T128 Arg2:E19	
+R104	Descriptor_Of Arg1:T131 Arg2:T130	
+R105	Apparatus_Of Arg1:T130 Arg2:E20	
+R106	Number_Of Arg1:T132 Arg2:T133	
+R107	Amount_Of Arg1:T133 Arg2:T134	
+R108	Brand_Of Arg1:T135 Arg2:T134	
+R109	Number_Of Arg1:T136 Arg2:T137	
+R110	Amount_Of Arg1:T137 Arg2:T134	
+R111	Descriptor_Of Arg1:T141 Arg2:T140	
+R112	Apparatus_Of Arg1:T140 Arg2:E21	
+R113	Number_Of Arg1:T142 Arg2:T143	
+R114	Condition_Of Arg1:T143 Arg2:E22	
+R115	Number_Of Arg1:T144 Arg2:T145	
+R116	Condition_Of Arg1:T145 Arg2:E22	
+R117	Condition_Of Arg1:T147 Arg2:E23	
+R118	Number_Of Arg1:T150 Arg2:T151	
+R119	Condition_Of Arg1:T151 Arg2:E25	
+R120	Number_Of Arg1:T155 Arg2:T156	
+R121	Condition_Of Arg1:T156 Arg2:E27	
+R122	Condition_Of Arg1:T157 Arg2:E27	
+R123	Number_Of Arg1:T158 Arg2:T159	
+R124	Condition_Of Arg1:T159 Arg2:E27	
+R125	Property_Of Arg1:T161 Arg2:T160	
+R126	Property_Of Arg1:T164 Arg2:T163	
+R127	Coref_Of Arg1:T162 Arg2:T163	
+R128	Number_Of Arg1:T167 Arg2:T168	
+R129	Amount_Of Arg1:T168 Arg2:T169	
+R130	Descriptor_Of Arg1:T170 Arg2:T169	
+R131	Descriptor_Of Arg1:T172 Arg2:T171	
+R132	Apparatus_Of Arg1:T171 Arg2:E32	
+R133	Number_Of Arg1:T173 Arg2:T174	
+R134	Condition_Of Arg1:T174 Arg2:E32	
+R135	Number_Of Arg1:T175 Arg2:T176	
+R136	Condition_Of Arg1:T176 Arg2:E32	
+R137	Number_Of Arg1:T180 Arg2:T181	
+R138	Type_Of Arg1:T179 Arg2:T181	
+R139	Condition_Of Arg1:T181 Arg2:E32	
+R140	Condition_Of Arg1:T182 Arg2:E33	
+R141	Property_Of Arg1:T184 Arg2:T183	
+R142	Coref_Of Arg1:T185 Arg2:T183	
+R143	Descriptor_Of Arg1:T189 Arg2:T188	
+R144	Condition_Of Arg1:T190 Arg2:E37	
+R145	Property_Of Arg1:T191 Arg2:T193	
+R146	Property_Of Arg1:T192 Arg2:T193	
+R147	Property_Of Arg1:T195 Arg2:T193	
+R148	Coref_Of Arg1:T196 Arg2:T193	
+R149	Coref_Of Arg1:T196 Arg2:T194	
+R150	Property_Of Arg1:T197 Arg2:T196	
+R151	Number_Of Arg1:T198 Arg2:T199	
+R152	Amount_Of Arg1:T199 Arg2:T200	
+R153	Number_Of Arg1:T201 Arg2:T202	
+R154	Descriptor_Of Arg1:T204 Arg2:T203	
+R155	Amount_Of Arg1:T202 Arg2:T203	
+R156	Descriptor_Of Arg1:T206 Arg2:T205	
+R157	Number_Of Arg1:T207 Arg2:T208	
+R158	Amount_Of Arg1:T208 Arg2:T205	
+R159	Number_Of Arg1:T210 Arg2:T211	
+R160	Condition_Of Arg1:T211 Arg2:E41	
+R161	Property_Of Arg1:T213 Arg2:T212	
+R162	Property_Of Arg1:T215 Arg2:T214	
+R163	Descriptor_Of Arg1:T217 Arg2:T216	
+R164	Descriptor_Of Arg1:T222 Arg2:T221	
+R165	Descriptor_Of Arg1:T224 Arg2:T223	
+R166	Number_Of Arg1:T225 Arg2:T226	
+R167	Descriptor_Of Arg1:T228 Arg2:T227	
+R168	Amount_Of Arg1:T226 Arg2:T227	
+R169	Number_Of Arg1:T229 Arg2:T230	
+R170	Descriptor_Of Arg1:T231 Arg2:T232	
+R171	Amount_Of Arg1:T230 Arg2:T232	
+R172	Number_Of Arg1:T233 Arg2:T234	
+R173	Amount_Of Arg1:T234 Arg2:T235	
+R174	Brand_Of Arg1:T236 Arg2:T235	
+R175	Number_Of Arg1:T237 Arg2:T238	
+R176	Amount_Of Arg1:T238 Arg2:T235	
+R177	Number_Of Arg1:T239 Arg2:T240	
+R178	Apparatus_Attr_Of Arg1:T240 Arg2:T241	
+R179	Apparatus_Of Arg1:T241 Arg2:E48	
+R180	Condition_Of Arg1:T243 Arg2:E49	
+R181	Apparatus_Of Arg1:T244 Arg2:E50	
+R182	Apparatus_Of Arg1:T245 Arg2:E50	
+R183	Number_Of Arg1:T246 Arg2:T247	
+R184	Condition_Of Arg1:T247 Arg2:E50	
+R185	Number_Of Arg1:T248 Arg2:T249	
+R186	Condition_Of Arg1:T249 Arg2:E50	

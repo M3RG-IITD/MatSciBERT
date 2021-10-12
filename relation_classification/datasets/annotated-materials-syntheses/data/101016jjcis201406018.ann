@@ -1,0 +1,149 @@
+T1	Operation 219 228	purchased
+E1	Operation:T1 Recipe_Precursor:T15 Recipe_Precursor:T16
+T2	Operation 444 453	purchased
+E2	Operation:T2 Participant_Material:T22 Participant_Material:T23
+T3	Operation 529 540	synthesized
+E3	Operation:T3 Recipe_Target:T25 Recipe_Precursor:T26
+T4	Operation 674 679	mixed
+E4	Operation:T4 Recipe_Precursor:T29 Participant_Material:T30 Participant_Material:T31
+T5	Operation 691 697	placed
+E5	Operation:T5 
+T6	Operation 778 783	added
+E6	Operation:T6 Participant_Material:T33 Participant_Material:T34
+T7	Operation 860 864	kept
+E7	Operation:T7 Participant_Material:T36
+T8	Operation 915 926	transferred
+E8	Operation:T8 Participant_Material:T37 Participant_Material:T38
+T9	Operation 945 949	hold
+E9	Operation:T9 
+T10	Operation 999 1009	terminated
+E10	Operation:T10 Participant_Material:T39 Participant_Material:T40
+T11	Operation 1078 1082	kept
+E11	Operation:T11 Participant_Material:T41
+T12	Operation 1104 1113	filtering
+E12	Operation:T12 
+T13	Operation 1118 1124	drying
+E13	Operation:T13 
+T14	Material 86 100	graphite oxide
+T15	Material 144 152	Graphite
+T16	Material 154 164	mesocarbon
+T17	Material 177 182	MCMBs
+T18	Material 252 274	Potassium permanganate
+T19	Material 276 290	sodium nitrate
+T20	Material 305 318	sulfuric acid
+T21	Material 323 340	hydrogen peroxide
+T22	Material 369 394	Quaternary ammonium salts
+T23	Material 399 428	tetraalkyl ammonium hydroxide
+T24	Material-Descriptor 429 438	solutions
+T25	Material 522 524	GO
+T26	Material 546 550	MCMB
+T27	Meta 580 594	Hummers method
+T28	Reference 595 599	[31]
+T29	Material 612 616	MCMB
+T30	Material 628 633	NaNO3
+T31	Material 654 659	H2SO4
+T32	Apparatus-Descriptor 707 712	water
+T33	Material 751 756	KMnO4
+T34	Material 793 800	mixture
+T35	Material 837 842	KMnO4
+T36	Material 848 855	mixture
+T37	Material 903 910	mixture
+T38	Material 937 940	H2O
+T39	Material 1028 1031	H2O
+T40	Material 1042 1046	H2O2
+T41	Material 1065 1073	solution
+T42	Property-Misc 61 85	anisotropically expanded
+T43	Property-Misc 101 110	compounds
+T44	Material-Descriptor 165 175	microbeads
+T45	Number 207 209	15
+T46	Property-Unit 210 212	μm
+T47	Property-Type 184 205	average particle size
+T48	Brand 234 243	Hosen Co.
+T49	Material-Descriptor 292 304	concentrated
+T50	Brand 351 367	Wako Corporation
+T51	Brand 459 475	Wako Corporation
+T52	Number 618 620	10
+T53	Amount-Unit 621 622	g
+T54	Number 635 636	5
+T55	Amount-Unit 637 638	g
+T56	Number 661 664	220
+T57	Amount-Unit 665 667	ml
+T58	Synthesis-Apparatus 685 690	flask
+T59	Synthesis-Apparatus 713 721	ice bath
+T60	Number 758 760	20
+T61	Amount-Unit 761 762	g
+T62	Number 804 808	0-10
+T63	Condition-Unit 809 813	degC
+T64	Number 868 870	35
+T65	Condition-Unit 871 875	degC
+T66	Number 880 881	1
+T67	Condition-Unit 882 883	h
+T68	Number 930 933	460
+T69	Amount-Unit 934 936	ml
+T70	Number 962 964	98
+T71	Condition-Unit 965 969	degC
+T72	Number 974 976	30
+T73	Condition-Unit 977 980	min
+T74	Number 1020 1024	1400
+T75	Amount-Unit 1025 1027	ml
+T76	Number 1036 1038	10
+T77	Amount-Unit 1039 1041	ml
+T78	Number 1087 1089	24
+T79	Condition-Unit 1090 1091	h
+T80	Number 1128 1130	80
+T81	Condition-Unit 1131 1135	degC
+T82	Number 1140 1142	12
+T83	Condition-Unit 1143 1144	h
+T84	Material-Descriptor 1057 1064	diluted
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Next_Operation Arg1:E8 Arg2:E9	
+R8	Next_Operation Arg1:E9 Arg2:E10	
+R9	Next_Operation Arg1:E10 Arg2:E11	
+R10	Next_Operation Arg1:E11 Arg2:E12	
+R11	Next_Operation Arg1:E12 Arg2:E13	
+R12	Coref_Of Arg1:T17 Arg2:T16	
+R13	Apparatus_Of Arg1:T58 Arg2:E4	
+R14	Apparatus_Of Arg1:T59 Arg2:E5	
+R15	Condition_Of Arg1:T63 Arg2:E6	
+R16	Condition_Of Arg1:T65 Arg2:E7	
+R17	Condition_Of Arg1:T67 Arg2:E7	
+R18	Condition_Of Arg1:T71 Arg2:E9	
+R19	Condition_Of Arg1:T73 Arg2:E9	
+R20	Condition_Of Arg1:T79 Arg2:E11	
+R21	Condition_Of Arg1:T81 Arg2:E13	
+R22	Condition_Of Arg1:T83 Arg2:E13	
+R23	Descriptor_Of Arg1:T44 Arg2:T16	
+R24	Descriptor_Of Arg1:T49 Arg2:T20	
+R25	Descriptor_Of Arg1:T24 Arg2:T23	
+R26	Descriptor_Of Arg1:T32 Arg2:T59	
+R27	Descriptor_Of Arg1:T84 Arg2:T41	
+R28	Type_Of Arg1:T47 Arg2:T46	
+R29	Number_Of Arg1:T45 Arg2:T46	
+R30	Number_Of Arg1:T52 Arg2:T53	
+R31	Number_Of Arg1:T54 Arg2:T55	
+R32	Number_Of Arg1:T56 Arg2:T57	
+R33	Number_Of Arg1:T60 Arg2:T61	
+R34	Number_Of Arg1:T62 Arg2:T63	
+R35	Number_Of Arg1:T64 Arg2:T65	
+R36	Number_Of Arg1:T66 Arg2:T67	
+R37	Number_Of Arg1:T68 Arg2:T69	
+R38	Number_Of Arg1:T70 Arg2:T71	
+R39	Number_Of Arg1:T72 Arg2:T73	
+R40	Number_Of Arg1:T74 Arg2:T75	
+R41	Number_Of Arg1:T76 Arg2:T77	
+R42	Number_Of Arg1:T78 Arg2:T79	
+R43	Number_Of Arg1:T80 Arg2:T81	
+R44	Number_Of Arg1:T82 Arg2:T83	
+R45	Brand_Of Arg1:T48 Arg2:T15	
+R46	Brand_Of Arg1:T48 Arg2:T16	
+R47	Brand_Of Arg1:T50 Arg2:T18	
+R48	Brand_Of Arg1:T50 Arg2:T19	
+R49	Brand_Of Arg1:T50 Arg2:T20	
+R50	Brand_Of Arg1:T50 Arg2:T21	
+R51	Brand_Of Arg1:T51 Arg2:T22	
+R52	Brand_Of Arg1:T51 Arg2:T23	

@@ -1,0 +1,95 @@
+T1	Operation 306 311	added
+E1	Operation:T1 Recipe_Precursor:T7 Recipe_Precursor:T8 Recipe_Precursor:T11 Participant_Material:T12 Solvent_Material:T13
+T2	Operation 341 348	stirred
+E2	Operation:T2 
+T3	Operation 412 418	sealed
+E3	Operation:T3 Participant_Material:T14
+T4	Operation 470 476	heated
+E4	Operation:T4 
+T5	Operation 524 530	cooled
+E5	Operation:T5 Participant_Material:T16
+T6	Operation 625 633	obtained
+E6	Operation:T6 Participant_Material:T18
+T7	Material 136 148	Co(AC)2*4H2O
+T8	Material 167 173	H2pbda
+T9	Material 175 181	H2pbda
+T10	Material 184 233	3-(pyridine-3-yloxy)benzene-1,2-dicarboxylic acid
+T11	Material 253 260	4,4-bpy
+T12	Material 281 284	KOH
+T13	Material 331 336	water
+T14	Material 400 407	mixture
+T15	Synthesis-Apparatus 459 465	vessel
+T16	Material 511 519	reactant
+T17	Condition-Misc 541 557	room temperature
+T18	Material 611 619	crystals
+T19	Number 150 154	0.25
+T20	Amount-Unit 155 157	mM
+T21	Number 159 161	62
+T22	Amount-Unit 162 164	mg
+T23	Number 236 240	0.25
+T24	Amount-Unit 241 243	mM
+T25	Number 245 247	78
+T26	Amount-Unit 248 250	mg
+T27	Number 261 265	0.25
+T28	Amount-Unit 266 268	mM
+T29	Number 270 272	48
+T30	Amount-Unit 273 275	mg
+T31	Number 286 290	0.05
+T32	Amount-Unit 291 293	mM
+T33	Number 295 297	28
+T34	Amount-Unit 298 300	mg
+T35	Material-Descriptor 321 330	distilled
+T36	Amount-Unit 318 320	ml
+T37	Number 315 317	10
+T38	Condition-Misc 352 368	room temperature
+T39	Number 373 375	30
+T40	Condition-Unit 376 379	min
+T41	Number 424 426	25
+T42	Apparatus-Unit 427 429	ml
+T43	Apparatus-Descriptor 430 458	Teflon-lined stainless steel
+T44	Number 480 483	160
+T45	Condition-Unit 484 488	degC
+T46	Number 493 494	3
+T47	Condition-Unit 495 499	days
+T48	Number 581 582	5
+T49	Condition-Unit 583 589	degC/h
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Coref_Of Arg1:T9 Arg2:T8	
+R7	Coref_Of Arg1:T10 Arg2:T8	
+R8	Condition_Of Arg1:T38 Arg2:E2	
+R9	Condition_Of Arg1:T40 Arg2:E2	
+R10	Apparatus_Of Arg1:T15 Arg2:E3	
+R11	Condition_Of Arg1:T45 Arg2:E4	
+R12	Condition_Of Arg1:T47 Arg2:E4	
+R13	Condition_Of Arg1:T17 Arg2:E5	
+R14	Condition_Of Arg1:T49 Arg2:E5	
+R15	Amount_Of Arg1:T20 Arg2:T7	
+R16	Amount_Of Arg1:T22 Arg2:T7	
+R17	Amount_Of Arg1:T24 Arg2:T8	
+R18	Amount_Of Arg1:T26 Arg2:T8	
+R19	Amount_Of Arg1:T28 Arg2:T11	
+R20	Amount_Of Arg1:T30 Arg2:T11	
+R21	Amount_Of Arg1:T32 Arg2:T12	
+R22	Amount_Of Arg1:T34 Arg2:T12	
+R23	Amount_Of Arg1:T36 Arg2:T13	
+R24	Descriptor_Of Arg1:T43 Arg2:T15	
+R25	Descriptor_Of Arg1:T35 Arg2:T13	
+R26	Number_Of Arg1:T19 Arg2:T20	
+R27	Number_Of Arg1:T21 Arg2:T22	
+R28	Number_Of Arg1:T23 Arg2:T24	
+R29	Number_Of Arg1:T25 Arg2:T26	
+R30	Number_Of Arg1:T27 Arg2:T28	
+R31	Number_Of Arg1:T29 Arg2:T30	
+R32	Number_Of Arg1:T31 Arg2:T32	
+R33	Number_Of Arg1:T33 Arg2:T34	
+R34	Number_Of Arg1:T37 Arg2:T36	
+R35	Number_Of Arg1:T39 Arg2:T40	
+R36	Number_Of Arg1:T41 Arg2:T42	
+R37	Apparatus_Attr_Of Arg1:T42 Arg2:T15	
+R38	Number_Of Arg1:T44 Arg2:T45	
+R39	Number_Of Arg1:T46 Arg2:T47	
+R40	Number_Of Arg1:T48 Arg2:T49	

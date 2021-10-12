@@ -1,0 +1,72 @@
+T1	Material 156 158	Sn
+T2	Material-Descriptor 159 166	nanorod
+T3	Operation 182 190	prepared
+E1	Operation:T3 Participant_Material:T1 Participant_Material:T37 Recipe_Precursor:T38 Participant_Material:T40
+T4	Material 372 382	SnO2-NTs/G
+T5	Property-Misc 383 393	nanohybrid
+T6	Operation 398 409	synthesized
+E2	Operation:T6 Recipe_Target:T4 Participant_Material:T7
+T7	Material 490 492	Sn
+T8	Material-Descriptor 493 501	nanorods
+T9	Material 540 542	Sn
+T10	Operation 604 613	dispersed
+E3	Operation:T10 Recipe_Precursor:T9 Recipe_Precursor:T14 Solvent_Material:T19
+T11	Operation 634 641	stirred
+E4	Operation:T11 
+T12	Operation 679 686	reduced
+E5	Operation:T12 Participant_Material:T23 Participant_Material:T25 Participant_Material:T28 Participant_Material:T29
+T13	Operation 792 798	washed
+E6	Operation:T13 Participant_Material:T30 Solvent_Material:T31 Solvent_Material:T33 Recipe_Target:T34
+T14	Material 556 570	graphene oxide
+T15	Material 572 574	GO
+T16	Material-Descriptor 576 582	sheets
+T17	Number 584 587	4:1
+T18	Amount-Unit 588 597	by weight
+T19	Material 627 632	water
+T20	Material-Descriptor 617 626	distilled
+T21	Number 646 648	12
+T22	Condition-Unit 649 650	h
+T23	Material 665 667	GO
+T24	Material-Descriptor 668 674	matrix
+T25	Material 690 695	NaBH4
+T26	Number 713 717	10:1
+T27	Amount-Unit 697 709	weight ratio
+T28	Material 722 727	NaBH4
+T29	Material 728 730	GO
+T30	Material 780 787	product
+T31	Material 814 819	water
+T32	Material-Descriptor 804 813	distilled
+T33	Material 824 831	ethanol
+T34	Material 846 856	SnO2-NTs/G
+T35	Property-Misc 857 867	nanohybrid
+T36	Material-Descriptor 543 551	nanorods
+T37	Material 204 209	NaBH4
+T38	Material 234 239	SnCl4
+T39	Material-Descriptor 245 253	reactant
+T40	Material 258 296	poly(diallyldimethylammonium chloride)
+T41	Material 298 302	PDDA
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Coref_Of Arg1:T41 Arg2:T40	
+R7	Coref_Of Arg1:T15 Arg2:T14	
+R8	Condition_Of Arg1:T22 Arg2:E4	
+R9	Property_Of Arg1:T5 Arg2:T4	
+R10	Amount_Of Arg1:T18 Arg2:T14	
+R11	Amount_Of Arg1:T18 Arg2:T9	
+R12	Amount_Of Arg1:T27 Arg2:T28	
+R13	Amount_Of Arg1:T27 Arg2:T29	
+R14	Property_Of Arg1:T35 Arg2:T34	
+R15	Descriptor_Of Arg1:T2 Arg2:T1	
+R16	Descriptor_Of Arg1:T39 Arg2:T38	
+R17	Descriptor_Of Arg1:T8 Arg2:T7	
+R18	Descriptor_Of Arg1:T36 Arg2:T9	
+R19	Descriptor_Of Arg1:T16 Arg2:T14	
+R20	Descriptor_Of Arg1:T20 Arg2:T19	
+R21	Descriptor_Of Arg1:T24 Arg2:T23	
+R22	Descriptor_Of Arg1:T32 Arg2:T31	
+R23	Number_Of Arg1:T17 Arg2:T18	
+R24	Number_Of Arg1:T26 Arg2:T27	
+R25	Number_Of Arg1:T21 Arg2:T22	

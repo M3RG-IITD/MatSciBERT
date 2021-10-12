@@ -1,0 +1,144 @@
+T1	Operation 152 163	synthesized
+E1	Operation:T1 Recipe_Target:T18
+T2	Operation 303 312	dissolved
+E2	Operation:T2 Recipe_Precursor:T19 Solvent_Material:T20 Participant_Material:T21
+T3	Operation 384 389	added
+E3	Operation:T3 Participant_Material:T22 Solvent_Material:T23 Participant_Material:T24
+T4	Operation 421 429	followed
+E4	Operation:T4 
+T5	Operation 442 450	stirring
+E5	Operation:T5 
+T6	Operation 494 502	produced
+E6	Operation:T6 Participant_Material:T25 Participant_Material:T26
+T7	Operation 513 522	collected
+E7	Operation:T7 
+T8	Operation 526 540	centrifugation
+E8	Operation:T8 
+T9	Operation 545 551	washed
+E9	Operation:T9 Solvent_Material:T27
+T10	Operation 610 621	transferred
+E10	Operation:T10 Participant_Material:T28 Solvent_Material:T29 Participant_Material:T30
+T11	Operation 678 685	charged
+E11	Operation:T11 
+T12	Operation 781 792	carried out
+E12	Operation:T12 
+T13	Operation 885 891	cooled
+E13	Operation:T13 
+T14	Operation 934 943	collected
+E14	Operation:T14 Participant_Material:T33
+T15	Operation 947 961	centrifugation
+E15	Operation:T15 
+T16	Operation 994 1000	washed
+E16	Operation:T16 Participant_Material:T34 Solvent_Material:T35 Solvent_Material:T36
+T17	Operation 1055 1060	dried
+E17	Operation:T17 Participant_Material:T38
+T18	Material 134 137	ZnO
+T19	Material 250 263	Zn(NO3)2*6H2O
+T20	Material 336 341	water
+T21	Material 356 364	solution
+T22	Material 366 373	Ammonia
+T23	Material 374 379	water
+T24	Material 398 406	solution
+T25	Material 468 479	precipitate
+T26	Material 481 488	Zn(OH)2
+T27	Material 578 583	water
+T28	Material 594 605	precipitate
+T29	Material 633 638	water
+T30	Material 659 663	CTAB
+T31	Meta 736 776	Microwave assisted hydrothermal reaction
+T32	Synthesis-Apparatus 816 830	microwave oven
+T33	Material 923 929	sample
+T34	Material 972 978	sample
+T35	Material 1016 1021	water
+T36	Material 1026 1033	ethanol
+T37	Material-Descriptor 1006 1015	deionized
+T38	Material 1044 1050	sample
+T39	Property-Misc 138 146	nanorods
+T40	Material-Descriptor 265 278	Reagent Grade
+T41	Number 280 282	98
+T42	Amount-Unit 282 283	%
+T43	Brand 284 297	Sigma-Aldrich
+T44	Number 316 319	100
+T45	Amount-Unit 320 322	ml
+T46	Material-Descriptor 326 335	deionized
+T47	Number 350 353	0.1
+T48	Amount-Unit 354 355	M
+T49	Amount-Unit 415 417	pH
+T50	Number 418 419	7
+T51	Number 455 456	1
+T52	Condition-Unit 457 458	h
+T53	Material-Descriptor 568 577	deionized
+T54	Number 627 629	35
+T55	Amount-Unit 630 632	ml
+T56	Number 650 653	0.1
+T57	Amount-Unit 654 655	M
+T58	Brand 665 672	Aldrich
+T59	Number 691 694	100
+T60	Apparatus-Unit 695 697	ml
+T61	Synthesis-Apparatus 707 716	autoclave
+T62	Apparatus-Descriptor 722 734	Teflon liner
+T63	Number 796 799	150
+T64	Condition-Unit 800 804	degC
+T65	Number 809 810	1
+T66	Condition-Unit 811 812	h
+T67	Brand 832 836	MARS
+T68	Condition-Misc 895 911	room temperature
+T69	Material-Descriptor 916 922	powder
+T70	Material-Descriptor 963 971	Powdered
+T71	Number 1064 1066	80
+T72	Condition-Unit 1067 1071	degC
+T73	Number 1076 1078	12
+T74	Condition-Unit 1079 1080	h
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Next_Operation Arg1:E8 Arg2:E9	
+R8	Next_Operation Arg1:E9 Arg2:E10	
+R9	Next_Operation Arg1:E10 Arg2:E11	
+R10	Next_Operation Arg1:E11 Arg2:E12	
+R11	Next_Operation Arg1:E12 Arg2:E13	
+R12	Next_Operation Arg1:E13 Arg2:E14	
+R13	Next_Operation Arg1:E14 Arg2:E15	
+R14	Next_Operation Arg1:E15 Arg2:E16	
+R15	Next_Operation Arg1:E16 Arg2:E17	
+R16	Brand_Of Arg1:T43 Arg2:T19	
+R17	Brand_Of Arg1:T58 Arg2:T30	
+R18	Brand_Of Arg1:T67 Arg2:T32	
+R19	Condition_Of Arg1:T52 Arg2:E5	
+R20	Apparatus_Of Arg1:T61 Arg2:E11	
+R21	Condition_Of Arg1:T64 Arg2:E12	
+R22	Condition_Of Arg1:T66 Arg2:E12	
+R23	Apparatus_Of Arg1:T32 Arg2:E12	
+R24	Condition_Of Arg1:T68 Arg2:E13	
+R25	Condition_Of Arg1:T72 Arg2:E17	
+R26	Condition_Of Arg1:T74 Arg2:E17	
+R27	Property_Of Arg1:T39 Arg2:T18	
+R28	Amount_Of Arg1:T42 Arg2:T19	
+R29	Amount_Of Arg1:T45 Arg2:T20	
+R30	Amount_Of Arg1:T48 Arg2:T21	
+R31	Amount_Of Arg1:T49 Arg2:T24	
+R32	Amount_Of Arg1:T55 Arg2:T29	
+R33	Amount_Of Arg1:T57 Arg2:T30	
+R34	Descriptor_Of Arg1:T40 Arg2:T19	
+R35	Descriptor_Of Arg1:T46 Arg2:T20	
+R36	Descriptor_Of Arg1:T53 Arg2:T27	
+R37	Descriptor_Of Arg1:T62 Arg2:T61	
+R38	Descriptor_Of Arg1:T69 Arg2:T33	
+R39	Descriptor_Of Arg1:T37 Arg2:T35	
+R40	Descriptor_Of Arg1:T70 Arg2:T34	
+R41	Number_Of Arg1:T41 Arg2:T42	
+R42	Number_Of Arg1:T44 Arg2:T45	
+R43	Number_Of Arg1:T47 Arg2:T48	
+R44	Number_Of Arg1:T50 Arg2:T49	
+R45	Number_Of Arg1:T51 Arg2:T52	
+R46	Number_Of Arg1:T54 Arg2:T55	
+R47	Number_Of Arg1:T56 Arg2:T57	
+R48	Number_Of Arg1:T59 Arg2:T60	
+R49	Apparatus_Attr_Of Arg1:T60 Arg2:T61	
+R50	Number_Of Arg1:T63 Arg2:T64	
+R51	Number_Of Arg1:T65 Arg2:T66	
+R52	Number_Of Arg1:T71 Arg2:T72	
+R53	Number_Of Arg1:T73 Arg2:T74	

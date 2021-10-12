@@ -1,0 +1,93 @@
+T1	Operation 129 138	deposited
+E1	Operation:T1 Recipe_Target:T5 Participant_Material:T6 Recipe_Precursor:T7
+T2	Operation 302 309	cleaned
+E2	Operation:T2 Participant_Material:T8
+T3	Operation 314 320	rinsed
+E3	Operation:T3 Solvent_Material:T9 Solvent_Material:T10
+T4	Operation 423 432	deposited
+E4	Operation:T4 Recipe_Target:T11 Participant_Material:T12 Atmospheric_Material:T13
+T5	Material 102 114	(TiVCrZrHf)N
+T6	Material 142 146	p-Si
+T7	Material 221 230	TiVCrZrHf
+T8	Material 283 285	Si
+T9	Material 326 333	ethanol
+T10	Material 348 353	water
+T11	Material 396 408	(TiVCrZrHf)N
+T12	Material 466 475	substrate
+T13	Material 498 505	Ar + N2
+T14	Material 598 600	Ar
+T15	Material 605 607	N2
+T16	Material 715 727	(TiVCrZrHf)N
+T17	Material 809 812	air
+T18	Property-Misc 115 123	coatings
+T19	Material-Descriptor 147 159	(100) wafers
+T20	Synthesis-Apparatus 165 197	reactive RF magnetron sputtering
+T21	Amount-Misc 211 220	equimolar
+T22	Material-Descriptor 231 238	targets
+T23	Number 240 242	75
+T24	Property-Unit 243 245	mm
+T25	Property-Type 249 257	diameter
+T26	Material-Descriptor 286 296	substrates
+T27	Material-Descriptor 338 347	distilled
+T28	Synthesis-Apparatus 360 375	ultrasonic bath
+T29	Property-Misc 409 417	coatings
+T30	Number 383 386	1.4
+T31	Property-Unit 387 389	μm
+T32	Property-Type 390 395	thick
+T33	Number 454 457	350
+T34	Condition-Unit 458 459	W
+T35	Number 484 489	- 100
+T36	Condition-Unit 490 491	V
+T37	Material-Descriptor 512 522	atmosphere
+T38	Number 551 563	6.67 x 10- 1
+T39	Condition-Unit 564 566	Pa
+T40	Number 570 573	450
+T41	Condition-Unit 574 578	degC
+T42	Number 627 630	100
+T43	Number 635 636	4
+T44	Amount-Unit 637 641	sccm
+T45	Property-Misc 728 736	coatings
+T46	Operation 748 756	annealed
+E5	Operation:T46 Recipe_Target:T16 Atmospheric_Material:T17
+T47	Number 784 791	300-700
+T48	Condition-Unit 792 796	degC
+T49	Number 802 803	2
+T50	Condition-Unit 804 805	h
+T51	Synthesis-Apparatus 821 828	furnace
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Apparatus_Of Arg1:T20 Arg2:E1	
+R5	Apparatus_Of Arg1:T28 Arg2:E3	
+R6	Condition_Of Arg1:T34 Arg2:E4	
+R7	Condition_Of Arg1:T36 Arg2:E4	
+R8	Condition_Of Arg1:T39 Arg2:E4	
+R9	Condition_Of Arg1:T41 Arg2:E4	
+R10	Condition_Of Arg1:T48 Arg2:E5	
+R11	Condition_Of Arg1:T50 Arg2:E5	
+R12	Apparatus_Of Arg1:T51 Arg2:E5	
+R13	Property_Of Arg1:T18 Arg2:T5	
+R14	Amount_Of Arg1:T21 Arg2:T7	
+R15	Property_Of Arg1:T31 Arg2:T11	
+R16	Property_Of Arg1:T29 Arg2:T11	
+R17	Property_Of Arg1:T24 Arg2:T7	
+R18	Amount_Of Arg1:T44 Arg2:T14	
+R19	Amount_Of Arg1:T44 Arg2:T15	
+R20	Property_Of Arg1:T45 Arg2:T16	
+R21	Descriptor_Of Arg1:T19 Arg2:T6	
+R22	Descriptor_Of Arg1:T22 Arg2:T7	
+R23	Descriptor_Of Arg1:T26 Arg2:T8	
+R24	Descriptor_Of Arg1:T27 Arg2:T10	
+R25	Descriptor_Of Arg1:T37 Arg2:T13	
+R26	Type_Of Arg1:T25 Arg2:T24	
+R27	Type_Of Arg1:T32 Arg2:T31	
+R28	Number_Of Arg1:T23 Arg2:T24	
+R29	Number_Of Arg1:T30 Arg2:T31	
+R30	Number_Of Arg1:T33 Arg2:T34	
+R31	Number_Of Arg1:T35 Arg2:T36	
+R32	Number_Of Arg1:T38 Arg2:T39	
+R33	Number_Of Arg1:T40 Arg2:T41	
+R34	Number_Of Arg1:T42 Arg2:T44	
+R35	Number_Of Arg1:T43 Arg2:T44	
+R36	Number_Of Arg1:T47 Arg2:T48	
+R37	Number_Of Arg1:T49 Arg2:T50	

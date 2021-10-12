@@ -1,0 +1,193 @@
+T1	Operation 254 262	selected
+E1	Operation:T1 Participant_Material:T19
+T2	Operation 500 508	prepared
+E2	Operation:T2 Recipe_Target:T21 Recipe_Target:T85 Participant_Material:T41 Recipe_Precursor:T42
+T3	Meta 514 530	co-precipitation
+T4	Operation 616 621	mixed
+E3	Operation:T4 Recipe_Precursor:T45 Recipe_Precursor:T44 Recipe_Precursor:T43
+T5	Operation 688 693	added
+E4	Operation:T5 Recipe_Precursor:T45 Recipe_Precursor:T44 Recipe_Precursor:T43 Recipe_Precursor:T46
+T6	Operation 863 867	aged
+E5	Operation:T6 Participant_Material:T49
+T7	Operation 906 914	filtered
+E6	Operation:T7 
+T8	Operation 919 925	washed
+E7	Operation:T8 Participant_Material:T50
+T9	Operation 972 977	dried
+E8	Operation:T9 Participant_Material:T51
+T10	Operation 1011 1019	calcined
+E9	Operation:T10 Atmospheric_Material:T78
+T11	Operation 1132 1137	mixed
+E10	Operation:T11 Participant_Material:T53
+T12	Brand 1155 1172	Tosoh corporation
+T13	Operation 1243 1251	grinding
+E11	Operation:T13 
+T14	Operation 1297 1301	give
+E12	Operation:T14 Participant_Material:T60
+T15	Operation 1390 1398	prepared
+E13	Operation:T15 Participant_Material:T62 Recipe_Target:T61 Recipe_Target:T96
+T16	Reference 452 456	[10]
+T17	Reference 461 465	[35]
+T18	Material 209 214	Cu-Zn
+T19	Material 265 273	Cu-Zn-Al
+T20	Number 319 324	6:3:1
+T21	Material 472 480	Cu-Zn-Al
+T22	Number 622 623	1
+T23	Number 662 667	6:3:1
+T24	Number 711 712	1
+T25	Number 737 739	80
+T26	Number 771 774	1.2
+T27	Number 872 873	2
+T28	Number 926 927	5
+T29	Number 981 984	120
+T30	Number 994 996	12
+T31	Number 1023 1026	500
+T32	Number 1036 1037	4
+T33	Number 1046 1049	350
+T34	Number 1059 1060	3
+T35	Number 1103 1108	6:3:1
+T36	Number 1199 1203	28.5
+T37	Number 1233 1237	41.6
+T38	Number 1258 1262	1000
+T39	Number 1338 1341	3:7
+T40	Nonrecipe-Material 432 440	methanol
+T41	Material 585 599	metal nitrates
+T42	Material 604 610	Na2CO3
+T43	Material 649 651	Al
+T44	Material 642 644	Zn
+T45	Material 638 640	Cu
+T46	Material 727 733	Na2CO3
+T47	Material 760 766	Na2CO3
+T48	Material 833 841	nitrates
+T49	Material 847 858	precipitate
+T50	Material 955 958	H2O
+T51	Material 964 967	gel
+T52	Material 1093 1101	Cu-Zn-Al
+T53	Material 1143 1153	HB zeolite
+T54	Material 1174 1184	HSZ-931HOA
+T55	Nonrecipe-Material 1186 1190	SiO2
+T56	Nonrecipe-Material 1191 1196	Al2O3
+T57	Nonrecipe-Material 1220 1224	SiO2
+T58	Nonrecipe-Material 1225 1230	Al2O3
+T59	Material 1208 1218	HSZ-940HOA
+T60	Material 1306 1315	composite
+T61	Material 1331 1336	Cu-Zn
+T62	Material 1366 1375	composite
+T63	Material 111 119	Cu-Zn-Al
+T64	Amount-Unit 624 625	M
+T65	Amount-Unit 671 682	molar ratio
+T66	Amount-Unit 713 714	M
+T67	Condition-Unit 740 744	degC
+T68	Amount-Unit 775 786	equivalents
+T69	Amount-Misc 794 825	total stoichiometric quantities
+T70	Condition-Unit 874 875	h
+T71	Condition-Unit 928 933	times
+T72	Condition-Unit 985 989	degC
+T73	Condition-Unit 997 998	h
+T74	Condition-Unit 1027 1031	degC
+T75	Condition-Unit 1038 1039	h
+T76	Condition-Unit 1050 1054	degC
+T77	Condition-Unit 1061 1062	h
+T78	Material 1066 1069	air
+T79	Condition-Unit 1263 1268	times
+T80	Amount-Unit 1280 1293	weight ratios
+T81	Material-Descriptor 215 249	based methanol synthesis catalysts
+T82	Material-Descriptor 274 279	oxide
+T83	Material-Descriptor 280 288	catalyst
+T84	Amount-Unit 297 315	atomic composition
+T85	Material 481 486	oxide
+T86	Property-Misc 487 495	catalyst
+T87	Material-Descriptor 547 554	aqueous
+T88	Material-Descriptor 555 563	solution
+T89	Material-Descriptor 626 634	solution
+T90	Material-Descriptor 652 660	nitrates
+T91	Material-Descriptor 715 723	solution
+T92	Condition-Misc 883 899	same temperature
+T93	Material-Descriptor 939 954	fresh distilled
+T94	Property-Misc 1085 1091	powder
+T95	Material 1110 1115	oxide
+T96	Material 1343 1348	oxide
+T97	Condition-Misc 1121 1131	physically
+T98	Material-Descriptor 1316 1325	catalysts
+T99	Material-Descriptor 1349 1357	catalyst
+T100	Material-Descriptor 1376 1384	catalyst
+T101	Property-Misc 120 125	oxide
+R1	Property_Of Arg1:T101 Arg2:T63	
+A1	Start_Recipe E1
+R2	Next_Operation Arg1:E1 Arg2:E2	
+R3	Next_Operation Arg1:E2 Arg2:E3	
+R4	Next_Operation Arg1:E3 Arg2:E4	
+R5	Next_Operation Arg1:E4 Arg2:E5	
+R6	Next_Operation Arg1:E5 Arg2:E6	
+R7	Next_Operation Arg1:E6 Arg2:E7	
+R8	Next_Operation Arg1:E7 Arg2:E8	
+R9	Next_Operation Arg1:E8 Arg2:E9	
+R10	Next_Operation Arg1:E9 Arg2:E10	
+R11	Next_Operation Arg1:E10 Arg2:E11	
+R12	Next_Operation Arg1:E11 Arg2:E12	
+R13	Next_Operation Arg1:E12 Arg2:E13	
+A2	End_Recipe E13
+R14	Descriptor_Of Arg1:T81 Arg2:T18	
+R15	Descriptor_Of Arg1:T83 Arg2:T19	
+R16	Descriptor_Of Arg1:T82 Arg2:T19	
+R17	Number_Of Arg1:T20 Arg2:T84	
+R18	Amount_Of Arg1:T84 Arg2:T19	
+R19	Property_Of Arg1:T86 Arg2:T21	
+R20	Property_Of Arg1:T86 Arg2:T85	
+R21	Descriptor_Of Arg1:T87 Arg2:T41	
+R22	Descriptor_Of Arg1:T87 Arg2:T42	
+R23	Descriptor_Of Arg1:T88 Arg2:T41	
+R24	Descriptor_Of Arg1:T88 Arg2:T42	
+R25	Number_Of Arg1:T22 Arg2:T64	
+R26	Amount_Of Arg1:T64 Arg2:T45	
+R27	Amount_Of Arg1:T64 Arg2:T44	
+R28	Amount_Of Arg1:T64 Arg2:T43	
+R29	Descriptor_Of Arg1:T89 Arg2:T45	
+R30	Descriptor_Of Arg1:T89 Arg2:T44	
+R31	Descriptor_Of Arg1:T89 Arg2:T43	
+R32	Descriptor_Of Arg1:T90 Arg2:T45	
+R33	Descriptor_Of Arg1:T90 Arg2:T44	
+R34	Descriptor_Of Arg1:T90 Arg2:T43	
+R35	Number_Of Arg1:T23 Arg2:T65	
+R36	Amount_Of Arg1:T65 Arg2:T45	
+R37	Amount_Of Arg1:T65 Arg2:T44	
+R38	Amount_Of Arg1:T65 Arg2:T43	
+R39	Number_Of Arg1:T24 Arg2:T66	
+R40	Amount_Of Arg1:T66 Arg2:T46	
+R41	Descriptor_Of Arg1:T91 Arg2:T46	
+R42	Number_Of Arg1:T25 Arg2:T67	
+R43	Condition_Of Arg1:T67 Arg2:E4	
+R44	Number_Of Arg1:T26 Arg2:T68	
+R45	Amount_Of Arg1:T68 Arg2:T47	
+R46	Amount_Of Arg1:T69 Arg2:T48	
+R47	Number_Of Arg1:T27 Arg2:T70	
+R48	Condition_Of Arg1:T70 Arg2:E5	
+R49	Condition_Of Arg1:T92 Arg2:E5	
+R50	Number_Of Arg1:T28 Arg2:T71	
+R51	Condition_Of Arg1:T71 Arg2:E7	
+R52	Descriptor_Of Arg1:T93 Arg2:T50	
+R53	Number_Of Arg1:T29 Arg2:T72	
+R54	Condition_Of Arg1:T72 Arg2:E8	
+R55	Number_Of Arg1:T30 Arg2:T73	
+R56	Condition_Of Arg1:T73 Arg2:E8	
+R57	Condition_Of Arg1:T77 Arg2:E9	
+R58	Number_Of Arg1:T34 Arg2:T77	
+R59	Condition_Of Arg1:T76 Arg2:E9	
+R60	Number_Of Arg1:T33 Arg2:T76	
+R61	Condition_Of Arg1:T75 Arg2:E9	
+R62	Number_Of Arg1:T32 Arg2:T75	
+R63	Number_Of Arg1:T31 Arg2:T74	
+R64	Condition_Of Arg1:T74 Arg2:E9	
+R65	Property_Of Arg1:T94 Arg2:T52	
+R66	Property_Of Arg1:T94 Arg2:T95	
+R67	Condition_Of Arg1:T97 Arg2:E10	
+R68	Brand_Of Arg1:T12 Arg2:T54	
+R69	Coref_Of Arg1:T53 Arg2:T54	
+R70	Coref_Of Arg1:T53 Arg2:T59	
+R71	Number_Of Arg1:T38 Arg2:T79	
+R72	Condition_Of Arg1:T79 Arg2:E11	
+R73	Amount_Of Arg1:T80 Arg2:T53	
+R74	Descriptor_Of Arg1:T98 Arg2:T60	
+R75	Descriptor_Of Arg1:T99 Arg2:T96	
+R76	Descriptor_Of Arg1:T99 Arg2:T61	
+R77	Descriptor_Of Arg1:T100 Arg2:T62	

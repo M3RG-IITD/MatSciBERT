@@ -1,0 +1,156 @@
+T1	Material 34 45	NaHTi 3 O 7
+T2	Property-Misc 19 33	3D flower-like
+T3	Property-Misc 46 55	nanotubes
+T4	Property-Misc 76 82	anodes
+T5	Operation 132 143	synthesized
+E1	Operation:T5 Recipe_Target:T35
+T6	Meta 175 187	hydrothermal
+T7	Operation 239 248	dispersed
+E2	Operation:T7 Recipe_Precursor:T36 Solvent_Material:T37
+T8	Operation 292 298	sealed
+E3	Operation:T8 
+T9	Operation 326 333	stirred
+E4	Operation:T9 
+T10	Operation 368 374	heated
+E5	Operation:T10 Participant_Material:T38
+T11	Operation 429 435	cooled
+E6	Operation:T11 Atmospheric_Material:T39
+T12	Operation 468 476	obtained
+E7	Operation:T12 Participant_Material:T40
+T13	Operation 505 511	washed
+E8	Operation:T13 Participant_Material:T40 Participant_Material:T41
+T14	Operation 559 566	reached
+E9	Operation:T14 
+T15	Operation 582 590	cleaning
+E10	Operation:T15 
+T16	Operation 612 621	collected
+E11	Operation:T16 Participant_Material:T42
+T17	Operation 633 643	centrifuge
+E12	Operation:T17 
+T18	Operation 669 674	dried
+E13	Operation:T18 Participant_Material:T43
+T19	Operation 741 749	obtained
+E14	Operation:T19 Recipe_Precursor:T44
+T20	Operation 778 784	heated
+E15	Operation:T20 Participant_Material:T45
+T21	Operation 821 830	incubated
+E16	Operation:T21 
+T22	Operation 922 930	obtained
+E17	Operation:T22 Recipe_Target:T47
+T23	Operation 846 853	release
+E18	Operation:T23 Participant_Material:T46
+T24	Number 207 210	1.4
+T25	Number 254 256	70
+T26	Number 260 262	15
+T27	Number 338 339	5
+T28	Number 378 381	130
+T29	Number 391 393	72
+T30	Number 553 554	7
+T31	Number 689 691	60
+T32	Number 701 703	12
+T33	Number 808 811	600
+T34	Number 835 836	2
+T35	Material 108 116	NaHTi3O7
+T36	Material 213 217	TiO2
+T37	Material 265 269	NaOH
+T38	Material 356 363	mixture
+T39	Material 459 462	air
+T40	Material 489 500	precipitate
+T41	Material 527 532	water
+T42	Material 596 607	precipitate
+T43	Material 657 664	mixture
+T44	Material 722 735	NaHTi3O7*2H2O
+T45	Material 764 773	precursor
+T46	Nonrecipe-Material 866 871	water
+T47	Material 898 906	NaHTi3O7
+T48	Amount-Unit 211 212	g
+T49	Amount-Unit 257 259	mL
+T50	Amount-Unit 263 264	M
+T51	Condition-Unit 340 341	h
+T52	Condition-Unit 382 386	degC
+T53	Condition-Unit 394 395	h
+T54	Condition-Unit 541 543	pH
+T55	Condition-Unit 692 696	degC
+T56	Condition-Unit 704 705	h
+T57	Condition-Unit 812 816	degC
+T58	Condition-Unit 837 842	hours
+T59	Property-Misc 117 126	nanotubes
+T60	Condition-Misc 149 164	low temperature
+T61	Material-Descriptor 218 224	powder
+T62	Material-Descriptor 226 233	anatase
+T63	Material-Descriptor 278 286	solution
+T64	Material-Descriptor 270 277	aqueous
+T65	Synthesis-Apparatus 306 312	vessel
+T66	Apparatus-Descriptor 299 305	Teflon
+T67	Material-Descriptor 347 355	solution
+T68	Synthesis-Apparatus 402 406	oven
+T69	Condition-Misc 439 455	room temperature
+T70	Material-Descriptor 517 526	deionized
+T71	Condition-Misc 574 581	alcohol
+T72	Synthesis-Apparatus 681 685	oven
+T73	Material-Descriptor 711 720	precursor
+T74	Synthesis-Apparatus 790 804	muffle furnace
+T75	Material-Descriptor 858 865	crystal
+T76	Property-Misc 907 916	nanotubes
+R1	Property_Of Arg1:T2 Arg2:T1	
+R2	Property_Of Arg1:T3 Arg2:T1	
+R3	Property_Of Arg1:T4 Arg2:T1	
+R4	Property_Of Arg1:T59 Arg2:T35	
+R5	Condition_Of Arg1:T60 Arg2:E1	
+A1	Start_Recipe E1
+R6	Next_Operation Arg1:E1 Arg2:E2	
+R7	Next_Operation Arg1:E2 Arg2:E3	
+R8	Next_Operation Arg1:E3 Arg2:E4	
+R9	Next_Operation Arg1:E4 Arg2:E5	
+R10	Next_Operation Arg1:E5 Arg2:E6	
+R11	Next_Operation Arg1:E6 Arg2:E7	
+R12	Next_Operation Arg1:E7 Arg2:E8	
+R13	Next_Operation Arg1:E8 Arg2:E9	
+R14	Next_Operation Arg1:E9 Arg2:E10	
+R15	Next_Operation Arg1:E10 Arg2:E11	
+R16	Next_Operation Arg1:E11 Arg2:E12	
+R17	Next_Operation Arg1:E12 Arg2:E13	
+R18	Next_Operation Arg1:E13 Arg2:E14	
+R19	Next_Operation Arg1:E14 Arg2:E15	
+R20	Next_Operation Arg1:E15 Arg2:E16	
+R21	Next_Operation Arg1:E16 Arg2:E18	
+R22	Next_Operation Arg1:E18 Arg2:E17	
+A2	End_Recipe E17
+R23	Number_Of Arg1:T24 Arg2:T48	
+R24	Amount_Of Arg1:T48 Arg2:T36	
+R25	Descriptor_Of Arg1:T61 Arg2:T36	
+R26	Descriptor_Of Arg1:T62 Arg2:T36	
+R27	Number_Of Arg1:T25 Arg2:T49	
+R28	Number_Of Arg1:T26 Arg2:T50	
+R29	Amount_Of Arg1:T49 Arg2:T37	
+R30	Amount_Of Arg1:T50 Arg2:T37	
+R31	Descriptor_Of Arg1:T64 Arg2:T37	
+R32	Descriptor_Of Arg1:T63 Arg2:T37	
+R33	Descriptor_Of Arg1:T66 Arg2:T65	
+R34	Apparatus_Of Arg1:T65 Arg2:E3	
+R35	Number_Of Arg1:T27 Arg2:T51	
+R36	Condition_Of Arg1:T51 Arg2:E4	
+R37	Descriptor_Of Arg1:T67 Arg2:T38	
+R38	Number_Of Arg1:T28 Arg2:T52	
+R39	Condition_Of Arg1:T52 Arg2:E5	
+R40	Number_Of Arg1:T29 Arg2:T53	
+R41	Condition_Of Arg1:T53 Arg2:E5	
+R42	Apparatus_Of Arg1:T68 Arg2:E5	
+R43	Condition_Of Arg1:T69 Arg2:E6	
+R44	Descriptor_Of Arg1:T70 Arg2:T41	
+R45	Number_Of Arg1:T30 Arg2:T54	
+R46	Condition_Of Arg1:T54 Arg2:E9	
+R47	Condition_Of Arg1:T71 Arg2:E10	
+R48	Apparatus_Of Arg1:T72 Arg2:E13	
+R49	Number_Of Arg1:T31 Arg2:T55	
+R50	Condition_Of Arg1:T55 Arg2:E13	
+R51	Number_Of Arg1:T32 Arg2:T56	
+R52	Condition_Of Arg1:T56 Arg2:E13	
+R53	Descriptor_Of Arg1:T73 Arg2:T44	
+R54	Apparatus_Of Arg1:T74 Arg2:E15	
+R55	Number_Of Arg1:T33 Arg2:T57	
+R56	Condition_Of Arg1:T57 Arg2:E15	
+R57	Number_Of Arg1:T34 Arg2:T58	
+R58	Condition_Of Arg1:T58 Arg2:E16	
+R59	Descriptor_Of Arg1:T75 Arg2:T46	
+R60	Property_Of Arg1:T76 Arg2:T47	

@@ -1,0 +1,173 @@
+T1	Meta 49 61	hydrothermal
+T2	Material 111 118	Li2MnO3
+T3	Property-Misc 100 110	nano-sized
+T4	Material 207 218	Li2MnO3/CNT
+T5	Property-Misc 219 232	nanocomposite
+T6	Operation 250 261	synthesized
+E1	Operation:T6 Recipe_Target:T4
+T7	Reference 386 390	[15]
+T8	Operation 464 470	heated
+E2	Operation:T8 Recipe_Precursor:T39 Recipe_Precursor:T38
+T9	Brand 500 512	FP40, Julabo
+T10	Operation 535 545	maintained
+E3	Operation:T10 Participant_Material:T40
+T11	Operation 601 609	filtered
+E4	Operation:T11 Participant_Material:T41
+T12	Operation 611 617	washed
+E5	Operation:T12 
+T13	Operation 628 633	dried
+E6	Operation:T13 
+T14	Operation 685 693	prepared
+E7	Operation:T14 Recipe_Target:T42 Recipe_Precursor:T43 Recipe_Precursor:T44
+T15	Operation 871 877	heated
+E8	Operation:T15 Participant_Material:T45
+T16	Operation 924 934	maintained
+E9	Operation:T16 
+T17	Operation 965 971	cooled
+E10	Operation:T17 
+T18	Operation 1017 1025	filtered
+E11	Operation:T18 Participant_Material:T46
+T19	Operation 1027 1033	washed
+E12	Operation:T19 Participant_Material:T47
+T20	Operation 1071 1076	dried
+E13	Operation:T20 
+T21	Operation 1164 1169	named
+E14	Operation:T21 Recipe_Target:T48
+T22	Meta 265 276	MAH process
+T23	Material 326 329	CNT
+T24	Number 474 476	70
+T25	Number 394 397	0.1
+T26	Number 422 425	1.0
+T27	Number 570 572	12
+T28	Number 637 640	100
+T29	Number 803 806	0.1
+T30	Number 810 813	0.2
+T31	Number 817 820	0.5
+T32	Number 828 829	1
+T33	Number 881 884	200
+T34	Number 938 941	200
+T35	Number 952 954	30
+T36	Number 1080 1083	100
+T37	Number 1093 1095	24
+T38	Material 403 408	KMnO4
+T39	Material 431 434	CNT
+T40	Material 523 530	mixture
+T41	Material 586 596	suspension
+T42	Material 659 666	LMO/CNT
+T43	Material 712 715	CNT
+T44	Material 788 792	LiOH
+T45	Material 849 857	mixtures
+T46	Material 1002 1012	suspension
+T47	Material 1060 1065	water
+T48	Material 1137 1144	LMO/CNT
+T49	Number 1111 1115	four
+T50	Amount-Unit 398 399	M
+T51	Amount-Unit 426 427	g
+T52	Condition-Unit 477 481	degC
+T53	Condition-Unit 573 574	h
+T54	Condition-Unit 641 645	degC
+T55	Amount-Unit 807 808	M
+T56	Amount-Unit 814 815	M
+T57	Amount-Unit 821 822	M
+T58	Amount-Unit 830 831	M
+T59	Condition-Unit 885 889	degC
+T60	Condition-Unit 942 946	degC
+T61	Condition-Unit 955 958	min
+T62	Condition-Unit 1084 1088	degC
+T63	Condition-Unit 1096 1097	h
+T64	Property-Misc 314 325	MnO2-coated
+T65	Property-Misc 330 339	composite
+T66	Material-Descriptor 409 417	solution
+T67	Synthesis-Apparatus 452 458	vessel
+T68	Apparatus-Descriptor 438 451	double jacket
+T69	Synthesis-Apparatus 488 498	circulator
+T70	Condition-Type 554 565	temperature
+T71	Material-Descriptor 580 585	black
+T72	Synthesis-Apparatus 649 653	oven
+T73	Property-Misc 667 680	nanocomposite
+T74	Material-Descriptor 700 711	MnO2-coated
+T75	Material-Descriptor 716 725	composite
+T76	Amount-Misc 731 749	appropriate amount
+T77	Material-Descriptor 780 787	aqueous
+T78	Material-Descriptor 793 801	solution
+T79	Material-Descriptor 840 848	solution
+T80	Condition-Misc 863 870	rapidly
+T81	Synthesis-Apparatus 897 904	reactor
+T82	Apparatus-Descriptor 893 896	MAH
+T83	Brand 906 921	MARS, CEM Corp.
+T84	Condition-Misc 980 996	room temperature
+T85	Material-Descriptor 1050 1059	distilled
+T86	Synthesis-Apparatus 1101 1105	oven
+T87	Property-Misc 1126 1133	samples
+T88	Property-Misc 1145 1159	nanocomposites
+R1	Property_Of Arg1:T3 Arg2:T2	
+R2	Property_Of Arg1:T5 Arg2:T4	
+A1	Start_Recipe E2
+R3	Next_Operation Arg1:E2 Arg2:E3	
+R4	Next_Operation Arg1:E3 Arg2:E4	
+R5	Next_Operation Arg1:E4 Arg2:E5	
+R6	Next_Operation Arg1:E5 Arg2:E6	
+R7	Next_Operation Arg1:E6 Arg2:E7	
+R8	Next_Operation Arg1:E7 Arg2:E8	
+R9	Next_Operation Arg1:E8 Arg2:E9	
+R10	Next_Operation Arg1:E9 Arg2:E10	
+R11	Next_Operation Arg1:E10 Arg2:E11	
+R12	Next_Operation Arg1:E11 Arg2:E12	
+R13	Next_Operation Arg1:E12 Arg2:E13	
+R14	Next_Operation Arg1:E13 Arg2:E14	
+T89	Number 1188 1189	1
+R15	Property_Of Arg1:T64 Arg2:T23	
+R16	Property_Of Arg1:T65 Arg2:T23	
+R17	Number_Of Arg1:T25 Arg2:T50	
+R18	Amount_Of Arg1:T50 Arg2:T38	
+R19	Descriptor_Of Arg1:T66 Arg2:T38	
+R20	Number_Of Arg1:T26 Arg2:T51	
+R21	Amount_Of Arg1:T51 Arg2:T39	
+R22	Descriptor_Of Arg1:T68 Arg2:T67	
+R23	Apparatus_Of Arg1:T67 Arg2:E2	
+R24	Number_Of Arg1:T24 Arg2:T52	
+R25	Apparatus_Of Arg1:T69 Arg2:E2	
+R26	Brand_Of Arg1:T9 Arg2:T69	
+R27	Type_Of Arg1:T70 Arg2:T52	
+R28	Number_Of Arg1:T27 Arg2:T53	
+R29	Condition_Of Arg1:T53 Arg2:E3	
+R30	Descriptor_Of Arg1:T71 Arg2:T41	
+R31	Number_Of Arg1:T28 Arg2:T54	
+R32	Apparatus_Of Arg1:T72 Arg2:E6	
+R33	Condition_Of Arg1:T54 Arg2:E6	
+R34	Property_Of Arg1:T73 Arg2:T42	
+R35	Descriptor_Of Arg1:T74 Arg2:T43	
+R36	Descriptor_Of Arg1:T75 Arg2:T43	
+R37	Amount_Of Arg1:T76 Arg2:T43	
+R38	Descriptor_Of Arg1:T77 Arg2:T44	
+R39	Descriptor_Of Arg1:T78 Arg2:T44	
+R40	Number_Of Arg1:T29 Arg2:T55	
+R41	Number_Of Arg1:T30 Arg2:T56	
+R42	Number_Of Arg1:T31 Arg2:T57	
+R43	Number_Of Arg1:T32 Arg2:T58	
+R44	Amount_Of Arg1:T55 Arg2:T44	
+R45	Amount_Of Arg1:T56 Arg2:T44	
+R46	Amount_Of Arg1:T57 Arg2:T44	
+R47	Amount_Of Arg1:T58 Arg2:T44	
+R48	Descriptor_Of Arg1:T79 Arg2:T45	
+R49	Condition_Of Arg1:T80 Arg2:E8	
+R50	Number_Of Arg1:T33 Arg2:T59	
+R51	Condition_Of Arg1:T59 Arg2:E8	
+R52	Descriptor_Of Arg1:T82 Arg2:T81	
+R53	Apparatus_Of Arg1:T81 Arg2:E8	
+R54	Brand_Of Arg1:T83 Arg2:T81	
+R55	Number_Of Arg1:T34 Arg2:T60	
+R56	Number_Of Arg1:T35 Arg2:T61	
+R57	Condition_Of Arg1:T60 Arg2:E9	
+R58	Condition_Of Arg1:T61 Arg2:E9	
+R59	Condition_Of Arg1:T84 Arg2:E10	
+T90	Condition-Misc 1034 1044	repeatedly
+R60	Condition_Of Arg1:T90 Arg2:E12	
+R61	Descriptor_Of Arg1:T85 Arg2:T47	
+R62	Number_Of Arg1:T36 Arg2:T62	
+R63	Condition_Of Arg1:T62 Arg2:E13	
+R64	Number_Of Arg1:T37 Arg2:T63	
+R65	Condition_Of Arg1:T63 Arg2:E13	
+R66	Apparatus_Of Arg1:T86 Arg2:E13	
+R67	Property_Of Arg1:T87 Arg2:T48	
+R68	Property_Of Arg1:T88 Arg2:T48	

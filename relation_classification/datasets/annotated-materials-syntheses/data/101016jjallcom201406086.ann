@@ -1,0 +1,197 @@
+T1	Operation 178 186	prepared
+E1	Operation:T1 Recipe_Target:T13 Participant_Material:T14 Recipe_Precursor:T18 Participant_Material:T17
+T2	Operation 301 310	dissolved
+E2	Operation:T2 Recipe_Precursor:T19 Solvent_Material:T20
+T3	Operation 467 472	added
+E3	Operation:T3 Recipe_Precursor:T21 Recipe_Precursor:T22 Recipe_Precursor:T23 Recipe_Precursor:T24 Participant_Material:T25
+T4	Operation 580 585	added
+E4	Operation:T4 Participant_Material:T26
+T5	Operation 654 660	loaded
+E5	Operation:T5 Participant_Material:T29
+T6	Operation 702 712	maintained
+E6	Operation:T6 
+T7	Operation 762 767	dried
+E7	Operation:T7 Participant_Material:T32
+T8	Operation 835 841	ground
+E8	Operation:T8 Participant_Material:T34
+T9	Operation 846 851	mixed
+E9	Operation:T9 Participant_Material:T35 Recipe_Target:T36
+T10	Operation 924 932	stirring
+E10	Operation:T10 
+T11	Operation 969 974	dried
+E11	Operation:T11 Participant_Material:T37
+T12	Operation 1018 1030	heat treated
+E12	Operation:T12 Participant_Material:T38 Atmospheric_Material:T39 Atmospheric_Material:T40 Participant_Material:T41 Participant_Material:T42 Participant_Material:T44
+T13	Material 145 156	Li2MnSiO4/C
+T14	Nonrecipe-Material 162 166	Ni2+
+T15	Property-Misc 167 173	doping
+T16	Meta 195 214	solvothermal method
+T17	Nonrecipe-Material 238 244	carbon
+T18	Material 224 230	starch
+T19	Material 262 271	C19H42BrN
+T20	Material 314 322	methanol
+T21	Material 342 355	C2H3O2Li*2H2O
+T22	Material 372 385	MnC4H6O4*4H2O
+T23	Material 402 413	Si (OC2H5)4
+T24	Material 433 446	NiC4H6O4*4H2O
+T25	Material 488 496	solution
+T26	Material 555 566	acetic acid
+T27	Material-Descriptor 547 554	glacial
+T28	Material-Descriptor 591 599	catalyst
+T29	Material 641 649	solution
+T30	Synthesis-Apparatus 688 697	autoclave
+T31	Apparatus-Descriptor 675 687	Teflon-lined
+T32	Material 750 757	product
+T33	Condition-Misc 789 795	vacuum
+T34	Material 810 819	precursor
+T35	Material 864 874	suspension
+T36	Material 898 909	Li2MnSiO4:C
+T37	Material 957 964	mixture
+T38	Material 1006 1013	product
+T39	Material 1081 1083	Ar
+T40	Material 1090 1092	H2
+T41	Material 1119 1128	Li2MnSiO4
+T42	Nonrecipe-Material 1134 1140	carbon
+T43	Property-Misc 1141 1148	coating
+T44	Nonrecipe-Material 1153 1157	Ni2+
+T45	Property-Misc 1158 1164	doping
+T46	Material-Descriptor 245 251	source
+T47	Number 273 276	0.1
+T48	Amount-Unit 277 281	mmol
+T49	Brand 283 290	Aladdin
+T50	Number 292 294	99
+T51	Amount-Unit 294 295	%
+T52	Number 324 326	45
+T53	Amount-Unit 327 329	ml
+T54	Brand 357 364	Aladdin
+T55	Number 366 368	99
+T56	Amount-Unit 368 369	%
+T57	Brand 387 394	Aladdin
+T58	Number 396 398	99
+T59	Amount-Unit 398 399	%
+T60	Brand 415 422	Aladdin
+T61	Number 424 426	99
+T62	Amount-Unit 426 427	%
+T63	Brand 448 455	Aladdin
+T64	Number 457 459	99
+T65	Amount-Unit 459 460	%
+T66	Amount-Unit 506 517	molar ratio
+T67	Number 521 536	2.2:0.95:1:0.05
+T68	Number 568 571	1.5
+T69	Amount-Unit 572 574	mL
+T70	Operation 607 615	stirring
+E13	Operation:T70 
+T71	Number 620 621	6
+T72	Condition-Unit 622 623	h
+T73	Number 668 671	100
+T74	Apparatus-Unit 672 674	ml
+T75	Number 716 719	120
+T76	Condition-Unit 720 724	degC
+T77	Number 729 731	20
+T78	Condition-Unit 732 733	h
+T79	Number 771 773	60
+T80	Condition-Unit 774 778	degC
+T81	Number 779 781	12
+T82	Condition-Unit 782 783	h
+T83	Material-Descriptor 857 863	starch
+T84	Amount-Unit 882 894	weight ratio
+T85	Number 913 916	2:1
+T86	Number 936 938	40
+T87	Condition-Unit 939 943	degC
+T88	Number 948 949	5
+T89	Condition-Unit 950 951	h
+T90	Number 978 980	60
+T91	Condition-Unit 981 985	degC
+T92	Number 990 992	12
+T93	Condition-Unit 993 994	h
+T94	Number 1034 1037	450
+T95	Condition-Unit 1038 1042	degC
+T96	Number 1047 1048	2
+T97	Condition-Unit 1049 1050	h
+T98	Number 1060 1063	700
+T99	Condition-Unit 1064 1068	degC
+T100	Number 1073 1075	10
+T101	Condition-Unit 1076 1077	h
+T102	Number 1085 1087	95
+T103	Amount-Unit 1087 1088	%
+T104	Number 1094 1095	5
+T105	Amount-Unit 1095 1096	%
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E13	
+R4	Next_Operation Arg1:E13 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E7	
+R7	Next_Operation Arg1:E7 Arg2:E8	
+R8	Next_Operation Arg1:E8 Arg2:E9	
+R9	Next_Operation Arg1:E9 Arg2:E10	
+R10	Next_Operation Arg1:E10 Arg2:E11	
+R11	Next_Operation Arg1:E11 Arg2:E12	
+R12	Apparatus_Of Arg1:T30 Arg2:E5	
+R13	Condition_Of Arg1:T76 Arg2:E6	
+R14	Condition_Of Arg1:T78 Arg2:E6	
+R15	Condition_Of Arg1:T80 Arg2:E7	
+R16	Condition_Of Arg1:T82 Arg2:E7	
+R17	Condition_Of Arg1:T33 Arg2:E7	
+R18	Condition_Of Arg1:T87 Arg2:E10	
+R19	Condition_Of Arg1:T89 Arg2:E10	
+R20	Condition_Of Arg1:T91 Arg2:E11	
+R21	Condition_Of Arg1:T93 Arg2:E11	
+R22	Condition_Of Arg1:T95 Arg2:E12	
+R23	Condition_Of Arg1:T97 Arg2:E12	
+R24	Condition_Of Arg1:T99 Arg2:E12	
+R25	Condition_Of Arg1:T101 Arg2:E12	
+R26	Property_Of Arg1:T15 Arg2:T13	
+R27	Amount_Of Arg1:T48 Arg2:T19	
+R28	Amount_Of Arg1:T51 Arg2:T19	
+R29	Amount_Of Arg1:T53 Arg2:T20	
+R30	Amount_Of Arg1:T56 Arg2:T21	
+R31	Amount_Of Arg1:T59 Arg2:T22	
+R32	Amount_Of Arg1:T62 Arg2:T23	
+R33	Amount_Of Arg1:T65 Arg2:T24	
+R34	Amount_Of Arg1:T66 Arg2:T25	
+R35	Amount_Of Arg1:T69 Arg2:T26	
+R36	Amount_Of Arg1:T84 Arg2:T36	
+R37	Amount_Of Arg1:T103 Arg2:T39	
+R38	Amount_Of Arg1:T105 Arg2:T40	
+R39	Property_Of Arg1:T43 Arg2:T42	
+R40	Property_Of Arg1:T45 Arg2:T42	
+R41	Property_Of Arg1:T45 Arg2:T44	
+R42	Property_Of Arg1:T15 Arg2:T14	
+R43	Descriptor_Of Arg1:T46 Arg2:T17	
+R44	Descriptor_Of Arg1:T27 Arg2:T26	
+R45	Descriptor_Of Arg1:T28 Arg2:T26	
+R46	Descriptor_Of Arg1:T31 Arg2:T30	
+R47	Descriptor_Of Arg1:T83 Arg2:T35	
+R48	Number_Of Arg1:T47 Arg2:T48	
+R49	Number_Of Arg1:T50 Arg2:T51	
+R50	Number_Of Arg1:T52 Arg2:T53	
+R51	Number_Of Arg1:T55 Arg2:T56	
+R52	Number_Of Arg1:T58 Arg2:T59	
+R53	Number_Of Arg1:T61 Arg2:T62	
+R54	Number_Of Arg1:T64 Arg2:T65	
+R55	Number_Of Arg1:T67 Arg2:T66	
+R56	Number_Of Arg1:T68 Arg2:T69	
+R57	Number_Of Arg1:T71 Arg2:T72	
+R58	Number_Of Arg1:T75 Arg2:T76	
+R59	Number_Of Arg1:T77 Arg2:T78	
+R60	Number_Of Arg1:T79 Arg2:T80	
+R61	Number_Of Arg1:T81 Arg2:T82	
+R62	Number_Of Arg1:T85 Arg2:T84	
+R63	Number_Of Arg1:T86 Arg2:T87	
+R64	Number_Of Arg1:T88 Arg2:T89	
+R65	Number_Of Arg1:T90 Arg2:T91	
+R66	Number_Of Arg1:T92 Arg2:T93	
+R67	Number_Of Arg1:T94 Arg2:T95	
+R68	Number_Of Arg1:T96 Arg2:T97	
+R69	Number_Of Arg1:T98 Arg2:T99	
+R70	Number_Of Arg1:T100 Arg2:T101	
+R71	Number_Of Arg1:T102 Arg2:T103	
+R72	Number_Of Arg1:T104 Arg2:T105	
+R73	Brand_Of Arg1:T49 Arg2:T19	
+R74	Brand_Of Arg1:T54 Arg2:T21	
+R75	Brand_Of Arg1:T57 Arg2:T22	
+R76	Brand_Of Arg1:T60 Arg2:T23	
+R77	Brand_Of Arg1:T63 Arg2:T24	
+R78	Number_Of Arg1:T73 Arg2:T74	
+R79	Apparatus_Attr_Of Arg1:T74 Arg2:T30	

@@ -1,0 +1,83 @@
+T1	Material 122 126	ABTH
+T2	Operation 131 139	prepared
+E1	Operation:T2 Recipe_Target:T1 Recipe_Precursor:T12 Recipe_Precursor:T13
+T3	Operation 309 318	extracted
+E2	Operation:T3 Participant_Material:T14 Participant_Material:T16
+T4	Operation 363 369	remove
+E3	Operation:T4 Participant_Material:T19
+T5	Operation 409 415	remove
+E4	Operation:T5 Participant_Material:T22 Participant_Material:T21 Participant_Material:T23
+T6	Operation 446 457	polymerized
+E5	Operation:T6 Recipe_Target:T25 Participant_Material:T26 Recipe_Precursor:T27 Solvent_Material:T28
+T7	Operation 608 616	filtered
+E6	Operation:T7 Solvent_Material:T32
+T8	Operation 632 639	removed
+E7	Operation:T8 Recipe_Precursor:T33
+T9	Operation 643 650	washing
+E8	Operation:T9 Participant_Material:T34 Participant_Material:T36
+T10	Operation 719 724	dried
+E9	Operation:T10 Participant_Material:T39
+T11	Reference 180 184	[10]
+T12	Material 197 226	1,4,5,8-tetrachloroanthracene
+T13	Material 257 267	anthracene
+T14	Material 295 303	products
+T15	Synthesis-Apparatus 331 350	Soxhlet's extractor
+T16	Material 324 327	CS2
+T17	Number 355 357	24
+T18	Condition-Unit 358 359	h
+T19	Nonrecipe-Material 375 381	sulfur
+T20	Material-Descriptor 370 374	free
+T21	Material 392 397	water
+T22	Material 398 405	alcohol
+T23	Material 424 434	impurities
+T24	Material-Descriptor 416 423	soluble
+T25	Material 436 441	PABTH
+T26	Material 499 503	ABTH
+T27	Material 523 528	FeCl3
+T28	Material 532 542	chloroform
+T29	Condition-Misc 546 562	room temperature
+T30	Number 567 569	48
+T31	Condition-Unit 570 571	h
+T32	Material 593 603	chloroform
+T33	Material 622 627	FeCl3
+T34	Material 663 680	hydrochloric acid
+T35	Material-Descriptor 656 662	dilute
+T36	Material 686 691	water
+T37	Condition-Unit 697 699	pH
+T38	Number 700 701	7
+T39	Material 707 714	polymer
+T40	Number 728 730	60
+T41	Condition-Unit 731 735	degC
+T42	Synthesis-Apparatus 739 743	oven
+T43	Material 46 61	organodisulfide
+T44	Property-Misc 29 45	Anthracene based
+T45	Property-Misc 62 77	positive active
+T46	Number 234 235	1
+T47	Number 246 247	1
+T48	Number 275 276	2
+T49	Number 287 288	1
+R1	Property_Of Arg1:T44 Arg2:T43	
+R2	Property_Of Arg1:T45 Arg2:T43	
+R3	Next_Operation Arg1:E1 Arg2:E2	
+A1	Start_Recipe E1
+R4	Next_Operation Arg1:E2 Arg2:E3	
+R5	Next_Operation Arg1:E3 Arg2:E4	
+R6	Next_Operation Arg1:E4 Arg2:E5	
+R7	Next_Operation Arg1:E5 Arg2:E6	
+R8	Next_Operation Arg1:E6 Arg2:E7	
+R9	Next_Operation Arg1:E7 Arg2:E8	
+R10	Next_Operation Arg1:E8 Arg2:E9	
+A2	End_Recipe E9
+R11	Apparatus_Of Arg1:T15 Arg2:E2	
+R12	Number_Of Arg1:T17 Arg2:T18	
+R13	Condition_Of Arg1:T18 Arg2:E2	
+R14	Descriptor_Of Arg1:T20 Arg2:T19	
+R15	Descriptor_Of Arg1:T24 Arg2:T23	
+R16	Condition_Of Arg1:T29 Arg2:E5	
+R17	Number_Of Arg1:T30 Arg2:T31	
+R18	Condition_Of Arg1:T31 Arg2:E5	
+R19	Descriptor_Of Arg1:T35 Arg2:T34	
+R20	Number_Of Arg1:T38 Arg2:T37	
+R21	Condition_Of Arg1:T37 Arg2:E8	
+R22	Number_Of Arg1:T40 Arg2:T41	
+R23	Apparatus_Of Arg1:T42 Arg2:E9	

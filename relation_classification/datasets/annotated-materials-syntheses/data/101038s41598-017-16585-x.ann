@@ -1,0 +1,117 @@
+T1	Operation 253 261	prepared
+E1	Operation:T1 Recipe_Target:T13
+T2	Operation 397 401	made
+E2	Operation:T2 Recipe_Target:T18 Recipe_Precursor:T19
+T3	Operation 471 476	using
+E3	Operation:T3 Participant_Material:T22
+T4	Operation 606 617	synthesized
+E4	Operation:T4 Recipe_Target:T24
+T5	Operation 621 631	dissolving
+E5	Operation:T5 Recipe_Precursor:T25 Solvent_Material:T27
+T6	Operation 770 777	stirred
+E6	Operation:T6 Participant_Material:T29
+T7	Operation 810 814	aged
+E7	Operation:T7 
+T8	Operation 859 870	spin-coated
+E8	Operation:T8 Participant_Material:T30 Participant_Material:T31
+T10	Operation 930 938	annealed
+E10	Operation:T10 Atmospheric_Material:T32
+T11	Material 61 65	HfO2
+T12	Material 189 193	HfO2
+T13	Material 217 221	HfO2
+T14	Material 276 297	hafnium (IV) chloride
+T15	Material 299 304	HfCl4
+T16	Material 326 331	water
+T17	Material 341 345	Y2O3
+T18	Material 369 373	Y2O3
+T19	Material 408 442	yttrium (III) chloride hexahydrate
+T20	Material 444 453	YCl3*6H2O
+T21	Material 517 521	HfO2
+T22	Material 502 509	solvent
+T23	Material 550 554	PMMA
+T24	Material 578 582	PMMA
+T25	Material 644 648	PMMA
+T26	Material 650 670	[CH2C(CH3)(CO2CH3)]n
+T27	Material 698 711	butyl acetate
+T28	Material 713 728	CH3COO(CH2)3CH3
+T29	Material 755 764	solutions
+T30	Material 839 848	solutions
+T31	Material 891 897	a-IGZO
+T32	Material 961 964	air
+T33	Number 242 245	0.1
+T34	Amount-Unit 246 247	M
+T35	Number 315 317	98
+T36	Amount-Unit 317 318	%
+T37	Number 464 468	99.9
+T38	Amount-Unit 468 469	%
+T39	Number 632 634	40
+T40	Amount-Unit 635 640	mg/mL
+T41	Number 687 693	15,000
+T42	Amount-Unit 681 683	Mw
+T43	Number 745 747	99
+T44	Amount-Unit 747 748	%
+T45	Number 782 783	1
+T46	Condition-Unit 784 785	h
+T47	Number 819 821	24
+T48	Condition-Unit 822 823	h
+T49	Number 906 911	3,000
+T50	Condition-Unit 912 915	rpm
+T51	Number 920 922	30
+T52	Condition-Unit 923 924	s
+T53	Number 942 945	100
+T54	Number 949 952	250
+T55	Condition-Unit 953 957	degC
+T56	Number 969 970	1
+T57	Condition-Unit 971 972	h
+T59	Material-Descriptor 323 325	DI
+T61	Brand 306 313	Aldrich
+T62	Brand 455 462	Aldrich
+T63	Amount-Misc 481 497	same molar ratio
+T58	Brand 672 679	Aldrich
+T60	Brand 730 743	Sigma-Aldrich
+T64	Condition-Misc 789 805	room temperature
+T65	Material-Descriptor 829 838	precursor
+T66	Operation 265 275	dissolving
+E11	Operation:T66 Recipe_Precursor:T14 Solvent_Material:T16
+R1	Next_Operation Arg1:E1 Arg2:E11	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E6 Arg2:E7	
+R5	Next_Operation Arg1:E7 Arg2:E8	
+R8	Coref_Of Arg1:T15 Arg2:T14	
+R9	Coref_Of Arg1:T20 Arg2:T19	
+R10	Coref_Of Arg1:T26 Arg2:T25	
+R11	Coref_Of Arg1:T28 Arg2:T27	
+R12	Condition_Of Arg1:T46 Arg2:E6	
+R13	Condition_Of Arg1:T64 Arg2:E6	
+R14	Condition_Of Arg1:T48 Arg2:E7	
+R6	Next_Operation Arg1:E8 Arg2:E10	
+R7	Condition_Of Arg1:T50 Arg2:E8	
+R15	Condition_Of Arg1:T52 Arg2:E8	
+R16	Condition_Of Arg1:T55 Arg2:E10	
+R17	Amount_Of Arg1:T34 Arg2:T13	
+R18	Amount_Of Arg1:T36 Arg2:T14	
+R19	Amount_Of Arg1:T38 Arg2:T19	
+R20	Amount_Of Arg1:T63 Arg2:T19	
+R21	Amount_Of Arg1:T40 Arg2:T25	
+R22	Amount_Of Arg1:T42 Arg2:T25	
+R23	Amount_Of Arg1:T44 Arg2:T27	
+R24	Descriptor_Of Arg1:T59 Arg2:T16	
+R25	Descriptor_Of Arg1:T65 Arg2:T30	
+R26	Number_Of Arg1:T33 Arg2:T34	
+R27	Number_Of Arg1:T35 Arg2:T36	
+R28	Number_Of Arg1:T37 Arg2:T38	
+R29	Number_Of Arg1:T39 Arg2:T40	
+R30	Number_Of Arg1:T41 Arg2:T42	
+R31	Number_Of Arg1:T43 Arg2:T44	
+R32	Number_Of Arg1:T45 Arg2:T46	
+R33	Number_Of Arg1:T47 Arg2:T48	
+R34	Number_Of Arg1:T49 Arg2:T50	
+R35	Number_Of Arg1:T51 Arg2:T52	
+R36	Number_Of Arg1:T53 Arg2:T55	
+R37	Number_Of Arg1:T54 Arg2:T55	
+R38	Number_Of Arg1:T56 Arg2:T57	
+R39	Brand_Of Arg1:T61 Arg2:T14	
+R40	Brand_Of Arg1:T62 Arg2:T19	
+R41	Brand_Of Arg1:T58 Arg2:T25	
+R42	Brand_Of Arg1:T60 Arg2:T27	

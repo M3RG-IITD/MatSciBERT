@@ -1,0 +1,93 @@
+T1	Nonrecipe-Material 83 85	Co
+T2	Nonrecipe-Material 86 88	Li
+T3	Material 146 155	chemicals
+T4	Operation 161 170	purchased
+E1	Operation:T4 Participant_Material:T3
+T5	Brand 176 189	Aldrich Sigma
+T6	Operation 267 278	synthesized
+E2	Operation:T6 Recipe_Target:T15
+T7	Operation 363 372	dissolved
+E3	Operation:T7 Recipe_Precursor:T19 Recipe_Precursor:T20 Solvent_Material:T21
+T8	Operation 408 413	added
+E4	Operation:T8 Participant_Material:T28
+T9	Operation 492 500	stirring
+E5	Operation:T9 
+T10	Operation 513 518	aging
+E6	Operation:T10 
+T11	Operation 566 581	co-precipitated
+E7	Operation:T11 Participant_Material:T35 Participant_Material:T34
+T12	Operation 647 658	pre-treated
+E8	Operation:T12 Participant_Material:T36 Atmospheric_Material:T46
+T13	Operation 695 703	calcined
+E9	Operation:T13 Recipe_Precursor:T48 Atmospheric_Material:T50
+T14	Operation 784 791	produce
+E10	Operation:T14 Participant_Material:T49
+R1	Next_Operation Arg1:E1 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Next_Operation Arg1:E8 Arg2:E9	
+R8	Next_Operation Arg1:E9 Arg2:E10	
+R9	Brand_Of Arg1:T5 Arg2:T3	
+T15	Material 195 223	Li[CoxLi1/3-x/3Mn2/3-2x/3]O2
+T16	Number 229 249	0, 0.087, 0.1, 0.118
+T17	Property-Misc 251 261	composites
+R10	Property_Of Arg1:T17 Arg2:T15	
+T18	Amount-Misc 300 322	stoichiometric amounts
+T19	Material 326 339	Mn(NO3)2*4H2O
+T20	Material 344 357	Co(NO3)2*6H2O
+R11	Amount_Of Arg1:T18 Arg2:T19	
+R12	Amount_Of Arg1:T18 Arg2:T20	
+T21	Material 386 391	water
+T22	Material-Descriptor 376 385	distilled
+R13	Descriptor_Of Arg1:T22 Arg2:T21	
+T23	Condition-Misc 401 407	slowly
+R14	Condition_Of Arg1:T23 Arg2:E4	
+T24	Condition-Misc 414 422	dropwise
+R15	Condition_Of Arg1:T24 Arg2:E4	
+T25	Number 445 448	0.2
+T26	Amount-Misc 429 441	equal volume
+T27	Amount-Unit 449 450	M
+T28	Material 451 467	sodium carbonate
+T29	Material-Descriptor 468 476	solution
+T30	Condition-Misc 483 491	vigorous
+R16	Condition_Of Arg1:T30 Arg2:E5	
+R17	Descriptor_Of Arg1:T29 Arg2:T28	
+R18	Number_Of Arg1:T25 Arg2:T27	
+R19	Amount_Of Arg1:T27 Arg2:T28	
+R20	Amount_Of Arg1:T26 Arg2:T28	
+T31	Number 508 510	20
+T32	Condition-Unit 511 512	h
+T33	Condition-Misc 522 538	room temperature
+T34	Material 585 595	carbonates
+T35	Material 544 554	metal ions
+R21	Condition_Of Arg1:T33 Arg2:E6	
+R22	Number_Of Arg1:T31 Arg2:T32	
+R23	Condition_Of Arg1:T32 Arg2:E6	
+T36	Material 631 641	carbonates
+T37	Material-Descriptor 621 630	collected
+T38	Number 662 665	500
+T39	Number 675 676	5
+T40	Number 748 751	900
+T41	Number 769 771	12
+T42	Condition-Unit 666 670	degC
+T43	Condition-Unit 677 678	h
+T44	Condition-Unit 752 756	degC
+T45	Condition-Unit 772 773	h
+T46	Material 682 685	air
+T47	Amount-Misc 711 732	stoichiometric amount
+T48	Material 736 744	LiOH*H2O
+T49	Material 796 819	final cathode materials
+T50	Material 777 780	air
+R24	Descriptor_Of Arg1:T37 Arg2:T36	
+R25	Number_Of Arg1:T38 Arg2:T42	
+R26	Number_Of Arg1:T39 Arg2:T43	
+R27	Condition_Of Arg1:T42 Arg2:E8	
+R28	Condition_Of Arg1:T43 Arg2:E8	
+R29	Amount_Of Arg1:T47 Arg2:T48	
+R30	Number_Of Arg1:T40 Arg2:T44	
+R31	Condition_Of Arg1:T44 Arg2:E9	
+R32	Number_Of Arg1:T41 Arg2:T45	
+R33	Condition_Of Arg1:T45 Arg2:E9	

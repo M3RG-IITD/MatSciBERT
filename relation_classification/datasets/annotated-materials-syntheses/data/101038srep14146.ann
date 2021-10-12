@@ -1,0 +1,250 @@
+T1	Material 126 143	Polyacrylonitrile
+T2	Material 145 148	PAN
+T3	Operation 166 170	made
+E1	Operation:T3 
+T4	Operation 291 300	purchased
+E2	Operation:T4 Recipe_Precursor:T53 Recipe_Precursor:T51 Recipe_Precursor:T49
+T5	Operation 401 410	purchased
+E3	Operation:T5 Recipe_Precursor:T56 Recipe_Precursor:T55
+T6	Operation 477 481	used
+E4	Operation:T6 Participant_Material:T57
+T7	Operation 498 510	purification
+E5	Operation:T7 
+T8	Operation 526 537	synthesized
+E6	Operation:T8 Recipe_Target:T58
+T9	Operation 663 668	mixed
+E7	Operation:T9 Recipe_Precursor:T60 Recipe_Precursor:T59
+T10	Operation 685 693	stirring
+E8	Operation:T10 
+T11	Operation 727 735	adjusted
+E9	Operation:T11 Participant_Material:T63 Participant_Material:T64
+T12	Operation 794 805	transferred
+E10	Operation:T12 Participant_Material:T65
+T13	Operation 826 833	reacted
+E11	Operation:T13 
+T14	Operation 870 877	cooling
+E12	Operation:T14 
+T15	Operation 900 909	collected
+E13	Operation:T15 Participant_Material:T66
+T16	Operation 913 923	filtration
+E14	Operation:T16 
+T17	Operation 928 934	washed
+E15	Operation:T17 Participant_Material:T67 Participant_Material:T68
+T18	Operation 1016 1024	obtained
+E16	Operation:T18 Recipe_Target:T69
+T19	Operation 1059 1065	washed
+E17	Operation:T19 Recipe_Target:T70 Participant_Material:T71
+T20	Operation 1088 1099	centrifuged
+E18	Operation:T20 
+T21	Operation 1109 1114	added
+E19	Operation:T21 Participant_Material:T72
+T22	Operation 1164 1179	electrospinning
+E20	Operation:T22 Participant_Material:T113
+T23	Operation 1200 1208	stirring
+E21	Operation:T23 
+T24	Operation 1213 1222	conducted
+E22	Operation:T24 
+T25	Operation 1244 1247	get
+E23	Operation:T25 Participant_Material:T115
+T26	Operation 1295 1302	blended
+E24	Operation:T26 Participant_Material:T73
+T27	Operation 1316 1327	electrospun
+E25	Operation:T27 Participant_Material:T73 Participant_Material:T74
+T28	Operation 1506 1512	adding
+E26	Operation:T28 Recipe_Target:T75
+T29	Number 155 160	80000
+T30	Reference 184 186	52
+T31	Brand 306 349	Shanghai Lingfeng Chemical Reagent Co., Ltd
+T32	Brand 416 451	Sinopharm Chemical Reagent Co., Ltd
+T33	Meta 543 555	hydrothermal
+T34	Number 605 606	1
+T35	Number 625 628	1.5
+T36	Number 653 656	3:2
+T37	Number 737 738	2
+T38	Number 744 745	5
+T39	Number 845 848	140
+T40	Number 858 860	12
+T41	Number 1135 1136	8
+T42	Number 1227 1229	12
+T43	Number 1382 1384	25
+T44	Number 1420 1422	20
+T45	Number 1445 1447	20
+T46	Number 1551 1553	10
+T47	Number 1559 1561	20
+T48	Number 1570 1572	30
+T49	Material 188 210	Potassium permanganate
+T50	Material 212 217	KMnO4
+T51	Material 224 237	sulfuric acid
+T52	Material 239 244	H2SO4
+T53	Material 254 275	N,N-dimethylformamide
+T54	Material 277 280	DMF
+T55	Material 351 380	Manganese sulfate monohydrate
+T56	Material 382 391	MnSO4*H2O
+T57	Material 463 471	reagents
+T58	Material 512 520	MnO2 NWs
+T59	Material 594 603	MnSO4*H2O
+T60	Material 617 622	KMnO4
+T61	Nonrecipe-Material 643 650	Mn(VII)
+T62	Nonrecipe-Material 636 642	Mn(II)
+T63	Material 715 722	mixture
+T64	Material 748 753	H2SO4
+T65	Material 781 789	solution
+T66	Material 888 895	product
+T67	Material 959 964	water
+T68	Material 978 985	ethanol
+T69	Material 996 1004	MnO2 NWs
+T70	Material 1039 1047	MnO2 NWs
+T71	Material 1083 1086	DMF
+T72	Material 1141 1148	PAN/DMF
+T73	Material 1303 1311	solution
+T74	Material 1333 1336	MnP
+T75	Material 1524 1532	MnO2 NWs
+T76	Material 1542 1545	PAN
+T77	Material 1581 1586	MnP-1
+T78	Material 1588 1593	MnP-2
+T79	Material 1598 1603	MnP-3
+T80	Amount-Unit 150 152	Mw
+T81	Amount-Unit 607 611	mmol
+T82	Amount-Unit 629 633	mmol
+T83	Amount-Unit 746 747	M
+T84	Condition-Unit 699 701	PH
+T85	Condition-Unit 849 853	degC
+T86	Condition-Unit 861 862	h
+T87	Amount-Unit 1137 1140	wt%
+T88	Condition-Unit 1230 1231	h
+T89	Apparatus-Unit 1385 1393	μL min-1
+T90	Condition-Unit 1423 1425	kV
+T91	Apparatus-Unit 1448 1450	cm
+T92	Amount-Unit 1554 1557	wt%
+T93	Amount-Unit 1562 1565	wt%
+T94	Amount-Unit 1573 1576	wt%
+T95	Amount-Misc 219 221	AR
+T96	Amount-Misc 246 248	AR
+T97	Amount-Misc 282 284	AR
+T98	Amount-Misc 393 395	AR
+T99	Condition-Misc 482 489	without
+T100	Material-Descriptor 573 590	aqueous solutions
+T101	Condition-Misc 674 684	vigorously
+T102	Material-Descriptor 754 770	aqueous solution
+T103	Synthesis-Apparatus 812 821	autoclave
+T104	Synthesis-Apparatus 837 841	oven
+T105	Material-Descriptor 949 958	distilled
+T106	Material-Descriptor 969 977	absolute
+T107	Property-Misc 1005 1011	powder
+T108	Operation 1030 1038	obtained
+E27	Operation:T108 Recipe_Target:T70
+T109	Property-Misc 1048 1054	powder
+T110	Number 1066 1071	three
+T111	Condition-Unit 1072 1077	times
+T112	Material-Descriptor 1149 1157	solution
+T113	Material 1180 1188	solution
+T114	Condition-Misc 1190 1199	Intensive
+T115	Material 1276 1284	solution
+T116	Material-Descriptor 1250 1275	homogeneously distributed
+T117	Material-Descriptor 1337 1346	membranes
+T118	Synthesis-Apparatus 1366 1378	syringe pump
+T119	Apparatus-Descriptor 1355 1365	controlled
+T120	Condition-Type 1401 1416	applied voltage
+T121	Apparatus-Property-Type 1433 1441	distance
+T122	Synthesis-Apparatus 1491 1500	collector
+T123	Synthesis-Apparatus 1479 1482	jet
+T124	Apparatus-Descriptor 1463 1478	electrospinning
+T125	Material 31 34	MnO
+T126	Property-Misc 18 27	Membranes
+T127	Property-Misc 76 82	Anodes
+R1	Property_Of Arg1:T126 Arg2:T125	
+R2	Property_Of Arg1:T127 Arg2:T125	
+A1	Start_Recipe E1
+R3	Next_Operation Arg1:E1 Arg2:E2	
+R4	Next_Operation Arg1:E2 Arg2:E3	
+R5	Next_Operation Arg1:E3 Arg2:E4	
+R6	Next_Operation Arg1:E4 Arg2:E5	
+R7	Next_Operation Arg1:E5 Arg2:E6	
+R8	Next_Operation Arg1:E6 Arg2:E7	
+R9	Next_Operation Arg1:E7 Arg2:E8	
+R10	Next_Operation Arg1:E8 Arg2:E9	
+R11	Next_Operation Arg1:E9 Arg2:E10	
+R12	Next_Operation Arg1:E10 Arg2:E11	
+R13	Next_Operation Arg1:E11 Arg2:E12	
+R14	Next_Operation Arg1:E12 Arg2:E13	
+R15	Next_Operation Arg1:E13 Arg2:E14	
+R16	Next_Operation Arg1:E14 Arg2:E15	
+R17	Next_Operation Arg1:E15 Arg2:E16	
+R18	Next_Operation Arg1:E16 Arg2:E27	
+R19	Next_Operation Arg1:E27 Arg2:E17	
+R20	Next_Operation Arg1:E17 Arg2:E18	
+R21	Next_Operation Arg1:E18 Arg2:E19	
+R22	Next_Operation Arg1:E19 Arg2:E20	
+R23	Next_Operation Arg1:E20 Arg2:E21	
+R24	Next_Operation Arg1:E21 Arg2:E22	
+R25	Next_Operation Arg1:E22 Arg2:E23	
+R26	Next_Operation Arg1:E23 Arg2:E24	
+R27	Next_Operation Arg1:E24 Arg2:E25	
+R28	Next_Operation Arg1:E25 Arg2:E26	
+A2	End_Recipe E26
+R29	Coref_Of Arg1:T2 Arg2:T1	
+R30	Number_Of Arg1:T29 Arg2:T80	
+R31	Amount_Of Arg1:T80 Arg2:T1	
+R32	Coref_Of Arg1:T50 Arg2:T49	
+R33	Amount_Of Arg1:T95 Arg2:T49	
+R34	Coref_Of Arg1:T52 Arg2:T51	
+R35	Coref_Of Arg1:T54 Arg2:T53	
+R36	Amount_Of Arg1:T96 Arg2:T51	
+R37	Amount_Of Arg1:T97 Arg2:T53	
+R38	Brand_Of Arg1:T31 Arg2:T53	
+R39	Brand_Of Arg1:T31 Arg2:T51	
+R40	Brand_Of Arg1:T31 Arg2:T49	
+R41	Amount_Of Arg1:T98 Arg2:T55	
+R42	Coref_Of Arg1:T56 Arg2:T55	
+R43	Brand_Of Arg1:T32 Arg2:T55	
+R44	Condition_Of Arg1:T99 Arg2:E5	
+R45	Descriptor_Of Arg1:T100 Arg2:T59	
+R46	Number_Of Arg1:T34 Arg2:T81	
+R47	Amount_Of Arg1:T81 Arg2:T59	
+R48	Amount_Of Arg1:T82 Arg2:T60	
+R49	Number_Of Arg1:T35 Arg2:T82	
+R50	Condition_Of Arg1:T101 Arg2:E8	
+R51	Number_Of Arg1:T37 Arg2:T84	
+R52	Condition_Of Arg1:T84 Arg2:E9	
+R53	Number_Of Arg1:T38 Arg2:T83	
+R54	Amount_Of Arg1:T83 Arg2:T64	
+R55	Descriptor_Of Arg1:T102 Arg2:T64	
+R56	Apparatus_Of Arg1:T103 Arg2:E10	
+R57	Apparatus_Of Arg1:T104 Arg2:E11	
+R58	Number_Of Arg1:T39 Arg2:T85	
+R59	Condition_Of Arg1:T85 Arg2:E11	
+R60	Number_Of Arg1:T40 Arg2:T86	
+R61	Condition_Of Arg1:T86 Arg2:E11	
+R62	Descriptor_Of Arg1:T105 Arg2:T67	
+R63	Descriptor_Of Arg1:T106 Arg2:T68	
+R64	Property_Of Arg1:T107 Arg2:T69	
+R65	Property_Of Arg1:T109 Arg2:T70	
+R66	Number_Of Arg1:T110 Arg2:T111	
+R67	Condition_Of Arg1:T111 Arg2:E17	
+R68	Number_Of Arg1:T41 Arg2:T87	
+R69	Amount_Of Arg1:T87 Arg2:T72	
+R70	Descriptor_Of Arg1:T112 Arg2:T72	
+R71	Condition_Of Arg1:T114 Arg2:E21	
+R72	Number_Of Arg1:T42 Arg2:T88	
+R73	Condition_Of Arg1:T88 Arg2:E22	
+R74	Descriptor_Of Arg1:T116 Arg2:T115	
+R75	Descriptor_Of Arg1:T117 Arg2:T74	
+R76	Descriptor_Of Arg1:T119 Arg2:T118	
+R77	Apparatus_Of Arg1:T118 Arg2:E25	
+R78	Number_Of Arg1:T43 Arg2:T89	
+R79	Apparatus_Attr_Of Arg1:T89 Arg2:T118	
+R80	Number_Of Arg1:T44 Arg2:T90	
+R82	Condition_Of Arg1:T90 Arg2:E25	
+R81	Type_Of Arg1:T120 Arg2:T90	
+R83	Number_Of Arg1:T45 Arg2:T91	
+R84	Type_Of Arg1:T121 Arg2:T91	
+R85	Apparatus_Attr_Of Arg1:T91 Arg2:T123	
+R86	Apparatus_Attr_Of Arg1:T91 Arg2:T122	
+R87	Descriptor_Of Arg1:T124 Arg2:T123	
+R88	Descriptor_Of Arg1:T124 Arg2:T122	
+R89	Number_Of Arg1:T46 Arg2:T92	
+R90	Number_Of Arg1:T47 Arg2:T93	
+R91	Number_Of Arg1:T48 Arg2:T94	
+R92	Amount_Of Arg1:T92 Arg2:T77	
+R93	Amount_Of Arg1:T93 Arg2:T78	
+R94	Amount_Of Arg1:T94 Arg2:T79	

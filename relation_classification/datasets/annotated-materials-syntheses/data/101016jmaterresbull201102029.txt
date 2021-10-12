@@ -1,0 +1,4 @@
+10.1016/j.materresbull.2011.02.029
+Preparation of nitrogen doped TiO2 photocatalyst by oxidation of titanium nitride with H2O2
+
+In a typical synthesis, 500 mg TiN (99% Hefei Kaier Nano Company (China)) was dispersed in 80 mL of the different concentrations of H2O2 solution, and then the mixture was subject to 700 W ultrasonication for 10 min. After vigorously stirred for 2 h, the solid was transferred into a Teflon-lined autoclave (100 mL) and then heated at 170 degC for 24 h. After the hydrothermal treatment, the precipitate was collected and washed with distilled water and absolute alcohol for three times, respectively. The product was dried in air at 110 degC for 24 h. The as-synthesized samples were denoted as NT-X (X denotes the weight concentration of H2O2 in solution, wt%).

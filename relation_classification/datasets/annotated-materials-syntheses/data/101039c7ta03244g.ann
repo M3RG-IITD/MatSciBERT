@@ -1,0 +1,270 @@
+T1	Material 36 65	zeolite imidazolate framework
+T2	Property-Misc 66 85	composite membranes
+T3	Meta 103 142	chelation-assisted interfacial reaction
+T4	Operation 201 210	purchased
+E1	Operation:T4 Participant_Material:T29
+T5	Operation 346 354	supplied
+E2	Operation:T5 Participant_Material:T36 Participant_Material:T35 Participant_Material:T34
+T6	Operation 505 513	obtained
+E3	Operation:T6 Participant_Material:T40 Participant_Material:T48 Participant_Material:T46 Participant_Material:T44 Participant_Material:T42
+T7	Operation 571 575	used
+E4	Operation:T7 
+T8	Operation 723 732	purchased
+E5	Operation:T8 Recipe_Precursor:T53 Recipe_Precursor:T51
+T9	Operation 821 829	supplied
+E6	Operation:T9 Participant_Material:T57
+T10	Operation 927 936	purchased
+E7	Operation:T10 Participant_Material:T65 Participant_Material:T61
+T11	Operation 1038 1046	produced
+E8	Operation:T11 Solvent_Material:T68
+T12	Operation 1136 1140	used
+E9	Operation:T12 Participant_Material:T72
+T13	Operation 1321 1327	obtain
+E10	Operation:T13 Participant_Material:T77
+T14	Operation 1386 1396	hydrolyzed
+E11	Operation:T14 Solvent_Material:T79
+T16	Operation 1552 1558	soaked
+E12	Operation:T16 Participant_Material:T89 Solvent_Material:T94
+T17	Operation 1717 1727	introduced
+E13	Operation:T17 Participant_Material:T104 Participant_Material:T105
+T15	Operation 1472 1479	rinsing
+E14	Operation:T15 Solvent_Material:T87
+T18	Operation 1946 1952	poured
+E15	Operation:T18 Participant_Material:T119 Participant_Material:T120
+T19	Operation 2026 2031	wiped
+E16	Operation:T19 
+T20	Operation 2105 2113	immersed
+E17	Operation:T20 Participant_Material:T122 Participant_Material:T125 Solvent_Material:T126
+T21	Operation 2190 2200	synthesize
+E18	Operation:T21 Recipe_Target:T132
+T22	Operation 2267 2273	rinsed
+E19	Operation:T22 Participant_Material:T135 Solvent_Material:T137
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E7	
+R7	Next_Operation Arg1:E7 Arg2:E8	
+R8	Next_Operation Arg1:E8 Arg2:E9	
+R9	Next_Operation Arg1:E9 Arg2:E10	
+R10	Next_Operation Arg1:E10 Arg2:E11	
+R11	Next_Operation Arg1:E11 Arg2:E14	
+R12	Next_Operation Arg1:E14 Arg2:E12	
+R13	Next_Operation Arg1:E12 Arg2:E13	
+R14	Next_Operation Arg1:E15 Arg2:E16	
+R15	Next_Operation Arg1:E16 Arg2:E17	
+R16	Next_Operation Arg1:E17 Arg2:E18	
+R17	Next_Operation Arg1:E18 Arg2:E19	
+T23	Brand 216 259	Beijing Ande Technology Corporation (China)
+T24	Brand 360 390	Beijing Chemical Works (China)
+T25	Brand 519 566	Tianjin Guangfu Fine Chemical Institute (China)
+T26	Brand 738 776	Aladdin Industrial Corporation (China)
+T27	Brand 833 854	TCI Chemicals (Japan)
+T28	Brand 942 977	Beijing Aobox Biotechnology (China)
+T29	Material 143 160	Polyacrylonitrile
+T30	Material 162 165	PAN
+T31	Material-Descriptor 167 179	UF membranes
+T32	Number 187 190	200
+T33	Amount-Unit 191 194	kDa
+T34	Material 261 277	Sodium hydroxide
+T35	Material 286 301	sodium chloride
+T36	Material 314 332	magnesium chloride
+T37	Material 279 283	NaOH
+T38	Material 303 307	NaCl
+T39	Material 334 339	MgCl2
+T40	Material 392 403	Methyl blue
+T41	Material 405 407	MB
+T42	Material 410 419	Congo red
+T43	Material 421 423	CR
+T44	Material 426 438	acid fuchsin
+T45	Material 440 442	AF
+T46	Material 445 462	magnesium sulfate
+T47	Material 464 469	MgSO4
+T48	Material 476 490	sodium sulfate
+T49	Material 492 498	Na2SO4
+T50	Material 623 628	ZIF-8
+T51	Material 640 664	zinc nitrate hexahydrate
+T52	Material 666 679	Zn(NO3)2*6H2O
+T53	Material 685 702	2-methylimidazole
+T54	Material 704 708	Hmim
+T55	Number 710 714	99.5
+T56	Amount-Unit 714 715	%
+T57	Material 778 795	Polyethyleneimine
+T58	Material 797 800	PEI
+T59	Number 806 812	750000
+T60	Amount-Unit 813 815	Da
+T61	Material 856 876	Bovine serum albumin
+T62	Material 878 881	BSA
+T63	Number 887 892	67000
+T64	Amount-Unit 893 900	g mol-1
+T65	Material 906 916	humic acid
+T66	Material 918 920	HA
+T67	Brand 982 1002	Macklin Inc. (China)
+T68	Material 1028 1033	water
+T69	Material-Descriptor 1018 1027	Ultrapure
+T70	Synthesis-Apparatus 1052 1081	lab water purification system
+T71	Brand 1083 1096	HYP-QX, China
+T72	Material 1107 1130	chemicals and materials
+T73	Material 1186 1200	ZIF-8/PEI-HPAN
+T74	Property-Misc 1201 1219	composite membrane
+T75	Material 1274 1279	ZIF-8
+T76	Reference 1315 1317	29
+T77	Material 1362 1365	PAN
+T78	Material-Descriptor 1366 1375	substrate
+T79	Material 1403 1407	NaOH
+T80	Material-Descriptor 1408 1424	aqueous solution
+T81	Number 1426 1427	2
+T82	Amount-Unit 1428 1435	mol L-1
+T83	Number 1440 1442	65
+T84	Number 1452 1454	60
+T85	Condition-Unit 1443 1447	degC
+T86	Condition-Unit 1455 1458	min
+T87	Material 1485 1493	DI-water
+T88	Reference 1503 1505	30
+T89	Material 1516 1530	hydrolyzed PAN
+T90	Material 1532 1536	HPAN
+T91	Material-Descriptor 1538 1547	substrate
+T92	Number 1564 1571	0.2-0.6
+T93	Amount-Unit 1572 1579	mol L-1
+T94	Material 1580 1588	Zn(NO3)2
+T95	Material-Descriptor 1589 1605	aqueous solution
+T96	Number 1610 1611	5
+T97	Condition-Unit 1612 1613	h
+T98	Number 1617 1624	25 +- 1
+T99	Condition-Unit 1625 1629	degC
+T100	Nonrecipe-Material 1644 1648	Zn2+
+T101	Material 1656 1660	HPAN
+T102	Material-Descriptor 1661 1678	substrate surface
+T103	Reference 1688 1693	16,22
+T104	Material 1704 1712	membrane
+T105	Material 1735 1751	mixed PEI-Zn(II)
+T106	Material-Descriptor 1752 1768	complex solution
+T107	Number 1780 1787	0.1-0.3
+T108	Amount-Unit 1788 1795	mol L-1
+T109	Material 1796 1808	zinc nitrate
+T110	Number 1813 1816	0.4
+T111	Amount-Unit 1817 1820	wt%
+T112	Material 1821 1824	PEI
+T113	Material-Descriptor 1825 1841	aqueous solution
+T114	Number 1846 1849	0.5
+T115	Condition-Unit 1850 1851	h
+T116	Condition-Misc 1857 1877	constant temperature
+T117	Number 1879 1884	20-50
+T118	Condition-Unit 1885 1889	degC
+T119	Material 1916 1941	residual aqueous solution
+T120	Material 1966 1989	residual water droplets
+T121	Synthesis-Apparatus 2044 2056	filter paper
+T122	Material 2071 2100	PEI-Zn(II)-saturated membrane
+T123	Number 2119 2123	0.20
+T124	Amount-Unit 2124 2131	mol L-1
+T125	Material 2132 2136	Hmim
+T126	Material 2142 2148	hexane
+T127	Material-Descriptor 2149 2157	solution
+T128	Number 2162 2166	5-20
+T129	Condition-Unit 2167 2170	min
+T130	Condition-Unit 2182 2186	degC
+T131	Number 2174 2181	25 +- 2
+T132	Material 2201 2206	ZIF-8
+T133	Property-Misc 2207 2215	crystals
+T134	Reference 2233 2235	14
+T135	Material 2240 2257	obtained membrane
+T136	Condition-Misc 2274 2285	three times
+T137	Material 2291 2298	ethanol
+T138	Operation 2303 2308	dried
+E20	Operation:T138 
+R18	Next_Operation Arg1:E19 Arg2:E20	
+T139	Condition-Misc 2312 2328	room temperature
+T140	Number 2330 2337	25 +- 2
+T141	Condition-Unit 2338 2342	degC
+T142	Condition-Unit 2350 2351	h
+T143	Number 2348 2349	2
+R19	Coref_Of Arg1:T30 Arg2:T29	
+R20	Descriptor_Of Arg1:T31 Arg2:T29	
+R21	Number_Of Arg1:T32 Arg2:T33	
+R22	Amount_Of Arg1:T33 Arg2:T29	
+R23	Brand_Of Arg1:T23 Arg2:T29	
+R24	Coref_Of Arg1:T37 Arg2:T34	
+R25	Coref_Of Arg1:T38 Arg2:T35	
+R26	Coref_Of Arg1:T39 Arg2:T36	
+R27	Brand_Of Arg1:T24 Arg2:T34	
+R28	Brand_Of Arg1:T24 Arg2:T36	
+R29	Brand_Of Arg1:T24 Arg2:T35	
+R30	Coref_Of Arg1:T41 Arg2:T40	
+R31	Coref_Of Arg1:T43 Arg2:T42	
+R32	Coref_Of Arg1:T45 Arg2:T44	
+R33	Coref_Of Arg1:T47 Arg2:T46	
+R34	Coref_Of Arg1:T49 Arg2:T48	
+R35	Brand_Of Arg1:T25 Arg2:T48	
+R36	Brand_Of Arg1:T25 Arg2:T46	
+R37	Brand_Of Arg1:T25 Arg2:T44	
+R38	Brand_Of Arg1:T25 Arg2:T42	
+R39	Brand_Of Arg1:T25 Arg2:T40	
+R40	Coref_Of Arg1:T52 Arg2:T51	
+R41	Coref_Of Arg1:T54 Arg2:T53	
+R42	Number_Of Arg1:T55 Arg2:T56	
+R43	Amount_Of Arg1:T56 Arg2:T53	
+R44	Brand_Of Arg1:T26 Arg2:T53	
+R45	Brand_Of Arg1:T26 Arg2:T51	
+R46	Coref_Of Arg1:T58 Arg2:T57	
+R47	Number_Of Arg1:T59 Arg2:T60	
+R48	Amount_Of Arg1:T60 Arg2:T57	
+R49	Brand_Of Arg1:T27 Arg2:T57	
+R50	Coref_Of Arg1:T62 Arg2:T61	
+R51	Number_Of Arg1:T63 Arg2:T64	
+R52	Amount_Of Arg1:T64 Arg2:T61	
+R53	Coref_Of Arg1:T66 Arg2:T65	
+R54	Brand_Of Arg1:T28 Arg2:T61	
+R55	Brand_Of Arg1:T67 Arg2:T65	
+R56	Descriptor_Of Arg1:T69 Arg2:T68	
+R57	Apparatus_Of Arg1:T70 Arg2:E8	
+R58	Brand_Of Arg1:T71 Arg2:T70	
+R59	Property_Of Arg1:T74 Arg2:T73	
+R60	Descriptor_Of Arg1:T78 Arg2:T77	
+R61	Descriptor_Of Arg1:T80 Arg2:T79	
+R62	Number_Of Arg1:T81 Arg2:T82	
+R63	Amount_Of Arg1:T82 Arg2:T79	
+R64	Number_Of Arg1:T83 Arg2:T85	
+R65	Condition_Of Arg1:T85 Arg2:E11	
+R66	Number_Of Arg1:T84 Arg2:T86	
+R67	Condition_Of Arg1:T86 Arg2:E11	
+R68	Coref_Of Arg1:T90 Arg2:T89	
+R69	Descriptor_Of Arg1:T91 Arg2:T89	
+R70	Number_Of Arg1:T92 Arg2:T93	
+R71	Amount_Of Arg1:T93 Arg2:T94	
+R72	Descriptor_Of Arg1:T95 Arg2:T94	
+R73	Number_Of Arg1:T96 Arg2:T97	
+R74	Condition_Of Arg1:T97 Arg2:E12	
+R75	Number_Of Arg1:T98 Arg2:T99	
+R76	Condition_Of Arg1:T99 Arg2:E12	
+R77	Descriptor_Of Arg1:T102 Arg2:T101	
+R78	Next_Operation Arg1:E13 Arg2:E21	
+R79	Descriptor_Of Arg1:T106 Arg2:T105	
+R80	Number_Of Arg1:T107 Arg2:T108	
+R81	Amount_Of Arg1:T108 Arg2:T109	
+R82	Number_Of Arg1:T110 Arg2:T111	
+R83	Amount_Of Arg1:T111 Arg2:T112	
+R84	Descriptor_Of Arg1:T113 Arg2:T112	
+T144	Operation 1769 1779	containing
+E21	Operation:T144 Solvent_Material:T109 Participant_Material:T112
+R85	Next_Operation Arg1:E21 Arg2:E15	
+R86	Number_Of Arg1:T114 Arg2:T115	
+R87	Condition_Of Arg1:T115 Arg2:E21	
+R88	Condition_Of Arg1:T116 Arg2:E21	
+R89	Number_Of Arg1:T117 Arg2:T118	
+R90	Condition_Of Arg1:T118 Arg2:E21	
+R91	Apparatus_Of Arg1:T121 Arg2:E16	
+R92	Number_Of Arg1:T123 Arg2:T124	
+R93	Amount_Of Arg1:T124 Arg2:T125	
+R94	Descriptor_Of Arg1:T127 Arg2:T126	
+R95	Number_Of Arg1:T128 Arg2:T129	
+R96	Condition_Of Arg1:T129 Arg2:E17	
+R97	Number_Of Arg1:T131 Arg2:T130	
+R98	Condition_Of Arg1:T130 Arg2:E17	
+R99	Property_Of Arg1:T133 Arg2:T132	
+R100	Condition_Of Arg1:T136 Arg2:E19	
+R101	Condition_Of Arg1:T139 Arg2:E20	
+R102	Number_Of Arg1:T140 Arg2:T141	
+R103	Condition_Of Arg1:T141 Arg2:E20	
+R104	Number_Of Arg1:T143 Arg2:T142	
+R105	Condition_Of Arg1:T142 Arg2:E20	

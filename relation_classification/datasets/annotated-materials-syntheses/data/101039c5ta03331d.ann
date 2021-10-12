@@ -1,0 +1,99 @@
+T1	Operation 187 195	prepared
+E1	Operation:T1 Recipe_Target:T8
+T2	Operation 199 212	precipitation
+E2	Operation:T2 Recipe_Precursor:T9 Recipe_Precursor:T10 Recipe_Precursor:T11
+T3	Operation 394 403	dissolved
+E3	Operation:T3 Recipe_Precursor:T12 Solvent_Material:T17 Solvent_Material:T18 Solvent_Material:T19
+T4	Operation 479 485	heated
+E4	Operation:T4 
+T5	Operation 569 574	added
+E5	Operation:T5 Participant_Material:T22 Recipe_Precursor:T23
+T6	Operation 679 687	obtained
+E6	Operation:T6 Participant_Material:T24
+T7	Operation 691 698	cooling
+E7	Operation:T7 Participant_Material:T25
+T8	Material 152 162	CH3NH3PbX3
+T9	Material 218 230	hydrochloric
+T10	Material 232 243	hydrobromic
+T11	Material 248 263	hydroiodic acid
+T12	Material 338 354	lead(II) acetate
+T13	Brand 375 388	Sigma-Aldrich
+T14	Material-Descriptor 356 373	Chemical Reagents
+T15	Number 407 409	10
+T16	Amount-Unit 410 412	ml
+T17	Material 437 440	HCl
+T18	Material 450 453	HBr
+T19	Material 463 465	HI
+T20	Number 495 497	90
+T21	Condition-Unit 498 502	degC
+T22	Material 543 545	HX
+T23	Material 600 606	CH3NH2
+T24	Material 641 649	Crystals
+T25	Material 703 712	solutions
+T26	Property-Misc 133 148	Single crystals
+T27	Material-Descriptor 264 273	solutions
+T28	Number 332 335	2.5
+T29	Amount-Unit 336 337	g
+T30	Number 442 444	37
+T31	Amount-Unit 445 448	wt%
+T32	Number 455 457	48
+T33	Amount-Unit 458 461	wt%
+T34	Number 467 469	57
+T35	Amount-Unit 470 473	wt%
+T36	Number 522 523	2
+T37	Amount-Unit 524 526	ml
+T38	Number 589 594	0.597
+T39	Amount-Unit 595 596	g
+T40	Number 608 610	40
+T41	Amount-Unit 611 614	wt%
+T42	Brand 633 638	Merck
+T43	Number 656 657	2
+T44	Property-Unit 658 660	mm
+T45	Property-Type 664 673	dimension
+T46	Number 719 721	90
+T47	Condition-Unit 722 726	degC
+T48	Number 730 732	25
+T49	Condition-Unit 733 737	degC
+T50	Number 743 745	72
+T51	Condition-Unit 746 751	hours
+R1	Next_Operation Arg1:E3 Arg2:E4	
+R2	Next_Operation Arg1:E4 Arg2:E5	
+R3	Next_Operation Arg1:E5 Arg2:E6	
+R4	Next_Operation Arg1:E6 Arg2:E7	
+R5	Next_Operation Arg1:E1 Arg2:E2	
+R6	Condition_Of Arg1:T21 Arg2:E4	
+R7	Condition_Of Arg1:T47 Arg2:E7	
+R8	Condition_Of Arg1:T49 Arg2:E7	
+R9	Condition_Of Arg1:T51 Arg2:E7	
+R10	Property_Of Arg1:T26 Arg2:T8	
+R11	Amount_Of Arg1:T29 Arg2:T12	
+R12	Amount_Of Arg1:T16 Arg2:T17	
+R13	Amount_Of Arg1:T16 Arg2:T18	
+R14	Amount_Of Arg1:T16 Arg2:T19	
+R15	Amount_Of Arg1:T31 Arg2:T17	
+R16	Amount_Of Arg1:T33 Arg2:T18	
+R17	Amount_Of Arg1:T35 Arg2:T19	
+R18	Amount_Of Arg1:T37 Arg2:T22	
+R19	Amount_Of Arg1:T39 Arg2:T23	
+R20	Amount_Of Arg1:T41 Arg2:T23	
+R21	Property_Of Arg1:T44 Arg2:T24	
+R22	Descriptor_Of Arg1:T14 Arg2:T12	
+R23	Descriptor_Of Arg1:T27 Arg2:T11	
+R24	Descriptor_Of Arg1:T27 Arg2:T10	
+R25	Descriptor_Of Arg1:T27 Arg2:T9	
+R26	Type_Of Arg1:T45 Arg2:T44	
+R27	Number_Of Arg1:T28 Arg2:T29	
+R28	Number_Of Arg1:T15 Arg2:T16	
+R29	Number_Of Arg1:T30 Arg2:T31	
+R30	Number_Of Arg1:T32 Arg2:T33	
+R31	Number_Of Arg1:T34 Arg2:T35	
+R32	Number_Of Arg1:T20 Arg2:T21	
+R33	Number_Of Arg1:T36 Arg2:T37	
+R34	Number_Of Arg1:T38 Arg2:T39	
+R35	Number_Of Arg1:T40 Arg2:T41	
+R36	Number_Of Arg1:T43 Arg2:T44	
+R37	Number_Of Arg1:T46 Arg2:T47	
+R38	Number_Of Arg1:T48 Arg2:T49	
+R39	Number_Of Arg1:T50 Arg2:T51	
+R40	Brand_Of Arg1:T13 Arg2:T12	
+R41	Brand_Of Arg1:T42 Arg2:T23	

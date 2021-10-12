@@ -1,0 +1,68 @@
+T1	Operation 430 435	added
+E1	Operation:T1 
+T2	Operation 502 509	stirred
+E2	Operation:T2 
+T3	Operation 568 579	transferred
+E3	Operation:T3 
+T4	Operation 621 625	kept
+E4	Operation:T4 
+T5	Operation 709 715	cooled
+E5	Operation:T5 
+T6	Operation 773 779	washed
+E6	Operation:T6 
+T7	Operation 808 813	dried
+E7	Operation:T7 
+T8	Material 395 417	titanium tetrachloride
+T9	Material 419 424	TiCl4
+T10	Material 448 459	isopropanol
+T11	Material 470 478	solution
+T12	Material 550 558	solution
+T13	Synthesis-Apparatus 607 616	autoclave
+T14	Number 629 632	200
+T15	Condition-Unit 633 637	degC
+T16	Number 642 644	24
+T17	Condition-Unit 645 646	h
+T18	Meta 659 680	hydrothermal reaction
+T19	Material 686 694	reaction
+T20	Condition-Misc 719 735	room temperature
+T21	Material 757 768	precipitate
+T22	Material 796 803	ethanol
+T23	Number 817 819	60
+T24	Condition-Unit 820 824	degC
+T25	Number 829 831	12
+T26	Condition-Unit 832 833	h
+T27	Number 387 388	3
+T28	Amount-Unit 389 391	mL
+T29	Number 439 441	84
+T30	Amount-Unit 442 444	mL
+T31	Number 514 516	30
+T32	Condition-Unit 517 520	min
+T33	Number 587 590	150
+T34	Apparatus-Unit 591 593	mL
+T35	Apparatus-Descriptor 594 606	Teflon-lined
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E7	
+R7	Condition_Of Arg1:T32 Arg2:E2	
+R8	Apparatus_Of Arg1:T13 Arg2:E3	
+R9	Condition_Of Arg1:T15 Arg2:E4	
+R10	Condition_Of Arg1:T17 Arg2:E4	
+R11	Condition_Of Arg1:T20 Arg2:E5	
+R12	Condition_Of Arg1:T24 Arg2:E7	
+R13	Condition_Of Arg1:T26 Arg2:E7	
+R14	Amount_Of Arg1:T28 Arg2:T8	
+R15	Coref_Of Arg1:T9 Arg2:T8	
+R16	Amount_Of Arg1:T30 Arg2:T10	
+R17	Apparatus_Attr_Of Arg1:T34 Arg2:T13	
+R18	Number_Of Arg1:T33 Arg2:T34	
+R19	Descriptor_Of Arg1:T35 Arg2:T13	
+R20	Number_Of Arg1:T27 Arg2:T28	
+R21	Number_Of Arg1:T29 Arg2:T30	
+R22	Number_Of Arg1:T31 Arg2:T32	
+R23	Number_Of Arg1:T14 Arg2:T15	
+R24	Number_Of Arg1:T16 Arg2:T17	
+R25	Number_Of Arg1:T23 Arg2:T24	
+R26	Number_Of Arg1:T25 Arg2:T26	

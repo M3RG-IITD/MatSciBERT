@@ -1,0 +1,98 @@
+T1	Material 47 50	CuO
+T2	Property-Misc 51 66	nanocrystalline
+T3	Property-Misc 92 101	electrode
+T4	Operation 154 163	dissolved
+E1	Operation:T4 Recipe_Precursor:T21 Solvent_Material:T22
+T5	Operation 196 204	stirring
+E2	Operation:T5 Participant_Material:T23
+T6	Operation 275 280	added
+E3	Operation:T6 Recipe_Precursor:T26 Recipe_Precursor:T24 Participant_Material:T27
+T7	Operation 378 384	heated
+E4	Operation:T7 Participant_Material:T30
+T8	Operation 318 327	resulting
+E5	Operation:T8 Participant_Material:T28
+T9	Operation 452 460	filtered
+E6	Operation:T9 Participant_Material:T31
+T10	Operation 465 471	washed
+E7	Operation:T10 Participant_Material:T32 Participant_Material:T34
+T11	Operation 533 538	dried
+E8	Operation:T11 Atmospheric_Material:T35
+T12	Operation 580 586	signed
+E9	Operation:T12 Participant_Material:T36 Recipe_Target:T37
+T13	Number 127 131	0.03
+T14	Number 167 170	750
+T15	Number 244 248	6000
+T16	Number 254 258	0.24
+T17	Number 309 311	30
+T18	Number 388 390	80
+T19	Number 426 428	10
+T20	Number 542 544	60
+T21	Material 136 149	Cu(NO3)2*3H2O
+T22	Material 184 189	water
+T23	Material 206 216	solution A
+T24	Material 234 237	PEG
+T25	Material-Descriptor 223 230	mixture
+T26	Material 263 270	NH3*H2O
+T27	Material 295 305	solution A
+T28	Material 338 346	solution
+T29	Material-Descriptor 333 337	blue
+T30	Material 358 365	mixture
+T31	Material 436 447	precipitate
+T32	Material 505 510	water
+T33	Material-Descriptor 495 504	deionized
+T34	Material 515 522	alcohol
+T35	Material 553 556	air
+T36	Material 568 575	Product
+T37	Material 590 598	sample A
+T38	Amount-Unit 132 135	mol
+T39	Amount-Unit 171 173	ml
+T40	Amount-Unit 239 241	Mw
+T41	Amount-Unit 259 262	mol
+T42	Condition-Unit 312 316	degC
+T43	Condition-Unit 391 395	degC
+T44	Condition-Unit 429 430	h
+T45	Condition-Unit 545 549	degC
+T46	Material-Descriptor 174 183	distilled
+T47	Condition-Misc 281 289	dropwise
+T48	Condition-Misc 370 377	rapidly
+T49	Operation 400 407	stirred
+E10	Operation:T49 
+T50	Condition-Misc 408 418	vigorously
+T51	Condition-Misc 476 489	several times
+T52	Condition-Misc 557 566	overnight
+R1	Property_Of Arg1:T2 Arg2:T1	
+R2	Property_Of Arg1:T3 Arg2:T1	
+A1	Start_Recipe E1
+R3	Next_Operation Arg1:E1 Arg2:E2	
+R4	Next_Operation Arg1:E2 Arg2:E3	
+R5	Next_Operation Arg1:E3 Arg2:E5	
+R6	Next_Operation Arg1:E5 Arg2:E4	
+R7	Next_Operation Arg1:E4 Arg2:E10	
+R8	Next_Operation Arg1:E10 Arg2:E6	
+R9	Next_Operation Arg1:E6 Arg2:E7	
+R10	Next_Operation Arg1:E7 Arg2:E8	
+R11	Next_Operation Arg1:E8 Arg2:E9	
+A2	End_Recipe E9
+R12	Number_Of Arg1:T13 Arg2:T38	
+R13	Amount_Of Arg1:T38 Arg2:T21	
+R14	Number_Of Arg1:T14 Arg2:T39	
+R15	Descriptor_Of Arg1:T46 Arg2:T22	
+R16	Descriptor_Of Arg1:T25 Arg2:T24	
+R17	Number_Of Arg1:T15 Arg2:T40	
+R18	Amount_Of Arg1:T40 Arg2:T24	
+R19	Number_Of Arg1:T16 Arg2:T41	
+R20	Amount_Of Arg1:T41 Arg2:T26	
+R21	Condition_Of Arg1:T47 Arg2:E3	
+R22	Number_Of Arg1:T17 Arg2:T42	
+R23	Condition_Of Arg1:T42 Arg2:E3	
+R24	Descriptor_Of Arg1:T29 Arg2:T28	
+R25	Condition_Of Arg1:T48 Arg2:E4	
+R26	Number_Of Arg1:T18 Arg2:T43	
+R27	Condition_Of Arg1:T43 Arg2:E4	
+R28	Condition_Of Arg1:T50 Arg2:E10	
+R29	Number_Of Arg1:T19 Arg2:T44	
+R30	Condition_Of Arg1:T51 Arg2:E7	
+R31	Descriptor_Of Arg1:T33 Arg2:T32	
+R32	Number_Of Arg1:T20 Arg2:T45	
+R33	Condition_Of Arg1:T45 Arg2:E8	
+R34	Condition_Of Arg1:T52 Arg2:E8	

@@ -1,0 +1,117 @@
+T1	Material 114 120	FeNbO4
+T2	Property-Misc 121 128	powders
+T3	Operation 134 142	prepared
+E1	Operation:T3 Recipe_Target:T1
+T4	Meta 153 167	sol-gel method
+T5	Operation 233 237	used
+E2	Operation:T5 Recipe_Precursor:T13 Recipe_Precursor:T15 Participant_Material:T17 Participant_Material:T18
+T6	Operation 493 501	prepared
+E3	Operation:T6 Participant_Material:T19 Participant_Material:T21
+T7	Operation 554 563	dispersed
+E4	Operation:T7 Participant_Material:T22 Participant_Material:T23
+T8	Operation 689 696	stirred
+E5	Operation:T8 Participant_Material:T24
+T9	Operation 764 769	dried
+E6	Operation:T9 Participant_Material:T26
+T10	Operation 846 864	thermally analysed
+E7	Operation:T10 Participant_Material:T28
+T11	Operation 1082 1089	pressed
+E8	Operation:T11 Participant_Material:T37
+T12	Operation 1116 1128	heat-treated
+E9	Operation:T12 
+T13	Material 169 185	Niobium chloride
+T14	Material 187 192	NbCl5
+T15	Material 198 210	iron nitrate
+T16	Material 212 225	Fe(NO3)3*9H2O
+T17	Material 264 275	citric acid
+T18	Material 280 295	ethylene glycol
+T19	Material 411 421	suspension
+T20	Amount-Misc 433 455	stoichiometric amounts
+T21	Material 523 540	hydrogen peroxide
+T22	Material 580 591	citric acid
+T23	Material 596 611	ethylene glycol
+T24	Material 674 684	suspension
+T25	Material 721 731	suspension
+T26	Material 751 759	solution
+T27	Material 808 815	solvent
+T28	Material 833 840	powders
+T29	Meta 868 897	differential thermal analysis
+T30	Synthesis-Apparatus 932 944	type L92/095
+T31	Brand 914 931	Lynseis Apparatus
+T32	Number 971 978	20-1200
+T33	Condition-Unit 979 983	degC
+T34	Number 1008 1009	5
+T35	Condition-Unit 1010 1018	degC/min
+T36	Nonrecipe-Material 1026 1031	Al2O3
+T37	Material 1069 1076	powders
+T38	Material 1095 1102	pellets
+T39	Number 1163 1166	500
+T40	Number 1168 1171	650
+T41	Number 1173 1176	850
+T42	Number 1178 1182	1000
+T43	Number 1187 1191	1200
+T44	Condition-Unit 1192 1196	degC
+T45	Number 1220 1221	4
+T46	Condition-Unit 1222 1223	h
+T47	Number 1248 1249	5
+T48	Condition-Unit 1250 1256	oC/min
+T49	Material-Descriptor 299 314	chelating agent
+T50	Material-Descriptor 319 334	reaction medium
+T51	Amount-Misc 507 519	minor amount
+T52	Amount-Unit 543 544	%
+T53	Number 542 543	3
+T54	Amount-Unit 545 548	V/V
+T55	Material-Descriptor 569 576	mixture
+T56	Amount-Unit 617 628	molar ratio
+T57	Number 629 632	1:3
+T58	Material-Descriptor 705 720	clear colloidal
+T59	Number 773 776	300
+T60	Condition-Unit 777 781	degC
+T61	Number 786 788	24
+T62	Condition-Unit 789 790	h
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Next_Operation Arg1:E8 Arg2:E9	
+R8	Coref_Of Arg1:T14 Arg2:T13	
+R9	Coref_Of Arg1:T16 Arg2:T15	
+R10	Condition_Of Arg1:T60 Arg2:E6	
+R11	Condition_Of Arg1:T62 Arg2:E6	
+R12	Apparatus_Of Arg1:T30 Arg2:E7	
+R13	Condition_Of Arg1:T33 Arg2:E7	
+R14	Condition_Of Arg1:T35 Arg2:E7	
+R15	Condition_Of Arg1:T44 Arg2:E9	
+R16	Condition_Of Arg1:T46 Arg2:E9	
+R17	Condition_Of Arg1:T48 Arg2:E9	
+R18	Property_Of Arg1:T2 Arg2:T1	
+T63	Material 468 477	materials
+R19	Amount_Of Arg1:T20 Arg2:T63	
+R20	Amount_Of Arg1:T51 Arg2:T21	
+R21	Amount_Of Arg1:T52 Arg2:T21	
+R22	Amount_Of Arg1:T54 Arg2:T21	
+R23	Amount_Of Arg1:T56 Arg2:T22	
+R24	Amount_Of Arg1:T56 Arg2:T23	
+R25	Amount_Of Arg1:T20 Arg2:T13	
+R26	Amount_Of Arg1:T20 Arg2:T15	
+R27	Descriptor_Of Arg1:T58 Arg2:T25	
+R28	Descriptor_Of Arg1:T49 Arg2:T17	
+R29	Descriptor_Of Arg1:T50 Arg2:T18	
+R30	Descriptor_Of Arg1:T55 Arg2:T22	
+R31	Descriptor_Of Arg1:T55 Arg2:T23	
+R32	Number_Of Arg1:T53 Arg2:T52	
+R33	Number_Of Arg1:T57 Arg2:T56	
+R34	Number_Of Arg1:T59 Arg2:T60	
+R35	Number_Of Arg1:T61 Arg2:T62	
+R36	Number_Of Arg1:T32 Arg2:T33	
+R37	Number_Of Arg1:T34 Arg2:T35	
+R38	Number_Of Arg1:T39 Arg2:T44	
+R39	Number_Of Arg1:T40 Arg2:T44	
+R40	Number_Of Arg1:T41 Arg2:T44	
+R41	Number_Of Arg1:T42 Arg2:T44	
+R42	Number_Of Arg1:T43 Arg2:T44	
+R43	Number_Of Arg1:T45 Arg2:T46	
+R44	Number_Of Arg1:T47 Arg2:T48	
+R45	Brand_Of Arg1:T31 Arg2:T30	

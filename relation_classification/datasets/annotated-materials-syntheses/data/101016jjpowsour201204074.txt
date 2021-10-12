@@ -1,0 +1,5 @@
+10.1016/j.jpowsour.2012.04.074
+
+
+The nano-Li4Ti5O12/CNTs composite was prepared by a liquid phase deposition method. The predetermined amount of CNT in nano-Li4Ti5O12/CNTs composite is 10 wt%. Typically, 0.3 g purified CNTs were dispersed in 24 mL ethanol with sonication for 1 h and then 10.2 g tetrabutyl titanate was added under vigorous magnetic stirring. 1.6632 g lithium acetate was dissolved into 26 mL of ethanol-water mixture (12:1 in volume) and slowly dropped into the above suspension. After 24 h continuous stirring, the mixture was aged at 60 degC over 60 h to remove solvents gradually and ground in a mortar. The precursor was calcined at 900 degC under N2 for 1 h with a heating rate of 5 degC min-1 to obtain the nano-Li4Ti5O12/CNTs composite.
+

@@ -1,0 +1,80 @@
+T1	Material 134 148	Gd0.7Sr0.3CoO3
+T2	Property-Misc 110 120	perovskite
+T3	Material 166 180	Gd0.7Sr0.3CoO3
+T4	Property-Misc 150 165	Polycrystalline
+T5	Property-Misc 181 187	sample
+T6	Operation 192 200	prepared
+E1	Operation:T6 Recipe_Target:T3
+T7	Meta 206 246	conventional solid-state reaction method
+T8	Operation 335 340	mixed
+E2	Operation:T8 Recipe_Precursor:T16 Recipe_Precursor:T17 Recipe_Precursor:T18
+T9	Operation 390 398	prefired
+E3	Operation:T9 
+T10	Operation 470 478	reground
+E4	Operation:T10 Participant_Material:T25
+T11	Operation 480 490	pelletized
+E5	Operation:T11 
+T12	Operation 495 503	sintered
+E6	Operation:T12 
+T13	Operation 615 623	annealed
+E7	Operation:T13 Participant_Material:T33 Atmospheric_Material:T34
+T14	Amount-Misc 248 271	Appropriate proportions
+T15	Material-Descriptor 275 286	high purity
+T16	Material 287 292	Gd2O3
+T17	Material 294 299	SrCO3
+T18	Material 305 310	Co3O4
+T19	Material-Descriptor 311 318	powders
+T20	Number 402 405	800
+T21	Number 410 414	1200
+T22	Condition-Unit 415 419	degC
+T23	Number 424 426	24
+T24	Condition-Unit 427 428	h
+T25	Material 448 455	powders
+T26	Number 507 511	1200
+T27	Condition-Unit 512 516	degC
+T28	Number 521 523	24
+T29	Condition-Unit 524 525	h
+T30	Material 564 570	sample
+T31	Material-Descriptor 552 563	homogeneous
+T32	Nonrecipe-Material 581 587	oxygen
+T33	Material 604 610	sample
+T34	Material 631 637	oxygen
+T35	Number 650 653	165
+T36	Number 661 664	500
+T37	Condition-Unit 665 669	degC
+T38	Number 674 676	48
+T39	Condition-Unit 677 678	h
+T40	Amount-Unit 654 657	atm
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Condition_Of Arg1:T22 Arg2:E3	
+R7	Condition_Of Arg1:T24 Arg2:E3	
+R8	Condition_Of Arg1:T27 Arg2:E6	
+R9	Condition_Of Arg1:T29 Arg2:E6	
+R10	Condition_Of Arg1:T37 Arg2:E7	
+R11	Condition_Of Arg1:T39 Arg2:E7	
+R12	Property_Of Arg1:T4 Arg2:T3	
+R13	Property_Of Arg1:T5 Arg2:T3	
+R14	Property_Of Arg1:T2 Arg2:T1	
+R15	Amount_Of Arg1:T14 Arg2:T16	
+R16	Amount_Of Arg1:T14 Arg2:T17	
+R17	Amount_Of Arg1:T14 Arg2:T18	
+R18	Amount_Of Arg1:T40 Arg2:T34	
+R19	Descriptor_Of Arg1:T15 Arg2:T16	
+R20	Descriptor_Of Arg1:T15 Arg2:T17	
+R21	Descriptor_Of Arg1:T15 Arg2:T18	
+R22	Descriptor_Of Arg1:T19 Arg2:T18	
+R23	Descriptor_Of Arg1:T19 Arg2:T17	
+R24	Descriptor_Of Arg1:T19 Arg2:T16	
+R25	Descriptor_Of Arg1:T31 Arg2:T30	
+R26	Number_Of Arg1:T20 Arg2:T22	
+R27	Number_Of Arg1:T21 Arg2:T22	
+R28	Number_Of Arg1:T23 Arg2:T24	
+R29	Number_Of Arg1:T26 Arg2:T27	
+R30	Number_Of Arg1:T28 Arg2:T29	
+R31	Number_Of Arg1:T35 Arg2:T40	
+R32	Number_Of Arg1:T36 Arg2:T37	
+R33	Number_Of Arg1:T38 Arg2:T39	

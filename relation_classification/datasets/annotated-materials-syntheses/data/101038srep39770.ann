@@ -1,0 +1,122 @@
+T1	Operation 130 135	grown
+E1	Operation:T1 Participant_Material:T7 Recipe_Precursor:T13
+T2	Operation 293 301	annealed
+E2	Operation:T2 Recipe_Precursor:T16 Atmospheric_Material:T18
+T3	Operation 382 393	synthesised
+E3	Operation:T3 Participant_Material:T24 Atmospheric_Material:T27 Atmospheric_Material:T28 Atmospheric_Material:T29
+T4	Operation 532 537	grown
+E4	Operation:T4 Participant_Material:T38 Recipe_Precursor:T41
+T5	Operation 647 653	growth
+E5	Operation:T5 
+T6	Operation 658 662	done
+E6	Operation:T6 Atmospheric_Material:T51 Atmospheric_Material:T55 Atmospheric_Material:T58
+T7	Material 108 116	graphene
+T8	Material-Descriptor 117 124	samples
+T9	Brand 155 164	Annealsys
+T10	Synthesis-Apparatus 165 222	AS-ONE cold-wall chemical vapour deposition (CVD) reactor
+T11	Number 226 228	25
+T12	Amount-Unit 229 231	μm
+T13	Material 254 260	copper
+T14	Material-Descriptor 238 253	electropolished
+T15	Material-Descriptor 261 266	foils
+T16	Material 279 281	Cu
+T17	Material-Descriptor 282 287	foils
+T18	Material 305 310	argon
+T19	Number 314 318	1035
+T20	Condition-Unit 319 323	degC
+T21	Condition-Misc 327 347	atmospheric pressure
+T22	Number 352 354	10
+T23	Condition-Unit 355 362	minutes
+T24	Material 369 377	graphene
+T25	Number 435 437	25
+T26	Condition-Unit 438 442	mbar
+T27	Material 470 472	Ar
+T28	Material 481 483	H2
+T29	Material 494 497	CH4
+T30	Number 502 504	15
+T31	Condition-Unit 505 512	minutes
+T32	Number 462 465	900
+T33	Amount-Unit 465 469	sccm
+T34	Number 474 476	60
+T35	Amount-Unit 476 480	sccm
+T36	Number 488 489	2
+T37	Amount-Unit 489 493	sccm
+T38	Material 514 517	hBN
+T39	Synthesis-Apparatus 546 565	quartz tube furnace
+T40	Material-Descriptor 587 602	electropolished
+T41	Material 603 609	copper
+T42	Material-Descriptor 610 615	foils
+T43	Number 666 669	900
+T44	Condition-Unit 670 674	degC
+T45	Number 698 700	60
+T46	Condition-Unit 701 705	mbar
+T47	Number 710 712	15
+T48	Condition-Unit 713 720	minutes
+T49	Number 739 742	300
+T50	Amount-Unit 742 746	sccm
+T51	Material 747 749	Ar
+T52	Material-Descriptor 728 735	mixture
+T53	Number 751 753	15
+T54	Amount-Unit 753 757	sccm
+T55	Material 758 760	H2
+T56	Number 765 766	3
+T57	Amount-Unit 766 770	sccm
+T58	Material 774 782	borazine
+T59	Material 784 790	B3H6N3
+T60	Brand 797 807	Fluorochem
+T61	Material 633 641	graphene
+T62	Material-Descriptor 518 526	coatings
+T63	Material-Descriptor 451 458	mixture
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Coref_Of Arg1:T59 Arg2:T58	
+R6	Brand_Of Arg1:T60 Arg2:T58	
+R7	Brand_Of Arg1:T9 Arg2:T10	
+R8	Apparatus_Of Arg1:T10 Arg2:E1	
+R9	Condition_Of Arg1:T20 Arg2:E2	
+R10	Condition_Of Arg1:T21 Arg2:E2	
+R11	Condition_Of Arg1:T23 Arg2:E2	
+R12	Condition_Of Arg1:T26 Arg2:E3	
+T64	Condition-Misc 401 417	same temperature
+R13	Condition_Of Arg1:T64 Arg2:E3	
+R14	Condition_Of Arg1:T31 Arg2:E3	
+R15	Apparatus_Of Arg1:T39 Arg2:E4	
+R16	Condition_Of Arg1:T44 Arg2:E6	
+R17	Condition_Of Arg1:T46 Arg2:E6	
+R18	Condition_Of Arg1:T48 Arg2:E6	
+R19	Amount_Of Arg1:T12 Arg2:T13	
+R20	Amount_Of Arg1:T33 Arg2:T27	
+R21	Amount_Of Arg1:T35 Arg2:T28	
+R22	Amount_Of Arg1:T37 Arg2:T29	
+R23	Amount_Of Arg1:T50 Arg2:T51	
+R24	Amount_Of Arg1:T54 Arg2:T55	
+R25	Amount_Of Arg1:T57 Arg2:T58	
+R26	Descriptor_Of Arg1:T8 Arg2:T7	
+R27	Descriptor_Of Arg1:T14 Arg2:T13	
+R28	Descriptor_Of Arg1:T15 Arg2:T13	
+R29	Descriptor_Of Arg1:T17 Arg2:T16	
+R30	Descriptor_Of Arg1:T63 Arg2:T27	
+R31	Descriptor_Of Arg1:T63 Arg2:T28	
+R32	Descriptor_Of Arg1:T63 Arg2:T29	
+R33	Descriptor_Of Arg1:T62 Arg2:T38	
+R34	Descriptor_Of Arg1:T40 Arg2:T41	
+R35	Descriptor_Of Arg1:T42 Arg2:T41	
+R36	Descriptor_Of Arg1:T52 Arg2:T51	
+R37	Descriptor_Of Arg1:T52 Arg2:T55	
+R38	Descriptor_Of Arg1:T52 Arg2:T58	
+R39	Number_Of Arg1:T19 Arg2:T20	
+R40	Number_Of Arg1:T25 Arg2:T26	
+R41	Number_Of Arg1:T11 Arg2:T12	
+R42	Number_Of Arg1:T22 Arg2:T23	
+R43	Number_Of Arg1:T32 Arg2:T33	
+R44	Number_Of Arg1:T34 Arg2:T35	
+R45	Number_Of Arg1:T36 Arg2:T37	
+R46	Number_Of Arg1:T30 Arg2:T31	
+R47	Number_Of Arg1:T43 Arg2:T44	
+R48	Number_Of Arg1:T45 Arg2:T46	
+R49	Number_Of Arg1:T47 Arg2:T48	
+R50	Number_Of Arg1:T49 Arg2:T50	
+R51	Number_Of Arg1:T53 Arg2:T54	
+R52	Number_Of Arg1:T56 Arg2:T57	

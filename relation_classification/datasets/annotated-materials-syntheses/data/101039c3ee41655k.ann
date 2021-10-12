@@ -1,0 +1,100 @@
+T1	Operation 158 169	synthesized
+E1	Operation:T1 Recipe_Target:T11 Participant_Material:T14 Recipe_Precursor:T12 Recipe_Precursor:T13
+T2	Operation 279 285	sealed
+E2	Operation:T2 Participant_Material:T16 Participant_Material:T15
+T3	Operation 321 327	heated
+E3	Operation:T3 
+T4	Operation 402 410	quenched
+E4	Operation:T4 Participant_Material:T17 Participant_Material:T18
+T5	Operation 484 492	prepared
+E5	Operation:T5 Participant_Material:T20 Participant_Material:T19
+T6	Operation 496 510	heat treatment
+E6	Operation:T6 Participant_Material:T21
+T7	Operation 539 547	grinding
+E7	Operation:T7 Participant_Material:T22
+T8	Operation 607 615	obtained
+E8	Operation:T8 Participant_Material:T23
+T9	Operation 619 630	compressing
+E9	Operation:T9 Participant_Material:T24
+T10	Operation 668 675	heating
+E10	Operation:T10 
+T11	Material 134 147	70P2S5-30Li2S
+T12	Material 200 204	P2S5
+T13	Material 224 228	Li2S
+T14	Material 189 198	chemicals
+T15	Material 248 255	mixture
+T16	Material 265 274	chemicals
+T17	Material 383 389	sample
+T18	Material 418 423	water
+T19	Material 443 451	material
+T20	Material 473 479	sample
+T21	Material 527 532	glass
+T22	Material 558 564	powder
+T23	Material 594 601	samples
+T24	Material 641 648	powders
+T25	Number 215 217	99
+T26	Number 240 242	99
+T27	Number 331 334	700
+T28	Number 344 345	2
+T29	Number 652 654	94
+T30	Number 679 682	280
+T31	Number 691 694	300
+T32	Number 704 705	2
+T33	Amount-Unit 217 218	%
+T34	Amount-Unit 242 243	%
+T35	Condition-Unit 335 339	degC
+T36	Condition-Unit 346 347	h
+T37	Condition-Unit 655 658	MPa
+T38	Condition-Unit 683 687	degC
+T39	Condition-Unit 695 699	degC
+T40	Condition-Unit 706 707	h
+T41	Property-Misc 148 153	glass
+T42	Material-Descriptor 175 188	reagent-grade
+T43	Brand 206 213	Aldrich
+T44	Brand 230 238	Idemitsu
+T45	Synthesis-Apparatus 312 316	tube
+T46	Apparatus-Descriptor 291 311	carbon-coated quartz
+T47	Synthesis-Apparatus 363 370	furnace
+T48	Apparatus-Descriptor 354 362	electric
+T49	Material-Descriptor 376 382	molten
+T50	Material-Descriptor 414 417	ice
+T51	Material-Descriptor 429 442	glass-ceramic
+T52	Material-Descriptor 460 472	cold-pressed
+T53	Material-Descriptor 570 593	densified glass-ceramic
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Next_Operation Arg1:E8 Arg2:E9	
+R8	Next_Operation Arg1:E9 Arg2:E10	
+R9	Apparatus_Of Arg1:T45 Arg2:E2	
+R10	Condition_Of Arg1:T35 Arg2:E3	
+R11	Condition_Of Arg1:T36 Arg2:E3	
+R12	Apparatus_Of Arg1:T47 Arg2:E3	
+R13	Condition_Of Arg1:T37 Arg2:E9	
+R14	Condition_Of Arg1:T38 Arg2:E10	
+R15	Condition_Of Arg1:T39 Arg2:E10	
+R16	Condition_Of Arg1:T40 Arg2:E10	
+R17	Property_Of Arg1:T41 Arg2:T11	
+R18	Amount_Of Arg1:T33 Arg2:T12	
+R19	Amount_Of Arg1:T34 Arg2:T13	
+R20	Descriptor_Of Arg1:T42 Arg2:T14	
+R21	Descriptor_Of Arg1:T46 Arg2:T45	
+R22	Descriptor_Of Arg1:T48 Arg2:T47	
+R23	Descriptor_Of Arg1:T49 Arg2:T17	
+R24	Descriptor_Of Arg1:T50 Arg2:T18	
+R25	Descriptor_Of Arg1:T51 Arg2:T19	
+R26	Descriptor_Of Arg1:T52 Arg2:T20	
+R27	Descriptor_Of Arg1:T53 Arg2:T23	
+R28	Number_Of Arg1:T25 Arg2:T33	
+R29	Number_Of Arg1:T26 Arg2:T34	
+R30	Number_Of Arg1:T27 Arg2:T35	
+R31	Number_Of Arg1:T28 Arg2:T36	
+R32	Number_Of Arg1:T29 Arg2:T37	
+R33	Number_Of Arg1:T30 Arg2:T38	
+R34	Number_Of Arg1:T31 Arg2:T39	
+R35	Number_Of Arg1:T32 Arg2:T40	
+R36	Brand_Of Arg1:T43 Arg2:T12	
+R37	Brand_Of Arg1:T44 Arg2:T13	

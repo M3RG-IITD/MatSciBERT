@@ -1,0 +1,119 @@
+T1	Operation 350 359	dissolved
+E1	Operation:T1 Recipe_Precursor:T11 Recipe_Precursor:T12 Participant_Material:T14 Participant_Material:T15 Participant_Material:T16 Participant_Material:T17 Solvent_Material:T18 Solvent_Material:T19 Solvent_Material:T20
+T2	Operation 453 460	stirred
+E2	Operation:T2 
+T3	Operation 496 507	transferred
+E3	Operation:T3 Participant_Material:T21
+T4	Operation 546 552	heated
+E4	Operation:T4 
+T5	Operation 597 603	washed
+E5	Operation:T5 Participant_Material:T24
+T6	Operation 608 617	collected
+E6	Operation:T6 
+T7	Operation 621 635	centrifugation
+E7	Operation:T7 
+T8	Operation 642 647	dried
+E8	Operation:T8 
+T9	Operation 692 700	calcined
+E9	Operation:T9 Participant_Material:T26 Atmospheric_Material:T27
+T10	Material 750 756	LaMnO3
+T11	Material 213 226	La(NO3)3*6H2O
+T12	Material 239 247	Mn(NO3)2
+T13	Material 304 314	C6H8O7*H2O
+T14	Material 291 302	citric acid
+T15	Material 325 329	urea
+T16	Material 340 344	P123
+T17	Material 373 380	solvent
+T18	Material 397 404	ethanol
+T19	Material 411 426	ethylene glycol
+T20	Material 436 439	H2O
+T21	Material 483 491	solution
+T22	Synthesis-Apparatus 531 540	autoclave
+T23	Apparatus-Descriptor 521 530	stainless
+T24	Material 585 592	product
+T25	Condition-Misc 648 657	overnight
+T26	Material 680 687	product
+T27	Material 724 727	air
+T28	Number 204 207	2.5
+T29	Amount-Unit 208 212	mmol
+T30	Number 228 232	2.24
+T31	Amount-Unit 233 234	g
+T32	Number 235 237	50
+T33	Amount-Unit 237 238	%
+T34	Material-Descriptor 248 256	solution
+T35	Number 269 270	7
+T36	Amount-Unit 271 275	mmol
+T37	Nonrecipe-Material 276 280	Mn2+
+T38	Number 283 285	10
+T39	Amount-Unit 286 290	mmol
+T40	Number 317 319	45
+T41	Amount-Unit 320 324	mmol
+T42	Number 334 337	1.0
+T43	Amount-Unit 338 339	g
+T44	Number 392 393	2
+T45	Amount-Unit 394 396	mL
+T46	Number 406 407	8
+T47	Amount-Unit 408 410	mL
+T48	Number 431 432	2
+T49	Amount-Unit 433 435	mL
+T50	Number 465 466	5
+T51	Condition-Unit 467 468	h
+T52	Number 515 517	70
+T53	Apparatus-Unit 518 520	mL
+T54	Number 556 559	100
+T55	Condition-Unit 560 564	degC
+T56	Number 569 571	48
+T57	Condition-Unit 572 573	h
+T58	Number 661 663	60
+T59	Condition-Unit 664 668	degC
+T60	Number 704 707	600
+T61	Condition-Unit 708 712	degC
+T62	Number 717 718	8
+T63	Condition-Unit 719 720	h
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E7	
+R7	Next_Operation Arg1:E7 Arg2:E8	
+R8	Next_Operation Arg1:E8 Arg2:E9	
+R9	Coref_Of Arg1:T13 Arg2:T14	
+R10	Apparatus_Of Arg1:T22 Arg2:E3	
+R11	Condition_Of Arg1:T55 Arg2:E4	
+R12	Condition_Of Arg1:T51 Arg2:E2	
+R13	Condition_Of Arg1:T57 Arg2:E4	
+R14	Condition_Of Arg1:T25 Arg2:E8	
+R15	Condition_Of Arg1:T59 Arg2:E8	
+R16	Condition_Of Arg1:T61 Arg2:E9	
+R17	Condition_Of Arg1:T63 Arg2:E9	
+R18	Amount_Of Arg1:T29 Arg2:T11	
+R19	Amount_Of Arg1:T31 Arg2:T12	
+R20	Amount_Of Arg1:T33 Arg2:T12	
+R21	Amount_Of Arg1:T36 Arg2:T37	
+R22	Amount_Of Arg1:T39 Arg2:T14	
+R23	Amount_Of Arg1:T41 Arg2:T15	
+R24	Amount_Of Arg1:T43 Arg2:T16	
+R25	Amount_Of Arg1:T45 Arg2:T18	
+R26	Amount_Of Arg1:T47 Arg2:T19	
+R27	Amount_Of Arg1:T49 Arg2:T20	
+R28	Apparatus_Attr_Of Arg1:T53 Arg2:T22	
+R29	Descriptor_Of Arg1:T34 Arg2:T12	
+R30	Descriptor_Of Arg1:T23 Arg2:T22	
+R31	Number_Of Arg1:T28 Arg2:T29	
+R32	Number_Of Arg1:T30 Arg2:T31	
+R33	Number_Of Arg1:T32 Arg2:T33	
+R34	Number_Of Arg1:T35 Arg2:T36	
+R35	Number_Of Arg1:T38 Arg2:T39	
+R36	Number_Of Arg1:T40 Arg2:T41	
+R37	Number_Of Arg1:T42 Arg2:T43	
+R38	Number_Of Arg1:T44 Arg2:T45	
+R39	Number_Of Arg1:T46 Arg2:T47	
+R40	Number_Of Arg1:T48 Arg2:T49	
+R41	Number_Of Arg1:T50 Arg2:T51	
+R42	Number_Of Arg1:T52 Arg2:T53	
+R43	Number_Of Arg1:T54 Arg2:T55	
+R44	Number_Of Arg1:T56 Arg2:T57	
+R45	Number_Of Arg1:T58 Arg2:T59	
+R46	Number_Of Arg1:T60 Arg2:T61	
+R47	Number_Of Arg1:T62 Arg2:T63	

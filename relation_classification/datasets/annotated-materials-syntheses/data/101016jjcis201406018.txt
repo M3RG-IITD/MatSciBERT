@@ -1,0 +1,7 @@
+10.1016/j.jcis.2014.06.018
+Synthesis and characterization of anisotropically expanded graphite oxide compounds derived from spherical graphite
+
+Graphite, mesocarbon microbeads (MCMBs, average particle size: 15 μm), was purchased from Hosen Co., Japan. Potassium permanganate, sodium nitrate, concentrated sulfuric acid and hydrogen peroxide were from Wako Corporation. Quaternary ammonium salts and tetraalkyl ammonium hydroxide solutions were purchased from Wako Corporation. The intercalants were displayed in Table 1.
+
+GO was synthesized from MCMB according to the traditional Hummers method [31]. Typically, MCMB (10 g) and NaNO3 (5 g) together with H2SO4 (220 ml) were mixed in a flask placed into the water ice bath. To avoid vigorous reaction, KMnO4 (20 g) was gradually added into the mixture at 0-10 degC. After the addition of KMnO4, the mixture was kept at 35 degC for 1 h. Subsequently, the mixture was transferred to 460 ml H2O and hold strictly at 98 degC for 30 min. The reaction was terminated by adding 1400 ml H2O and 10 ml H2O2. Then the diluted solution was kept for 24 h followed by filtering and drying at 80 degC for 12 h.
+

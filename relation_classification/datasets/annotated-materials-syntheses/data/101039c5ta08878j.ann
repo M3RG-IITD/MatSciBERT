@@ -1,0 +1,156 @@
+T1	Material 131 157	PrBa 0.8 Ca 0.2 Mn 2 O 5+δ
+T2	Operation 170 179	fabricate
+E1	Operation:T2 Recipe_Target:T17
+T3	Operation 262 270	prepared
+E2	Operation:T3 Recipe_Target:T20
+T4	Operation 344 352	prepared
+E3	Operation:T4 Participant_Material:T26
+T5	Operation 381 390	sintering
+E4	Operation:T5 
+T6	Operation 535 546	ball milled
+E5	Operation:T6 Recipe_Precursor:T41 Recipe_Precursor:T37 Recipe_Precursor:T33 Recipe_Precursor:T29 Solvent_Material:T46
+T7	Operation 574 580	drying
+E6	Operation:T7 Participant_Material:T49
+T8	Operation 598 606	calcined
+E7	Operation:T8 
+T9	Operation 658 666	adjusted
+E8	Operation:T9 Recipe_Target:T53
+T10	Operation 686 695	polishing
+E9	Operation:T10 
+T11	Operation 727 735	prepared
+E10	Operation:T11 Recipe_Target:T57
+T12	Operation 739 751	ball milling
+E11	Operation:T12 Solvent_Material:T65
+T13	Operation 829 837	calcined
+E12	Operation:T13 
+T14	Operation 927 932	mixed
+E13	Operation:T14 
+T15	Operation 999 1006	applied
+E14	Operation:T15 Participant_Material:T72 Recipe_Target:T74
+T16	Operation 1080 1085	fired
+E15	Operation:T16 Atmospheric_Material:T79
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Next_Operation Arg1:E8 Arg2:E9	
+R9	Next_Operation Arg1:E10 Arg2:E11	
+R10	Next_Operation Arg1:E11 Arg2:E12	
+R8	Next_Operation Arg1:E14 Arg2:E15	
+T17	Material 182 206	La0.9Sr0.1Ga0.8Mg0.2O3-δ
+T18	Material 208 212	LSGM
+T19	Property-Misc 214 240	electrolyte supported cell
+T20	Material 246 250	LSGM
+T21	Property-Misc 251 257	powder
+T22	Meta 278 298	solid state reaction
+T23	Meta 356 368	dry pressing
+T24	Number 394 398	1475
+T25	Condition-Unit 399 403	degC
+T26	Material 330 339	substrate
+T27	Material-Descriptor 312 329	dense electrolyte
+T28	Amount-Misc 405 427	Stoichiometric amounts
+T29	Material 431 436	La2O3
+T30	Brand 438 443	Sigma
+T31	Number 444 449	99.99
+T32	Amount-Unit 449 450	%
+T33	Material 453 458	SrCO3
+T34	Brand 460 465	Sigma
+T35	Number 467 472	99.99
+T36	Amount-Unit 472 473	%
+T37	Material 476 481	Ga2O3
+T38	Brand 483 488	Sigma
+T39	Number 490 495	99.99
+T40	Amount-Unit 495 496	%
+T41	Material 503 506	MgO
+T42	Brand 508 513	Sigma
+T43	Number 515 519	99.9
+T44	Amount-Unit 519 520	%
+T45	Material-Descriptor 522 529	powders
+T46	Material 550 557	ethanol
+T47	Number 562 564	24
+T48	Condition-Unit 565 566	h
+T49	Material 586 593	mixture
+T50	Number 611 612	6
+T51	Condition-Unit 613 614	h
+T52	Property-Type 620 629	thickness
+T53	Material 637 641	LSGM
+T54	Property-Misc 642 653	electrolyte
+T55	Number 676 679	250
+T56	Property-Unit 680 682	μm
+T57	Material 697 700	LDC
+T58	Material 702 716	La0.4Ce0.6O2-δ
+T59	Amount-Misc 752 774	stoichiometric amounts
+T60	Material 778 783	La2O3
+T61	Material 788 792	CeO2
+T62	Brand 794 799	Sigma
+T63	Number 801 806	99.99
+T64	Amount-Unit 806 807	%
+T65	Material 812 819	ethanol
+T66	Number 842 843	6
+T67	Condition-Unit 844 845	h
+T68	Material 903 922	Pr0.5Ba0.4Ca0.1MnO3
+T69	Material-Descriptor 892 902	disordered
+T70	Material-Descriptor 941 955	organic binder
+T71	Material 957 962	V-006
+T72	Material 968 987	Pr0.5Ba0.4Ca0.1MnO3
+T73	Material-Descriptor 988 994	slurry
+T74	Material 1028 1032	LSGM
+T75	Property-Misc 1033 1039	pellet
+T76	Meta 1047 1069	screen printing method
+T77	Number 1089 1092	950
+T78	Condition-Unit 1093 1097	degC
+T79	Material 1101 1104	air
+T80	Number 1109 1110	4
+T81	Condition-Unit 1111 1112	h
+R11	Coref_Of Arg1:T18 Arg2:T17	
+R12	Property_Of Arg1:T19 Arg2:T17	
+R13	Property_Of Arg1:T21 Arg2:T20	
+R14	Descriptor_Of Arg1:T27 Arg2:T26	
+R15	Number_Of Arg1:T24 Arg2:T25	
+R16	Condition_Of Arg1:T25 Arg2:E4	
+R17	Amount_Of Arg1:T28 Arg2:T29	
+R18	Brand_Of Arg1:T30 Arg2:T29	
+R19	Number_Of Arg1:T31 Arg2:T32	
+R20	Amount_Of Arg1:T32 Arg2:T29	
+R21	Amount_Of Arg1:T28 Arg2:T33	
+R22	Brand_Of Arg1:T34 Arg2:T33	
+R23	Number_Of Arg1:T35 Arg2:T36	
+R24	Amount_Of Arg1:T36 Arg2:T33	
+R25	Brand_Of Arg1:T38 Arg2:T37	
+R26	Amount_Of Arg1:T28 Arg2:T37	
+R27	Number_Of Arg1:T39 Arg2:T40	
+R28	Amount_Of Arg1:T40 Arg2:T37	
+R29	Amount_Of Arg1:T28 Arg2:T41	
+R30	Brand_Of Arg1:T42 Arg2:T41	
+R31	Number_Of Arg1:T43 Arg2:T44	
+R32	Amount_Of Arg1:T44 Arg2:T41	
+R33	Descriptor_Of Arg1:T45 Arg2:T41	
+R34	Descriptor_Of Arg1:T45 Arg2:T37	
+R35	Descriptor_Of Arg1:T45 Arg2:T33	
+R36	Descriptor_Of Arg1:T45 Arg2:T29	
+R37	Number_Of Arg1:T47 Arg2:T48	
+R38	Condition_Of Arg1:T48 Arg2:E5	
+R39	Number_Of Arg1:T50 Arg2:T51	
+R40	Condition_Of Arg1:T51 Arg2:E7	
+R41	Property_Of Arg1:T54 Arg2:T53	
+R42	Number_Of Arg1:T55 Arg2:T56	
+R43	Type_Of Arg1:T52 Arg2:T56	
+R44	Property_Of Arg1:T56 Arg2:T53	
+R45	Coref_Of Arg1:T58 Arg2:T57	
+R46	Amount_Of Arg1:T59 Arg2:T60	
+R47	Amount_Of Arg1:T59 Arg2:T61	
+R48	Brand_Of Arg1:T62 Arg2:T61	
+R49	Brand_Of Arg1:T62 Arg2:T60	
+R50	Number_Of Arg1:T63 Arg2:T64	
+R51	Amount_Of Arg1:T64 Arg2:T61	
+R52	Amount_Of Arg1:T64 Arg2:T60	
+R53	Number_Of Arg1:T66 Arg2:T67	
+R54	Condition_Of Arg1:T67 Arg2:E12	
+R55	Descriptor_Of Arg1:T73 Arg2:T72	
+R56	Property_Of Arg1:T75 Arg2:T74	
+R57	Number_Of Arg1:T77 Arg2:T78	
+R58	Condition_Of Arg1:T78 Arg2:E15	
+R59	Number_Of Arg1:T80 Arg2:T81	
+R60	Condition_Of Arg1:T81 Arg2:E15	

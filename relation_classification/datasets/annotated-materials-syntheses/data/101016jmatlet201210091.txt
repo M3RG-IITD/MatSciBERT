@@ -1,0 +1,5 @@
+10.1016/j.matlet.2012.10.091
+Perovskite LaMnO3 hollow nanospheres: The synthesis and the application in catalytic wet air oxidation of phenol
+
+All the chemicals used are A.R. grade. In a typical process, 2.5 mmol La(NO3)3*6H2O, 2.24 g 50% Mn(NO3)2 solution (containing 7 mmol Mn2+), 10 mmol citric acid (C6H8O7*H2O), 45 mmol urea and 1.0 g P123 were dissolved with a mixed solvent containing 2 mL ethanol, 8 mL ethylene glycol and 2 mL H2O. After being stirred for 5 h, the obtained solution was transferred into a 70 mL stainless autoclave, and heated at 100 degC for 48 h. The solid product was washed and collected by centrifugation, then dried overnight at 60 degC. This gray product was calcined at 600 degC for 8 h in air flow to convert it to LaMnO3.
+

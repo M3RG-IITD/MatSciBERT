@@ -1,0 +1,99 @@
+T2	Nonrecipe-Material 140 146	Li-ion
+T1	Material 73 99	lithium-rich layered oxide
+T3	Material 172 175	LLO
+T4	Operation 160 171	synthesized
+E1	Operation:T4 Recipe_Target:T3
+T5	Operation 411 419	prepared
+E2	Operation:T5 Recipe_Target:T21
+T6	Operation 498 506	prepared
+E3	Operation:T6 Recipe_Precursor:T25
+T7	Operation 639 646	rotated
+E4	Operation:T7 Participant_Material:T31
+T8	Operation 685 695	maintained
+E5	Operation:T8 
+T9	Operation 707 718	controlling
+E6	Operation:T9 Solvent_Material:T38
+T10	Operation 774 780	rinsed
+E7	Operation:T10 Participant_Material:T39 Solvent_Material:T40
+T11	Operation 804 812	filtered
+E8	Operation:T11 
+T12	Operation 817 822	dried
+E9	Operation:T12 
+T13	Operation 920 925	mixed
+E10	Operation:T13 Participant_Material:T45 Recipe_Precursor:T44 Recipe_Precursor:T43
+T14	Operation 941 949	grounded
+E11	Operation:T14 
+T15	Operation 979 989	pelletized
+E12	Operation:T15 Participant_Material:T47
+T16	Operation 994 1002	calcined
+E13	Operation:T16 Atmospheric_Material:T52
+T17	Property-Misc 176 188	doped with F
+T18	Nonrecipe-Material 236 242	Li ion
+T19	Property-Misc 334 341	F-doped
+T20	Material 342 345	LLO
+T21	Material 360 390	Li1.17Ni0.17Co0.17Mn0.50O2-zFz
+T22	Number 392 393	0
+T23	Number 402 405	0.1
+T24	Material-Descriptor 462 471	precursor
+T25	Material 472 492	Ni0.2Co0.2Mn0.6(OH)2
+T26	Number 514 519	2:2:6
+T27	Amount-Unit 520 531	molar ratio
+T28	Nonrecipe-Material 535 551	Ni/Co/Mn sulfate
+T29	Material-Descriptor 563 571	solution
+T30	Synthesis-Apparatus 580 604	co-precipitation reactor
+T31	Material 610 621	precipitate
+T32	Number 650 653	600
+T33	Condition-Unit 654 657	rpm
+T34	Number 661 663	50
+T35	Condition-Unit 664 668	degC
+T36	Condition-Unit 678 680	pH
+T37	Number 699 703	11.5
+T38	Material 740 745	NH4OH
+T39	Material 751 758	product
+T40	Material 797 802	water
+T41	Material-Descriptor 786 796	de-ionized
+T42	Condition-Misc 823 832	overnight
+T43	Material 834 840	Li2CO3
+T44	Material 842 845	LiF
+T45	Material 855 871	precursor powder
+T46	Amount-Misc 893 914	desired stoichiometry
+T47	Material 955 973	resulting mixtures
+T48	Number 1006 1009	700
+T49	Number 1044 1046	10
+T50	Condition-Unit 1010 1014	degC
+T51	Condition-Unit 1047 1048	h
+T52	Material 1036 1039	air
+R1	Property_Of Arg1:T17 Arg2:T3	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E7	
+R7	Next_Operation Arg1:E7 Arg2:E8	
+R8	Next_Operation Arg1:E8 Arg2:E9	
+R9	Next_Operation Arg1:E9 Arg2:E10	
+R10	Next_Operation Arg1:E10 Arg2:E11	
+R11	Next_Operation Arg1:E11 Arg2:E12	
+R12	Next_Operation Arg1:E12 Arg2:E13	
+R13	Property_Of Arg1:T19 Arg2:T20	
+R14	Coref_Of Arg1:T20 Arg2:T21	
+R15	Descriptor_Of Arg1:T24 Arg2:T25	
+R16	Number_Of Arg1:T26 Arg2:T27	
+R17	Amount_Of Arg1:T27 Arg2:T28	
+R18	Descriptor_Of Arg1:T29 Arg2:T28	
+R19	Apparatus_Of Arg1:T30 Arg2:E3	
+R20	Number_Of Arg1:T32 Arg2:T33	
+R21	Number_Of Arg1:T34 Arg2:T35	
+R22	Condition_Of Arg1:T33 Arg2:E4	
+R23	Condition_Of Arg1:T35 Arg2:E4	
+R24	Number_Of Arg1:T37 Arg2:T36	
+R25	Condition_Of Arg1:T36 Arg2:E5	
+R26	Descriptor_Of Arg1:T41 Arg2:T40	
+R27	Condition_Of Arg1:T42 Arg2:E9	
+R28	Amount_Of Arg1:T46 Arg2:T45	
+R29	Amount_Of Arg1:T46 Arg2:T44	
+R30	Amount_Of Arg1:T46 Arg2:T43	
+R31	Number_Of Arg1:T48 Arg2:T50	
+R32	Condition_Of Arg1:T50 Arg2:E13	
+R33	Number_Of Arg1:T49 Arg2:T51	
+R34	Condition_Of Arg1:T51 Arg2:E13	

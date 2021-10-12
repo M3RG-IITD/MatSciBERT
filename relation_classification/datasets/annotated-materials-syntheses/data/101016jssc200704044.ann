@@ -1,0 +1,112 @@
+T1	Operation 194 202	prepared
+E1	Operation:T1 Recipe_Target:T14 Atmospheric_Material:T3
+T2	Meta 228 255	solid-state reaction method
+T3	Material 259 262	air
+T4	Operation 347 352	mixed
+E2	Operation:T4 Recipe_Precursor:T15 Recipe_Precursor:T16 Recipe_Precursor:T17
+T5	Operation 402 410	prefired
+E3	Operation:T5 
+T6	Operation 459 465	ground
+E4	Operation:T6 Participant_Material:T18
+T7	Operation 467 477	pelletized
+E5	Operation:T7 
+T8	Operation 483 491	calcined
+E6	Operation:T8 
+T9	Operation 599 607	obtained
+E7	Operation:T9 Participant_Material:T19
+T10	Operation 628 634	ground
+E8	Operation:T10 Participant_Material:T21
+T11	Operation 639 646	pressed
+E9	Operation:T11 Participant_Material:T22
+T12	Operation 726 733	reduced
+E10	Operation:T12 Participant_Material:T23 Atmospheric_Material:T24
+T13	Operation 842 850	obtained
+E11	Operation:T13 Recipe_Target:T25
+T14	Material 161 173	SrMo1-xNixO4
+T15	Material 303 308	SrCO3
+T16	Material 310 314	MoO3
+T17	Material 320 322	Ni
+T18	Material 446 453	powders
+T19	Material 580 592	SrMo1-xNixO4
+T20	Material-Descriptor 569 578	compounds
+T21	Material 613 622	compounds
+T22	Material 658 665	pellets
+T23	Material 713 720	pellets
+T24	Material 739 744	H2/Ar
+T25	Material 824 836	SrMo1-xNixO3
+T26	Property-Misc 134 149	polycrystalline
+T27	Material-Descriptor 291 302	high-purity
+T28	Material-Descriptor 323 330	powders
+T29	Amount-Misc 370 391	desired stoichiometry
+T30	Number 414 417	900
+T31	Condition-Unit 421 422	C
+T32	Number 427 429	24
+T33	Condition-Unit 430 431	h
+T34	Number 495 499	1000
+T35	Number 501 505	1100
+T36	Number 510 514	1200
+T37	Condition-Unit 518 519	C
+T38	Number 524 526	24
+T39	Condition-Unit 527 528	h
+T40	Number 672 674	10
+T41	Number 691 692	2
+T42	Property-Unit 675 677	mm
+T43	Property-Unit 693 695	mm
+T44	Property-Type 678 686	diameter
+T45	Property-Type 696 705	thickness
+T46	Number 746 747	5
+T47	Amount-Unit 747 748	%
+T48	Number 750 752	95
+T49	Amount-Unit 752 753	%
+T50	Number 763 766	920
+T51	Condition-Unit 770 771	C
+T52	Number 776 778	12
+T53	Condition-Unit 779 780	h
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Next_Operation Arg1:E8 Arg2:E9	
+R8	Next_Operation Arg1:E9 Arg2:E10	
+R9	Next_Operation Arg1:E10 Arg2:E11	
+R10	Condition_Of Arg1:T31 Arg2:E3	
+R11	Condition_Of Arg1:T33 Arg2:E3	
+R12	Condition_Of Arg1:T37 Arg2:E6	
+R13	Condition_Of Arg1:T39 Arg2:E6	
+R14	Condition_Of Arg1:T51 Arg2:E10	
+R15	Condition_Of Arg1:T53 Arg2:E10	
+R16	Property_Of Arg1:T26 Arg2:T14	
+T54	Amount-Misc 264 287	Appropriate proportions
+R17	Amount_Of Arg1:T54 Arg2:T15	
+R18	Amount_Of Arg1:T54 Arg2:T16	
+R19	Amount_Of Arg1:T54 Arg2:T17	
+R20	Amount_Of Arg1:T29 Arg2:T15	
+R21	Amount_Of Arg1:T29 Arg2:T16	
+R22	Amount_Of Arg1:T29 Arg2:T17	
+R23	Property_Of Arg1:T42 Arg2:T22	
+R24	Property_Of Arg1:T43 Arg2:T22	
+R25	Amount_Of Arg1:T47 Arg2:T24	
+R26	Amount_Of Arg1:T49 Arg2:T24	
+R27	Descriptor_Of Arg1:T27 Arg2:T15	
+R28	Descriptor_Of Arg1:T27 Arg2:T16	
+R29	Descriptor_Of Arg1:T27 Arg2:T17	
+R30	Descriptor_Of Arg1:T28 Arg2:T15	
+R31	Descriptor_Of Arg1:T28 Arg2:T16	
+R32	Descriptor_Of Arg1:T28 Arg2:T17	
+R33	Descriptor_Of Arg1:T20 Arg2:T19	
+R34	Type_Of Arg1:T44 Arg2:T42	
+R35	Type_Of Arg1:T45 Arg2:T43	
+R36	Number_Of Arg1:T30 Arg2:T31	
+R37	Number_Of Arg1:T32 Arg2:T33	
+R38	Number_Of Arg1:T34 Arg2:T37	
+R39	Number_Of Arg1:T35 Arg2:T37	
+R40	Number_Of Arg1:T36 Arg2:T37	
+R41	Number_Of Arg1:T38 Arg2:T39	
+R42	Number_Of Arg1:T40 Arg2:T42	
+R43	Number_Of Arg1:T41 Arg2:T43	
+R44	Number_Of Arg1:T46 Arg2:T47	
+R45	Number_Of Arg1:T48 Arg2:T49	
+R46	Number_Of Arg1:T50 Arg2:T51	
+R47	Number_Of Arg1:T52 Arg2:T53	

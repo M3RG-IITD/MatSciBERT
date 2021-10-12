@@ -1,0 +1,6 @@
+10.1016/j.nanoen.2015.07.001
+Highly porous TiO2 hollow microspheres constructed by radially oriented nanorods chains for high capacity, high rate and long cycle capability lithium battery
+
+Titanium tetrachloride (TiCl4), titanium sulfate (Ti(SO4)2), isopropanol and anhydrous ethanol were purchased from Sinopharm Chemical Reagent Ltd. Co. and used as received.
+
+In a typical synthesis, 3 mL of titanium tetrachloride (TiCl4) was added to 84 mL of isopropanol. Then the solution was still magnetically stirred for 30 min. Subsequently, the precursor solution was then transferred into a 150 mL Teflon-lined autoclave and kept at 200 degC for 24 h. After this hydrothermal reaction, the reaction was naturally cooled to room temperature. The recovered white precipitate was washed thoroughly with ethanol and dried at 60 degC for 12 h.

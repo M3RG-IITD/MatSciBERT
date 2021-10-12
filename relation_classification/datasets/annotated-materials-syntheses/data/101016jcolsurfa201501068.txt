@@ -1,0 +1,5 @@
+10.1016/j.colsurfa.2015.01.068
+Mesoscopic architectures of Co(OH)2 spheres with an extended array of microporous threads as pseudocapacitor electrode materials
+
+All the chemicals used in the present study were of analytical grade obtained from Nice Chemicals, India. Firstly, 1 M of Co(NO3)2 was completely dissolved in 32 mL of methanol under constant stirring condition. To this solution, 1 M of ammonia solution was added followed by 32 mL addition of water. This solution was stirred for 30 min. The obtained precipitate solution was autoclaved in a teflon lined container at 90 degC for different time intervals ranging from 3 to 24 h. The resultant solution was centrifuged and filtered for 30 min. The obtained precipitate was thoroughly washed with de-ionized water and oven dried for 12 h in air at 50 degC. Based on the processing time the powders were designated as C-3, C-6, C-12 and C-24 where C and number represent cobalt hydroxide and time, respectively.
+

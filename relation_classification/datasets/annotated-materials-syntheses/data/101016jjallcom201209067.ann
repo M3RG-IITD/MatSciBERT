@@ -1,0 +1,94 @@
+T1	Operation 229 233	used
+E1	Operation:T1 Recipe_Precursor:T10 Recipe_Precursor:T11 Recipe_Precursor:T12
+T2	Operation 276 281	mixed
+E2	Operation:T2 Participant_Material:T13 Recipe_Target:T14
+T3	Operation 379 388	subjected
+E3	Operation:T3 Participant_Material:T15 Solvent_Material:T16
+T4	Operation 486 495	performed
+E4	Operation:T4 
+T5	Operation 569 573	kept
+E5	Operation:T5 Participant_Material:T25 Participant_Material:T24
+T6	Operation 611 617	filled
+E6	Operation:T6 Atmospheric_Material:T28
+T7	Operation 739 748	densified
+E7	Operation:T7 Solvent_Material:T32 Participant_Material:T33
+T8	Operation 872 876	used
+E8	Operation:T8 
+T9	Operation 896 905	conducted
+E9	Operation:T9 
+T10	Material 185 187	Cu
+T11	Material 198 200	Fe
+T12	Material 214 215	S
+T13	Material 263 270	powders
+T14	Material 315 323	CuFeS2-x
+T15	Material 365 373	mixtures
+T16	Material 392 394	MA
+T17	Synthesis-Apparatus 400 419	planetary ball mill
+T18	Synthesis-Apparatus 436 465	hardened stainless steel vial
+T19	Synthesis-Apparatus 470 474	ball
+T20	Number 499 502	450
+T21	Condition-Unit 503 506	rpm
+T22	Condition-Misc 511 526	different times
+T23	Amount-Unit 532 544	weight ratio
+T24	Material 548 553	balls
+T25	Material 557 564	powders
+T26	Number 583 587	20:1
+T27	Synthesis-Apparatus 597 606	mill vial
+T28	Material 623 625	Ar
+T29	Number 627 631	99.9
+T30	Amount-Unit 631 632	%
+T31	Material 660 667	powders
+T32	Material 715 717	MA
+T33	Material 726 733	powders
+T34	Meta 752 755	SPS
+T35	Number 795 798	873
+T36	Number 802 805	923
+T37	Condition-Unit 806 807	K
+T38	Number 812 813	5
+T39	Condition-Unit 814 817	min
+T40	Number 845 847	50
+T41	Condition-Unit 848 851	MPa
+T42	Synthesis-Apparatus 853 866	Graphite dies
+T43	Meta 881 884	SPS
+T44	Condition-Misc 909 915	vacuum
+T45	Number 189 194	99.99
+T46	Amount-Unit 194 195	%
+T47	Number 202 207	99.99
+T48	Amount-Unit 207 208	%
+T49	Number 217 221	99.9
+T50	Amount-Unit 221 222	%
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E7	
+R7	Next_Operation Arg1:E7 Arg2:E8	
+R8	Next_Operation Arg1:E8 Arg2:E9	
+R9	Apparatus_Of Arg1:T17 Arg2:E3	
+R10	Apparatus_Of Arg1:T18 Arg2:E3	
+R11	Apparatus_Of Arg1:T19 Arg2:E3	
+R12	Condition_Of Arg1:T21 Arg2:E4	
+R13	Condition_Of Arg1:T22 Arg2:E4	
+R15	Apparatus_Of Arg1:T27 Arg2:E6	
+R16	Condition_Of Arg1:T37 Arg2:E7	
+R17	Condition_Of Arg1:T39 Arg2:E7	
+R18	Condition_Of Arg1:T41 Arg2:E7	
+R19	Apparatus_Of Arg1:T42 Arg2:E8	
+R20	Condition_Of Arg1:T44 Arg2:E9	
+R21	Amount_Of Arg1:T46 Arg2:T10	
+R22	Amount_Of Arg1:T48 Arg2:T11	
+R23	Amount_Of Arg1:T50 Arg2:T12	
+R24	Amount_Of Arg1:T23 Arg2:T25	
+R14	Amount_Of Arg1:T23 Arg2:T24	
+R25	Amount_Of Arg1:T30 Arg2:T28	
+R26	Number_Of Arg1:T45 Arg2:T46	
+R27	Number_Of Arg1:T47 Arg2:T48	
+R28	Number_Of Arg1:T49 Arg2:T50	
+R29	Number_Of Arg1:T20 Arg2:T21	
+R30	Number_Of Arg1:T26 Arg2:T23	
+R31	Number_Of Arg1:T29 Arg2:T30	
+R32	Number_Of Arg1:T35 Arg2:T37	
+R33	Number_Of Arg1:T36 Arg2:T37	
+R34	Number_Of Arg1:T38 Arg2:T39	
+R35	Number_Of Arg1:T40 Arg2:T41	

@@ -1,0 +1,126 @@
+T1	Material 50 64	LiNi0.5Mn1.5O4
+T2	Property-Misc 65 72	cathode
+T3	Property-Misc 32 49	Disordered spinel
+T4	Material 141 155	LiNi0.5Mn1.5O4
+T5	Operation 133 140	prepare
+E1	Operation:T5 Recipe_Target:T4
+T6	Operation 327 336	dissolved
+E2	Operation:T6 Recipe_Precursor:T16 Recipe_Precursor:T22 Recipe_Precursor:T28 Participant_Material:T34 Solvent_Material:T40
+T7	Operation 379 385	heated
+E3	Operation:T7 Participant_Material:T41
+T8	Operation 444 450	formed
+E4	Operation:T8 Participant_Material:T47
+T9	Operation 482 494	heat-treated
+E5	Operation:T9 Participant_Material:T48
+T10	Operation 532 538	heated
+E6	Operation:T10 Solvent_Material:T62
+T11	Operation 608 613	yield
+E7	Operation:T11 Participant_Material:T63
+T12	Operation 658 666	obtained
+E8	Operation:T12 Participant_Material:T64
+T13	Operation 672 678	marked
+E9	Operation:T13 Recipe_Target:T66 Recipe_Target:T65 Recipe_Target:T67 Recipe_Target:T68
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E7	
+R7	Next_Operation Arg1:E7 Arg2:E8	
+R8	Next_Operation Arg1:E8 Arg2:E9	
+R9	Property_Of Arg1:T3 Arg2:T1	
+R10	Property_Of Arg1:T2 Arg2:T1	
+T14	Number 157 161	0.65
+T15	Amount-Unit 162 163	g
+T16	Material 167 172	NiCl2
+T17	Brand 174 181	Aldrich
+T18	Number 183 185	98
+T19	Number 189 193	2.97
+T20	Amount-Unit 185 186	%
+T21	Amount-Unit 194 195	g
+T22	Material 199 209	MnCl2.4H2O
+T23	Brand 211 224	Sigma-Aldrich
+T24	Number 226 228	99
+T25	Amount-Unit 228 229	%
+T26	Number 232 236	0.42
+T27	Amount-Unit 237 238	g
+T28	Material 242 250	LiOH*H2O
+T29	Brand 252 265	Sigma-Aldrich
+T30	Number 267 269	99
+T31	Amount-Unit 269 270	%
+T32	Number 277 281	2.50
+T33	Amount-Unit 282 283	g
+T34	Material 287 294	glycine
+T35	Brand 296 301	Sigma
+T36	Number 303 305	99
+T37	Amount-Unit 305 306	%
+T38	Condition-Misc 313 326	homogeneously
+T39	Material-Descriptor 340 349	deionized
+T40	Material 350 355	water
+T41	Material 361 369	solution
+T42	Number 389 391	90
+T43	Number 401 402	8
+T44	Condition-Unit 392 396	degC
+T45	Condition-Unit 403 404	h
+T46	Condition-Misc 411 417	vacuum
+T47	Material 429 439	suspension
+T48	Material 468 477	precursor
+T49	Material-Descriptor 456 467	as-obtained
+T50	Number 498 501	580
+T51	Number 511 512	5
+T52	Condition-Unit 502 506	degC
+T53	Condition-Unit 513 514	h
+T54	Number 542 545	750
+T55	Number 552 555	850
+T56	Number 566 569	950
+T57	Condition-Unit 546 550	degC
+T58	Condition-Unit 556 560	degC
+T59	Condition-Unit 570 574	degC
+T60	Number 593 595	12
+T61	Condition-Unit 596 597	h
+T62	Material 601 604	air
+T63	Material 624 632	products
+T64	Material 650 657	powders
+T65	Material 682 686	S580
+T66	Material 688 692	S750
+T67	Material 694 698	S850
+T68	Material 704 708	S950
+R11	Number_Of Arg1:T14 Arg2:T15	
+R12	Amount_Of Arg1:T15 Arg2:T16	
+R13	Brand_Of Arg1:T17 Arg2:T16	
+R14	Number_Of Arg1:T18 Arg2:T20	
+R15	Amount_Of Arg1:T20 Arg2:T16	
+R16	Number_Of Arg1:T19 Arg2:T21	
+R17	Amount_Of Arg1:T21 Arg2:T22	
+R18	Brand_Of Arg1:T23 Arg2:T22	
+R19	Number_Of Arg1:T24 Arg2:T25	
+R20	Number_Of Arg1:T26 Arg2:T27	
+R21	Amount_Of Arg1:T25 Arg2:T22	
+R22	Amount_Of Arg1:T27 Arg2:T28	
+R23	Brand_Of Arg1:T29 Arg2:T28	
+R24	Number_Of Arg1:T30 Arg2:T31	
+R25	Amount_Of Arg1:T31 Arg2:T28	
+R26	Number_Of Arg1:T32 Arg2:T33	
+R27	Brand_Of Arg1:T35 Arg2:T34	
+R28	Number_Of Arg1:T36 Arg2:T37	
+R29	Amount_Of Arg1:T37 Arg2:T34	
+R30	Condition_Of Arg1:T38 Arg2:E2	
+R31	Descriptor_Of Arg1:T39 Arg2:T40	
+R32	Number_Of Arg1:T42 Arg2:T44	
+R33	Condition_Of Arg1:T44 Arg2:E3	
+R34	Number_Of Arg1:T43 Arg2:T45	
+R35	Condition_Of Arg1:T45 Arg2:E3	
+R36	Condition_Of Arg1:T46 Arg2:E3	
+R37	Descriptor_Of Arg1:T49 Arg2:T48	
+R38	Number_Of Arg1:T50 Arg2:T52	
+R39	Condition_Of Arg1:T52 Arg2:E5	
+R40	Number_Of Arg1:T51 Arg2:T53	
+R41	Condition_Of Arg1:T53 Arg2:E5	
+R42	Number_Of Arg1:T54 Arg2:T57	
+R43	Number_Of Arg1:T55 Arg2:T58	
+R44	Number_Of Arg1:T56 Arg2:T59	
+R45	Condition_Of Arg1:T57 Arg2:E6	
+R46	Condition_Of Arg1:T58 Arg2:E6	
+R47	Condition_Of Arg1:T59 Arg2:E6	
+R48	Number_Of Arg1:T60 Arg2:T61	
+R49	Condition_Of Arg1:T61 Arg2:E6	

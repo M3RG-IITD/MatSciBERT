@@ -1,0 +1,9 @@
+10.1016/j.solidstatesciences.2016.09.005
+Dielectric properties of FeNbO4 ceramics prepared by the sol-gel method
+
+FeNbO4 powders were prepared using the sol-gel method. Niobium chloride (NbCl5) and iron nitrate (Fe(NO3)3*9H2O), were used as starting materials and citric acid and ethylene glycol as chelating agent and reaction medium, respectively. All reagents used in the process were of analytical grade. A suspension containing stoichiometric amounts of starting materials was previously prepared in a minor amount of hydrogen peroxide (3% V/V) and dispersed in a mixture of citric acid and ethylene glycol in a molar ratio 1:3. In order to promote the solubility, the suspension was stirred until a clear colloidal suspension was obtained.
+
+The solution was dried at 300 degC for 24 h to evaporate the solvent and the obtained powders were thermally analysed by differential thermal analysis, performed in a Lynseis Apparatus type L92/095, in the temperature range 20-1200 degC, with a heating rate of 5 degC/min, using Al2O3 as reference.
+
+Subsequently, the dry powders were pressed into pellets, and finally heat-treated, according to the DTA results, at 500, 650, 850, 1000 and 1200 degC, using a dwell time of 4 h, with a heating rate of 5 oC/min.
+

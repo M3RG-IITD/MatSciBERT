@@ -1,0 +1,179 @@
+T1	Material 174 188	Graphene oxide
+T2	Operation 198 206	prepared
+E1	Operation:T2 Participant_Material:T1 Recipe_Precursor:T26
+T3	Operation 303 308	mixed
+E2	Operation:T3 Participant_Material:T29 Participant_Material:T30
+T4	Operation 317 325	stirring
+E3	Operation:T4 
+T5	Operation 378 387	dispersed
+E4	Operation:T5 Recipe_Precursor:T31 Participant_Material:T32
+T6	Operation 444 449	added
+E5	Operation:T6 Participant_Material:T33 Participant_Material:T34
+T7	Operation 543 551	reacting
+E6	Operation:T7 
+T8	Operation 578 585	diluted
+E7	Operation:T8 Participant_Material:T35 Solvent_Material:T36
+T9	Operation 620 628	filtered
+E8	Operation:T9 
+T10	Operation 646 652	washed
+E9	Operation:T10 Participant_Material:T37 Solvent_Material:T38
+T11	Operation 808 814	rinsed
+E10	Operation:T11 Participant_Material:T40 Solvent_Material:T41
+T12	Operation 891 897	ground
+E11	Operation:T12 Participant_Material:T42 Participant_Material:T43
+T13	Operation 952 960	filtered
+E12	Operation:T13 Participant_Material:T44
+T14	Operation 965 970	dried
+E13	Operation:T14 
+T15	Operation 1023 1032	dispersed
+E14	Operation:T15 Participant_Material:T45 Solvent_Material:T46
+T16	Operation 1060 1075	ultrasonication
+E15	Operation:T16 
+T17	Operation 1094 1099	mixed
+E16	Operation:T17 Participant_Material:T47 Recipe_Precursor:T48 Participant_Material:T49 Participant_Material:T50
+T18	Operation 1149 1153	form
+E17	Operation:T18 Participant_Material:T52
+T19	Operation 1202 1208	heated
+E18	Operation:T19 Participant_Material:T53
+T20	Operation 1316 1321	dried
+E19	Operation:T20 
+T21	Operation 1363 1371	purified
+E20	Operation:T21 Participant_Material:T55
+T22	Operation 1375 1382	washing
+E21	Operation:T22 Solvent_Material:T56
+T23	Operation 1453 1461	obtained
+E22	Operation:T23 Recipe_Target:T57
+T24	Operation 1465 1482	thermal reduction
+E23	Operation:T24 Atmospheric_Material:T59
+T25	Material 190 192	GO
+T26	Material 212 220	graphite
+T27	Material-Descriptor 221 227	powder
+T28	Meta 235 254	Staudenmaier method
+T29	Material 268 281	sulfuric acid
+T30	Material 286 297	nitric acid
+T31	Material 358 366	graphite
+T32	Material 397 405	solution
+T33	Material 421 439	potassium chlorate
+T34	Material 459 465	system
+T35	Material 566 573	mixture
+T36	Material 605 610	water
+T37	Material 634 636	GO
+T38	Material 656 673	hydrochloric acid
+T39	Nonrecipe-Material 684 696	sulfate ions
+T40	Material 785 792	mixture
+T41	Material 823 828	water
+T42	Material 884 886	GO
+T43	Material 905 911	powder
+T44	Material 936 938	GO
+T45	Material 1009 1011	GO
+T46	Material 1039 1044	water
+T47	Material 1081 1089	solution
+T48	Material 1105 1113	Fe(NO3)3
+T49	Material 1115 1119	urea
+T50	Material 1125 1140	ethylene glycol
+T51	Material 1142 1144	EG
+T52	Material 1168 1178	suspension
+T53	Material 1190 1197	mixture
+T54	Number 1243 1246	200
+T55	Material 1349 1357	products
+T56	Material 1402 1407	water
+T57	Material 1418 1432	Fe3O4/graphene
+T58	Property-Misc 1433 1447	nanocomposites
+T59	Material 1489 1491	Ar
+T60	Material-Descriptor 1492 1502	atmosphere
+T61	Number 326 328	15
+T62	Condition-Unit 329 332	min
+T63	Synthesis-Apparatus 339 347	ice bath
+T64	Material-Descriptor 367 373	powder
+T65	Number 413 415	15
+T66	Condition-Unit 416 419	min
+T67	Number 556 558	96
+T68	Condition-Unit 559 560	h
+T69	Material-Descriptor 589 599	de-ionized
+T70	Material-Descriptor 601 603	DI
+T71	Material 706 714	solution
+T72	Material-Descriptor 820 822	DI
+T73	Synthesis-Apparatus 918 930	agate mortar
+T74	Material-Descriptor 939 947	solution
+T75	Synthesis-Apparatus 977 981	oven
+T76	Number 985 987	80
+T77	Condition-Unit 988 992	degC
+T78	Condition-Misc 993 1002	overnight
+T79	Material-Descriptor 1012 1018	powder
+T80	Material-Descriptor 1036 1038	DI
+T81	Number 1046 1049	1.5
+T82	Amount-Unit 1050 1055	mg/ml
+T83	Number 1248 1251	600
+T84	Number 1257 1261	1000
+T85	Condition-Unit 1262 1263	W
+T86	Number 1295 1297	30
+T87	Condition-Unit 1298 1301	min
+T88	Condition-Misc 1274 1290	reflux condition
+T89	Condition-Misc 1322 1331	overnight
+T90	Synthesis-Apparatus 1339 1343	oven
+T91	Material-Descriptor 1399 1401	DI
+T92	Number 1506 1509	873
+T93	Condition-Unit 1510 1511	K
+T94	Number 1516 1517	4
+T95	Condition-Unit 1518 1519	h
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Next_Operation Arg1:E8 Arg2:E9	
+R8	Next_Operation Arg1:E9 Arg2:E10	
+R9	Next_Operation Arg1:E10 Arg2:E11	
+R10	Next_Operation Arg1:E11 Arg2:E12	
+R11	Next_Operation Arg1:E12 Arg2:E13	
+R12	Next_Operation Arg1:E13 Arg2:E14	
+R13	Next_Operation Arg1:E14 Arg2:E15	
+R14	Next_Operation Arg1:E15 Arg2:E16	
+R15	Next_Operation Arg1:E16 Arg2:E17	
+R16	Next_Operation Arg1:E17 Arg2:E18	
+R17	Next_Operation Arg1:E18 Arg2:E19	
+R18	Next_Operation Arg1:E19 Arg2:E20	
+R19	Next_Operation Arg1:E20 Arg2:E21	
+R20	Next_Operation Arg1:E21 Arg2:E22	
+R21	Next_Operation Arg1:E22 Arg2:E23	
+R22	Coref_Of Arg1:T25 Arg2:T1	
+R23	Coref_Of Arg1:T51 Arg2:T50	
+R24	Condition_Of Arg1:T62 Arg2:E3	
+R25	Apparatus_Of Arg1:T63 Arg2:E3	
+R26	Condition_Of Arg1:T66 Arg2:E4	
+R27	Condition_Of Arg1:T68 Arg2:E6	
+R28	Apparatus_Of Arg1:T73 Arg2:E11	
+R29	Apparatus_Of Arg1:T75 Arg2:E13	
+R30	Condition_Of Arg1:T77 Arg2:E13	
+R31	Condition_Of Arg1:T78 Arg2:E13	
+R32	Condition_Of Arg1:T85 Arg2:E18	
+R33	Condition_Of Arg1:T88 Arg2:E18	
+R34	Condition_Of Arg1:T87 Arg2:E18	
+R35	Condition_Of Arg1:T89 Arg2:E19	
+R36	Apparatus_Of Arg1:T90 Arg2:E19	
+R37	Condition_Of Arg1:T93 Arg2:E23	
+R38	Condition_Of Arg1:T95 Arg2:E23	
+R39	Amount_Of Arg1:T82 Arg2:T46	
+R40	Property_Of Arg1:T58 Arg2:T57	
+R41	Descriptor_Of Arg1:T27 Arg2:T26	
+R42	Descriptor_Of Arg1:T64 Arg2:T31	
+R43	Descriptor_Of Arg1:T69 Arg2:T36	
+R44	Descriptor_Of Arg1:T70 Arg2:T36	
+R45	Descriptor_Of Arg1:T72 Arg2:T41	
+R46	Descriptor_Of Arg1:T74 Arg2:T44	
+R47	Descriptor_Of Arg1:T79 Arg2:T45	
+R48	Descriptor_Of Arg1:T80 Arg2:T46	
+R49	Descriptor_Of Arg1:T60 Arg2:T59	
+R50	Descriptor_Of Arg1:T91 Arg2:T56	
+R51	Number_Of Arg1:T61 Arg2:T62	
+R52	Number_Of Arg1:T65 Arg2:T66	
+R53	Number_Of Arg1:T67 Arg2:T68	
+R54	Number_Of Arg1:T76 Arg2:T77	
+R55	Number_Of Arg1:T81 Arg2:T82	
+R56	Number_Of Arg1:T54 Arg2:T85	
+R57	Number_Of Arg1:T83 Arg2:T85	
+R58	Number_Of Arg1:T84 Arg2:T85	
+R59	Number_Of Arg1:T86 Arg2:T87	
+R60	Number_Of Arg1:T92 Arg2:T93	
+R61	Number_Of Arg1:T94 Arg2:T95	

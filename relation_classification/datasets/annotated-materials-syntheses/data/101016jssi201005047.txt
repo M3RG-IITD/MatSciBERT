@@ -1,0 +1,5 @@
+10.1016/j.ssi.2010.05.047
+Electrical Properties of Fe-doped Perovskite-like BaNb0.75-xFexNa0.25O3-δ (0.05<x<0.5)
+
+A series of BaNa0.25Nb0.75-xFexO3-δ (BNF) compositions (0.05 < x < 0.5) were prepared by conventional solid state synthesis. Stoichiometric amounts of high purity (> 99.9%, Alfa Aesar) BaCO3, NaNO3, Nb2O5, and Fe2O3 were weighed and the mixtures were ball milled (Pulverisette, Fritsch, Germany) using zirconia balls in 2-propanol for 6 h. The mixture was calcinated at 1000 degC for 16 h, and the subsequent powder ball milled for 6 h. The powder was isostatically pressed and fired at 1200 degC for 24 h. As-prepared samples were characterized by powder X-ray diffraction (PXRD) (Rigaku powder X-ray diffractometer (Cu Kα, 40 kV, 40 mA)). The surface and morphology of the materials were evaluated using scanning electron microscopy (SEM) (Philips XL 30, The Netherlands). The chemical stability in 100% CO2 was investigated at 800 degC for 5 days and also refluxed in H2O for 5 days. The resultant products were investigated by PXRD and weight of the samples was measured before and after the stability tests.
+

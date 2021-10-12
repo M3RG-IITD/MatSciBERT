@@ -1,0 +1,4 @@
+10.1016/j.jallcom.2014.12.037
+Self-assembled graphene-wrapped SnO2 nanotubes nanohybrid as a high-performance anode material for lithium-ion batteries
+
+The Sn nanorod templates were prepared via a simple NaBH4 reduction process using SnCl4 as a reactant and poly(diallyldimethylammonium chloride) (PDDA) as a soft template according to the previous report [41]. Then, the SnO2-NTs/G nanohybrid was synthesized through a facile electrostatic attraction directed self-assembly approach using Sn nanorods as templates. Typically, the pristine Sn nanorods and graphene oxide (GO) sheets (4:1 by weight) were dispersed in distilled water, stirred for 12 h, and then the GO matrix was reduced by NaBH4 (weight ratio of 10:1 for NaBH4/GO). After the reaction was finished, the resulting product was washed with distilled water and ethanol, yielding the SnO2-NTs/G nanohybrid.

@@ -1,0 +1,51 @@
+T1	Material 173 181	Graphite
+T2	Material 192 201	chemicals
+T3	Operation 207 215	obtained
+E1	Operation:T3 Recipe_Precursor:T1 Participant_Material:T2
+T4	Brand 221 234	Sigma-Aldrich
+T5	Material-Descriptor 246 259	reagent grade
+T6	Material 292 300	graphene
+T7	Operation 325 334	oxidation
+E2	Operation:T7 Recipe_Target:T6 Recipe_Precursor:T8 Participant_Material:T9
+T8	Material 338 346	graphite
+T9	Material 350 364	graphite oxide
+T10	Meta 384 398	Hummers method
+T11	Operation 480 500	thermally exfoliated
+E3	Operation:T11 Participant_Material:T16
+T12	Material 790 798	Graphene
+T13	Material 828 831	DMF
+T14	Operation 816 824	prepared
+E4	Operation:T14 Recipe_Target:T12 Solvent_Material:T13
+T15	Operation 896 911	ultrasonication
+E5	Operation:T15 
+T16	Material 448 462	graphite oxide
+T17	Number 504 508	1000
+T18	Condition-Unit 509 513	degC
+T30	Number 863 866	1.0
+T31	Amount-Unit 867 875	mg mL- 1
+T32	Number 879 882	7.0
+T33	Amount-Unit 883 891	mg mL- 1
+T34	Number 927 929	10
+T35	Condition-Unit 930 934	mins
+T36	Number 947 948	5
+T37	Condition-Unit 949 953	mins
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Condition_Of Arg1:T18 Arg2:E3	
+R6	Condition_Of Arg1:T35 Arg2:E5	
+R7	Condition_Of Arg1:T37 Arg2:E5	
+R8	Amount_Of Arg1:T31 Arg2:T13	
+R9	Amount_Of Arg1:T31 Arg2:T12	
+R10	Amount_Of Arg1:T33 Arg2:T13	
+R11	Amount_Of Arg1:T33 Arg2:T12	
+R12	Descriptor_Of Arg1:T5 Arg2:T1	
+R13	Descriptor_Of Arg1:T5 Arg2:T2	
+R14	Brand_Of Arg1:T4 Arg2:T2	
+R15	Brand_Of Arg1:T4 Arg2:T1	
+R16	Number_Of Arg1:T17 Arg2:T18	
+R17	Number_Of Arg1:T30 Arg2:T31	
+R18	Number_Of Arg1:T32 Arg2:T33	
+R19	Number_Of Arg1:T34 Arg2:T35	
+R20	Number_Of Arg1:T36 Arg2:T37	

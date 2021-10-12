@@ -1,0 +1,184 @@
+T1	Operation 90 100	synthesize
+E1	Operation:T1 Recipe_Target:T2
+T2	Material 105 111	NaGaO2
+T3	Property-Misc 112 118	powder
+T4	Number 120 124	0.03
+T5	Number 143 147	0.03
+T6	Number 206 208	30
+T7	Number 272 275	850
+T8	Number 285 287	12
+T9	Number 388 389	0
+T10	Number 396 397	1
+T11	Number 456 461	0.004
+T12	Number 484 486	25
+T13	Number 538 540	10
+T14	Number 627 629	20
+T15	Number 706 711	0.004
+T16	Number 733 735	30
+T17	Number 799 801	50
+T18	Number 844 847	200
+T19	Number 857 858	5
+T20	Number 900 901	0
+T21	Number 908 909	1
+T22	Number 970 972	60
+T23	Number 982 983	2
+T24	Operation 262 268	heated
+E2	Operation:T24 Recipe_Precursor:T49 Recipe_Precursor:T48
+T25	Operation 315 321	cooled
+E3	Operation:T25 
+T26	Operation 403 412	performed
+E4	Operation:T26 Recipe_Target:T54
+T27	Operation 471 480	dispersed
+E5	Operation:T27 Participant_Material:T55 Solvent_Material:T60
+T28	Operation 526 533	stirred
+E6	Operation:T28 
+T29	Operation 548 554	obtain
+E7	Operation:T29 Participant_Material:T64
+T30	Operation 618 623	added
+E8	Operation:T30 Participant_Material:T66 Recipe_Precursor:T69 Recipe_Precursor:T71
+T31	Operation 721 728	stirred
+E9	Operation:T31 
+T32	Operation 787 793	heated
+E10	Operation:T32 Participant_Material:T77
+T33	Operation 864 868	form
+E11	Operation:T33 Recipe_Target:T83
+T34	Operation 929 938	separated
+E12	Operation:T34 Participant_Material:T85
+T35	Operation 942 956	centrifugation
+E13	Operation:T35 
+T36	Operation 961 966	dried
+E14	Operation:T36 
+T37	Operation 1063 1071	prepared
+E15	Operation:T37 Recipe_Target:T89 Recipe_Target:T90
+T38	Material-Descriptor 230 237	mixture
+T39	Amount-Unit 125 128	mol
+T40	Material 132 138	Na2CO3
+T41	Amount-Unit 148 151	mol
+T42	Material 155 160	Ga2O3
+T43	Operation 166 171	mixed
+E16	Operation:T43 Recipe_Precursor:T40 Recipe_Precursor:T42
+T44	Operation 176 182	ground
+E17	Operation:T44 
+T45	Synthesis-Apparatus 195 201	mortar
+T46	Apparatus-Descriptor 189 194	agate
+T47	Condition-Unit 209 212	min
+T48	Material 241 247	Na2CO3
+T49	Material 252 257	Ga2O3
+T50	Condition-Unit 276 280	degC
+T51	Condition-Unit 288 289	h
+T52	Synthesis-Apparatus 298 305	furnace
+T53	Condition-Misc 325 341	room temperature
+T54	Material 373 386	Ni1-xZnxGa2O4
+T55	Material 441 447	NaGaO2
+T56	Material-Descriptor 448 454	powder
+T57	Material-Descriptor 429 440	as-prepared
+T58	Amount-Unit 462 465	mol
+T59	Amount-Unit 487 489	mL
+T60	Material 503 508	water
+T61	Material-Descriptor 493 502	deionized
+T62	Condition-Misc 513 525	magnetically
+T63	Condition-Unit 541 544	min
+T64	Material 557 563	NaGaO2
+T65	Material-Descriptor 564 582	colloidal solution
+T66	Material 588 594	NaGaO2
+T67	Material-Descriptor 595 613	colloidal solution
+T68	Amount-Unit 630 632	mL
+T69	Material 659 675	Zn(CH3COO)2*2H2O
+T70	Material-Descriptor 639 655	aqueous solution
+T71	Material 680 696	Ni(CH3COO)2*4H2O
+T72	Nonrecipe-Material 698 700	Ni
+T73	Nonrecipe-Material 703 705	Zn
+T74	Amount-Unit 712 715	mol
+T75	Condition-Unit 736 739	min
+T76	Condition-Misc 743 759	room temperature
+T77	Material 775 782	mixture
+T78	Apparatus-Unit 802 804	mL
+T79	Apparatus-Descriptor 805 830	Teflon-lined hydrothermal
+T80	Synthesis-Apparatus 831 840	autoclave
+T82	Condition-Unit 859 860	h
+T81	Condition-Unit 848 852	degC
+T83	Material 885 898	Ni1-xZnxGa2O4
+T84	Property-Misc 873 884	crystalline
+T85	Material 916 924	sediment
+T86	Condition-Unit 973 977	degC
+T87	Condition-Unit 984 985	h
+T88	Meta 1002 1014	hydrothermal
+T89	Material 1030 1037	ZnGa2O4
+T90	Material 1042 1049	NiGa2O4
+T91	Property-Misc 1050 1057	powders
+A1	Start_Recipe E1
+R1	Next_Operation Arg1:E1 Arg2:E16	
+R2	Next_Operation Arg1:E16 Arg2:E17	
+R3	Next_Operation Arg1:E17 Arg2:E2	
+R4	Next_Operation Arg1:E2 Arg2:E3	
+A2	End_Recipe E3
+A3	Start_Recipe E4
+R5	Next_Operation Arg1:E4 Arg2:E5	
+R6	Next_Operation Arg1:E5 Arg2:E6	
+R7	Next_Operation Arg1:E6 Arg2:E7	
+R8	Next_Operation Arg1:E7 Arg2:E8	
+R9	Next_Operation Arg1:E8 Arg2:E9	
+R10	Next_Operation Arg1:E9 Arg2:E10	
+R11	Next_Operation Arg1:E10 Arg2:E11	
+R12	Next_Operation Arg1:E11 Arg2:E12	
+R13	Next_Operation Arg1:E12 Arg2:E13	
+R14	Next_Operation Arg1:E13 Arg2:E14	
+R15	Next_Operation Arg1:E14 Arg2:E15	
+A4	End_Recipe E15
+T92	Material 60 65	Ni-Ga
+T93	Property-Misc 66 86	based oxide catalyst
+R16	Property_Of Arg1:T93 Arg2:T92	
+R17	Property_Of Arg1:T3 Arg2:T2	
+R18	Number_Of Arg1:T4 Arg2:T39	
+R19	Amount_Of Arg1:T39 Arg2:T40	
+R20	Number_Of Arg1:T5 Arg2:T41	
+R21	Amount_Of Arg1:T41 Arg2:T42	
+R22	Descriptor_Of Arg1:T46 Arg2:T45	
+R23	Number_Of Arg1:T6 Arg2:T47	
+R24	Apparatus_Of Arg1:T45 Arg2:E17	
+R25	Condition_Of Arg1:T47 Arg2:E17	
+R26	Descriptor_Of Arg1:T38 Arg2:T48	
+R27	Descriptor_Of Arg1:T38 Arg2:T49	
+R28	Number_Of Arg1:T7 Arg2:T50	
+R29	Condition_Of Arg1:T50 Arg2:E2	
+R30	Number_Of Arg1:T8 Arg2:T51	
+R31	Condition_Of Arg1:T51 Arg2:E2	
+R32	Apparatus_Of Arg1:T52 Arg2:E2	
+R33	Condition_Of Arg1:T53 Arg2:E3	
+R34	Descriptor_Of Arg1:T57 Arg2:T55	
+R35	Descriptor_Of Arg1:T56 Arg2:T55	
+R36	Number_Of Arg1:T11 Arg2:T58	
+R37	Amount_Of Arg1:T58 Arg2:T55	
+R38	Number_Of Arg1:T12 Arg2:T59	
+R39	Descriptor_Of Arg1:T61 Arg2:T60	
+R40	Amount_Of Arg1:T59 Arg2:T60	
+R41	Condition_Of Arg1:T62 Arg2:E6	
+R42	Number_Of Arg1:T13 Arg2:T63	
+R43	Condition_Of Arg1:T63 Arg2:E6	
+R44	Descriptor_Of Arg1:T65 Arg2:T64	
+R45	Descriptor_Of Arg1:T67 Arg2:T66	
+R46	Number_Of Arg1:T14 Arg2:T68	
+R47	Amount_Of Arg1:T68 Arg2:T69	
+R48	Descriptor_Of Arg1:T70 Arg2:T69	
+R49	Amount_Of Arg1:T68 Arg2:T71	
+R50	Number_Of Arg1:T15 Arg2:T74	
+R51	Amount_Of Arg1:T74 Arg2:T72	
+R52	Amount_Of Arg1:T74 Arg2:T73	
+R53	Number_Of Arg1:T16 Arg2:T75	
+R54	Condition_Of Arg1:T75 Arg2:E9	
+R55	Condition_Of Arg1:T76 Arg2:E9	
+R56	Number_Of Arg1:T17 Arg2:T78	
+R57	Apparatus_Attr_Of Arg1:T78 Arg2:T80	
+R58	Descriptor_Of Arg1:T79 Arg2:T80	
+R59	Apparatus_Of Arg1:T80 Arg2:E10	
+R60	Number_Of Arg1:T18 Arg2:T81	
+R61	Condition_Of Arg1:T81 Arg2:E10	
+R62	Number_Of Arg1:T19 Arg2:T82	
+R63	Condition_Of Arg1:T82 Arg2:E10	
+R64	Property_Of Arg1:T84 Arg2:T83	
+R65	Number_Of Arg1:T22 Arg2:T86	
+R66	Number_Of Arg1:T23 Arg2:T87	
+R67	Condition_Of Arg1:T86 Arg2:E14	
+R68	Condition_Of Arg1:T87 Arg2:E14	
+R69	Property_Of Arg1:T91 Arg2:T90	
+R70	Property_Of Arg1:T91 Arg2:T89	

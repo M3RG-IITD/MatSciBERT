@@ -1,0 +1,63 @@
+T1	Operation 182 193	synthesized
+E1	Operation:T1 Recipe_Target:T12
+T2	Meta 200 212	hydrothermal
+T3	Material 254 270	Mn(CH3COO)2*4H2O
+T4	Material 275 285	MnCl2*4H2O
+T5	Material 345 350	H3PO4
+T6	Operation 239 246	charged
+E2	Operation:T6 Recipe_Precursor:T3
+T7	Operation 321 326	added
+E3	Operation:T7 Recipe_Precursor:T5
+T8	Operation 355 361	sealed
+E4	Operation:T8 
+T9	Operation 424 430	heated
+E5	Operation:T9 
+T10	Operation 479 485	cooled
+E6	Operation:T10 Participant_Material:T27
+T11	Operation 510 516	washed
+E7	Operation:T11 Solvent_Material:T29
+T12	Material 161 174	Mn[P2O5(OH)2]
+T13	Number 247 248	4
+T14	Amount-Unit 249 253	mmol
+T15	Number 294 296	50
+T16	Apparatus-Unit 297 299	ml
+T17	Synthesis-Apparatus 300 314	Teflon reactor
+T18	Number 327 328	3
+T19	Amount-Unit 329 331	ml
+T20	Material-Descriptor 332 344	concentrated
+T21	Synthesis-Apparatus 366 373	reactor
+T22	Synthesis-Apparatus 381 406	stainless steel container
+T23	Number 434 437	200
+T24	Condition-Unit 438 442	degC
+T25	Number 447 448	5
+T26	Condition-Unit 449 453	days
+T27	Material 465 473	products
+T28	Condition-Misc 489 505	room temperature
+T29	Material 526 531	water
+T30	Material-Descriptor 522 525	hot
+T31	Number 533 535	80
+T32	Condition-Unit 536 540	degC
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Coref_Of Arg1:T4 Arg2:T3	
+R7	Apparatus_Of Arg1:T17 Arg2:E2	
+R8	Apparatus_Of Arg1:T21 Arg2:E4	
+R9	Apparatus_Of Arg1:T22 Arg2:E4	
+R10	Condition_Of Arg1:T24 Arg2:E5	
+R11	Condition_Of Arg1:T26 Arg2:E5	
+R12	Condition_Of Arg1:T28 Arg2:E6	
+R13	Condition_Of Arg1:T32 Arg2:E7	
+R14	Amount_Of Arg1:T14 Arg2:T3	
+R15	Amount_Of Arg1:T19 Arg2:T5	
+R16	Descriptor_Of Arg1:T20 Arg2:T5	
+R17	Descriptor_Of Arg1:T30 Arg2:T29	
+R18	Number_Of Arg1:T13 Arg2:T14	
+R19	Number_Of Arg1:T15 Arg2:T16	
+R20	Apparatus_Attr_Of Arg1:T16 Arg2:T17	
+R21	Number_Of Arg1:T18 Arg2:T19	
+R22	Number_Of Arg1:T23 Arg2:T24	
+R23	Number_Of Arg1:T25 Arg2:T26	
+R24	Number_Of Arg1:T31 Arg2:T32	

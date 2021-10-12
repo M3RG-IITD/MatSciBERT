@@ -1,0 +1,67 @@
+T1	Material 68 87	Pr 0.7 Ca 0.3 MnO 3
+T2	Property-Misc 58 67	epitaxial
+T3	Material 144 148	PCMO
+T4	Material 252 258	Pr6O11
+T5	Material 260 263	MnO
+T6	Material 268 273	CaCO3
+T7	Material-Descriptor 274 281	powders
+T8	Operation 287 294	weighed
+E1	Operation:T8 Recipe_Precursor:T6 Recipe_Precursor:T5 Recipe_Precursor:T4
+T9	Operation 299 304	mixed
+E2	Operation:T9 
+T10	Operation 328 339	calcination
+E3	Operation:T10 
+T11	Operation 378 386	grounded
+E4	Operation:T11 Participant_Material:T25
+T12	Operation 388 395	pressed
+E5	Operation:T12 
+T13	Operation 400 408	sintered
+E6	Operation:T13 Atmospheric_Material:T26
+T14	Property-Misc 128 143	polycrystalline
+T15	Operation 160 168	prepared
+E7	Operation:T15 Recipe_Target:T3
+T16	Amount-Misc 212 228	Accurate amounts
+T17	Material-Descriptor 232 243	high-purity
+T18	Number 245 249	99.9
+T19	Amount-Unit 249 250	%
+T20	Operation 308 320	ball milling
+E8	Operation:T20 
+T21	Number 343 347	1250
+T22	Condition-Unit 348 352	degC
+T23	Number 357 359	12
+T24	Condition-Unit 360 361	h
+T25	Material 367 373	powder
+T26	Material 412 415	air
+T27	Number 428 430	12
+T28	Condition-Unit 431 432	h
+T29	Number 436 440	1400
+T30	Condition-Unit 441 445	degC
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E8	
+R3	Next_Operation Arg1:E8 Arg2:E3	
+R4	Next_Operation Arg1:E3 Arg2:E4	
+R5	Next_Operation Arg1:E4 Arg2:E5	
+R6	Next_Operation Arg1:E5 Arg2:E6	
+R7	Condition_Of Arg1:T22 Arg2:E3	
+R8	Condition_Of Arg1:T24 Arg2:E3	
+R9	Condition_Of Arg1:T28 Arg2:E6	
+R10	Condition_Of Arg1:T30 Arg2:E6	
+R11	Property_Of Arg1:T2 Arg2:T1	
+R12	Property_Of Arg1:T14 Arg2:T3	
+R13	Amount_Of Arg1:T16 Arg2:T4	
+R14	Amount_Of Arg1:T16 Arg2:T5	
+R15	Amount_Of Arg1:T16 Arg2:T6	
+R16	Amount_Of Arg1:T19 Arg2:T4	
+R17	Amount_Of Arg1:T19 Arg2:T5	
+R18	Amount_Of Arg1:T19 Arg2:T6	
+R19	Descriptor_Of Arg1:T17 Arg2:T4	
+R20	Descriptor_Of Arg1:T17 Arg2:T5	
+R21	Descriptor_Of Arg1:T17 Arg2:T6	
+R22	Descriptor_Of Arg1:T7 Arg2:T6	
+R23	Descriptor_Of Arg1:T7 Arg2:T5	
+R24	Descriptor_Of Arg1:T7 Arg2:T4	
+R25	Number_Of Arg1:T18 Arg2:T19	
+R26	Number_Of Arg1:T21 Arg2:T22	
+R27	Number_Of Arg1:T23 Arg2:T24	
+R28	Number_Of Arg1:T27 Arg2:T28	
+R29	Number_Of Arg1:T29 Arg2:T30	

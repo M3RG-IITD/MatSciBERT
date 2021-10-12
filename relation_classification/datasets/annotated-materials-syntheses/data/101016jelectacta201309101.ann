@@ -1,0 +1,169 @@
+T1	Operation 177 181	used
+E1	Operation:T1 Participant_Material:T17
+T2	Operation 448 452	used
+E2	Operation:T2 Recipe_Precursor:T18 Recipe_Precursor:T19 Participant_Material:T20 Participant_Material:T21 Participant_Material:T22 Participant_Material:T23 Participant_Material:T24 Recipe_Precursor:T25 Participant_Material:T26
+T3	Operation 577 585	supplied
+E3	Operation:T3 Participant_Material:T35 Participant_Material:T36 Participant_Material:T37 Participant_Material:T38
+T4	Operation 652 660	prepared
+E4	Operation:T4 Participant_Material:T40 Solvent_Material:T41
+T5	Operation 776 780	used
+E5	Operation:T5 Participant_Material:T44
+T6	Operation 819 827	adjusted
+E6	Operation:T6 Participant_Material:T47 Participant_Material:T48
+T7	Operation 930 937	weighed
+E7	Operation:T7 Recipe_Precursor:T49 Recipe_Precursor:T50
+T8	Operation 939 948	dissolved
+E8	Operation:T8 Solvent_Material:T51
+T9	Operation 1046 1051	added
+E9	Operation:T9 Participant_Material:T52 Participant_Material:T53 Participant_Material:T54
+T10	Operation 1080 1088	adjusted
+E10	Operation:T10 Participant_Material:T88 Participant_Material:T55 Participant_Material:T56
+T11	Operation 1176 1182	heated
+E11	Operation:T11 Participant_Material:T57
+T12	Operation 1239 1248	undergoes
+E12	Operation:T12 Participant_Material:T58
+T13	Operation 1249 1260	dehydration
+E13	Operation:T13 Participant_Material:T59
+T14	Operation 1288 1295	ignited
+E14	Operation:T14 Participant_Material:T59
+T15	Operation 1363 1371	obtained
+E15	Operation:T15 Recipe_Target:T60
+T16	Operation 1375 1386	calcination
+E16	Operation:T16 
+T17	Material 162 171	chemicals
+T18	Material 224 257	Ammonium hexachloropalladate (IV)
+T19	Material 277 294	strontium nitrate
+T20	Material 296 307	citric acid
+T21	Material 309 316	glycine
+T22	Material 318 322	urea
+T23	Material 324 335	nitric acid
+T24	Material 337 355	ammonium hydroxide
+T25	Material 367 382	graphite powder
+T26	Material 422 434	Paraffin oil
+T27	Brand 259 266	Aldrich
+T28	Number 268 273	99.99
+T29	Amount-Unit 273 274	%
+T30	Brand 357 364	Aldrich
+T31	Brand 384 397	Sigma-Aldrich
+T32	Number 400 402	20
+T33	Property-Unit 403 405	μm
+T34	Brand 436 441	Fluka
+T35	Material 495 503	Dopamine
+T36	Material 510 519	uric acid
+T37	Material 526 539	ascorbic acid
+T38	Material 549 571	potassium ferricyanide
+T39	Brand 589 601	Aldrich Chem
+T40	Material 637 646	solutions
+T41	Material 684 689	water
+T42	Material-Descriptor 667 683	double distilled
+T43	Material-Descriptor 629 636	Aqueous
+T44	Material 691 720	Phosphate buffer solution PBS
+T45	Material 732 738	K2HPO4
+T46	Material 753 759	KH2PO4
+T47	Material 846 851	H3PO4
+T48	Material 868 871	KOH
+T49	Material 900 911	(NH4)2PdCl6
+T50	Material 916 924	Sr(NO3)2
+T51	Material 962 967	water
+T52	Material 1011 1022	citric acid
+T53	Material 1024 1031	glycine
+T54	Material 1036 1040	urea
+T55	Material 1123 1134	nitric acid
+T56	Material 1139 1157	ammonium hydroxide
+T57	Material 1163 1171	solution
+T58	Material 1231 1238	complex
+T59	Material 1272 1276	foam
+T60	Material 1352 1358	SrPdO3
+T61	Number 722 723	1
+T62	Amount-Unit 724 731	mol L-1
+T63	Number 743 744	1
+T64	Amount-Unit 745 752	mol L-1
+T65	Amount-Unit 764 766	pH
+T66	Number 767 771	2-11
+T67	Amount-Misc 812 814	pH
+T68	Number 834 837	0.1
+T69	Amount-Unit 838 845	mol L-1
+T70	Number 856 859	0.1
+T71	Amount-Unit 860 867	mol L-1
+T72	Amount-Unit 1057 1059	pH
+T73	Number 1107 1108	2
+T74	Number 1110 1111	7
+T75	Number 1116 1118	10
+T76	Number 1207 1210	250
+T77	Condition-Unit 1211 1215	degC
+T78	Number 1390 1393	750
+T79	Condition-Unit 1394 1398	degC
+T80	Number 1417 1418	3
+T81	Number 1420 1421	5
+T82	Number 1426 1427	8
+T83	Condition-Unit 1429 1430	h
+T84	Amount-Misc 874 896	Stoichiometric amounts
+T85	Material-Descriptor 952 961	distilled
+T86	Amount-Misc 976 993	sufficient amount
+T87	Material-Descriptor 1005 1009	fuel
+T88	Material 1067 1075	solution
+T89	Synthesis-Apparatus 1188 1197	hot plate
+T90	Property-Misc 1339 1351	ceramic nano
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E7	
+R7	Next_Operation Arg1:E7 Arg2:E8	
+R8	Next_Operation Arg1:E8 Arg2:E9	
+R9	Next_Operation Arg1:E9 Arg2:E10	
+R10	Next_Operation Arg1:E10 Arg2:E11	
+R11	Next_Operation Arg1:E11 Arg2:E12	
+R12	Next_Operation Arg1:E12 Arg2:E13	
+R13	Next_Operation Arg1:E13 Arg2:E14	
+R14	Next_Operation Arg1:E14 Arg2:E15	
+R15	Next_Operation Arg1:E15 Arg2:E16	
+R16	Brand_Of Arg1:T30 Arg2:T24	
+R17	Brand_Of Arg1:T31 Arg2:T25	
+R18	Brand_Of Arg1:T34 Arg2:T26	
+R19	Brand_Of Arg1:T27 Arg2:T18	
+R20	Brand_Of Arg1:T39 Arg2:T38	
+R21	Brand_Of Arg1:T39 Arg2:T37	
+R22	Brand_Of Arg1:T39 Arg2:T36	
+R23	Brand_Of Arg1:T39 Arg2:T35	
+R24	Apparatus_Of Arg1:T89 Arg2:E11	
+R25	Condition_Of Arg1:T77 Arg2:E11	
+R26	Condition_Of Arg1:T79 Arg2:E16	
+R27	Condition_Of Arg1:T83 Arg2:E16	
+R28	Amount_Of Arg1:T29 Arg2:T18	
+R29	Property_Of Arg1:T33 Arg2:T25	
+R30	Amount_Of Arg1:T62 Arg2:T45	
+R31	Amount_Of Arg1:T64 Arg2:T46	
+R32	Amount_Of Arg1:T65 Arg2:T44	
+R33	Amount_Of Arg1:T69 Arg2:T47	
+R34	Amount_Of Arg1:T71 Arg2:T48	
+R35	Amount_Of Arg1:T67 Arg2:T44	
+R36	Amount_Of Arg1:T84 Arg2:T49	
+R37	Amount_Of Arg1:T84 Arg2:T50	
+R38	Amount_Of Arg1:T86 Arg2:T52	
+R39	Amount_Of Arg1:T86 Arg2:T53	
+R40	Amount_Of Arg1:T86 Arg2:T54	
+R41	Amount_Of Arg1:T72 Arg2:T88	
+R42	Property_Of Arg1:T90 Arg2:T60	
+R43	Descriptor_Of Arg1:T43 Arg2:T40	
+R44	Descriptor_Of Arg1:T42 Arg2:T41	
+R45	Descriptor_Of Arg1:T85 Arg2:T51	
+R46	Descriptor_Of Arg1:T87 Arg2:T52	
+R47	Descriptor_Of Arg1:T87 Arg2:T53	
+R48	Descriptor_Of Arg1:T87 Arg2:T54	
+R49	Number_Of Arg1:T28 Arg2:T29	
+R50	Number_Of Arg1:T32 Arg2:T33	
+R51	Number_Of Arg1:T61 Arg2:T62	
+R52	Number_Of Arg1:T63 Arg2:T64	
+R53	Number_Of Arg1:T66 Arg2:T65	
+R54	Number_Of Arg1:T68 Arg2:T69	
+R55	Number_Of Arg1:T70 Arg2:T71	
+R56	Number_Of Arg1:T73 Arg2:T72	
+R57	Number_Of Arg1:T74 Arg2:T72	
+R58	Number_Of Arg1:T75 Arg2:T72	
+R59	Number_Of Arg1:T76 Arg2:T77	
+R60	Number_Of Arg1:T78 Arg2:T79	
+R61	Number_Of Arg1:T80 Arg2:T83	
+R62	Number_Of Arg1:T81 Arg2:T83	
+R63	Number_Of Arg1:T82 Arg2:T83	

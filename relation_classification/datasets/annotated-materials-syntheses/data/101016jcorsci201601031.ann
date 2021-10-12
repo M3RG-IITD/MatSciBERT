@@ -1,0 +1,115 @@
+T1	Nonrecipe-Material 55 57	Fe
+T2	Nonrecipe-Material 62 64	Cr
+T3	Material 77 86	Alloy 800
+T4	Number 141 144	480
+T5	Condition-Unit 144 148	degC
+T6	Material 162 167	steam
+T7	Material-Descriptor 149 161	hydrogenated
+R1	Descriptor_Of Arg1:T7 Arg2:T6	
+T8	Operation 182 191	purchased
+E1	Operation:T8 
+T9	Operation 307 310	cut
+E2	Operation:T9 Participant_Material:T64 Participant_Material:T22
+T11	Operation 442 456	water quenched
+E3	Operation:T11 
+T12	Operation 542 548	ground
+E4	Operation:T12 Participant_Material:T41
+T10	Operation 375 383	annealed
+E5	Operation:T10 Participant_Material:T27 Atmospheric_Material:T31
+T13	Operation 619 627	polished
+E6	Operation:T13 Participant_Material:T42 Participant_Material:T52
+T14	Operation 738 760	ultrasonically cleaned
+E7	Operation:T14 Participant_Material:T55 Solvent_Material:T56 Solvent_Material:T57
+T15	Operation 842 847	dried
+E8	Operation:T15 Atmospheric_Material:T61
+T16	Operation 883 888	store
+E9	Operation:T16 Participant_Material:T63
+T17	Material 168 177	Alloy 800
+T18	Brand 197 215	Rolled Alloys Inc.
+T19	Number 221 224	1.3
+T20	Property-Unit 225 227	mm
+T21	Property-Type 228 233	thick
+T22	Material 294 302	material
+T23	Number 339 340	1
+T24	Number 347 348	1
+T25	Property-Unit 341 343	cm
+T26	Property-Unit 349 351	cm
+T27	Material 353 360	Coupons
+T28	Condition-Misc 366 374	solution
+T29	Number 387 391	1050
+T30	Condition-Unit 392 396	degC
+T31	Material 400 408	Ar-5% H2
+T32	Material-Descriptor 409 412	gas
+T33	Number 417 420	one
+T34	Condition-Unit 421 425	hour
+T35	Nonrecipe-Material 491 499	carbides
+T36	Number 554 557	400
+T37	Number 559 562	800
+T38	Number 568 572	1200
+T39	Apparatus-Unit 573 577	grit
+T40	Synthesis-Apparatus 578 583	paper
+T41	Material 529 536	Samples
+T42	Material 601 608	coupons
+T43	Synthesis-Apparatus 634 647	diamond paste
+T44	Number 649 650	9
+T45	Number 655 656	3
+T46	Number 665 666	1
+T47	Apparatus-Unit 651 653	μm
+T48	Apparatus-Unit 657 659	μm
+T49	Apparatus-Unit 667 669	μm
+T50	Number 709 713	0.05
+T51	Property-Unit 714 716	μm
+T52	Material 685 692	alumina
+T53	Material-Descriptor 693 703	suspension
+T54	Property-Type 717 723	finish
+T55	Material 725 732	Coupons
+T56	Material 764 771	ethanol
+T57	Material 787 792	water
+T58	Material-Descriptor 776 786	de-ionized
+T59	Number 797 799	10
+T60	Condition-Unit 800 807	minutes
+T61	Material 853 856	air
+T62	Synthesis-Apparatus 860 870	desiccator
+T63	Material 889 896	samples
+R2	Next_Operation Arg1:E1 Arg2:E2	
+R3	Number_Of Arg1:T4 Arg2:T5	
+T64	Material 321 328	coupons
+T65	Material-Descriptor 316 320	flat
+R4	Next_Operation Arg1:E2 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E3	
+R6	Next_Operation Arg1:E3 Arg2:E4	
+R7	Next_Operation Arg1:E4 Arg2:E6	
+R8	Next_Operation Arg1:E6 Arg2:E7	
+R9	Next_Operation Arg1:E7 Arg2:E8	
+R10	Next_Operation Arg1:E8 Arg2:E9	
+R11	Descriptor_Of Arg1:T65 Arg2:T64	
+R12	Number_Of Arg1:T23 Arg2:T25	
+R13	Number_Of Arg1:T24 Arg2:T26	
+R14	Property_Of Arg1:T25 Arg2:T64	
+R15	Property_Of Arg1:T26 Arg2:T64	
+R16	Condition_Of Arg1:T28 Arg2:E5	
+R17	Number_Of Arg1:T29 Arg2:T30	
+R18	Condition_Of Arg1:T30 Arg2:E5	
+R19	Descriptor_Of Arg1:T32 Arg2:T31	
+R20	Number_Of Arg1:T33 Arg2:T34	
+R21	Condition_Of Arg1:T34 Arg2:E5	
+R22	Number_Of Arg1:T36 Arg2:T39	
+R23	Number_Of Arg1:T37 Arg2:T39	
+R24	Number_Of Arg1:T38 Arg2:T39	
+R25	Apparatus_Attr_Of Arg1:T39 Arg2:T40	
+R26	Apparatus_Of Arg1:T40 Arg2:E4	
+R27	Number_Of Arg1:T44 Arg2:T47	
+R28	Number_Of Arg1:T45 Arg2:T48	
+R29	Number_Of Arg1:T46 Arg2:T49	
+R30	Apparatus_Attr_Of Arg1:T47 Arg2:T43	
+R31	Apparatus_Attr_Of Arg1:T48 Arg2:T43	
+R32	Apparatus_Attr_Of Arg1:T49 Arg2:T43	
+R33	Apparatus_Of Arg1:T43 Arg2:E6	
+R34	Descriptor_Of Arg1:T53 Arg2:T52	
+R35	Number_Of Arg1:T50 Arg2:T51	
+R36	Type_Of Arg1:T54 Arg2:T51	
+R37	Property_Of Arg1:T51 Arg2:T42	
+R38	Descriptor_Of Arg1:T58 Arg2:T57	
+R39	Number_Of Arg1:T59 Arg2:T60	
+R40	Condition_Of Arg1:T60 Arg2:E7	
+R41	Apparatus_Of Arg1:T62 Arg2:E9	

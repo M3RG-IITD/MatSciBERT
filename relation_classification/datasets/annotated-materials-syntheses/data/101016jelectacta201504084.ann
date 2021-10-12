@@ -1,0 +1,94 @@
+T1	Material 128 135	LixV2O5
+T2	Operation 147 155	prepared
+E1	Operation:T2 Recipe_Target:T1
+T3	Meta 166 187	hydrothermal reaction
+T4	Operation 342 347	added
+E2	Operation:T4 Recipe_Precursor:T15 Recipe_Precursor:T16 Solvent_Material:T17
+T5	Operation 392 400	stirring
+E3	Operation:T5 
+T6	Operation 470 481	transferred
+E4	Operation:T6 Participant_Material:T18
+T7	Operation 532 536	kept
+E5	Operation:T7 
+T8	Operation 576 583	cooling
+E6	Operation:T8 
+T9	Operation 618 627	collected
+E7	Operation:T9 Participant_Material:T21
+T10	Operation 631 645	centrifugation
+E8	Operation:T10 
+T11	Operation 650 656	washed
+E9	Operation:T11 Solvent_Material:T22
+T12	Operation 704 710	drying
+E10	Operation:T12 
+T13	Operation 745 753	obtained
+E11	Operation:T13 Recipe_Target:T24
+T14	Operation 757 766	calcining
+E12	Operation:T14 Participant_Material:T25 Atmospheric_Material:T26
+T15	Material 316 320	V2O5
+T16	Material 331 336	LiNO3
+T17	Material 370 375	water
+T18	Material 450 460	suspension
+T19	Synthesis-Apparatus 518 527	autoclave
+T20	Synthesis-Apparatus 543 547	oven
+T21	Material 604 613	precursor
+T22	Material 671 678	ethanol
+T23	Condition-Misc 683 696	several times
+T24	Material 733 740	LixV2O5
+T25	Material 789 797	compound
+T26	Material 824 826	Ar
+T27	Number 310 313	0.1
+T28	Amount-Unit 314 315	g
+T29	Number 325 328	3.0
+T30	Amount-Unit 329 330	g
+T31	Number 353 355	33
+T32	Material-Descriptor 359 369	de-ionized
+T33	Condition-Misc 404 420	room temperature
+T34	Number 489 491	42
+T35	Apparatus-Unit 492 494	mL
+T36	Apparatus-Descriptor 495 517	Teflon-lined stainless
+T37	Number 551 554	220
+T38	Condition-Unit 555 559	degC
+T39	Number 564 566	24
+T40	Condition-Unit 567 568	h
+T41	Material-Descriptor 662 670	absolute
+T42	Number 801 804	600
+T43	Condition-Unit 805 809	degC
+T44	Number 814 815	3
+T45	Condition-Unit 816 817	h
+T46	Number 861 862	5
+T47	Condition-Unit 863 872	degC /min
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Next_Operation Arg1:E8 Arg2:E9	
+R8	Next_Operation Arg1:E9 Arg2:E10	
+R9	Next_Operation Arg1:E10 Arg2:E11	
+R10	Next_Operation Arg1:E11 Arg2:E12	
+R11	Apparatus_Of Arg1:T19 Arg2:E4	
+R12	Condition_Of Arg1:T33 Arg2:E3	
+R13	Apparatus_Of Arg1:T20 Arg2:E5	
+R14	Condition_Of Arg1:T38 Arg2:E5	
+R15	Condition_Of Arg1:T40 Arg2:E5	
+R16	Condition_Of Arg1:T23 Arg2:E9	
+R17	Condition_Of Arg1:T43 Arg2:E12	
+R18	Condition_Of Arg1:T45 Arg2:E12	
+R19	Condition_Of Arg1:T47 Arg2:E12	
+R20	Amount_Of Arg1:T28 Arg2:T15	
+R21	Amount_Of Arg1:T30 Arg2:T16	
+R22	Descriptor_Of Arg1:T36 Arg2:T19	
+R23	Descriptor_Of Arg1:T41 Arg2:T22	
+R24	Descriptor_Of Arg1:T32 Arg2:T17	
+R25	Number_Of Arg1:T27 Arg2:T28	
+R26	Number_Of Arg1:T29 Arg2:T30	
+T48	Amount-Unit 356 358	mL
+R27	Number_Of Arg1:T31 Arg2:T48	
+R28	Number_Of Arg1:T34 Arg2:T35	
+R29	Number_Of Arg1:T37 Arg2:T38	
+R30	Number_Of Arg1:T39 Arg2:T40	
+R31	Number_Of Arg1:T42 Arg2:T43	
+R32	Number_Of Arg1:T44 Arg2:T45	
+R33	Number_Of Arg1:T46 Arg2:T47	
+R34	Apparatus_Attr_Of Arg1:T35 Arg2:T19	

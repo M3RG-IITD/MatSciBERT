@@ -1,0 +1,5 @@
+10.1016/j.matlet.2013.05.115
+Coupled soft-template/hydrothermal process synthesis of mesoporous carbon spheres from liquefied larch sawdust
+Larch sawdust (10 g), phenol (30 mL), sulfuric acid (98%, 1 mL), and phosphoric acid (85%, 2 mL) were added into a three-necked glass reactor and heated under reflux at a temperature of 110-120 degC for 1 h. The mixture was filtered and the pH was adjusted to neutral and filtered again. The filtrate was concentrated using vacuum distillation at 40 degC, giving the liquefied larch sawdust.
+
+In a typical synthesis, formaldehyde (37%, 90 mL) and sodium hydroxide (3 g) were added to liquefied larch to generate larch-based resin. Different concentrations of F127 (3%, 6%, 8%, and 10%) were added to the liquefied larch and stirred for 12 h at 40 degC, following adjustment of the pH to 0.5 and performed for 12 h. The reaction mixture was allowed to react for 6 h at 180 degC. The mixture was then carbonized under a N2 atmosphere at different temperatures (500 degC, 600 degC, 700 degC) for 2 h. The resultant CSs were denoted as CS-x-y, where x was the concentration of F127, and y was the carbonization temperature.

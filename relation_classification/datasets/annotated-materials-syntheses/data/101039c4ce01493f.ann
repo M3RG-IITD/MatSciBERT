@@ -1,0 +1,146 @@
+T1	Meta 20 36	Facile synthesis
+T2	Material 60 65	MoS 2
+T3	Property-Misc 40 59	hierarchical hollow
+T4	Property-Misc 66 75	nanotubes
+T5	Property-Misc 79 84	anode
+T6	Number 164 169	1.165
+T7	Number 189 194	0.312
+T8	Number 215 219	1.37
+T9	Number 252 254	30
+T10	Number 281 283	10
+T11	Amount-Unit 170 171	g
+T12	Amount-Unit 195 196	g
+T13	Amount-Unit 220 221	g
+T14	Operation 239 248	dissolved
+E1	Operation:T14 Recipe_Precursor:T19 Recipe_Precursor:T18 Recipe_Precursor:T17 Solvent_Material:T22 Solvent_Material:T20
+T15	Amount-Unit 255 257	ml
+T16	Amount-Unit 284 286	ml
+T17	Material 175 187	Na2MoO4*2H2O
+T18	Material 200 210	MnCl2*4H2O
+T19	Material 225 233	(NH2)2CS
+T20	Material 271 276	water
+T21	Material-Descriptor 261 270	deionized
+T22	Material 299 306	ethanol
+T23	Material-Descriptor 290 298	absolute
+T24	Operation 314 322	stirring
+E2	Operation:T24 
+T25	Operation 352 363	transferred
+E3	Operation:T25 Participant_Material:T37
+T26	Operation 420 426	sealed
+E4	Operation:T26 
+T27	Operation 444 450	heated
+E5	Operation:T27 
+T28	Operation 479 486	cooling
+E6	Operation:T28 
+T29	Operation 526 535	collected
+E7	Operation:T29 Participant_Material:T52
+T30	Operation 537 543	washed
+E8	Operation:T30 Solvent_Material:T54 Solvent_Material:T56
+T31	Operation 614 619	dried
+E9	Operation:T31 
+T32	Operation 710 718	obtained
+E10	Operation:T32 Recipe_Target:T63
+T33	Operation 742 750	obtained
+E11	Operation:T33 Recipe_Target:T66
+T34	Operation 774 783	dissolved
+E12	Operation:T34 Participant_Material:T68 Solvent_Material:T70 Solvent_Material:T73
+T35	Number 327 329	30
+T36	Condition-Unit 330 333	min
+T37	Material 339 347	solution
+T38	Number 371 373	50
+T39	Number 454 457	210
+T40	Number 467 469	16
+T41	Number 623 625	60
+T42	Number 635 636	5
+T43	Number 787 789	30
+T44	Number 817 819	10
+T45	Apparatus-Unit 374 376	ml
+T46	Apparatus-Descriptor 377 405	Teflon-lined stainless steel
+T47	Synthesis-Apparatus 406 415	autoclave
+T48	Condition-Misc 427 434	tightly
+T49	Condition-Unit 458 462	degC
+T50	Condition-Unit 470 471	h
+T51	Condition-Misc 487 496	naturally
+T52	Material 508 520	precipitates
+T53	Material-Descriptor 502 507	black
+T54	Material 557 574	hydrochloric acid
+T55	Material-Descriptor 549 556	diluted
+T56	Material 589 594	water
+T57	Material-Descriptor 579 588	deionized
+T58	Condition-Misc 595 608	several times
+T59	Condition-Unit 626 630	degC
+T60	Condition-Unit 637 638	h
+T61	Synthesis-Apparatus 651 655	oven
+T62	Apparatus-Descriptor 644 650	vacuum
+T63	Material 690 694	MoS2
+T64	Property-Misc 695 704	nanotubes
+T65	Property-Misc 670 689	hierarchical hollow
+T66	Material 720 724	MoS2
+T67	Property-Misc 725 736	nanoflowers
+T68	Material 760 768	reagents
+T69	Amount-Unit 790 792	ml
+T70	Material 805 812	ethanol
+T71	Material-Descriptor 796 804	absolute
+T72	Amount-Unit 820 822	ml
+T73	Material 836 841	water
+T74	Material-Descriptor 826 835	deionized
+R1	Property_Of Arg1:T3 Arg2:T2	
+R2	Property_Of Arg1:T4 Arg2:T2	
+R3	Property_Of Arg1:T5 Arg2:T2	
+R4	Next_Operation Arg1:E1 Arg2:E2	
+A1	Start_Recipe E1
+R5	Next_Operation Arg1:E2 Arg2:E3	
+R6	Next_Operation Arg1:E3 Arg2:E4	
+R7	Next_Operation Arg1:E4 Arg2:E5	
+R8	Next_Operation Arg1:E5 Arg2:E6	
+R9	Next_Operation Arg1:E6 Arg2:E7	
+R10	Next_Operation Arg1:E7 Arg2:E8	
+R11	Next_Operation Arg1:E8 Arg2:E9	
+R12	Next_Operation Arg1:E9 Arg2:E10	
+A2	End_Recipe E10
+A3	Start_Recipe E11
+R13	Next_Operation Arg1:E11 Arg2:E12	
+A4	End_Recipe E12
+R14	Number_Of Arg1:T6 Arg2:T11	
+R15	Amount_Of Arg1:T11 Arg2:T17	
+R16	Number_Of Arg1:T7 Arg2:T12	
+R17	Amount_Of Arg1:T12 Arg2:T18	
+R18	Number_Of Arg1:T8 Arg2:T13	
+R19	Amount_Of Arg1:T13 Arg2:T19	
+R20	Number_Of Arg1:T9 Arg2:T15	
+R21	Amount_Of Arg1:T15 Arg2:T20	
+R22	Descriptor_Of Arg1:T21 Arg2:T20	
+R23	Number_Of Arg1:T10 Arg2:T16	
+R24	Amount_Of Arg1:T16 Arg2:T22	
+R25	Descriptor_Of Arg1:T23 Arg2:T22	
+R26	Number_Of Arg1:T35 Arg2:T36	
+R27	Condition_Of Arg1:T36 Arg2:E2	
+R28	Number_Of Arg1:T38 Arg2:T45	
+R29	Descriptor_Of Arg1:T46 Arg2:T47	
+R30	Apparatus_Attr_Of Arg1:T45 Arg2:T47	
+R31	Apparatus_Of Arg1:T47 Arg2:E3	
+R32	Condition_Of Arg1:T48 Arg2:E4	
+R33	Number_Of Arg1:T39 Arg2:T49	
+R34	Number_Of Arg1:T40 Arg2:T50	
+R35	Condition_Of Arg1:T49 Arg2:E5	
+R36	Condition_Of Arg1:T50 Arg2:E5	
+R37	Condition_Of Arg1:T51 Arg2:E6	
+R38	Descriptor_Of Arg1:T53 Arg2:T52	
+R39	Descriptor_Of Arg1:T55 Arg2:T54	
+R40	Descriptor_Of Arg1:T57 Arg2:T56	
+R41	Condition_Of Arg1:T58 Arg2:E8	
+R42	Number_Of Arg1:T41 Arg2:T59	
+R43	Condition_Of Arg1:T59 Arg2:E9	
+R44	Number_Of Arg1:T42 Arg2:T60	
+R45	Condition_Of Arg1:T60 Arg2:E9	
+R46	Descriptor_Of Arg1:T62 Arg2:T61	
+R47	Apparatus_Of Arg1:T61 Arg2:E9	
+R48	Property_Of Arg1:T65 Arg2:T63	
+R49	Property_Of Arg1:T64 Arg2:T63	
+R50	Property_Of Arg1:T67 Arg2:T66	
+R51	Number_Of Arg1:T43 Arg2:T69	
+R52	Amount_Of Arg1:T69 Arg2:T70	
+R53	Descriptor_Of Arg1:T71 Arg2:T70	
+R54	Number_Of Arg1:T44 Arg2:T72	
+R55	Descriptor_Of Arg1:T74 Arg2:T73	
+R56	Amount_Of Arg1:T72 Arg2:T73	

@@ -1,0 +1,366 @@
+T1	Material 71 77	silica
+T2	Property-Misc 78 85	powders
+T3	Property-Misc 105 124	antibiotic remotion
+T4	Property-Misc 60 70	mesoporous
+T5	Material 211 253	Cetyltrimethylammonium p-toluene sulfonate
+T6	Material 257 265	tosylate
+T7	Material 267 271	CTAT
+T8	Number 278 283	455.7
+T9	Amount-Unit 284 291	gmol- 1
+T10	Material 294 306	Pluronic F68
+T11	Material 311 335	tetraethyl orthosilicate
+T12	Material 337 341	TEOS
+T13	Number 343 345	99
+T14	Amount-Unit 345 346	%
+T15	Operation 353 362	purchased
+E1	Operation:T15 Recipe_Precursor:T10 Recipe_Precursor:T11 Recipe_Precursor:T5 Recipe_Precursor:T6
+T16	Brand 368 375	Aldrich
+T17	Operation 644 652	obtained
+E2	Operation:T17 Recipe_Precursor:T64 Recipe_Precursor:T63 Recipe_Precursor:T62 Recipe_Precursor:T61 Recipe_Precursor:T60 Recipe_Precursor:T59 Recipe_Precursor:T58 Solvent_Material:T57 Solvent_Material:T56 Recipe_Precursor:T55 Solvent_Material:T54 Recipe_Precursor:T53 Recipe_Precursor:T52
+T18	Operation 709 713	used
+E3	Operation:T18 Participant_Material:T66
+T19	Operation 754 758	used
+E4	Operation:T19 Solvent_Material:T69
+T20	Operation 767 778	preparation
+E5	Operation:T20 Participant_Material:T70
+T21	Operation 815 823	prepared
+E6	Operation:T21 Recipe_Target:T71
+T22	Operation 923 928	mixed
+E7	Operation:T22 Recipe_Precursor:T76 Solvent_Material:T79
+T23	Operation 952 959	stirred
+E8	Operation:T23 
+T24	Operation 1050 1055	mixed
+E9	Operation:T24 
+T25	Operation 1070 1078	prepared
+E10	Operation:T25 Recipe_Precursor:T87
+T26	Operation 1107 1113	adding
+E11	Operation:T26 Participant_Material:T92 Participant_Material:T93
+T27	Operation 1175 1182	stirred
+E12	Operation:T27 Participant_Material:T94
+T28	Operation 1216 1220	form
+E13	Operation:T28 Participant_Material:T99
+T29	Operation 1269 1273	left
+E14	Operation:T29 
+T30	Operation 1298 1304	obtain
+E15	Operation:T30 
+T31	Operation 1366 1371	added
+E16	Operation:T31 Recipe_Precursor:T109 Participant_Material:T103
+T32	Operation 1412 1420	stirring
+E17	Operation:T32 Participant_Material:T112
+T33	Operation 1465 1477	incorporated
+E18	Operation:T33 Participant_Material:T116
+T34	Operation 1563 1570	stirred
+E19	Operation:T34 Participant_Material:T118
+T35	Operation 1590 1594	left
+E20	Operation:T35 
+T36	Operation 1657 1665	filtered
+E21	Operation:T36 Participant_Material:T134
+T37	Operation 1670 1676	washed
+E22	Operation:T37 Participant_Material:T135
+T38	Operation 1702 1707	dried
+E23	Operation:T38 
+T39	Operation 1745 1753	calcined
+E24	Operation:T39 Atmospheric_Material:T138
+T40	Operation 1772 1782	increasing
+E25	Operation:T40 
+T41	Operation 1873 1880	holding
+E26	Operation:T41 
+T42	Operation 1914 1925	synthesized
+E27	Operation:T42 Recipe_Target:T151
+T43	Operation 1995 2003	calcined
+E28	Operation:T43 
+T44	Operation 2014 2019	mixed
+E29	Operation:T44 Recipe_Precursor:T156 Recipe_Precursor:T161
+T45	Operation 2065 2072	stirred
+E30	Operation:T45 
+T46	Operation 2113 2121	filtered
+E31	Operation:T46 Participant_Material:T167
+T47	Operation 2126 2132	washed
+E32	Operation:T47 Participant_Material:T168
+T48	Operation 2148 2153	dried
+E33	Operation:T48 
+T49	Operation 2191 2199	calcined
+E34	Operation:T49 Atmospheric_Material:T170
+T50	Operation 2314 2322	measured
+E35	Operation:T50 Participant_Material:T177
+T51	Operation 2399 2409	extracting
+E36	Operation:T51 Participant_Material:T180
+T52	Material 377 406	Iron(III) nitrate nonahydrate
+T53	Material 408 427	potassium hydroxide
+T54	Material 429 447	potassium chloride
+T55	Material 449 466	potassium nitrate
+T56	Material 468 479	nitric acid
+T57	Material 481 498	hydrochloric acid
+T58	Material 500 514	sodium acetate
+T59	Material 516 527	acetic acid
+T60	Material 529 545	sodium carbonate
+T61	Material 547 572	sodium hydrogen carbonate
+T62	Material 574 592	disodium phosphate
+T63	Material 593 602	anhydrous
+T64	Material 608 638	monosodium phosphate anhydrous
+T65	Brand 658 664	Anedra
+T66	Material 670 679	chemicals
+T67	Amount-Misc 688 704	analytical grade
+T68	Material-Descriptor 727 743	Doubly distilled
+T69	Material 744 749	water
+T70	Material 782 791	solutions
+T71	Material 804 810	silica
+T72	Property-Misc 793 803	Mesoporous
+T73	Reference 887 891	[12]
+T74	Number 902 906	11.6
+T75	Amount-Unit 907 909	mL
+T76	Material 913 917	TEOS
+T77	Number 934 935	2
+T78	Amount-Unit 936 938	mL
+T79	Material 942 947	water
+T80	Synthesis-Apparatus 966 981	autoclave flask
+T81	Number 986 988	10
+T82	Condition-Unit 989 992	min
+T83	Number 996 999	500
+T84	Condition-Unit 1000 1003	rpm
+T85	Number 1023 1025	38
+T86	Amount-Unit 1026 1028	mL
+T87	Material 1032 1049	CTAT-Pluronic F68
+T88	Material-Descriptor 1056 1064	solution
+T89	Number 1086 1095	0.75:0.25
+T90	Amount-Unit 1096 1103	M ratio
+T91	Amount-Misc 1118 1132	desired amount
+T92	Nonrecipe-Material 1136 1147	surfactants
+T93	Nonrecipe-Material 1151 1156	water
+T94	Material 1163 1170	mixture
+T95	Synthesis-Apparatus 1196 1201	flask
+T96	Apparatus-Descriptor 1188 1195	conical
+T97	Number 1205 1207	35
+T98	Condition-Unit 1208 1212	degC
+T99	Material 1235 1243	template
+T100	Material-Descriptor 1223 1234	transparent
+T101	Material-Descriptor 1244 1252	solution
+T102	Condition-Misc 1277 1293	room temperature
+T103	Material 1320 1328	material
+T104	Material-Descriptor 1309 1319	mesoporous
+T105	Number 1330 1332	20
+T106	Amount-Unit 1333 1335	mL
+T107	Number 1341 1345	1.43
+T108	Amount-Unit 1346 1347	M
+T109	Material 1348 1351	HCl
+T110	Material-Descriptor 1352 1360	solution
+T111	Condition-Misc 1372 1384	drop by drop
+T112	Material 1392 1396	TEOS
+T113	Material-Descriptor 1397 1405	solution
+T114	Number 1425 1426	2
+T115	Condition-Unit 1427 1430	min
+T116	Material 1452 1460	solution
+T117	Material-Descriptor 1441 1451	surfactant
+T118	Material 1493 1496	gel
+T119	Number 1520 1521	1
+T120	Number 1527 1531	0.53
+T121	Number 1536 1541	0.011
+T122	Number 1547 1553	0.0037
+T123	Nonrecipe-Material 1522 1526	TEOS
+T124	Nonrecipe-Material 1532 1535	HCl
+T125	Nonrecipe-Material 1542 1546	CTAT
+T126	Nonrecipe-Material 1554 1557	F68
+T127	Number 1575 1576	5
+T128	Condition-Unit 1577 1580	min
+T129	Number 1599 1601	48
+T130	Condition-Unit 1602 1603	h
+T131	Synthesis-Apparatus 1610 1619	autoclave
+T132	Number 1623 1626	100
+T133	Condition-Unit 1627 1631	degC
+T134	Material 1649 1652	gel
+T135	Material 1692 1697	water
+T136	Material-Descriptor 1682 1691	distilled
+T137	Condition-Misc 1711 1727	room temperature
+T138	Material 1760 1763	air
+T139	Condition-Type 1764 1768	flux
+T140	Condition-Type 1787 1798	temperature
+T141	Condition-Misc 1804 1820	room temperature
+T142	Number 1824 1827	540
+T143	Condition-Unit 1828 1832	degC
+T144	Condition-Type 1840 1852	heating rate
+T145	Number 1856 1857	2
+T146	Condition-Unit 1857 1867	degCmin- 1
+T147	Number 1885 1886	7
+T148	Condition-Unit 1887 1888	h
+T149	Number 1892 1895	540
+T150	Condition-Unit 1896 1900	degC
+T151	Material 1902 1909	Fe-SiO2
+T152	Meta 1931 1966	simple batch equilibrium adsorption
+T153	Synthesis-Apparatus 1980 1986	beaker
+T154	Number 1988 1989	2
+T155	Amount-Unit 1990 1991	g
+T156	Material 2004 2008	SiO2
+T157	Number 2025 2027	40
+T158	Amount-Unit 2028 2030	mL
+T159	Number 2036 2040	0.13
+T160	Amount-Unit 2041 2042	M
+T161	Material 2043 2051	Fe(NO3)3
+T162	Material-Descriptor 2052 2060	solution
+T163	Number 2077 2078	1
+T164	Condition-Unit 2079 2080	h
+T165	Number 2084 2087	600
+T166	Condition-Unit 2088 2091	rpm
+T167	Material 2103 2108	solid
+T168	Material 2138 2143	water
+T169	Condition-Misc 2157 2173	room temperature
+T170	Material 2206 2209	air
+T171	Condition-Type 2210 2214	flux
+T172	Number 2219 2220	2
+T173	Condition-Unit 2221 2222	h
+T174	Number 2226 2229	540
+T175	Condition-Unit 2230 2234	degC
+T176	Nonrecipe-Material 2240 2244	iron
+T177	Nonrecipe-Material 2260 2266	silica
+T178	Characterization-Apparatus 2326 2345	UV-VIS spectroscopy
+T179	Reference 2388 2392	[23]
+T180	Nonrecipe-Material 2414 2426	Fe(III) ions
+T181	Material 2460 2464	HNO3
+T182	Material-Descriptor 2447 2459	concentrated
+T183	Reference 2464 2468	[24]
+T184	Number 2292 2296	1.03
+T185	Amount-Unit 2297 2301	wt.%
+T186	Number 2279 2283	10.3
+T187	Amount-Unit 2284 2290	mgg- 1
+T188	Material 184 188	SiO2
+R1	Property_Of Arg1:T4 Arg2:T1	
+R2	Property_Of Arg1:T2 Arg2:T1	
+R3	Property_Of Arg1:T3 Arg2:T1	
+A1	Start_Recipe E1
+R4	Next_Operation Arg1:E1 Arg2:E2	
+R5	Next_Operation Arg1:E2 Arg2:E3	
+R6	Next_Operation Arg1:E3 Arg2:E4	
+R7	Next_Operation Arg1:E4 Arg2:E5	
+R8	Next_Operation Arg1:E5 Arg2:E6	
+R9	Next_Operation Arg1:E6 Arg2:E7	
+R10	Next_Operation Arg1:E7 Arg2:E8	
+R11	Next_Operation Arg1:E8 Arg2:E9	
+R12	Next_Operation Arg1:E9 Arg2:E10	
+R13	Next_Operation Arg1:E10 Arg2:E11	
+R14	Next_Operation Arg1:E11 Arg2:E12	
+R15	Next_Operation Arg1:E12 Arg2:E13	
+R16	Next_Operation Arg1:E13 Arg2:E14	
+R17	Next_Operation Arg1:E14 Arg2:E15	
+R18	Next_Operation Arg1:E15 Arg2:E16	
+R19	Next_Operation Arg1:E16 Arg2:E17	
+R20	Next_Operation Arg1:E17 Arg2:E18	
+R21	Next_Operation Arg1:E18 Arg2:E19	
+R22	Next_Operation Arg1:E19 Arg2:E20	
+R23	Next_Operation Arg1:E20 Arg2:E21	
+R24	Next_Operation Arg1:E21 Arg2:E22	
+R25	Next_Operation Arg1:E22 Arg2:E23	
+R26	Next_Operation Arg1:E23 Arg2:E24	
+R27	Next_Operation Arg1:E24 Arg2:E25	
+R28	Next_Operation Arg1:E25 Arg2:E26	
+A2	End_Recipe E26
+A3	Start_Recipe E27
+R29	Next_Operation Arg1:E27 Arg2:E28	
+R30	Next_Operation Arg1:E28 Arg2:E29	
+R31	Next_Operation Arg1:E29 Arg2:E30	
+R32	Next_Operation Arg1:E30 Arg2:E31	
+R33	Next_Operation Arg1:E31 Arg2:E32	
+R34	Next_Operation Arg1:E32 Arg2:E33	
+R35	Next_Operation Arg1:E33 Arg2:E34	
+R36	Next_Operation Arg1:E34 Arg2:E35	
+R37	Next_Operation Arg1:E35 Arg2:E36	
+A4	End_Recipe E36
+R38	Coref_Of Arg1:T7 Arg2:T5	
+R39	Number_Of Arg1:T8 Arg2:T9	
+R40	Amount_Of Arg1:T9 Arg2:T5	
+R41	Coref_Of Arg1:T12 Arg2:T11	
+R42	Number_Of Arg1:T13 Arg2:T14	
+R43	Amount_Of Arg1:T14 Arg2:T11	
+R44	Brand_Of Arg1:T16 Arg2:T11	
+R45	Brand_Of Arg1:T16 Arg2:T10	
+R46	Brand_Of Arg1:T16 Arg2:T6	
+R47	Brand_Of Arg1:T16 Arg2:T5	
+R48	Brand_Of Arg1:T65 Arg2:T64	
+R49	Brand_Of Arg1:T65 Arg2:T63	
+R50	Brand_Of Arg1:T65 Arg2:T62	
+R51	Brand_Of Arg1:T65 Arg2:T61	
+R52	Brand_Of Arg1:T65 Arg2:T60	
+R53	Brand_Of Arg1:T65 Arg2:T59	
+R54	Brand_Of Arg1:T65 Arg2:T58	
+R55	Brand_Of Arg1:T65 Arg2:T57	
+R56	Brand_Of Arg1:T65 Arg2:T56	
+R57	Brand_Of Arg1:T65 Arg2:T55	
+R58	Brand_Of Arg1:T65 Arg2:T54	
+R59	Brand_Of Arg1:T65 Arg2:T53	
+R60	Brand_Of Arg1:T65 Arg2:T52	
+R61	Amount_Of Arg1:T67 Arg2:T66	
+R62	Descriptor_Of Arg1:T68 Arg2:T69	
+R63	Property_Of Arg1:T72 Arg2:T71	
+R64	Number_Of Arg1:T74 Arg2:T75	
+R65	Amount_Of Arg1:T75 Arg2:T76	
+R66	Number_Of Arg1:T77 Arg2:T78	
+R67	Apparatus_Of Arg1:T80 Arg2:E8	
+R68	Number_Of Arg1:T81 Arg2:T82	
+R69	Condition_Of Arg1:T82 Arg2:E8	
+R70	Number_Of Arg1:T83 Arg2:T84	
+R71	Condition_Of Arg1:T84 Arg2:E8	
+R72	Number_Of Arg1:T85 Arg2:T86	
+R73	Amount_Of Arg1:T86 Arg2:T87	
+R74	Descriptor_Of Arg1:T88 Arg2:T87	
+R75	Number_Of Arg1:T89 Arg2:T90	
+R76	Amount_Of Arg1:T90 Arg2:T87	
+R77	Amount_Of Arg1:T91 Arg2:T92	
+R78	Amount_Of Arg1:T91 Arg2:T93	
+R79	Descriptor_Of Arg1:T96 Arg2:T95	
+R80	Apparatus_Of Arg1:T95 Arg2:E12	
+R81	Number_Of Arg1:T97 Arg2:T98	
+R82	Condition_Of Arg1:T98 Arg2:E12	
+R83	Descriptor_Of Arg1:T100 Arg2:T99	
+R84	Descriptor_Of Arg1:T101 Arg2:T99	
+R85	Condition_Of Arg1:T102 Arg2:E14	
+R86	Descriptor_Of Arg1:T104 Arg2:T103	
+R87	Number_Of Arg1:T105 Arg2:T106	
+R88	Number_Of Arg1:T107 Arg2:T108	
+R89	Amount_Of Arg1:T106 Arg2:T103	
+R90	Descriptor_Of Arg1:T110 Arg2:T109	
+R91	Amount_Of Arg1:T108 Arg2:T109	
+R92	Condition_Of Arg1:T111 Arg2:E16	
+R93	Descriptor_Of Arg1:T113 Arg2:T112	
+R94	Number_Of Arg1:T114 Arg2:T115	
+R95	Condition_Of Arg1:T115 Arg2:E17	
+R96	Descriptor_Of Arg1:T117 Arg2:T116	
+R97	Number_Of Arg1:T127 Arg2:T128	
+R98	Condition_Of Arg1:T128 Arg2:E19	
+R99	Number_Of Arg1:T129 Arg2:T130	
+R100	Condition_Of Arg1:T130 Arg2:E20	
+R101	Apparatus_Of Arg1:T131 Arg2:E20	
+R102	Number_Of Arg1:T132 Arg2:T133	
+R103	Condition_Of Arg1:T133 Arg2:E20	
+R104	Descriptor_Of Arg1:T136 Arg2:T135	
+R105	Condition_Of Arg1:T137 Arg2:E23	
+R106	Condition_Of Arg1:T141 Arg2:E25	
+R107	Number_Of Arg1:T142 Arg2:T143	
+R108	Condition_Of Arg1:T143 Arg2:E25	
+R109	Type_Of Arg1:T140 Arg2:T143	
+R110	Type_Of Arg1:T144 Arg2:T146	
+R111	Number_Of Arg1:T145 Arg2:T146	
+R112	Condition_Of Arg1:T146 Arg2:E25	
+R113	Number_Of Arg1:T147 Arg2:T148	
+R114	Condition_Of Arg1:T148 Arg2:E26	
+R115	Number_Of Arg1:T149 Arg2:T150	
+R116	Condition_Of Arg1:T150 Arg2:E26	
+R117	Number_Of Arg1:T154 Arg2:T155	
+R119	Amount_Of Arg1:T155 Arg2:T156	
+R118	Apparatus_Of Arg1:T153 Arg2:E29	
+R120	Number_Of Arg1:T157 Arg2:T158	
+R121	Number_Of Arg1:T159 Arg2:T160	
+R122	Amount_Of Arg1:T158 Arg2:T161	
+R123	Amount_Of Arg1:T160 Arg2:T161	
+R124	Descriptor_Of Arg1:T162 Arg2:T161	
+R125	Number_Of Arg1:T163 Arg2:T164	
+R126	Number_Of Arg1:T165 Arg2:T166	
+R127	Condition_Of Arg1:T164 Arg2:E30	
+R128	Condition_Of Arg1:T166 Arg2:E30	
+R129	Condition_Of Arg1:T169 Arg2:E33	
+R130	Number_Of Arg1:T172 Arg2:T173	
+R131	Condition_Of Arg1:T173 Arg2:E34	
+R132	Condition_Of Arg1:T175 Arg2:E34	
+R133	Number_Of Arg1:T186 Arg2:T187	
+R134	Number_Of Arg1:T184 Arg2:T185	
+R135	Amount_Of Arg1:T187 Arg2:T177	
+R136	Amount_Of Arg1:T185 Arg2:T177	
+R137	Apparatus_Of Arg1:T178 Arg2:E35	
+R138	Descriptor_Of Arg1:T182 Arg2:T181	

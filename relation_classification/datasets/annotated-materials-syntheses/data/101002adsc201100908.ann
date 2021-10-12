@@ -1,0 +1,226 @@
+T1	Operation 200 205	added
+E1	Operation:T1 Recipe_Precursor:T40 Recipe_Precursor:T41
+T2	Operation 256 263	stirred
+E2	Operation:T2 Participant_Material:T42
+T3	Operation 363 368	added
+E3	Operation:T3 Recipe_Precursor:T43 Participant_Material:T44
+T4	Operation 401 409	stirring
+E4	Operation:T4 
+T5	Operation 457 463	turned
+E5	Operation:T5 Participant_Material:T45
+T6	Operation 504 513	formation
+E6	Operation:T6 Recipe_Target:T46
+T7	Operation 576 584	dialyzed
+E7	Operation:T7 Participant_Material:T50
+T8	Operation 598 604	remove
+E8	Operation:T8 Participant_Material:T51
+T9	Operation 776 784	dialyzed
+E9	Operation:T9 Participant_Material:T54
+T10	Operation 789 796	diluted
+E10	Operation:T10 
+T11	Operation 840 848	measured
+E11	Operation:T11 Participant_Material:T55
+T12	Operation 875 882	carried
+E12	Operation:T12 
+T14	Operation 984 993	evacuated
+E14	Operation:T14 
+T15	Operation 998 1004	filled
+E15	Operation:T15 Atmospheric_Material:T80
+T13	Operation 1106 1112	placed
+E13	Operation:T13 Participant_Material:T56
+T16	Operation 1149 1157	addition
+E16	Operation:T16 Participant_Material:T62 Participant_Material:T63
+T17	Operation 1244 1251	stirred
+E17	Operation:T17 Participant_Material:T64 Atmospheric_Material:T65
+T18	Operation 1341 1350	extracted
+E18	Operation:T18 Participant_Material:T66 Participant_Material:T67
+T19	Operation 1417 1427	determined
+E19	Operation:T19 Participant_Material:T68
+T20	Characterization-Apparatus 1431 1442	GC analysis
+T21	Number 180 185	0.038
+T22	Number 189 190	5
+T23	Number 206 209	2.0
+T24	Number 213 217	0.05
+T25	Number 268 270	30
+T26	Number 291 292	0
+T27	Number 335 338	0.1
+T28	Number 342 346	19.0
+T29	Number 800 802	30
+T30	Number 726 728	10
+T31	Number 855 856	7
+T32	Number 1020 1021	3
+T33	Number 1063 1066	0.2
+T34	Number 1074 1079	0.019
+T35	Number 1091 1092	3
+T36	Number 1170 1174	0.48
+T37	Number 1195 1196	1
+T38	Number 1303 1305	24
+T39	Number 1368 1373	three
+T40	Material 173 178	RuCl3
+T41	Material 227 230	PVP
+T42	Material 236 243	mixture
+T43	Material 328 333	NaBH4
+T44	Material 378 385	mixture
+T45	Material 437 444	mixture
+T46	Material 517 519	Ru
+T47	Material 105 114	Ruthenium
+T48	Property-Misc 115 128	Nanoparticles
+T49	Property-Misc 91 104	Water-Soluble
+T50	Material 539 547	hydrosol
+T51	Material 615 625	impurities
+T52	Nonrecipe-Material 634 637	Na+
+T53	Nonrecipe-Material 642 645	Cl-
+T54	Material 738 746	hydrosol
+T55	Material 827 835	solution
+T56	Material 1028 1030	Ru
+T57	Material 555 557	Ru
+T58	Material 754 756	Ru
+T59	Material 1085 1087	Ru
+T60	Material 1096 1099	H2O
+T61	Material 1069 1072	PVP
+T62	Material 1161 1168	alcohol
+T63	Material 1185 1193	additive
+T64	Material 1221 1228	mixture
+T65	Material 1285 1287	N2
+T66	Material 1329 1336	mixture
+T67	Material 1356 1367	ethyl ether
+T68	Nonrecipe-Material 1448 1456	biphenyl
+T69	Amount-Unit 186 187	M
+T70	Amount-Unit 191 193	mL
+T71	Amount-Unit 210 211	g
+T72	Amount-Unit 218 222	mmol
+T73	Condition-Unit 271 274	min
+T74	Condition-Unit 293 297	degC
+T75	Amount-Unit 339 340	M
+T76	Amount-Unit 347 349	mL
+T77	Apparatus-Unit 729 732	kDa
+T78	Condition-Unit 803 805	mL
+T79	Condition-Unit 811 813	pH
+T80	Material 1010 1012	N2
+T81	Amount-Unit 1022 1024	mL
+T82	Amount-Unit 1067 1068	g
+T83	Amount-Unit 1080 1084	mmol
+T84	Amount-Unit 1093 1095	mL
+T85	Amount-Unit 1175 1179	mmol
+T86	Amount-Unit 1197 1201	mmol
+T87	Condition-Unit 1306 1307	h
+T88	Condition-Unit 1374 1379	times
+T89	Property-Type 1385 1395	conversion
+T90	Property-Type 1400 1411	selectivity
+T91	Material-Descriptor 153 160	aqueous
+T92	Material-Descriptor 161 169	solution
+T93	Synthesis-Apparatus 283 287	bath
+T94	Material-Descriptor 308 315	aqueous
+T95	Material-Descriptor 316 324	solution
+T96	Condition-Misc 355 362	rapidly
+T97	Condition-Misc 392 400	vigorous
+T98	Property-Type 415 420	color
+T99	Material-Descriptor 428 436	reaction
+T100	Material-Descriptor 469 487	red-brown to black
+T101	Property-Misc 520 533	nanoparticles
+T102	Material-Descriptor 558 571	nanoparticles
+T103	Condition-Misc 585 594	overnight
+T104	Material-Descriptor 605 614	inorganic
+T105	Synthesis-Apparatus 673 690	dialysis membrane
+T106	Apparatus-Descriptor 657 672	cellulose ester
+T107	Apparatus-Property-Type 698 722	cut-off molecular-weight
+T108	Material-Descriptor 757 770	nanoparticles
+T109	Synthesis-Apparatus 892 907	reaction vessel
+T110	Synthesis-Apparatus 924 940	reflux condenser
+T111	Synthesis-Apparatus 960 967	bubbler
+T112	Synthesis-Apparatus 973 979	vessel
+T113	Material-Descriptor 1031 1044	nanoparticles
+T114	Material-Descriptor 1045 1052	aqueous
+T115	Material-Descriptor 1053 1061	solution
+T116	Synthesis-Apparatus 1120 1135	reaction vessel
+T117	Condition-Misc 1233 1243	vigorously
+T118	Condition-Misc 1258 1275	reflux conditions
+T119	Condition-Type 1288 1298	atmosphere
+R1	Property_Of Arg1:T49 Arg2:T47	
+R2	Property_Of Arg1:T48 Arg2:T47	
+R3	Descriptor_Of Arg1:T91 Arg2:T40	
+R4	Descriptor_Of Arg1:T92 Arg2:T40	
+R5	Number_Of Arg1:T21 Arg2:T69	
+R6	Number_Of Arg1:T22 Arg2:T70	
+R7	Amount_Of Arg1:T69 Arg2:T40	
+R8	Amount_Of Arg1:T70 Arg2:T40	
+R9	Number_Of Arg1:T23 Arg2:T71	
+R10	Number_Of Arg1:T24 Arg2:T72	
+R11	Amount_Of Arg1:T71 Arg2:T41	
+R12	Amount_Of Arg1:T72 Arg2:T41	
+A1	Start_Recipe E1
+R13	Next_Operation Arg1:E1 Arg2:E2	
+R14	Next_Operation Arg1:E2 Arg2:E3	
+R15	Next_Operation Arg1:E3 Arg2:E4	
+R16	Next_Operation Arg1:E4 Arg2:E5	
+R17	Next_Operation Arg1:E5 Arg2:E6	
+R18	Next_Operation Arg1:E6 Arg2:E7	
+R19	Next_Operation Arg1:E7 Arg2:E8	
+R20	Next_Operation Arg1:E8 Arg2:E9	
+R21	Next_Operation Arg1:E9 Arg2:E10	
+R22	Next_Operation Arg1:E10 Arg2:E11	
+R23	Next_Operation Arg1:E11 Arg2:E12	
+R24	Next_Operation Arg1:E12 Arg2:E14	
+R25	Next_Operation Arg1:E14 Arg2:E15	
+R26	Next_Operation Arg1:E15 Arg2:E13	
+R27	Next_Operation Arg1:E13 Arg2:E16	
+R28	Next_Operation Arg1:E16 Arg2:E17	
+R29	Next_Operation Arg1:E17 Arg2:E18	
+R30	Next_Operation Arg1:E18 Arg2:E19	
+A2	End_Recipe E19
+R31	Number_Of Arg1:T25 Arg2:T73	
+R32	Condition_Of Arg1:T73 Arg2:E2	
+R33	Apparatus_Of Arg1:T93 Arg2:E2	
+R34	Number_Of Arg1:T26 Arg2:T74	
+R35	Condition_Of Arg1:T74 Arg2:E2	
+R36	Descriptor_Of Arg1:T94 Arg2:T43	
+R37	Descriptor_Of Arg1:T95 Arg2:T43	
+R38	Number_Of Arg1:T27 Arg2:T75	
+R39	Amount_Of Arg1:T75 Arg2:T43	
+R40	Number_Of Arg1:T28 Arg2:T76	
+R41	Amount_Of Arg1:T76 Arg2:T43	
+R42	Condition_Of Arg1:T96 Arg2:E3	
+R43	Condition_Of Arg1:T97 Arg2:E4	
+R44	Descriptor_Of Arg1:T99 Arg2:T45	
+R45	Descriptor_Of Arg1:T100 Arg2:T45	
+R46	Property_Of Arg1:T101 Arg2:T46	
+R47	Descriptor_Of Arg1:T102 Arg2:T57	
+R48	Condition_Of Arg1:T103 Arg2:E7	
+R49	Descriptor_Of Arg1:T104 Arg2:T51	
+R50	Descriptor_Of Arg1:T106 Arg2:T105	
+R51	Apparatus_Of Arg1:T105 Arg2:E8	
+R52	Type_Of Arg1:T107 Arg2:T77	
+R53	Number_Of Arg1:T30 Arg2:T77	
+R54	Apparatus_Attr_Of Arg1:T77 Arg2:T105	
+R55	Descriptor_Of Arg1:T108 Arg2:T58	
+R56	Number_Of Arg1:T29 Arg2:T78	
+R57	Condition_Of Arg1:T78 Arg2:E10	
+R58	Number_Of Arg1:T31 Arg2:T79	
+R59	Condition_Of Arg1:T79 Arg2:E11	
+R60	Apparatus_Of Arg1:T109 Arg2:E12	
+R61	Apparatus_Of Arg1:T110 Arg2:E12	
+R62	Apparatus_Of Arg1:T111 Arg2:E12	
+R63	Apparatus_Of Arg1:T112 Arg2:E14	
+R64	Number_Of Arg1:T32 Arg2:T81	
+R65	Amount_Of Arg1:T81 Arg2:T56	
+R66	Descriptor_Of Arg1:T113 Arg2:T56	
+R67	Descriptor_Of Arg1:T114 Arg2:T56	
+R68	Descriptor_Of Arg1:T115 Arg2:T56	
+R69	Number_Of Arg1:T33 Arg2:T82	
+R70	Amount_Of Arg1:T82 Arg2:T61	
+R71	Number_Of Arg1:T34 Arg2:T83	
+R72	Amount_Of Arg1:T83 Arg2:T59	
+R73	Number_Of Arg1:T35 Arg2:T84	
+R74	Amount_Of Arg1:T84 Arg2:T60	
+R75	Apparatus_Of Arg1:T116 Arg2:E13	
+R76	Number_Of Arg1:T36 Arg2:T85	
+R77	Amount_Of Arg1:T85 Arg2:T62	
+R78	Number_Of Arg1:T37 Arg2:T86	
+R79	Amount_Of Arg1:T86 Arg2:T63	
+R80	Condition_Of Arg1:T117 Arg2:E17	
+R81	Condition_Of Arg1:T118 Arg2:E17	
+R82	Condition_Of Arg1:T87 Arg2:E17	
+R83	Number_Of Arg1:T38 Arg2:T87	
+R84	Number_Of Arg1:T39 Arg2:T88	
+R85	Condition_Of Arg1:T88 Arg2:E18	
+R86	Apparatus_Of Arg1:T20 Arg2:E19	

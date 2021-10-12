@@ -1,0 +1,107 @@
+T1	Material 148 155	titania
+T2	Operation 168 179	synthesized
+E1	Operation:T2 Recipe_Target:T1 Participant_Material:T18
+T3	Meta 184 206	hydrothermal treatment
+T4	Material 295 299	TiO2
+T5	Brand 305 312	Umicore
+T6	Operation 317 321	used
+E2	Operation:T6 Recipe_Precursor:T4
+T7	Operation 332 337	mixed
+E3	Operation:T7 Participant_Material:T19 Solvent_Material:T20
+T8	Operation 434 445	transferred
+E4	Operation:T8 
+T9	Operation 480 484	kept
+E5	Operation:T9 
+T10	Operation 513 520	cooling
+E6	Operation:T10 
+T11	Operation 589 595	washed
+E7	Operation:T11 Participant_Material:T31 Solvent_Material:T32
+T12	Operation 650 657	washing
+E8	Operation:T12 Participant_Material:T37
+T13	Operation 694 701	washing
+E9	Operation:T13 
+T14	Operation 776 781	dried
+E10	Operation:T14 Participant_Material:T43
+T15	Operation 798 804	ground
+E11	Operation:T15 
+T16	Operation 809 815	sieved
+E12	Operation:T16 
+T17	Operation 891 903	heat treated
+E13	Operation:T17 Participant_Material:T49 Atmospheric_Material:T50 Atmospheric_Material:T55
+T18	Material 219 230	environment
+T19	Material 343 347	NaOH
+T20	Material 361 366	water
+T21	Material-Descriptor 351 360	distilled
+T22	Operation 379 387	stirring
+E14	Operation:T22 Participant_Material:T23
+T23	Material 402 410	solution
+T24	Synthesis-Apparatus 466 475	autoclave
+T25	Apparatus-Descriptor 453 465	Teflon lined
+T26	Number 488 491	150
+T27	Condition-Unit 492 496	degC
+T28	Number 501 503	72
+T29	Condition-Unit 504 505	h
+T30	Condition-Misc 534 553	ambient temperature
+T31	Material 577 584	product
+T32	Material 609 614	water
+T33	Material-Descriptor 599 608	distilled
+T34	Material 638 642	NaOH
+T35	Number 661 664	0.1
+T36	Amount-Unit 665 666	M
+T37	Material 667 670	HCl
+T38	Amount-Unit 674 676	pH
+T39	Number 677 681	<= 2
+T40	Material 711 719	solution
+T41	Operation 724 731	brought
+E15	Operation:T41 Participant_Material:T40
+T42	Condition-Misc 735 745	neutrality
+T43	Material 764 771	product
+T44	Number 788 791	100
+T45	Condition-Unit 792 796	degC
+T46	Number 821 823	50
+T47	Property-Unit 824 826	μm
+T48	Property-Type 827 831	mesh
+T49	Material 871 877	powder
+T50	Material 907 910	air
+T51	Number 914 917	450
+T52	Condition-Unit 918 922	degC
+T53	Number 927 928	4
+T54	Condition-Unit 929 930	h
+T55	Material 934 937	air
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E14	
+R3	Next_Operation Arg1:E14 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E7	
+R7	Next_Operation Arg1:E7 Arg2:E8	
+R8	Next_Operation Arg1:E8 Arg2:E9	
+R9	Next_Operation Arg1:E9 Arg2:E15	
+R10	Next_Operation Arg1:E15 Arg2:E10	
+R11	Next_Operation Arg1:E10 Arg2:E11	
+R12	Next_Operation Arg1:E11 Arg2:E12	
+R13	Next_Operation Arg1:E12 Arg2:E13	
+R14	Brand_Of Arg1:T5 Arg2:T4	
+R15	Apparatus_Of Arg1:T24 Arg2:E4	
+R16	Condition_Of Arg1:T27 Arg2:E5	
+R17	Condition_Of Arg1:T29 Arg2:E5	
+R18	Condition_Of Arg1:T30 Arg2:E6	
+R19	Condition_Of Arg1:T42 Arg2:E15	
+R20	Condition_Of Arg1:T45 Arg2:E10	
+R21	Condition_Of Arg1:T52 Arg2:E13	
+R22	Condition_Of Arg1:T54 Arg2:E13	
+R23	Amount_Of Arg1:T36 Arg2:T37	
+R24	Amount_Of Arg1:T38 Arg2:T37	
+R25	Property_Of Arg1:T47 Arg2:T43	
+R26	Descriptor_Of Arg1:T21 Arg2:T20	
+R27	Descriptor_Of Arg1:T25 Arg2:T24	
+R28	Descriptor_Of Arg1:T33 Arg2:T32	
+R29	Type_Of Arg1:T48 Arg2:T47	
+R30	Number_Of Arg1:T26 Arg2:T27	
+R31	Number_Of Arg1:T28 Arg2:T29	
+R32	Number_Of Arg1:T35 Arg2:T36	
+R33	Number_Of Arg1:T39 Arg2:T38	
+R34	Number_Of Arg1:T44 Arg2:T45	
+R35	Number_Of Arg1:T46 Arg2:T47	
+R36	Number_Of Arg1:T51 Arg2:T52	
+R37	Number_Of Arg1:T53 Arg2:T54	

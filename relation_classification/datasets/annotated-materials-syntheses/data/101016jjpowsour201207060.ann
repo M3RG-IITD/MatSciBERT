@@ -1,0 +1,161 @@
+T1	Operation 140 149	purchased
+E1	Operation:T1 Participant_Material:T14
+T2	Operation 196 200	used
+E2	Operation:T2 
+T3	Operation 329 334	added
+E3	Operation:T3 Recipe_Precursor:T15 Recipe_Precursor:T16 Recipe_Precursor:T17 Solvent_Material:T18 Solvent_Material:T19
+T4	Operation 437 445	stirring
+E4	Operation:T4 
+T5	Operation 472 478	sealed
+E5	Operation:T5 
+T6	Operation 516 522	placed
+E6	Operation:T6 
+T7	Operation 542 548	heated
+E7	Operation:T7 
+T8	Operation 604 613	collected
+E8	Operation:T8 Participant_Material:T20
+T9	Operation 636 641	dried
+E9	Operation:T9 
+T10	Operation 709 717	calcined
+E10	Operation:T10 Participant_Material:T21 Atmospheric_Material:T22 Atmospheric_Material:T62 Atmospheric_Material:T64
+T11	Operation 861 869	switched
+E11	Operation:T11 Participant_Material:T24 Atmospheric_Material:T25 Atmospheric_Material:T26 Atmospheric_Material:T27
+T12	Operation 1143 1149	varied
+E12	Operation:T12 
+T13	Material 54 63	LiFePO4/C
+T14	Material 125 134	chemicals
+T15	Material 268 274	Li2SO4
+T16	Material 288 301	Fe(NO3)3*9H2O
+T17	Material 319 323	P2O5
+T18	Material 374 389	ethylene glycol
+T19	Material 415 420	water
+T20	Material 586 598	precipitates
+T21	Material 697 704	product
+T22	Material 744 749	Ar/H2
+T23	Material 828 834	carbon
+T24	Material 848 851	gas
+T25	Material 873 880	C2H4/Ar
+T26	Material 905 909	C2H4
+T27	Material 924 926	Ar
+T28	Nonrecipe-Material 1098 1107	phosphate
+T29	Material 1124 1131	solvent
+T30	Material 1220 1227	product
+T31	Number 255 260	0.015
+T32	Number 276 280	0.01
+T33	Number 306 311	0.005
+T34	Number 368 370	40
+T35	Number 399 401	20
+T36	Number 450 453	0.5
+T37	Number 552 555	180
+T38	Number 565 567	24
+T39	Number 645 647	80
+T40	Number 657 659	72
+T41	Number 721 724	600
+T42	Number 762 765	100
+T43	Number 776 778	95
+T44	Number 793 794	5
+T45	Number 810 812	10
+T46	Number 882 884	20
+T47	Number 895 897	50
+T48	Number 914 916	50
+T49	Amount-Unit 261 264	mol
+T50	Amount-Unit 281 284	mol
+T51	Amount-Unit 312 315	mol
+T52	Amount-Unit 371 373	mL
+T53	Amount-Unit 402 404	mL
+T54	Condition-Unit 454 455	h
+T55	Condition-Unit 556 560	degC
+T56	Condition-Unit 568 569	h
+T57	Condition-Unit 648 652	degC
+T58	Condition-Unit 660 661	h
+T59	Condition-Unit 725 729	degC
+T60	Amount-Unit 766 774	mL min-1
+T61	Amount-Unit 779 785	vol. %
+T62	Material 786 788	Ar
+T63	Amount-Unit 795 801	vol. %
+T64	Material 802 804	H2
+T65	Condition-Unit 813 814	h
+T66	Amount-Unit 885 893	mL min-1
+T67	Amount-Unit 898 904	vol. %
+T68	Amount-Unit 917 923	vol. %
+T69	Number 932 934	15
+T70	Condition-Unit 935 938	min
+T71	Property-Misc 44 53	cage-like
+T72	Property-Misc 64 76	microspheres
+T73	Brand 155 191	Sinopharm Chemical Reagent Co., Ltd.
+T74	Synthesis-Apparatus 347 353	vessel
+T75	Apparatus-Descriptor 340 346	Teflon
+T76	Material 391 393	EG
+T77	Material-Descriptor 405 414	deionized
+T78	Synthesis-Apparatus 461 467	vessel
+T79	Synthesis-Apparatus 500 509	autoclave
+T80	Apparatus-Descriptor 484 499	stainless-steel
+T81	Synthesis-Apparatus 533 537	oven
+T82	Operation 617 631	centrifugation
+E13	Operation:T82 
+T83	Condition-Misc 665 671	vacuum
+T84	Material-Descriptor 750 760	atmosphere
+T85	Material-Descriptor 835 842	coating
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E7	
+R7	Next_Operation Arg1:E7 Arg2:E8	
+R8	Next_Operation Arg1:E8 Arg2:E13	
+R9	Next_Operation Arg1:E13 Arg2:E9	
+R10	Next_Operation Arg1:E9 Arg2:E10	
+R11	Next_Operation Arg1:E10 Arg2:E11	
+R13	Coref_Of Arg1:T76 Arg2:T18	
+R12	Apparatus_Of Arg1:T74 Arg2:E3	
+R14	Condition_Of Arg1:T54 Arg2:E4	
+R15	Apparatus_Of Arg1:T78 Arg2:E5	
+R16	Apparatus_Of Arg1:T79 Arg2:E5	
+R17	Apparatus_Of Arg1:T81 Arg2:E6	
+R18	Condition_Of Arg1:T55 Arg2:E7	
+R19	Condition_Of Arg1:T56 Arg2:E7	
+R20	Condition_Of Arg1:T57 Arg2:E9	
+R21	Condition_Of Arg1:T58 Arg2:E9	
+R22	Condition_Of Arg1:T83 Arg2:E9	
+R23	Condition_Of Arg1:T59 Arg2:E10	
+R24	Condition_Of Arg1:T65 Arg2:E10	
+R25	Condition_Of Arg1:T70 Arg2:E11	
+R26	Property_Of Arg1:T71 Arg2:T13	
+R27	Property_Of Arg1:T72 Arg2:T13	
+R28	Amount_Of Arg1:T49 Arg2:T15	
+R29	Amount_Of Arg1:T50 Arg2:T16	
+R30	Amount_Of Arg1:T51 Arg2:T17	
+R31	Amount_Of Arg1:T52 Arg2:T18	
+R32	Amount_Of Arg1:T53 Arg2:T19	
+R33	Amount_Of Arg1:T60 Arg2:T62	
+R34	Amount_Of Arg1:T61 Arg2:T62	
+R35	Amount_Of Arg1:T63 Arg2:T64	
+R36	Amount_Of Arg1:T66 Arg2:T26	
+R37	Amount_Of Arg1:T67 Arg2:T26	
+R38	Amount_Of Arg1:T68 Arg2:T27	
+R39	Descriptor_Of Arg1:T77 Arg2:T19	
+R40	Descriptor_Of Arg1:T75 Arg2:T74	
+R41	Descriptor_Of Arg1:T80 Arg2:T79	
+R42	Descriptor_Of Arg1:T84 Arg2:T22	
+R43	Descriptor_Of Arg1:T85 Arg2:T23	
+R44	Number_Of Arg1:T31 Arg2:T49	
+R45	Number_Of Arg1:T32 Arg2:T50	
+R46	Number_Of Arg1:T33 Arg2:T51	
+R47	Number_Of Arg1:T34 Arg2:T52	
+R48	Number_Of Arg1:T35 Arg2:T53	
+R49	Number_Of Arg1:T36 Arg2:T54	
+R50	Number_Of Arg1:T37 Arg2:T55	
+R51	Number_Of Arg1:T38 Arg2:T56	
+R52	Number_Of Arg1:T39 Arg2:T57	
+R53	Number_Of Arg1:T40 Arg2:T58	
+R54	Number_Of Arg1:T41 Arg2:T59	
+R55	Number_Of Arg1:T42 Arg2:T60	
+R56	Number_Of Arg1:T43 Arg2:T61	
+R57	Number_Of Arg1:T44 Arg2:T63	
+R58	Number_Of Arg1:T45 Arg2:T65	
+R59	Number_Of Arg1:T46 Arg2:T66	
+R60	Number_Of Arg1:T47 Arg2:T67	
+R61	Number_Of Arg1:T48 Arg2:T68	
+R62	Number_Of Arg1:T69 Arg2:T70	
+R63	Brand_Of Arg1:T73 Arg2:T14	

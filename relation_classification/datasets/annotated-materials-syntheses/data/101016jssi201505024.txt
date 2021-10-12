@@ -1,0 +1,4 @@
+10.1016/j.ssi.2015.05.024
+High surface area, mesoporous carbon for low-polarization, catalyst-free lithium oxygen battery
+
+The mesoporous carbon was prepared, according to previous paper [37], by mixing 48.0 g of F127 (PEO106PPO70PEO106, MW 12600, Aldrich) and 15.0 g of HCl (0.2 M) in 120 g of ethanol and stirring for 1 h at 40 degC, until the formation of a transparent solution. Following, the formed solution has been added by 31.2 g of tetraethyl orthosilicate (TEOS, Acros) and 77.3 g of resol-ethanolic-20% mix (prepared by polymerizing phenol and formaldehyde, Aldrich) [37], stirred for 5 h and heated at 40 degC to remove the ethanol and at 100 degC to thermo-polymerize the resol. The dry components where then annealed at 900 degC for 2 h under argon flow, using a heating rate of 1 degC min- 1 until 600 degC and 5 degC min- 1 until 900 degC. Finally, mesoporous carbon was obtained after removing SiO2 using a 50 wt.% HF solution for 24 h.

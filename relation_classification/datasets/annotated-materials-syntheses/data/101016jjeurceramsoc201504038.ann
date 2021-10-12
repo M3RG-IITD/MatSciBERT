@@ -1,0 +1,190 @@
+T1	Operation 191 201	fabricated
+E1	Operation:T1 Recipe_Target:T14 Recipe_Precursor:T16
+T2	Operation 369 374	mixed
+E2	Operation:T2 Participant_Material:T44 Solvent_Material:T18
+T3	Operation 390 401	ball-milled
+E3	Operation:T3 
+T4	Operation 632 637	dried
+E4	Operation:T4 Participant_Material:T22
+T5	Operation 677 683	sieved
+E5	Operation:T5 
+T6	Operation 770 778	calcined
+E6	Operation:T6 Participant_Material:T27
+T7	Operation 867 885	uniaxially pressed
+E7	Operation:T7 Participant_Material:T28 Participant_Material:T29
+T8	Operation 945 954	compacted
+E8	Operation:T8 Participant_Material:T30
+T9	Meta 958 981	cold isostatic pressing
+T10	Operation 1033 1041	sintered
+E9	Operation:T10 Participant_Material:T31
+T11	Operation 1247 1255	annealed
+E10	Operation:T11 Participant_Material:T32 Atmospheric_Material:T33
+T12	Operation 1337 1345	polished
+E11	Operation:T12 Participant_Material:T35
+T13	Operation 1437 1453	thermally etched
+E12	Operation:T13 Participant_Material:T36
+T14	Material 129 142	Y3(1+x)Al5O12
+T15	Meta 207 227	solid-state reaction
+T16	Material 251 258	α-Al2O3
+T17	Material 300 304	Y2O3
+T18	Material 378 385	ethanol
+T19	Material 471 474	MgO
+T20	Material 516 533	tetraethoxysilane
+T21	Material 535 539	TEOS
+T22	Material 586 592	slurry
+T23	Synthesis-Apparatus 663 667	oven
+T24	Synthesis-Apparatus 703 709	screen
+T25	Apparatus-Descriptor 694 702	200-mesh
+T26	Material 821 831	components
+T27	Material 758 765	mixture
+T28	Material 855 862	mixture
+T29	Material 906 913	pellets
+T30	Material 927 939	green bodies
+T31	Material 1015 1022	pellets
+T32	Material 1232 1241	specimens
+T33	Material 1281 1284	air
+T34	Nonrecipe-Material 1295 1301	oxygen
+T35	Material 1317 1324	samples
+T36	Material 1422 1431	specimens
+T37	Property-Misc 143 151	ceramics
+T38	Number 260 265	99.98
+T39	Amount-Unit 265 266	%
+T40	Brand 268 278	Alfa Aesar
+T41	Number 306 312	99.999
+T42	Amount-Unit 312 313	%
+T43	Brand 315 325	Alfa Aesar
+T44	Material 356 363	powders
+T45	Synthesis-Apparatus 419 433	corundum balls
+T46	Synthesis-Apparatus 443 447	jars
+T47	Apparatus-Descriptor 437 442	Al2O3
+T48	Number 452 454	10
+T49	Condition-Unit 455 456	h
+T50	Number 462 466	0.08
+T51	Amount-Unit 467 470	wt%
+T52	Number 483 489	99.998
+T53	Amount-Unit 489 490	%
+T54	Brand 492 502	Alfa Aesar
+T55	Number 508 511	0.8
+T56	Amount-Unit 512 515	wt%
+T57	Number 542 548	99.999
+T58	Amount-Unit 548 549	%
+T59	Brand 551 561	Alfa Aesar
+T60	Number 619 622	1.8
+T61	Amount-Unit 623 627	g/ml
+T62	Number 641 643	80
+T63	Condition-Unit 644 648	degC
+T64	Number 653 654	4
+T65	Condition-Unit 655 656	h
+T66	Number 740 742	74
+T67	Apparatus-Unit 743 745	μm
+T68	Apparatus-Property-Type 719 735	screen pore size
+T69	Number 782 785	600
+T70	Condition-Unit 786 790	degC
+T71	Number 795 796	4
+T72	Condition-Unit 797 798	h
+T73	Number 891 893	20
+T74	Property-Unit 894 896	mm
+T75	Property-Type 897 905	diameter
+T76	Number 991 994	250
+T77	Condition-Unit 995 998	MPa
+T78	Number 1045 1054	1500-1750
+T79	Condition-Unit 1055 1059	degC
+T80	Condition-Misc 1066 1072	vacuum
+T81	Number 1074 1078	10-3
+T82	Condition-Unit 1079 1081	Pa
+T83	Number 1093 1095	50
+T84	Condition-Unit 1096 1097	h
+T85	Synthesis-Apparatus 1131 1138	furnace
+T86	Apparatus-Descriptor 1103 1130	tungsten mesh-heated vacuum
+T87	Number 1161 1162	5
+T88	Condition-Unit 1163 1171	degC/min
+T89	Number 1198 1200	10
+T90	Condition-Unit 1201 1209	degC/min
+T91	Condition-Type 1144 1156	heating rate
+T92	Condition-Type 1181 1193	cooling rate
+T93	Number 1259 1263	1450
+T94	Condition-Unit 1264 1268	degC
+T95	Number 1273 1275	10
+T96	Condition-Unit 1276 1277	h
+T97	Number 1457 1461	1400
+T98	Condition-Unit 1462 1466	degC
+T99	Number 1470 1474	1500
+T100	Condition-Unit 1475 1479	degC
+T101	Number 1484 1485	3
+T102	Condition-Unit 1486 1487	h
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Next_Operation Arg1:E8 Arg2:E9	
+R8	Next_Operation Arg1:E9 Arg2:E10	
+R9	Next_Operation Arg1:E10 Arg2:E11	
+R10	Next_Operation Arg1:E11 Arg2:E12	
+R11	Apparatus_Of Arg1:T45 Arg2:E3	
+R12	Apparatus_Of Arg1:T46 Arg2:E3	
+R13	Condition_Of Arg1:T49 Arg2:E3	
+R14	Condition_Of Arg1:T63 Arg2:E4	
+R15	Condition_Of Arg1:T65 Arg2:E4	
+R16	Apparatus_Of Arg1:T23 Arg2:E4	
+R17	Apparatus_Of Arg1:T24 Arg2:E5	
+R18	Condition_Of Arg1:T70 Arg2:E6	
+R19	Condition_Of Arg1:T72 Arg2:E6	
+R20	Condition_Of Arg1:T77 Arg2:E8	
+R21	Condition_Of Arg1:T79 Arg2:E9	
+R22	Condition_Of Arg1:T80 Arg2:E9	
+R23	Condition_Of Arg1:T82 Arg2:E9	
+R24	Condition_Of Arg1:T84 Arg2:E9	
+R25	Apparatus_Of Arg1:T85 Arg2:E9	
+R26	Condition_Of Arg1:T88 Arg2:E9	
+R27	Condition_Of Arg1:T90 Arg2:E9	
+R28	Condition_Of Arg1:T94 Arg2:E10	
+R29	Condition_Of Arg1:T96 Arg2:E10	
+R30	Condition_Of Arg1:T98 Arg2:E12	
+R31	Condition_Of Arg1:T100 Arg2:E12	
+R32	Condition_Of Arg1:T102 Arg2:E12	
+R33	Property_Of Arg1:T37 Arg2:T14	
+R34	Amount_Of Arg1:T39 Arg2:T16	
+R35	Amount_Of Arg1:T42 Arg2:T17	
+R36	Amount_Of Arg1:T51 Arg2:T19	
+R37	Amount_Of Arg1:T53 Arg2:T19	
+R38	Amount_Of Arg1:T56 Arg2:T20	
+R39	Coref_Of Arg1:T21 Arg2:T20	
+R40	Amount_Of Arg1:T58 Arg2:T20	
+R41	Amount_Of Arg1:T61 Arg2:T22	
+R42	Property_Of Arg1:T74 Arg2:T29	
+R43	Type_Of Arg1:T68 Arg2:T67	
+R44	Type_Of Arg1:T75 Arg2:T74	
+R45	Type_Of Arg1:T91 Arg2:T88	
+R46	Type_Of Arg1:T92 Arg2:T90	
+R47	Number_Of Arg1:T38 Arg2:T39	
+R48	Number_Of Arg1:T41 Arg2:T42	
+R49	Number_Of Arg1:T48 Arg2:T49	
+R50	Number_Of Arg1:T50 Arg2:T51	
+R51	Number_Of Arg1:T52 Arg2:T53	
+R52	Number_Of Arg1:T55 Arg2:T56	
+R53	Number_Of Arg1:T57 Arg2:T58	
+R54	Number_Of Arg1:T60 Arg2:T61	
+R55	Number_Of Arg1:T62 Arg2:T63	
+R56	Number_Of Arg1:T64 Arg2:T65	
+R57	Number_Of Arg1:T66 Arg2:T67	
+R58	Number_Of Arg1:T69 Arg2:T70	
+R59	Number_Of Arg1:T71 Arg2:T72	
+R60	Number_Of Arg1:T73 Arg2:T74	
+R61	Number_Of Arg1:T76 Arg2:T77	
+R62	Number_Of Arg1:T78 Arg2:T79	
+R63	Number_Of Arg1:T81 Arg2:T82	
+R64	Number_Of Arg1:T83 Arg2:T84	
+R65	Number_Of Arg1:T87 Arg2:T88	
+R66	Number_Of Arg1:T89 Arg2:T90	
+R67	Number_Of Arg1:T93 Arg2:T94	
+R68	Number_Of Arg1:T95 Arg2:T96	
+R69	Number_Of Arg1:T97 Arg2:T98	
+R70	Number_Of Arg1:T99 Arg2:T100	
+R71	Number_Of Arg1:T101 Arg2:T102	
+R72	Brand_Of Arg1:T43 Arg2:T17	
+R73	Brand_Of Arg1:T40 Arg2:T16	
+R74	Brand_Of Arg1:T59 Arg2:T20	
+R75	Brand_Of Arg1:T54 Arg2:T19	
+R76	Apparatus_Attr_Of Arg1:T67 Arg2:T24	

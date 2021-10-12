@@ -1,0 +1,106 @@
+T1	Material 153 167	LiNi0.5Mn1.5O4
+T2	Operation 183 194	synthesized
+E1	Operation:T2 Recipe_Target:T1
+T3	Operation 304 309	mixed
+E2	Operation:T3 Recipe_Precursor:T15 Recipe_Precursor:T17 Participant_Material:T19 Participant_Material:T20
+T4	Operation 344 350	milled
+E3	Operation:T4 
+T5	Operation 370 377	heating
+E4	Operation:T5 
+T6	Operation 434 439	added
+E5	Operation:T6 Recipe_Precursor:T21 Participant_Material:T37 Participant_Material:T23 Participant_Material:T24 Participant_Material:T25
+T7	Operation 599 605	heated
+E6	Operation:T7 Participant_Material:T28
+T8	Operation 518 523	added
+E7	Operation:T8 Participant_Material:T26 Participant_Material:T27
+T9	Operation 658 664	milled
+E8	Operation:T9 Participant_Material:T29
+T10	Operation 669 677	sintered
+E9	Operation:T10 
+T11	Operation 699 707	followed
+E10	Operation:T11 
+T12	Operation 711 720	annealing
+E11	Operation:T12 
+T13	Property-Misc 168 177	particles
+T14	Meta 203 224	solid-state reactions
+T15	Material 226 240	Nickel acetate
+T16	Material 242 257	Ni(Ac)2[?]4 H2O
+T17	Material 263 280	manganese acetate
+T18	Material 282 297	Mn(Ac)2[?]4 H2O
+T19	Nonrecipe-Material 330 332	Ni
+T20	Nonrecipe-Material 333 335	Mn
+T21	Material 399 414	lithium acetate
+T22	Material 416 428	LiAc[?]2 H2O
+T23	Nonrecipe-Material 475 477	Li
+T24	Nonrecipe-Material 478 480	Ni
+T25	Nonrecipe-Material 481 483	Mn
+T26	Nonrecipe-Material 504 506	Li
+T27	Nonrecipe-Material 555 557	Li
+T28	Material 587 594	mixture
+T29	Material 646 653	mixture
+T30	Number 336 339	1:3
+T31	Amount-Unit 315 326	molar ratio
+T32	Synthesis-Apparatus 356 362	mortar
+T33	Number 381 384	500
+T34	Condition-Unit 385 389	degC
+T35	Number 394 395	5
+T36	Condition-Unit 396 397	h
+T37	Material 447 454	mixture
+T38	Amount-Unit 460 471	molar ratio
+T39	Number 484 491	2.1:1:3
+T40	Number 493 494	5
+T41	Amount-Unit 495 496	%
+T42	Number 609 612	500
+T43	Condition-Unit 613 617	degC
+T44	Number 622 623	5
+T45	Condition-Unit 624 625	h
+T46	Number 681 684	950
+T47	Condition-Unit 685 689	degC
+T48	Number 694 696	10
+T49	Condition-Unit 697 698	h
+T50	Number 724 727	700
+T51	Condition-Unit 728 732	degC
+T52	Number 737 739	10
+T53	Condition-Unit 740 741	h
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E7	
+R5	Next_Operation Arg1:E7 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E8	
+R7	Next_Operation Arg1:E8 Arg2:E9	
+R8	Next_Operation Arg1:E9 Arg2:E10	
+R9	Next_Operation Arg1:E10 Arg2:E11	
+R10	Coref_Of Arg1:T16 Arg2:T15	
+R11	Coref_Of Arg1:T18 Arg2:T17	
+R12	Coref_Of Arg1:T22 Arg2:T21	
+R13	Condition_Of Arg1:T34 Arg2:E4	
+R14	Apparatus_Of Arg1:T32 Arg2:E3	
+R15	Condition_Of Arg1:T36 Arg2:E4	
+R16	Condition_Of Arg1:T43 Arg2:E6	
+R17	Condition_Of Arg1:T45 Arg2:E6	
+R18	Condition_Of Arg1:T47 Arg2:E9	
+R19	Condition_Of Arg1:T49 Arg2:E9	
+R20	Condition_Of Arg1:T51 Arg2:E11	
+R21	Condition_Of Arg1:T53 Arg2:E11	
+R22	Property_Of Arg1:T13 Arg2:T1	
+R23	Amount_Of Arg1:T31 Arg2:T17	
+R24	Amount_Of Arg1:T31 Arg2:T15	
+R25	Amount_Of Arg1:T31 Arg2:T19	
+R26	Amount_Of Arg1:T31 Arg2:T20	
+R27	Amount_Of Arg1:T38 Arg2:T21	
+R28	Amount_Of Arg1:T38 Arg2:T23	
+R29	Amount_Of Arg1:T38 Arg2:T24	
+R30	Amount_Of Arg1:T38 Arg2:T25	
+R31	Amount_Of Arg1:T41 Arg2:T26	
+R32	Number_Of Arg1:T30 Arg2:T31	
+R33	Number_Of Arg1:T33 Arg2:T34	
+R34	Number_Of Arg1:T35 Arg2:T36	
+R35	Number_Of Arg1:T39 Arg2:T38	
+R36	Number_Of Arg1:T40 Arg2:T41	
+R37	Number_Of Arg1:T42 Arg2:T43	
+R38	Number_Of Arg1:T44 Arg2:T45	
+R39	Number_Of Arg1:T46 Arg2:T47	
+R40	Number_Of Arg1:T48 Arg2:T49	
+R41	Number_Of Arg1:T50 Arg2:T51	
+R42	Number_Of Arg1:T52 Arg2:T53	

@@ -1,0 +1,143 @@
+T1	Operation 152 156	used
+E1	Operation:T1 Recipe_Precursor:T29
+T2	Operation 166 175	collected
+E2	Operation:T2 
+T3	Operation 222 230	provided
+E3	Operation:T3 
+T4	Operation 338 347	separated
+E4	Operation:T4 Participant_Material:T31 Participant_Material:T32
+T5	Operation 380 404	acid and base treatments
+E5	Operation:T5 
+T6	Operation 474 483	dissolved
+E6	Operation:T6 Recipe_Precursor:T33 Solvent_Material:T34
+T7	Operation 598 610	precipitated
+E7	Operation:T7 Participant_Material:T36 Participant_Material:T35 Solvent_Material:T37
+T8	Operation 665 674	extracted
+E8	Operation:T8 Participant_Material:T38 Participant_Material:T39
+T10	Operation 747 754	forming
+E9	Operation:T10 Participant_Material:T41
+T12	Operation 820 826	heated
+E10	Operation:T12 Participant_Material:T42
+T15	Operation 925 933	obtained
+E11	Operation:T15 Recipe_Target:T45
+T16	Operation 937 948	calcination
+E12	Operation:T16 Participant_Material:T46
+T17	Reference 405 440	[Environ. Sci. Technol., submitted]
+T18	Number 465 467	10
+T19	Number 489 490	2
+T20	Number 519 522	200
+T21	Number 530 532	24
+T22	Brand 236 271	Mitsui Mining and Smelting Co. Ltd.
+T23	Number 617 619	12
+T24	Number 625 626	2
+T25	Number 714 717	7.5
+T26	Number 731 734	200
+T27	Number 834 836	60
+T28	Number 977 981	1000
+T29	Material 140 145	Ni-MH
+T30	Material 208 213	Ni-MH
+T31	Material 312 320	compound
+T32	Material 353 358	Ni-MH
+T33	Material 450 455	Ni-MH
+T34	Material 503 506	HCl
+T35	Material 571 587	rare-earth metal
+T36	Material 556 566	transition
+T37	Material 629 633	NaOH
+T38	Material 648 650	Ni
+T39	Material 685 696	precipitate
+T40	Material 720 723	NH3
+T41	Material 757 768	Ni-ammonium
+T42	Material 807 815	filtrate
+T43	Material 859 870	Ni-ammonium
+T44	Material 893 900	Ni(OH)2
+T45	Material 914 919	s-NiO
+T46	Material 966 973	Ni(OH)2
+T47	Amount-Unit 468 469	g
+T48	Amount-Unit 491 492	M
+T49	Amount-Unit 494 501	mol/dm3
+T50	Amount-Unit 523 525	ml
+T51	Condition-Unit 533 534	h
+T52	Condition-Unit 614 616	pH
+T53	Amount-Unit 627 628	M
+T54	Amount-Unit 718 719	M
+T55	Amount-Unit 735 737	ml
+T56	Condition-Unit 837 841	degC
+T57	Condition-Unit 982 986	degC
+T58	Material-Descriptor 146 151	waste
+T59	Synthesis-Apparatus 185 193	crucible
+T60	Synthesis-Apparatus 214 221	battery
+T61	Material-Descriptor 303 311	Ni-based
+T62	Material-Descriptor 359 364	waste
+T63	Material-Descriptor 456 461	waste
+T64	Material-Descriptor 507 515	solution
+T65	Material-Descriptor 546 555	dissolved
+T66	Material-Descriptor 634 642	solution
+T67	Material-Descriptor 651 660	component
+T68	Material-Descriptor 724 726	aq
+T69	Material-Descriptor 769 776	complex
+T70	Material-Descriptor 800 806	purple
+T71	Material-Descriptor 871 878	complex
+T72	Property-Misc 906 912	sample
+A1	Start_Recipe E1
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E7	
+R7	Next_Operation Arg1:E7 Arg2:E8	
+R8	Next_Operation Arg1:E8 Arg2:E13	
+R9	Next_Operation Arg1:E9 Arg2:E14	
+R10	Next_Operation Arg1:E10 Arg2:E15	
+R11	Next_Operation Arg1:E11 Arg2:E12	
+A2	End_Recipe E12
+R12	Descriptor_Of Arg1:T58 Arg2:T29	
+R13	Apparatus_Of Arg1:T59 Arg2:E2	
+R14	Brand_Of Arg1:T22 Arg2:T29	
+R15	Descriptor_Of Arg1:T61 Arg2:T31	
+R16	Descriptor_Of Arg1:T62 Arg2:T32	
+R17	Descriptor_Of Arg1:T63 Arg2:T33	
+R18	Number_Of Arg1:T18 Arg2:T47	
+R19	Amount_Of Arg1:T47 Arg2:T33	
+R20	Number_Of Arg1:T19 Arg2:T48	
+R21	Number_Of Arg1:T19 Arg2:T49	
+R22	Amount_Of Arg1:T48 Arg2:T34	
+R23	Amount_Of Arg1:T49 Arg2:T34	
+R24	Descriptor_Of Arg1:T64 Arg2:T34	
+R25	Number_Of Arg1:T20 Arg2:T50	
+R26	Amount_Of Arg1:T50 Arg2:T34	
+R27	Number_Of Arg1:T21 Arg2:T51	
+R28	Condition_Of Arg1:T51 Arg2:E6	
+R29	Descriptor_Of Arg1:T65 Arg2:T36	
+R30	Descriptor_Of Arg1:T65 Arg2:T35	
+R31	Number_Of Arg1:T23 Arg2:T52	
+R32	Condition_Of Arg1:T52 Arg2:E7	
+R33	Number_Of Arg1:T24 Arg2:T53	
+R34	Descriptor_Of Arg1:T66 Arg2:T37	
+R35	Amount_Of Arg1:T53 Arg2:T37	
+R36	Descriptor_Of Arg1:T67 Arg2:T38	
+T9	Operation 700 708	treating
+E13	Operation:T9 Participant_Material:T40
+R37	Next_Operation Arg1:E13 Arg2:E9	
+R38	Number_Of Arg1:T25 Arg2:T54	
+R39	Descriptor_Of Arg1:T68 Arg2:T40	
+R40	Amount_Of Arg1:T54 Arg2:T40	
+R41	Number_Of Arg1:T26 Arg2:T55	
+R42	Amount_Of Arg1:T55 Arg2:T40	
+R43	Descriptor_Of Arg1:T69 Arg2:T41	
+R44	Descriptor_Of Arg1:T70 Arg2:T42	
+T11	Operation 784 794	filtration
+E14	Operation:T11 
+R45	Next_Operation Arg1:E14 Arg2:E10	
+R46	Number_Of Arg1:T27 Arg2:T56	
+R47	Condition_Of Arg1:T56 Arg2:E10	
+T13	Operation 845 854	decompose
+E15	Operation:T13 Participant_Material:T43
+R48	Next_Operation Arg1:E15 Arg2:E16	
+R49	Descriptor_Of Arg1:T71 Arg2:T43	
+T14	Operation 886 892	obtain
+E16	Operation:T14 Participant_Material:T44
+R50	Next_Operation Arg1:E16 Arg2:E11	
+R51	Property_Of Arg1:T72 Arg2:T45	
+R52	Number_Of Arg1:T28 Arg2:T57	
+R53	Condition_Of Arg1:T57 Arg2:E12	

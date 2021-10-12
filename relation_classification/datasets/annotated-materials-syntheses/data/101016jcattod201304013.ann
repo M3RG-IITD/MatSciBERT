@@ -1,0 +1,92 @@
+T1	Material 108 122	Nickel nitrate
+T2	Material 123 136	Ni(NO3)2*6H2O
+T3	Material 138 152	copper nitrate
+T4	Material 154 169	Cu(NO3)2*2.5H2O
+T5	Material 171 188	lanthanum nitrate
+T6	Material 190 203	La(NO3)3*5H2O
+T7	Material 215 234	zirconium propoxide
+T8	Material 235 250	Zr(OCH2CH2CH3)4
+T9	Material 254 264	1-propanol
+T10	Material 270 281	oxalic acid
+T11	Material 283 291	HO2CCO2H
+T12	Brand 313 326	Sigma-Aldrich
+T13	Operation 298 307	purchased
+E1	Operation:T13 Recipe_Precursor:T1 Recipe_Precursor:T3 Recipe_Precursor:T5 Recipe_Precursor:T7 Solvent_Material:T9 Participant_Material:T10
+T14	Material 328 335	Ethanol
+T15	Operation 340 349	purchased
+E2	Operation:T15 Solvent_Material:T14
+T16	Brand 355 362	Biopack
+T17	Material 368 377	chemicals
+T18	Material-Descriptor 383 396	reagent-grade
+T19	Operation 406 410	used
+E3	Operation:T19 
+T20	Material 425 431	NiLaZr
+T21	Material 436 444	NiCuLaZr
+T22	Property-Misc 445 454	catalysts
+T23	Operation 460 468	prepared
+E4	Operation:T23 Recipe_Target:T20 Recipe_Target:T21
+T24	Meta 472 488	co-precipitation
+T25	Operation 503 511	addition
+E5	Operation:T25 Participant_Material:T29 Recipe_Precursor:T30 Recipe_Precursor:T31 Recipe_Precursor:T32 Recipe_Precursor:T33
+T26	Operation 627 633	washed
+E6	Operation:T26 Participant_Material:T35 Solvent_Material:T34
+T27	Operation 648 653	dried
+E7	Operation:T27 
+T28	Operation 670 678	calcined
+E8	Operation:T28 
+T29	Material 515 526	oxalic acid
+T30	Material 555 563	Cu(NO3)2
+T31	Material 565 573	Ni(NO3)2
+T32	Material 575 583	La(NO3)3
+T33	Material 588 603	Zr(OCH2CH2CH3)4
+T34	Material 639 646	ethanol
+T35	Material 609 621	precipitates
+T36	Number 657 659	80
+T37	Condition-Unit 660 664	degC
+T38	Number 683 684	2
+T39	Condition-Unit 685 686	h
+T40	Number 714 717	700
+T41	Condition-Unit 718 722	degC
+T42	Number 724 727	850
+T43	Condition-Unit 728 732	degC
+T44	Number 734 737	900
+T45	Condition-Unit 738 742	degC
+T46	Number 747 750	950
+T47	Condition-Unit 751 755	degC
+T48	Material-Descriptor 533 551	ethanolic solution
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Coref_Of Arg1:T2 Arg2:T1	
+R8	Coref_Of Arg1:T4 Arg2:T3	
+R9	Coref_Of Arg1:T6 Arg2:T5	
+R10	Coref_Of Arg1:T8 Arg2:T7	
+R11	Coref_Of Arg1:T11 Arg2:T10	
+R12	Condition_Of Arg1:T37 Arg2:E7	
+R13	Condition_Of Arg1:T39 Arg2:E8	
+R14	Condition_Of Arg1:T41 Arg2:E8	
+R15	Condition_Of Arg1:T43 Arg2:E8	
+R16	Condition_Of Arg1:T45 Arg2:E8	
+R17	Condition_Of Arg1:T47 Arg2:E8	
+R18	Property_Of Arg1:T22 Arg2:T21	
+R19	Descriptor_Of Arg1:T18 Arg2:T17	
+R20	Descriptor_Of Arg1:T48 Arg2:T30	
+R21	Descriptor_Of Arg1:T48 Arg2:T31	
+R22	Descriptor_Of Arg1:T48 Arg2:T32	
+R23	Descriptor_Of Arg1:T48 Arg2:T33	
+R24	Brand_Of Arg1:T16 Arg2:T14	
+R25	Brand_Of Arg1:T12 Arg2:T10	
+R26	Brand_Of Arg1:T12 Arg2:T9	
+R27	Brand_Of Arg1:T12 Arg2:T7	
+R28	Brand_Of Arg1:T12 Arg2:T5	
+R29	Brand_Of Arg1:T12 Arg2:T3	
+R30	Brand_Of Arg1:T12 Arg2:T1	
+R31	Number_Of Arg1:T36 Arg2:T37	
+R32	Number_Of Arg1:T38 Arg2:T39	
+R33	Number_Of Arg1:T40 Arg2:T41	
+R34	Number_Of Arg1:T42 Arg2:T43	
+R35	Number_Of Arg1:T44 Arg2:T45	
+R36	Number_Of Arg1:T46 Arg2:T47	

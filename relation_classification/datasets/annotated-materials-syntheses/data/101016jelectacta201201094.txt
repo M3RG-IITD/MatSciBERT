@@ -1,0 +1,6 @@
+10.1016/j.electacta.2012.01.094
+Nanocrystal manganese oxide (Mn3O4, MnO) anchored on graphite nanosheet with improved electrochemical Li-storage properties
+
+In a typical synthesis of Mn3O4/GN, 20 mg of graphite oxide, prepared by a modified Hummer's method [42], was dispersed in deionized (DI) water with sonication for 1 h to form graphene oxide. Then, 1 mmol of Mn(CH3COO)2*4H2O was added into the above solution. When it was dissolved completely, 28 mg of poly(ethylene glycol) was introduced into the solution, followed by adding 20 mL of NaOH aqueous solution (0.2 M) slowly under stirring. The NaOH was used to adjust the pH of the reaction solution. It was found that Mn3O4 is difficult to form by the one-pot route without adding NaOH. The mixed solution was transferred to a Teflon-lined stainless steel autoclave (100 mL) and heated in an electric oven at 180 degC for 12 h. The resultant product was separated by centrifugation, washed with DI water and dried at 60 degC under vacuum for 8 h. MnO/GN was obtained by heating Mn3O4/GN at 400 degC for 2 h in flowing N2/H2 (10% H2). For comparison, bare Mn3O4 and MnO were also prepared using the similar route without adding graphite oxide in the precursors.
+
+

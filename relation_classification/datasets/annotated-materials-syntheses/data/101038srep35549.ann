@@ -1,0 +1,207 @@
+T1	Meta 28 49	one-step hydrothermal
+T2	Operation 176 184	supplied
+E1	Operation:T2 Participant_Material:T39
+T3	Brand 188 219	Shanghai Boyle Chemical Co. Ltd
+T4	Operation 243 247	used
+E2	Operation:T4 
+T5	Operation 264 276	purification
+E3	Operation:T5 
+T6	Operation 299 302	cut
+E4	Operation:T6 Recipe_Precursor:T40
+T7	Operation 409 415	rinsed
+E5	Operation:T7 Recipe_Precursor:T41 Participant_Material:T42
+T8	Operation 456 461	dried
+E6	Operation:T8 
+T9	Operation 596 605	dissolved
+E7	Operation:T9 Recipe_Precursor:T44 Recipe_Precursor:T43 Solvent_Material:T45
+T10	Operation 682 690	stirring
+E8	Operation:T10 
+T11	Operation 731 739	stirring
+E9	Operation:T11 
+T12	Operation 808 813	added
+E10	Operation:T12 Recipe_Precursor:T47 Recipe_Precursor:T48 Participant_Material:T84
+T13	Operation 852 860	obtained
+E11	Operation:T13 Participant_Material:T49
+T14	Operation 885 896	transferred
+E12	Operation:T14 Participant_Material:T49
+T15	Operation 965 971	sealed
+E13	Operation:T15 
+T16	Operation 976 982	heated
+E14	Operation:T16 
+T17	Operation 1048 1052	cool
+E15	Operation:T17 
+T18	Operation 1123 1130	removed
+E16	Operation:T18 Recipe_Target:T50 Participant_Material:T52
+T19	Operation 1165 1171	rinsed
+E17	Operation:T19 Participant_Material:T51
+T20	Operation 1213 1218	dried
+E18	Operation:T20 
+T21	Number 320 322	10
+T22	Number 337 339	10
+T23	Number 353 355	10
+T24	Number 441 443	30
+T25	Number 465 467	80
+T26	Number 524 528	3.24
+T27	Number 550 554	0.94
+T28	Number 587 590	2:1
+T29	Number 609 611	80
+T30	Number 695 696	2
+T31	Number 757 758	1
+T32	Number 797 798	3
+T33	Number 904 907	100
+T34	Number 986 989	120
+T35	Number 999 1000	8
+T36	Number 1197 1199	30
+T37	Number 1222 1224	45
+T38	Number 1239 1241	24
+T39	Material 161 170	chemicals
+T40	Material 282 293	wood slices
+T41	Material 382 388	slices
+T42	Material 431 436	water
+T43	Material 510 522	FeCl3[?]6H2O
+T44	Material 536 548	MnCl2[?]4H2O
+T45	Material 630 635	water
+T46	Material 654 658	wood
+T47	Material 749 755	FAS-17
+T48	Material 788 795	ammonia
+T49	Material 873 880	mixture
+T50	Material 1105 1109	wood
+T51	Material 1187 1192	water
+T52	Material 1140 1148	solution
+T53	Property-Unit 323 325	mm
+T54	Property-Unit 340 342	mm
+T55	Property-Unit 356 358	mm
+T56	Property-Type 327 333	length
+T57	Property-Type 344 349	width
+T58	Property-Type 360 366	height
+T59	Condition-Unit 444 451	minutes
+T60	Condition-Unit 468 472	degC
+T61	Amount-Unit 529 530	g
+T62	Amount-Unit 555 556	g
+T63	Amount-Unit 563 583	stoichiometric ratio
+T64	Amount-Unit 612 614	mL
+T65	Condition-Unit 697 698	h
+T66	Amount-Unit 759 761	mL
+T67	Amount-Unit 799 801	mL
+T68	Apparatus-Unit 908 910	mL
+T69	Condition-Unit 990 994	degC
+T70	Condition-Unit 1001 1006	hours
+T71	Condition-Unit 1200 1207	minutes
+T72	Condition-Unit 1225 1229	degC
+T73	Condition-Unit 1242 1247	hours
+T74	Condition-Misc 394 408	ultrasonically
+T75	Material-Descriptor 421 430	deionized
+T76	Condition-Misc 478 484	vacuum
+T77	Material-Descriptor 620 629	deionized
+T78	Material-Descriptor 636 644	solution
+T79	Material-Descriptor 659 666	samples
+T80	Condition-Misc 673 681	magnetic
+T81	Condition-Misc 702 718	room temperature
+T82	Amount-Misc 771 784	proper amount
+T83	Condition-Misc 814 822	dropwise
+T84	Material 832 840	solution
+T85	Material-Descriptor 861 872	homogeneous
+T86	Synthesis-Apparatus 934 943	autoclave
+T87	Apparatus-Descriptor 911 933	Teflon-lined stainless
+T88	Synthesis-Apparatus 954 960	vessel
+T89	Synthesis-Apparatus 1026 1035	autoclave
+T90	Condition-Misc 1056 1072	room temperature
+T91	Property-Misc 1096 1104	magnetic
+T92	Property-Misc 1110 1117	samples
+T93	Condition-Misc 1150 1164	ultrasonically
+T94	Material-Descriptor 1177 1186	deionized
+T95	Condition-Misc 1251 1257	vacuum
+T96	Material 152 156	wood
+T97	Property-Misc 121 151	electromagnetic wave-absorbing
+T98	Property-Misc 100 116	superhydrophobic
+T99	Property-Misc 81 98	superparamagnetic
+T100	Property-Misc 62 69	durable
+T101	Property-Misc 74 80	robust
+R1	Property_Of Arg1:T100 Arg2:T96	
+R2	Property_Of Arg1:T101 Arg2:T96	
+R3	Property_Of Arg1:T99 Arg2:T96	
+R4	Property_Of Arg1:T98 Arg2:T96	
+R5	Property_Of Arg1:T97 Arg2:T96	
+A1	Start_Recipe E1
+R6	Next_Operation Arg1:E1 Arg2:E2	
+T102	Condition-Misc 248 255	without
+R7	Next_Operation Arg1:E2 Arg2:E3	
+R8	Next_Operation Arg1:E3 Arg2:E4	
+R9	Next_Operation Arg1:E4 Arg2:E5	
+R10	Next_Operation Arg1:E5 Arg2:E6	
+R11	Next_Operation Arg1:E6 Arg2:E7	
+R12	Next_Operation Arg1:E7 Arg2:E8	
+R13	Next_Operation Arg1:E8 Arg2:E9	
+R14	Next_Operation Arg1:E9 Arg2:E10	
+R15	Next_Operation Arg1:E10 Arg2:E11	
+R16	Next_Operation Arg1:E11 Arg2:E12	
+R17	Next_Operation Arg1:E12 Arg2:E13	
+R18	Next_Operation Arg1:E13 Arg2:E14	
+R19	Next_Operation Arg1:E14 Arg2:E15	
+R20	Next_Operation Arg1:E15 Arg2:E16	
+R21	Next_Operation Arg1:E16 Arg2:E17	
+R22	Next_Operation Arg1:E17 Arg2:E18	
+A2	End_Recipe E18
+R23	Brand_Of Arg1:T3 Arg2:T39	
+R24	Condition_Of Arg1:T102 Arg2:E3	
+R25	Number_Of Arg1:T21 Arg2:T53	
+R26	Type_Of Arg1:T56 Arg2:T53	
+R27	Number_Of Arg1:T22 Arg2:T54	
+R28	Type_Of Arg1:T57 Arg2:T54	
+R29	Type_Of Arg1:T58 Arg2:T55	
+R30	Number_Of Arg1:T23 Arg2:T55	
+R31	Property_Of Arg1:T53 Arg2:T40	
+R32	Property_Of Arg1:T54 Arg2:T40	
+R33	Property_Of Arg1:T55 Arg2:T40	
+R34	Condition_Of Arg1:T74 Arg2:E5	
+R35	Descriptor_Of Arg1:T75 Arg2:T42	
+R36	Number_Of Arg1:T24 Arg2:T59	
+R37	Condition_Of Arg1:T59 Arg2:E5	
+R38	Number_Of Arg1:T25 Arg2:T60	
+R39	Condition_Of Arg1:T60 Arg2:E6	
+R40	Condition_Of Arg1:T76 Arg2:E6	
+R41	Number_Of Arg1:T26 Arg2:T61	
+R42	Amount_Of Arg1:T61 Arg2:T43	
+R43	Number_Of Arg1:T27 Arg2:T62	
+R44	Amount_Of Arg1:T62 Arg2:T44	
+R45	Number_Of Arg1:T28 Arg2:T63	
+R46	Amount_Of Arg1:T63 Arg2:T44	
+R47	Amount_Of Arg1:T63 Arg2:T43	
+R48	Number_Of Arg1:T29 Arg2:T64	
+R49	Amount_Of Arg1:T64 Arg2:T45	
+R50	Descriptor_Of Arg1:T77 Arg2:T45	
+R51	Descriptor_Of Arg1:T78 Arg2:T45	
+R52	Descriptor_Of Arg1:T79 Arg2:T46	
+R53	Condition_Of Arg1:T80 Arg2:E8	
+R54	Number_Of Arg1:T30 Arg2:T65	
+R55	Condition_Of Arg1:T65 Arg2:E8	
+R56	Condition_Of Arg1:T81 Arg2:E8	
+R57	Number_Of Arg1:T31 Arg2:T66	
+R58	Amount_Of Arg1:T66 Arg2:T47	
+R59	Amount_Of Arg1:T82 Arg2:T48	
+R60	Number_Of Arg1:T32 Arg2:T67	
+R61	Amount_Of Arg1:T67 Arg2:T48	
+R62	Condition_Of Arg1:T83 Arg2:E10	
+R63	Descriptor_Of Arg1:T85 Arg2:T49	
+R64	Number_Of Arg1:T33 Arg2:T68	
+R65	Apparatus_Attr_Of Arg1:T68 Arg2:T86	
+R66	Descriptor_Of Arg1:T87 Arg2:T86	
+R67	Apparatus_Of Arg1:T86 Arg2:E12	
+R68	Apparatus_Of Arg1:T88 Arg2:E13	
+R69	Number_Of Arg1:T34 Arg2:T69	
+R70	Number_Of Arg1:T35 Arg2:T70	
+R71	Condition_Of Arg1:T69 Arg2:E14	
+R72	Condition_Of Arg1:T70 Arg2:E14	
+R73	Apparatus_Of Arg1:T89 Arg2:E15	
+R74	Condition_Of Arg1:T90 Arg2:E15	
+R75	Property_Of Arg1:T91 Arg2:T50	
+R76	Property_Of Arg1:T92 Arg2:T50	
+R77	Condition_Of Arg1:T93 Arg2:E17	
+R78	Descriptor_Of Arg1:T94 Arg2:T51	
+R79	Condition_Of Arg1:T71 Arg2:E17	
+R80	Number_Of Arg1:T36 Arg2:T71	
+R81	Number_Of Arg1:T37 Arg2:T72	
+R82	Condition_Of Arg1:T72 Arg2:E18	
+R83	Number_Of Arg1:T38 Arg2:T73	
+R84	Condition_Of Arg1:T73 Arg2:E18	
+R85	Condition_Of Arg1:T95 Arg2:E18	

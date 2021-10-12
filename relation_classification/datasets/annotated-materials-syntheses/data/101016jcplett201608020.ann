@@ -1,0 +1,142 @@
+T1	Material 65 81	CuFe2O4/graphene
+T2	Material 82 87	oxide
+T3	Property-Misc 88 97	composite
+T4	Property-Misc 56 64	magnetic
+T5	Material 166 176	CuFe2O4/GO
+T6	Operation 190 201	synthesized
+E1	Operation:T6 Recipe_Target:T5
+T7	Operation 268 277	dispersed
+E2	Operation:T7 Recipe_Precursor:T35 Solvent_Material:T36
+T8	Operation 308 318	sonication
+E3	Operation:T8 
+T9	Operation 425 430	added
+E4	Operation:T9 Participant_Material:T39 Recipe_Precursor:T38 Recipe_Precursor:T37 Participant_Material:T40
+T10	Operation 467 474	stirred
+E5	Operation:T10 
+T11	Operation 520 528	adjusted
+E6	Operation:T11 Participant_Material:T41
+T12	Operation 537 542	using
+E7	Operation:T12 Participant_Material:T42
+T13	Operation 568 576	stirring
+E8	Operation:T13 
+T14	Operation 617 628	transferred
+E9	Operation:T14 Participant_Material:T43
+T15	Operation 683 689	sealed
+E10	Operation:T15 
+T16	Operation 694 702	intained
+E11	Operation:T16 
+T17	Operation 749 762	centrifugated
+E12	Operation:T17 Participant_Material:T44
+T18	Operation 767 772	dried
+E13	Operation:T18 
+T19	Number 178 180	20
+T20	Number 252 254	60
+T21	Number 281 283	40
+T22	Number 323 324	1
+T23	Number 343 348	0.200
+T24	Number 368 373	0.811
+T25	Number 394 396	20
+T26	Number 479 480	1
+T27	Number 532 536	10.0
+T28	Number 543 544	6
+T29	Number 581 583	30
+T30	Number 636 639	100
+T31	Number 706 709	220
+T32	Number 719 721	18
+T33	Number 793 795	60
+T34	Meta 207 219	hydrothermal
+T35	Material 261 263	GO
+T36	Material 297 302	water
+T37	Material 351 366	Cu(CH3COO)2*H2O
+T38	Material 376 389	Fe(NO3)3*9H2O
+T39	Material 410 415	water
+T40	Material 434 436	GO
+T41	Material 505 515	suspension
+T42	Material 547 551	NaOH
+T43	Material 593 603	suspension
+T44	Material 735 743	products
+T45	Amount-Unit 181 184	wt%
+T46	Amount-Unit 255 257	mg
+T47	Amount-Unit 284 286	mL
+T48	Condition-Unit 325 326	h
+T49	Amount-Unit 349 350	g
+T50	Amount-Unit 374 375	g
+T51	Amount-Unit 397 399	ml
+T52	Condition-Unit 481 482	h
+T53	Condition-Unit 488 490	pH
+T54	Amount-Unit 545 546	M
+T55	Condition-Unit 584 587	min
+T56	Apparatus-Unit 640 642	mL
+T57	Condition-Unit 710 714	degC
+T58	Condition-Unit 722 723	h
+T59	Condition-Unit 796 800	degC
+T60	Material-Descriptor 287 296	deionized
+T61	Material-Descriptor 332 339	mixture
+T62	Material-Descriptor 400 409	deionized
+T63	Material-Descriptor 437 453	aqueous solution
+T64	Condition-Misc 454 462	dropwise
+T65	Material-Descriptor 552 560	solution
+T66	Material-Descriptor 604 612	solution
+T67	Synthesis-Apparatus 672 681	autoclave
+T68	Apparatus-Descriptor 643 671	Teflon-lined stainless steel
+T69	Synthesis-Apparatus 785 789	oven
+T70	Apparatus-Descriptor 778 784	vacuum
+R1	Property_Of Arg1:T4 Arg2:T1	
+R2	Property_Of Arg1:T4 Arg2:T2	
+R3	Property_Of Arg1:T3 Arg2:T2	
+R4	Property_Of Arg1:T3 Arg2:T1	
+A1	Start_Recipe E1
+R5	Next_Operation Arg1:E1 Arg2:E2	
+R6	Next_Operation Arg1:E2 Arg2:E3	
+R7	Next_Operation Arg1:E3 Arg2:E4	
+R8	Next_Operation Arg1:E4 Arg2:E5	
+R9	Next_Operation Arg1:E5 Arg2:E6	
+R10	Next_Operation Arg1:E6 Arg2:E7	
+R11	Next_Operation Arg1:E7 Arg2:E8	
+R12	Next_Operation Arg1:E8 Arg2:E9	
+R13	Next_Operation Arg1:E9 Arg2:E10	
+R14	Next_Operation Arg1:E10 Arg2:E11	
+R15	Next_Operation Arg1:E11 Arg2:E12	
+R16	Next_Operation Arg1:E12 Arg2:E13	
+A2	End_Recipe E13
+R17	Number_Of Arg1:T19 Arg2:T45	
+R18	Amount_Of Arg1:T45 Arg2:T5	
+R19	Number_Of Arg1:T20 Arg2:T46	
+R20	Amount_Of Arg1:T46 Arg2:T35	
+R21	Number_Of Arg1:T21 Arg2:T47	
+R22	Descriptor_Of Arg1:T60 Arg2:T36	
+R23	Amount_Of Arg1:T47 Arg2:T36	
+R24	Number_Of Arg1:T22 Arg2:T48	
+R25	Condition_Of Arg1:T48 Arg2:E3	
+R26	Descriptor_Of Arg1:T61 Arg2:T37	
+R27	Number_Of Arg1:T23 Arg2:T49	
+R28	Amount_Of Arg1:T49 Arg2:T37	
+R29	Number_Of Arg1:T24 Arg2:T50	
+R30	Amount_Of Arg1:T50 Arg2:T38	
+R31	Number_Of Arg1:T25 Arg2:T51	
+R32	Amount_Of Arg1:T51 Arg2:T39	
+R33	Descriptor_Of Arg1:T62 Arg2:T39	
+R34	Descriptor_Of Arg1:T63 Arg2:T40	
+R35	Condition_Of Arg1:T64 Arg2:E4	
+R36	Number_Of Arg1:T26 Arg2:T52	
+R37	Condition_Of Arg1:T52 Arg2:E5	
+R38	Number_Of Arg1:T27 Arg2:T53	
+R39	Condition_Of Arg1:T53 Arg2:E6	
+R40	Number_Of Arg1:T28 Arg2:T54	
+R41	Amount_Of Arg1:T54 Arg2:T42	
+R42	Descriptor_Of Arg1:T65 Arg2:T42	
+R43	Number_Of Arg1:T29 Arg2:T55	
+R44	Condition_Of Arg1:T55 Arg2:E8	
+R45	Descriptor_Of Arg1:T66 Arg2:T43	
+R46	Number_Of Arg1:T30 Arg2:T56	
+R47	Apparatus_Attr_Of Arg1:T56 Arg2:T67	
+R48	Descriptor_Of Arg1:T68 Arg2:T67	
+R49	Apparatus_Of Arg1:T67 Arg2:E9	
+R50	Number_Of Arg1:T31 Arg2:T57	
+R51	Number_Of Arg1:T32 Arg2:T58	
+R52	Condition_Of Arg1:T57 Arg2:E11	
+R53	Condition_Of Arg1:T58 Arg2:E11	
+R54	Descriptor_Of Arg1:T70 Arg2:T69	
+R55	Apparatus_Of Arg1:T69 Arg2:E13	
+R56	Number_Of Arg1:T33 Arg2:T59	
+R57	Condition_Of Arg1:T59 Arg2:E13	

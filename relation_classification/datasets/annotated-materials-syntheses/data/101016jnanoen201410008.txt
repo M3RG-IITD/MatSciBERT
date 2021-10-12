@@ -1,0 +1,6 @@
+10.1016/j.nanoen.2014.10.008
+Formic acid-reduced ultrasmall Pd nanocrystals on graphene to provide superior electocatalytic activity and stability toward formic acid oxidation
+
+The graphene oxide (GO) was synthesized from graphite by using a modified Hummers method [20] and [21]. The prepared graphene oxide was dried in normal vacuum at 70 degC for 12 h and then put into a glass bottle under high vacuum level at 60 degC overnight, followed by heating to 220 degC quickly. The obtained highly loose black powder was denoted as graphene.
+
+In a typical synthesis of Pd@Graphene electrocatalyst (30% Pd), graphene 10.5 mg, poly(vinyl pyrrolidone) (PVP) 40 mg, and (NH4)2PdCl4 12 mg were dissolved in 2 mL of deionized water. The mixture was treated in an ultrasonic bath to form a uniform aqueous dispersion, then added 3 mL HCOOH and ultrasonically treated for 10 min. which was placed in a 25 mL Teflon-sealed autoclave and maintained at 120 degC for 12 h. The obtained black power was isolated by centrifugation, cleaned by three cycles of centrifugation/washing, and oven-dried at 60 degC for more than 6 h. The obtained sample was denoted as Pd@Graphene materials.

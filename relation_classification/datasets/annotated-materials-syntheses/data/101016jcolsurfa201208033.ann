@@ -1,0 +1,358 @@
+T1	Material 72 78	sulfur
+T2	Property-Misc 79 88	composite
+T3	Property-Misc 57 71	polymer-coated
+T4	Property-Misc 89 96	cathode
+T5	Operation 432 441	purchased
+E1	Operation:T5 Recipe_Precursor:T59 Recipe_Precursor:T61 Recipe_Precursor:T63 Recipe_Precursor:T65 Recipe_Precursor:T66
+T6	Operation 486 490	used
+E2	Operation:T6 Recipe_Precursor:T72
+T7	Operation 504 516	purification
+E3	Operation:T7 
+T8	Operation 533 545	distillation
+E4	Operation:T8 
+T9	Operation 555 561	stored
+E5	Operation:T9 
+T10	Operation 613 621	prepared
+E6	Operation:T10 Solvent_Material:T73
+T11	Operation 765 774	dispersed
+E7	Operation:T11 Recipe_Precursor:T74 Recipe_Precursor:T75
+T12	Operation 830 836	adsorb
+E8	Operation:T12 
+T13	Operation 883 890	removed
+E9	Operation:T13 Participant_Material:T76
+T14	Operation 894 908	centrifugation
+E10	Operation:T14 
+T15	Operation 925 932	washing
+E11	Operation:T15 Participant_Material:T77
+T16	Operation 1002 1011	dispersed
+E12	Operation:T16 Participant_Material:T146 Recipe_Precursor:T79 Recipe_Precursor:T80
+T17	Operation 1104 1111	washing
+E13	Operation:T17 Participant_Material:T82
+T18	Operation 1137 1145	assembly
+E14	Operation:T18 Participant_Material:T83
+T19	Operation 1215 1224	dispersed
+E15	Operation:T19 Participant_Material:T84 Recipe_Precursor:T85
+T20	Operation 1318 1327	incubated
+E16	Operation:T20 Participant_Material:T87
+T21	Operation 1456 1461	added
+E17	Operation:T21 Recipe_Target:T88 Recipe_Precursor:T89
+T22	Operation 1496 1501	mixed
+E18	Operation:T22 Recipe_Precursor:T89 Participant_Material:T90
+T23	Operation 1541 1549	stirring
+E19	Operation:T23 
+T24	Operation 1689 1694	added
+E20	Operation:T24 Recipe_Precursor:T92
+T25	Operation 1721 1735	polymerization
+E21	Operation:T25 
+T26	Operation 1766 1773	carried
+E22	Operation:T26 
+T27	Operation 1858 1866	obtained
+E23	Operation:T27 Recipe_Target:T95
+T28	Operation 1870 1884	centrifugation
+E24	Operation:T28 
+T29	Operation 1889 1895	washed
+E25	Operation:T29 Participant_Material:T96 Participant_Material:T97
+T30	Operation 1933 1939	remove
+E26	Operation:T30 Participant_Material:T98 Participant_Material:T99
+T31	Operation 1984 1992	repeated
+E27	Operation:T31 Participant_Material:T100
+T32	Operation 2045 2050	dried
+E28	Operation:T32 Participant_Material:T101
+T33	Operation 2124 2133	performed
+E29	Operation:T33 Atmospheric_Material:T102
+T34	Operation 2210 2218	prepared
+E30	Operation:T34 Recipe_Target:T103
+T35	Operation 2395 2400	dried
+E31	Operation:T35 Participant_Material:T106
+T36	Number 209 215	50-100
+T37	Number 263 265	70
+T38	Number 317 319	70
+T39	Number 387 388	5
+T40	Number 565 568	0-5
+T41	Number 720 724	18.2
+T42	Number 792 793	1
+T43	Number 803 806	0.5
+T44	Number 841 843	30
+T45	Number 938 941	0.5
+T46	Number 1037 1038	2
+T47	Number 1048 1051	0.5
+T48	Number 1072 1074	30
+T49	Number 1115 1118	0.5
+T50	Number 1228 1229	5
+T51	Number 1272 1274	30
+T52	Number 1356 1358	20
+T53	Number 1507 1508	1
+T54	Number 1557 1559	30
+T55	Number 1599 1603	22.8
+T56	Number 1739 1742	0-3
+T57	Number 1782 1784	24
+T58	Number 2091 2093	24
+T59	Material 182 199	Polyethyleneimine
+T60	Material 201 204	PEI
+T61	Material 222 252	poly(allylamine hydrochloride)
+T62	Material 254 257	PAH
+T63	Material 272 306	poly(styrenesulfonate sodium salt)
+T64	Material 308 311	PSS
+T65	Material 326 340	gultaraldehyde
+T66	Material 368 379	polypyrrole
+T67	Material 342 344	GA
+T68	Material 381 384	PPY
+T69	Material 396 401	water
+T70	Nonrecipe-Material 414 426	organic acid
+T71	Brand 447 460	Sigma-Aldrich
+T72	Material 466 473	aniline
+T73	Material 579 584	water
+T74	Material 732 738	Sulfur
+T75	Material 778 781	PEI
+T76	Material 861 877	polyelectrolytes
+T77	Material 944 948	NaCl
+T78	Material 809 813	NaCl
+T79	Material 1015 1018	PAH
+T80	Material 1023 1026	PSS
+T81	Material 1054 1058	NaCl
+T82	Material 1121 1125	NaCl
+T83	Material 1169 1176	PAH/PSS
+T84	Material 1195 1204	particles
+T85	Material 1231 1245	glutaraldehyde
+T86	Material 1247 1249	GA
+T87	Material 1301 1312	suspensions
+T88	Material 1416 1422	sulfur
+T89	Material 1471 1478	aniline
+T90	Material 1511 1528	hydrochloric acid
+T91	Material 1530 1533	HCl
+T92	Material 1616 1636	ammonium persulphate
+T93	Material 1638 1641	APS
+T94	Nonrecipe-Material 1669 1676	aniline
+T95	Material 1835 1841	sulfur
+T96	Material 1901 1906	water
+T97	Material 1911 1918	ethanol
+T98	Nonrecipe-Material 1947 1951	ions
+T99	Nonrecipe-Material 1956 1964	monomers
+T100	Nonrecipe-Material 2009 2013	PANI
+T101	Material 2033 2040	product
+T102	Material 2144 2152	nitrogen
+T103	Material 2180 2191	polypyrrole
+T104	Material 2193 2196	PPY
+T105	Material 2348 2354	sulfur
+T106	Material 2385 2390	solid
+T107	Material 2281 2284	PPY
+T108	Amount-Unit 206 208	Mw
+T109	Amount-Unit 216 219	kDa
+T110	Amount-Unit 260 262	Mw
+T111	Amount-Unit 266 269	kDa
+T112	Amount-Unit 314 316	Mw
+T113	Amount-Unit 320 323	kDa
+T114	Amount-Unit 389 392	wt%
+T115	Condition-Unit 569 573	degC
+T116	Amount-Unit 725 730	MΩ cm
+T117	Amount-Unit 794 799	mg/mL
+T118	Amount-Unit 807 808	M
+T119	Condition-Unit 844 847	min
+T120	Amount-Unit 942 943	M
+T121	Amount-Unit 1039 1044	mg/mL
+T122	Amount-Unit 1052 1053	M
+T123	Condition-Unit 1075 1078	min
+T124	Amount-Unit 1119 1120	M
+T125	Amount-Unit 1229 1230	%
+T126	Condition-Unit 1275 1278	min
+T127	Condition-Unit 1359 1362	min
+T128	Amount-Unit 1509 1510	M
+T129	Condition-Unit 1560 1563	min
+T130	Amount-Unit 1604 1607	wt%
+T131	Condition-Unit 1743 1747	degC
+T132	Condition-Unit 1785 1786	h
+T133	Condition-Unit 2094 2095	h
+T134	Material-Descriptor 354 367	water-soluble
+T135	Material-Descriptor 403 408	doped
+T136	Material-Descriptor 474 481	monomer
+T137	Condition-Misc 520 532	decompressed
+T138	Synthesis-Apparatus 639 665	Millipore Milli-Q Plus 185
+T139	Apparatus-Descriptor 627 638	three-stage
+T140	Apparatus-Property-Type 666 678	purification
+T141	Material-Descriptor 739 748	particles
+T142	Material-Descriptor 782 790	solution
+T143	Material-Descriptor 854 860	excess
+T144	Number 913 918	three
+T145	Condition-Unit 919 924	times
+T146	Material 973 984	suspensions
+T147	Material-Descriptor 1027 1035	solution
+T148	Number 1092 1097	three
+T149	Condition-Unit 1098 1103	times
+T150	Material-Descriptor 1177 1182	layer
+T151	Material-Descriptor 1188 1194	coated
+T152	Material-Descriptor 1251 1258	aqueous
+T153	Material-Descriptor 1259 1267	solution
+T154	Material-Descriptor 1294 1300	sample
+T155	Condition-Misc 1335 1351	high temperature
+T156	Property-Misc 1401 1415	polymer-coated
+T157	Property-Misc 1423 1432	particles
+T158	Property-Misc 1433 1440	aqueous
+T159	Property-Misc 1441 1451	dispersion
+T160	Material-Descriptor 1479 1486	monomer
+T161	Material-Descriptor 1487 1495	solution
+T162	Amount-Misc 1569 1595	equivalent number of moles
+T163	Material-Descriptor 1608 1615	aqueous
+T164	Material-Descriptor 1643 1651	solution
+T165	Condition-Misc 1682 1688	slowly
+T166	Condition-Misc 1711 1720	oxidative
+T167	Property-Misc 1802 1813	green solid
+T168	Property-Misc 1815 1834	PANI/polymer-coated
+T169	Property-Misc 1842 1851	particles
+T170	Condition-Misc 1919 1929	thoroughly
+T171	Material-Descriptor 1940 1946	excess
+T172	Condition-Misc 2057 2063	vacuum
+T173	Condition-Misc 2067 2086	ambient temperature
+T174	Condition-Type 2153 2163	atmosphere
+T175	Property-Misc 2169 2179	conductive
+T176	Property-Misc 2198 2204	shells
+T177	Property-Misc 2273 2280	charged
+T178	Property-Misc 2262 2272	negatively
+T179	Property-Misc 2326 2347	(PAH/PSS)n/PAH-coated
+T180	Property-Misc 2355 2364	particles
+T181	Material-Descriptor 2380 2384	gray
+R1	Property_Of Arg1:T3 Arg2:T1	
+R2	Property_Of Arg1:T2 Arg2:T1	
+R3	Property_Of Arg1:T4 Arg2:T1	
+R4	Coref_Of Arg1:T60 Arg2:T59	
+R5	Number_Of Arg1:T36 Arg2:T108	
+R6	Number_Of Arg1:T36 Arg2:T109	
+R7	Amount_Of Arg1:T109 Arg2:T59	
+R8	Amount_Of Arg1:T108 Arg2:T59	
+R9	Coref_Of Arg1:T62 Arg2:T61	
+R10	Number_Of Arg1:T37 Arg2:T110	
+R11	Number_Of Arg1:T37 Arg2:T111	
+R12	Amount_Of Arg1:T110 Arg2:T61	
+R13	Amount_Of Arg1:T111 Arg2:T61	
+R14	Coref_Of Arg1:T64 Arg2:T63	
+R15	Number_Of Arg1:T38 Arg2:T112	
+R16	Number_Of Arg1:T38 Arg2:T113	
+R17	Amount_Of Arg1:T113 Arg2:T63	
+R18	Amount_Of Arg1:T112 Arg2:T63	
+R19	Coref_Of Arg1:T67 Arg2:T65	
+R20	Descriptor_Of Arg1:T134 Arg2:T66	
+R21	Coref_Of Arg1:T68 Arg2:T66	
+R22	Number_Of Arg1:T39 Arg2:T114	
+R23	Amount_Of Arg1:T114 Arg2:T66	
+R24	Descriptor_Of Arg1:T135 Arg2:T66	
+R25	Brand_Of Arg1:T71 Arg2:T66	
+R26	Brand_Of Arg1:T71 Arg2:T65	
+R27	Brand_Of Arg1:T71 Arg2:T63	
+R28	Brand_Of Arg1:T71 Arg2:T61	
+R29	Brand_Of Arg1:T71 Arg2:T59	
+A1	Start_Recipe E1
+R30	Next_Operation Arg1:E1 Arg2:E2	
+R31	Next_Operation Arg1:E2 Arg2:E3	
+R32	Next_Operation Arg1:E3 Arg2:E4	
+R33	Next_Operation Arg1:E4 Arg2:E5	
+R34	Next_Operation Arg1:E5 Arg2:E6	
+R35	Next_Operation Arg1:E6 Arg2:E7	
+R36	Next_Operation Arg1:E7 Arg2:E8	
+R37	Next_Operation Arg1:E8 Arg2:E9	
+R38	Next_Operation Arg1:E9 Arg2:E10	
+R39	Next_Operation Arg1:E10 Arg2:E11	
+R40	Next_Operation Arg1:E11 Arg2:E12	
+R41	Next_Operation Arg1:E12 Arg2:E13	
+R42	Next_Operation Arg1:E13 Arg2:E14	
+R43	Next_Operation Arg1:E14 Arg2:E15	
+R44	Next_Operation Arg1:E15 Arg2:E16	
+R45	Next_Operation Arg1:E16 Arg2:E17	
+R46	Next_Operation Arg1:E17 Arg2:E18	
+R47	Next_Operation Arg1:E18 Arg2:E19	
+R48	Next_Operation Arg1:E19 Arg2:E20	
+R49	Next_Operation Arg1:E20 Arg2:E21	
+R50	Next_Operation Arg1:E21 Arg2:E22	
+R51	Next_Operation Arg1:E22 Arg2:E23	
+R52	Next_Operation Arg1:E23 Arg2:E24	
+R53	Next_Operation Arg1:E24 Arg2:E25	
+R54	Next_Operation Arg1:E25 Arg2:E26	
+R55	Next_Operation Arg1:E26 Arg2:E27	
+R56	Next_Operation Arg1:E27 Arg2:E28	
+R57	Next_Operation Arg1:E28 Arg2:E29	
+R58	Next_Operation Arg1:E29 Arg2:E30	
+R59	Next_Operation Arg1:E30 Arg2:E31	
+A2	End_Recipe E31
+R60	Descriptor_Of Arg1:T136 Arg2:T72	
+R61	Condition_Of Arg1:T137 Arg2:E4	
+R62	Number_Of Arg1:T40 Arg2:T115	
+R63	Condition_Of Arg1:T115 Arg2:E5	
+R64	Descriptor_Of Arg1:T139 Arg2:T138	
+R65	Apparatus_Of Arg1:T138 Arg2:E6	
+R66	Number_Of Arg1:T41 Arg2:T116	
+R67	Descriptor_Of Arg1:T141 Arg2:T74	
+R68	Descriptor_Of Arg1:T142 Arg2:T75	
+R69	Number_Of Arg1:T42 Arg2:T117	
+R70	Amount_Of Arg1:T117 Arg2:T75	
+R71	Number_Of Arg1:T43 Arg2:T118	
+R72	Amount_Of Arg1:T118 Arg2:T78	
+R73	Number_Of Arg1:T44 Arg2:T119	
+R74	Condition_Of Arg1:T119 Arg2:E8	
+R75	Descriptor_Of Arg1:T143 Arg2:T76	
+R76	Number_Of Arg1:T144 Arg2:T145	
+R77	Condition_Of Arg1:T145 Arg2:E11	
+R78	Number_Of Arg1:T45 Arg2:T120	
+R79	Amount_Of Arg1:T120 Arg2:T77	
+R80	Descriptor_Of Arg1:T147 Arg2:T79	
+R81	Descriptor_Of Arg1:T147 Arg2:T80	
+R82	Number_Of Arg1:T46 Arg2:T121	
+R83	Number_Of Arg1:T47 Arg2:T122	
+R84	Amount_Of Arg1:T121 Arg2:T79	
+R85	Amount_Of Arg1:T121 Arg2:T80	
+R86	Number_Of Arg1:T48 Arg2:T123	
+R87	Condition_Of Arg1:T123 Arg2:E12	
+R88	Number_Of Arg1:T148 Arg2:T149	
+R89	Condition_Of Arg1:T149 Arg2:E13	
+R90	Number_Of Arg1:T49 Arg2:T124	
+R91	Amount_Of Arg1:T124 Arg2:T82	
+R92	Descriptor_Of Arg1:T150 Arg2:T83	
+R93	Descriptor_Of Arg1:T151 Arg2:T84	
+R94	Number_Of Arg1:T50 Arg2:T125	
+R95	Amount_Of Arg1:T125 Arg2:T85	
+R96	Coref_Of Arg1:T86 Arg2:T85	
+R97	Descriptor_Of Arg1:T152 Arg2:T85	
+R98	Descriptor_Of Arg1:T153 Arg2:T85	
+R99	Number_Of Arg1:T51 Arg2:T126	
+R100	Condition_Of Arg1:T126 Arg2:E15	
+R101	Descriptor_Of Arg1:T154 Arg2:T87	
+R102	Condition_Of Arg1:T155 Arg2:E16	
+R103	Number_Of Arg1:T52 Arg2:T127	
+R104	Condition_Of Arg1:T127 Arg2:E16	
+R105	Property_Of Arg1:T156 Arg2:T88	
+R106	Property_Of Arg1:T157 Arg2:T88	
+R107	Property_Of Arg1:T158 Arg2:T88	
+R108	Property_Of Arg1:T159 Arg2:T88	
+R109	Descriptor_Of Arg1:T160 Arg2:T89	
+R110	Descriptor_Of Arg1:T161 Arg2:T89	
+R111	Number_Of Arg1:T53 Arg2:T128	
+R112	Coref_Of Arg1:T91 Arg2:T90	
+R113	Amount_Of Arg1:T128 Arg2:T90	
+R114	Number_Of Arg1:T54 Arg2:T129	
+R115	Number_Of Arg1:T55 Arg2:T130	
+R116	Amount_Of Arg1:T162 Arg2:T92	
+R117	Coref_Of Arg1:T93 Arg2:T92	
+R118	Descriptor_Of Arg1:T164 Arg2:T92	
+R119	Descriptor_Of Arg1:T163 Arg2:T92	
+R120	Amount_Of Arg1:T130 Arg2:T92	
+R121	Condition_Of Arg1:T165 Arg2:E20	
+R122	Condition_Of Arg1:T166 Arg2:E21	
+R123	Number_Of Arg1:T56 Arg2:T131	
+R124	Condition_Of Arg1:T131 Arg2:E21	
+R125	Number_Of Arg1:T57 Arg2:T132	
+R126	Condition_Of Arg1:T132 Arg2:E22	
+R127	Property_Of Arg1:T168 Arg2:T95	
+R128	Property_Of Arg1:T167 Arg2:T95	
+R129	Property_Of Arg1:T169 Arg2:T95	
+R130	Condition_Of Arg1:T170 Arg2:E25	
+R131	Descriptor_Of Arg1:T171 Arg2:T98	
+R132	Descriptor_Of Arg1:T171 Arg2:T99	
+R133	Condition_Of Arg1:T172 Arg2:E28	
+R134	Condition_Of Arg1:T173 Arg2:E28	
+R135	Number_Of Arg1:T58 Arg2:T133	
+R136	Condition_Of Arg1:T133 Arg2:E28	
+R137	Property_Of Arg1:T175 Arg2:T103	
+R138	Coref_Of Arg1:T104 Arg2:T103	
+R139	Property_Of Arg1:T176 Arg2:T103	
+R140	Property_Of Arg1:T177 Arg2:T107	
+R141	Property_Of Arg1:T178 Arg2:T107	
+R142	Property_Of Arg1:T179 Arg2:T105	
+R143	Property_Of Arg1:T180 Arg2:T105	
+R144	Descriptor_Of Arg1:T181 Arg2:T106	

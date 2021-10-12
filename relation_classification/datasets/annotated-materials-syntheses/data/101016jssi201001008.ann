@@ -1,0 +1,115 @@
+T1	Operation 287 292	mixed
+E1	Operation:T1 Recipe_Precursor:T7 Recipe_Precursor:T8 Recipe_Precursor:T9 Recipe_Precursor:T10
+T2	Operation 400 405	mixed
+E2	Operation:T2 Participant_Material:T12
+T3	Operation 457 465	calcined
+E3	Operation:T3 
+T4	Operation 512 517	mixed
+E4	Operation:T4 Participant_Material:T21 Participant_Material:T22
+T5	Operation 557 566	compacted
+E5	Operation:T5 Participant_Material:T24
+T6	Operation 685 690	fired
+E6	Operation:T6 Participant_Material:T37 Atmospheric_Material:T40
+T7	Material 125 130	La2O3
+T8	Material 187 192	SrCO3
+T9	Material 218 222	TiO2
+T10	Material 252 257	Fe2O3
+T11	Material 328 348	La1-xSrxTi1-yFeyO3-δ
+T12	Material 387 394	powders
+T13	Synthesis-Apparatus 414 423	ball mill
+T14	Synthesis-Apparatus 429 438	YSZ balls
+T15	Number 443 444	5
+T16	Condition-Unit 445 446	h
+T17	Number 469 473	1000
+T18	Condition-Unit 474 478	degC
+T19	Number 483 484	6
+T20	Condition-Unit 485 486	h
+T21	Material 501 507	powder
+T22	Material 525 528	PVA
+T23	Material-Descriptor 529 552	aqueous solution binder
+T24	Material 572 579	pellets
+T25	Number 588 598	5 x 5 x 30
+T26	Property-Unit 599 601	mm
+T27	Number 615 617	25
+T28	Property-Unit 618 620	mm
+T29	Number 625 626	3
+T30	Property-Unit 627 629	mm
+T31	Property-Type 581 584	bar
+T32	Property-Type 611 612	φ
+T33	Property-Type 620 622	xt
+T34	Synthesis-Apparatus 639 652	compact press
+T35	Number 656 659	100
+T36	Condition-Unit 660 663	MPa
+T37	Material 671 679	compacts
+T38	Number 694 698	1400
+T39	Condition-Unit 698 702	degC
+T40	Material 706 709	air
+T41	Number 714 715	3
+T42	Condition-Unit 716 717	h
+T43	Material-Descriptor 114 121	Powders
+T44	Brand 132 167	Wako Pure Chemical Industries, Ltd.
+T45	Brand 194 198	Wako
+T46	Brand 224 228	Wako
+T47	Brand 259 263	Wako
+T48	Number 180 181	1
+T49	Property-Unit 182 184	μm
+T50	Property-Type 169 179	grain size
+T51	Property-Type 200 210	grain size
+T52	Number 211 212	1
+T53	Property-Unit 213 215	μm
+T54	Property-Type 230 240	grain size
+T55	Number 241 242	1
+T56	Property-Unit 243 245	μm
+T57	Property-Type 265 275	grain size
+T58	Number 276 277	1
+T59	Property-Unit 278 280	μm
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Apparatus_Of Arg1:T13 Arg2:E2	
+R7	Apparatus_Of Arg1:T14 Arg2:E2	
+R8	Condition_Of Arg1:T16 Arg2:E2	
+R9	Condition_Of Arg1:T18 Arg2:E3	
+R10	Condition_Of Arg1:T20 Arg2:E3	
+R11	Apparatus_Of Arg1:T34 Arg2:E5	
+R12	Condition_Of Arg1:T36 Arg2:E5	
+R13	Condition_Of Arg1:T39 Arg2:E6	
+R14	Condition_Of Arg1:T42 Arg2:E6	
+R15	Property_Of Arg1:T49 Arg2:T7	
+R16	Property_Of Arg1:T53 Arg2:T8	
+R17	Property_Of Arg1:T56 Arg2:T9	
+R18	Property_Of Arg1:T59 Arg2:T10	
+R19	Property_Of Arg1:T26 Arg2:T24	
+R20	Property_Of Arg1:T28 Arg2:T24	
+R21	Property_Of Arg1:T30 Arg2:T24	
+R22	Descriptor_Of Arg1:T43 Arg2:T7	
+R23	Descriptor_Of Arg1:T43 Arg2:T8	
+R24	Descriptor_Of Arg1:T43 Arg2:T9	
+R25	Descriptor_Of Arg1:T43 Arg2:T10	
+R26	Descriptor_Of Arg1:T23 Arg2:T22	
+R27	Type_Of Arg1:T50 Arg2:T49	
+R28	Type_Of Arg1:T51 Arg2:T53	
+R29	Type_Of Arg1:T54 Arg2:T56	
+R30	Type_Of Arg1:T57 Arg2:T59	
+R31	Type_Of Arg1:T31 Arg2:T26	
+R32	Type_Of Arg1:T32 Arg2:T28	
+R33	Type_Of Arg1:T33 Arg2:T30	
+R34	Number_Of Arg1:T48 Arg2:T49	
+R35	Number_Of Arg1:T52 Arg2:T53	
+R36	Brand_Of Arg1:T46 Arg2:T9	
+R37	Number_Of Arg1:T55 Arg2:T56	
+R38	Brand_Of Arg1:T47 Arg2:T10	
+R39	Brand_Of Arg1:T44 Arg2:T7	
+R40	Brand_Of Arg1:T45 Arg2:T8	
+R41	Number_Of Arg1:T58 Arg2:T59	
+R42	Number_Of Arg1:T15 Arg2:T16	
+R43	Number_Of Arg1:T17 Arg2:T18	
+R44	Number_Of Arg1:T19 Arg2:T20	
+R45	Number_Of Arg1:T25 Arg2:T26	
+R46	Number_Of Arg1:T27 Arg2:T28	
+R47	Number_Of Arg1:T29 Arg2:T30	
+R48	Number_Of Arg1:T35 Arg2:T36	
+R49	Number_Of Arg1:T38 Arg2:T39	
+R50	Number_Of Arg1:T41 Arg2:T42	

@@ -1,0 +1,111 @@
+T1	Operation 199 210	synthesized
+E1	Operation:T1 Recipe_Target:T13 Recipe_Target:T14
+T2	Meta 216 248	melting and slow cooling process
+T3	Operation 328 334	placed
+E2	Operation:T3 Recipe_Precursor:T15 Recipe_Precursor:T16 Recipe_Precursor:T17
+T4	Operation 419 428	evacuated
+E3	Operation:T4 
+T5	Operation 430 436	sealed
+E4	Operation:T5 
+T6	Operation 442 448	melted
+E5	Operation:T6 
+T7	Operation 478 485	cooling
+E6	Operation:T7 
+T8	Operation 549 553	kept
+E7	Operation:T8 
+T9	Operation 575 583	followed
+E8	Operation:T9 
+T10	Operation 587 602	furnace cooling
+E9	Operation:T10 
+T11	Operation 620 626	ground
+E10	Operation:T11 Participant_Material:T18
+T12	Operation 667 675	sintered
+E11	Operation:T12 Participant_Material:T19
+T13	Material 134 144	Sn1-xAgxTe
+T14	Material 149 161	Sn1+δ-xAgxTe
+T15	Material 278 280	Ag
+T16	Material 292 294	Sn
+T17	Material 310 312	Te
+T18	Material 608 614	ingots
+T19	Material 654 661	powders
+T20	Property-Misc 112 130	crystalline ingots
+T21	Material-Descriptor 254 265	high purity
+T22	Number 282 288	99.999
+T23	Amount-Unit 288 289	%
+T24	Number 296 302	99.999
+T25	Amount-Unit 302 303	%
+T26	Number 314 320	99.999
+T27	Amount-Unit 320 321	%
+T28	Synthesis-Apparatus 338 350	quartz tubes
+T29	Amount-Misc 368 395	stoichiometric molar ratios
+T30	Synthesis-Apparatus 401 413	quartz tubes
+T31	Number 452 456	1000
+T32	Condition-Unit 457 461	degC
+T33	Number 466 468	12
+T34	Condition-Unit 469 470	h
+T35	Number 494 497	150
+T36	Condition-Unit 498 502	degC
+T37	Number 526 528	10
+T38	Condition-Unit 529 537	degC h-1
+T39	Number 557 560	150
+T40	Condition-Unit 561 565	degC
+T41	Number 570 572	12
+T42	Condition-Unit 573 574	h
+T43	Synthesis-Apparatus 633 645	agate mortar
+T44	Operation 679 698	hot press sintering
+E12	Operation:T44 
+T45	Number 702 705	400
+T46	Condition-Unit 706 710	degC
+T47	Number 739 741	70
+T48	Condition-Unit 742 745	MPa
+T49	Number 750 751	1
+T50	Condition-Unit 752 756	hour
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Next_Operation Arg1:E8 Arg2:E9	
+R8	Next_Operation Arg1:E9 Arg2:E10	
+R9	Next_Operation Arg1:E10 Arg2:E11	
+R10	Next_Operation Arg1:E11 Arg2:E12	
+R11	Apparatus_Of Arg1:T28 Arg2:E2	
+R12	Apparatus_Of Arg1:T30 Arg2:E3	
+R13	Condition_Of Arg1:T32 Arg2:E5	
+R14	Condition_Of Arg1:T34 Arg2:E5	
+R15	Condition_Of Arg1:T36 Arg2:E6	
+R16	Condition_Of Arg1:T38 Arg2:E6	
+R17	Condition_Of Arg1:T40 Arg2:E7	
+R18	Condition_Of Arg1:T42 Arg2:E7	
+T51	Condition-Type 510 522	cooling rate
+R19	Type_Of Arg1:T51 Arg2:T38	
+R20	Apparatus_Of Arg1:T43 Arg2:E10	
+R21	Condition_Of Arg1:T46 Arg2:E12	
+R22	Condition_Of Arg1:T48 Arg2:E12	
+R23	Condition_Of Arg1:T50 Arg2:E12	
+T52	Condition-Type 718 735	uniaxial pressure
+R24	Type_Of Arg1:T52 Arg2:T48	
+R25	Property_Of Arg1:T20 Arg2:T13	
+R26	Property_Of Arg1:T20 Arg2:T14	
+R27	Amount_Of Arg1:T23 Arg2:T15	
+R28	Amount_Of Arg1:T25 Arg2:T16	
+R29	Amount_Of Arg1:T27 Arg2:T17	
+R30	Amount_Of Arg1:T29 Arg2:T15	
+R31	Amount_Of Arg1:T29 Arg2:T16	
+R32	Amount_Of Arg1:T29 Arg2:T17	
+R33	Descriptor_Of Arg1:T21 Arg2:T15	
+R34	Descriptor_Of Arg1:T21 Arg2:T16	
+R35	Descriptor_Of Arg1:T21 Arg2:T17	
+R36	Number_Of Arg1:T22 Arg2:T23	
+R37	Number_Of Arg1:T24 Arg2:T25	
+R38	Number_Of Arg1:T26 Arg2:T27	
+R39	Number_Of Arg1:T31 Arg2:T32	
+R40	Number_Of Arg1:T33 Arg2:T34	
+R41	Number_Of Arg1:T35 Arg2:T36	
+R42	Number_Of Arg1:T37 Arg2:T38	
+R43	Number_Of Arg1:T39 Arg2:T40	
+R44	Number_Of Arg1:T41 Arg2:T42	
+R45	Number_Of Arg1:T45 Arg2:T46	
+R46	Number_Of Arg1:T47 Arg2:T48	
+R47	Number_Of Arg1:T49 Arg2:T50	

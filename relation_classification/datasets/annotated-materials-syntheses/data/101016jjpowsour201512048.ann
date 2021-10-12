@@ -1,0 +1,143 @@
+T1	Operation 249 258	purchased
+E1	Operation:T1 Recipe_Precursor:T14 Solvent_Material:T16 Recipe_Precursor:T15
+T2	Operation 299 308	purchased
+E2	Operation:T2 Participant_Material:T17 Participant_Material:T19 Solvent_Material:T18 Solvent_Material:T20
+T3	Operation 452 456	used
+E3	Operation:T3 Participant_Material:T23
+T4	Operation 555 564	dissolved
+E4	Operation:T4 Recipe_Precursor:T24 Solvent_Material:T25 Solvent_Material:T26
+T5	Operation 625 631	heated
+E5	Operation:T5 
+T6	Operation 687 696	dissolved
+E6	Operation:T6 Recipe_Precursor:T27 Solvent_Material:T28
+T7	Operation 762 769	dropped
+E7	Operation:T7 Recipe_Precursor:T29 Recipe_Precursor:T30
+T8	Operation 814 822	stirring
+E8	Operation:T8 
+T9	Operation 845 852	reacted
+E9	Operation:T9 Participant_Material:T31
+T10	Operation 896 905	collected
+E10	Operation:T10 Participant_Material:T32
+T11	Operation 910 916	washed
+E11	Operation:T11 Solvent_Material:T33 Participant_Material:T34 Solvent_Material:T35 Solvent_Material:T36
+T12	Operation 1004 1009	dried
+E12	Operation:T12 
+T13	Material 54 69	copper sulphide
+T14	Material 139 165	Copper acetate monohydrate
+T15	Material 212 238	sodium sulfide nonahydrate
+T16	Material 193 201	pyridine
+T17	Material 283 294	electrolyte
+T18	Material 363 381	ethylene carbonate
+T19	Material 354 359	LiPF6
+T20	Material 391 409	dimethyl carbonate
+T21	Material 383 385	EC
+T22	Material 411 414	DMC
+T23	Material 437 446	chemicals
+T24	Material 524 550	copper acetate monohydrate
+T25	Material 586 591	water
+T26	Material 592 600	pyridine
+T27	Material 656 682	sodium sulfide nonahydrate
+T28	Material 721 726	water
+T29	Material 734 748	sodium sulfide
+T30	Material 775 789	copper acetate
+T31	Material 837 844	mixture
+T32	Material 883 891	products
+T33	Material 944 949	water
+T34	Material 959 967	solvents
+T35	Material 975 982	ethanol
+T36	Material 984 992	pyridine
+T37	Property-Misc 70 74	rods
+T38	Material-Descriptor 167 185	analytical reagent
+T39	Material-Descriptor 187 189	AR
+T40	Material-Descriptor 203 205	AR
+T41	Material-Descriptor 240 242	AR
+T42	Brand 264 277	Sigma-Aldrich
+T43	Brand 314 338	Guo Tai Hua Long Company
+T44	Number 350 351	1
+T45	Amount-Unit 352 353	M
+T46	Number 417 420	1:1
+T47	Amount-Unit 421 430	by volume
+T48	Number 512 515	5.0
+T49	Amount-Unit 516 520	mmol
+T50	Number 570 572	40
+T51	Amount-Unit 573 575	mL
+T52	Material-Descriptor 576 585	distilled
+T53	Material-Descriptor 601 608	mixture
+T54	Number 616 619	1:3
+T55	Amount-Unit 610 613	v:v
+T56	Number 635 637	80
+T57	Condition-Unit 638 642	degC
+T58	Number 644 647	5.0
+T59	Amount-Unit 648 652	mmol
+T60	Number 702 704	20
+T61	Amount-Unit 705 707	mL
+T62	Material-Descriptor 711 720	distilled
+T63	Material-Descriptor 749 757	solution
+T64	Material-Descriptor 790 798	solution
+T65	Number 857 858	2
+T66	Condition-Unit 859 860	h
+T67	Number 864 866	80
+T68	Condition-Unit 867 871	degC
+T69	Material-Descriptor 934 943	distilled
+T70	Condition-Misc 1015 1021	vacuum
+T71	Number 1025 1027	60
+T72	Condition-Unit 1028 1032	degC
+T73	Number 1037 1039	12
+T74	Condition-Unit 1040 1041	h
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E7	
+R7	Next_Operation Arg1:E7 Arg2:E8	
+R8	Next_Operation Arg1:E8 Arg2:E9	
+R9	Next_Operation Arg1:E9 Arg2:E10	
+R10	Next_Operation Arg1:E10 Arg2:E11	
+R11	Next_Operation Arg1:E11 Arg2:E12	
+R12	Coref_Of Arg1:T21 Arg2:T18	
+R13	Coref_Of Arg1:T22 Arg2:T20	
+R14	Condition_Of Arg1:T57 Arg2:E5	
+R15	Condition_Of Arg1:T66 Arg2:E9	
+R16	Condition_Of Arg1:T68 Arg2:E9	
+R17	Condition_Of Arg1:T70 Arg2:E12	
+R18	Condition_Of Arg1:T72 Arg2:E12	
+R19	Condition_Of Arg1:T74 Arg2:E12	
+R20	Property_Of Arg1:T37 Arg2:T13	
+R21	Amount_Of Arg1:T45 Arg2:T19	
+R22	Amount_Of Arg1:T47 Arg2:T18	
+R23	Amount_Of Arg1:T47 Arg2:T20	
+R24	Amount_Of Arg1:T49 Arg2:T24	
+R25	Amount_Of Arg1:T51 Arg2:T25	
+R26	Amount_Of Arg1:T51 Arg2:T26	
+R27	Amount_Of Arg1:T55 Arg2:T25	
+R28	Amount_Of Arg1:T55 Arg2:T26	
+R29	Amount_Of Arg1:T59 Arg2:T27	
+R30	Amount_Of Arg1:T61 Arg2:T28	
+R31	Descriptor_Of Arg1:T38 Arg2:T14	
+R32	Descriptor_Of Arg1:T39 Arg2:T14	
+R33	Descriptor_Of Arg1:T40 Arg2:T16	
+R34	Descriptor_Of Arg1:T41 Arg2:T15	
+R35	Descriptor_Of Arg1:T52 Arg2:T25	
+R36	Descriptor_Of Arg1:T53 Arg2:T26	
+R37	Descriptor_Of Arg1:T53 Arg2:T25	
+R38	Descriptor_Of Arg1:T62 Arg2:T28	
+R39	Descriptor_Of Arg1:T63 Arg2:T29	
+R40	Descriptor_Of Arg1:T64 Arg2:T30	
+R41	Descriptor_Of Arg1:T69 Arg2:T33	
+R42	Number_Of Arg1:T44 Arg2:T45	
+R43	Number_Of Arg1:T46 Arg2:T47	
+R44	Number_Of Arg1:T48 Arg2:T49	
+R45	Number_Of Arg1:T50 Arg2:T51	
+R46	Number_Of Arg1:T54 Arg2:T55	
+R47	Number_Of Arg1:T56 Arg2:T57	
+R48	Number_Of Arg1:T58 Arg2:T59	
+R49	Number_Of Arg1:T60 Arg2:T61	
+R50	Number_Of Arg1:T65 Arg2:T66	
+R51	Number_Of Arg1:T67 Arg2:T68	
+R52	Number_Of Arg1:T71 Arg2:T72	
+R53	Number_Of Arg1:T73 Arg2:T74	
+R54	Brand_Of Arg1:T43 Arg2:T17	
+R55	Brand_Of Arg1:T42 Arg2:T15	
+R56	Brand_Of Arg1:T42 Arg2:T16	
+R57	Brand_Of Arg1:T42 Arg2:T14	

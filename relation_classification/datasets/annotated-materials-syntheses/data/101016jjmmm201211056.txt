@@ -1,0 +1,5 @@
+10.1016/j.jmmm.2012.11.056
+Hydrothermal synthesis of pure BaFe12O19 hexaferrite nanoplatelets under high alkaline system
+
+BaCl2 2H2O and FeCl3 6H2O are used as initial materials. In a typical experiment, 0.487 g of FeCl3 6H2O and 0.054 g of BaCl2 2H2O (Fe/Ba mole ratio: N=8) were dissolved in 21 mL of distilled water. Then, 4.0 g of KOH was added to the solution with continuous stirring. Finally, the solution was put into a 30 mL of Teflon-lined stainless-steel autoclave and kept it in an oven at 220 degC for 24 h, followed by furnace cooling to room temperature. The as-prepared ultrafine particles were collected by a magnet and then washed with distilled water, alcohol and 10% acetic acid for several times. At last, we got the pure-phase BaFe12O19.
+

@@ -1,0 +1,202 @@
+T1	Material 171 184	Dicyandiamide
+T2	Material 189 212	ammonium ferric citrate
+T3	Material 280 293	dicyandiamide
+T4	Material 295 301	C2H4N4
+T5	Material 326 330	DCDA
+T6	Material 343 366	ammonium ferric citrate
+T7	Material 368 378	C6H11FeNO7
+T8	Material 410 413	AFC
+T9	Material 454 459	water
+T10	Operation 420 429	dissolved
+E1	Operation:T10 Recipe_Precursor:T3 Recipe_Precursor:T6 Solvent_Material:T9
+T11	Operation 491 498	stirred
+E2	Operation:T11 Participant_Material:T30
+T12	Operation 503 508	dried
+E3	Operation:T12 
+T13	Operation 525 533	obtained
+E4	Operation:T13 
+T14	Operation 546 552	placed
+E5	Operation:T14 Participant_Material:T31
+T15	Operation 628 637	performed
+E6	Operation:T15 Atmospheric_Material:T33
+T16	Operation 702 708	heated
+E7	Operation:T16 
+T17	Operation 766 770	kept
+E8	Operation:T17 
+T18	Operation 811 817	cooled
+E9	Operation:T18 
+T19	Operation 866 869	set
+E10	Operation:T19 
+T20	Operation 937 944	leached
+E11	Operation:T20 Participant_Material:T34 Solvent_Material:T35
+T21	Operation 991 997	remove
+E12	Operation:T21 Participant_Material:T91
+T22	Operation 1025 1031	washed
+E13	Operation:T22 Solvent_Material:T36
+T23	Operation 1092 1097	dried
+E14	Operation:T23 Participant_Material:T37
+T24	Operation 1268 1272	used
+E15	Operation:T24 Recipe_Precursor:T39
+T25	Operation 1337 1346	pyrolyzed
+E16	Operation:T25 Recipe_Precursor:T41 Recipe_Precursor:T42
+T26	Operation 1360 1368	followed
+E17	Operation:T26 
+T27	Operation 1372 1385	acid-leaching
+E18	Operation:T27 
+T28	Operation 1390 1397	washing
+E19	Operation:T28 
+T29	Operation 1466 1470	kept
+E20	Operation:T29 Recipe_Precursor:T43 Participant_Material:T44
+T30	Material 465 473	solution
+T31	Material 534 541	mixture
+T32	Material 616 623	mixture
+T33	Material 641 643	Ar
+T34	Material 924 931	samples
+T35	Material 954 959	HClO4
+T36	Material 1059 1064	water
+T37	Material 1079 1086	samples
+T38	Nonrecipe-Material 1232 1236	iron
+T39	Material 1248 1263	ferric chloride
+T40	Material 1284 1287	AFC
+T41	Material 1308 1312	DCDA
+T42	Material 1317 1332	ferric chloride
+T43	Material 1449 1453	DCDA
+T44	Nonrecipe-Material 1457 1461	iron
+T45	Material 1488 1492	DCDA
+T46	Material 1493 1496	AFC
+T47	Material 1501 1505	DCDA
+T48	Material 1506 1511	FeCl3
+T49	Material-Descriptor 235 245	precursors
+T50	Material-Descriptor 443 453	de-ionized
+T51	Number 273 274	8
+T52	Number 336 337	1
+T53	Number 433 436	100
+T54	Number 512 514	80
+T55	Number 673 675	50
+T56	Number 748 750	10
+T57	Number 801 802	2
+T58	Number 873 876	600
+T59	Number 878 881	700
+T60	Number 883 886	800
+T61	Number 891 894	900
+T62	Number 948 951	0.5
+T63	Number 972 974	80
+T64	Number 984 985	8
+T65	Number 1101 1103	60
+T66	Number 1350 1353	700
+T67	Amount-Unit 275 276	g
+T68	Amount-Unit 338 339	g
+T69	Amount-Unit 437 439	mL
+T70	Condition-Unit 515 519	degC
+T71	Amount-Unit 676 684	mL min-1
+T72	Condition-Unit 751 761	degC min-1
+T73	Condition-Unit 803 804	h
+T74	Condition-Unit 895 899	degC
+T75	Amount-Unit 952 953	M
+T76	Condition-Unit 975 979	degC
+T77	Condition-Unit 986 987	h
+T78	Condition-Unit 1104 1108	degC
+T79	Condition-Unit 1354 1358	degC
+T80	Brand 303 313	Alfa Aesar
+T81	Brand 380 397	J&K Chemical Ltd.
+T82	Synthesis-Apparatus 586 593	furnace
+T83	Apparatus-Descriptor 575 585	horizontal
+T84	Synthesis-Apparatus 565 569	tube
+T85	Apparatus-Descriptor 558 564	quartz
+T86	Operation 599 608	pyrolysis
+E21	Operation:T86 Participant_Material:T32
+T87	Material-Descriptor 644 654	atmosphere
+T88	Synthesis-Apparatus 690 697	furnace
+T89	Condition-Misc 821 837	room temperature
+T90	Material-Descriptor 960 968	solution
+T91	Nonrecipe-Material 1007 1011	iron
+T92	Material-Descriptor 1012 1019	species
+T93	Material-Descriptor 998 1006	unstable
+T94	Material-Descriptor 1048 1058	de-ionized
+T95	Synthesis-Apparatus 1115 1119	oven
+T96	Material-Descriptor 1237 1246	precursor
+T97	Material-Descriptor 1297 1304	mixture
+T99	Amount-Misc 1471 1480	identical
+T100	Material-Descriptor 1512 1520	mixtures
+T98	Amount-Unit 1433 1445	weight ratio
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E21	
+R6	Next_Operation Arg1:E21 Arg2:E6	
+R7	Next_Operation Arg1:E6 Arg2:E7	
+R8	Next_Operation Arg1:E7 Arg2:E8	
+R9	Next_Operation Arg1:E8 Arg2:E9	
+R10	Next_Operation Arg1:E9 Arg2:E10	
+R11	Next_Operation Arg1:E10 Arg2:E11	
+R12	Next_Operation Arg1:E11 Arg2:E12	
+R13	Next_Operation Arg1:E12 Arg2:E13	
+R14	Next_Operation Arg1:E13 Arg2:E14	
+R15	Next_Operation Arg1:E14 Arg2:E15	
+R16	Next_Operation Arg1:E15 Arg2:E16	
+R17	Next_Operation Arg1:E16 Arg2:E17	
+R18	Next_Operation Arg1:E17 Arg2:E18	
+R19	Next_Operation Arg1:E18 Arg2:E19	
+R20	Next_Operation Arg1:E19 Arg2:E20	
+R21	Coref_Of Arg1:T4 Arg2:T3	
+R22	Coref_Of Arg1:T5 Arg2:T3	
+R23	Coref_Of Arg1:T7 Arg2:T6	
+R24	Coref_Of Arg1:T8 Arg2:T6	
+R25	Condition_Of Arg1:T70 Arg2:E3	
+R26	Apparatus_Of Arg1:T84 Arg2:E5	
+R27	Apparatus_Of Arg1:T82 Arg2:E5	
+R28	Apparatus_Of Arg1:T88 Arg2:E7	
+R29	Condition_Of Arg1:T72 Arg2:E7	
+R30	Condition_Of Arg1:T73 Arg2:E8	
+R31	Condition_Of Arg1:T89 Arg2:E9	
+R32	Condition_Of Arg1:T74 Arg2:E10	
+R33	Condition_Of Arg1:T76 Arg2:E11	
+R34	Condition_Of Arg1:T77 Arg2:E11	
+R35	Condition_Of Arg1:T78 Arg2:E14	
+R36	Apparatus_Of Arg1:T95 Arg2:E14	
+R37	Condition_Of Arg1:T79 Arg2:E16	
+R38	Amount_Of Arg1:T67 Arg2:T3	
+R39	Amount_Of Arg1:T68 Arg2:T6	
+R40	Amount_Of Arg1:T69 Arg2:T9	
+R41	Amount_Of Arg1:T71 Arg2:T33	
+R42	Amount_Of Arg1:T75 Arg2:T35	
+R43	Amount_Of Arg1:T98 Arg2:T43	
+R44	Amount_Of Arg1:T98 Arg2:T44	
+R45	Amount_Of Arg1:T99 Arg2:T43	
+R46	Amount_Of Arg1:T99 Arg2:T44	
+R47	Descriptor_Of Arg1:T49 Arg2:T1	
+R48	Descriptor_Of Arg1:T49 Arg2:T2	
+R49	Descriptor_Of Arg1:T50 Arg2:T9	
+R50	Descriptor_Of Arg1:T85 Arg2:T84	
+R51	Descriptor_Of Arg1:T83 Arg2:T82	
+R52	Descriptor_Of Arg1:T87 Arg2:T33	
+R53	Descriptor_Of Arg1:T90 Arg2:T35	
+R54	Descriptor_Of Arg1:T93 Arg2:T91	
+R55	Descriptor_Of Arg1:T92 Arg2:T91	
+R56	Descriptor_Of Arg1:T94 Arg2:T36	
+R57	Descriptor_Of Arg1:T96 Arg2:T38	
+R58	Descriptor_Of Arg1:T97 Arg2:T41	
+R59	Descriptor_Of Arg1:T97 Arg2:T42	
+R60	Descriptor_Of Arg1:T100 Arg2:T48	
+R61	Descriptor_Of Arg1:T100 Arg2:T47	
+R62	Descriptor_Of Arg1:T100 Arg2:T46	
+R63	Descriptor_Of Arg1:T100 Arg2:T45	
+R64	Number_Of Arg1:T51 Arg2:T67	
+R65	Number_Of Arg1:T52 Arg2:T68	
+R66	Number_Of Arg1:T53 Arg2:T69	
+R67	Number_Of Arg1:T54 Arg2:T70	
+R68	Number_Of Arg1:T55 Arg2:T71	
+R69	Number_Of Arg1:T56 Arg2:T72	
+R70	Number_Of Arg1:T57 Arg2:T73	
+R71	Number_Of Arg1:T58 Arg2:T74	
+R72	Number_Of Arg1:T59 Arg2:T74	
+R73	Number_Of Arg1:T60 Arg2:T74	
+R74	Number_Of Arg1:T61 Arg2:T74	
+R75	Number_Of Arg1:T62 Arg2:T75	
+R76	Number_Of Arg1:T63 Arg2:T76	
+R77	Number_Of Arg1:T64 Arg2:T77	
+R78	Number_Of Arg1:T65 Arg2:T78	
+R79	Number_Of Arg1:T66 Arg2:T79	
+R80	Brand_Of Arg1:T80 Arg2:T3	
+R81	Brand_Of Arg1:T81 Arg2:T6	

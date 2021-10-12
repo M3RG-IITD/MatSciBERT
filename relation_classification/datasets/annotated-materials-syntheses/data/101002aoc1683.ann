@@ -1,0 +1,126 @@
+T1	Operation 108 112	used
+E1	Operation:T1 Participant_Material:T27
+T2	Operation 153 161	purified
+E2	Operation:T2 Participant_Material:T28
+T3	Operation 166 171	dried
+E3	Operation:T3 
+T4	Reference 205 207	21
+T5	Operation 228 237	purchased
+E4	Operation:T5 Recipe_Precursor:T29
+T6	Brand 243 248	Merck
+T7	Operation 257 261	used
+E5	Operation:T7 
+T8	Operation 278 290	purification
+E6	Operation:T8 
+T9	Operation 312 320	prepared
+E7	Operation:T9 Recipe_Target:T30 Recipe_Precursor:T31 Recipe_Precursor:T33 Solvent_Material:T34
+T10	Operation 418 424	reflux
+E8	Operation:T10 
+T11	Reference 433 435	22
+T12	Operation 458 466	prepared
+E9	Operation:T12 Participant_Material:T36
+T13	Operation 486 498	condensation
+E10	Operation:T13 Recipe_Precursor:T37
+T14	Reference 622 624	23
+T15	Operation 650 658	prepared
+E11	Operation:T15 Recipe_Target:T42
+T16	Operation 662 670	stirring
+E12	Operation:T16 Recipe_Precursor:T43
+T17	Operation 818 826	filtered
+E13	Operation:T17 Participant_Material:T47
+T18	Operation 832 838	washed
+E14	Operation:T18 Participant_Material:T48
+T19	Operation 856 861	dried
+E15	Operation:T19 
+T20	Number 429 430	5
+T21	Number 470 475	70-80
+T22	Number 703 704	3
+T23	Number 711 714	0.1
+T24	Number 762 764	15
+T25	Number 781 784	1:1
+T26	Number 795 796	5
+T27	Material 98 107	chemicals
+T28	Material 139 147	Solvents
+T29	Material 208 223	Anhydrous PdCl2
+T30	Material 292 307	[PdCl2 (PPh3)2]
+T31	Material 340 355	anhydrous PdCl2
+T32	Material 357 360	CDH
+T33	Material 366 384	triphenylphosphine
+T34	Material 388 403	tetrahydrofuran
+T35	Brand 405 410	Merck
+T36	Material 440 452	Schiff bases
+T37	Material 512 531	2-hydrazinopyridine
+T38	Brand 533 540	Aldrich
+T39	Material 565 594	5-substituted salicylaldehyde
+T40	Brand 596 600	Loba
+T41	Material 616 621	media
+T42	Material 635 644	PdL1-PdL5
+T43	Material 685 698	PdCl2 (PPh3)2
+T44	Material 717 731	sodium acetate
+T45	Material 751 758	ligands
+T46	Material 768 775	alcohol
+T47	Material 808 813	solid
+T48	Material 844 851	ethanol
+T49	Condition-Misc 262 269	without
+T50	Amount-Misc 121 137	analytical grade
+T51	Condition-Unit 431 432	h
+T52	Property-Unit 475 476	%
+T53	Property-Type 477 482	yield
+T54	Material-Descriptor 605 615	methanolic
+T55	Property-Misc 625 634	Complexes
+T56	Material-Descriptor 673 680	mixture
+T57	Amount-Unit 705 707	ml
+T58	Amount-Unit 715 716	M
+T59	Material-Descriptor 740 750	respective
+T60	Amount-Unit 765 767	ml
+T61	Amount-Unit 785 790	ratio
+T62	Condition-Unit 797 798	h
+T63	Material-Descriptor 804 807	red
+T64	Condition-Misc 865 870	vacuo
+T65	Material 17 57	Palladium-Schiff base-triphenylphosphine
+R1	Amount_Of Arg1:T50 Arg2:T27	
+A1	Start_Recipe E1
+R2	Next_Operation Arg1:E1 Arg2:E2	
+R3	Next_Operation Arg1:E2 Arg2:E3	
+R4	Next_Operation Arg1:E3 Arg2:E4	
+R5	Next_Operation Arg1:E4 Arg2:E5	
+R6	Next_Operation Arg1:E5 Arg2:E6	
+R7	Next_Operation Arg1:E6 Arg2:E7	
+R8	Next_Operation Arg1:E7 Arg2:E8	
+R9	Next_Operation Arg1:E8 Arg2:E9	
+R10	Next_Operation Arg1:E9 Arg2:E10	
+R11	Next_Operation Arg1:E10 Arg2:E11	
+R12	Next_Operation Arg1:E11 Arg2:E12	
+R13	Next_Operation Arg1:E12 Arg2:E13	
+R14	Next_Operation Arg1:E13 Arg2:E14	
+R15	Next_Operation Arg1:E14 Arg2:E15	
+A2	End_Recipe E15
+R16	Brand_Of Arg1:T6 Arg2:T29	
+R17	Condition_Of Arg1:T49 Arg2:E6	
+R18	Coref_Of Arg1:T32 Arg2:T31	
+R19	Brand_Of Arg1:T35 Arg2:T31	
+R20	Brand_Of Arg1:T35 Arg2:T33	
+R21	Brand_Of Arg1:T35 Arg2:T34	
+R22	Number_Of Arg1:T20 Arg2:T51	
+R23	Condition_Of Arg1:T51 Arg2:E8	
+R24	Type_Of Arg1:T53 Arg2:T52	
+R25	Number_Of Arg1:T21 Arg2:T52	
+R26	Brand_Of Arg1:T38 Arg2:T37	
+R27	Brand_Of Arg1:T40 Arg2:T39	
+R28	Descriptor_Of Arg1:T54 Arg2:T41	
+R29	Property_Of Arg1:T55 Arg2:T42	
+R30	Descriptor_Of Arg1:T56 Arg2:T43	
+R31	Number_Of Arg1:T22 Arg2:T57	
+R32	Amount_Of Arg1:T57 Arg2:T43	
+R33	Number_Of Arg1:T23 Arg2:T58	
+R34	Amount_Of Arg1:T58 Arg2:T44	
+R35	Number_Of Arg1:T24 Arg2:T60	
+R36	Descriptor_Of Arg1:T59 Arg2:T45	
+R37	Amount_Of Arg1:T60 Arg2:T46	
+R38	Number_Of Arg1:T25 Arg2:T61	
+R39	Number_Of Arg1:T26 Arg2:T62	
+R40	Condition_Of Arg1:T62 Arg2:E12	
+R41	Amount_Of Arg1:T61 Arg2:T45	
+R42	Amount_Of Arg1:T61 Arg2:T46	
+R43	Descriptor_Of Arg1:T63 Arg2:T47	
+R44	Condition_Of Arg1:T64 Arg2:E15	

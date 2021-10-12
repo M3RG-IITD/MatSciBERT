@@ -1,0 +1,257 @@
+T1	Material 63 71	Fe/ZSM-5
+T2	Property-Misc 72 80	zeolites
+T3	Property-Misc 52 62	sheet-like
+T4	Material 112 119	benzene
+T5	Material 125 138	nitrous oxide
+T6	Operation 172 180	prepared
+E1	Operation:T6 Recipe_Target:T28
+T7	Nonrecipe-Material 256 260	Fe3+
+T8	Operation 345 350	added
+E2	Operation:T8 Recipe_Precursor:T34 Recipe_Precursor:T39 Solvent_Material:T46 Recipe_Precursor:T42
+T9	Operation 499 506	stirred
+E3	Operation:T9 Participant_Material:T47
+T10	Operation 638 643	added
+E4	Operation:T10 Solvent_Material:T61 Solvent_Material:T57 Participant_Material:T54 Participant_Material:T53 Participant_Material:T62
+T11	Operation 664 670	shaken
+E5	Operation:T11 
+T12	Operation 704 712	stirring
+E6	Operation:T12 
+T13	Operation 786 797	transferred
+E7	Operation:T13 Participant_Material:T69
+T14	Operation 846 852	heated
+E8	Operation:T14 
+T15	Operation 882 890	tumbling
+E9	Operation:T15 
+T16	Operation 925 933	filtered
+E10	Operation:T16 Participant_Material:T78
+T17	Operation 935 941	washed
+E11	Operation:T17 Solvent_Material:T80
+T18	Operation 968 973	dried
+E12	Operation:T18 
+T19	Operation 1066 1074	employed
+E13	Operation:T19 
+T20	Operation 1135 1143	calcined
+E14	Operation:T20 Participant_Material:T94 Atmospheric_Material:T100
+T21	Operation 1211 1224	ion-exchanged
+E15	Operation:T21 Participant_Material:T101 Solvent_Material:T108
+T22	Operation 1368 1376	obtained
+E16	Operation:T22 Participant_Material:T110
+T23	Operation 1380 1391	calcination
+E17	Operation:T23 Atmospheric_Material:T116
+T24	Operation 1449 1456	denoted
+E18	Operation:T24 Participant_Material:T117 Recipe_Target:T118
+T25	Operation 1589 1596	heating
+E19	Operation:T25 Participant_Material:T123 Atmospheric_Material:T126 Atmospheric_Material:T129
+T26	Operation 1724 1731	denoted
+E20	Operation:T26 Participant_Material:T134
+T27	Operation 1793 1801	prepared
+E21	Operation:T27 Recipe_Target:T136
+T28	Material 139 147	Fe/ZSM-5
+R1	Next_Operation Arg1:E2 Arg2:E3	
+R2	Next_Operation Arg1:E3 Arg2:E4	
+R3	Next_Operation Arg1:E4 Arg2:E5	
+T29	Material-Descriptor 148 166	zeolite nanosheets
+T30	Reference 260 264	[25]
+T31	Reference 269 273	[26]
+T32	Number 299 304	10.42
+T33	Amount-Unit 305 306	g
+T34	Material 310 314	TEOS
+T35	Material 316 339	tetraethylorthosilicate
+R4	Coref_Of Arg1:T35 Arg2:T34	
+T36	Material-Descriptor 356 364	solution
+T37	Number 376 380	0.47
+T38	Amount-Unit 381 382	g
+T39	Material 386 414	aluminum nitrate nonahydrate
+T40	Number 416 420	0.06
+T41	Amount-Unit 421 422	g
+T42	Material 426 450	iron nitrate nonahydrate
+T43	Number 456 460	20.0
+T44	Amount-Unit 461 462	g
+T45	Material-Descriptor 466 475	distilled
+T46	Material 476 481	water
+T47	Material 487 494	mixture
+T48	Number 511 512	2
+T49	Condition-Unit 513 514	h
+T50	Material-Descriptor 518 526	solution
+T51	Number 538 542	2.41
+T52	Amount-Unit 543 544	g
+T53	Material 548 560	C16-6-6(Br)2
+T54	Material 564 576	C16-6-6(OH)2
+T55	Number 578 582	0.42
+T56	Amount-Unit 583 584	g
+T57	Material 585 601	sodium hydroxide
+T58	Material 603 607	NaOH
+T59	Number 613 617	15.7
+T60	Amount-Unit 618 619	g
+T61	Material 623 633	demi-water
+T62	Material 652 659	mixture
+T63	Number 683 684	5
+T64	Condition-Unit 685 688	min
+T65	Synthesis-Apparatus 720 736	magnetic stirrer
+T66	Number 741 742	6
+T67	Condition-Unit 743 744	h
+T68	Condition-Misc 748 764	room temperature
+T69	Material 770 781	gel mixture
+T70	Apparatus-Descriptor 803 831	Teflon-lined stainless-steel
+T71	Synthesis-Apparatus 832 841	autoclave
+T72	Number 856 859	140
+T73	Condition-Unit 860 864	degC
+T74	Number 869 870	9
+T75	Condition-Unit 871 875	days
+T76	Number 892 894	60
+T77	Condition-Unit 895 898	rpm
+T78	Material 905 912	zeolite
+T79	Material-Descriptor 913 920	product
+T80	Material 957 962	water
+T81	Material-Descriptor 947 956	distilled
+T82	Number 977 980	100
+T83	Condition-Unit 981 985	degC
+T84	Condition-Misc 986 995	overnight
+T85	Nonrecipe-Material 1007 1009	OH
+T86	Material 1022 1030	template
+T87	Nonrecipe-Material 1048 1050	Si
+T88	Nonrecipe-Material 1051 1053	Fe
+T89	Amount-Misc 1054 1060	ratios
+T90	Number 1084 1086	84
+T91	Number 1088 1091	180
+T92	Number 1096 1099	300
+T93	Nonrecipe-Material 1076 1081	Si/Fe
+T94	Material 1121 1129	zeolites
+T95	Material-Descriptor 1106 1120	as-synthesized
+T96	Number 1147 1150	580
+T97	Condition-Unit 1151 1155	degC
+T98	Number 1160 1161	4
+T99	Condition-Unit 1162 1163	h
+T100	Material 1180 1183	air
+T101	Material 1198 1205	samples
+T102	Material-Descriptor 1189 1197	calcined
+T103	Nonrecipe-Material 1236 1244	ammonium
+T104	Meta 1253 1272	triple ion-exchange
+T105	Number 1280 1281	1
+T106	Amount-Unit 1282 1283	M
+T107	Material-Descriptor 1284 1300	aqueous solution
+T108	Material 1304 1310	NH4NO3
+T109	Condition-Misc 1314 1330	room temperature
+T110	Material 1355 1363	zeolites
+T111	Material-Descriptor 1336 1347	proton form
+T112	Number 1395 1398	550
+T113	Number 1428 1429	4
+T114	Condition-Unit 1399 1403	degC
+T115	Condition-Unit 1430 1431	h
+T116	Material 1420 1423	air
+R5	Number_Of Arg1:T113 Arg2:T115	
+R6	Number_Of Arg1:T112 Arg2:T114	
+T117	Material 1437 1444	samples
+T118	Material 1460 1480	Fe/ZSM-5-sheet(x, y)
+T119	Nonrecipe-Material 1520 1522	OH
+T120	Nonrecipe-Material 1526 1528	Br
+T121	Nonrecipe-Material 1540 1545	Si/Fe
+T122	Meta 1553 1569	Steam activation
+T123	Material 1610 1616	sample
+T124	Number 1630 1632	10
+T125	Amount-Unit 1632 1633	%
+T126	Material 1634 1645	water vapor
+T127	Number 1647 1650	100
+T128	Amount-Unit 1651 1659	ml min-1
+T129	Material 1664 1678	artificial air
+T130	Number 1682 1685	700
+T131	Condition-Unit 1686 1690	degC
+T132	Condition-Unit 1697 1698	h
+T133	Number 1695 1696	3
+T134	Material 1712 1719	samples
+T135	Material-Descriptor 1704 1711	steamed
+T136	Material 1771 1779	Fe/ZSM-5
+T137	Property-Misc 1780 1788	catalyst
+T138	Meta 1816 1826	hydrolysis
+T139	Material 1830 1834	TEOS
+T140	Material 1854 1883	tetrapropylammonium hydroxide
+T141	Material 1885 1890	TPAOH
+T142	Reference 1928 1932	[10]
+R7	Property_Of Arg1:T3 Arg2:T1	
+R8	Property_Of Arg1:T2 Arg2:T1	
+R9	Descriptor_Of Arg1:T29 Arg2:T28	
+R10	Next_Operation Arg1:E5 Arg2:E6	
+R11	Next_Operation Arg1:E6 Arg2:E7	
+R12	Next_Operation Arg1:E7 Arg2:E8	
+R13	Next_Operation Arg1:E8 Arg2:E9	
+R14	Next_Operation Arg1:E9 Arg2:E10	
+R15	Next_Operation Arg1:E10 Arg2:E11	
+R16	Next_Operation Arg1:E11 Arg2:E12	
+R17	Next_Operation Arg1:E12 Arg2:E13	
+R18	Next_Operation Arg1:E13 Arg2:E14	
+R19	Next_Operation Arg1:E14 Arg2:E15	
+R20	Next_Operation Arg1:E15 Arg2:E16	
+R21	Next_Operation Arg1:E16 Arg2:E17	
+R22	Next_Operation Arg1:E17 Arg2:E18	
+R23	Next_Operation Arg1:E18 Arg2:E19	
+R24	Next_Operation Arg1:E19 Arg2:E20	
+R25	Number_Of Arg1:T32 Arg2:T33	
+R26	Amount_Of Arg1:T33 Arg2:T34	
+R27	Descriptor_Of Arg1:T36 Arg2:T39	
+R28	Number_Of Arg1:T37 Arg2:T38	
+R29	Amount_Of Arg1:T38 Arg2:T39	
+R30	Descriptor_Of Arg1:T36 Arg2:T42	
+R31	Descriptor_Of Arg1:T36 Arg2:T46	
+R32	Descriptor_Of Arg1:T45 Arg2:T46	
+R33	Number_Of Arg1:T43 Arg2:T44	
+R34	Amount_Of Arg1:T44 Arg2:T46	
+R35	Number_Of Arg1:T40 Arg2:T41	
+R36	Amount_Of Arg1:T41 Arg2:T42	
+R37	Number_Of Arg1:T48 Arg2:T49	
+R38	Condition_Of Arg1:T49 Arg2:E3	
+R39	Number_Of Arg1:T51 Arg2:T52	
+R40	Descriptor_Of Arg1:T50 Arg2:T53	
+R41	Descriptor_Of Arg1:T50 Arg2:T54	
+R42	Descriptor_Of Arg1:T50 Arg2:T57	
+R43	Descriptor_Of Arg1:T50 Arg2:T61	
+R44	Amount_Of Arg1:T52 Arg2:T53	
+R45	Amount_Of Arg1:T52 Arg2:T54	
+R46	Number_Of Arg1:T55 Arg2:T56	
+R47	Amount_Of Arg1:T56 Arg2:T57	
+R48	Coref_Of Arg1:T58 Arg2:T57	
+R49	Number_Of Arg1:T59 Arg2:T60	
+R50	Amount_Of Arg1:T60 Arg2:T61	
+R51	Number_Of Arg1:T63 Arg2:T64	
+R52	Condition_Of Arg1:T64 Arg2:E5	
+R53	Apparatus_Of Arg1:T65 Arg2:E6	
+R54	Number_Of Arg1:T66 Arg2:T67	
+R55	Condition_Of Arg1:T67 Arg2:E6	
+R56	Condition_Of Arg1:T68 Arg2:E6	
+R57	Descriptor_Of Arg1:T70 Arg2:T71	
+R58	Apparatus_Of Arg1:T71 Arg2:E7	
+R59	Number_Of Arg1:T72 Arg2:T73	
+R60	Number_Of Arg1:T74 Arg2:T75	
+R61	Condition_Of Arg1:T73 Arg2:E8	
+R62	Condition_Of Arg1:T75 Arg2:E8	
+R63	Number_Of Arg1:T76 Arg2:T77	
+R64	Condition_Of Arg1:T77 Arg2:E9	
+R65	Descriptor_Of Arg1:T79 Arg2:T78	
+R66	Descriptor_Of Arg1:T81 Arg2:T80	
+R67	Number_Of Arg1:T82 Arg2:T83	
+R68	Condition_Of Arg1:T83 Arg2:E12	
+R69	Condition_Of Arg1:T84 Arg2:E12	
+R70	Amount_Of Arg1:T89 Arg2:T88	
+R71	Amount_Of Arg1:T89 Arg2:T87	
+R72	Descriptor_Of Arg1:T95 Arg2:T94	
+R73	Number_Of Arg1:T96 Arg2:T97	
+R74	Number_Of Arg1:T98 Arg2:T99	
+R75	Condition_Of Arg1:T97 Arg2:E14	
+R76	Condition_Of Arg1:T99 Arg2:E14	
+R77	Descriptor_Of Arg1:T102 Arg2:T101	
+R78	Number_Of Arg1:T105 Arg2:T106	
+R79	Descriptor_Of Arg1:T107 Arg2:T108	
+R80	Amount_Of Arg1:T106 Arg2:T108	
+R81	Condition_Of Arg1:T109 Arg2:E15	
+R82	Descriptor_Of Arg1:T111 Arg2:T110	
+R83	Condition_Of Arg1:T114 Arg2:E17	
+R84	Condition_Of Arg1:T115 Arg2:E17	
+R85	Number_Of Arg1:T124 Arg2:T125	
+R86	Amount_Of Arg1:T125 Arg2:T126	
+R87	Number_Of Arg1:T127 Arg2:T128	
+R88	Amount_Of Arg1:T128 Arg2:T126	
+R89	Number_Of Arg1:T130 Arg2:T131	
+R90	Condition_Of Arg1:T131 Arg2:E19	
+R91	Number_Of Arg1:T133 Arg2:T132	
+R92	Condition_Of Arg1:T132 Arg2:E19	
+R93	Descriptor_Of Arg1:T135 Arg2:T134	
+R94	Property_Of Arg1:T137 Arg2:T136	

@@ -1,0 +1,77 @@
+T1	Material 128 136	material
+T2	Operation 141 149	prepared
+E1	Operation:T2 Participant_Material:T1 Recipe_Precursor:T4 Recipe_Precursor:T8 Recipe_Precursor:T11
+T3	Meta 155 175	solid-state reaction
+T4	Material 196 202	Li2CO3
+T5	Material-Descriptor 182 192	precursors
+T6	Number 204 206	99
+T7	Amount-Unit 206 207	%
+T8	Material 210 216	Na2CO3
+T9	Number 218 220	99
+T10	Amount-Unit 220 221	%
+T11	Material 227 231	TiO2
+T12	Number 233 237	99.5
+T13	Amount-Unit 237 238	%
+T14	Material-Descriptor 240 247	anatase
+T15	Material 268 276	compound
+T16	Material-Descriptor 257 267	phase-pure
+T17	Operation 281 289	obtained
+E2	Operation:T17 Participant_Material:T15
+T18	Number 308 309	2
+T19	Amount-Unit 310 314	mol%
+T20	Amount-Misc 298 304	excess
+T21	Material 315 321	Li2CO3
+T22	Material 326 332	Na2CO3
+T23	Operation 337 341	used
+E3	Operation:T23 Recipe_Precursor:T21 Recipe_Precursor:T22
+T24	Material 356 365	materials
+T25	Material-Descriptor 347 355	starting
+T26	Operation 371 377	ground
+E4	Operation:T26 Participant_Material:T24
+T27	Synthesis-Apparatus 390 396	mortar
+T28	Apparatus-Descriptor 384 389	agate
+T29	Operation 401 408	pressed
+E5	Operation:T29 Participant_Material:T30
+T30	Material 414 421	pellets
+T31	Condition-Type 428 436	pressure
+T32	Number 440 442	20
+T33	Condition-Unit 443 446	MPa
+T34	Material 457 464	pellets
+T35	Operation 470 476	heated
+E6	Operation:T35 Participant_Material:T34
+T36	Number 480 484	1000
+T37	Condition-Unit 485 489	degC
+T38	Number 494 496	24
+T39	Condition-Unit 497 498	h
+T40	Characterization-Apparatus 513 521	crucible
+T41	Apparatus-Descriptor 505 512	alumina
+T42	Material 41 52	metal oxide
+T43	Property-Misc 21 40	zero-strain layered
+T44	Property-Misc 69 78	electrode
+R1	Property_Of Arg1:T43 Arg2:T42	
+R2	Property_Of Arg1:T44 Arg2:T42	
+R3	Descriptor_Of Arg1:T5 Arg2:T4	
+R4	Number_Of Arg1:T6 Arg2:T7	
+R5	Amount_Of Arg1:T7 Arg2:T4	
+R6	Number_Of Arg1:T9 Arg2:T10	
+R7	Amount_Of Arg1:T10 Arg2:T8	
+R8	Number_Of Arg1:T12 Arg2:T13	
+R9	Amount_Of Arg1:T13 Arg2:T11	
+R10	Descriptor_Of Arg1:T14 Arg2:T11	
+R11	Descriptor_Of Arg1:T16 Arg2:T15	
+R12	Number_Of Arg1:T18 Arg2:T19	
+R13	Amount_Of Arg1:T19 Arg2:T21	
+R14	Amount_Of Arg1:T20 Arg2:T21	
+R15	Amount_Of Arg1:T20 Arg2:T22	
+R16	Descriptor_Of Arg1:T25 Arg2:T24	
+R17	Descriptor_Of Arg1:T28 Arg2:T27	
+R18	Apparatus_Of Arg1:T27 Arg2:E4	
+R19	Type_Of Arg1:T31 Arg2:T33	
+R20	Number_Of Arg1:T32 Arg2:T33	
+R21	Condition_Of Arg1:T33 Arg2:E5	
+R22	Number_Of Arg1:T36 Arg2:T37	
+R23	Condition_Of Arg1:T37 Arg2:E6	
+R24	Number_Of Arg1:T38 Arg2:T39	
+R25	Condition_Of Arg1:T39 Arg2:E6	
+R26	Descriptor_Of Arg1:T41 Arg2:T40	
+R27	Apparatus_Of Arg1:T40 Arg2:E6	

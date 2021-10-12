@@ -1,0 +1,137 @@
+T1	Operation 167 176	purchased
+E1	Operation:T1 Participant_Material:T17
+T2	Operation 228 232	used
+E2	Operation:T2 
+T3	Operation 302 310	prepared
+E3	Operation:T3 Recipe_Target:T18
+T4	Operation 367 373	varied
+E4	Operation:T4 
+T5	Operation 489 498	dissolved
+E5	Operation:T5 Recipe_Precursor:T20 Recipe_Precursor:T21 Solvent_Material:T22
+T6	Operation 529 537	stirring
+E6	Operation:T6 
+T7	Operation 645 652	dripped
+E7	Operation:T7 Participant_Material:T23 Participant_Material:T24
+T8	Operation 714 722	stirring
+E8	Operation:T8 
+T9	Operation 742 753	transferred
+E9	Operation:T9 Participant_Material:T26
+T10	Operation 809 815	heated
+E10	Operation:T10 
+T11	Operation 856 864	finished
+E11	Operation:T11 
+T12	Operation 886 895	separated
+E12	Operation:T12 Participant_Material:T27
+T13	Operation 900 906	washed
+E13	Operation:T13 Solvent_Material:T28 Solvent_Material:T29
+T14	Operation 1062 1067	dried
+E14	Operation:T14 Participant_Material:T32
+T15	Material 77 80	ZnO
+T16	Nonrecipe-Material 68 70	Ga
+T17	Material 124 133	chemicals
+T18	Material 279 282	GZO
+T19	Nonrecipe-Material 361 366	Ga:Zn
+T20	Material 434 448	Zn(NO3)2*6 H2O
+T21	Material 470 483	Ga(NO3)3*9H2O
+T22	Material 519 524	water
+T23	Material 586 602	sodium hydroxide
+T24	Material 669 676	mixture
+T25	Material 687 696	precursor
+T26	Material 728 737	precursor
+T27	Material 870 881	precipitate
+T28	Material 923 928	water
+T29	Material 942 949	ethanol
+T30	Material 978 982	ions
+T31	Material 1015 1023	products
+T32	Material 1048 1056	products
+T33	Number 379 384	0:100
+T34	Number 386 391	1:100
+T35	Number 395 400	3:100
+T36	Number 427 431	7.44
+T37	Number 502 504	30
+T38	Number 577 579	30
+T39	Number 604 607	4.0
+T40	Number 704 706	30
+T41	Number 761 764	100
+T42	Number 819 822	160
+T43	Number 1079 1081	75
+T44	Number 1091 1093	15
+T45	Amount-Unit 346 357	molar ratio
+T46	Amount-Unit 432 433	g
+T47	Amount-Unit 505 507	ml
+T48	Amount-Unit 580 582	ml
+T49	Amount-Unit 608 615	mol L-1
+T50	Condition-Unit 707 710	min
+T51	Apparatus-Unit 765 767	ml
+T52	Condition-Unit 823 827	degC
+T53	Number 832 833	3
+T54	Condition-Unit 834 835	h
+T55	Condition-Unit 1082 1086	degC
+T56	Condition-Unit 1094 1095	h
+T57	Property-Misc 71 76	doped
+T58	Property-Misc 81 91	nanosheets
+T59	Material-Descriptor 135 160	analytical grade reagents
+T60	Brand 182 218	Tianjin Jiangtian Chemicals Co. Ltd.
+T61	Property-Misc 283 296	nanoparticles
+T62	Meta 318 337	hydrothermal method
+T63	Amount-Misc 453 466	proper amount
+T64	Material-Descriptor 508 518	de-ionized
+T65	Material-Descriptor 617 633	aqueous solution
+T66	Synthesis-Apparatus 775 784	autoclave
+T67	Apparatus-Descriptor 768 774	Teflon
+T68	Synthesis-Apparatus 795 804	autoclave
+T69	Material-Descriptor 912 922	de-ionized
+T70	Material-Descriptor 933 941	absolute
+T71	Synthesis-Apparatus 1071 1075	oven
+T72	Meta 99 118	hydrothermal method
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E5	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E5 Arg2:E6	
+R5	Next_Operation Arg1:E6 Arg2:E7	
+R6	Next_Operation Arg1:E7 Arg2:E8	
+R7	Next_Operation Arg1:E8 Arg2:E9	
+R8	Next_Operation Arg1:E9 Arg2:E10	
+R9	Next_Operation Arg1:E10 Arg2:E11	
+R10	Next_Operation Arg1:E11 Arg2:E12	
+R11	Next_Operation Arg1:E12 Arg2:E13	
+R12	Next_Operation Arg1:E13 Arg2:E14	
+R13	Condition_Of Arg1:T50 Arg2:E8	
+R14	Apparatus_Of Arg1:T66 Arg2:E9	
+R15	Apparatus_Of Arg1:T68 Arg2:E10	
+R16	Condition_Of Arg1:T52 Arg2:E10	
+R17	Condition_Of Arg1:T54 Arg2:E10	
+R18	Apparatus_Of Arg1:T71 Arg2:E14	
+R19	Condition_Of Arg1:T55 Arg2:E14	
+R20	Condition_Of Arg1:T56 Arg2:E14	
+R21	Property_Of Arg1:T57 Arg2:T16	
+R22	Property_Of Arg1:T57 Arg2:T15	
+R23	Property_Of Arg1:T58 Arg2:T15	
+R24	Property_Of Arg1:T61 Arg2:T18	
+R25	Amount_Of Arg1:T45 Arg2:T19	
+R26	Amount_Of Arg1:T46 Arg2:T20	
+R27	Amount_Of Arg1:T63 Arg2:T21	
+R28	Amount_Of Arg1:T47 Arg2:T22	
+R29	Amount_Of Arg1:T48 Arg2:T23	
+R30	Amount_Of Arg1:T49 Arg2:T23	
+R31	Descriptor_Of Arg1:T59 Arg2:T17	
+R32	Descriptor_Of Arg1:T64 Arg2:T22	
+R33	Descriptor_Of Arg1:T65 Arg2:T23	
+R34	Descriptor_Of Arg1:T67 Arg2:T66	
+R35	Descriptor_Of Arg1:T69 Arg2:T28	
+R36	Descriptor_Of Arg1:T70 Arg2:T29	
+R37	Number_Of Arg1:T33 Arg2:T45	
+R38	Number_Of Arg1:T34 Arg2:T45	
+R39	Number_Of Arg1:T35 Arg2:T45	
+R40	Number_Of Arg1:T36 Arg2:T46	
+R41	Number_Of Arg1:T37 Arg2:T47	
+R42	Number_Of Arg1:T38 Arg2:T48	
+R43	Number_Of Arg1:T39 Arg2:T49	
+R44	Number_Of Arg1:T40 Arg2:T50	
+R45	Number_Of Arg1:T41 Arg2:T51	
+R46	Number_Of Arg1:T42 Arg2:T52	
+R47	Number_Of Arg1:T53 Arg2:T54	
+R48	Number_Of Arg1:T43 Arg2:T55	
+R49	Number_Of Arg1:T44 Arg2:T56	
+R50	Brand_Of Arg1:T60 Arg2:T17	
+R51	Apparatus_Attr_Of Arg1:T51 Arg2:T66	

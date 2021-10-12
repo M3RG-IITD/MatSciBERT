@@ -1,0 +1,140 @@
+T1	Material 54 63	tin oxide
+T2	Property-Misc 43 53	mesoporous
+T3	Material 175 184	tin oxide
+T4	Property-Misc 170 174	nano
+T5	Operation 189 200	synthesized
+E1	Operation:T5 Recipe_Target:T3
+T6	Operation 297 306	dissolved
+E2	Operation:T6 Recipe_Precursor:T33 Solvent_Material:T36
+T7	Operation 351 359	addition
+E3	Operation:T7 Solvent_Material:T38
+T8	Operation 458 463	added
+E4	Operation:T8 Recipe_Precursor:T47
+T9	Operation 480 488	stirring
+E5	Operation:T9 
+T10	Operation 528 550	hydrothermally treated
+E6	Operation:T10 Participant_Material:T50
+T11	Operation 571 576	using
+E7	Operation:T11 
+T12	Operation 607 615	obtained
+E8	Operation:T12 Participant_Material:T56
+T13	Operation 632 640	filtered
+E9	Operation:T13 Participant_Material:T56
+T14	Operation 642 648	washed
+E10	Operation:T14 Participant_Material:T57
+T15	Operation 674 679	dried
+E11	Operation:T15 
+T16	Operation 723 731	calcined
+E12	Operation:T16 Participant_Material:T60
+T17	Operation 777 785	prepared
+E13	Operation:T17 Recipe_Target:T63
+T18	Operation 831 836	using
+E14	Operation:T18 
+T19	Operation 878 888	designated
+E15	Operation:T19 Recipe_Target:T66 Recipe_Target:T68
+T20	Operation 966 977	calcination
+E16	Operation:T20 
+T21	Reference 245 247	34
+T22	Number 272 276	11.3
+T23	Number 310 312	25
+T24	Number 389 392	7.5
+T25	Number 402 404	25
+T26	Number 440 443	2.5
+T27	Number 493 494	1
+T28	Number 554 557	150
+T29	Number 567 568	4
+T30	Number 683 686	120
+T31	Number 735 738	400
+T32	Number 743 746	500
+T33	Material 282 292	SnCl4*5H2O
+T34	Amount-Unit 313 315	ml
+T35	Amount-Unit 277 278	g
+T36	Material 329 334	water
+T37	Material-Descriptor 319 328	distilled
+T38	Material 374 378	NaOH
+T39	Material-Descriptor 379 387	solution
+T40	Material-Descriptor 366 373	aqueous
+T41	Amount-Unit 393 394	g
+T42	Amount-Unit 405 407	ml
+T43	Material 395 399	NaOH
+T44	Material 411 414	H2O
+T45	Material 430 438	solution
+T46	Amount-Unit 444 445	g
+T47	Material 449 453	CTAB
+T48	Condition-Misc 469 479	continuous
+T49	Condition-Unit 495 496	h
+T50	Material 515 523	solution
+T51	Operation 502 514	precipitated
+E17	Operation:T51 Participant_Material:T50
+T52	Condition-Unit 558 562	degC
+T53	Condition-Unit 569 570	h
+T54	Synthesis-Apparatus 592 601	autoclave
+T55	Apparatus-Descriptor 579 591	Teflon-lined
+T56	Material 616 627	precipitate
+T57	Material 664 669	water
+T58	Material-Descriptor 654 663	distilled
+T59	Condition-Unit 687 691	degC
+T60	Material 713 718	solid
+T61	Material-Descriptor 697 712	as-formed white
+T62	Condition-Unit 747 751	degC
+T63	Material 758 767	tin oxide
+T64	Property-Misc 753 757	Bulk
+T65	Synthesis-Apparatus 841 849	template
+T66	Material 855 864	tin oxide
+T67	Property-Misc 865 872	samples
+T68	Material 892 895	M-Y
+T69	Condition-Type 978 989	temperature
+R1	Property_Of Arg1:T2 Arg2:T1	
+A1	Start_Recipe E1
+R2	Next_Operation Arg1:E1 Arg2:E2	
+R3	Next_Operation Arg1:E2 Arg2:E3	
+R4	Next_Operation Arg1:E3 Arg2:E4	
+R5	Next_Operation Arg1:E4 Arg2:E5	
+R6	Next_Operation Arg1:E5 Arg2:E17	
+R7	Next_Operation Arg1:E17 Arg2:E6	
+R8	Next_Operation Arg1:E6 Arg2:E7	
+R9	Next_Operation Arg1:E7 Arg2:E8	
+R10	Next_Operation Arg1:E8 Arg2:E9	
+R11	Next_Operation Arg1:E9 Arg2:E10	
+R12	Next_Operation Arg1:E10 Arg2:E11	
+R13	Next_Operation Arg1:E11 Arg2:E12	
+R14	Next_Operation Arg1:E12 Arg2:E13	
+R15	Next_Operation Arg1:E13 Arg2:E14	
+R16	Next_Operation Arg1:E14 Arg2:E15	
+R17	Next_Operation Arg1:E15 Arg2:E16	
+A2	End_Recipe E16
+R18	Property_Of Arg1:T4 Arg2:T3	
+R19	Number_Of Arg1:T22 Arg2:T35	
+R20	Amount_Of Arg1:T35 Arg2:T33	
+R21	Number_Of Arg1:T23 Arg2:T34	
+R22	Amount_Of Arg1:T34 Arg2:T36	
+R23	Descriptor_Of Arg1:T37 Arg2:T36	
+R24	Descriptor_Of Arg1:T40 Arg2:T38	
+R25	Descriptor_Of Arg1:T39 Arg2:T38	
+R26	Number_Of Arg1:T24 Arg2:T41	
+R27	Amount_Of Arg1:T41 Arg2:T43	
+R28	Number_Of Arg1:T25 Arg2:T42	
+R29	Amount_Of Arg1:T42 Arg2:T44	
+R30	Coref_Of Arg1:T44 Arg2:T38	
+R31	Coref_Of Arg1:T43 Arg2:T38	
+R32	Number_Of Arg1:T26 Arg2:T46	
+R33	Amount_Of Arg1:T46 Arg2:T47	
+R34	Condition_Of Arg1:T48 Arg2:E5	
+R35	Number_Of Arg1:T27 Arg2:T49	
+R36	Condition_Of Arg1:T49 Arg2:E5	
+R37	Number_Of Arg1:T28 Arg2:T52	
+R38	Condition_Of Arg1:T52 Arg2:E6	
+R39	Number_Of Arg1:T29 Arg2:T53	
+R40	Condition_Of Arg1:T53 Arg2:E6	
+R41	Descriptor_Of Arg1:T55 Arg2:T54	
+R42	Apparatus_Of Arg1:T54 Arg2:E7	
+R43	Descriptor_Of Arg1:T58 Arg2:T57	
+R44	Number_Of Arg1:T30 Arg2:T59	
+R45	Condition_Of Arg1:T59 Arg2:E11	
+R46	Descriptor_Of Arg1:T61 Arg2:T60	
+R47	Number_Of Arg1:T31 Arg2:T62	
+R48	Number_Of Arg1:T32 Arg2:T62	
+R49	Condition_Of Arg1:T62 Arg2:E12	
+R50	Property_Of Arg1:T64 Arg2:T63	
+R51	Apparatus_Of Arg1:T65 Arg2:E14	
+R52	Property_Of Arg1:T67 Arg2:T66	

@@ -1,0 +1,3 @@
+10.1016/j.molcata.2005.10.024
+Aerial oxidation of p-isopropyltoluene over manganese containing mesoporous MCM-41 and Al-MCM-41 molecular sieves
+The parent MCM-41 and Al-MCM-41 catalysts were synthesized according to the previous reports [20], [21] and [22] using C16H33(CH3)3N+Br- as the template. 0.3 M manganese acetate solution was prepared and mixed with 3 g of MCM-41 or Al-MCM-41 under constant stirring. The solution was dried under reduced pressure, and calcined in air at 550 degC for 6 h.

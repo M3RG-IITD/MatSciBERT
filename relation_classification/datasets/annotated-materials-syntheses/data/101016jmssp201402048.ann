@@ -1,0 +1,417 @@
+T1	Material 143 157	cobalt ferrite
+T2	Material 162 174	ferric oxide
+T3	Property-Misc 128 142	nanostructured
+T4	Property-Type 27 36	Synthesis
+T5	Property-Type 38 54	characterization
+T6	Property-Type 56 77	magnetic measurements
+T7	Property-Type 82 113	liquefied petroleum gas sensing
+T8	Material-Descriptor 179 187	reagents
+T9	Material 196 211	ferric chloride
+T10	Material 213 230	cobaltous acetate
+T11	Material 235 253	ammonium hydroxide
+T12	Amount-Misc 262 278	analytical grade
+T13	Operation 283 287	used
+E1	Operation:T13 
+T14	Amount-Misc 322 343	stoichiometric amount
+T15	Material 356 365	materials
+T16	Material 375 392	cobaltous acetate
+T17	Material 397 412	ferric chloride
+T18	Operation 418 423	taken
+E2	Operation:T18 Recipe_Precursor:T17 Recipe_Precursor:T16
+T19	Number 427 430	1:1
+T20	Number 432 435	1:2
+T21	Number 437 440	1:3
+T22	Number 445 448	1:4
+T25	Operation 477 486	dissolved
+E3	Operation:T25 
+T26	Operation 530 534	form
+E4	Operation:T26 Participant_Material:T94
+T27	Operation 571 576	taken
+E5	Operation:T27 Recipe_Precursor:T95 Recipe_Precursor:T96
+T28	Operation 635 644	dissolved
+E6	Operation:T28 Solvent_Material:T100
+T29	Operation 699 703	form
+E7	Operation:T29 Participant_Material:T101
+T30	Operation 742 750	refluxed
+E8	Operation:T30 Participant_Material:T102
+T31	Operation 820 825	mixed
+E9	Operation:T31 Participant_Material:T24
+T32	Operation 856 861	mixed
+E10	Operation:T32 Participant_Material:T108
+T33	Operation 875 881	heated
+E11	Operation:T33 
+T34	Operation 913 920	stirred
+E12	Operation:T34 
+T35	Operation 970 975	added
+E13	Operation:T35 Recipe_Precursor:T113 Participant_Material:T115
+T36	Operation 1063 1075	precipitated
+E14	Operation:T36 Participant_Material:T117
+T37	Operation 1118 1123	added
+E15	Operation:T37 Solvent_Material:T118 Participant_Material:T121
+T38	Operation 1201 1209	obtained
+E16	Operation:T38 Participant_Material:T122
+T39	Operation 1249 1258	monitored
+E17	Operation:T39 Participant_Material:T125
+T40	Operation 1285 1290	added
+E18	Operation:T40 Solvent_Material:T126
+T41	Operation 1300 1307	reached
+E19	Operation:T41 
+T42	Operation 1349 1356	stirred
+E20	Operation:T42 Participant_Material:T128
+T43	Operation 1409 1415	washed
+E21	Operation:T43 Participant_Material:T132 Participant_Material:T134
+T44	Operation 1480 1486	became
+E22	Operation:T44 Participant_Material:T137
+T45	Operation 1515 1523	repeated
+E23	Operation:T45 
+T46	Operation 1629 1633	used
+E24	Operation:T46 Solvent_Material:T141
+T47	Operation 1801 1811	conversion
+E25	Operation:T47 Participant_Material:T149 Participant_Material:T150 Recipe_Target:T151 Participant_Material:T147
+T48	Operation 1878 1887	formation
+E26	Operation:T48 Participant_Material:T152
+T49	Operation 1972 1976	used
+E27	Operation:T49 
+T50	Operation 2069 2074	exist
+E28	Operation:T50 Participant_Material:T157
+T51	Operation 2132 2141	increased
+E29	Operation:T51 
+T52	Operation 2188 2194	became
+E30	Operation:T52 Participant_Material:T164
+T53	Operation 2395 2404	increased
+E31	Operation:T53 Participant_Material:T167
+T54	Operation 2422 2428	became
+E32	Operation:T54 Participant_Material:T168 Participant_Material:T169
+T55	Operation 2516 2526	maintained
+E33	Operation:T55 
+T56	Operation 2575 2583	stirring
+E34	Operation:T56 
+T57	Operation 2616 2624	obtained
+E35	Operation:T57 Recipe_Target:T177
+T58	Operation 2645 2653	settling
+E36	Operation:T58 
+T59	Operation 2698 2703	dried
+E37	Operation:T59 Participant_Material:T182
+T60	Operation 2750 2757	grinded
+E38	Operation:T60 Participant_Material:T185 Participant_Material:T187
+T61	Operation 2801 2809	annealed
+E39	Operation:T61 Participant_Material:T189
+T62	Operation 2954 2958	made
+E40	Operation:T62 Participant_Material:T197
+T63	Operation 3117 3122	named
+E41	Operation:T63 Recipe_Target:T203 Recipe_Target:T209 Recipe_Target:T208 Recipe_Target:T207 Recipe_Target:T206
+T64	Number 535 536	1
+T65	Number 618 621	1:1
+T66	Number 754 756	60
+T67	Number 766 767	4
+T68	Number 885 890	70-80
+T69	Number 925 926	4
+T70	Number 930 932	10
+T71	Number 1311 1313	12
+T72	Number 1381 1382	6
+T73	Number 1487 1488	7
+T74	Number 1552 1555	1:2
+T75	Number 1557 1560	1:3
+T76	Number 1572 1575	1:4
+T77	Number 2530 2535	70-80
+T78	Number 2545 2548	4-5
+T79	Number 2658 2660	15
+T80	Number 2668 2672	3000
+T81	Number 2717 2720	100
+T82	Number 2813 2816	450
+T83	Number 2851 2852	2
+T84	Number 2888 2889	2
+T85	Number 3031 3034	616
+T86	Number 3081 3084	1:4
+T87	Number 3086 3089	1:3
+T88	Number 3091 3094	1:2
+T89	Number 3099 3102	1:1
+T90	Amount-Misc 492 507	required amount
+T91	Material 521 526	water
+T92	Material-Descriptor 511 520	distilled
+T93	Amount-Unit 537 538	M
+T94	Material 539 547	solution
+T95	Material 577 594	cobaltous acetate
+T96	Material 599 614	ferric chloride
+T97	Amount-Unit 622 630	M ratios
+T98	Amount-Unit 661 676	required amount
+T99	Material-Descriptor 680 689	distilled
+T100	Material 690 695	water
+T101	Material 704 714	precursors
+T102	Material 726 736	precursors
+T103	Condition-Unit 757 761	degC
+T104	Condition-Unit 768 769	h
+T105	Material 789 797	solution
+T106	Material-Descriptor 777 788	homogeneous
+T107	Operation 773 776	get
+E42	Operation:T107 Participant_Material:T105
+T108	Material 862 870	solution
+T109	Condition-Unit 891 895	degC
+T110	Condition-Misc 900 912	magnetically
+T111	Condition-Unit 927 928	h
+T112	Amount-Unit 933 935	ml
+T113	Material 939 959	poly-ethylene glycol
+T114	Material 961 964	PEG
+T115	Material 989 997	solution
+T116	Material-Descriptor 1015 1034	encapsulating agent
+T117	Material 1050 1058	solution
+T118	Material 1079 1097	ammonium hydroxide
+T119	Material-Descriptor 1098 1106	solution
+T120	Condition-Misc 1124 1136	drop by drop
+T121	Material 1156 1164	solution
+T122	Material 1185 1196	precipitate
+T123	Material-Descriptor 1171 1184	black colored
+T124	Condition-Unit 1215 1217	pH
+T125	Material 1225 1233	solution
+T126	Material 1266 1271	NH4OH
+T127	Material-Descriptor 1272 1280	solution
+T128	Material 1324 1331	mixture
+T129	Condition-Misc 1336 1348	mechanically
+T130	Condition-Misc 1360 1376	room temperature
+T131	Condition-Unit 1383 1384	h
+T132	Material 1393 1404	precipitate
+T133	Condition-Misc 1416 1429	several times
+T134	Material 1445 1450	water
+T135	Material-Descriptor 1435 1444	distilled
+T136	Condition-Unit 1461 1463	pH
+T137	Material 1471 1479	filtrate
+T138	Operation 1528 1537	synthesis
+E43	Operation:T138 Recipe_Target:T139
+T139	Material 1541 1548	CoFe2O4
+T140	Amount-Unit 1576 1584	M ratios
+T141	Material 1606 1624	ammonium hydroxide
+T142	Nonrecipe-Material 1663 1677	hydroxide ions
+T143	Nonrecipe-Material 1705 1724	potassium hydroxide
+T144	Nonrecipe-Material 1729 1745	sodium hydroxide
+T145	Nonrecipe-Material 1697 1703	alkali
+T146	Material-Descriptor 1690 1696	strong
+T147	Material 1764 1773	solutions
+T148	Material-Descriptor 1748 1763	Strong alkaline
+T149	Nonrecipe-Material 1815 1819	Fe3+
+T150	Nonrecipe-Material 1824 1828	Co2+
+T151	Material 1834 1841	CoFe2O4
+T152	Material 1913 1926	nanoparticles
+T153	Material-Descriptor 1891 1912	severely agglomerated
+T154	Operation 1985 1994	synthesis
+E44	Operation:T154 Recipe_Target:T155
+T155	Material 2013 2025	ferric oxide
+T156	Property-Misc 1998 2012	nanostructured
+T157	Material 2048 2056	solution
+T158	Apparatus-Descriptor 2040 2047	aqueous
+T159	Nonrecipe-Material 2058 2068	metal ions
+T160	Nonrecipe-Material 2078 2096	Co ( H 2 O ) 6 2 +
+T161	Nonrecipe-Material 2101 2119	Fe ( H 2 O ) 6 3 +
+T162	Condition-Unit 2125 2127	pH
+T163	Material 2159 2166	species
+T164	Material 2179 2187	solution
+T165	Nonrecipe-Material 2195 2212	Co ( OH ) 6 2 - x
+T166	Nonrecipe-Material 2217 2234	Fe ( OH ) y 3 - y
+T167	Material 2374 2390	ammonia solution
+T168	Nonrecipe-Material 2406 2412	cobalt
+T169	Nonrecipe-Material 2417 2421	iron
+T170	Amount-Misc 2357 2370	concentration
+T171	Nonrecipe-Material 2445 2458	Co ( OH ) 3 -
+T172	Nonrecipe-Material 2463 2476	Fe ( OH ) 4 -
+T173	Material-Descriptor 2477 2484	species
+T174	Condition-Unit 2536 2540	degC
+T175	Condition-Unit 2549 2550	h
+T176	Condition-Misc 2557 2574	vigorous magnetic
+T177	Material 2604 2611	CoFe2O4
+T178	Property-Misc 2589 2600	precipitate
+T179	Condition-Misc 2633 2644	centrifugal
+T180	Condition-Unit 2661 2664	min
+T181	Condition-Unit 2673 2676	rpm
+T182	Material 2682 2693	precipitate
+T183	Condition-Misc 2704 2713	overnight
+T184	Condition-Unit 2721 2725	degC
+T185	Material 2737 2745	material
+T186	Operation 2731 2736	dried
+E45	Operation:T186 
+T187	Material 2768 2774	powder
+T188	Material-Descriptor 2763 2767	fine
+T189	Material 2785 2791	powder
+T190	Material-Descriptor 2780 2784	fine
+T191	Condition-Unit 2817 2821	degC
+T192	Synthesis-Apparatus 2839 2846	furnace
+T193	Apparatus-Descriptor 2831 2838	tubular
+T194	Condition-Type 2860 2884	heating and cooling rate
+T195	Condition-Unit 2853 2854	h
+T196	Condition-Unit 2890 2905	degC per minute
+T197	Material 2942 2948	powder
+T198	Synthesis-Apparatus 2972 2977	press
+T199	Apparatus-Descriptor 2962 2971	hydraulic
+T200	Brand 2979 3000	MB instruments, Delhi
+T201	Condition-Type 3010 3027	uniaxial pressure
+T202	Condition-Unit 3035 3038	MPa
+T203	Material 3055 3069	cobalt ferrite
+T204	Property-Misc 3070 3077	pellets
+T205	Amount-Unit 3103 3111	M ratios
+T206	Material 3144 3147	P-4
+T207	Material 3136 3139	P-3
+T208	Material 3131 3134	P-2
+T209	Material 3126 3129	P-1
+R1	Property_Of Arg1:T3 Arg2:T1	
+R2	Property_Of Arg1:T3 Arg2:T2	
+R3	Amount_Of Arg1:T12 Arg2:T9	
+R4	Amount_Of Arg1:T12 Arg2:T10	
+R5	Amount_Of Arg1:T12 Arg2:T11	
+R6	Descriptor_Of Arg1:T8 Arg2:T9	
+R7	Descriptor_Of Arg1:T8 Arg2:T10	
+R8	Descriptor_Of Arg1:T8 Arg2:T11	
+T210	Operation 304 316	purification
+E46	Operation:T210 
+T211	Condition-Misc 288 295	without
+R9	Next_Operation Arg1:E1 Arg2:E46	
+A1	Start_Recipe E1
+R10	Next_Operation Arg1:E46 Arg2:E2	
+R11	Next_Operation Arg1:E2 Arg2:E3	
+R12	Next_Operation Arg1:E3 Arg2:E4	
+R13	Next_Operation Arg1:E4 Arg2:E5	
+R14	Next_Operation Arg1:E5 Arg2:E6	
+R15	Next_Operation Arg1:E6 Arg2:E8	
+R16	Next_Operation Arg1:E8 Arg2:E9	
+R17	Next_Operation Arg1:E9 Arg2:E10	
+R18	Next_Operation Arg1:E10 Arg2:E11	
+R19	Next_Operation Arg1:E11 Arg2:E12	
+R20	Next_Operation Arg1:E12 Arg2:E13	
+R21	Next_Operation Arg1:E13 Arg2:E14	
+R22	Next_Operation Arg1:E14 Arg2:E15	
+R23	Next_Operation Arg1:E15 Arg2:E16	
+R24	Next_Operation Arg1:E16 Arg2:E17	
+R25	Next_Operation Arg1:E17 Arg2:E18	
+R26	Next_Operation Arg1:E18 Arg2:E19	
+R27	Next_Operation Arg1:E19 Arg2:E20	
+R28	Next_Operation Arg1:E20 Arg2:E21	
+R29	Next_Operation Arg1:E21 Arg2:E22	
+A2	End_Recipe E22
+A3	Start_Recipe E23
+R30	Next_Operation Arg1:E23 Arg2:E43	
+R31	Next_Operation Arg1:E43 Arg2:E24	
+R32	Next_Operation Arg1:E24 Arg2:E25	
+R33	Next_Operation Arg1:E25 Arg2:E26	
+A4	End_Recipe E26
+A5	Start_Recipe E27
+R34	Next_Operation Arg1:E27 Arg2:E44	
+R35	Next_Operation Arg1:E44 Arg2:E28	
+R36	Next_Operation Arg1:E28 Arg2:E29	
+R37	Next_Operation Arg1:E29 Arg2:E30	
+T212	Material-Descriptor 2304 2312	solution
+T213	Material 2318 2325	Co(OH)2
+T214	Material 2330 2337	Fe(OH)3
+R38	Next_Operation Arg1:E30 Arg2:E33	
+R39	Next_Operation Arg1:E33 Arg2:E34	
+R40	Next_Operation Arg1:E34 Arg2:E35	
+R41	Next_Operation Arg1:E35 Arg2:E36	
+R42	Next_Operation Arg1:E36 Arg2:E37	
+R43	Next_Operation Arg1:E37 Arg2:E45	
+R44	Next_Operation Arg1:E45 Arg2:E38	
+R45	Next_Operation Arg1:E38 Arg2:E39	
+R46	Next_Operation Arg1:E39 Arg2:E40	
+R47	Next_Operation Arg1:E40 Arg2:E41	
+A6	End_Recipe E41
+R48	Amount_Of Arg1:T14 Arg2:T15	
+R49	Condition_Of Arg1:T211 Arg2:E46	
+T23	Amount-Unit 449 457	M ratios
+R50	Number_Of Arg1:T19 Arg2:T23	
+R51	Number_Of Arg1:T20 Arg2:T23	
+R52	Number_Of Arg1:T21 Arg2:T23	
+R53	Number_Of Arg1:T22 Arg2:T23	
+R54	Amount_Of Arg1:T23 Arg2:T17	
+R55	Amount_Of Arg1:T23 Arg2:T16	
+R56	Amount_Of Arg1:T90 Arg2:T91	
+R57	Descriptor_Of Arg1:T92 Arg2:T91	
+R58	Number_Of Arg1:T64 Arg2:T93	
+R59	Amount_Of Arg1:T93 Arg2:T94	
+R60	Next_Operation Arg1:E3 Arg2:E4	
+R61	Number_Of Arg1:T65 Arg2:T97	
+R62	Amount_Of Arg1:T97 Arg2:T96	
+R63	Amount_Of Arg1:T97 Arg2:T95	
+R64	Amount_Of Arg1:T98 Arg2:T100	
+R65	Descriptor_Of Arg1:T99 Arg2:T100	
+R66	Number_Of Arg1:T66 Arg2:T103	
+R67	Condition_Of Arg1:T103 Arg2:E8	
+R68	Number_Of Arg1:T67 Arg2:T104	
+R69	Condition_Of Arg1:T104 Arg2:E8	
+R70	Descriptor_Of Arg1:T106 Arg2:T105	
+T24	Material 810 814	both
+R71	Number_Of Arg1:T68 Arg2:T109	
+R72	Condition_Of Arg1:T109 Arg2:E11	
+R73	Condition_Of Arg1:T110 Arg2:E12	
+R74	Number_Of Arg1:T69 Arg2:T111	
+R75	Condition_Of Arg1:T111 Arg2:E12	
+R76	Number_Of Arg1:T70 Arg2:T112	
+R77	Amount_Of Arg1:T112 Arg2:T113	
+R78	Coref_Of Arg1:T114 Arg2:T113	
+R79	Descriptor_Of Arg1:T116 Arg2:T115	
+R80	Descriptor_Of Arg1:T119 Arg2:T118	
+R81	Condition_Of Arg1:T120 Arg2:E15	
+R82	Descriptor_Of Arg1:T123 Arg2:T122	
+R83	Number_Of Arg1:T71 Arg2:T124	
+R84	Descriptor_Of Arg1:T127 Arg2:T126	
+R85	Condition_Of Arg1:T129 Arg2:E20	
+R86	Condition_Of Arg1:T130 Arg2:E20	
+R87	Number_Of Arg1:T72 Arg2:T131	
+R88	Condition_Of Arg1:T131 Arg2:E20	
+R89	Condition_Of Arg1:T133 Arg2:E21	
+R90	Descriptor_Of Arg1:T135 Arg2:T134	
+R91	Number_Of Arg1:T73 Arg2:T136	
+R92	Condition_Of Arg1:T136 Arg2:E22	
+R93	Condition_Of Arg1:T124 Arg2:E19	
+R94	Number_Of Arg1:T74 Arg2:T140	
+R95	Number_Of Arg1:T75 Arg2:T140	
+R96	Number_Of Arg1:T76 Arg2:T140	
+R97	Amount_Of Arg1:T140 Arg2:T139	
+R98	Descriptor_Of Arg1:T146 Arg2:T145	
+R99	Coref_Of Arg1:T143 Arg2:T145	
+R100	Coref_Of Arg1:T144 Arg2:T145	
+R101	Descriptor_Of Arg1:T148 Arg2:T147	
+R102	Descriptor_Of Arg1:T153 Arg2:T152	
+T215	Property-Misc 1932 1948	irregular shapes
+R103	Property_Of Arg1:T215 Arg2:T152	
+R104	Property_Of Arg1:T156 Arg2:T155	
+R105	Descriptor_Of Arg1:T158 Arg2:T157	
+R106	Condition_Of Arg1:T162 Arg2:E29	
+R107	Descriptor_Of Arg1:T212 Arg2:T213	
+R108	Descriptor_Of Arg1:T212 Arg2:T214	
+R109	Amount_Of Arg1:T170 Arg2:T167	
+R110	Descriptor_Of Arg1:T173 Arg2:T171	
+R111	Descriptor_Of Arg1:T173 Arg2:T172	
+T216	Condition-Type 2500 2511	temperature
+R112	Number_Of Arg1:T77 Arg2:T174	
+R113	Number_Of Arg1:T78 Arg2:T175	
+R114	Type_Of Arg1:T216 Arg2:T174	
+R115	Condition_Of Arg1:T174 Arg2:E33	
+R116	Condition_Of Arg1:T175 Arg2:E33	
+R117	Condition_Of Arg1:T176 Arg2:E34	
+R118	Property_Of Arg1:T178 Arg2:T177	
+R119	Condition_Of Arg1:T179 Arg2:E36	
+R120	Number_Of Arg1:T79 Arg2:T180	
+R121	Number_Of Arg1:T80 Arg2:T181	
+R122	Condition_Of Arg1:T180 Arg2:E36	
+R123	Condition_Of Arg1:T181 Arg2:E36	
+R124	Condition_Of Arg1:T183 Arg2:E37	
+R125	Number_Of Arg1:T81 Arg2:T184	
+R126	Condition_Of Arg1:T184 Arg2:E37	
+R127	Descriptor_Of Arg1:T188 Arg2:T187	
+R128	Descriptor_Of Arg1:T190 Arg2:T189	
+R129	Number_Of Arg1:T82 Arg2:T191	
+R130	Condition_Of Arg1:T191 Arg2:E39	
+R131	Descriptor_Of Arg1:T193 Arg2:T192	
+R132	Apparatus_Of Arg1:T192 Arg2:E39	
+R133	Number_Of Arg1:T83 Arg2:T195	
+R134	Condition_Of Arg1:T195 Arg2:E39	
+R135	Number_Of Arg1:T84 Arg2:T196	
+R136	Type_Of Arg1:T194 Arg2:T196	
+R137	Condition_Of Arg1:T196 Arg2:E39	
+R138	Descriptor_Of Arg1:T199 Arg2:T198	
+R139	Apparatus_Of Arg1:T198 Arg2:E40	
+R140	Brand_Of Arg1:T200 Arg2:T198	
+R141	Type_Of Arg1:T201 Arg2:T202	
+R142	Number_Of Arg1:T85 Arg2:T202	
+R143	Condition_Of Arg1:T202 Arg2:E40	
+R144	Property_Of Arg1:T204 Arg2:T203	
+R145	Number_Of Arg1:T86 Arg2:T205	
+R146	Number_Of Arg1:T87 Arg2:T205	
+R147	Number_Of Arg1:T88 Arg2:T205	
+R148	Number_Of Arg1:T89 Arg2:T205	
+R149	Amount_Of Arg1:T205 Arg2:T203	

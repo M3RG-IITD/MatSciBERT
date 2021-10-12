@@ -1,0 +1,4 @@
+10.1038/srep23400
+Structural manipulation and tailoring of dielectric properties in SrTi1-xFexTaxO3 perovskites: Design of new lead free relaxors
+
+Nominal compositions with stoichiometry SrTi1-2xFexTaxO3 (0.0 <= x <= 0.5) were prepared by solid state reaction of appropriate amounts of SrCO3, Fe2O3, Ta2O5 and TiO2. Homogenous mixtures of reactants were heated at 1173 K for 30 h in static air followed by regrinding and heating at 1473 K for 30 h in pellet form. The products were reground and pressed into pellets (10 mm diameter and 2 mm thickness) and sintered at 1623 K for 30 h. 

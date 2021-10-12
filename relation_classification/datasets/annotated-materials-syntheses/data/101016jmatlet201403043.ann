@@ -1,0 +1,78 @@
+T1	Material 148 154	Ge/OMC
+T2	Operation 196 203	dropped
+E1	Operation:T2 Recipe_Precursor:T9 Recipe_Precursor:T10
+T3	Operation 258 266	stirring
+E2	Operation:T3 
+T4	Operation 329 333	kept
+E3	Operation:T4 Participant_Material:T12
+T5	Operation 404 408	kept
+E4	Operation:T5 Participant_Material:T14
+T6	Operation 538 544	heated
+E5	Operation:T6 Participant_Material:T19 Atmospheric_Material:T20
+T7	Operation 709 718	collected
+E6	Operation:T7 Participant_Material:T23
+T8	Property-Misc 155 168	nanocomposite
+T9	Material 180 184	TEOG
+T10	Material 223 226	OMC
+T11	Material 292 299	solvent
+T12	Material 317 324	mixture
+T13	Condition-Misc 365 381	room temperature
+T14	Material 387 394	mixture
+T15	Synthesis-Apparatus 414 422	crucible
+T16	Material 455 459	TEOG
+T17	Material 463 467	GeO2
+T18	Material 491 498	ethanol
+T19	Material 514 520	GeO2/C
+T20	Material 594 596	H2
+T21	Material 661 665	GeO2
+T22	Material 669 671	Ge
+T23	Material 697 704	product
+T24	Synthesis-Apparatus 729 736	furnace
+T25	Number 170 173	1.0
+T26	Amount-Unit 174 176	mL
+T27	Number 209 213	1.00
+T28	Amount-Unit 214 215	g
+T29	Number 246 247	5
+T30	Condition-Unit 248 251	min
+T31	Number 355 357	60
+T32	Condition-Unit 358 361	min
+T33	Condition-Misc 423 432	overnight
+T34	Material-Descriptor 499 508	byproduct
+T35	Material-Descriptor 521 533	intermediate
+T36	Number 551 554	500
+T37	Condition-Unit 555 559	degC
+T38	Number 575 576	2
+T39	Condition-Unit 577 585	degC/min
+T40	Number 607 610	100
+T41	Amount-Unit 611 617	mL/min
+T42	Apparatus-Descriptor 624 630	quartz
+T43	Synthesis-Apparatus 631 643	tube furnace
+T44	Material-Descriptor 672 685	nanoparticles
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Condition_Of Arg1:T32 Arg2:E3	
+R7	Condition_Of Arg1:T13 Arg2:E3	
+R8	Apparatus_Of Arg1:T15 Arg2:E4	
+R9	Condition_Of Arg1:T33 Arg2:E4	
+R10	Condition_Of Arg1:T37 Arg2:E5	
+R11	Condition_Of Arg1:T39 Arg2:E5	
+R12	Apparatus_Of Arg1:T43 Arg2:E5	
+R13	Apparatus_Of Arg1:T24 Arg2:E6	
+R14	Property_Of Arg1:T8 Arg2:T1	
+R15	Amount_Of Arg1:T26 Arg2:T9	
+R16	Amount_Of Arg1:T28 Arg2:T10	
+R17	Amount_Of Arg1:T41 Arg2:T20	
+R18	Descriptor_Of Arg1:T35 Arg2:T19	
+R19	Descriptor_Of Arg1:T44 Arg2:T22	
+R20	Descriptor_Of Arg1:T42 Arg2:T43	
+R21	Descriptor_Of Arg1:T34 Arg2:T18	
+R22	Number_Of Arg1:T25 Arg2:T26	
+R23	Number_Of Arg1:T31 Arg2:T32	
+R24	Number_Of Arg1:T27 Arg2:T28	
+R25	Number_Of Arg1:T29 Arg2:T30	
+R26	Number_Of Arg1:T36 Arg2:T37	
+R27	Number_Of Arg1:T38 Arg2:T39	
+R28	Number_Of Arg1:T40 Arg2:T41	

@@ -1,0 +1,192 @@
+T1	Material 132 146	tungsten-oxide
+T2	Property-Misc 116 130	polymer-matrix
+T3	Property-Misc 147 160	nanocomposite
+T4	Property-Misc 161 166	films
+T5	Property-Type 89 101	photochromic
+T6	Property-Type 77 84	optical
+T7	Property-Type 60 75	microstructural
+T8	Operation 283 289	placed
+E1	Operation:T8 Participant_Material:T44 Recipe_Precursor:T45
+T9	Operation 408 417	evacuated
+E2	Operation:T9 
+T10	Brand 361 366	Sigma
+T11	Brand 239 246	CS Hyde
+T12	Operation 435 441	remove
+E3	Operation:T12 Atmospheric_Material:T46
+T13	Operation 486 492	remove
+E4	Operation:T13 Participant_Material:T47 Participant_Material:T48
+T14	Operation 570 576	placed
+E5	Operation:T14 
+T15	Operation 594 600	heated
+E6	Operation:T15 
+T16	Operation 616 624	vaporize
+E7	Operation:T16 Participant_Material:T49
+T17	Operation 655 659	held
+E8	Operation:T17 
+T18	Operation 712 721	diffusion
+E9	Operation:T18 Participant_Material:T50 Participant_Material:T51
+T19	Operation 751 758	heating
+E10	Operation:T19 
+T20	Operation 780 801	thermal decomposition
+E11	Operation:T20 Participant_Material:T52
+T21	Operation 863 867	held
+E12	Operation:T21 
+T22	Operation 909 918	formation
+E13	Operation:T22 Participant_Material:T54
+T23	Operation 923 929	growth
+E14	Operation:T23 
+T24	Operation 957 961	cool
+E15	Operation:T24 
+T25	Operation 1006 1014	resulted
+E16	Operation:T25 Participant_Material:T55 Recipe_Target:T56
+T26	Operation 1088 1099	distributed
+E17	Operation:T26 Participant_Material:T57
+T27	Operation 1226 1235	performed
+E18	Operation:T27 
+T28	Operation 1250 1257	coarsen
+E19	Operation:T28 Participant_Material:T60
+T29	Operation 1284 1292	nucleate
+E20	Operation:T29 Participant_Material:T61
+T30	Operation 1341 1351	designated
+E21	Operation:T30 Recipe_Target:T62
+T31	Operation 1743 1747	used
+E22	Operation:T31 
+T32	Number 215 218	127
+T33	Number 322 325	300
+T34	Number 421 424	100
+T35	Number 604 607	150
+T36	Number 688 689	3
+T37	Number 762 765	175
+T38	Number 886 887	4
+T39	Number 1435 1438	one
+T40	Number 1464 1467	two
+T41	Number 1778 1782	four
+T42	Material 171 177	matrix
+T43	Material 229 232	FEP
+T44	Material 270 278	material
+T45	Material 332 349	tungsten carbonyl
+T46	Material 442 445	air
+T47	Material 493 502	volatiles
+T48	Material 520 526	matrix
+T49	Material 629 638	precursor
+T50	Material 702 711	precursor
+T51	Material 731 738	polymer
+T52	Material 809 818	precursor
+T53	Material 830 837	polymer
+T54	Material 900 908	particle
+T55	Material 1020 1027	polymer
+T56	Material 1059 1073	tungsten-oxide
+T57	Material 1127 1135	material
+T58	Material 1147 1153	matrix
+T59	Material 1177 1185	particle
+T60	Material 1267 1276	particles
+T61	Material 1297 1301	ones
+T62	Material 1331 1336	PMNCs
+T63	Material 1428 1430	1x
+T64	Material 1457 1459	2x
+T65	Material 1405 1413	material
+T66	Property-Unit 219 221	μm
+T67	Property-Type 222 227	thick
+T68	Amount-Unit 326 328	mg
+T69	Condition-Unit 425 431	m Torr
+T70	Condition-Unit 608 612	degC
+T71	Condition-Unit 690 692	hs
+T72	Condition-Unit 766 770	degC
+T73	Condition-Type 663 674	temperature
+T74	Condition-Unit 888 889	h
+T75	Condition-Type 847 858	temperature
+T76	Condition-Unit 1450 1455	cycle
+T77	Condition-Unit 1468 1474	cycles
+T78	Condition-Unit 1736 1742	cycles
+T79	Amount-Misc 191 213	commercially-available
+T80	Material-Descriptor 233 237	film
+T81	Synthesis-Apparatus 301 316	reaction vessel
+T82	Apparatus-Descriptor 295 300	glass
+T83	Material-Descriptor 350 359	precursor
+T84	Synthesis-Apparatus 388 403	reaction vessel
+T85	Synthesis-Apparatus 455 471	reaction chamber
+T86	Material-Descriptor 512 519	polymer
+T87	Condition-Misc 540 546	vacuum
+T88	Synthesis-Apparatus 582 589	furnace
+T89	Synthesis-Apparatus 559 565	system
+T90	Synthesis-Apparatus 644 650	vessel
+T91	Synthesis-Apparatus 935 941	system
+T92	Condition-Misc 975 991	room temperature
+T93	Condition-Misc 962 971	gradually
+T94	Material-Descriptor 1028 1032	film
+T95	Property-Misc 1049 1057	discrete
+T96	Property-Misc 1074 1087	nanoparticles
+T97	Material-Descriptor 1115 1119	bulk
+T98	Material-Descriptor 1293 1296	new
+T99	Material-Descriptor 1258 1266	existing
+T100	Condition-Type 1379 1396	processing cycles
+R1	Property_Of Arg1:T2 Arg2:T1	
+R2	Property_Of Arg1:T3 Arg2:T1	
+R3	Property_Of Arg1:T4 Arg2:T1	
+R4	Amount_Of Arg1:T79 Arg2:T43	
+R5	Number_Of Arg1:T32 Arg2:T66	
+R6	Type_Of Arg1:T67 Arg2:T66	
+R7	Descriptor_Of Arg1:T80 Arg2:T43	
+R8	Brand_Of Arg1:T11 Arg2:T43	
+R9	Property_Of Arg1:T66 Arg2:T43	
+R10	Coref_Of Arg1:T42 Arg2:T43	
+A1	Start_Recipe E1
+R11	Next_Operation Arg1:E1 Arg2:E2	
+R12	Next_Operation Arg1:E2 Arg2:E3	
+R13	Next_Operation Arg1:E3 Arg2:E4	
+R14	Next_Operation Arg1:E4 Arg2:E5	
+R15	Next_Operation Arg1:E5 Arg2:E6	
+R16	Next_Operation Arg1:E6 Arg2:E7	
+R17	Next_Operation Arg1:E7 Arg2:E8	
+R18	Next_Operation Arg1:E8 Arg2:E9	
+R19	Next_Operation Arg1:E9 Arg2:E10	
+R20	Next_Operation Arg1:E10 Arg2:E11	
+R21	Next_Operation Arg1:E11 Arg2:E12	
+R22	Next_Operation Arg1:E12 Arg2:E13	
+R23	Next_Operation Arg1:E13 Arg2:E14	
+R24	Next_Operation Arg1:E14 Arg2:E15	
+R25	Next_Operation Arg1:E15 Arg2:E16	
+R26	Next_Operation Arg1:E16 Arg2:E17	
+R27	Next_Operation Arg1:E17 Arg2:E18	
+R28	Next_Operation Arg1:E18 Arg2:E19	
+R29	Next_Operation Arg1:E19 Arg2:E20	
+R30	Next_Operation Arg1:E20 Arg2:E21	
+R31	Next_Operation Arg1:E21 Arg2:E22	
+R32	Descriptor_Of Arg1:T82 Arg2:T81	
+R33	Apparatus_Of Arg1:T81 Arg2:E1	
+R34	Number_Of Arg1:T33 Arg2:T68	
+R35	Amount_Of Arg1:T68 Arg2:T45	
+R36	Descriptor_Of Arg1:T83 Arg2:T45	
+R37	Brand_Of Arg1:T10 Arg2:T45	
+R38	Apparatus_Of Arg1:T84 Arg2:E2	
+R39	Number_Of Arg1:T34 Arg2:T69	
+R40	Condition_Of Arg1:T69 Arg2:E2	
+R41	Apparatus_Of Arg1:T85 Arg2:E3	
+R42	Descriptor_Of Arg1:T86 Arg2:T48	
+R43	Condition_Of Arg1:T87 Arg2:E5	
+R44	Apparatus_Of Arg1:T89 Arg2:E5	
+R45	Apparatus_Of Arg1:T88 Arg2:E5	
+R46	Number_Of Arg1:T35 Arg2:T70	
+R47	Condition_Of Arg1:T70 Arg2:E6	
+R48	Apparatus_Of Arg1:T90 Arg2:E8	
+R49	Number_Of Arg1:T36 Arg2:T71	
+R50	Condition_Of Arg1:T71 Arg2:E8	
+R51	Number_Of Arg1:T37 Arg2:T72	
+R52	Condition_Of Arg1:T72 Arg2:E10	
+R53	Number_Of Arg1:T38 Arg2:T74	
+R54	Condition_Of Arg1:T74 Arg2:E12	
+R55	Apparatus_Of Arg1:T91 Arg2:E15	
+R56	Condition_Of Arg1:T93 Arg2:E15	
+R57	Condition_Of Arg1:T92 Arg2:E15	
+R58	Descriptor_Of Arg1:T94 Arg2:T55	
+R59	Property_Of Arg1:T95 Arg2:T56	
+R60	Property_Of Arg1:T96 Arg2:T56	
+R61	Descriptor_Of Arg1:T97 Arg2:T57	
+R62	Descriptor_Of Arg1:T99 Arg2:T60	
+R63	Descriptor_Of Arg1:T98 Arg2:T61	
+R64	Number_Of Arg1:T39 Arg2:T76	
+R65	Number_Of Arg1:T40 Arg2:T77	
+R66	Type_Of Arg1:T100 Arg2:T76	
+R67	Type_Of Arg1:T100 Arg2:T77	
+R68	Number_Of Arg1:T41 Arg2:T78	
+R69	Condition_Of Arg1:T78 Arg2:E22	

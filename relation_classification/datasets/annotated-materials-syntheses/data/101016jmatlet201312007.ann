@@ -1,0 +1,148 @@
+T1	Meta 29 51	Hydrothermal synthesis
+T2	Property-Type 56 71	electrochemical
+T3	Material 96 112	hydrohausmannite
+T4	Property-Misc 86 95	hexagonal
+T5	Property-Misc 113 119	plates
+T6	Property-Misc 138 147	electrode
+T7	Material 166 171	KMnO4
+T8	Material 180 184	NaOH
+T9	Material 196 203	glucose
+T10	Material 232 237	water
+T11	Material-Descriptor 222 231	deionized
+T12	Number 256 258	30
+T13	Amount-Misc 243 255	total volume
+T14	Amount-Unit 259 261	mL
+T15	Operation 209 218	dissolved
+E1	Operation:T15 Recipe_Precursor:T7 Recipe_Precursor:T8 Recipe_Precursor:T9 Solvent_Material:T10
+T16	Operation 269 277	stirring
+E2	Operation:T16 
+T17	Operation 296 307	transferred
+E3	Operation:T17 Participant_Material:T42
+T18	Operation 330 336	heated
+E4	Operation:T18 
+T19	Operation 364 370	cooled
+E5	Operation:T19 
+T20	Operation 434 440	washed
+E6	Operation:T20 Participant_Material:T48 Participant_Material:T50 Participant_Material:T51
+T21	Operation 480 485	dried
+E7	Operation:T21 
+T22	Operation 523 536	characterized
+E8	Operation:T22 Participant_Material:T55
+T23	Operation 771 780	performed
+E9	Operation:T23 
+T24	Operation 985 991	mixing
+E10	Operation:T24 Participant_Material:T66 Participant_Material:T67
+T25	Operation 1100 1107	pressed
+E11	Operation:T25 Participant_Material:T70 Participant_Material:T71
+T26	Operation 1129 1134	dried
+E12	Operation:T26 
+T27	Number 159 162	200
+T28	Number 173 176	100
+T29	Number 189 192	100
+T30	Number 340 343	200
+T31	Number 353 355	72
+T32	Number 489 491	60
+T33	Number 501 503	10
+T34	Number 857 858	1
+T35	Number 1075 1082	80:15:5
+T36	Number 1138 1140	60
+T37	Number 1208 1211	7.6
+T38	Number 1216 1219	9.5
+T39	Amount-Unit 163 165	mg
+T40	Amount-Unit 177 179	mg
+T41	Amount-Unit 193 195	mg
+T42	Material 283 291	solution
+T43	Synthesis-Apparatus 316 325	autoclave
+T44	Condition-Unit 344 348	degC
+T45	Condition-Unit 356 357	h
+T46	Condition-Misc 379 395	room temperature
+T47	Condition-Misc 396 405	naturally
+T48	Material 411 418	product
+T49	Condition-Misc 423 433	repeatedly
+T50	Material 456 461	water
+T51	Material 466 473	ethanol
+T52	Material-Descriptor 446 455	deionized
+T53	Condition-Unit 492 496	degC
+T54	Condition-Unit 504 505	h
+T55	Material 511 518	product
+T56	Characterization-Apparatus 540 602	X-ray diffraction (XRD, a Philips X' Pert Pro. Diffractometer)
+T57	Characterization-Apparatus 604 666	field emission scanning electron microscopy (FESEM, JSM-6701F)
+T58	Characterization-Apparatus 671 742	transmission electron microscope (TEM, Tecnai-G2-F30 and Hitachi H-600)
+T59	Characterization-Apparatus 787 824	electrochemical workstation (CHI 660E
+T60	Amount-Unit 859 860	M
+T61	Nonrecipe-Material 861 867	Na2SO4
+T62	Material-Descriptor 868 876	solution
+T63	Nonrecipe-Material 883 885	Pt
+T64	Material-Descriptor 886 890	foil
+T65	Nonrecipe-Material 996 1003	product
+T66	Nonrecipe-Material 1005 1020	acetylene black
+T67	Nonrecipe-Material 1022 1048	polytetrafluorene-ethylene
+T68	Nonrecipe-Material 1050 1054	PTFE
+T69	Amount-Unit 1061 1071	mass ratio
+T70	Material 1088 1095	mixture
+T71	Nonrecipe-Material 1113 1119	nickel
+T72	Material-Descriptor 1120 1124	foam
+T73	Condition-Unit 1141 1145	degC
+T74	Condition-Misc 1146 1155	overnight
+R1	Property_Of Arg1:T4 Arg2:T3	
+R2	Property_Of Arg1:T5 Arg2:T3	
+R3	Property_Of Arg1:T6 Arg2:T3	
+R4	Number_Of Arg1:T27 Arg2:T39	
+R5	Amount_Of Arg1:T39 Arg2:T7	
+R6	Number_Of Arg1:T28 Arg2:T40	
+R7	Amount_Of Arg1:T40 Arg2:T8	
+R8	Number_Of Arg1:T29 Arg2:T41	
+R9	Amount_Of Arg1:T41 Arg2:T9	
+A1	Start_Recipe E1
+R10	Next_Operation Arg1:E1 Arg2:E2	
+R11	Next_Operation Arg1:E2 Arg2:E3	
+R12	Next_Operation Arg1:E3 Arg2:E4	
+R13	Next_Operation Arg1:E4 Arg2:E5	
+R14	Next_Operation Arg1:E5 Arg2:E6	
+R15	Next_Operation Arg1:E6 Arg2:E7	
+R16	Next_Operation Arg1:E7 Arg2:E8	
+R17	Next_Operation Arg1:E8 Arg2:E9	
+R18	Next_Operation Arg1:E9 Arg2:E10	
+R19	Next_Operation Arg1:E10 Arg2:E11	
+R20	Next_Operation Arg1:E11 Arg2:E12	
+A2	End_Recipe E12
+T75	Amount-Unit 1212 1214	mg
+T76	Amount-Unit 1220 1226	mg/cm2
+R21	Descriptor_Of Arg1:T11 Arg2:T10	
+R22	Number_Of Arg1:T12 Arg2:T14	
+R23	Amount_Of Arg1:T14 Arg2:T10	
+R24	Amount_Of Arg1:T13 Arg2:T10	
+R25	Apparatus_Of Arg1:T43 Arg2:E3	
+R26	Number_Of Arg1:T30 Arg2:T44	
+R27	Condition_Of Arg1:T44 Arg2:E4	
+R28	Number_Of Arg1:T31 Arg2:T45	
+R29	Condition_Of Arg1:T45 Arg2:E4	
+R30	Condition_Of Arg1:T46 Arg2:E5	
+R31	Condition_Of Arg1:T47 Arg2:E5	
+R32	Condition_Of Arg1:T49 Arg2:E6	
+R33	Descriptor_Of Arg1:T52 Arg2:T50	
+R34	Number_Of Arg1:T32 Arg2:T53	
+R35	Condition_Of Arg1:T53 Arg2:E7	
+R36	Number_Of Arg1:T33 Arg2:T54	
+R37	Condition_Of Arg1:T54 Arg2:E7	
+R38	Apparatus_Of Arg1:T56 Arg2:E8	
+R39	Apparatus_Of Arg1:T57 Arg2:E8	
+R40	Apparatus_Of Arg1:T58 Arg2:E8	
+R41	Apparatus_Of Arg1:T59 Arg2:E9	
+R42	Number_Of Arg1:T34 Arg2:T60	
+R43	Amount_Of Arg1:T60 Arg2:T61	
+R44	Descriptor_Of Arg1:T62 Arg2:T61	
+R45	Descriptor_Of Arg1:T64 Arg2:T63	
+R46	Coref_Of Arg1:T65 Arg2:T66	
+R47	Coref_Of Arg1:T65 Arg2:T67	
+R48	Coref_Of Arg1:T68 Arg2:T66	
+R49	Coref_Of Arg1:T68 Arg2:T67	
+R50	Number_Of Arg1:T35 Arg2:T69	
+R51	Amount_Of Arg1:T69 Arg2:T66	
+R52	Amount_Of Arg1:T69 Arg2:T67	
+R53	Descriptor_Of Arg1:T72 Arg2:T71	
+R54	Number_Of Arg1:T36 Arg2:T73	
+R55	Condition_Of Arg1:T73 Arg2:E12	
+R56	Condition_Of Arg1:T74 Arg2:E12	
+R57	Number_Of Arg1:T37 Arg2:T75	
+R58	Number_Of Arg1:T38 Arg2:T76	

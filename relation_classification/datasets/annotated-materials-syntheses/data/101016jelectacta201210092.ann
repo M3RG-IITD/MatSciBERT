@@ -1,0 +1,112 @@
+T1	Operation 136 140	used
+E1	Operation:T1 Participant_Material:T15
+T2	Operation 267 271	used
+E2	Operation:T2 Recipe_Precursor:T16 Recipe_Precursor:T18
+T3	Operation 338 346	obtained
+E3	Operation:T3 Recipe_Precursor:T20
+T4	Operation 372 380	stirring
+E4	Operation:T4 
+T5	Operation 385 391	marked
+E5	Operation:T5 Participant_Material:T24
+T6	Operation 437 442	mixed
+E6	Operation:T6 Recipe_Precursor:T21 Solvent_Material:T22
+T7	Operation 488 496	stirring
+E7	Operation:T7 
+T8	Operation 501 507	marked
+E8	Operation:T8 Participant_Material:T25
+T9	Operation 560 565	added
+E9	Operation:T9 Participant_Material:T23 Participant_Material:T26 Participant_Material:T27
+T10	Operation 625 633	stirring
+E10	Operation:T10 
+T11	Operation 651 662	transferred
+E11	Operation:T11 
+T12	Operation 718 726	obtained
+E12	Operation:T12 
+T13	Operation 741 751	calcinated
+E13	Operation:T13 Participant_Material:T28 Participant_Material:T29
+T14	Material 61 70	Li4Ti5O12
+T15	Material 121 130	chemicals
+T16	Material 184 213	lithium hydroxide monohydrate
+T17	Material 215 223	LiOH*H2O
+T18	Material 229 248	tetrabutyl titanate
+T19	Material 250 260	Ti(OC4H9)4
+T20	Material 312 316	LiOH
+T21	Material 413 432	tetrabutyl titanate
+T22	Material 446 459	ethyl alcohol
+T23	Material 536 546	solution A
+T24	Material 392 402	solution A
+T25	Material 508 518	solution B
+T26	Material 575 585	solution B
+T27	Material 602 612	suspension
+T28	Material 727 736	precursor
+T29	Material 815 823	products
+T30	Number 295 297	20
+T31	Number 304 305	2
+T32	Number 404 406	17
+T33	Number 461 464	1:1
+T34	Number 638 639	1
+T35	Number 695 698	180
+T36	Number 708 710	24
+T37	Number 783 786	450
+T38	Number 795 798	850
+T39	Amount-Unit 298 300	mL
+T40	Amount-Unit 306 311	mol/L
+T41	Amount-Unit 407 409	mL
+T42	Amount-Unit 465 467	in
+T43	Amount-Unit 468 474	volume
+T44	Condition-Unit 640 641	h
+T45	Condition-Unit 699 703	degC
+T46	Condition-Unit 711 712	h
+T47	Condition-Unit 787 791	degC
+T48	Condition-Unit 799 803	degC
+T49	Property-Misc 54 60	spinel
+T50	Amount-Misc 158 180	stoichiometric amounts
+T51	Material-Descriptor 317 333	aqueous solution
+T52	Condition-Misc 350 366	room temperature
+T53	Material-Descriptor 596 601	white
+T54	Synthesis-Apparatus 682 691	autoclave
+T55	Apparatus-Descriptor 666 681	stainless-steel
+R1	Next_Operation Arg1:E1 Arg2:E2	
+R2	Next_Operation Arg1:E2 Arg2:E3	
+R3	Next_Operation Arg1:E3 Arg2:E4	
+R4	Next_Operation Arg1:E4 Arg2:E5	
+R5	Next_Operation Arg1:E5 Arg2:E6	
+R6	Next_Operation Arg1:E6 Arg2:E7	
+R7	Next_Operation Arg1:E7 Arg2:E8	
+R8	Next_Operation Arg1:E8 Arg2:E9	
+R9	Next_Operation Arg1:E9 Arg2:E10	
+R10	Next_Operation Arg1:E10 Arg2:E11	
+R11	Next_Operation Arg1:E11 Arg2:E12	
+R12	Next_Operation Arg1:E12 Arg2:E13	
+R13	Coref_Of Arg1:T17 Arg2:T16	
+R14	Coref_Of Arg1:T19 Arg2:T18	
+R15	Condition_Of Arg1:T52 Arg2:E3	
+R16	Condition_Of Arg1:T44 Arg2:E10	
+R17	Apparatus_Of Arg1:T54 Arg2:E11	
+R18	Condition_Of Arg1:T45 Arg2:E11	
+R19	Condition_Of Arg1:T46 Arg2:E11	
+R20	Condition_Of Arg1:T47 Arg2:E13	
+R21	Condition_Of Arg1:T48 Arg2:E13	
+R22	Property_Of Arg1:T49 Arg2:T14	
+R23	Amount_Of Arg1:T50 Arg2:T16	
+R24	Amount_Of Arg1:T50 Arg2:T18	
+R25	Amount_Of Arg1:T39 Arg2:T20	
+R26	Amount_Of Arg1:T40 Arg2:T20	
+R27	Amount_Of Arg1:T41 Arg2:T21	
+R28	Amount_Of Arg1:T42 Arg2:T22	
+R29	Amount_Of Arg1:T42 Arg2:T21	
+R30	Amount_Of Arg1:T43 Arg2:T22	
+R31	Amount_Of Arg1:T43 Arg2:T21	
+R32	Descriptor_Of Arg1:T51 Arg2:T20	
+R33	Descriptor_Of Arg1:T53 Arg2:T27	
+R34	Descriptor_Of Arg1:T55 Arg2:T54	
+R35	Number_Of Arg1:T30 Arg2:T39	
+R36	Number_Of Arg1:T31 Arg2:T40	
+R37	Number_Of Arg1:T32 Arg2:T41	
+R38	Number_Of Arg1:T33 Arg2:T42	
+R39	Number_Of Arg1:T33 Arg2:T43	
+R40	Number_Of Arg1:T34 Arg2:T44	
+R41	Number_Of Arg1:T35 Arg2:T45	
+R42	Number_Of Arg1:T36 Arg2:T46	
+R43	Number_Of Arg1:T37 Arg2:T47	
+R44	Number_Of Arg1:T38 Arg2:T48	
