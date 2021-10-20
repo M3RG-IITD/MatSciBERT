@@ -3,6 +3,11 @@ A Materials Domain Language Model for Text Mining and Information Extraction
 
 ## Using MatSciBERT
 
+### Installing requirements
+```
+bash install_requirements.sh
+```
+
 ### Importing libraries
 ```
 import torch
@@ -10,7 +15,7 @@ from normalize_text import normalize
 from transformers import AutoModel, AutoTokenizer
 ```
 
-### Loading pretrained model and tokenizer
+### Loading pre-trained model and tokenizer
 ```
 tokenizer = AutoTokenizer.from_pretrained('m3rg-iitd/matscibert')
 model = AutoModel.from_pretrained('m3rg-iitd/matscibert')
@@ -24,11 +29,12 @@ tokenized_sents = tokenizer(norm_sents)
 tokenized_sents = {k: torch.Tensor(v).long() for k, v in tokenized_sents.items()}
 ```
 
-### Obtaining BERT embeddings
+### Obtaining MatSciBERT embeddings
 ```
 with torch.no_grad():
     last_hidden_state = model(**tokenized_sents)[0]
 ```
+
 ## Citing
 
 If you use MatSciBERT in your research, please cite [MatSciBERT: A Materials Domain Language Model for Text Mining and Information Extraction](https://arxiv.org/abs/2109.15290)
