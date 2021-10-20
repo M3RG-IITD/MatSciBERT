@@ -1,5 +1,9 @@
-import os, copy
+import copy
+import os
 from pathlib import Path
+import pickle
+import sys
+sys.path.append('..')
 
 import numpy as np
 from argparse import ArgumentParser
@@ -35,23 +39,26 @@ def ensure_dir(dir_path):
 
 
 parser = ArgumentParser()
-parser.add_argument('--root_dir', required=True, type=str)
 parser.add_argument('--model_name', required=True, choices=['scibert', 'matscibert'], type=str)
-parser.add_argument('--output_dir', required=True, type=str)
+parser.add_argument('--model_save_dir', required=True, type=str)
+parser.add_argument('--preds_save_dir', default=None, type=str)
+parser.add_argument('--cache_dir', default=None, type=str)
 args = parser.parse_args()
-
-root_dir = ensure_dir(args.root_dir)
 
 if args.model_name == 'scibert':
     model_name = 'allenai/scibert_scivocab_uncased'
     to_normalize = False
-else:
-    model_name = os.path.join(root_dir, 'wwm/output_dataset_final/scibert_uncased/checkpoint-49305')
+elif args.model_name == 'matscibert':
+    model_name = 'm3rg-iitd/matscibert'
     to_normalize = True
+else:
+    raise NotImplementedError
 
 model_revision = 'main'
-cache_dir = ensure_dir(os.path.join(root_dir, '.cache'))
-output_dir = ensure_dir(args.output_dir)
+cache_dir = ensure_dir(args.cache_dir) if args.cache_dir else None
+output_dir = ensure_dir(args.model_save_dir)
+preds_save_dir = ensure_dir(args.preds_save_dir) if args.preds_save_dir else None
+
 data_dir = 'datasets/annotated-materials-syntheses'
 
 
@@ -125,12 +132,6 @@ label_list = sorted(list(unique_labels))
 print(label_list)
 tag2id = {tag: id for id, tag in enumerate(label_list)}
 num_labels = len(label_list)
-print(num_labels)
-
-cnt = dict()
-for label in train_y:
-    cnt[label] = cnt.get(label, 0) + 1
-print(cnt)
 
 max_seq_len = 512
 tokenizer_kwargs = {
@@ -150,7 +151,7 @@ def tokenize(text: str):
     return tokenizer.tokenize(text)
 
 
-def my_tokenize(X, y):
+def rc_tokenize(X, y):
     encodings = {'input_ids': [], 'attention_mask': [], 'entity_markers': []}
     for i in range(len(X)):
         text, (s1, e1), (s2, e2), f = X[i]
@@ -195,12 +196,12 @@ def my_tokenize(X, y):
     return encodings, y
 
 
-train_encodings, train_labels = my_tokenize(train_X, train_y)
-val_encodings, val_labels = my_tokenize(val_X, val_y)
-test_encodings, test_labels = my_tokenize(test_X, test_y)
+train_encodings, train_labels = rc_tokenize(train_X, train_y)
+val_encodings, val_labels = rc_tokenize(val_X, val_y)
+test_encodings, test_labels = rc_tokenize(test_X, test_y)
 
 
-class MyDataset(torch.utils.data.Dataset):
+class RC_Dataset(torch.utils.data.Dataset):
     def __init__(self, inp, labels):
         self.inp = inp
         self.labels = labels
@@ -214,9 +215,9 @@ class MyDataset(torch.utils.data.Dataset):
         return len(self.labels)
 
 
-train_dataset = MyDataset(train_encodings, train_labels)
-val_dataset = MyDataset(val_encodings, val_labels)
-test_dataset = MyDataset(test_encodings, test_labels)
+train_dataset = RC_Dataset(train_encodings, train_labels)
+val_dataset = RC_Dataset(val_encodings, val_labels)
+test_dataset = RC_Dataset(test_encodings, test_labels)
 
 config_kwargs = {
     'num_labels': num_labels,
@@ -243,9 +244,9 @@ def compute_metrics(p):
 loss_fn = nn.CrossEntropyLoss()
 
 
-class BERT_RE(nn.Module):
+class BERT_RC(nn.Module):
     def __init__(self, model_name):
-        super(BERT_RE, self).__init__()
+        super(BERT_RC, self).__init__()
         self.encoder = AutoModel.from_pretrained(model_name, from_tf=False, config=copy.copy(config), 
                                                 cache_dir=cache_dir, revision=model_revision,
                                                 use_auth_token=None)
@@ -301,7 +302,7 @@ for lr in [2e-5, 3e-5, 5e-5]:
             seed=SEED
         )
         
-        model = BERT_RE(model_name).to(device)
+        model = BERT_RC(model_name).to(device)
         
         optimizer_grouped_parameters = [
             {'params': [p for n, p in model.named_parameters() if not 'bert' in n], 'lr': 3e-4},
@@ -335,6 +336,15 @@ for lr in [2e-5, 3e-5, 5e-5]:
         print(test_result)
         test_acc.append(test_result[f'eval_{metric_for_best_model}'])
         test_oth.append(test_result[f'eval_{other_metric}'])
+
+        if preds_save_dir:
+            val_preds = trainer.predict(val_dataset).predictions
+            test_preds = trainer.predict(test_dataset).predictions
+
+            for split, preds in zip(['val', 'test'], [val_preds, test_preds]):
+                file_path = os.path.join(preds_save_dir, f'annotated-materials-syntheses/{split}_{args.model_name}_{lr}_{SEED}.pkl')
+                ensure_dir(os.path.dirname(file_path))
+                pickle.dump(preds, open(file_path, 'wb'))
 
     if np.mean(val_acc) > best_val:
         best_val = np.mean(val_acc)
