@@ -1,6 +1,9 @@
 import csv
 import os
 import re
+import sys
+sys.path.append('..')
+
 from normalize_text import normalize
 
 
@@ -8,9 +11,9 @@ def get_sofc_data_split(split_name, data_dir, doc_info, slotting):
     assert split_name in ['train', 'dev', 'test']
     tokens, labels = [], []
     
-    for file in os.listdir(os.path.join(data_dir, 'texts')):
+    for file in sorted(os.listdir(os.path.join(data_dir, 'texts'))):
         
-        doc_name = file[:-4]
+        doc_name = file[3:-4]
         if doc_info[doc_name] != split_name:
             continue
     

@@ -38,23 +38,21 @@ def ensure_dir(dir_path):
 
 
 parser = ArgumentParser()
-parser.add_argument('--root_dir', required=True, type=str)
 parser.add_argument('--model_name', choices=['scibert', 'matscibert'], required=True, type=str)
+parser.add_argument('--model_save_dir', required=True, type=str)
+parser.add_argument('--preds_save_dir', default=None, type=str)
+parser.add_argument('--cache_dir', default=None, type=str)
 parser.add_argument('--architecture', choices=['bert', 'bert-crf', 'bert-bilstm-crf'], required=True, type=str)
 parser.add_argument('--dataset_name', choices=['sofc', 'sofc_slot', 'matscholar'], required=True, type=str)
 parser.add_argument('--fold_num', default=None, type=int)
-parser.add_argument('--output_dir', required=True, type=str)
 parser.add_argument('--hidden_dim', default=300, type=int)
 args = parser.parse_args()
-
-root_dir = ensure_dir(args.root_dir)
 
 if args.model_name == 'scibert':
     model_name = 'allenai/scibert_scivocab_uncased'
     to_normalize = False
 elif args.model_name == 'matscibert':
-    model_name = os.path.join(root_dir, 'wwm/output_dataset_final/scibert_uncased/checkpoint-49305')
-    assert os.path.exists(model_name)
+    model_name = 'm3rg-iitd/matscibert'
     to_normalize = True
 else:
     raise NotImplementedError
@@ -62,8 +60,14 @@ else:
 dataset_name = args.dataset_name
 fold_num = args.fold_num
 model_revision = 'main'
-cache_dir = ensure_dir(os.path.join(root_dir, '.cache'))
-output_dir = ensure_dir(args.output_dir)
+cache_dir = ensure_dir(args.cache_dir) if args.cache_dir else None
+output_dir = ensure_dir(args.model_save_dir)
+preds_save_dir = ensure_dir(args.preds_save_dir) if args.preds_save_dir else None
+if preds_save_dir:
+    preds_save_dir = os.path.join(preds_save_dir, dataset_name)
+    if fold_num:
+        preds_save_dir = os.path.join(preds_save_dir, f'cv_{fold_num}')
+    preds_save_dir = ensure_dir(preds_save_dir)
 
 train_X, train_y, val_X, val_y, test_X, test_y = ner_datasets.get_ner_data(dataset_name, fold=fold_num, norm=to_normalize)
 print(len(train_X), len(val_X), len(test_X))
@@ -77,7 +81,6 @@ if dataset_name == 'sofc_slot':
     id2tag[tag2id['B-experiment_evoking_word']] = 'O'
     id2tag[tag2id['I-experiment_evoking_word']] = 'O'
 num_labels = len(label_list)
-print(num_labels)
 
 cnt = dict()
 for sent in train_y:
@@ -88,8 +91,6 @@ for sent in train_y:
         else: cnt[tag] += 1
 
 eval_labels = sorted([l for l in cnt.keys() if l != 'experiment_evoking_word'])
-print(len(eval_labels))
-
 
 tokenizer_kwargs = {
     'cache_dir': cache_dir,
@@ -145,7 +146,7 @@ val_encodings.pop('offset_mapping')
 test_encodings.pop('offset_mapping')
 
 
-class MyDataset(torch.utils.data.Dataset):
+class NER_Dataset(torch.utils.data.Dataset):
     def __init__(self, inp, labels):
         self.inp = inp
         self.labels = labels
@@ -159,9 +160,9 @@ class MyDataset(torch.utils.data.Dataset):
         return len(self.labels)
 
 
-train_dataset = MyDataset(train_encodings, train_labels)
-val_dataset = MyDataset(val_encodings, val_labels)
-test_dataset = MyDataset(test_encodings, test_labels)
+train_dataset = NER_Dataset(train_encodings, train_labels)
+val_dataset = NER_Dataset(val_encodings, val_labels)
+test_dataset = NER_Dataset(test_encodings, test_labels)
 
 config_kwargs = {
     'num_labels': num_labels,
@@ -300,17 +301,13 @@ for lr in [2e-5, 3e-5, 5e-5]:
         test_acc.append(test_result['eval_' + metric_for_best_model])
         test_oth.append(test_result['eval_' + other_metric])
 
-        val_preds = trainer.predict(val_dataset).predictions
-        test_preds = trainer.predict(test_dataset).predictions
+        if preds_save_dir:
+            val_preds = trainer.predict(val_dataset).predictions
+            test_preds = trainer.predict(test_dataset).predictions
 
-        for split, preds in zip(['val', 'test'], [val_preds, test_preds]):
-            if fold_num:
-                file_path = f'cv_{fold_num}/{split}_{args.model_name}_{arch}_{lr}_{SEED}.pkl'
-            else:
-                file_path = f'{split}_{args.model_name}_{arch}_{lr}_{SEED}.pkl'
-            file_path = os.path.join(root_dir, f'ner/preds/{dataset_name}', file_path)
-            ensure_dir(os.path.dirname(file_path))
-            pickle.dump(preds, open(file_path, 'wb'))
+            for split, preds in zip(['val', 'test'], [val_preds, test_preds]):
+                file_path = os.path.join(preds_save_dir, f'{split}_{args.model_name}_{arch}_{lr}_{SEED}.pkl')
+                pickle.dump(preds, open(file_path, 'wb'))
 
     if np.mean(val_acc) > best_val:
         best_val = np.mean(val_acc)
@@ -329,13 +326,8 @@ print(f'best_test {metric_for_best_model}: {best_test_acc_list}')
 print(f'best_val {other_metric}: {best_val_oth_list}')
 print(f'best_test {other_metric}: {best_test_oth_list}')
 
-idxs = [f'Val {metric_for_best_model}', f'Test {metric_for_best_model}', f'Val {other_metric}', f'Test {other_metric}']
-res = pd.DataFrame([best_val_acc_list, best_test_acc_list, best_val_oth_list, best_test_oth_list], index=idxs)
-
-if fold_num:
-    file_path = os.path.join(root_dir, f'ner/res/{dataset_name}/cv_{fold_num}/{args.model_name}_{arch}.pkl')
-else:
-    file_path = os.path.join(root_dir, f'ner/res/{dataset_name}/{args.model_name}_{arch}.pkl')
-
-ensure_dir(os.path.dirname(file_path))
-pickle.dump(res, open(file_path, 'wb'))
+if preds_save_dir:
+    idxs = [f'Val {metric_for_best_model}', f'Test {metric_for_best_model}', f'Val {other_metric}', f'Test {other_metric}']
+    res = pd.DataFrame([best_val_acc_list, best_test_acc_list, best_val_oth_list, best_test_oth_list], index=idxs)
+    file_path = os.path.join(preds_save_dir, f'res_{args.model_name}_{arch}.pkl')
+    pickle.dump(res, open(file_path, 'wb'))
