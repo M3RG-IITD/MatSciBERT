@@ -1,4 +1,4 @@
-import os, sys
+import os
 from pathlib import Path
 from tqdm import tqdm
 
@@ -30,17 +30,16 @@ def ensure_dir(dir_path):
 
 
 parser = ArgumentParser()
-parser.add_argument('--root_dir', required=True, type=str)
 parser.add_argument('--train_file', required=True, type=str)
 parser.add_argument('--val_file', required=True, type=str)
-parser.add_argument('--output_dir', required=True, type=str)
+parser.add_argument('--model_save_dir', required=True, type=str)
+parser.add_argument('--cache_dir', default=None, type=str)
 args = parser.parse_args()
 
 model_revision = 'main'
-root_dir = ensure_dir(args.root_dir)
 model_name = 'allenai/scibert_scivocab_uncased'
-cache_dir = ensure_dir(os.path.join(root_dir, '.cache'))
-output_dir = ensure_dir(args.output_dir)
+cache_dir = ensure_dir(args.cache_dir) if args.cache_dir else None
+output_dir = ensure_dir(args.model_save_dir)
 
 assert os.path.exists(args.train_file)
 assert os.path.exists(args.val_file)
@@ -68,7 +67,6 @@ max_seq_length = 512
 start_tok = tokenizer.convert_tokens_to_ids('[CLS]')
 sep_tok = tokenizer.convert_tokens_to_ids('[SEP]')
 pad_tok = tokenizer.convert_tokens_to_ids('[PAD]')
-print(start_tok, sep_tok, pad_tok)
 
 
 def full_sent_tokenize(file_name):
@@ -108,7 +106,7 @@ def full_sent_tokenize(file_name):
     return {'input_ids': res, 'attention_mask': attention_mask}
 
 
-class MyDataset(torch.utils.data.Dataset):
+class MSC_Dataset(torch.utils.data.Dataset):
     def __init__(self, inp):
         self.inp = inp
 
@@ -120,8 +118,8 @@ class MyDataset(torch.utils.data.Dataset):
         return len(self.inp['input_ids'])
 
 
-train_dataset = MyDataset(full_sent_tokenize(args.train_file))
-eval_dataset = MyDataset(full_sent_tokenize(args.val_file))
+train_dataset = MSC_Dataset(full_sent_tokenize(args.train_file))
+eval_dataset = MSC_Dataset(full_sent_tokenize(args.val_file))
 
 print(len(train_dataset), len(eval_dataset))
 
@@ -165,8 +163,7 @@ trainer = Trainer(
 )
 
 resume = None if len(os.listdir(output_dir)) == 0 else True
-print('Resume from checkpoint: ', resume)
-train_res = trainer.train(resume_from_checkpoint=True)
+train_res = trainer.train(resume_from_checkpoint=resume)
 print(train_res)
 
 train_output = trainer.evaluate(train_dataset)

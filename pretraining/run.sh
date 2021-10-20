@@ -1,11 +1,11 @@
 #!/bin/sh
 
-root_dir=/home/maths/dual/mt6170499/scratch
-train_file=/home/maths/dual/mt6170499/scratch/wwm/corpus_final/train_150000_corpus.txt
-val_file=/home/maths/dual/mt6170499/scratch/wwm/corpus_final/val_150000_corpus.txt
-train_norm_file=/home/maths/dual/mt6170499/scratch/wwm/corpus_final/train_150000_corpus_norm.txt
-val_norm_file=/home/maths/dual/mt6170499/scratch/wwm/corpus_final/val_150000_corpus_norm.txt
-model_save_dir=/home/maths/dual/mt6170499/scratch/wwm/output_dataset_final/scibert_uncased
+cache_dir=/scratch/maths/dual/mt6170499/.cache
+train_file=/scratch/maths/dual/mt6170499/matscibert/data/train_corpus.txt
+val_file=/scratch/maths/dual/mt6170499/matscibert/data/val_corpus.txt
+train_norm_file=/scratch/maths/dual/mt6170499/matscibert/data/train_corpus_norm.txt
+val_norm_file=/scratch/maths/dual/mt6170499/matscibert/data/val_corpus_norm.txt
+model_save_dir=/scratch/maths/dual/mt6170499/matscibert/model
 
 python -u normalize_corpus.py --train_file $train_file --val_file $val_file --output_train_norm_file $train_norm_file --output_val_norm_file $val_norm_file
-python -u matscibert_pre_train.py --root_dir $root_dir --train_file $train_norm_file --val_file $val_norm_file --output_dir $model_save_dir
+python -u matscibert_pre_train.py --train_file $train_norm_file --val_file $val_norm_file --model_save_dir $model_save_dir --cache_dir $cache_dir

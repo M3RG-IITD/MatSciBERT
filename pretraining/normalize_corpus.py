@@ -1,4 +1,3 @@
-import os
 import random
 from tqdm import tqdm
 from argparse import ArgumentParser
@@ -13,7 +12,7 @@ parser.add_argument('--output_val_norm_file', required=True, type=str)
 args = parser.parse_args()
 
 
-f = open('vocab_mappings.txt')
+f = open('../vocab_mappings.txt')
 mappings = f.read().strip().split('\n')
 f.close()
 
