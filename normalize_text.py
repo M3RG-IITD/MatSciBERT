@@ -1,7 +1,9 @@
 import os
+import pathlib
 from tokenizers.normalizers import BertNormalizer
 
-f = open('../pretraining/vocab_mappings.txt', 'r')
+
+f = open(os.path.join(pathlib.Path(__file__).parent.resolve(), 'vocab_mappings.txt'), 'r')
 mappings = f.read().strip().split('\n')
 f.close()
 
