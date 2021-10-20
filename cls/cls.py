@@ -1,6 +1,8 @@
 import os
 from pathlib import Path
 import pickle
+import sys
+sys.path.append('..')
 
 from datasets import load_dataset
 import pandas as pd
@@ -36,26 +38,25 @@ def ensure_dir(dir_path):
 
 
 parser = ArgumentParser()
-parser.add_argument('--root_dir', required=True, type=str)
 parser.add_argument('--model_name', choices=['scibert', 'matscibert'], required=True, type=str)
-parser.add_argument('--output_dir', required=True, type=str)
+parser.add_argument('--model_save_dir', required=True, type=str)
+parser.add_argument('--preds_save_dir', default=None, type=str)
+parser.add_argument('--cache_dir', default=None, type=str)
 args = parser.parse_args()
-
-root_dir = ensure_dir(args.root_dir)
 
 if args.model_name == 'scibert':
     model_name = 'allenai/scibert_scivocab_uncased'
     to_normalize = False
 elif args.model_name == 'matscibert':
-    model_name = os.path.join(root_dir, 'wwm/output_dataset_final/scibert_uncased/checkpoint-49305')
-    assert os.path.exists(model_name)
+    model_name = 'm3rg-iitd/matscibert'
     to_normalize = True
 else:
     raise NotImplementedError
 
 model_revision = 'main'
-cache_dir = ensure_dir(os.path.join(root_dir, '.cache'))
-output_dir = ensure_dir(args.output_dir)
+cache_dir = ensure_dir(args.cache_dir) if args.cache_dir else None
+output_dir = ensure_dir(args.model_save_dir)
+preds_save_dir = ensure_dir(args.preds_save_dir) if args.preds_save_dir else None
 
 dataset_dir = 'datasets/glass_non_glass'
 data_files = {split: os.path.join(dataset_dir, f'{split}.csv') for split in ['train', 'val', 'test']}
@@ -181,13 +182,14 @@ for lr in [2e-5, 3e-5, 5e-5]:
         val_acc.append(val_result['eval_fscore'])
         test_acc.append(test_result['eval_fscore'])
 
-        val_preds = trainer.predict(val_dataset).predictions
-        test_preds = trainer.predict(test_dataset).predictions
+        if preds_save_dir:
+            val_preds = trainer.predict(val_dataset).predictions
+            test_preds = trainer.predict(test_dataset).predictions
 
-        for split, preds in zip(['val', 'test'], [val_preds, test_preds]):
-            file_path = os.path.join(root_dir, f'cls/preds/glass_non_glass/{split}_{args.model_name}_{lr}_{SEED}.pkl')
-            ensure_dir(os.path.dirname(file_path))
-            pickle.dump(preds, open(file_path, 'wb'))
+            for split, preds in zip(['val', 'test'], [val_preds, test_preds]):
+                file_path = os.path.join(preds_save_dir, f'glass_non_glass/{split}_{args.model_name}_{lr}_{SEED}.pkl')
+                ensure_dir(os.path.dirname(file_path))
+                pickle.dump(preds, open(file_path, 'wb'))
     
     if np.mean(val_acc) > best_val:
         best_val = np.mean(val_acc)
