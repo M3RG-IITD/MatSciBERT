@@ -111,6 +111,8 @@ def compute_metrics(p):
     }
 
 
+metric_for_best_model = 'accuracy'
+
 best_lr = None
 best_val = 0
 best_val_acc_list = None
@@ -136,7 +138,7 @@ for lr in [2e-5, 3e-5, 5e-5]:
             per_device_eval_batch_size=16,
             evaluation_strategy='epoch',
             load_best_model_at_end=True,
-            metric_for_best_model='fscore',
+            metric_for_best_model=metric_for_best_model,
             greater_is_better=True,
             warmup_ratio=0.1,
             learning_rate=lr,
@@ -179,8 +181,8 @@ for lr in [2e-5, 3e-5, 5e-5]:
         test_result = trainer.evaluate(test_dataset)
         print(test_result)
         
-        val_acc.append(val_result['eval_fscore'])
-        test_acc.append(test_result['eval_fscore'])
+        val_acc.append(val_result[f'eval_{metric_for_best_model}'])
+        test_acc.append(test_result[f'eval_{metric_for_best_model}'])
 
         if preds_save_dir:
             val_preds = trainer.predict(val_dataset).predictions
