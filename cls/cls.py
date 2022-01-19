@@ -24,6 +24,7 @@ from transformers import (
     AdamW,
 )
 
+
 if torch.cuda.is_available():
     device = torch.device('cuda')
 else:
@@ -38,10 +39,13 @@ def ensure_dir(dir_path):
 
 
 parser = ArgumentParser()
-parser.add_argument('--model_name', choices=['scibert', 'matscibert'], required=True, type=str)
+parser.add_argument('--model_name', choices=['scibert', 'matscibert', 'bert'], required=True, type=str)
 parser.add_argument('--model_save_dir', required=True, type=str)
 parser.add_argument('--preds_save_dir', default=None, type=str)
 parser.add_argument('--cache_dir', default=None, type=str)
+parser.add_argument('--seeds', nargs='+', default=None, type=int)
+parser.add_argument('--lm_lrs', nargs='+', default=None, type=float)
+parser.add_argument('--non_lm_lr', default=3e-4, type=float)
 args = parser.parse_args()
 
 if args.model_name == 'scibert':
@@ -50,6 +54,9 @@ if args.model_name == 'scibert':
 elif args.model_name == 'matscibert':
     model_name = 'm3rg-iitd/matscibert'
     to_normalize = True
+elif args.model_name == 'bert':
+    model_name = 'bert-base-uncased'
+    to_normalize = False
 else:
     raise NotImplementedError
 
@@ -57,6 +64,11 @@ model_revision = 'main'
 cache_dir = ensure_dir(args.cache_dir) if args.cache_dir else None
 output_dir = ensure_dir(args.model_save_dir)
 preds_save_dir = ensure_dir(args.preds_save_dir) if args.preds_save_dir else None
+
+if args.seeds is None:
+    args.seeds = [0, 1, 2]
+if args.lm_lrs is None:
+    args.lm_lrs = [2e-5, 3e-5, 5e-5]
 
 dataset_dir = 'datasets/glass_non_glass'
 data_files = {split: os.path.join(dataset_dir, f'{split}.csv') for split in ['train', 'val', 'test']}
@@ -119,12 +131,13 @@ best_val_acc_list = None
 best_test_acc_list = None
 
 
-for lr in [2e-5, 3e-5, 5e-5]:
+for lr in args.lm_lrs:
 
     print(f'lr: {lr}')
     val_acc, test_acc = [], []
     
-    for SEED in [0, 1, 2]:
+    for SEED in args.seeds:
+        
         print(f'SEED: {SEED}')
         
         torch.set_deterministic(True)
@@ -140,6 +153,7 @@ for lr in [2e-5, 3e-5, 5e-5]:
             load_best_model_at_end=True,
             metric_for_best_model=metric_for_best_model,
             greater_is_better=True,
+            save_total_limit=2,
             warmup_ratio=0.1,
             learning_rate=lr,
             seed=SEED
@@ -155,7 +169,7 @@ for lr in [2e-5, 3e-5, 5e-5]:
         )
 
         optimizer_grouped_parameters = [
-            {'params': [p for n, p in model.named_parameters() if not 'bert' in n], 'lr': 3e-4},
+            {'params': [p for n, p in model.named_parameters() if not 'bert' in n], 'lr': args.non_lm_lr},
             {'params': [p for n, p in model.named_parameters() if 'bert' in n], 'lr': lr}
         ]
         optimizer_kwargs = {
