@@ -1,4 +1,9 @@
+ConfigArgParse==1.5.3
 datasets==1.7.0
+gensim==4.1.2
+nltk==3.6.7
 pytorch-crf==0.7.2
+spacy==3.2.1
 tokenizers==0.10.1
+torchtext==0.8.0
 transformers==4.6.1
