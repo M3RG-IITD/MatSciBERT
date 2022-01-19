@@ -38,10 +38,13 @@ def ensure_dir(dir_path):
 
 
 parser = ArgumentParser()
-parser.add_argument('--model_name', choices=['scibert', 'matscibert'], required=True, type=str)
+parser.add_argument('--model_name', choices=['scibert', 'matscibert', 'bert'], required=True, type=str)
 parser.add_argument('--model_save_dir', required=True, type=str)
 parser.add_argument('--preds_save_dir', default=None, type=str)
 parser.add_argument('--cache_dir', default=None, type=str)
+parser.add_argument('--seeds', nargs='+', default=None, type=int)
+parser.add_argument('--lm_lrs', nargs='+', default=None, type=float)
+parser.add_argument('--non_lm_lr', default=3e-4, type=float)
 parser.add_argument('--architecture', choices=['bert', 'bert-crf', 'bert-bilstm-crf'], required=True, type=str)
 parser.add_argument('--dataset_name', choices=['sofc', 'sofc_slot', 'matscholar'], required=True, type=str)
 parser.add_argument('--fold_num', default=None, type=int)
@@ -54,6 +57,9 @@ if args.model_name == 'scibert':
 elif args.model_name == 'matscibert':
     model_name = 'm3rg-iitd/matscibert'
     to_normalize = True
+elif args.model_name == 'bert':
+    model_name = 'bert-base-uncased'
+    to_normalize = False
 else:
     raise NotImplementedError
 
@@ -68,6 +74,11 @@ if preds_save_dir:
     if fold_num:
         preds_save_dir = os.path.join(preds_save_dir, f'cv_{fold_num}')
     preds_save_dir = ensure_dir(preds_save_dir)
+
+if args.seeds is None:
+    args.seeds = [0, 1, 2]
+if args.lm_lrs is None:
+    args.lm_lrs = [2e-5, 3e-5, 5e-5]
 
 train_X, train_y, val_X, val_y, test_X, test_y = ner_datasets.get_ner_data(dataset_name, fold=fold_num, norm=to_normalize)
 print(len(train_X), len(val_X), len(test_X))
@@ -228,13 +239,14 @@ else:
 arch = args.architecture if args.architecture != 'bert-bilstm-crf' else f'bert-bilstm-crf-{args.hidden_dim}'
 
 
-for lr in [2e-5, 3e-5, 5e-5]:
+for lr in args.lm_lrs:
     
     print(f'lr: {lr}')
     val_acc, val_oth = [], []
     test_acc, test_oth = [], []
     
-    for SEED in [0, 1, 2]:
+    for SEED in args.seeds:
+        
         print(f'SEED: {SEED}')
 
         torch.set_deterministic(True)
@@ -250,6 +262,7 @@ for lr in [2e-5, 3e-5, 5e-5]:
             load_best_model_at_end=True,
             metric_for_best_model=metric_for_best_model,
             greater_is_better=True,
+            save_total_limit=2,
             warmup_ratio=0.1,
             learning_rate=lr,
             seed=SEED
@@ -269,7 +282,7 @@ for lr in [2e-5, 3e-5, 5e-5]:
         model = model.to(device)
         
         optimizer_grouped_parameters = [
-            {'params': [p for n, p in model.named_parameters() if not 'bert' in n], 'lr': 3e-4},
+            {'params': [p for n, p in model.named_parameters() if not 'bert' in n], 'lr': args.non_lm_lr},
             {'params': [p for n, p in model.named_parameters() if 'bert' in n], 'lr': lr}
         ]
         optimizer_kwargs = {
