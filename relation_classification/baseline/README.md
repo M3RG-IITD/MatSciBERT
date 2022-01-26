@@ -4,12 +4,12 @@
 ```
 python data/reader_create_data.py
 python data/reader.py
-python preprocess.py
+python preprocess.py -lower
 ```
 
 ## Train
 ```bash
-python train.py
+python -W ignore train.py -seed 0 -save_dir out_0/ -save_dir_cp out_cp_0/
 ```
 
 ## Reference
