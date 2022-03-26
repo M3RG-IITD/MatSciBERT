@@ -36,7 +36,7 @@ def get_args():
                         help='whether to keep the uppercase')
     parser.add_argument('-sent_max_len', default=550, type=int,
                         help='the maximum number of words allowed in a sentence')
-    parser.add_argument('-data_dir', default='data/', type=str,
+    parser.add_argument('-data_dir', default='../datasets/annotated-materials-syntheses', type=str,
                         help='path to load data from')
     args = parser.parse_args()
     return args
@@ -47,9 +47,8 @@ def main():
     data_dir = args.data_dir
 
     for typ in 'train valid test'.split():
-        json_fname = os.path.join(data_dir, '{}.json'.format(typ))
-        csv_fname = os.path.join(data_dir, '{}.csv'.format(typ))
-
+        json_fname = os.path.join(data_dir, f'{typ}.json')
+        csv_fname = os.path.join(data_dir, f'{typ}.csv')
         json2csv(json_fname, csv_fname, args)
 
 

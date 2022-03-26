@@ -6,7 +6,39 @@ import random
 
 sys.path.append(os.path.abspath('.'))
 
-from utils import fwrite, shell, NLP
+
+def fwrite(new_doc, path, mode='w', no_overwrite=False):
+    if not path:
+        print("[Info] Path does not exist in fwrite():", str(path))
+        return
+    if no_overwrite and os.path.isfile(path):
+        print("[Error] pls choose whether to continue, as file already exists:",
+              path)
+        import pdb
+        pdb.set_trace()
+        return
+    with open(path, mode) as f:
+        f.write(new_doc)
+
+
+class NLP:
+    def __init__(self):
+        import spacy
+
+        self.nlp = spacy.load('en_core_web_sm', disable=['ner', 'parser', 'tagger'])
+        self.nlp.add_pipe(self.nlp.create_pipe('sentencizer'))
+
+    def word_tokenize(self, text, lower=False):  # create a tokenizer function
+        if text is None: return text
+        text = ' '.join(text.split())
+        if lower: text = text.lower()
+        toks = [tok.text for tok in self.nlp.tokenizer(text)]
+        return ' '.join(toks)
+
+    def sent_tokenize(self, text):
+        doc = self.nlp(text)
+        sentences = [sent.string.strip() for sent in doc.sents]
+        return sentences
 
 
 def load_data(path):
@@ -58,15 +90,15 @@ def save_to_json(data, file):
 def main():
 
     data = {}
-    data_dir = 'data/'
+    data_dir = '../datasets/annotated-materials-syntheses'
 
     for split in ['train', 'valid', 'test']:
         f_name = split if split != 'valid' else 'dev'
-        raw_fname = os.path.join(data_dir, 'raw', f_name + '.txt')
+        raw_fname = os.path.join(data_dir, f'{f_name}.txt')
         data[split] = load_data(raw_fname)
 
     for key, value in data.items():
-        json_fname = os.path.join(data_dir, '{}.json'.format(key))
+        json_fname = os.path.join(data_dir, f'{key}.json')
         save_to_json(value, json_fname)
 
 

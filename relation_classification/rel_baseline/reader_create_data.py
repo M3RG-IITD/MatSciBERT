@@ -75,16 +75,9 @@ def get_data_of_split(split_name):
     return all_data
 
 
-def ensure_dir(dir_path):
-    Path(dir_path).mkdir(parents=True, exist_ok=True)
-    return dir_path
-
-
-Path('data/raw').mkdir(parents=True, exist_ok=True)
-
 splits = ['train', 'dev', 'test']
 for split in splits:
     data = get_data_of_split(split)
-    f = open(f'data/raw/{split}.txt', 'w')
+    f = open(os.path.join(data_dir, f'{split}.txt'), 'w')
     f.write(data)
     f.close()
