@@ -6,6 +6,7 @@ The code requires the following dependencies to run can be installed using the `
 ```bash
 conda env create --file environment.yaml
 conda activate torch1.4
+python -m spacy download en_core_web_sm
 ```
 
 ## Dataloading
