@@ -1,6 +1,5 @@
 
 # MatSciBERT 
-<img src="https://github.com/M3RG-IITD/MatSciBERT/blob/main/logo.png" width="150" height="150">
 
 A Materials Domain Language Model for Text Mining and Information Extraction
 
