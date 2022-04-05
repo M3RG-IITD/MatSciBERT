@@ -1,8 +1,8 @@
 #!/bin/sh
 
-model_save_dir=/scratch/maths/dual/mt6170499/ner/model
-preds_save_dir=/scratch/maths/dual/mt6170499/ner/preds
-cache_dir=/scratch/maths/dual/mt6170499/.cache
+model_save_dir=model/
+preds_save_dir=preds/
+cache_dir=../.cache/
 
 for model_name in matscibert scibert bert; do
     for arch in bert bert-crf bert-bilstm-crf; do
