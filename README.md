@@ -55,4 +55,4 @@ If you use MatSciBERT in your research, please cite [MatSciBERT: A Materials Dom
   keywords = {Computer Science - Computation and Language,Condensed Matter - Materials Science}}
 }
 ```
-### Finetuned models for Named entity recognition, Abstract classification, and Relation classification are available on  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6413296.svg)](https://doi.org/10.5281/zenodo.6413296)
+##### Fine-tuned models for Named entity recognition, Abstract classification, and Relation classification with the codes of this repository are available on  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6413296.svg)](https://doi.org/10.5281/zenodo.6413296)
