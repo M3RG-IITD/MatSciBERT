@@ -39,7 +39,7 @@ with torch.no_grad():
 
 ## Citing
 
-If you use MatSciBERT in your research, please cite [MatSciBERT: A materials domain language model for text mining and information extraction](https://rdcu.be/cMAp5)
+If you use MatSciBERT in your research, please cite [MatSciBERT: A materials domain language model for text mining and information extraction](https://www.nature.com/articles/s41524-022-00784-w)
 ```
 @article{gupta_matscibert_2022,
   title = {{{MatSciBERT}}: {{A}} Materials Domain Language Model for Text Mining and Information Extraction},
