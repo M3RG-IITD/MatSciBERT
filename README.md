@@ -42,16 +42,20 @@ with torch.no_grad():
 If you use MatSciBERT in your research, please cite [MatSciBERT: A materials domain language model for text mining and information extraction](https://www.nature.com/articles/s41524-022-00784-w)
 ```
 @article{gupta_matscibert_2022,
-  title = "{MatSciBERT}: A Materials Domain Language Model for Text Mining and Information Extraction",
-  author = "Gupta, Tanishq and Zaki, Mohd and Krishnan, N. M. Anoop and Mausam",
-  year = "2022",
-  month = may,
+  title   = "{MatSciBERT}: A Materials Domain Language Model for Text Mining and Information Extraction",
+  author  = "Gupta, Tanishq and 
+            Zaki, Mohd and 
+            Krishnan, N. M. Anoop and 
+            Mausam",
+  year    = "2022",
+  month   = may,
   journal = "npj Computational Materials",
-  volume = "8",
-  number = "1",
-  pages = "102",
-  issn = "2057-3960",
-  url = "https://www.nature.com/articles/s41524-022-00784-w",
-  doi = "10.1038/s41524-022-00784-w"}
+  volume  = "8",
+  number  = "1",
+  pages   = "102",
+  issn    = "2057-3960",
+  url     = "https://www.nature.com/articles/s41524-022-00784-w",
+  doi     = "10.1038/s41524-022-00784-w"
+  }
 ```
 ##### Fine-tuned models for Named entity recognition, Abstract classification, and Relation classification with the codes of this repository are available on  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6413296.svg)](https://doi.org/10.5281/zenodo.6413296)
