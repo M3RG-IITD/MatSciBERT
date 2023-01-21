@@ -141,3 +141,16 @@ def get_ner_data(data_name, fold=None, norm=False):
             norm_split.append(normalize('\n'.join(s)).split('\n'))
         norm_data.append(norm_split)
     return norm_data
+
+class MyDataset(torch.utils.data.Dataset):
+    def __init__(self, inp, labels):
+        self.inp = inp
+        self.labels = labels
+
+    def __getitem__(self, idx):
+        item = {key: torch.tensor(val[idx]) for key, val in self.inp.items()}
+        item['labels'] = torch.tensor(self.labels[idx])
+        return item
+
+    def __len__(self):
+        return len(self.labels)
